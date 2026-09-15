@@ -1,0 +1,28 @@
+{
+  "captured_at_utc": "2026-09-15T21:07:00Z",
+  "metric": "follower_demographics",
+  "period": "lifetime",
+  "timeframe": "this_month",
+  "country": {
+    "US": 187, "CA": 11, "IN": 2, "MX": 2, "FR": 2, "AU": 2,
+    "DE": 1, "BE": 1, "UZ": 1, "CL": 1, "UA": 1, "ES": 1,
+    "PA": 1, "GY": 1, "TH": 1, "PL": 1, "RO": 1
+  },
+  "age": {
+    "13-17": 16, "18-24": 34, "25-34": 57, "35-44": 54,
+    "45-54": 35, "55-64": 14, "65+": 7
+  },
+  "gender": { "M": 163, "F": 17, "U": 37 },
+  "top_cities": {
+    "Syracuse, Utah": 3,
+    "Gretna, Nebraska": 2, "Knowlton, New Jersey": 2, "East Flat Rock, North Carolina": 2,
+    "Los Angeles, California": 2, "Fort Collins, Colorado": 2, "Cheyenne, Wyoming": 2,
+    "F. E. Warren Air Force Base, Wyoming": 2, "Bristol, Connecticut": 2,
+    "_note": "45 cities reported; all others have exactly 1 follower. Maximally dispersed, small-town/rural US skew."
+  },
+  "derived": {
+    "us_share_pct": 87.0,
+    "male_share_pct": 75.8,
+    "age_25_44_share_pct": 51.2
+  }
+}

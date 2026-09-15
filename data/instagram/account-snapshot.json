@@ -1,0 +1,29 @@
+{
+  "captured_at_utc": "2026-09-15T21:07:00Z",
+  "source": "Instagram Graph API v21.0 via Composio (connection instagram_metic-mutule)",
+  "account": {
+    "username": "elcoyotediesel",
+    "display_name": "Jake Dalton",
+    "account_type": "MEDIA_CREATOR",
+    "ig_user_id": "17841415745423249",
+    "app_scoped_id": "28260235826936292",
+    "followers_count": 215,
+    "follows_count": 5,
+    "media_count_profile": 53,
+    "media_count_api_retrievable": 38
+  },
+  "state": {
+    "active_stories": 0,
+    "publishing_quota_used": 0,
+    "publishing_quota_total": 100,
+    "publishing_quota_window_seconds": 86400,
+    "profile_links_taps_30d": 0
+  },
+  "coverage_caveats": [
+    "15 of 53 profile posts are not retrievable through the Graph API (likely predate the Creator-account conversion).",
+    "Media insights are limited to posts published within the last 2 years.",
+    "Account-level metrics (views, profile_views, accounts_engaged, total_interactions, likes, comments, shares, saves) were SILENTLY OMITTED by Meta for this account size. They are unavailable, NOT zero. Per-post data was used to reconstruct them.",
+    "follows_and_unfollows returned no total_value; unavailable at this account size.",
+    "media-level 'reposts' metric is rejected by the API (400). Do not request it."
+  ]
+}
