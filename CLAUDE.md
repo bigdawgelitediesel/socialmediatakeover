@@ -19,6 +19,12 @@ ISSPRO, S&B, McNeil and Tire Wheel Experts are all light-duty pickup brands.
 in diesel while making him distinct from every other pickup creator, and it supplies
 authority the pickup guys don't have. Do not make Class 8 the backbone.
 
+**His 6.7 build — get these right, he has corrected them before:**
+- He **disabled the CP4 and installed a FASS system.** He did **NOT** do a CP3 or DCR
+  conversion. Do not write scripts that say otherwise.
+- FASS is an existing brand relationship, so this is also a sponsor-adjacent story he can
+  tell honestly.
+
 **Gear: DJI Osmo Pocket 3.** See `playbook/01-gear-and-shooting.md`. ActiveTrack 6.0 is
 what makes solo filming possible; 0.2 m minimum focus is the gotcha when holding parts up.
 

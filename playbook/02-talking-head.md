@@ -236,7 +236,7 @@ reason. **That is what this structure manufactures on purpose.**
 Three videos sitting in that one thread:
 - *"A guy told me there's zero reason to upgrade a lift pump under 750hp. He's not wrong.
   Here's why I did it anyway."*
-- *"CP4 vs CP3 — why I'm spending money on a pump that isn't broken yet."*
+- *"I didn't swap the CP4. I disabled it and put a FASS on it. Here's why."*
 - *"What EGTs are you actually running? I'll go first."* ← the "I need your help" pattern
 
 Claim → the number that disproves it → what to do instead. State the common belief *fairly*
