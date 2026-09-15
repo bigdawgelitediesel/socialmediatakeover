@@ -20,6 +20,17 @@ Captured **2026-09-15** from the Instagram Graph API (v21.0) through the Composi
 `avg_watch_ms` (reels only; 0 for static), `caption_summary`,
 **`skip_rate_pct`** (reels only — % who skipped within the first 3 seconds).
 
+## Reading OTHER accounts (added 2026-09-15)
+
+`instagram.com` **profile** URLs are not fetchable — the crawler times out. But individual
+**`/reel/<id>/` and `/p/<id>/` permalinks ARE fetchable** via
+`COMPOSIO_SEARCH_FETCH_URL_CONTENT`, returning the full caption, hashtags, comment text and
+like counts.
+
+Pair it with `WebSearch` using `site:instagram.com/reel <terms>` — Google indexes reel pages
+as `Handle on Instagram: "<caption opening>"`, so search alone surfaces competitor hooks, and
+snippets return follower counts the profile page won't give up.
+
 ## Refreshing this data
 
 Composio tool slugs used, all via `COMPOSIO_MULTI_EXECUTE_TOOL`:
