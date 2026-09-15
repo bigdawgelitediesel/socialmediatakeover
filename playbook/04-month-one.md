@@ -29,24 +29,19 @@ The month has an arc. You are not repeating week one four times.
 
 ---
 
-# ⚡ START TODAY — Tue Sep 15
-
-**Do not wait for Monday.** Six dark days waiting for a clean start is the exact failure
-mode that has already cost this account twice.
+# START — Wed Sep 16
 
 | When | Do this |
 |---|---|
-| **Today, at work** | Shoot **ONE** video: the Counter Warning. Part in hand, 3 takes, 10 minutes. Nothing else. |
-| **Today, 4–7pm** | **Post it.** Not tomorrow. Today. |
-| **Tonight, after dinner** | The full 75-minute batch: the other five, plus 10 minutes of b-roll. |
-| **Wed 16 – Sat 19** | Post one a day from the batch. |
-| **Sun 20** | Batch week 2. |
-| **Mon 21** | Week 2 starts on the normal spine. |
+| **Tonight (Tue)** | The 75-minute batch. Film all six, three locations, plus 10 minutes of b-roll. |
+| **Wed 16, 4–7pm** | Post #1. |
+| **Thu 17 – Sun 20** | One a day from the batch. |
+| **Mon 21** | Week 2 on the normal spine. |
 
-**Today's only job is one video and one post.** If tonight's batch doesn't happen, you're
-still not dark — you shipped. That's the whole point of starting on a Tuesday.
+Filming tonight means Wednesday's post is already done before Wednesday starts. That's the
+whole point of batching — the day you post and the day you film are never the same day.
 
-### Today's video, in full
+### First video, in full
 
 **Hook, frame 1, part already in your hand, no greeting:**
 > "This part is `[$__]`. Not replacing it is `[$____]`."
@@ -70,29 +65,29 @@ still not dark — you shipped. That's the whole point of starting on a Tuesday.
 **Pick the part by frequency, not interest.** Whatever you reordered most this month. The
 frequency *is* the story.
 
-**Before you post it:** Settings → Account → Account Status. 30 seconds.
+**Before the first post:** Settings → Account → Account Status. 30 seconds.
 
 ---
 
-# WEEK 1 — ESTABLISH  ·  Tue Sep 15 – Sat Sep 19
+# WEEK 1 — ESTABLISH  ·  Wed Sep 16 – Mon Sep 21
 
 Goal: five or six posts shipped and a baseline. **Do not judge performance this week.**
 You're buying data, not results.
 
 | # | Day | Video | Hook |
 |---|---|---|---|
-| 1 | **Tue 15** | Counter Warning | *"This part is `[$__]`. Not replacing it is `[$____]`."* |
-| 2 | Wed 16 | Showing | *"Here's what that `[$__]` part looks like going in."* |
-| 3 | Thu 17 | **The Receipt** | *"A guy told me there's zero reason to upgrade a lift pump under 750 horse."* |
-| 4 | Fri 18 | CHIEF Ep. 1 | *"This took four hours and I'd do it again."* |
-| 5 | Sat 19 | Motivational | *"Your truck doesn't care that you're tired. Neither does Monday."* |
-| 6 | Sun 20 | I Need Your Help | *"What EGTs are you actually running? I'll go first."* |
+| 1 | **Wed 16** | Counter Warning | *"This part is `[$__]`. Not replacing it is `[$____]`."* |
+| 2 | Thu 17 | Showing | *"Here's what that `[$__]` part looks like going in."* |
+| 3 | Fri 18 | **The Receipt** | *"A guy told me there's zero reason to upgrade a lift pump under 750 horse."* |
+| 4 | Sat 19 | CHIEF Ep. 1 | *"This took four hours and I'd do it again."* |
+| 5 | Sun 20 | Motivational | *"Your truck doesn't care that you're tired. Neither does Monday."* |
+| 6 | Mon 21 | I Need Your Help | *"What EGTs are you actually running? I'll go first."* |
 
 Full beat-by-beat for all six is in `03-week-one.md`.
 
 ---
 
-# WEEK 2 — CREDENTIAL  ·  Mon Sep 21 – Sat Sep 26
+# WEEK 2 — CREDENTIAL  ·  Tue Sep 22 – Sun Sep 27
 
 Goal: show them you're not another guy with a truck. **This is the week the semi counter
 earns its keep.**
