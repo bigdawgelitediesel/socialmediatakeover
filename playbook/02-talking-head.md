@@ -216,6 +216,29 @@ removal: **15s ≈ 40 words · 20s ≈ 53 · 30s ≈ 80 · 45s ≈ 120.**
 **Why it sends:** the viewer immediately knows a guy with that truck.
 
 ### 2. THE RECEIPT — contrarian. 20–30s.
+
+**This already happened to you once, by accident.** On the FASS post — your *worst*-hook
+video at 59% skip rate — a real argument broke out:
+
+> "There is absolutely zero reason to upgrade the lift pump on a 6.7 unless you're going
+> over 750 horsepower."
+>
+> "More fuel is always better, diesel cools these things man. I got a 6.7 Cummins, 100 overs
+> and a fast 265, truck has 380 degree EGTs going 80."
+>
+> **Jake:** "My plan is to eventually go for greater horsepower. Also I have the CP4 pump,
+> so disabling that creates a better insurance policy without taking the engine apart yet."
+
+That is the single most valuable exchange in the account's comment history. Nobody was
+baited — someone disagreed with a real technical decision and Jake defended it with a real
+reason. **That is what this structure manufactures on purpose.**
+
+Three videos sitting in that one thread:
+- *"A guy told me there's zero reason to upgrade a lift pump under 750hp. He's not wrong.
+  Here's why I did it anyway."*
+- *"CP4 vs CP3 — why I'm spending money on a pump that isn't broken yet."*
+- *"What EGTs are you actually running? I'll go first."* ← the "I need your help" pattern
+
 Claim → the number that disproves it → what to do instead. State the common belief *fairly*
 — fairness is what stops the pile-on. Close with "Argue with me. I'll answer every one."
 **Why it sends:** contrarian takes get forwarded *to be argued with*. This is the legitimate
