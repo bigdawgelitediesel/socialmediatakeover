@@ -1,8 +1,9 @@
 # socialmediatakeover
 
 Growth work for **@elcoyotediesel** ("Jake Dalton") — a diesel-truck creator account
-documenting the **"Chief"** F350 build. Jake also owns/runs **Elite Diesel Service**, a
-diesel repair shop in Wyoming.
+documenting the **"Chief"** F350 build. Jake is the **PARTS MANAGER** at **Elite Diesel
+Service**, a diesel shop in Wyoming. He is **not** the mechanic — but he has access to the
+shop and the vehicles.
 
 ## ⚠️ Read these before any strategy, content, or analytics work
 
@@ -13,13 +14,13 @@ diesel repair shop in Wyoming.
 
 ## THE SINGLE MOST IMPORTANT CONSTRAINT
 
-**Jake is a one-man show.** He runs the shop *and* films *and* edits *and* posts. There is
-no camera operator, no editor, no assistant. **Any plan that assumes a second person is
+**Jake is a one-man show.** He works a full day *and* films *and* edits *and* posts. No
+camera operator, no editor, no assistant. **Any plan that assumes a second person is
 worthless.** Judge every recommendation by "can one guy who's already working a full day
 actually do this?"
 
-This is why SHOP content is the answer and not just a good idea: it is the only pillar
-whose filming cost is ~zero, because he is already standing there doing the work.
+**He is the PARTS MANAGER, not the mechanic.** Do not write content that requires him to
+turn wrenches on camera. This is an advantage, not a limitation — see below.
 
 ## Account facts (captured 2026-09-15)
 
@@ -67,9 +68,22 @@ Small but precisely on-target for diesel. **Best posting window: 16:00–19:00.*
 
 ## Strategy in one line
 
-**SHOP content builds the audience → the audience then follows the Chief build.**
-On YouTube the diesel-shop lane is fully occupied (Dave's 1M, Deboss 1M, South Main 950K).
-**On Instagram it is empty.** Jake owns a shop and is already on Instagram. That's the gap.
+**PARTS-COUNTER content builds the audience → the audience then follows the Chief build.**
+
+Every successful diesel channel is a **mechanic** — Dave's (1M), Deboss (1M), South Main
+(950K), Rainman Ray (663K). That lane is saturated on YouTube and empty on Instagram.
+**The parts-counter lane is empty on both.**
+
+Jake knows what the mechanics don't: **what actually fails, how often, and what it really
+costs** — because he orders the replacements. That is proprietary knowledge no other
+creator in this niche has, and it is the differentiator.
+
+Content only he can make: "the #1 part I order for 6.7s and why it fails" · real prices,
+OEM vs aftermarket · **"don't buy this"** (he sees the return rate — highly shareable and
+credible only from him) · "what I'd actually put on my own truck" · unboxings, which are
+native to his actual job.
+
+He still gets shop and vehicle access for B-roll. He narrates from the counter, not the bay.
 
 ## Hard-won working notes — do not relearn these
 

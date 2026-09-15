@@ -42,14 +42,31 @@ means to me." Those are different videos about the same part.
 
 ## The five content pillars, rewritten
 
-### 1. SHOP (new — the biggest untapped asset)
-Jake owns Elite Diesel Service. This pillar does not exist yet and should become the
-backbone.
+### 1. PARTS COUNTER (new — the biggest untapped asset)
+Jake is the **parts manager** at Elite Diesel Service — not the mechanic. This pillar does
+not exist yet and should become the backbone.
 
-**Why:** on YouTube the diesel-shop lane is fully occupied — Dave's Auto Center (1M),
-Deboss Garage (1M), South Main Auto (950K), Rainman Ray (663K). **On Instagram it is
-empty**; the diesel space there is repost aggregators and brand accounts. Westen Champlin
-won SEMA Content Creator of the Year 2025 for filming the work his team was already doing.
+**Every diesel creator is a mechanic. Nobody is the parts guy.** Jake knows what the
+wrench-turners don't: what actually fails, how often, and what it really costs, because he
+orders the replacements. That is proprietary knowledge, and it is the whole differentiator.
+
+**Formats only he can make:**
+- "The #1 thing I order for 6.7 Powerstrokes. Here's why it fails."
+- **Real prices.** "$340 OEM, $90 aftermarket — here's which one comes back."
+- **"Don't buy this."** He sees the return rate. Enormously shareable, and credible from
+  nobody else in this niche.
+- "What I'd actually put on my own truck."
+- Unboxings — native to the job, and he already does them.
+- What customers ask for vs what they actually need.
+
+He still gets shop and vehicle access for B-roll: the part in his hand, the truck it's
+going on, the mechanic installing it. **He narrates from the counter, not the bay.**
+
+**Why:** the mechanic lane is fully occupied on YouTube — Dave's Auto Center (1M), Deboss
+Garage (1M), South Main Auto (950K), Rainman Ray (663K) — and is repost aggregators and
+brand accounts on Instagram. **The parts-counter lane is empty on both platforms.**
+Westen Champlin won SEMA Content Creator of the Year 2025 for filming the work he was
+already doing; the principle transfers, the job doesn't have to.
 
 **Why it outperforms mechanically:**
 - **Outcome uncertainty.** A broken customer truck is an unresolved question. Chief's
@@ -57,10 +74,9 @@ won SEMA Content Creator of the Year 2025 for filming the work his team was alre
 - **Infinite supply, zero cost.** Customer trucks arrive daily; someone else buys the parts.
 - **Self-feeding comments.** Every diesel guy has an opinion on what's wrong.
 
-**Formats:** "what actually failed" teardowns · diagnosis with the answer withheld ·
-customer truck before/after · the expensive mistake someone else made · DPF/EGR/SCR
-emissions-compliant diagnostics (this is a real sub-niche — Fox Truck & Tractor built
-92.6K on it).
+**Adjacent formats using shop access:** the part that came off vs the part going on ·
+the expensive mistake someone else made · emissions-compliant work (DPF/EGR/SCR) — a real
+sub-niche, Fox Truck & Tractor built 92.6K on it.
 
 **Avoid:** delete/defeat-device content. Heavy D Sparks carries an $850K EPA judgment.
 It is a sponsorship and legal liability.
@@ -99,10 +115,11 @@ so the photo surface is tightening, not loosening.
 Jake runs Elite Diesel Service **and** makes every piece of content. No camera operator,
 no editor, no scheduler. Any plan that assumes a second person is worthless.
 
-**This is why SHOP content is the right pillar and not just a good idea.** It is the only
-pillar whose filming cost is near zero, because *he is already standing there doing the
-work*. A personal build requires him to make time. Shop content requires him to press
-record on time he's already spending.
+**This is why PARTS-COUNTER content is the right pillar and not just a good idea.** It is
+the only pillar whose filming cost is near zero — the parts are already in his hands as
+part of the job. A personal build requires him to make time. Parts content requires him to
+press record on time he's already spending. He is the **parts manager**, not the mechanic,
+so nothing here should require him to turn wrenches on camera.
 
 ### The production model: capture always, edit once
 
@@ -136,7 +153,7 @@ during the month's best reach stretch).
 
 | Slot | Pillar | Solo cost |
 |---|---|---|
-| Mon | **SHOP** | ~0 — filmed during paid work |
+| Mon | **PARTS COUNTER** | ~0 — filmed at work, part already in hand |
 | Thu | **CHIEF Episode N** | Moderate — film whenever you touch the truck, bank it |
 | Sat | **PERSONAL** or **RELATABLE** | Low — one take, talking to camera, no setup |
 
