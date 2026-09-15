@@ -26,9 +26,49 @@ send.
 
 > **Would a guy send this to his buddy with the same truck?**
 
-If no, don't post it — rewrite the hook until he would. Tactical content, real numbers,
-before/after reveals, and "I can't believe this" moments get sent. Generic educational
-content gets *saved* but not *sent*.
+If no, don't post it — rewrite the hook until he would.
+
+### ⚠️ The uncomfortable finding: education does NOT get shared
+
+> "What was left off this list was educational tips… Think about your local library. There
+> are thousands of textbooks that are super valuable but have been sitting on the shelf for
+> a decade. No one reading them, and definitely no one recommending that textbook to a
+> friend."
+
+**Education gets SAVED. Saves are the weakest signal. Shares are the growth engine.**
+
+This cuts directly against a parts manager's instinct, because pure teaching is the natural
+content. **The resolution is not to stop teaching — it's to change the wrapper.** The tip
+rides inside a relatable, controversial or timely frame instead of being served as a tip.
+Cap pure education at roughly **one in five posts**.
+
+### The five things that actually get shared
+
+| Type | What it is | Jake's version |
+|---|---|---|
+| **1. Motivational** | Text on black. Zero production. Aimed at ONE specific person. | *"Your truck doesn't care that you're tired. Neither does Monday."* Cheapest weekly post he has. 90 seconds. |
+| **2. Call-to-arms** | "Tag three friends" is a share instruction in costume. The cheat phrase: **"I need your help."** | A real itemized parts-counter receipt as the prop. *"Help me settle this — tell me what you actually run."* |
+| **3. Relatable humor** | **"Relatability comes from specificity."** Most-repeated line in the whole corpus. | Not "diesels are expensive." The 5:40am −14° no-start. The guy who wanted a part for "the white one." The $9 clip on national backorder. |
+| **4. Controversial** | Attack *ideas*, never people or businesses. Only hills you'd actually die on. | Dealership upsell, emissions as a tax on working people, "most truck guys online have never worked." |
+| **5. Timely** | Breaking news is the most shareworthy content there is. **Missed the first hours? Go a layer deeper.** | *"Everyone's talking about the recall. Here's the actual part number and what it costs at my counter."* |
+
+**The vanilla test:** almost nobody loves or hates vanilla ice cream — 95% feel nothing.
+Stop making vanilla content.
+
+### Ask for the share — and always give the reason
+
+Never just "share this." Match the reason to the type:
+
+| Type | CTA |
+|---|---|
+| Controversial | "Share this **if you agree**" |
+| Relatable | "Share this **if you can relate**" |
+| Timely | "Share this **if you learned something new**" |
+| Call-to-arms | "Share this to **help spread the message**" |
+| Motivational | "Share this **if you're feeling inspired**" |
+
+**Put it in the reel** — spoken or on-screen. Burying a CTA at the bottom of a long caption
+is one of the most common mistakes: you can't hope people find it like buried treasure.
 
 ## Targets
 
