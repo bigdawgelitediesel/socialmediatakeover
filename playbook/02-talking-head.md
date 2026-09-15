@@ -22,6 +22,22 @@ produced **6 shares**. That reel was *given* reach; it never earned it.
 **Fixing watch time alone will not fix reach.** Every structure below is built to produce a
 send.
 
+### ⚠️ End every story with a RULE
+
+This is the specific fix for 0.045% shares/reach.
+
+**The anecdote earns the watch. The transferable rule earns the send.**
+
+A personal story with no rule gets a laugh and a like — which is exactly this account's
+pattern: 14.80% engagement on PERSONAL content, near-zero shares. The audience enjoys it and
+has nothing to forward.
+
+Bad ending: *"...and that's how it went."*
+Good ending: *"If it's cheaper than the core charge, it's not the same part."*
+
+The rule is what a guy forwards, because forwarding it makes him look like he saved someone
+money.
+
 ### The test every video must pass before you post it
 
 > **Would a guy send this to his buddy with the same truck?**
