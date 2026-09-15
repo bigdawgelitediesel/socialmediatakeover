@@ -29,25 +29,70 @@ The month has an arc. You are not repeating week one four times.
 
 ---
 
-# WEEK 1 — ESTABLISH
+# ⚡ START TODAY — Tue Sep 15
 
-Goal: six posts shipped and a baseline. **Do not judge performance this week.** You're
-buying data, not results.
+**Do not wait for Monday.** Six dark days waiting for a clean start is the exact failure
+mode that has already cost this account twice.
+
+| When | Do this |
+|---|---|
+| **Today, at work** | Shoot **ONE** video: the Counter Warning. Part in hand, 3 takes, 10 minutes. Nothing else. |
+| **Today, 4–7pm** | **Post it.** Not tomorrow. Today. |
+| **Tonight, after dinner** | The full 75-minute batch: the other five, plus 10 minutes of b-roll. |
+| **Wed 16 – Sat 19** | Post one a day from the batch. |
+| **Sun 20** | Batch week 2. |
+| **Mon 21** | Week 2 starts on the normal spine. |
+
+**Today's only job is one video and one post.** If tonight's batch doesn't happen, you're
+still not dark — you shipped. That's the whole point of starting on a Tuesday.
+
+### Today's video, in full
+
+**Hook, frame 1, part already in your hand, no greeting:**
+> "This part is `[$__]`. Not replacing it is `[$____]`."
+
+**On-screen text, frame 1:** the two numbers. Nothing else.
+
+```
+0:00  hook, part in hand
+0:03  "Third guy this month. Same truck, same failure."
+0:06  what it is, where it sits, what it does
+0:10  what happens when it goes — the real number   [zoom punch]
+0:14  who's at risk: [YEAR] [ENGINE] over [MILEAGE]
+0:18  "If you've got one, go look tonight."          [back to the part — loop]
+```
+
+**Caption** (write it before you film — it outweighs the video):
+> `[PART]` failure on `[ENGINE]` — what it actually costs
+> I order these `[N]` times a month. Every one was preventable.
+> How many miles on yours?
+
+**Pick the part by frequency, not interest.** Whatever you reordered most this month. The
+frequency *is* the story.
+
+**Before you post it:** Settings → Account → Account Status. 30 seconds.
+
+---
+
+# WEEK 1 — ESTABLISH  ·  Tue Sep 15 – Sat Sep 19
+
+Goal: five or six posts shipped and a baseline. **Do not judge performance this week.**
+You're buying data, not results.
 
 | # | Day | Video | Hook |
 |---|---|---|---|
-| 1 | Mon | Counter Warning | *"This part is `[$__]`. Not replacing it is `[$____]`."* |
-| 2 | Tue | Showing | *"Here's what that `[$__]` part looks like going in."* |
-| 3 | Wed | **The Receipt** | *"A guy told me there's zero reason to upgrade a lift pump under 750 horse."* |
-| 4 | Thu | CHIEF Ep. 1 | *"This took four hours and I'd do it again."* |
-| 5 | Fri | Motivational | *"Your truck doesn't care that you're tired. Neither does Monday."* |
-| 6 | Sat | I Need Your Help | *"What EGTs are you actually running? I'll go first."* |
+| 1 | **Tue 15** | Counter Warning | *"This part is `[$__]`. Not replacing it is `[$____]`."* |
+| 2 | Wed 16 | Showing | *"Here's what that `[$__]` part looks like going in."* |
+| 3 | Thu 17 | **The Receipt** | *"A guy told me there's zero reason to upgrade a lift pump under 750 horse."* |
+| 4 | Fri 18 | CHIEF Ep. 1 | *"This took four hours and I'd do it again."* |
+| 5 | Sat 19 | Motivational | *"Your truck doesn't care that you're tired. Neither does Monday."* |
+| 6 | Sun 20 | I Need Your Help | *"What EGTs are you actually running? I'll go first."* |
 
 Full beat-by-beat for all six is in `03-week-one.md`.
 
 ---
 
-# WEEK 2 — CREDENTIAL
+# WEEK 2 — CREDENTIAL  ·  Mon Sep 21 – Sat Sep 26
 
 Goal: show them you're not another guy with a truck. **This is the week the semi counter
 earns its keep.**
@@ -81,7 +126,7 @@ creators in the 200–2,000 follower range** — peers, not brands. One ask, fiv
 
 ---
 
-# WEEK 3 — ESCALATE
+# WEEK 3 — ESCALATE  ·  Mon Sep 28 – Sat Oct 3
 
 Goal: say the things. This is the week you find out who's actually listening.
 
@@ -111,7 +156,7 @@ It's a hook, a share CTA and an audience filter in one line.
 
 ---
 
-# WEEK 4 — COMPOUND
+# WEEK 4 — COMPOUND  ·  Mon Oct 5 – Sat Oct 10
 
 Goal: the account starts feeding itself. Weeks 1–3 generated comments; this week they become
 content.
@@ -133,7 +178,7 @@ much is left, which holds them. Close on *"Number three gets everybody."*
 
 ---
 
-# End of month — the review
+# End of month — the review  ·  Sun Oct 11
 
 Pull the numbers and answer three questions. **Not likes. Not follower count.**
 
