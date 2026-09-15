@@ -7,8 +7,8 @@ The month has an arc. You are not repeating week one four times.
 
 | Week | Job | What changes |
 |---|---|---|
-| **1** | **Establish** | Learn the formats. Get a baseline. Don't judge results yet. |
-| **2** | **Credential** | Introduce the semi angle — the thing nobody else has. First collab asks. |
+| **1** | **Warm up** | Easy week. No parts, no prices, no props — just you talking. Ends by promising the parts content. |
+| **2** | **Deliver** | The parts content you promised. Counter Warning, the price gap, the semi credential. First collab asks. |
 | **3** | **Escalate** | Controversial takes. The series pays off. Ask for shares explicitly. |
 | **4** | **Compound** | Answer the comments weeks 1–3 generated. Review the numbers. Decide. |
 
