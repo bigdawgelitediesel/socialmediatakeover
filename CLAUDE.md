@@ -34,11 +34,19 @@ write parts-counter anecdotes as if they serve a pickup audience — they don't.
 in diesel while making him distinct from every other pickup creator, and it supplies
 authority the pickup guys don't have. Do not make Class 8 the backbone.
 
-**His 6.7 build — get these right, he has corrected them before:**
+**His 6.7 build — get these right, he has corrected them twice:**
 - He **disabled the CP4 and installed a FASS system.** He did **NOT** do a CP3 or DCR
   conversion. Do not write scripts that say otherwise.
-- FASS is an existing brand relationship, so this is also a sponsor-adjacent story he can
-  tell honestly.
+- **A FASS does BOTH jobs — do not frame it as "just insurance."** It feeds the CP4 clean,
+  consistent fuel *and* supplies the volume needed for big power. It is not an either/or
+  part. Getting this wrong makes him sound like he doesn't know his own truck.
+- The rebuttal he owns: a commenter said *"zero reason to upgrade a lift pump unless you're
+  going over 750hp."* The answer is that it isn't either/or — it protects now and it's
+  already there when the power comes.
+- **Disable-instead-of-swap is the angle nobody covers.** Everyone jumps to a CP3/DCR
+  conversion, which is thousands. This is the cheaper middle path.
+- FASS is an existing brand relationship, so this is a sponsor-adjacent story he can tell
+  honestly without it reading as an ad.
 
 **Gear: DJI Osmo Pocket 3.** See `playbook/01-gear-and-shooting.md`. ActiveTrack 6.0 is
 what makes solo filming possible; 0.2 m minimum focus is the gotcha when holding parts up.
