@@ -135,12 +135,23 @@ They're also mechanically self-defeating: every ranking signal Mosseri named is 
 so injected engagement inflates numerator and denominator together while polluting the
 targeting that is this account's only real asset.
 
+## The operating rule
+
+**Get skip rate under 40% and shares follow.** `reels_skip_rate` is available per post and
+is the only hook-quality measure the API exposes. Account average is 48.2%; sponsor posts
+are 72.5%; the best posts sit near 32%.
+
+Reels below the median skip rate get **5× the share rate, 3.4× the engagement and 3× the
+median reach** of those above it (n=22, outlier removed). Low-skip hooks open on *something
+happening*; high-skip hooks open on *a product*.
+
 ## Open items
 
 - **Trial Reels are locked until 1,000 followers** — treat 1k as a real milestone.
-- **`follows`, `profile_visits`, `reels_skip_rate` are missing from `posts.tsv`.** Add them
-  to the media-insights metric array (isolated batch first) — they're the two headline
-  numbers the plan measures against.
+- ~~Add follows/profile_visits to posts.tsv~~ — **`follows`, `profile_visits` and
+  `profile_activity` do NOT exist at media level for reels. Stories only. Tested and
+  confirmed.** A follow can never be attributed to a specific reel. `skip_rate_pct` is now
+  in `posts.tsv` for all 29 reels and is the per-post signal to use instead.
 - **Halo/Master Chief IP risk escalates once the truck promotes Elite Diesel commercially.**
   Keep "Chief" a nickname, never reproduce Microsoft marks, never let a sponsor use them.
 - **Harbor Freight Creator Program invitation (2026-06-28) was never acted on.**

@@ -123,3 +123,78 @@ A precisely targeted audience, a proven engagement formula, and a content strate
 pointed away from both. Growth is not blocked by reach — 195,000 accounts have been
 reached. It's blocked because nothing converts reach into followers, and the build
 content meant to carry the brand is the content nobody sees.
+
+---
+
+# Addendum — Skip Rate Analysis (2026-09-15, later same day)
+
+Pulled `reels_skip_rate` for all 29 reels: the share of viewers who leave within the first
+three seconds. It is the only per-post measure of hook quality the API exposes.
+
+## Skip rate by pillar
+
+| Pillar | Skip rate |
+|---|---|
+| PERSONAL | **37.3%** |
+| RELATABLE | 41.0% |
+| MOTIVATION | 44.8% |
+| BUILD | 57.8% |
+| **SPONSOR** | **72.5%** |
+
+Account average **48.2%**. The four worst hooks on the account are all sponsor or build
+posts, topping out at 85.6%.
+
+**This reframes the sponsor problem.** It is not that the audience dislikes brand content —
+roughly **two of every three people never see it**. They are gone before the content starts.
+A hook problem is far more tractable than an audience problem.
+
+## Does a better hook produce shares? Yes.
+
+Correlations across 22 reels (the 171k outlier removed, and posts under 200 reach excluded
+so a single share can't manufacture a 2% rate):
+
+| | r |
+|---|---|
+| skip rate vs engagement rate | **−0.46** |
+| skip rate vs shares/reach | **−0.36** |
+| skip rate vs reach | −0.14 |
+
+Split at the median skip rate (43.3%):
+
+| | n | Median reach | Shares/reach | Engagement |
+|---|---|---|---|---|
+| **Better hooks** (skip < 43.3%) | 11 | **1,155** | **0.492%** | **8.25%** |
+| **Worse hooks** (skip ≥ 43.3%) | 11 | 369 | 0.100% | 2.43% |
+
+**5× the share rate. 3.4× the engagement. 3× the median reach.**
+
+And every post that earned 4+ shares had a skip rate under 48% — five of six under 38%:
+
+```
+29 shares  skip 32.5%  "Aaaaah yeah so there that"
+17 shares  skip 37.3%  "It may cost you nothing, but to me it means everything"
+ 9 shares  skip 37.8%  "Always make sure you are ready for the job"
+ 6 shares  skip 32.9%  "Yeah that about sums it up"
+ 4 shares  skip 47.9%  "Don't be afraid!"
+ 4 shares  skip 37.5%  "And just like that..."
+```
+
+**The low-skip group already hits 0.492% shares/reach — above the 0.3% target.** The
+capability is demonstrated. It happens by accident, on the posts that open on something
+happening rather than on a product.
+
+**Caveat:** n=22. Correlations of −0.36 and −0.46 at this sample size are suggestive, not
+proof. But the direction is consistent, the median split is stark, and the mechanism is
+obvious.
+
+## The operating rule this produces
+
+**Get skip rate under 40% and shares follow.** That is a single number, visible per post in
+the app, that stands in for the whole strategy.
+
+The pattern separating the two groups: **low-skip hooks open on something happening; high-skip
+hooks open on a product.** "Here's a part I got" gives a stranger nothing to resolve in
+second one.
+
+FASS at 59% skip becomes *"This $340 part is why your fuel pump died"* — number and problem
+in frame one, product second.
