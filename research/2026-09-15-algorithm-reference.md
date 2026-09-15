@@ -26,6 +26,56 @@ Watch time is not a pure completion race [T1]:
 
 **Saves are NOT in the named top three.** If forced to choose, optimize sends over saves.
 
+## Direct Mosseri quotes from the April 2025 interview [T1]
+
+From Brock Johnson's on-the-record hour with Adam Mosseri. These are first-party and were
+missing from this doc until 2026-09-15.
+
+**What the algorithm actually reads — the most useful quote in the whole corpus:**
+> "Right now, it's disproportionately looking at the **caption** relative to the **video**,
+> relative to the **audio**, relative to the **comments** — in that order. But that's going
+> to change because as we get better at understanding all the pieces, we'll integrate them."
+
+**Caption is weighted above the video itself.** Write captions as if they are the primary
+input, because right now they are.
+
+**On shares vs saves:**
+> "I think shares, at least algorithmically speaking, of course they're helpful, but it's a
+> human sending a post to another human. So even if the algorithm was optimized for saves,
+> a share would still be the way to reach another human being."
+
+Note the framing — a *mechanical* argument (a share physically delivers the post to a
+person), not a claim about ranking weight.
+
+**On "warming up the algorithm" by engaging before you post:**
+> "Not directly. Indirectly, it could happen, right? Cuz if you're on there a bunch…"
+
+**Kills the "engage for 15 minutes before posting" folklore.**
+
+**On whether consuming off-niche content hurts your own distribution:** "Not necessarily."
+
+**On shadowbanning:**
+> "It's possible if you write really aggressive content… it might get caught up in, oh, this
+> isn't harassment, but it's borderline. It's aggressive and we won't recommend it."
+
+**On reach being down:** "In general, reach is going up for some people and down for other
+people. It's much more of a blend."
+
+**On posting many stories in one day (a fix, not a penalty):**
+> "People were complaining about getting less reach with their stories if they posted lots
+> of stories in the same day. And that is not at all the intended behavior… we've addressed
+> the issue."
+
+**On sharing feed posts to stories:**
+> "We don't suppress stories about new posts, but in general those kinds of stories are
+> often not quite as interesting as other stories."
+
+Not a penalty — a content-quality effect.
+
+**On duplicate trial reels:**
+> "Don't try to use them just to pummel the same content over and over and over again.
+> We're trying to crack down on that. That's become a bit of a spam vector."
+
 ## How small accounts get distributed [T1]
 
 Instagram seeds content to a **small test audience** who may be interested — follower or
