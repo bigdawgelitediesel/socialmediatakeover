@@ -15,6 +15,21 @@ Growth work for **@elcoyotediesel** ("Jake Dalton"), a diesel creator account in
 his own truck, his own money and all his existing brand relationships are — FASS, Derale,
 ISSPRO, S&B, McNeil and Tire Wheel Experts are all light-duty pickup brands.
 
+## ⚠️ THE MISTAKE SESSIONS KEEP MAKING
+
+**His parts counter serves CLASS 8. Pickup owners do not walk up to it.**
+
+So "guy came into my counter today" stories are **semi** stories, not pickup stories. Do not
+write parts-counter anecdotes as if they serve a pickup audience — they don't.
+
+**Where his PICKUP content actually comes from:**
+- **His own 6.7** — decisions he made, what they cost, what he got wrong
+- **Transfer knowledge** — what Class 8 parts work teaches him about his own truck
+  (filtration, fuel systems, maintenance intervals, OEM vs aftermarket failure patterns)
+- **Principles**, not anecdotes. The counter is the *credential*; the 6.7 is the *subject*.
+
+**Where his SEMI content comes from:** the counter, and it is the variety slot, roughly 1 in 3.
+
 **The semi side is the differentiator and the variety, not the main show.** It keeps him
 in diesel while making him distinct from every other pickup creator, and it supplies
 authority the pickup guys don't have. Do not make Class 8 the backbone.
