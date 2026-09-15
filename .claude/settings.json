@@ -3,8 +3,23 @@
     "allow": [
       "WebSearch",
       "WebFetch",
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit",
+      "Write",
+      "Bash",
+      "Agent",
+      "ToolSearch",
       "mcp__Composio__COMPOSIO_SEARCH_TOOLS",
-      "mcp__github__search_repositories"
+      "mcp__Composio__COMPOSIO_SEARCH_SKILLS",
+      "mcp__Composio__COMPOSIO_MULTI_EXECUTE_TOOL",
+      "mcp__Composio__COMPOSIO_REMOTE_BASH_TOOL",
+      "mcp__Composio__COMPOSIO_MANAGE_CONNECTIONS",
+      "mcp__github__search_repositories",
+      "mcp__github__get_file_contents",
+      "mcp__github__list_commits",
+      "mcp__github__pull_request_read"
     ]
   }
 }
