@@ -11,8 +11,16 @@ Growth work for **@elcoyotediesel** ("Jake Dalton"), a diesel creator account in
 3. **Prior experience: drove hotshot.** His one viral reel (260k views) was gooseneck
    trailer loading, so that audience already found him.
 
-So there are two worlds: **heavy-duty Class 8 at work**, **light-duty pickup at home**.
-Both are real, and the bridge between them is the differentiator.
+**NICHE DECISION (Jake's call, 2026-09-15): PICKUP is the primary niche.** That is where
+his own truck, his own money and all his existing brand relationships are — FASS, Derale,
+ISSPRO, S&B, McNeil and Tire Wheel Experts are all light-duty pickup brands.
+
+**The semi side is the differentiator and the variety, not the main show.** It keeps him
+in diesel while making him distinct from every other pickup creator, and it supplies
+authority the pickup guys don't have. Do not make Class 8 the backbone.
+
+**Gear: DJI Osmo Pocket 3.** See `playbook/01-gear-and-shooting.md`. ActiveTrack 6.0 is
+what makes solo filming possible; 0.2 m minimum focus is the gotcha when holding parts up.
 
 ## ⚠️ Read these before any strategy, content, or analytics work
 
@@ -78,8 +86,8 @@ Small but precisely on-target for diesel. **Best posting window: 16:00–19:00.*
 
 ## Strategy in one line
 
-**HEAVY-DUTY PARTS KNOWLEDGE applied to a PICKUP BUILD.** That is the whole position, and
-nobody else occupies it.
+**A PICKUP CREATOR WITH HEAVY-DUTY CREDENTIALS.** Pickup is the lane; the semi parts
+counter is the credential that makes him different. Nobody else holds that combination.
 
 Every successful diesel creator is a **mechanic** — Dave's (1M), Deboss (1M), South Main
 (950K), Rainman Ray (663K). Saturated on YouTube, aggregators on Instagram. **The
@@ -91,8 +99,8 @@ a day of downtime, that knowledge is worth money, not just entertainment.
 
 **The bridge is the hook:** *"I order parts for semis all day. Here's what that taught me
 about my own 6.7."* It earns the pickup audience (much larger) using heavy-duty authority
-(much rarer), and it makes the Chief build a demonstration of expertise rather than just
-another project truck.
+(much rarer), and it makes the 6.7 build a demonstration of expertise rather than just
+another project truck. Roughly **2 pickup posts to 1 semi post.**
 
 **Formats:** "the #1 part I order and why it fails" · real prices, OEM vs aftermarket ·
 **"don't buy this"** (he sees return rates — shareable, and credible from nobody else) ·

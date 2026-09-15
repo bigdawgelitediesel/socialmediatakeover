@@ -47,10 +47,16 @@ Jake is the **parts manager at a Class 8 / semi-truck shop** — not the mechani
 owns and is building a **6.7 Powerstroke F350**. This pillar does not exist yet and should
 become the backbone.
 
+**PICKUP IS THE PRIMARY NICHE** — that's where Jake's own truck, his money, and all his
+existing brand relationships are (FASS, Derale, ISSPRO, S&B, McNeil, Tire Wheel Experts are
+all light-duty). The semi parts counter is the **credential and the variety**, not the
+backbone. Roughly **2 pickup posts to 1 semi post.**
+
 **Every diesel creator is a mechanic. Nobody is the parts guy. And almost nobody bridges
 heavy-duty and light-duty.** Jake knows what the wrench-turners don't: what actually fails,
 how often, and what it really costs, because he orders the replacements. On Class 8, where
-a failure costs an owner-operator a day of downtime, that knowledge is worth money.
+a failure costs an owner-operator a day of downtime, that knowledge carries real weight —
+and it transfers to pickup content as authority.
 
 **The bridge is the strongest hook available:**
 > *"I order parts for semis all day. Here's what that taught me about my own 6.7."*
