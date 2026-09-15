@@ -17,7 +17,8 @@ Captured **2026-09-15** from the Instagram Graph API (v21.0) through the Composi
 
 `media_id`, `timestamp_utc`, `format` (REELS / FEED_IMAGE / FEED_CAROUSEL),
 `views`, `reach`, `likes`, `comments`, `shares`, `saves`, `interactions`,
-`avg_watch_ms` (reels only; 0 for static), `caption_summary`.
+`avg_watch_ms` (reels only; 0 for static), `caption_summary`,
+**`skip_rate_pct`** (reels only — % who skipped within the first 3 seconds).
 
 ## Refreshing this data
 
