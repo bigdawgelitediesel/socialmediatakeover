@@ -43,12 +43,20 @@ means to me." Those are different videos about the same part.
 ## The five content pillars, rewritten
 
 ### 1. PARTS COUNTER (new — the biggest untapped asset)
-Jake is the **parts manager** at Elite Diesel Service — not the mechanic. This pillar does
-not exist yet and should become the backbone.
+Jake is the **parts manager at a Class 8 / semi-truck shop** — not the mechanic. He also
+owns and is building a **6.7 Powerstroke F350**. This pillar does not exist yet and should
+become the backbone.
 
-**Every diesel creator is a mechanic. Nobody is the parts guy.** Jake knows what the
-wrench-turners don't: what actually fails, how often, and what it really costs, because he
-orders the replacements. That is proprietary knowledge, and it is the whole differentiator.
+**Every diesel creator is a mechanic. Nobody is the parts guy. And almost nobody bridges
+heavy-duty and light-duty.** Jake knows what the wrench-turners don't: what actually fails,
+how often, and what it really costs, because he orders the replacements. On Class 8, where
+a failure costs an owner-operator a day of downtime, that knowledge is worth money.
+
+**The bridge is the strongest hook available:**
+> *"I order parts for semis all day. Here's what that taught me about my own 6.7."*
+
+It reaches the much larger pickup audience using much rarer heavy-duty authority, and it
+turns the Chief build into a demonstration of expertise instead of just another project.
 
 **Formats only he can make:**
 - "The #1 thing I order for 6.7 Powerstrokes. Here's why it fails."

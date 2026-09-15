@@ -1,9 +1,18 @@
 # socialmediatakeover
 
-Growth work for **@elcoyotediesel** ("Jake Dalton") — a diesel-truck creator account
-documenting the **"Chief"** F350 build. Jake is the **PARTS MANAGER** at **Elite Diesel
-Service**, a diesel shop in Wyoming. He is **not** the mechanic — but he has access to the
-shop and the vehicles.
+Growth work for **@elcoyotediesel** ("Jake Dalton"), a diesel creator account in Wyoming.
+
+**Get these three facts right — earlier sessions got them wrong:**
+
+1. **Day job: PARTS MANAGER at a Class 8 / SEMI TRUCK shop.** Heavy-duty, not light-duty.
+   He is **not** the mechanic. He has access to the shop and the vehicles.
+2. **Personal truck: a 6.7 Powerstroke F350 ("Chief")** that he drives daily and is
+   actively building — Halo/Master Chief themed.
+3. **Prior experience: drove hotshot.** His one viral reel (260k views) was gooseneck
+   trailer loading, so that audience already found him.
+
+So there are two worlds: **heavy-duty Class 8 at work**, **light-duty pickup at home**.
+Both are real, and the bridge between them is the differentiator.
 
 ## ⚠️ Read these before any strategy, content, or analytics work
 
@@ -20,7 +29,8 @@ worthless.** Judge every recommendation by "can one guy who's already working a 
 actually do this?"
 
 **He is the PARTS MANAGER, not the mechanic.** Do not write content that requires him to
-turn wrenches on camera. This is an advantage, not a limitation — see below.
+turn wrenches on camera at the shop. He *does* wrench on his own 6.7. This is an
+advantage, not a limitation — see below.
 
 ## Account facts (captured 2026-09-15)
 
@@ -68,22 +78,27 @@ Small but precisely on-target for diesel. **Best posting window: 16:00–19:00.*
 
 ## Strategy in one line
 
-**PARTS-COUNTER content builds the audience → the audience then follows the Chief build.**
+**HEAVY-DUTY PARTS KNOWLEDGE applied to a PICKUP BUILD.** That is the whole position, and
+nobody else occupies it.
 
-Every successful diesel channel is a **mechanic** — Dave's (1M), Deboss (1M), South Main
-(950K), Rainman Ray (663K). That lane is saturated on YouTube and empty on Instagram.
-**The parts-counter lane is empty on both.**
+Every successful diesel creator is a **mechanic** — Dave's (1M), Deboss (1M), South Main
+(950K), Rainman Ray (663K). Saturated on YouTube, aggregators on Instagram. **The
+parts-counter lane is empty on both.** And almost nobody bridges Class 8 and light-duty.
 
-Jake knows what the mechanics don't: **what actually fails, how often, and what it really
-costs** — because he orders the replacements. That is proprietary knowledge no other
-creator in this niche has, and it is the differentiator.
+**What only Jake can say:** what actually fails, how often, and what it really costs —
+because he orders the replacements. On semis, where a part failure costs an owner-operator
+a day of downtime, that knowledge is worth money, not just entertainment.
 
-Content only he can make: "the #1 part I order for 6.7s and why it fails" · real prices,
-OEM vs aftermarket · **"don't buy this"** (he sees the return rate — highly shareable and
-credible only from him) · "what I'd actually put on my own truck" · unboxings, which are
-native to his actual job.
+**The bridge is the hook:** *"I order parts for semis all day. Here's what that taught me
+about my own 6.7."* It earns the pickup audience (much larger) using heavy-duty authority
+(much rarer), and it makes the Chief build a demonstration of expertise rather than just
+another project truck.
 
-He still gets shop and vehicle access for B-roll. He narrates from the counter, not the bay.
+**Formats:** "the #1 part I order and why it fails" · real prices, OEM vs aftermarket ·
+**"don't buy this"** (he sees return rates — shareable, and credible from nobody else) ·
+"what I put on my own truck and why" · unboxings, native to the job · downtime cost math.
+
+He narrates from the counter, not the bay — except on his own 6.7, where he can wrench.
 
 ## Hard-won working notes — do not relearn these
 
