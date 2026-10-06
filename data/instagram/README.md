@@ -56,3 +56,29 @@ Composio tool slugs used, all via `COMPOSIO_MULTI_EXECUTE_TOOL`:
 - `day`-period windows are capped at 30 days.
 - Hour keys in `online-followers-hourly.tsv` are in the account's reporting
   timezone (day boundary lands at 07:00 UTC), not UTC.
+
+## Refresh 2026-10-06
+
+Followers **228** (was 215). Media count **57** (was 53). Three new posts added to
+`posts.tsv`:
+
+| Date | Caption | Format | Views | Reach | Likes | Shares | Saves | Watch | Skip |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-06 | "Who is with me?" | REELS | 246 | 206 | 4 | 0 | 0 | **10.8s** | **32.5%** |
+| 2026-09-28 | "...here is a picture of my truck" | FEED_IMAGE | 47 | 24 | 4 | 0 | 0 | — | — |
+| 2026-09-16 | "Steel Body baby!" | REELS | 237 | 158 | 1 | 0 | 0 | 6.2s | 45.9% |
+
+**The Oct 6 reel is the best hook this account has ever produced.** 32.5% skip rate ties
+the account best and sits well under the 40% operating-rule line; 10.8s average watch time
+is **1.6× the account average of 6.8s**. The hook and the body are working.
+
+**It still got 0 shares and 0 saves.** That is the whole gap. Per the skip-rate analysis,
+a reel this far under the median should be pulling ~5× the share rate. It pulled none. So
+the problem on this post is not attention — it is that nothing in it gives a viewer a
+reason to send it to somebody. No rule, no number, no "you need to see this."
+
+The Sep 28 static post (47 views / 24 reach) is the fourth consecutive data point that
+static feed posts are dead on this account.
+
+Note the reach ceiling: 206 reach on a 228-follower account after a three-week posting gap.
+Reach recovers with cadence; it is not a content problem.
