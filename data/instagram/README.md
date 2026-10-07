@@ -82,3 +82,29 @@ static feed posts are dead on this account.
 
 Note the reach ceiling: 206 reach on a 228-follower account after a three-week posting gap.
 Reach recovers with cadence; it is not a content problem.
+
+## Refresh 2026-10-07
+
+New reel, 7 hours old. Oct 6 reel numbers re-pulled at ~42h and now settled.
+
+| Date | Caption | Views | Reach | Likes | Cmts | Shares | Saves | Watch | Skip |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | "What do you think? Am I crazy?..." | 142 | 130 | 3 | 0 | **0** | **0** | **12.2s** | **52.8%** |
+| 2026-10-06 | "Who is with me?" (settled) | 323 | 273 | 4 | 0 | **0** | **0** | 10.7s | 35.3% |
+
+**The split on the Oct 7 reel is the useful finding.** Skip rate **52.8%** is *above* the
+48.2% account average — the worst hook of the recent run. But average watch time of
+**12.2s is the highest this account has ever recorded.** Those two facts together mean the
+body of the video is strong and the first three seconds are losing half the audience before
+they get to it. This is a front-end problem on an otherwise good video, not a bad video.
+
+**Two reels, 465 combined views, 0 shares and 0 saves between them.** The payoff gap
+identified on Oct 6 is now a confirmed pattern, not a one-off.
+
+**Posting time is off-window.** Posted 13:24 UTC = **07:24 Mountain**. The audit's best
+window is 16:00–19:00 local, i.e. **22:00–01:00 UTC**. Every recent reel has gone up in the
+morning. Reach of 130 vs the Oct 6 reel's 273 is consistent with that.
+
+**A vague question in the caption does not generate comments.** "What do you think? Am I
+crazy?" drew 0 comments on 130 reach. Open-ended invitations give a viewer nothing specific
+to type. A question that names two options, or asks for a number, is answerable.
