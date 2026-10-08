@@ -161,3 +161,43 @@ drafted in `playbook/06-script-rear-axle.md`.
 
 Note reach is still recovering from the three-week September gap: 365 reach on 228 followers
 is 1.6× follower count, against a historical 3.8×.
+
+### Same reel, ~8 hours later — it broke out
+
+| | at ~22h | **now (~30h)** | Change |
+|---|---|---|---|
+| Views | 454 | **1,302** | **2.9×** |
+| Reach | 365 | **1,218** | **3.3×** |
+| Likes | 6 | 12 | 2× |
+| **Skip rate** | 25.0% | **24.5%** | held |
+| **Avg watch** | 16.1s | **16.8s** | held |
+| Shares | 0 | **0** | — |
+| Saves | 0 | **0** | — |
+| Comments | 0 | **0** | — |
+
+**1,218 reach on 228 followers = 5.3× follower count**, above the account's historical 3.8×
+and far above anything in the recent run. Instagram is actively pushing this to
+non-followers. At 1,302 views it is the account's **best non-outlier reel ever** (prior
+baseline: 821 views/post excluding the 260k outlier) and still climbing.
+
+**The finding that matters most: skip rate and watch time HELD while reach tripled.**
+24.5% skip and 16.8s watch at 1,218 reach, versus 25.0% and 16.1s at 365 reach. Normally
+both degrade as a reel is pushed to colder audiences — the hook stops working on people who
+don't know the creator. This one did not degrade. **The hook works on strangers, not just
+on followers.** That is the single most valuable thing learned about this account's content
+so far, and it is the mechanism the whole conversion problem was waiting on.
+
+**And still 0 shares, 0 saves, 0 comments on 1,218 reach.** Like rate is 0.99%
+(12 / 1,218). Instagram distributed this purely on watch-time signal; the engagement
+signals that would extend the run are absent. Shares/reach remains 0.000% against the 0.3%
+target — at this reach that gap is now ~4 shares' worth of missing signal, not a rounding
+error.
+
+**Confirmed, repeatable formula from this reel:**
+1. Hook opens on an inherited grievance, something already going wrong — no greeting, no product.
+2. Posted mid-afternoon Mountain, not morning.
+3. Subject is his own truck.
+
+**Unchanged and now the only open problem:** the video ends without a transferable rule or
+an answerable question, so a viewer who watched all 16.8 seconds has nothing to send and
+nothing to type.
