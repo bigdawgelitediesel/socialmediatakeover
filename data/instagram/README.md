@@ -108,3 +108,56 @@ morning. Reach of 130 vs the Oct 6 reel's 273 is consistent with that.
 **A vague question in the caption does not generate comments.** "What do you think? Am I
 crazy?" drew 0 comments on 130 reach. Open-ended invitations give a viewer nothing specific
 to type. A question that names two options, or asks for a number, is answerable.
+
+## Refresh 2026-10-08 — account-record hook, and a clean natural experiment
+
+"The first Gift from my 2011 F350 🙄" posted 2026-10-07 **21:22 UTC = 15:22 Mountain**,
+inside the target window. Numbers at ~22h:
+
+| | Oct 7 **evening** | Oct 7 **morning** | Oct 6 | Account avg |
+|---|---|---|---|---|
+| Posted (Mountain) | **15:22** | 07:24 | 19:13 | — |
+| **Skip rate** | **25.0%** 🏆 | 58.6% | 35.3% | 48.2% |
+| **Avg watch** | **16.1s** 🏆 | 11.3s | 10.7s | 6.8s |
+| Views | **454** | 150 | 323 | 821 (ex-outlier) |
+| Reach | **365** | 144 | 273 | — |
+| Likes | 6 | 3 | 4 | — |
+| Comments | 0 | 0 | 0 | — |
+| Shares | **0** | **0** | **0** | — |
+| Saves | **0** | **0** | **0** | — |
+
+**Both all-time records.** 25.0% skip rate beats the previous account best of ~32%. 16.1s
+average watch time is **2.4× the 6.8s account average** and beats the prior record of 12.2s
+set the same day.
+
+**The two Oct 7 reels are a near-perfect natural experiment on posting time** — same day,
+same account, same creator, eight hours apart. Evening took **2.5× the reach** of morning
+(365 vs 144) and less than half the skip rate (25.0% vs 58.6%). This is the cleanest
+evidence yet for the 16:00–19:00 window and it cost nothing to get.
+
+**What the winning hook did:** opened on an inherited grievance ("the first gift from my
+2011 F350") rather than on a product or a greeting. Consistent with the skip-rate finding
+that low-skip hooks open on *something happening*.
+
+### The remaining gap, now sharply isolated
+
+**Three consecutive reels: 927 views, 782 reach, 13 likes, 0 comments, 0 shares, 0 saves.**
+
+Shares/reach is **0.000%** against a 0.3% target. Attention is no longer the problem — this
+account now holds people for 16 seconds and loses only a quarter of them in the first three.
+What it does not do is convert that attention into any action:
+
+- **Like rate 1.6%** on the record reel (6 likes / 365 reach), against a 14.80% PERSONAL ER
+  historically. People are watching *more* and liking *less*.
+- **0 comments** — this one's caption asked nothing at all. The prior one asked "Am I crazy?"
+  and also got 0. Vague prompts and no prompt perform identically.
+- **0 shares** across the run, which is the metric Mosseri named as governing reach to
+  non-followers.
+
+**Diagnosis: the hook problem is solved and the ending problem is untouched.** Every one of
+these reels finishes on a vibe rather than on a transferable rule or an answerable question.
+See `playbook/02-talking-head.md` ("End every story with a RULE") and the closing lines
+drafted in `playbook/06-script-rear-axle.md`.
+
+Note reach is still recovering from the three-week September gap: 365 reach on 228 followers
+is 1.6× follower count, against a historical 3.8×.
