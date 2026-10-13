@@ -1,0 +1,431 @@
+<title>El Coyote Diesel Partner Sheet</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: a parts-catalog spec sheet. Stacked labelled blocks, rules instead of cards,
+   data in mono and right-aligned like a price column. */
+:root {
+  --paper:        #f2f0ec;
+  --surface:      #ffffff;
+  --ink:          #16181c;
+  --ink-soft:     #55595f;
+  --rule:         #cfccc5;
+  --amber:        #c05a0b;
+  --amber-soft:   #f7ead9;
+  --steel:        #2f4556;
+  --on-steel:     #f2f0ec;
+
+  --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+  --body:    "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono:    "IBM Plex Mono", ui-monospace, "Courier New", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:      #15171a;
+    --surface:    #1d2024;
+    --ink:        #eceae6;
+    --ink-soft:   #9aa0a7;
+    --rule:       #343941;
+    --amber:      #f0953c;
+    --amber-soft: #2c2217;
+    --steel:      #9fc0d6;
+    --on-steel:   #15171a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper:      #15171a;
+  --surface:    #1d2024;
+  --ink:        #eceae6;
+  --ink-soft:   #9aa0a7;
+  --rule:       #343941;
+  --amber:      #f0953c;
+  --amber-soft: #2c2217;
+  --steel:      #9fc0d6;
+  --on-steel:   #15171a;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.6;
+  padding-inline: 20px;
+  padding-block: 0;
+}
+.sheet { max-width: 920px; margin: 0 auto; padding-block: 40px 64px; }
+
+/* ---- type scale ---- */
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.05; }
+h1 { font-size: clamp(2.6rem, 9vw, 4.4rem); font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; }
+h2 { font-size: clamp(1.5rem, 4.5vw, 2rem); font-weight: 600; text-transform: uppercase; letter-spacing: 0.01em; }
+h3 { font-size: 1.2rem; font-weight: 600; }
+p { margin: 0; }
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.lede { font-size: 1.1rem; max-width: 62ch; color: var(--ink-soft); }
+
+/* ---- masthead ---- */
+.masthead { border-bottom: 3px solid var(--ink); padding-bottom: 20px; }
+.handle {
+  font-family: var(--mono); font-size: 0.95rem; font-weight: 600;
+  color: var(--amber); letter-spacing: 0.02em;
+}
+.masthead h1 { margin-block: 10px 6px; }
+.subhead {
+  font-family: var(--display); font-size: clamp(1.1rem, 3.6vw, 1.5rem);
+  font-weight: 500; text-transform: uppercase; letter-spacing: 0.02em; color: var(--steel);
+}
+.vitals {
+  display: flex; flex-wrap: wrap; gap: 6px 22px;
+  margin-top: 18px; font-family: var(--mono); font-size: 0.78rem; color: var(--ink-soft);
+}
+.vitals span { white-space: nowrap; }
+
+/* ---- sections ---- */
+section { margin-top: 48px; }
+.section-head { border-bottom: 1px solid var(--rule); padding-bottom: 8px; margin-bottom: 22px; }
+.section-head .eyebrow { display: block; margin-bottom: 4px; }
+
+/* ---- the claim ---- */
+.claim {
+  background: var(--surface);
+  border-left: 4px solid var(--amber);
+  padding: 22px 24px;
+  display: grid; gap: 14px;
+}
+.claim p { max-width: 64ch; }
+.claim .pull {
+  font-family: var(--display); font-size: clamp(1.3rem, 4vw, 1.75rem);
+  font-weight: 600; line-height: 1.2; text-transform: uppercase; color: var(--ink);
+}
+
+/* ---- spec rows ---- */
+.spec { display: grid; gap: 0; }
+.spec-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 20px;
+  align-items: baseline;
+  padding-block: 13px;
+  border-bottom: 1px solid var(--rule);
+}
+.spec-row .k { min-width: 0; }
+.spec-row .k strong { font-weight: 600; }
+.spec-row .k em {
+  display: block; font-style: normal; font-size: 0.82rem; color: var(--ink-soft); line-height: 1.45;
+}
+.spec-row .v {
+  font-family: var(--mono); font-variant-numeric: tabular-nums;
+  font-size: 1.15rem; font-weight: 600; text-align: right; white-space: nowrap;
+}
+.spec-row.hi { background: var(--amber-soft); padding-inline: 14px; border-bottom-color: var(--amber); }
+.spec-row.hi .v { color: var(--amber); font-size: 1.35rem; }
+
+/* ---- bars ---- */
+.bars { display: grid; gap: 16px; margin-top: 4px; }
+.bar-row { display: grid; gap: 6px; }
+.bar-top {
+  display: flex; justify-content: space-between; gap: 16px; align-items: baseline;
+  font-size: 0.9rem;
+}
+.bar-top b { font-family: var(--mono); font-variant-numeric: tabular-nums; font-weight: 600; }
+.track { height: 9px; background: var(--rule); position: relative; overflow: hidden; }
+.fill { position: absolute; inset-block: 0; left: 0; background: var(--steel); }
+
+/* ---- two-up ---- */
+.two-up { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
+.two-up > div { min-width: 0; }
+
+/* ---- format list ---- */
+.formats { display: grid; gap: 2px; counter-reset: fmt; }
+.format {
+  display: grid; grid-template-columns: auto 1fr; gap: 16px;
+  padding: 16px 0; border-bottom: 1px solid var(--rule); align-items: start;
+}
+.format .pn {
+  font-family: var(--mono); font-size: 0.72rem; font-weight: 600;
+  color: var(--amber); letter-spacing: 0.06em; padding-top: 4px; white-space: nowrap;
+}
+.format .body { min-width: 0; }
+.format h3 { margin-bottom: 3px; }
+.format p { font-size: 0.92rem; color: var(--ink-soft); max-width: 58ch; }
+
+/* ---- brands ---- */
+.brands { display: flex; flex-wrap: wrap; gap: 8px; }
+.brands li {
+  list-style: none; font-family: var(--mono); font-size: 0.82rem; font-weight: 500;
+  border: 1px solid var(--rule); padding: 7px 13px; background: var(--surface);
+}
+ul.plain { margin: 0; padding-left: 20px; }
+ul.plain li { margin-bottom: 7px; font-size: 0.95rem; }
+
+/* ---- contact ---- */
+.contact { background: var(--steel); color: var(--on-steel); padding: 28px 24px; margin-top: 48px; }
+.contact h2 { color: inherit; }
+.contact .eyebrow { color: inherit; opacity: 0.75; }
+.contact-rows { display: grid; gap: 12px; margin-top: 18px; }
+.contact-row {
+  display: grid; grid-template-columns: 110px 1fr; gap: 6px 16px; align-items: baseline;
+  font-size: 0.95rem; padding-bottom: 10px; border-bottom: 1px solid color-mix(in srgb, currentColor 28%, transparent);
+}
+.contact-row .lbl {
+  font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.12em;
+  text-transform: uppercase; opacity: 0.8;
+}
+.contact-row .val { font-family: var(--mono); font-weight: 600; word-break: break-word; }
+.contact a { color: inherit; text-underline-offset: 3px; }
+.fillme { opacity: 0.65; font-style: italic; font-family: var(--body); font-weight: 400; }
+
+/* ---- footnote ---- */
+.note {
+  margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--rule);
+  font-size: 0.82rem; color: var(--ink-soft); max-width: 70ch;
+}
+.note strong { color: var(--ink); font-weight: 600; }
+
+@media (max-width: 420px) {
+  .spec-row { grid-template-columns: 1fr; }
+  .spec-row .v { text-align: left; }
+  .contact-row { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="sheet">
+
+  <header class="masthead">
+    <div class="handle">@elcoyotediesel</div>
+    <h1>Jake Dalton</h1>
+    <div class="subhead">Parts manager, Class 8 truck shop &middot; Wyoming</div>
+    <div class="vitals">
+      <span>Instagram creator account</span>
+      <span>230 followers</span>
+      <span>59 posts</span>
+      <span>Figures current 13 Oct 2026</span>
+    </div>
+  </header>
+
+  <section>
+    <div class="claim">
+      <p class="pull">I order the parts that break on heavy trucks. Then I put the good ones on my own.</p>
+      <p>Every diesel creator with reach is a mechanic. Nobody is coming at this from the parts counter &mdash; and almost nobody bridges Class 8 and light-duty pickups.</p>
+      <p>My day job is ordering parts for semis: I see what fails, how often, and what it actually costs the owner. My own truck is a 2011 6.7 Powerstroke F350 that I'm building with my own money. The content is what the first job teaches me about the second one.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <span class="eyebrow">Section 01</span>
+      <h2>Performance</h2>
+    </div>
+    <div class="spec">
+      <div class="spec-row hi">
+        <div class="k">
+          <strong>Reach per post vs. follower count</strong>
+          <em>Most recent reel reached 1,370 accounts on a 230-follower base. Instagram is already pushing this account to people who don't follow it.</em>
+        </div>
+        <div class="v">6.0&times;</div>
+      </div>
+      <div class="spec-row hi">
+        <div class="k">
+          <strong>Average watch time, most recent reel</strong>
+          <em>Held at 16.6s even as the reel's reach tripled into a cold audience. Platform-wide, short-form averages run a fraction of this.</em>
+        </div>
+        <div class="v">16.6s</div>
+      </div>
+      <div class="spec-row">
+        <div class="k">
+          <strong>Most recent reel &mdash; views / accounts reached</strong>
+          <em>Posted 7 Oct 2026.</em>
+        </div>
+        <div class="v">1,475 / 1,370</div>
+      </div>
+      <div class="spec-row">
+        <div class="k">
+          <strong>3-second hold rate, same reel</strong>
+          <em>74.6% of viewers stayed past the first three seconds, against a 51.8% account average.</em>
+        </div>
+        <div class="v">74.6%</div>
+      </div>
+      <div class="spec-row">
+        <div class="k">
+          <strong>Best single reel</strong>
+          <em>Gooseneck trailer loading. I drove hotshot before the counter job, and that audience found me first.</em>
+        </div>
+        <div class="v">260,008</div>
+      </div>
+      <div class="spec-row">
+        <div class="k">
+          <strong>Lifetime views, all posts</strong>
+          <em>Counts replays, and the one reel above is roughly 90% of it. Baseline without that reel is about 820 views per post.</em>
+        </div>
+        <div class="v">290,381</div>
+      </div>
+      <div class="spec-row">
+        <div class="k">
+          <strong>Format</strong>
+          <em>Reels are 99.6% of all views on the account. I don't waste a partner's budget on static posts.</em>
+        </div>
+        <div class="v">Reels</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <span class="eyebrow">Section 02</span>
+      <h2>Audience</h2>
+    </div>
+    <div class="two-up">
+      <div>
+        <div class="bars">
+          <div class="bar-row">
+            <div class="bar-top"><span>United States</span><b>87%</b></div>
+            <div class="track"><div class="fill" style="width:87%"></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-top"><span>Male</span><b>76%</b></div>
+            <div class="track"><div class="fill" style="width:76%"></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-top"><span>Aged 25&ndash;44</span><b>51%</b></div>
+            <div class="track"><div class="fill" style="width:51%"></div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Rural, national, no bot dilution</h3>
+        <p class="lede" style="font-size:0.95rem; margin-top:8px;">My single largest city is <strong>three followers.</strong> This audience is spread across small towns in every part of the country &mdash; which is exactly where diesel trucks actually live and work. There is no metro cluster and no inflated follower block propping up the number.</p>
+        <p style="font-size:0.9rem; color:var(--ink-soft); margin-top:12px; font-family:var(--mono);">Peak activity 4&ndash;7 PM Mountain.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <span class="eyebrow">Section 03</span>
+      <h2>What I make</h2>
+    </div>
+    <div class="formats">
+      <div class="format">
+        <div class="pn">FMT-01</div>
+        <div class="body">
+          <h3>The part I order most, and why it fails</h3>
+          <p>Failure patterns from the counter, with real order volume behind them. OEM against aftermarket, and what the difference actually costs.</p>
+        </div>
+      </div>
+      <div class="format">
+        <div class="pn">FMT-02</div>
+        <div class="body">
+          <h3>Real prices, said out loud</h3>
+          <p>What a job costs, what I paid, what I'd skip. No vague "great value" language &mdash; the number or nothing.</p>
+        </div>
+      </div>
+      <div class="format">
+        <div class="pn">FMT-03</div>
+        <div class="body">
+          <h3>Don't buy this</h3>
+          <p>I see return rates. That makes a negative recommendation credible from me in a way it isn't from anyone else, and it's the most shared thing I do.</p>
+        </div>
+      </div>
+      <div class="format">
+        <div class="pn">FMT-04</div>
+        <div class="body">
+          <h3>What I put on my own truck, and why</h3>
+          <p>The 6.7 build, decided and paid for by me. Includes the parts that didn't work out.</p>
+        </div>
+      </div>
+      <div class="format">
+        <div class="pn">FMT-05</div>
+        <div class="body">
+          <h3>Downtime math</h3>
+          <p>What a failure costs an owner-operator in a day off the road. The heavy-duty angle that makes the light-duty advice land harder.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <span class="eyebrow">Section 04</span>
+      <h2>How I work with brands</h2>
+    </div>
+    <div class="two-up">
+      <div>
+        <h3>What you get</h3>
+        <ul class="plain">
+          <li>A reason the part matters, from someone who orders it professionally.</li>
+          <li>One stated drawback in every product video. It's why the rest is believed.</li>
+          <li>Sponsorship disclosed out loud and in the first line of the caption, every time.</li>
+          <li>Native shooting &mdash; the truck, the shop, the part in hand. Not a desk and a box.</li>
+          <li>Post-campaign screenshots of the actual reach, watch time and hold rate.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>What I won't do</h3>
+        <ul class="plain">
+          <li>Claim a part is good when I haven't run it.</li>
+          <li>Read a script that doesn't sound like me.</li>
+          <li>Hide that a post is sponsored.</li>
+          <li>Promote a competitor's category against an active partner.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <span class="eyebrow">Section 05</span>
+      <h2>Existing relationships</h2>
+    </div>
+    <ul class="brands">
+      <li>FASS Fuel Systems</li>
+      <li>Derale</li>
+      <li>ISSPRO</li>
+      <li>S&amp;B Filters</li>
+      <li>McNeil</li>
+      <li>Tire Wheel Experts</li>
+    </ul>
+    <p class="note" style="margin-top:20px; border-top:none; padding-top:0;">Current and past product relationships. References available on request.</p>
+  </section>
+
+  <div class="contact">
+    <span class="eyebrow">Section 06</span>
+    <h2>Get in touch</h2>
+    <div class="contact-rows">
+      <div class="contact-row">
+        <div class="lbl">Instagram</div>
+        <div class="val"><a href="https://www.instagram.com/elcoyotediesel/">@elcoyotediesel</a></div>
+      </div>
+      <div class="contact-row">
+        <div class="lbl">Email</div>
+        <div class="val fillme">&larr; add the address you want partners using</div>
+      </div>
+      <div class="contact-row">
+        <div class="lbl">Phone</div>
+        <div class="val fillme">&larr; optional</div>
+      </div>
+      <div class="contact-row">
+        <div class="lbl">Based</div>
+        <div class="val">Wyoming, USA</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="note">
+    <strong>About these numbers.</strong> Every figure on this sheet is pulled directly from the
+    Instagram Graph API for this account, not from a third-party estimate, and each is dated.
+    Views include replays, which is why the lifetime figure is broken out above rather than
+    presented as a headcount. This is a small account that is growing &mdash; the case here is
+    audience quality and reach efficiency, not follower volume.
+  </p>
+
+</div>
