@@ -201,3 +201,51 @@ error.
 **Unchanged and now the only open problem:** the video ends without a transferable rule or
 an answerable question, so a viewer who watched all 16.8 seconds has nothing to send and
 nothing to type.
+
+## Refresh 2026-10-17 — THE SHARES DROUGHT BROKE
+
+Followers **239** (was 230). Three posts since 13 Oct.
+
+| Date | Post | Reach | Likes | Cmts | **Shares** | Saves | Skip | Watch | ER |
+|---|---|---|---|---|---|---|---|---|---|
+| 10-16 | "The hog for the 7.3 rebuild. This 59 F600 is perfect!" | 276 | 15 | **6** | **7** | **2** | 50.5% | 10.6s | **11.6%** |
+| 10-15 | Wheel/tire shout-out to @tirewheelexperts (sponsor) | 179 | 7 | 0 | 0 | 0 | 45.3% | 12.7s | 3.9% |
+| 10-13 | Marketplace find, bought for $100 (static) | 123 | 7 | 0 | 1 | 0 | — | — | 8.1% |
+
+### The F600 reel is the first real share event this account has produced
+
+**7 shares on 276 reach = 2.54% shares/reach.** The target in `playbook/02-talking-head.md`
+is 0.3%. The account's historical rate is 0.045%. This post beat the target by **8×** and
+its own history by **56×**. It also took the first comments (6) and first saves (2) of the
+entire October run, for an **11.6% engagement rate** — within reach of the 14.80% PERSONAL
+best.
+
+### The two halves of the formula now exist in separate videos
+
+| | 7 Oct reel | 16 Oct reel |
+|---|---|---|
+| Skip rate | **24.5%** (best ever) | 50.5% (poor) |
+| Watch time | **16.8s** (best ever) | 10.6s |
+| Reach | **1,218** | 276 |
+| **Shares** | **0** | **7** |
+| Comments | 0 | **6** |
+
+**The hook governs reach. The subject governs shares.** The 7 Oct reel was opened
+beautifully and had nothing to pass on; the 16 Oct reel opened badly and people sent it
+anyway, because a $100 Marketplace 1959 F600 bought as a parts hog for a 7.3 rebuild is a
+thing a guy forwards to his buddy. Neither reel did both. **Combining them — the 7 Oct open
+on the 16 Oct kind of subject — is the whole remaining play.**
+
+Note also that 10-13 (static teaser) and 10-16 (the reel) are the same story in two parts,
+and part two is what worked. Sequencing a setup post into a payoff reel is now evidence-backed
+on this account.
+
+### The sponsor post ran true to form
+
+The wheel/tire shout-out took the lowest reach of the three and zero shares, which is the
+documented sponsor pattern (1.36% ER, 72.5% skip across the prior five). Two things worth
+keeping: watch time was **12.7s**, so the people who stayed watched nearly the whole thing,
+and ER at 3.9% is almost 3× the sponsor average. The caption led with "I'm in love with
+this wheel and tire set up! Huge shout out to…" — the thank-you framing that
+`playbook/07-script-tire-wheel-shoutout.md` specifically warns against, rather than the
+price-forward open. The post did its job for the relationship; it did not earn reach.
