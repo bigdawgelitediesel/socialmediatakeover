@@ -139,9 +139,17 @@ He narrates from the counter, not the bay — except on his own 6.7, where he ca
 
 ## Hard-won working notes — do not relearn these
 
-- **`WebFetch` is blocked environment-wide.** But **`COMPOSIO_SEARCH_FETCH_URL_CONTENT`
-  is NOT** — it routes through Composio and reaches blocked domains. Use it for all web
-  research. (Verified against creators.instagram.com.)
+- **Web research is now hard. Read this before trying.** `WebFetch` fails on most hosts
+  with `getaddrinfo ENOTFOUND` (instagram.com and snapchat.com both confirmed dead
+  2026-10-17). `COMPOSIO_SEARCH_FETCH_URL_CONTENT`, the old workaround, was **removed from
+  the toolkit** ("the 'composio_search' toolkit is not available") — it worked through
+  2026-10-13 and was gone by 10-17. What still works: `WebSearch` (standard and extended),
+  and `curl` to some API hosts through the proxy, though api.coinbase.com returned a 403.
+  **Expect to ask Jake for screenshots when you need to see a page.**
+- **You cannot look up other people's Instagram accounts.** `business_discovery` is not
+  exposed in this toolkit, and the Instagram Login path doesn't support it anyway. Every
+  Instagram tool here is scoped to @elcoyotediesel. Competitor research = `WebSearch` for
+  secondhand mentions, or Jake sends screenshots.
 - **Instagram publishing already works** via `INSTAGRAM_POST_IG_USER_MEDIA` →
   `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`. No new tooling needed.
 - **Never request the `reposts` metric at media level** — it 400s and kills the whole batch.
