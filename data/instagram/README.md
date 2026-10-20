@@ -249,3 +249,48 @@ and ER at 3.9% is almost 3× the sponsor average. The caption led with "I'm in l
 this wheel and tire set up! Huge shout out to…" — the thank-you framing that
 `playbook/07-script-tire-wheel-shoutout.md` specifically warns against, rather than the
 price-forward open. The post did its job for the relationship; it did not earn reach.
+
+## Refresh 2026-10-20 — the naming reel worked, and double-posting cost a reel
+
+Followers **244** (was 239). Three reels since 18 Oct.
+
+| Posted (MT) | Caption | Reach | Likes | **Cmts** | Shares | Saves | Skip | Watch | ER |
+|---|---|---|---|---|---|---|---|---|---|
+| 10-18 14:08 | "Top comment in a week names the truck! 59 F600" | 361 | 9 | **8** | 2 | 0 | 49.1% | 8.2s | 6.1% |
+| 10-19 16:07 | "Hard to come to this conclusion…" | **456** | **21** | 4 | 2 | 1 | **23.9%** | 12.9s | 6.1% |
+| 10-19 17:00 | "I hope you're ready to walk down this road" | 111 | 4 | 0 | 1 | 0 | 64.7% | 3.8s | 4.5% |
+
+### The naming reel set a comment record
+
+**8 comments** beats the previous best of 6. Comments/reach of 2.2% matches the F600
+announcement's rate but on 31% more reach. The crowdsourced-name format does what it was
+picked to do, and it generated a real decision for Jake rather than just engagement.
+
+Submitted names, with likes: **Clifford ❤️ (2)** · an "I agree with this" reply (2) ·
+**Red Bed Betty (1)** · **Big Red Booty Betty / BRBB (1)** · **The Red Baron (1)** ·
+**Harrison (1)** · "an ode to Betty Ford" (0) · Skrunt (0). **Betty is the emergent
+favourite** — three independent people arrived at a Betty variant unprompted. Contest closes
+25 Oct per the caption.
+
+### Second-best skip rate ever
+
+**23.9%** on the 10-19 16:07 reel. The account best is still **21.0%** (24 Jul, "Well it
+seemed like a good idea…"); this is second, ahead of the 24.5% from 7 Oct. It also took
+**21 likes**, the highest like count in the October run, on 456 reach — the best reach since
+the 7 Oct breakout.
+
+### ⚠️ New finding: do not post two reels within an hour
+
+The 17:00 reel went up **53 minutes after** the 16:07 reel and collapsed:
+
+| | 16:07 reel | 17:00 reel |
+|---|---|---|
+| Reach | 456 | **111** |
+| Skip rate | 23.9% | **64.7%** |
+| Watch time | 12.9s | **3.8s** |
+
+111 reach is the lowest of any reel in the October run, 64.7% skip is the worst, and 3.8s
+is the shortest average watch this account has ever recorded. Both were inside the
+16:00–19:00 window, so timing is not the explanation — the first reel was still being
+distributed and the second competed with it for the same audience. **One reel per day.**
+A second reel does not add a second audience; it splits the first one.
