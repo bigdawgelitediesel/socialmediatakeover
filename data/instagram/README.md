@@ -294,3 +294,46 @@ is the shortest average watch this account has ever recorded. Both were inside t
 16:00–19:00 window, so timing is not the explanation — the first reel was still being
 distributed and the second competed with it for the same audience. **One reel per day.**
 A second reel does not add a second audience; it splits the first one.
+
+## Correction + refresh 2026-10-22 — the 17 Oct reel is the account's best hook ever
+
+**The 2026-10-20 entry above missed a reel.** A 3-post pull skipped over 17 Oct. Numbers
+have also settled upward on several posts since that entry; the table below supersedes it.
+
+| Posted (MT) | Caption | Reach | Likes | Cmts | Shares | Saves | Skip | Watch |
+|---|---|---|---|---|---|---|---|---|
+| 10-16 13:46 | "The hog for the 7.3 rebuild" | 373 | 20 | 6 | **10** | 2 | 46.6% | 12.1s |
+| 10-17 16:49 | **"Glimpse into the past of this old 59 F600"** | **1,284** | 12 | 2 | 0 | 2 | **20.3%** 🏆 | **18.6s** |
+| 10-18 14:08 | "Top comment names the truck" | 374 | 9 | **10** | 2 | 0 | 48.8% | 8.2s |
+| 10-19 16:07 | "A man's gotta do what a man's gotta do" | **1,354** | **45** | 7 | 4 | 1 | 23.6% | 12.9s |
+| 10-19 17:00 | "Ready to walk down this road" | 111 | 4 | 0 | 1 | 0 | 64.7% | 3.8s |
+
+### New account record: 20.3% skip rate
+
+The 17 Oct reel beats the previous best of 21.0% (24 Jul) and takes **18.6s average watch
+time**, second all-time only to that same July reel's 26.9s. On **1,284 reach** — far more
+than July's — which makes it the strongest hook this account has produced against a cold
+audience.
+
+**What it was:** the truck's history. The payoff is in its comments — someone wrote *"I'm
+also buddies with that guy. He got it out of Laramie and ended up trading it. Pretty cool
+to see someone else putting work into it."* A stranger who knew the truck's previous owner
+turned up. Provenance content pulls a local network that build content does not.
+
+### The 19 Oct 16:07 reel tripled after the last check
+
+456 reach → **1,354**. 21 likes → **45**, the highest like count in the run. 57 interactions.
+Lesson for future checks: **reel numbers at 24h understate by 2–3×.** Do not call a reel
+settled before about 72 hours.
+
+### The double-post finding got worse, not better
+
+The 17:00 reel sat at 111 reach while the 16:07 reel it followed grew to 1,354 — a **12×**
+gap between two reels posted 53 minutes apart. One reel per day stands.
+
+### The F600 arc, five reels total
+
+**3,496 reach · 142 interactions · 25 comments · 17 shares.** Against a historical baseline
+of 821 views per post, one $100 engine and the donor truck around it produced the best week
+this account has had. The sequence — find it → its history → name it → the decision — is the
+repeatable structure, not any single reel.
