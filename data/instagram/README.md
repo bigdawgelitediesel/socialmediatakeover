@@ -337,3 +337,51 @@ gap between two reels posted 53 minutes apart. One reel per day stands.
 of 821 views per post, one $100 engine and the donor truck around it produced the best week
 this account has had. The sequence — find it → its history → name it → the decision — is the
 repeatable structure, not any single reel.
+
+## Refresh 2026-10-23 — the shop dog reel, and a reminder the account used to do better
+
+Followers **247**. Three reels since 19 Oct.
+
+| Posted (MT) | Caption | Reach | Likes | Cmts | Shares | Saves | Skip | Watch |
+|---|---|---|---|---|---|---|---|---|
+| 10-20 13:50 | "The inside" | 233 | 9 | 0 | 0 | 0 | 41.2% | 7.2s |
+| 10-21 17:00 | "Yeah? Can I have a hand? Just for a minute…" | 162 | 4 | 0 | 0 | 2 | 30.2% | 5.9s |
+| 10-22 18:35 | **"What a shop dog actually looks like…."** | **1,855** | **120** | 0 | 7 | 0 | 26.6% | 13.1s |
+
+### The dog reel in correct context
+
+**1,855 reach and 120 likes is the best this account has done since August — not its best
+ever.** Ranked all-time it is **6th** on reach (behind 171,025 / 3,636 / 3,164 / 3,037 /
+2,110) and **4th** on likes (behind 1,241 / 419 / 124). It is nonetheless far and away the
+best post of the September–October period, at **7.5× follower count in reach** and a **6.5%
+like rate** against a usual ~1%.
+
+**What it did not do: 0 comments, 0 saves.** All the engagement is likes, the weakest
+signal. Shares were 7, which is **0.38% of reach** — above the 0.3% target but well below
+the 16 Oct F600 reel's 2.68%.
+
+**The honest caution:** a dog reel reaches a general audience, not a diesel-buying one. It
+is excellent for momentum and it is genuinely on-brand (a shop dog, not a pet account), but
+followers earned this way are less likely to care about fuel systems. Worth repeating
+occasionally; not worth becoming.
+
+### The two reels before it are the weak pattern, again
+
+"The inside" (233 reach) and "Yeah? Can I have a hand?" (162 reach) both took **0 comments
+and 0 shares**. Both captions are fragments that name nothing and ask nothing. "The inside"
+also went up at 13:50, outside the 16:00–19:00 window. This is the same shape as every
+other low performer in the file.
+
+### Naming contest — 10 comments, closes 25 Oct
+
+By likes: **Clifford ❤️ (2)** and an "I agree with this" reply (2) are tied at the top; then
+**The Fifty-Niner, Red Bed Betty, Big Red Booty Betty (BRBB), The Red Baron, Harrison** at 1
+each; **an ode to Betty Ford** and **Skrunt** at 0. Clifford is the top actual name
+submission. The Betty family has three separate entries and is the strongest cluster even
+though no single Betty leads.
+
+### Note on a past high performer
+
+The 29 Aug **FASS fuel system install** reel took **3,164 reach** — worth revisiting when
+picking the next sponsor-adjacent subject, since FASS remains an existing relationship with
+no follower minimum.
