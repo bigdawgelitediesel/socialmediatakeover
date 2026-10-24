@@ -385,3 +385,44 @@ though no single Betty leads.
 The 29 Aug **FASS fuel system install** reel took **3,164 reach** — worth revisiting when
 picking the next sponsor-adjacent subject, since FASS remains an existing relationship with
 no follower minimum.
+
+## Refresh 2026-10-24 — three big reels in one day, and two of my rules need softening
+
+Followers **251**. Three reels on 23 Oct, all of them large.
+
+| Posted (MT) | Caption | Reach | Likes | Cmts | Shares | Saves | Skip | Watch | ER |
+|---|---|---|---|---|---|---|---|---|---|
+| 10-22 18:35 | "What a shop dog actually looks like" (settled) | **2,545** | 165 | 2 | 17 | 3 | 26.3% | 13.3s | 7.4% |
+| 10-23 08:50 | **"Go so hard it even makes me worried."** | **2,521** | **278** | 1 | **18** | **13** | 35.8% | 7.7s | **12.8%** |
+| 10-23 15:41 | "Oh yall gonna love this one" (@iidiesel) | 1,266 | 76 | 0 | 3 | 0 | 27.3% | **16.1s** | 6.2% |
+
+**"Go so hard it even makes me worried" is the best-engaging post of the whole period:**
+278 likes, 18 shares, 13 saves, **12.8% engagement rate** — within range of the 14.80%
+PERSONAL pillar best, on 2,521 reach. Shares/reach **0.71%**, more than double the 0.3%
+target. Saves of 13 are the most in the October run by a wide margin.
+
+The dog reel also kept climbing: 1,855 → **2,545 reach**, 120 → **165 likes**, 7 → **17
+shares**. Again: reels are not settled before ~72 hours.
+
+### ⚠️ Correction — the 16:00–19:00 window is weaker than this file has claimed
+
+**"Go so hard" was posted at 08:50 Mountain and took 2,521 reach.** That is a morning post
+outperforming almost everything in the window. Earlier entries here treated the posting
+window as a primary lever on the strength of the 7 Oct morning/evening pair (144 vs 1,218).
+That pair is now better explained by the content than the clock. The window remains a
+reasonable default from the audience-online data in CLAUDE.md, but **it is a tiebreaker, not
+a driver** — do not tell Jake a good reel will fail because of the hour.
+
+### ⚠️ Correction — "one reel per day" was too strong; the real variable is spacing
+
+Two reels went up on 23 Oct **about seven hours apart** (08:50 and 15:41) and both performed
+(2,521 and 1,266 reach). The 19 Oct collapse involved two reels **53 minutes apart** (1,354
+vs 111). The rule should be **leave several hours between reels**, not one per day.
+
+### What the last week actually shows
+
+Nine reels since 17 Oct. The five that cleared 1,200 reach each had a clear subject — the
+truck's history, the decision, the dog, the "go so hard" moment. The four that died
+("The inside" 233, "Can I have a hand?" 162, "walk down this road" 111) had fragment
+captions naming nothing. **Subject clarity is the variable that keeps showing up, not
+timing.**
