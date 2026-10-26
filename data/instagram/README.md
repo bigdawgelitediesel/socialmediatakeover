@@ -426,3 +426,57 @@ truck's history, the decision, the dog, the "go so hard" moment. The four that d
 ("The inside" 233, "Can I have a hand?" 162, "walk down this road" 111) had fragment
 captions naming nothing. **Subject clarity is the variable that keeps showing up, not
 timing.**
+
+## Refresh 2026-10-26 — third-best reach ever, and ask-posts measured
+
+Followers **262** (was 251, +11 in two days — the best two-day gain on record).
+
+| Posted (MT) | Caption | Reach | Likes | Cmts | Shares | Saves | Skip | Watch |
+|---|---|---|---|---|---|---|---|---|
+| 10-23 08:50 | **"Go so hard it even makes me worried."** | **3,329** | **354** | 1 | 19 | 19 | 39.2% | 7.7s |
+| 10-22 18:35 | Shop dog | 2,545 | 170 | 2 | 17 | 3 | 26.3% | 13.3s |
+| 10-23 15:41 | "Oh yall gonna love this one" (@iidiesel) | 1,307 | 78 | 0 | 3 | 0 | 28.4% | 16.1s |
+| 10-24 13:45 | **"I need your help!"** | 1,064 | 68 | 4 | **0** | 1 | 32.5% | 15.0s |
+| 10-25 10:33 | **"Would love your support…"** | **229** | 32 | 2 | 1 | 0 | 40.7% | 6.2s |
+
+**"Go so hard" is the account's third-best reach ever** (171,025 / 3,636 / **3,329**) and
+third-best likes (1,241 / 419 / **354**). 19 shares and 19 saves, a **12.3% engagement
+rate** on 3,329 reach. It is the best non-outlier post this account has produced.
+
+### ⚠️ Ask-posts measured: they do not travel
+
+Two posts this week asked the audience for support rather than giving them something.
+
+| | Reach | Shares | Saves |
+|---|---|---|---|
+| "Go so hard" (subject) | **3,329** | 19 | 19 |
+| "I need your help!" | 1,064 | **0** | 1 |
+| "Would love your support…" | **229** | 1 | 0 |
+
+**"Would love your support" took 229 reach — roughly the follower count, meaning it reached
+almost no non-followers at all,** two days after a 3,329-reach post. It is the lowest-reach
+reel since the 19 Oct double-post collapse. "I need your help!" held 15.0s of watch time and
+still took **zero shares**.
+
+The mechanism is simple: an ask gives a viewer nothing to pass on, so sends/reach goes to
+zero, and sends/reach is the signal Mosseri named as governing distribution to non-followers.
+These posts are shown to existing followers and stop there.
+
+**They are not neutral — they spend momentum.** The account went 3,329 → 1,064 → 229 across
+three consecutive posts as the subject drained out of them.
+
+Note on the +11 followers: media-level `follows` does not exist (see Open Items in
+CLAUDE.md), so no post can be credited. The 3,329-reach reel is the likeliest driver on
+reach alone, but this is inference, not attribution.
+
+### Bearing on the planned Industrial Injection series
+
+Jake wants a "Day One of pitching Industrial Injection" series. The ask-post data above is
+the direct evidence for the warning already given: **a series built as "Day X of asking"
+is the same genre as "I need your help!" and will behave the same way** — reach confined to
+existing followers, near-zero shares, momentum spent.
+
+The series only works if every episode carries a subject that stands on its own (a real
+build step, a real reason, a real number) and the pitch is the frame around it rather than
+the content of it. See `playbook/07-script-tire-wheel-shoutout.md` for the same principle
+applied to sponsor content.
