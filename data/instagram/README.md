@@ -480,3 +480,59 @@ The series only works if every episode carries a subject that stands on its own 
 build step, a real reason, a real number) and the pitch is the frame around it rather than
 the content of it. See `playbook/07-script-tire-wheel-shoutout.md` for the same principle
 applied to sponsor content.
+
+## 2026-10-27 — VIRAL. 182,141 reach, 8,303 shares, and the conversion problem at full scale
+
+Followers **342** (was 262, **+80**). A reel posted 26 Oct 17:00 MT went wide.
+
+| | "Yo! Where the 10 mil @?!" |
+|---|---|
+| Views | **226,847** |
+| Reach | **182,141** |
+| Likes | **33,968** |
+| Comments | 34 |
+| **Shares** | **8,303** |
+| Saves | **1,676** |
+| Interactions | **46,088** |
+| Engagement rate | **25.3%** |
+| Skip rate | 35.3% |
+| Watch | 8.0s |
+
+**Shares/reach is 4.56%** — against a 0.3% target and a 0.045% account history. That is
+roughly **100× the historical share rate** and the single best signal this account has ever
+produced. Reach exceeds the July 2026 outlier (182,141 vs 171,025), making this the biggest
+post in the account's history.
+
+### ⚠️ The sobering half: 182,141 reach produced 80 followers
+
+**0.044% conversion.** The CLAUDE.md baseline is 0.037%. **Virality did not fix the
+conversion problem — it restated it at 400× the scale.** This is the second time the account
+has been handed six-figure reach (Jul 2026: 171,025 reach) and converted almost none of it.
+
+### This audience is not the diesel audience
+
+Comments on the viral reel reference DrDisrespect, "burnt peanut", gaming and meme culture:
+*"It's ironic because fan base is DrDisrespects fans"*, *"Dude not even funny with his 12
+year old fan base"*, *"I'm from Israel and I LOVE burnt peanut"*, *"FB25 POWERRR"*. Only one
+comment is trade-adjacent (a lube tech). **The reel traveled on a meme, not on diesel.**
+
+**Likes-to-comments is 999:1.** That ratio is characteristic of passive scroll-by consumption
+rather than an audience that cares who posted it.
+
+### The static post that followed reached 64 accounts
+
+A FEED image went up 27 Oct 03:56 MT, hours after the viral reel, and reached **64**. With
+the account's distribution at its hottest point ever, the next thing posted was the format
+that performs worst here. The 7.3 build questions in its caption are good content in the
+wrong wrapper.
+
+### What this makes urgent
+
+1. **The profile is the leak.** 182,141 people looked and 80 followed. Bio, pinned grid and
+   the first three reels a visitor sees are now the highest-leverage thing on the account.
+2. **The next 48 hours carry inflated distribution.** What gets posted now decides how much
+   of the lift is retained — it should be the F600 7.3 build, in reel form, so the traffic
+   sees what this account actually is.
+3. **Do not chase the meme.** Reach of this kind is not repeatable on demand and the audience
+   it brings does not buy fuel systems. The 23 Oct reel (3,329 reach, 12.3% ER, diesel
+   audience) is still the more valuable template.
