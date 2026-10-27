@@ -536,3 +536,18 @@ wrong wrapper.
 3. **Do not chase the meme.** Reach of this kind is not repeatable on demand and the audience
    it brings does not buy fuel systems. The 23 Oct reel (3,329 reach, 12.3% ER, diesel
    audience) is still the more valuable template.
+
+## Refresh 2026-10-27 ~21:00 UTC (local session)
+
+Followers **384**. Media count 78. Viral reel re-pulled at ~22h; new reel pulled at 35 min.
+
+| Date | Caption | Views | Reach | Likes | Cmts | Shares | Saves | Watch | Skip |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-27 20:25 | "You know when the build just isn't going as quickly..." (35 min) | 1,228 | 726 | 94 | 1 | 0 | 0 | 6.4s | **20.3%** |
+| 2026-10-27 03:56 | 7.3 build carousel "where do I get this machined" | 166 | 81 | 6 | 0 | 1 | 0 | — | — |
+| 2026-10-26 23:00 | "Yo! Where the 10 mil @?!" (22h, still climbing) | 342,222 | 284,911 | 50,358 | 81 | 11,273 | 2,550 | 8.1s | 36.6% |
+
+- Viral reel grew from 182,141 to 284,911 reach in the ~3h between the cloud log and this pull. Share rate 3.96% of reach, interactions 23.6% of reach.
+- Daily account reach: 31,543 (bucket ending 10-26 07:00 UTC) then **251,644** (bucket ending 10-27 07:00 UTC). Daily `follower_count` lags; the last bucket reads 0 while the profile shows 384. Use the profile number.
+- New reel: **20.3% skip rate is the lowest in account history** (prior best 28.4%). 726 reach in 35 min is roughly 10x the normal first-hour pace. Views/reach 1.69 = replays. Zero shares and saves at pull; the share column decides whether it travels.
+- The carousel reached 81 while sitting directly under a 285k-reach reel. Static is dead even with a hot profile.
