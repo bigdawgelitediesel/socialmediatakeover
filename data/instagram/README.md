@@ -567,3 +567,11 @@ Followers **445** (+61 in ~19h, +230 since the 15 Sep baseline of 215). Media co
 - New reel is now the **#3 reach of all time** (3,783) at 19 hours, passing the 23 Oct 3,329 reel. Skip rate drifted from 20.3% at 35 min to 35.1% as it reached colder audiences, still under the 40% rule. Share rate 2.5%.
 - All 5 comments on the new reel are tag-a-friend or one-liners. No diesel conversation on it. Same pattern as the viral reel: it travels as a meme.
 - Carousel reached 125 total. Confirms static is dead even under a 389k reel.
+
+### Profile changes 2026-10-28
+
+Jake pinned two reels: the 16 Oct F600 "hog" intro (`17920140294242628`) and the 23 Oct
+"Go so hard it even makes me worried" (`18023454059925990`). The third pin slot is reserved
+for a 20-second "start here" reel that has not been filmed yet. The viral meme reels are
+deliberately NOT pinned. Name field, bio rewrite, highlights and archiving the pre-Creator
+posts are still open as of this note.
