@@ -551,3 +551,19 @@ Followers **384**. Media count 78. Viral reel re-pulled at ~22h; new reel pulled
 - Daily account reach: 31,543 (bucket ending 10-26 07:00 UTC) then **251,644** (bucket ending 10-27 07:00 UTC). Daily `follower_count` lags; the last bucket reads 0 while the profile shows 384. Use the profile number.
 - New reel: **20.3% skip rate is the lowest in account history** (prior best 28.4%). 726 reach in 35 min is roughly 10x the normal first-hour pace. Views/reach 1.69 = replays. Zero shares and saves at pull; the share column decides whether it travels.
 - The carousel reached 81 while sitting directly under a 285k-reach reel. Static is dead even with a hot profile.
+
+## Refresh 2026-10-28 ~15:50 UTC (local session)
+
+Followers **445** (+61 in ~19h, +230 since the 15 Sep baseline of 215). Media count 78, nothing new posted since the 27 Oct 20:25 reel.
+
+| Date | Caption | Views | Reach | Likes | Cmts | Shares | Saves | Watch | Skip |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-27 20:25 | "You know when the build just isn't going as quickly..." (~19h) | 4,476 | 3,783 | 270 | 5 | 96 | 3 | 6.6s | 35.1% |
+| 2026-10-27 03:56 | 7.3 build carousel "where do I get this machined" | 249 | 125 | 9 | 0 | 1 | 0 | — | — |
+| 2026-10-26 23:00 | "Yo! Where the 10 mil @?!" (~41h) | 466,890 | 389,312 | 62,410 | 99 | 18,963 | 3,497 | 8.0s | 38.0% |
+
+- Viral reel added ~104k reach in the last 19h (284,911 → 389,312). Share rate 4.87% of reach. Still climbing but slower: ~5.5k reach/hr vs ~34k/hr in the first 3h window logged yesterday.
+- Follower conversion on the viral traffic is holding near 0.05%: roughly 60 follows per 100k reach across the last day.
+- New reel is now the **#3 reach of all time** (3,783) at 19 hours, passing the 23 Oct 3,329 reel. Skip rate drifted from 20.3% at 35 min to 35.1% as it reached colder audiences, still under the 40% rule. Share rate 2.5%.
+- All 5 comments on the new reel are tag-a-friend or one-liners. No diesel conversation on it. Same pattern as the viral reel: it travels as a meme.
+- Carousel reached 125 total. Confirms static is dead even under a 389k reel.
