@@ -76,8 +76,8 @@ advantage, not a limitation — see below.
 | Handle | **@elcoyotediesel** — "Jake Dalton" |
 | Type | Instagram **Creator** (`MEDIA_CREATOR`), **Instagram Login** path |
 | IG user ID | `17841415745423249` (app-scoped id is `28260235826936292` — not interchangeable) |
-| Followers / Following | **215** / 5 |
-| Posts | 53 on profile, **38** retrievable via API |
+| Followers / Following | **470** / 7 (3 Nov 2026; was 215 on 15 Sep) |
+| Posts | 81 on profile, **64** retrievable via API (3 Nov 2026) |
 | Access | Composio `instagram` toolkit, connection `instagram_metic-mutule` |
 
 ## The numbers that matter
