@@ -665,3 +665,34 @@ not the follower list.
 
 9–11am n=5 median 1,656 · 6–8am n=12 median 343 · 12–2pm n=11 median 508 · 3–5pm n=15 median 535 ·
 6–8pm n=7 median 361. Small samples; the 9–11am bucket is the only one that stands out and it is 5 reels.
+
+### Posting time, re-measured 2026-11-03
+
+`online_followers` now returns data (it was suppressed under 100 followers). 7-day average, Meta
+documents the hour keys as UTC, converted here to Mountain (MST, UTC-7):
+
+| Mountain hour | 0 | 2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 17 | 18 | 20 | 22 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Followers online | 157 | 185 | 195 | 203 | 207 | 210 | 191 | 156 | 92 | **62** | 70 | 88 | 143 |
+
+Peak is roughly 4am to 1pm Mountain; the trough is 4pm to 8pm. An early-riser trade audience,
+plus the ~20% international share, makes this plausible, and it agrees with the per-post data below.
+Caveat: 255 of the 470 followers arrived with the meme reel, so this curve is partly that audience.
+
+Reel views by Mountain 2-hour block of posting (62 reels, two outliers removed):
+
+| Block | n | Median views |
+|---|---|---|
+| 06-08 | 9 | 261 (mean 1,064; two big ones at 06:09 and 06:45) |
+| **08-10** | 4 | **2,031** |
+| 10-12 | 3 | 1,523 |
+| 12-14 | 6 | 816 |
+| **14-16** | 9 | **1,532** |
+| 16-18 | 10 | 367 |
+| 18-20 | 7 | 361 |
+
+Weekday medians: Thu 1,523 (n=9), Sat 1,200 (n=5), Mon 647, Fri 468, Tue 361, Wed 246. Small samples.
+
+**Working rule:** post 8 to 10am Mountain, or 1 to 3pm. Do not post 4 to 8pm. This replaces the
+original "16:00 to 19:00" window, which the 24 Oct correction already flagged as weak. Timing is not
+destiny: the viral reel went up at 5pm.
