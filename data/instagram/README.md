@@ -575,3 +575,93 @@ Jake pinned two reels: the 16 Oct F600 "hog" intro (`17920140294242628`) and the
 for a 20-second "start here" reel that has not been filmed yet. The viral meme reels are
 deliberately NOT pinned. Name field, bio rewrite, highlights and archiving the pre-Creator
 posts are still open as of this note.
+
+## Refresh 2026-11-03 ~16:30 UTC (local session) — the wave is over, full re-pull
+
+Followers **470** (+25 since the 28 Oct pull, +255 since 15 Sep). Media count 81, **64** API-visible.
+`posts.tsv` fully replaced from a complete re-pull of all 64 items. Account rollups saved to
+`account-insights-2026-11-03.json` (three trailing 30-day windows, daily reach/follows, demographics).
+
+**Three logged posts no longer exist** (deleted by Jake, all three were the weak formats): the 25 Oct
+"a follow is free" ask reel, the 21 Oct "Can I have a hand?" reel, and the 27 Oct 7.3 machining carousel.
+
+### 30-day account windows (total_value)
+
+| Window | Reach | Views | Profile views | Interactions | Shares | Follows gained / lost |
+|---|---|---|---|---|---|---|
+| 4 Oct – 3 Nov | **472,097** | 604,141 | **657** | 117,859 | 20,439 | **249 / 11** |
+| 4 Sep – 4 Oct | 66,469 | 124,427 | 122 | 850 | 23 | 16 / 3 |
+| 5 Aug – 4 Sep | 46,916 | 98,313 | 130 | 1,931 | 131 | 25 / 6 |
+
+- Follows per reach: 0.053% (249 / 472,097). Same conversion as the Sep baseline (0.037%) and the
+  27 Oct viral log (0.044%). Virality did not move it.
+- **Profile views → follows: 657 → 249 = 38%.** Prior windows were 13% and 19%. The profile page is
+  not where people leave; **0.14% of reach ever opens the profile.** The gate is upstream, inside the
+  reel: nothing in the viral content gives a viewer a reason to tap the name. (Caveat: follows can
+  happen from the reel without a profile visit, so 38% is an upper bound on profile conversion.)
+- Daily `follower_count`: 169 on 27 Oct, 12, 10, 5, then **1, 1, 0, 0** for 31 Oct – 3 Nov. The
+  viral tail is finished. The account is back to its pre-viral follow rate.
+- `profile_links_taps` still 0 across all three windows.
+
+### The viral reel, settled
+
+"Yo! Where the 10 mil @?!" at ~8 days: **495,229 views, 411,125 reach, 64,915 likes, 109 comments,
+20,103 shares, 3,689 saves.** Share rate 4.9% of reach. It added only ~22k reach between 28 Oct and
+3 Nov, so it is done. Comments are brake-cleaner / "burnt peanut" / gaming jokes; Jake replied to about
+a dozen with warm, on-brand replies and plugged the F600 7.3 swap in one of them. Good.
+
+### The July trailer reel resurfaced
+
+"Well it seemed like a good idea…" went from **260,008 views / 171,025 reach** (every log through
+28 Oct) to **396,640 views / 250,833 reach** (+137k views, +80k reach), likes 1,241 → 1,584. Daily
+account reach of 29k / 22k / 8k on 28–30 Oct is far more than the 10 mil reel added in that window, so
+the re-push most plausibly landed 28–30 Oct: Instagram served the old viral to the new audience.
+The catalog keeps working after a spike, which is the argument for making the catalog the build.
+
+### Post-viral posting (10 reels in 7 days, 28 Oct – 3 Nov)
+
+| Date (UTC) | Caption | Views | Reach | Shares | Watch | Skip |
+|---|---|---|---|---|---|---|
+| 10-28 21:10 | Just remember! | 4,905 | 3,756 | 13 | 6.8s | 32.9% |
+| 10-29 16:27 | They are out baby! What's the next step (F600 heads off) | 1,523 | 1,379 | 0 | 10.1s | 37.7% |
+| 10-29 18:47 | You know it's true 👀 | 4,572 | 3,589 | 68 | 5.5s | 45.2% |
+| 10-30 11:46 | I'm not the only one 😈 | 415 | 355 | 2 | 4.8s | 47.4% |
+| 10-30 16:04 | Yeah we went all the way! Check it out with… (brand) | 161 | 148 | 0 | 3.3s | **72.1%** |
+| 10-30 21:35 | What my mechanics really wanna say… | 468 | 385 | 14 | 3.5s | **72.2%** |
+| 10-30 23:15 | Big booty problems | 1,305 | 1,194 | 0 | 13.4s | 34.0% |
+| 11-01 23:32 | Oh hell no!!! | 315 | 229 | 1 | 5.9s | 36.7% |
+| 11-03 14:45 | Don't worry I still see you 😘 (2h old) | 261 | 193 | 0 | 3.8s | 46.7% |
+
+Plus the 27 Oct "build just isn't going as quickly" reel, now settled at 5,168 views / 4,417 reach /
+**112 shares** (#3 reach of all time).
+
+- Median reel views: pre-viral 485 → post-viral 887. The floor roughly doubled, for now.
+- Median watch time fell from 11.8s (6–25 Oct plan month) to 5.7s. The post-viral slate is meme
+  one-liners, not the talking/build reels that set the watch-time records.
+- 5 of 10 post-viral reels are over the 40% skip rule. The two at 72% are the two that died.
+- **Four reels on 30 Oct** (11:46, 16:04, 21:35, 23:15 UTC) restated the spacing finding: the two
+  middle ones reached 148 and 385.
+- The pattern is now unmistakable across 50+ reels: **meme reels share (68–112 shares, 4–5k views);
+  build reels hold (10–13s watch, 34–38% skip) and do not share.** Nobody has yet made a build reel
+  that shares. That is the single open creative problem.
+
+### Follower demographics shifted (lifetime, this_month)
+
+| | 15 Sep | 3 Nov |
+|---|---|---|
+| Followers | 215 | 470 |
+| US share | ~87% (187/215) | **80%** (377/470) |
+| Under 25 | small | **37%** (13–17: 51, 18–24: 121) |
+| 25–44 | 51% | 46% (213) |
+| Male (of known) | 76–88% | 90% (341 M / 37 F / 87 unknown) |
+| Countries | US, CA, a few | 34 countries, 30 of them with 1–3 followers |
+
+The viral traffic bought ~255 followers who skew younger and more international than the diesel
+core. 51 followers aged 13–17 do not buy fuel systems. The 15 Sep brand pitch ("87% US, 25–44,
+no bot dilution") is weaker today than it was, and should be re-cut on the engaged audience,
+not the follower list.
+
+### Posting hour (Mountain, all reels, median views)
+
+9–11am n=5 median 1,656 · 6–8am n=12 median 343 · 12–2pm n=11 median 508 · 3–5pm n=15 median 535 ·
+6–8pm n=7 median 361. Small samples; the 9–11am bucket is the only one that stands out and it is 5 reels.
