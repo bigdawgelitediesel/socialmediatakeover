@@ -247,8 +247,16 @@ def ramp_setpts(knots, dur_src):
 
 
 # ---------------------------------------------------------------- slot render
-def render_slot(i, s, tmp, prev_whip=None, next_whip=None):
+def render_slot(i, s, tmp, prev_whip=None, next_whip=None, cache=None):
     out = os.path.join(tmp, f"slot{i:02d}.mp4")
+    key = json.dumps([s, prev_whip, next_whip], sort_keys=True)
+    if cache:
+        import hashlib
+        h = hashlib.md5(key.encode()).hexdigest()[:12]
+        cpath = os.path.join(cache, f"slot{i:02d}-{h}.mp4"); cmeta = cpath + ".json"
+        if os.path.exists(cpath) and os.path.exists(cmeta):
+            d = json.load(open(cmeta))["dur"]; s["dur"] = d
+            print(f"   cached ({h})"); return cpath, d
     dur_out = float(s["dur"]); src_in = float(s["in"])
     ramp = s.get("ramp"); speed = float(s.get("speed", 1.0))
     vf = []
@@ -304,6 +312,8 @@ def render_slot(i, s, tmp, prev_whip=None, next_whip=None):
         run([FF, "-y", "-v", "error", "-i", out, "-vf", f"tpad=stop_mode=clone:stop_duration={dur_out - d + 0.1:.3f},trim=duration={dur_out:.3f}",
              "-c:v", "libx264", "-preset", "medium", "-crf", "15", "-pix_fmt", "yuv420p", *COLOR_TAGS, padded])
         out = padded
+    if cache:
+        shutil.copyfile(out, cpath); json.dump({"dur": dur_out}, open(cmeta, "w"))
     return out, dur_out
 
 
@@ -340,6 +350,7 @@ def main(edl_path):
     captions_only = "--captions-only" in sys.argv and os.path.exists(os.path.join(out_dir, f"{name}-NOCAP.mp4"))
     nocap = os.path.join(out_dir, f"{name}-NOCAP.mp4")
     tmp = tempfile.mkdtemp(prefix="reel3_")
+    cache_dir = os.path.join(out_dir, f".cache-{name}"); os.makedirs(cache_dir, exist_ok=True)
     try:
         slots = e["slots"]
         if not captions_only:
@@ -349,7 +360,7 @@ def main(edl_path):
                 next_whip = slots[i + 1].get("xfade", {}).get("type") if i + 1 < len(slots) and str(slots[i + 1].get("xfade", {}).get("type", "")).startswith("whip") else None
                 print(f"slot {i+1}/{len(slots)}: {os.path.basename(s['clip'])} in={s['in']} dur={s['dur']}" + (" HDR" if is_hdr(s['clip']) else "")
                       + (" ramp" if s.get("ramp") else "") + (f" speed={s['speed']}" if s.get("speed") else "") + (" zoom" if s.get("zoom") else "") + (" stab" if s.get("stab") else ""))
-                p, d = render_slot(i, s, tmp, prev_whip, next_whip)
+                p, d = render_slot(i, s, tmp, prev_whip, next_whip, cache=cache_dir)
                 parts.append(p)
             total = sum(float(s["dur"]) for s in slots)
             # ---- video chain
@@ -413,7 +424,7 @@ def main(edl_path):
                       + "aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo[aout]")
             lint(e, total)
             graph = os.path.join(tmp, "graph.txt"); open(graph, "w", encoding="utf-8").write(";\n".join(fc))
-            run([FF, "-y", "-v", "error", *inputs, "/filter_complex", graph, "-map", "[vout]", "-map", "[aout]", "-r", str(FPS),
+            run([FF, "-y", "-v", "error", *inputs, "-/filter_complex", graph, "-map", "[vout]", "-map", "[aout]", "-r", str(FPS),
                  *X264, *COLOR_TAGS, "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", "-movflags", "+faststart", nocap])
             print(f"wrote {nocap} ({total:.2f}s)")
         else:
@@ -427,7 +438,7 @@ def main(edl_path):
               f"ass='{sub}'" + (f":fontsdir='{fd}'" if fontsdir else "") + ":shaping=complex,format=yuv420p")
         run([FF, "-y", "-v", "error", "-i", nocap, "-vf", vf, *X264, *COLOR_TAGS, "-c:a", "copy", "-movflags", "+faststart", final])
         tags = run([FP, "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=pix_fmt,color_space,color_transfer,color_primaries,color_range", "-of", "csv=p=0", final]).stdout.strip()
-        print("tags:", tags, "OK" if tags.startswith("yuv420p,bt709,bt709,bt709,tv") else "BAD TAGS")
+        print("tags:", tags, "OK" if ("bt709,bt709,bt709" in tags and tags.startswith("yuv420p")) else "BAD TAGS")
         print(f"wrote {final}")
         sheet = os.path.join(out_dir, f"{name}-sheet.jpg"); n = max(1, int(round(total))); rows = (n + 4) // 5
         run([FF, "-y", "-v", "error", "-i", final, "-vf", f"fps=1,scale=216:384,tile=5x{rows}", "-frames:v", "1", "-q:v", "3", sheet])
