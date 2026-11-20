@@ -111,6 +111,12 @@ Style: Tag,Oswald Medium,38,{INK},{INK},{TAN},{TAN},0,0,0,0,100,100,4,0,3,14,0,1
 Style: Small,Montserrat SemiBold,36,&H00E6E6E6,&H00E6E6E6,{BLACK},{BLACK},0,0,0,0,100,100,1,0,1,0,0,5,90,90,0,1
 Style: SmallShadow,Montserrat SemiBold,36,{BLACK},{BLACK},{BLACK},{BLACK},0,0,0,0,100,100,1,0,1,0,0,5,90,90,0,1
 Style: Serif,Instrument Serif,120,{TAN},{TAN},{BLACK},{BLACK},0,-1,0,0,100,100,0,0,1,0,0,5,90,90,0,1
+Style: LockScript,Kaushan Script,170,&H003CD4F7,&H0000D4F7,{BLACK},{BLACK},0,0,0,0,100,100,0,-4,1,0,0,5,90,90,0,1
+Style: LockScriptShadow,Kaushan Script,170,{BLACK},{BLACK},{BLACK},{BLACK},0,0,0,0,100,100,0,-4,1,0,0,5,90,90,0,1
+Style: LockBlock,Anton,300,{WHITE},{WHITE},{BLACK},{BLACK},0,0,0,0,100,100,2,0,1,0,0,5,90,90,0,1
+Style: LockBlockShadow,Anton,300,{BLACK},{BLACK},{BLACK},{BLACK},0,0,0,0,100,100,2,0,1,0,0,5,90,90,0,1
+Style: LockSub,Poppins,46,{WHITE},{WHITE},{BLACK},{BLACK},0,-1,0,0,100,100,3,0,1,0,0,5,90,90,0,1
+Style: LockSubShadow,Poppins,46,{BLACK},{BLACK},{BLACK},{BLACK},0,-1,0,0,100,100,3,0,1,0,0,5,90,90,0,1
 Style: Band,Arial,20,{BLACK},{BLACK},{BLACK},{BLACK},0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1"""
 
 
@@ -197,6 +203,15 @@ def caption_events(caps):
         elif kind == "small":
             pos = tuple(c.get("pos", (540, 1400)))
             ev += two_layer("Small", c["start"], c["end"], esc(c["text"]), pos, shadow_blur=8, shadow_alpha="&H80&", dx=2, dy=4, fade=(120, 120))
+        elif kind == "lockup":
+            x, y = c.get("pos", (540, 640)); st, en = c["start"], c["end"]
+            gap_s = c.get("script_dy", -150); gap_b = c.get("block_dy", 60); gap_sub = c.get("sub_dy", 265)
+            # block word first (under), script overlaps its top edge, subline under
+            pop = "\fscx96\fscy96\t(0,160,0.6,\fscx100\fscy100)"
+            ev += two_layer("LockBlock", st, en, esc(c["block"]), (x, y + gap_b), tags=pop, shadow_blur=16, shadow_alpha="&H66&", dx=4, dy=8, fade=(100, 120))
+            ev += two_layer("LockScript", st + 0.08, en, esc(c["script"]), (x, y + gap_s), tags="\fscx92\fscy92\t(0,180,0.5,\fscx100\fscy100)", shadow_blur=14, shadow_alpha="&H66&", dx=4, dy=8, fade=(120, 120))
+            if c.get("sub"):
+                ev += two_layer("LockSub", st + 0.18, en, esc(c["sub"]), (x, y + gap_sub), shadow_blur=10, shadow_alpha="&H80&", dx=2, dy=4, fade=(120, 120))
         elif kind == "serif":
             x, y = c.get("pos", (540, 700))
             ev.append(f"Dialogue: 1,{ass_time(c['start'])},{ass_time(c['end'])},Serif,,0,0,0,,{{\\pos({x},{y})\\fad(200,200)\\blur0.4}}{esc(c['text'])}")
@@ -336,7 +351,7 @@ def render_slot(i, s, tmp, prev_whip=None, next_whip=None, cache=None):
 # ---------------------------------------------------------------- lint
 def lint(e, total):
     problems, warns = [], []
-    hooks = [c for c in e.get("captions", []) if c.get("type") == "hook"]
+    hooks = [c for c in e.get("captions", []) if c.get("type") in ("hook", "lockup")]
     if not hooks and e.get("captions"): problems.append("no hook caption")
     for h in hooks:
         n = len(h["text"].replace("\n", " ").split())
