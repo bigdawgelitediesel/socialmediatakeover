@@ -1,0 +1,151 @@
+TITLE: CapCut Tutorial for Beginners (2026) – Full Video Editing Guide
+CHANNEL: Metics Media
+VIEWS: 3496223
+DURATION_MIN: 14
+LANES: capcut
+URL: https://www.youtube.com/watch?v=j5_471mO14c
+
+- CapCut makes video editing easy, and since you clicked on this video, learning it is now
+going to be even easier. In under 15 minutes, I'll teach you everything
+that you need to know about editing your videos
+like a pro in CapCut. To sign up for CapCut for free, make sure you click the link at the top of this video's description. There you can sign up for CapCut, and if you decide to
+upgrade to CapCut Pro, you can make sure that you're getting the best available deal. Let's start by creating a new project, and you can do that by clicking on the big blue Create project
+button here at the top. Let's go ahead and click on that now. And now we've created a new project. This is the main interface of CapCut, so let's take a moment to get familiar with everything that
+we're looking at here. Starting from the left-hand side, we have our Media panel. This is where you'll import all of your footage, photos, and music. And you have some tabs up here, and we'll explore these
+in just a few minutes. Then towards the centre of the
+screen, we have the Player. While you're editing your video, you can preview everything
+that you're doing right here. Then towards the right-hand
+side of the screen, we have our Details panel. This will show you your project name, your aspect ratio,
+resolution, and other details. And if you click on
+the Modify button here, you can even change your project settings, change the name of your
+project, your aspect ratio, resolution, frame rate, and colour space. I'm happy with these settings, so I'll click on Cancel. Then let's check out the
+bottom of the screen here. This is our timeline. All of the editing that you
+do will take place right here. That's pretty much everything that you need to know about
+CapCut's default layout, and now let's import our
+footage and start editing. I'll start by clicking
+on this panel right here to find my footage. I have the three clips
+I'll be editing right here, so I'll start by selecting Clip 1. I'll hold down Shift and click on Clip 3, and that will highlight all three clips. Now I'll go to the bottom
+right here and click on Open, and now all three of those clips are added into my media bin here. And now we'll want to add this
+footage into our timeline, and there are two ways to do that. The first way is by hovering over a clip and selecting this blue
+plus button right here. And the second way is simply by dragging all of the clips into your timeline and dropping them here. And now that I've done that, all of my clips are in my timeline and they're ready to be edited. Now, I want to zoom into my timeline so I can see everything that
+I'm doing a little bit better, and there are a couple ways to do this. The first way is by holding
+down Control on your keyboard and pressing the plus
+button on your keyboard. Every time I press plus, it's zooming into the timeline. To zoom out of the timeline,
+again, hold down Control, and then press the minus
+button on your keyboard. Doing that will zoom out of the timeline. Now, the other way to do this and the way that I prefer doing it is by holding down Control and then scrolling up on your mouse wheel. Every time I scroll up it's zooming in, and then every time I scroll
+down it's going to zoom out. I'll zoom in a little bit more here, and I think that's just about right. Now let's talk about trimming your clips. Looking at Clip 1 here, it's currently about 11 seconds
+long, which is too much, so I'll use my playhead
+to go through my footage and find a point that I want
+to trim the footage down to. Your playhead is this little white marker here in your timeline and it indicates where
+you are in your video. So as I drag the playhead
+forward in the video, you can see in the Player there that it's actually going
+through the video live. As I move my playhead backwards, I go backwards in the video, and as I move it forwards,
+I go forward in the video. Now, looking at my footage here, I think I want to trim the footage down to right about here when the
+camera gets nice and centred. To trim this clip down, there are a couple
+different ways to do it. The first way is by splitting the clip. If I go to this small icon right here in my timeline and click on it, it will split the clip
+where my playhead is. You can also just press
+Control and B on your keyboard, so you don't have to keep
+clicking on this button over and over again. Now, since I don't want everything on this side of the playhead, I will just simply press the Delete button on my
+keyboard to get rid of it. The next way to trim your
+footage is by dragging the clip. So with my mouse here, if I go to the end of my clip, you'll see as I reach the end, it turns into this small icon. Once it does that, I can hold down left click on the clip and then drag it into my playhead. So I do that, it's lengthening
+and shortening the clip. Now, the final way to trim your footage is by pressing the W and
+Q keys on your keyboard. If I press the Q key on my keyboard, it will delete everything on
+the left side of the playhead. And now if I take my
+playhead and go back in, I can press the W key to delete everything on the
+right side of the playhead. Now, those are the main ways that you'll trim your footage in CapCut. Now, we've already covered the
+Split button here at the top, but let's look at some of the other tools that are available to
+us here in our timeline. Starting from the left, this is pretty much stuff
+we've already covered. We have our Undo and Redo buttons. Then we have Split along with W and Q. We also have our Delete button here, and then we have our Marker tool. Pressing this allows
+you to put markers down on your footage and timeline, and that allows you to
+indicate actions or points where you want to edit
+your footage in the future. Next to that, we have
+the Freeze frame button. If I click on this with a clip selected, it will create a still image of our clip. Next to that, we have the Reverse button. Clicking this will reverse your footage. Next to that, we have the Mirror button. If I click on this, it
+will simply flip the clip. Then we have the Rotate tool. Clicking on this will rotate our footage. We have our Crop tool. It allows me to crop the footage and make it look how I want. Now let's talk about adding
+transitions to our footage. If I take my playhead
+here, going through Clip 1, it just kind of abruptly cuts to this next clip here in Clip 2. To add a transition
+between these two clips, let's click on Transitions
+here at the top. To add a transition between two clips, take your mouse and hover over the different transitions
+here to preview them and see which one you like. Then once you find one that you do like, simply drag it between the two
+clips and then drop it here. Now, if I take my playhead
+and go back a little bit and press space bar on my
+keyboard to play the video. Now we have a nice cool
+transition between the two clips. To adjust the duration of the transition, have it selected here, and then go to the top right and you can make it faster or slower here. So if I drag the duration
+down to 0.5 seconds and then I go back and preview, the transition will be way faster. Now, I want to adjust
+the framing of my video. I can do that by clicking on
+the clip that I want to adjust. So I'll click on Clip 2 here. Now, I want to zoom in a little bit here on the person in the video. I can do that by adjusting
+the scale in the top right. I'll take the slider
+and drag it to the right to zoom into the video, and then I can use the
+position sliders here to adjust the position of the video, but I can also just drag
+the video around here. If I drag it to the middle, you'll see a blue ruler appear, and that's telling me that the
+video is centred vertically. If I drag it down a little bit, it will also centre
+horizontally here as well, so I'll drag it down a little bit to bring him to the middle of the frame. It's also worth mentioning that you can rotate your video here. If I take this little wheel and drag it, it will allow me to spin the video freely. I'll press Control + Z to undo that, and I'm happy with this new framing. Now, we zoomed into the
+footage by adjusting our scale, but what if we wanted to
+create a zoom animation? We can do that by using keyframes. If I go up here to Transform, you see this little
+diamond icon next to it. Once I click on it, you'll see in my clip in the timeline that there's a little blue keyframe that gets added to my video. Now, if I take my playhead and I go a little bit
+further into the video and then I adjust the scale, for example, I'll bring it to the right to zoom in, and once I let go here, it's going to add another
+keyframe to my video. Now, when I take my playhead and I go back and forth
+between these keyframes, you'll see there's a small
+zoom animation happening. Anything within CapCut that
+has a diamond icon next to it can be animated with keyframes. Next, let's talk about adjusting
+the speed of your video. You can do that by clicking on the Speed button here at the top. Then you can use this slider to speed up or slow down your footage. If I drag the slider to the
+right, it's gonna speed it up, and if I drag it to the left,
+it's gonna slow it down. Then you can also use
+the Duration feature here to adjust your video's speed. Let's say, for example,
+this piece of footage had to be 7 1/2 seconds long. So if I highlight the numbers here, I can change this to 7.5
+and then press Enter. And now down here, that
+adjusted my video's speed. Next, let's go up to the top
+here and click on Animation. And here we can add different
+animations to our video. We have in, out, and combo animations. These are kind of like transitions, but they're for individual clips. So if I click Out here and I'll just add the
+first one, which is TV Off, I can click on it and it's going to add an
+animation at the end of my clip. Similar to transitions, you can adjust the duration
+here at the bottom as well. So if I bring this down to,
+we'll say like one second, it will shorten that animation. Next, let's talk about adding filters and colour correction to your video. If I take my playhead here and I go back a little bit in the footage, then I go up to the Adjust button here, I can scroll down and do some basic colour
+correction on my video. I can change the colour temperature here, I could boost the saturation, and I can also make the video brighter by increasing the exposure. You also have access to a bunch of other settings here as well. Then to add a filter, go up to Filters here in the top left, and then you can drag on any
+of these filters that you want. I'll take this filter here and I can drag it to its own video track, or I can drag it into the footage itself. I'll just let go of it here, and now that filter has
+been added to my video. Now let's add some music
+into our project here. To access CapCut's stock music library, go up to the top here and click on Audio. Then you'll get access to CapCut's entire stock music library. If you want to preview a song, just click on the album cover here. (mellow music) I like this one, so to
+add it to my timeline, I'll simply drag and drop it
+underneath my footage here, and this will create a new audio track. With our audio selected in the timeline, let's check out the top right here, and we have some controls. We can decrease or increase the volume, we can fade in and out, we can normalise the loudness, and if this was a voiceover, we could enhance our voice,
+do an audio translator, we can reduce the background noise, we could separate the
+audio, or fill the channel. If I take a look at my music here, you'll see these orange and red dots. This is our waveform, and it's telling us that
+our audio is too loud. The red and orange dots mean
+that the audio is peaking. We can fix this by going to
+the top right and scrolling up and just simply decreasing the volume. You see as I decrease it, the waveforms get smaller. I'll also add a slight fade
+in and fade out to the audio. Next, let's add some auto-generated
+captions to our video. To do that, we'll first
+need to import a voiceover, so let's go to Media here in the top left. Then I'll click on Import here, and I'll upload this audio file here and I'll drag it below my
+music here in my timeline to create a new audio track. Next, I'll take my playhead and I'll drag it behind
+this new audio layer here, and then I'll go up here
+and click on Captions. Here you can change some options between the spoken language, whether or not you want
+bilingual captions. You can auto highlight
+keywords, add AI emojis, and identify filler words. Configure your settings here, and when you're ready, click on Generate. CapCut will automatically
+generate your captions for you. And then if I press play here. Here's how you add captions
+to your video in CapCut. And just like that, captions have been added to the video. Now, if I take my playhead and I go back at my timeline a little bit, I'm able to see how my captions look. This is just the default caption
+style here within CapCut. To change how your captions look, you can to the top right
+and edit everything here. If something is spelled
+wrong within your captions, you're able to highlight
+the word you want to fix and just retype it in here. You could also change
+the font if you want to, the font size. You can bold, underline,
+and italicise your captions, choose if they're uppercase or lowercase, change the colour, the alignment, and they also have some
+preset styles here. The white captions kind of
+blend into the background, so I'll go for the yellow captions here. You can click on
+Templates here at the top, and they have different
+templates available as well. So if I click on this one right here, and then I go back on my
+timeline and press play. Here's how you add captions
+to your video in CapCut. Now they're actually
+animated and look way cooler. Now, what if you're not looking to add captions into your video, but you do want to add
+your own custom text? To do that, go up to Text here at the top and then drag on the default
+text to your timeline. Can't really see it there, so I'll drag it up into the sky here. And then on the right-hand side, you have all of the same
+customization options that you did with your captions. So for example here, I could
+change this to say Skiing Trip. Then I can scroll down to the presets and find one that I like. I'll go for this one here. And you can also animate your text. With your text selected,
+click on Animation. And here we have in,
+out, and loop animations. So for example, I could use
+this typewriter animation to make my text come in. Then I can click on Out and I can add a little fade out
+animation here if I want to. Now, if I take my playhead and I go back to the
+beginning and press play, now I have some cool text that appears on screen with my captions. And with that done, I think
+I'm ready to export my video. To export your video, go
+up to the top right here and click on Export. Here you can change
+the name of your video, where you want the video to export to. You can change your resolution, bit rate, codec, format, and frame rate. You also have some audio, GIF, and caption settings here down below. And once you're happy
+with all of your settings, click on this blue Export button
+here to export your video. And just like that, you've edited your first video in CapCut. And don't forget to use the link at the top of this video's description to sign up for CapCut. And if you want access to
+all of CapCut's AI features, templates, assets, and more, make sure you upgrade to CapCut Pro. With that said, I hope you enjoyed and I'll see you in the next video.

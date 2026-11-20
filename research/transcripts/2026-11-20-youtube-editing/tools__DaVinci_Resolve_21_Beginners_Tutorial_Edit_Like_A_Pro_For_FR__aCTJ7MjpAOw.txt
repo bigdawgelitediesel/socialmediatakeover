@@ -1,0 +1,166 @@
+TITLE: DaVinci Resolve 21 Beginners Tutorial: Edit Like A Pro For FREE!
+CHANNEL: Ben Claremont
+VIEWS: 336995
+DURATION_MIN: 14
+LANES: tools
+URL: https://www.youtube.com/watch?v=aCTJ7MjpAOw
+
+So, you chose DaVinci Resolve. Good choice. In 
+this video, I'll get you up and running with   it in 14 minutes. Start by downloading the 
+very latest version of the software from the   Blackmagic website, which I'll link below. While 
+there is a paid Studio version, you can get 90%   of the functionality from the free version. Once 
+you've downloaded and installed it, this window   will pop up. This is where we're going to create a 
+new project. Give it a name and click Create. Now,   the main software will open up. And while DaVinci 
+is a very advanced video editor if you want it to   be, it can also be a simple one. So, you'll notice 
+down the bottom that there are different tabs   that are all designed to do something slightly 
+different. There's Media for importing your files,   Photo for editing photos, Cut for doing basic 
+cuts, Edit for doing more advanced editing,   Fusion for visual effects, Colour for 
+colour grading, Fairlight for audio editing,   and Deliver for exporting. If you're working on a 
+simple video, however, and you want to keep your   workflow on the shorter side, then you can head 
+straight to the Edit page. Now, the first thing   you need to know is that you don't need to save 
+your project ever. This is because DaVinci Resolve   automatically saves your project anytime you make 
+even the smallest change. Now, before we start   editing, you want to head down to the settings 
+icon here and click it. And this is where we can   change our project's resolution and frame rate. 
+I filmed at 4K, which is 3840 by 2160. But if you   shot at a different resolution, you want to select 
+it here with whichever frame rate your footage   was shot at. Mine was at 50, so I'm choosing 50. 
+So, make sure you check your clip settings so you   can adjust this frame rate to match it. If you're 
+unsure, I'd recommend 30 frames per second. Then,   go ahead and click Save. And this is what the 
+software should look like at this point in time.   Now, the actual interface I use for my YouTube 
+videos looks quite a bit different to this since   I edit with a lot of B-roll, graphics, and text. 
+So, I made my own colour-coded timeline that helps   me edit bigger projects faster and with minimal 
+friction. If you want a copy of it, it's included   for free inside my DaVinci Resolve Simplified 
+course. I'll link it down below if you're curious.   Next, we're going to import our video clips 
+into the project. To do that, we're going to   go to the Media Pool on the left-hand side. If it 
+doesn't show up, just click this Media Pool button   here. This is where we're going to drag and drop 
+our media files directly into the project. Now,   this box may appear when you do this, and what 
+this means is that the clip you just imported   doesn't match the project settings that we just 
+set. So, you will want to click Change so the   frame rates are consistent. Now, at any point 
+throughout your edit, you can add more videos,   photos, graphics, and music into the Media Pool. 
+So, I'm starting with these two clips here. Just   double-click one to have it show up in the viewer. 
+And you can easily scrub over this clip to see   what's inside it by dragging the red playhead. 
+Down the bottom, we've got the project timeline,   which is where we're going to edit these clips. 
+You can zoom in and out of the timeline through   the plus and minus slider here. All right, now 
+let's edit. To do so, drag your first clip from   the Media Pool down to the timeline. And you can 
+drop it anywhere, really. It doesn't have to be   right at the start. I like to leave a bit of space 
+at the start of my project if later on I want to   add a clip in front. And as for the timeline, the 
+blue track is video and the green track is audio,   as you can see by the waveforms of this clip. To 
+play your clip, you can either click and drag the   red playhead along the timeline or press spacebar 
+and it will play in real time. You can make both   your audio and video tracks bigger or smaller by 
+clicking and dragging the black bar at the top and   bottom. And I'd recommend a big audio track and a 
+small video track since this will help us identify   where to cut based on the waveforms. You can 
+also adjust other aspects of the workspace. So,   if you want to increase the size of the viewer, 
+just click and drag it down, as well as the Media   Pool size and other menus. Now, to make a cut to 
+a dialogue-heavy clip like this one, I'd recommend   selecting Linked Selection. And what that does is 
+it combines the audio and video tracks together as   one. So, any changes you make will automatically 
+be applied to both. Now, when we choose the Blade   over here, or B on your keyboard, and click at 
+this point in the timeline, it cuts the audio and   video at the same time. Then, when I press Delete, 
+it deletes both. Whereas, without the Linked   Selection, it only cuts one track at a time. 
+Now, you will want to be careful when using the   Blade tool to not accidentally have it selected 
+while you're navigating the timeline because   that's going to cut up your footage into a million 
+pieces. So, whenever you're not cutting, make sure   you switch back to the Arrow. Command or Control-Z 
+will also undo anything you do in Resolve. Another   way to cut down your footage is by hovering your 
+mouse over the edge of your clip until this icon   shows up and then clicking and dragging it either 
+right or left. You'll see that there's a white   outline there, and that indicates the overall clip 
+length, and therefore how many frames you have to   work with. Now, you can also move clips around on 
+your timeline. So, if you click a clip and drag   it, this will allow you to place it anywhere you 
+want, including on top of the other track. This   is commonly known as B-roll. And this is good 
+because it leaves the bottom clip untouched in   case later on you decide that you want to use it. 
+And naturally, whichever clip is on the very top   layer of the timeline will take precedence in 
+your video. Now, you can also delete an audio   track from your edit. As you can see here, my A 
+camera captured my voice. But the B-roll track has   this unusable soundtrack, which is just going to 
+be ambient sounds from when I was recording this   clip. And therefore, we should get rid of it so it 
+doesn't interfere with the main audio. To do that,   you want to make sure Linked Selection is off, 
+then click the audio you don't want, then press   Delete on the keyboard. Now, adding music works 
+the exact same way as adding B-roll clips. So,   I've got my music track here that I've downloaded 
+from Epidemic Sound. And you can either click and   drag it over to the Media Pool or directly onto 
+the timeline, where it automatically gets added   to the Media Pool. Anyway, now I'm going to zoom 
+out and drag this music track to the start of the   edit, which is where I want it to start. Now, just 
+like with the other tracks, you can also expand   the size of this new audio track so you can better 
+see the waveforms. And you'll notice that there's   a faint white line here, and this represents the 
+decibel level. If you click it and drag it up,   the music gets louder. If you drag it down, 
+it gets quieter. And if you're using music as   your background track in a talking-head video, I'd 
+recommend keeping the volume at minus 25 decibels   at the loudest. Otherwise, it's going to compete 
+too much with the voice. So, that's how you adjust   audio as a whole. However, sometimes you need to 
+make individual adjustments based on how loud or   quiet different sections of your video are. If you 
+want your music to fade in or out, you'll notice   this white keyframe icon here. If you click that 
+and drag it across, it will create a fade. You'll   find this at the end of your clip as well. As for 
+how loud or quiet your audio is, you can judge   that with the audio meters here to the right of 
+the timeline. If the meters don't show up, head   up to Workspace, then Show Panel in Workspace, and 
+Meters, and this will bring them up. So, now when   we play the clip, you can see the audio meters 
+rising and falling. And the ideal level you'll   want to aim for is somewhere between -10 and -5. 
+If they're above or below that, you want to adjust   the volume until it's consistently hitting that 
+sweet spot. Now, playing that clip back, and these   waveforms are looking good. Now, you will notice 
+as you look at the waveforms across your timeline   that some bits of audio are louder than others. 
+And this is usually because you were talking   louder at those parts. So, if we were to lower the 
+audio universally, it's going to lower everything,   including the clips that were the right volume. 
+So, instead, what we're going to do is pinpoint   the sections that are too quiet and keyframe the 
+audio so the entire dialogue track is even. So,   what I want to do is raise the volume of just this 
+section here, but not the vocals on either side.   So, I'm going to click the audio clip, and that 
+will bring up the settings here in the Inspector.   Now, under Volume, I'm going to place a keyframe, 
+which is this diamond icon. As you can see,   it's shown up on the timeline as this white dot. 
+I'm going to move the playhead now just a little   bit to the right. Now, I'll click the keyframe 
+icon again. Now, I'll go to the end and repeat the   process, adding one keyframe followed by another. 
+And now the outer keyframes are going to act as   the anchors. So, when I click and drag the faint 
+white line up, I've successfully isolated this   section of audio, and I'm only adjusting the 
+volume for this part and nothing else. There   is an automatic leveler that you can find here in 
+the Audio menu, and that is AI Dialogue Leveler.   If you turn that on, DaVinci will do its best to 
+lower the loud parts and raise the quiet parts.   However, I found this to be a bit hit and miss and 
+not quite as targeted as doing it manually. Now,   if you want to add titles to your video, you 
+can do so in the Effects tab, then choosing   Titles here down the bottom left. There are a few 
+different options here, and by hovering your mouse   over one, you can preview what the effect looks 
+like. However, I found these, for the most part,   to be quite gimmicky and not work well with my 
+videos. So, if you're keen to keep things simple,   I'd recommend choosing just the standard Text 
+option and clicking and dragging it onto the   timeline. Again, whatever is at the top of your 
+timeline layer hierarchy will be visible in your   final video. To customise the text, head over to 
+the right-hand side here and write whatever you   want. And then you can adjust the font as well 
+as the colour, size, spacing, and so on. You   can reposition it in your video by changing the 
+position coordinates until you're happy with the   final location of the text. You can click the 
+edges to drag it to cover more of your overall   video. And you can also add a simple fade by 
+clicking and dragging the white marker icon like   so. Next, let's talk about transitions. If you do, 
+in fact, want to add transitions to your video,   head over to the bottom left, which is where the 
+effects live, and click Video Transitions. Here   you'll find a whole bunch of preset transitions. 
+To add one, click and drag it across and drop it   on the outer edge of a clip. Now, when we play 
+it back, there we go. If you're working with two   clips on the same timeline, you can drag and drop 
+it in between the two, and it will apply the same   transition effect. So, those are all the basics of 
+editing a simple video in DaVinci Resolve. While   you can get super nerdy and go into the Fusion 
+menu and Fairlight for advanced audio editing   and advanced graphics, if you're a beginner, I'd 
+recommend keeping things simple and staying away   from those menus. You can head over to Colour, 
+however, since DaVinci Resolve was originally   known as being the world's best colour correction 
+software, and it still is. So, obviously, there's   a lot of different menus here and so much you 
+can do when it comes to colour correction. Again,   though, if you're just starting out, I'd recommend 
+keeping your workflow as simple as possible. So,   click on the clip that you want to colour correct, 
+then come down here to the colour wheels. And the   things I'd recommend adjusting are the colour 
+temperature, since sometimes shots can be either   too warm or too cool. So, this will help you 
+adjust that. Colour Boost will make your colours   look just a bit more colourful. However, I'd avoid 
+dragging it all the way up to 100, unless you   want your clip to look like it's out of a Disney 
+movie. Then, the shadows. If you drag that across,   you can selectively lighten the shadowy areas of 
+your shot. And then finally, the highlights. By   dragging it down, you can bring back detail in 
+some of your brighter highlights. Again, though,   you won't want to go too far with these. If you 
+look at the before and after, that is a massive   difference already after less than 60 seconds of 
+colour correction. So, you want to go ahead and   colour correct your clips until you're happy with 
+how they look. The final step you want to follow   is heading over to the Deliver tab. And before you 
+export, you'll want to set an in and out point,   which essentially tells DaVinci what part of the 
+timeline you actually want to include in your   final export. So, if we go to the very start of 
+our timeline and zoom in to the very first frame,   which is this one. Now, I'll press I on my 
+keyboard, and that has set the in point. Now,   I'll go to the very end of the timeline and 
+press O on the keyboard to set the out point.   I'd recommend keeping the export settings simple 
+here by clicking this dropdown and choosing H.265   Master. This will help keep your file size 
+down while retaining high video quality. Now,   it is important to check your export settings 
+here to make sure it's exporting at the   resolution and frame rate you want. If it's set 
+on Timeline Resolution and Timeline Frame Rate,   then it will match the numbers we set at the start 
+of the project. Give your file a name, choose a   save location, and then Add to Render Queue. 
+This will send it here to the right-hand side,   where all you need to do now is click Render All, 
+and your video should export in a few minutes. So,   now that you have your first project up and 
+running, the next step isn't to learn every   single feature of DaVinci Resolve, since it's 
+a really complicated software with thousands of   features and is going to totally overwhelm you 
+before you ever finish a video. The truth is,   90% of DaVinci Resolve is too complicated and 
+just unnecessary for most projects you'll be   working on. All you need is the right 10% in the 
+right order to produce professional-looking videos   that you're proud of. This is exactly what I teach 
+inside DaVinci Resolve Simplified. In the course,   I've taken the workflow that I've refined over 
+the past 20 years of editing and stripped away   everything a beginner doesn't need to know, giving 
+you a simple step-by-step path from starting a   project to final export. Learning the software 
+is one thing, but learning how to edit and how   to think like an editor is a completely different 
+skill. So, instead of getting lost in menus upon   menus and wondering what to do next, you can 
+follow the simplest and fastest workflow that   I use personally in a fraction of the time that 
+it would have taken you otherwise. So, if you're   finally ready to master the skill of editing, 
+I'll link DaVinci Resolve Simplified down below.

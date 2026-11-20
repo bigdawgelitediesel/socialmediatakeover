@@ -1,0 +1,278 @@
+TITLE: 21 BEST CapCut Tricks to Take you from a Noob to PRO! 🔥
+CHANNEL: Matt Loui
+VIEWS: 1284206
+DURATION_MIN: 18
+LANES: capcut
+URL: https://www.youtube.com/watch?v=pkyDzEHpZao
+
+Just get these editing tricks right and
+you'll be better than 90% of Cap Cut editors. [music]
+They're important, impactful, and will fasttrack your way to being a better
+Caput editor. I've edited thousands of videos inside of Caput and generated
+hundreds of millions of views. [music] These are the tricks I wish I knew
+sooner. Also, if you're the 1% that is super serious about being the best
+possible Caput editor, I crafted Caput Lab for you. It's the fastest and best
+way to become a professional caput editor. There's no obligation, but check
+it out if you're keen. It's a link in the description. This first trick is
+used all over reals and Tik Toks, and I've used it in some viral videos. It's
+darkening your background while keeping your subject light. This obviously helps
+to place things like graphics and text [music] behind your subject. Let me show
+you how to do it. With your video on your timeline, go to media and then
+swipe down to library. Then under trending, you'll find this black
+background with no time in the top right. This means that it's a still. Go
+ahead and drag that onto your timeline and place it above your video. We're
+then going to stay selected on that black background and increase the size
+until it fills your frame. Then select your video layer, hold down alt, and
+drag it above that black background. Then selected on your top video layer,
+you're going to go to video, remove background, and select auto removal.
+This is going to isolate your subject onto that top video layer. Then go to
+your black background, go to video mask, say add mask, and let's click on the
+split option. We're then going to drag this feather option all the way up to
+full. That is 100 points of feathering. What we're then going to do is go to the
+beginning of our timeline and select mask settings and then click on this
+little square option which says add key frame. We can then slide forward on our
+timeline just by a few seconds. Add another mask setting key frame and then
+use this last key frame option, click on it, and then drag our line all the way
+to the top. What you'll see now is between those key frames, we've created
+this gradient darken effect where we can place whatever text, graphics, or just
+separate our subject from the background. You can auto cut portions of
+silence or pauses directly from your video in a matter of seconds. With your
+video on your timeline, you're going to rightclick on that video and select
+transcript. Caput is then automatically going to analyze your video for areas of
+pauses, repeats, and filler words. Once it's done, go ahead and select delete.
+You can then see that we've gone from one solid video with pauses to a bunch
+of smaller clips where those pauses are now removed. When you're making a
+talking head video like I'm doing right now with lots of talking and pauses and
+retakes, it just saves a ton of time. Our next technique is how we hide cut
+points to create a seamlessly smooth edit. It's called a jump cut. And
+there's a particular trick that professional editors use. Now that we've
+removed our pauses, if I play our timeline, you'll see that between these
+two clips, there's a jump point. Now, you may like how that looks, but I like
+again to create a seamless edit. What you're going to do is stay selected on
+your second clip, go to video scale, and increase the size slightly. But what
+you'll see is we have a problem when playing between these two clips. In our
+first clip, our ey line is down here. And in our second clip, our ey line has
+been raised. That means every time your clip's cut and we create that jump cut,
+your viewer's eyes are going to be up and down, which isn't a great way to
+cut. So, there's a way that we're going to mitigate this. Selected on these
+three lines, you're going to go to guides and rulers, and then create a
+horizontal guide. Then, go to your first clip and drag this blue line directly
+over your eyes. We can also zoom into our player window to get a clear view of
+this. Then on your second clip, the one that you've zoomed in on, you can see
+that our eye point is all the way up here. So I'm just going to select on
+that video and drag my video down until our eye point is directly on that line.
+One more time. Let's reset the size in our player window. And when we play that
+now, our clip zooms in and our ey line stays exactly the same, leading to a
+smooth jump cut. When you're done with your guide, go back to those lines, say
+guides and rulers, and then select clear guides, and that will remove that blue
+line. So, on the topic of the best possible tools for you to use while
+editing, there is a tool that I have been absolutely loving lately, and it's
+called Pod [music] Castle. So, you know how creating short form videos can take
+so long. You've edited your whole main video, and now you want to transform it
+into some incredible shorts. Well, Pod Castle has a feature called [music] AI
+clips, and it's ridiculously good. You just upload your video and it
+automatically [music] finds the most engaging moments and
+turns it into clean vertical social ready clips for you to use. Captions,
+pacing, [music] all done. I've been using it to build out my Tik Toks and my
+Instagram reels without having to sit through and edit [music] hours of
+footage. And the other feature I've been loving is AI subtitles. Podcast
+generates [music] super accurate captions instantly. And the styling
+options are actually [music] good. You can customize the look, tweak the
+timing, and clean everything up in a really visual, creator friendly way. It
+just takes [music] that extra polishing step off your plate. These are only a
+few of the incredible features in [music] Pod Castle. If you want to try
+it out, I'll leave a link below. Go check out Pod Castle and level up your
+content workflow. Honestly, you may find that once you start editing with it, you
+won't [music] ever want to edit without it. Back to the Cap Cut video for some
+more incredible tricks. Another way to create a smooth edit is by using
+something called smooth zooms. And this is one of the most popular effects used
+in almost every YouTube video. It's a great effect for editing and to create a
+point of focus where you're making an important point. Find the clip that you
+want to zoom in on and select it. Then go over to your video basic tab and
+select transform and add key frame. Then swipe ahead on your timeline and create
+another key frame. Staying over the second key frame, we're going to go
+ahead and drag our scale tab slightly up to 118%.
+Now, when we scrub between those two key frames, you'll see that we've created
+this zoom, but this is just a linear zoom, and it's not that professional.
+So, what we're going to do is right click on our clip and say show variable
+speed animation. Then, you'll see that on our scale tab, we have this straight
+line indicating that there's a change in our scale. Go ahead and click on that
+line to highlight it yellow. go to this little graphs icon and then click on
+cubic ease. You'll see that our straight line is no longer straight but curved.
+Now when we play that scene, we've created a beautiful smooth zoom in. And
+this leads us on to our next technique, which is the fact that Capka gives you
+the option to speed up or slow down your zooms or your key frames. Let's say I
+felt like my zoom was a little bit too slow. I could go back to that base video
+layer and simply drag this key frame closer to the first one. Remember that
+the closer your key frames are together, the faster that animation is going to
+happen. And the further apart they are, the slower that animation is going to
+happen. You can see that there is a problem though. Our cubic ease kind of
+looks a little bit wonky. So, we can reselect that line, go back to your
+graphs icon, and then reselect cubic ease. That's going to reset that cubic
+ease graph so that when we play that, our zoom happens a whole lot faster. You
+can get super creative with voice effects directly inside of Cap Cut. And
+there's a couple of unique and creative use cases for this. Select on the video
+or audio layer that you want to change. Then go to the audio tab and select on
+voice changer. We could use something like post blast
+to create a hospital scene. Or maybe you want to sound like you're in an empty
+hallway while you're doing your recording to exaggerate a certain point.
+For this, you can either select the echo effect or select something like church.
+I like using an effect like echo because we can increase or decrease our quantity
+and strength for a more exaggerated or reduced effect. Or maybe you want to
+turn your voice into something super cinematic. For this, you're going to go
+to voice characters, swipe down, and select commentary male. This now turns
+your voice over >> into something out of a movie.
+>> And a bonus is you don't just have to use these voice effects on an actual
+voice. You can add a sound effect into Cap Cut and use the voice effects on
+that sound effect to create a super cinematic sound. Did you know that you
+can find anyone inside of your media browser? If you have multiple people in
+the footage that you've shot, all you need to do is have them inside your
+media bin, then select on the search tab, and Cap Cut will automatically
+analyze all the people within your video clips, and you can then find them. If I
+then click on myself, I'll find all the video clips and photos with me in them
+and the exact time in those videos that I feature. This makes it so easy to find
+specific people in their specific moments if you have a lot of clips and
+b-roll in your media browser. Did you know that in Caput you can add a shadow
+to anything you want? Let me show you how to use this. Here we have a Cap Cut
+logo on a white background. The problem is we can't actually see the Cap Cut
+logo because our background is white. So, what we're going to do is duplicate
+our Cap Cut logo. We're then going to select on that bottom layer. We're going
+to go to adjust. We're going to go to curves. And on our first luma curve,
+we're going to drag this line all the way down. What we've essentially done
+there is we've created a black version of that cap cut logo. Then, on that cap
+cut layer, right click, and select create compound clip. We're then going
+to go to our effects panel and search for an effect called blur. You can then
+select the first option and drag that directly onto that compound clip. You've
+now created your shadow. If you want to increase the size of that shadow, select
+on that compound clip, go to video basic and turn up your scale. You'll see that
+the more that we increase the scale, the bigger that shadow becomes. You can also
+reposition that shadow simply by holding on that layer and dragging it to the
+position that you want. When you have voice in your timeline, you can go to
+text [music] auto captions and create auto captions. Caput will automatically
+identify your voice and add captions for every specific word. As soon as our
+automatic captions are placed, you can select on one, go to animation, and
+whereas a normal default text layer would only have in, out, and loop
+animations, we now have this new tab of captions animations. Also, I've created
+a personal set of favorites, and you can just take a few seconds to look at that
+and pause the video if you need, but these are ones that I really like how
+those captions animate. Sometimes in Caput I edit a number of different
+videos within that specific timeline because I'm using the same elements,
+captions, or we've shot it in the same place, but I don't just want to export
+my whole timeline at one point and [music] then have to cut those videos up
+individually. So, what you can use are your in and out points. [music] Within
+this one point of the timeline, we have numerous different videos all separated
+by this [music] yellow background. I just want to export this video right
+here. So, I'm going to go to the first frame of that video by moving my
+playhead there, and I'm going to select I on my keyboard. This creates a portion
+of gray on the left, saying that nothing before this is going to be exported.
+Then I can go to the last frame that I want to export, and I can select O. This
+is going to create a portion to the right of that. That also isn't going to
+be exported. Now, when we click export, Cap Cut will only export this portion
+that we've highlighted. If you want to double check, go to export and you'll
+see that the duration is 38 seconds. Not the whole timeline, but it's just
+exporting these 38 seconds that we've selected with our I and our O points. If
+you've ever slowed down the speed of a clip and then your clip looks super
+choppy and unprofessional, this one is for you. You can create super slow
+motion in Cap Cut. And you don't even have to film in slow motion. Here we
+have a video of someone doing some fire dancing. And all we have to do is select
+on that video, go to speed, and start to turn down our speed. By selecting 0.5,
+we've essentially slowed down that clip by two times. And when we play that, you
+can see how choppy and just unprofessional this looks. All we then
+have to do is go to smooth slow motion, select that, and where it says frame
+blending, you're going to turn that to optical flow. Now, whereas this takes a
+little bit more time to apply, you're going to get a much better slow motion
+effect. Let's wait for this to apply and I'll show you the effect. Now, when I
+play my timeline, we've slowed that clip down by 50%, but we have this smooth,
+clear, slow motion. Motion blur helps to create realism because everything in
+life that moves has some sort of motion blur attached to it. So, not having it
+kind of feels amateur. And then once we added our animations and movement feels
+super professional. All you have to do is go to the file that you have motion
+on, right click, [music] and say create compound clip. Then still selected on
+that compound clip, you're going to go to video, swipe down until you find
+motion blur. Selecting motion blur, it gives you an option for blur intensity
+and blend. I find that leaving my motion blur at 100 creates a really nice
+effect. This is what the before looks like without the motion blur applied.
+And once we have the motion blur applied, this is what that animation
+looks like. So apply your motion blur wherever there's movement or animations
+in your video. In Cap [music] Cut, you automatically get access to thousands of
+professional sound effects simply by going to audio and then [music]
+selecting on the sound effects panel. We can search for any sound effect we wish.
+Add wishes and swishes to any movement and transitions. Add risers to create
+anticipation in your video and something called a hit when you make an important
+or lasting point. When you have a song on your timeline, you can stay selected
+over this little icon here and select either beats one or beats two. What Cap
+Cut is going to do is automatically identify the prominent beat points in
+that song and add little markers. If I zoom in here, you can see that at the
+start of each beat, we have that little marker. This makes it almost too easy to
+line up your clips and time your clips to cut and start exactly on the beat of
+your song. If you use a lot of reference media from YouTube, movies, or series
+like me in your edits, this trick is going to help save a ton of time. On our
+timeline, we have an intro from Mr. Beast. What I can do with my video on my
+timeline is right click on that video and say split scenes. Cupcot is going to
+automatically identify every single individual shot in that scene and create
+a cut point on those shots. We can then stay selected on the shot we want and
+simply lift that out of the scene and place that specific shot into our video.
+If you want a drag and drop way to increase the perceived quality of your
+videos, there's a filter that I use all the [music] time. Select it on my filter
+tab. I can go to the life option and then find one called clear. I'll then
+drag that onto my timeline and extend that over the entire timeline. If you
+want to see the before, that's the before and things are looking a little
+bit dull. And when I add that, the perceived overall quality of my video
+increases. So, use the clear filter to add some quality to your videos. Right
+next to filter, you'll find a tab called adjustment where we can hover over
+custom adjustment and click that little plus icon. This is going to add a yellow
+adjustment layer onto our timeline. Let's go ahead and extend that over all
+of the clips of us talking. What's cool about an adjustment clip [music] is when
+you click it, you get access to all the color features that Caput has. This
+means that you can make color adjustments to that adjustment clip and
+all the video clips that you have underneath that adjustment clip will
+automatically be affected. So to clearly demonstrate this, let's select on the
+adjustment clip and remove all the saturation from our video. Now when I
+swipe through my timeline, you'll see that all those clips, even though
+they're individual clips, none of them have any color in them. And this is
+really great for if you have a ton of different videos on your timeline. Make
+those tweaks to the adjustment layer and all of your clips will be impacted. And
+this brings us to one of our last tricks, but arguably one of the coolest.
+So, when you're selected on your adjustment layer, you'll see a tab
+called HSL. This stands for hue, saturation, and brightness. [music]
+What this does is it allows us to individually manipulate certain colors
+within our video. This is great for if you want to remove all the colors out of
+your video and maybe leave one prominent color that remains. Or in my case, for a
+talking head video, you'll see that we have some orange lights in our scene.
+But I don't think that this orange is exaggerated enough. So I could select on
+that orange tab and increase the saturation of that orange. You'll see
+that this is the before and this is the after where we've now created a much
+more dramatic effect. Let's say we wanted to turn up the brightness of that
+orange or decrease the brightness. We could do so as well by moving the
+brightness slider. And then one of the coolest features is you can actually
+change the color of that. So by moving the hue slider over to the right, our
+orange is now yellow. And by moving it over to the left, we've created a much
+different hue. Again, before and after, because we're selected on that orange
+circle, it is only going to impact that orange color. So, be creative and use
+the HSL tab to create some really cool creative effects. When you have a
+vertical video on your timeline, maybe for a real or a Tik Tok, it's not great
+to edit it in the standard player window. This is when you can make use of
+the vertical editor. Simply by clicking on this option right here and selecting
+vertical, your player window will move all the way over to the right where you
+get a much bigger preview window in order to edit your Tik Tok or real. In
+Caput, you can make an instant freeze frame just like this. And it's super
+easy how to do this. Select on the video and find the point that you want to add
+that freeze frame. Then all you have to do is hover over this icon right here
+and select on the freeze option. If we zoom in here, you'll see that we've
+created this 3second point of freezing. And then sometimes I like to drag a
+pause icon so that as we transition from our video, we have this pause icon and
+then we get back into the video once that pause icon disappears. And for our
+last trick, did you know that you can save videos for future timelines with a
+click of a few buttons? I created these logo animations for a different YouTube
+video that I was doing. If I wanted to save these for a future project, I could
+rightclick on that video and say save preset. Then if I go to media, go to
+yours and go to my presets, I can find that exact video that I made. The best
+part about this is let's say I open up a different project. I can find that
+preset that we saved. I can import it onto the timeline and there we have that
+logo animation. So maybe you have a logo animation that you've designed in Caput,
+save it as a preset, and you'll instantly get access to use it in every
+single project that you create. It's been a great time teaching you today. If
+you're serious once again about Capka, check out Caput Lab. Maybe you'll find
+something that you like. I don't doubt that it's going to be super beneficial
+as everybody that has taken the course has given great feedback that they've
+learned a ton.
