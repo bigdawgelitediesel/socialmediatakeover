@@ -5,9 +5,9 @@ Account snapshot 2026-11-20 (API pull): 577 followers, 102 posts. Pattern unchan
 | Reel | Length | Audio | Hook (frame 1) | Share line | Status |
 |---|---|---|---|---|---|
 | Harley Trade (Part 1) | 18.5 s | original dialogue | "how much you pay for that truck?" | send this to the guy who made a worse trade | ready, post first |
-| Lumber to SEMA (Part 2) | 27.6 s | silent, song added in IG | "67 year old truck." / "29 year old engine." | send this to someone who still has grandpa's truck | ready, post 1 to 2 days later |
+| Lumber to SEMA (Part 2) | 27.6 s | silent | number hook | grandpa's truck line | SCRAPPED by Jacob 2026-11-20 ("I don't like it"), files deleted |
 
-Files: Google Drive `My Drive/VIDEO/inbox/2026-11-20 Harley Trade (Reel 1)` and `.../2026-11-20 Lumber to SEMA (Reel 2)`, each with the final MP4, a no-captions MP4 for CapCut, the EDL, the .ass captions and a posting-kit README (caption, audio picks, checklist).
+Files: Google Drive `My Drive/VIDEO/inbox/Harley Trade (Reel 1) - completed 2026-11-20` (final MP4, no-captions MP4 for CapCut, posting-kit README). Rule: one folder per finished reel in inbox, named `<name> - completed <date>`, nothing else.
 Renderer: OneDrive `Desktop/VIDEO/tools/build_reel2.py` (xfade transitions, minterpolate slow motion, crop-expression punch-ins, vidstab, ASS karaoke captions from Whisper word timestamps, audio beds + loudnorm, `--captions-only` re-burn).
 
 Research behind the choices: `2026-11-20-diesel-reels-trend-research.md`, `2026-11-20-instagram-ranking-and-capcut-recipe.md`, `2026-11-20-cross-platform-trend-scan.md`.
