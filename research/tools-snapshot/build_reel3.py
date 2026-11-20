@@ -35,7 +35,7 @@ EDL JSON:
  ]
 }
 """
-import json, os, subprocess, sys, tempfile, shutil, math
+import json, os, subprocess, sys, tempfile, shutil, math, re
 
 BIN = os.path.join(os.environ["LOCALAPPDATA"], r"Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin")
 FF = os.path.join(BIN, "ffmpeg.exe"); FP = os.path.join(BIN, "ffprobe.exe")
@@ -202,10 +202,23 @@ def caption_events(caps):
     return ev
 
 
-def write_ass(path, caps):
+def styles_with(fontmap):
+    out = []
+    for line in STYLES.split("\n"):
+        m = re.match(r"Style: (\w+),([^,]+),(\d+),", line)
+        if m:
+            name = m.group(1); base = name.replace("Shadow", "")
+            if base in fontmap:
+                font, size = fontmap[base][0], fontmap[base][1]
+                line = line.replace(f"{name},{m.group(2)},{m.group(3)},", f"{name},{font},{size},", 1)
+        out.append(line)
+    return "\n".join(out)
+
+
+def write_ass(path, caps, fontmap=None):
     head = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\nLayoutResX: 1080\nLayoutResY: 1920\nWrapStyle: 0\n"
             "ScaledBorderAndShadow: yes\nKerning: yes\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
-            + STYLES + "\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
+            + (styles_with(fontmap) if fontmap else STYLES) + "\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
     with open(path, "w", encoding="utf-8-sig") as f:
         f.write(head + "\n".join(caption_events(caps)) + "\n")
 
@@ -389,8 +402,13 @@ def main(edl_path):
             for j, b in enumerate(beds):
                 inputs += ["-ss", f"{float(b['in']):.3f}", "-t", f"{float(b['dur']):.3f}", "-i", b["clip"]]
                 ms = int(float(b["at"]) * 1000); fade = float(b.get("fade", 0.08))
-                clean = ("highpass=f=90:poles=2,afftdn=nr=12:nf=-40:tn=1,deesser=i=0.3:m=0.5:f=0.6,"
-                         "acompressor=threshold=-20dB:ratio=3:attack=8:release=120:makeup=3dB:knee=4,alimiter=limit=-2dB:attack=5:release=50,") if b.get("clean") else ""
+                if b.get("clean") == "light":
+                    clean = "highpass=f=80:poles=2,afftdn=nr=6:nf=-45:tn=1,acompressor=threshold=-18dB:ratio=2.5:attack=10:release=150:makeup=2dB:knee=6,alimiter=limit=-2dB:attack=5:release=50,"
+                elif b.get("clean"):
+                    clean = ("highpass=f=90:poles=2,afftdn=nr=12:nf=-40:tn=1,deesser=i=0.3:m=0.5:f=0.6,"
+                             "acompressor=threshold=-20dB:ratio=3:attack=8:release=120:makeup=3dB:knee=4,alimiter=limit=-2dB:attack=5:release=50,")
+                else:
+                    clean = ""
                 fc.append(f"[{n_in}:a:0]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,asetpts=PTS-STARTPTS,{clean}"
                           f"volume={float(b.get('gain_db', 0))}dB,afade=t=in:d={fade},afade=t=out:st={float(b['dur']) - fade:.3f}:d={fade},adelay={ms}|{ms}[b{j}]")
                 voice_in.append(f"[b{j}]"); n_in += 1
@@ -420,7 +438,7 @@ def main(edl_path):
                 fc.append(f"[{n_in}:a:0]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,volume={float(sx.get('gain_db', -10))}dB,adelay={ms}|{ms}[fx{k}]")
                 mix_in.append(f"[fx{k}]"); n_in += 1
             fc.append("".join(mix_in) + f"amix=inputs={len(mix_in)}:duration=first:normalize=0,atrim=duration={total:.3f},"
-                      + ("loudnorm=I=-14:TP=-1.5:LRA=11:linear=true," if voice_in else "")
+                      + ("loudnorm=I=-14:TP=-1.5:LRA=11," if voice_in else "")
                       + "aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo[aout]")
             lint(e, total)
             graph = os.path.join(tmp, "graph.txt"); open(graph, "w", encoding="utf-8").write(";\n".join(fc))
@@ -431,7 +449,7 @@ def main(edl_path):
             total = probe_dur(nocap); print(f"captions-only: reusing {nocap} ({total:.2f}s)")
         # ---- captions + finishing filters + export recipe
         final = os.path.join(out_dir, f"{name}.mp4")
-        ass_path = os.path.join(out_dir, f"{name}.ass"); write_ass(ass_path, e.get("captions", []))
+        ass_path = os.path.join(out_dir, f"{name}.ass"); write_ass(ass_path, e.get("captions", []), e.get("fontmap"))
         sub = ass_path.replace("\\", "/").replace(":", "\\:")
         fd = (fontsdir or "").replace("\\", "/").replace(":", "\\:")
         vf = ("unsharp=5:5:0.5:3:3:0.0,deband=1thr=0.02:2thr=0.02:3thr=0.02:range=16:blur=1,noise=alls=3:allf=t,"

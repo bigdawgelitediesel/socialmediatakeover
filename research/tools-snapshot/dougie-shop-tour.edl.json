@@ -1,0 +1,216 @@
+{
+ "name": "dougie-shop-tour",
+ "out_dir": "C:/Users/Parts/OneDrive - Elite Diesel Service/Desktop/VIDEO/out/renders",
+ "fontsdir": "C:/Users/Parts/OneDrive - Elite Diesel Service/Desktop/VIDEO/tools/fonts",
+ "ambience": {
+  "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+  "in": 6.0,
+  "gain_db": -26
+ },
+ "slots": [
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 13.55,
+   "dur": 0.5,
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "zoom_ease": "out"
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 0.0,
+   "dur": 4.4,
+   "zoom": [
+    1.12,
+    1.42
+   ],
+   "zoom_anchor": 0.74
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 5.5,
+   "dur": 1.395,
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 7.95,
+   "dur": 1.395,
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 10.75,
+   "dur": 1.395,
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 13.4,
+   "dur": 1.4,
+   "speed": 0.5
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 15.8,
+   "dur": 1.3,
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 17.2,
+   "dur": 1.2,
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 14.3,
+   "dur": 2.6,
+   "xfade": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "speed": 0.55
+  }
+ ],
+ "audio": [
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 0.0,
+   "dur": 4.65,
+   "at": 0.3,
+   "clean": "light",
+   "fade": 0.06
+  }
+ ],
+ "sfx": [],
+ "captions": [
+  {
+   "type": "hook",
+   "text": "SAW A GUY HIT\nTHE DOUGIE",
+   "accent": "DOUGIE",
+   "start": 0.0,
+   "end": 2.4,
+   "pos": [
+    540,
+    450
+   ]
+  },
+  {
+   "type": "words",
+   "words": [
+    [
+     "So",
+     0.3
+    ],
+    [
+     "I",
+     0.58
+    ],
+    [
+     "just",
+     0.68
+    ],
+    [
+     "saw",
+     0.82
+    ],
+    [
+     "a",
+     1.02
+    ],
+    [
+     "guy",
+     1.16
+    ],
+    [
+     "hit",
+     1.32
+    ],
+    [
+     "the",
+     1.52
+    ],
+    [
+     "dougie",
+     1.62
+    ],
+    [
+     "in",
+     1.94
+    ],
+    [
+     "the",
+     2.02
+    ],
+    [
+     "Teton,",
+     2.12
+    ],
+    [
+     "so",
+     2.8
+    ],
+    [
+     "I",
+     3.04
+    ],
+    [
+     "thought",
+     3.5
+    ],
+    [
+     "I'd",
+     3.62
+    ],
+    [
+     "do",
+     3.78
+    ],
+    [
+     "it",
+     3.88
+    ],
+    [
+     "everywhere",
+     3.98
+    ],
+    [
+     "here",
+     4.22
+    ],
+    [
+     "in",
+     4.52
+    ],
+    [
+     "the",
+     4.64
+    ],
+    [
+     "shop.",
+     4.72
+    ]
+   ],
+   "end": 4.9,
+   "band": true
+  }
+ ]
+}
