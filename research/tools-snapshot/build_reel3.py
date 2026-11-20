@@ -40,6 +40,7 @@ import json, os, subprocess, sys, tempfile, shutil, math, re
 BIN = os.path.join(os.environ["LOCALAPPDATA"], r"Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin")
 FF = os.path.join(BIN, "ffmpeg.exe"); FP = os.path.join(BIN, "ffprobe.exe")
 W, H, FPS = 1080, 1920, 30
+RENDER_VERSION = "3.2-scdnone"   # bump whenever slot filters change so the slot cache invalidates
 TAN = "&H008CB3C9"      # #c9b38c  (ASS is &HAABBGGRR)
 WHITE = "&H00FFFFFF"; OFFWHITE = "&H00F2F2F2"; BLACK = "&H00000000"; INK = "&H00141414"
 
@@ -211,6 +212,8 @@ def styles_with(fontmap):
             if base in fontmap:
                 font, size = fontmap[base][0], fontmap[base][1]
                 line = line.replace(f"{name},{m.group(2)},{m.group(3)},", f"{name},{font},{size},", 1)
+                if len(fontmap[base]) > 2 and not name.endswith("Shadow"):   # optional primary colour override
+                    parts = line.split(","); parts[3] = fontmap[base][2]; parts[4] = fontmap[base][2]; line = ",".join(parts)
         out.append(line)
     return "\n".join(out)
 
@@ -262,7 +265,7 @@ def ramp_setpts(knots, dur_src):
 # ---------------------------------------------------------------- slot render
 def render_slot(i, s, tmp, prev_whip=None, next_whip=None, cache=None):
     out = os.path.join(tmp, f"slot{i:02d}.mp4")
-    key = json.dumps([s, prev_whip, next_whip], sort_keys=True)
+    key = json.dumps([RENDER_VERSION, s, prev_whip, next_whip], sort_keys=True)
     if cache:
         import hashlib
         h = hashlib.md5(key.encode()).hexdigest()[:12]
@@ -295,7 +298,7 @@ def render_slot(i, s, tmp, prev_whip=None, next_whip=None, cache=None):
     elif abs(speed - 1.0) > 1e-3:
         dur_src = dur_out * speed
         if speed < 1.0:
-            vf += [f"minterpolate=fps={FPS/speed:.3f}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1", f"setpts={1/speed:.4f}*PTS"]
+            vf += [f"minterpolate=fps={FPS/speed:.3f}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1:scd=none", f"setpts={1/speed:.4f}*PTS"]
         else:
             vf += [f"setpts={1/speed:.4f}*PTS"]
         vf.append(f"fps={FPS}")
@@ -334,7 +337,7 @@ def render_slot(i, s, tmp, prev_whip=None, next_whip=None, cache=None):
 def lint(e, total):
     problems, warns = [], []
     hooks = [c for c in e.get("captions", []) if c.get("type") == "hook"]
-    if not hooks: problems.append("no hook caption")
+    if not hooks and e.get("captions"): problems.append("no hook caption")
     for h in hooks:
         n = len(h["text"].replace("\n", " ").split())
         if n > 7: problems.append(f"hook has {n} words (max 7): {h['text']!r}")

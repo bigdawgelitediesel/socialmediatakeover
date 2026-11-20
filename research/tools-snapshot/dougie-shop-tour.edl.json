@@ -23,10 +23,10 @@
    "in": 0.0,
    "dur": 4.4,
    "zoom": [
-    1.12,
-    1.42
+    1.0,
+    1.06
    ],
-   "zoom_anchor": 0.74
+   "zoom_anchor": 1.0
   },
   {
    "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
@@ -209,8 +209,7 @@
      4.72
     ]
    ],
-   "end": 4.9,
-   "band": true
+   "end": 4.9
   }
  ]
 }
