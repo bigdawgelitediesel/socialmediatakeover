@@ -24,7 +24,7 @@ for i, s in enumerate(slots):
 cuts = t[1:]
 print("cuts at", [round(x, 2) for x in cuts])
 caps = [
-    {"type": "hook", "text": "SAW A GUY HIT\nTHE DOUGIE", "accent": "DOUGIE", "start": 0.0, "end": 2.4, "pos": [540, 600]},
+    {"type": "hook", "text": "SAW A GUY HIT\nTHE DOUGIE", "accent": "DOUGIE", "start": 0.0, "end": 2.4, "pos": [540, 450]},
     {"type": "words", "words": ws, "end": round(4.6 + V0, 2), "band": True},
     {"type": "tag", "text": "BAY 2", "start": cuts[1] + 0.1, "end": cuts[2], "pos": [72, 1390]},
     {"type": "tag", "text": "THE PETE", "start": cuts[2] + 0.1, "end": cuts[3], "pos": [72, 1390]},
