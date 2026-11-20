@@ -15,13 +15,13 @@ Read first, every time: `C:\Users\Parts\Desktop\socialmediatakeover\research\202
 5. Deliver: ONE folder per finished reel in `My Drive\VIDEO\inbox\` named `<Name> - completed YYYY-MM-DD` containing only the POST THIS mp4, the no-captions mp4 and `README - posting kit.txt` (caption, song + start offset, slider settings, checklist). Nothing else goes in the Drive. Never put raw clips in subfolders.
 
 ## Non-negotiable rules (short form)
-- Hook text on by frame 4, 3 to 7 words, one tan accent word, inside y 285 to 1248. Motion in frame 1 (push-in or flash-forward). First payoff by 4 to 5 s.
-- No visual unchanged over 3 s: every static shot gets an eased `zoom`. One speed ramp or half-speed moment per reel on real motion. Whip pans (`whip_left/right`) between locations, hard cuts otherwise, dissolve only at the loop seam.
+- Hook lockup on by frame 4, 3 to 7 words, placed in the empty part of the frame, never over his face. First payoff by 4 to 5 s. Open on the shot where the lockup has room; do not open on a close-up flash-forward.
+- Every static shot gets a small eased `zoom` whose `zoom_anchor` sits ON Jacob (0.8+ when he stands low in a wide; 1.0 keeps feet in frame). A wide where he is small stays nearly wide (max 1.06): bigger pushes read as drift toward the ceiling. One half-speed moment per reel on real motion (`scd=none` is built in). Hard cuts on the beat. Whip pans only when the camera itself moved; on a standing subject they smear him into a ghost.
 - Dialogue: `clean: true` beds, J-cut (audio 0.2 to 0.4 s before picture), trim pauses over 0.35 s, keep the breath before a punchline. Never ship digital silence: `ambience` bed always set.
-- SFX: whoosh on at most one cut in four, impact on the exact frame of the reveal or hook hit, riser 1 s before the payoff, click on text pops. Keep gains between -8 and -16 dB.
-- Text: build_reel3 styles only (Oswald Bold hook, Montserrat SemiBold per-word captions with blurred shadow layer, Label, Tag pill, Small, Serif). No strokes, no new fonts, no more than one accent color.
+- SFX: OFF by default. When a song is added in Instagram the song carries the cuts; transition whooshes fight it and Jacob called them weak. Only a real recorded sound on a real reveal in a reel with no music. The synthesized kit in tools/sfx is not shippable.
+- Text: ONE poster lockup on the hook, nothing else burned in. Use the `lockup` caption type with Jacob's locked combos (see research/FONT-LIBRARY.md): A LOUDER = Kaushan Script yellow over Anton white + Poppins Italic sub (default); B MEGANTE = Archivo Black deep red (`preset: megante`); C TROPI = Shrikhand taupe (`preset: tropi`). Place it in the empty part of the frame with Jacob low and whole. NEVER: per-word captions, caption band, location pills, on-screen CTA, Oswald/Montserrat caption systems, outlined text.
 - Color: no grade beyond "natural". Never add saturation. Verify bt709 tags.
-- End within 1.5 s of the payoff with a send line ("send this to the guy who...") plus the handle or series tag. No outro, no fade to black. Last frame rhymes with the first when possible.
+- End within 1.5 s of the payoff. No on-screen call to action, no handle card, no outro, no fade to black (Jacob: "the call to action is lame"). Any share line goes in the Instagram caption text only. Last frame rhymes with the first when possible.
 - Export is fixed in the tool (1080x1920, 30 fps, crf 17, 16 Mbps cap, closed 1 s GOP). Song is added inside Instagram; give Jacob the song and the beat grid start time.
 - Keep lint clean. If lint fails, fix the EDL, do not bypass.
 
