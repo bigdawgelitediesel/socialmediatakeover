@@ -1,0 +1,13 @@
+[00:00.0 -> 00:02.0] If you've ever wondered how people do this text effect,
+[00:02.2 -> 00:05.7] I'm going to show you exactly how to do it in the edits app in less than 60 seconds.
+[00:06.4 -> 00:08.8] That's insane. Let's see if Claude can make this for me.
+[00:09.0 -> 00:12.2] So how we're going to do this is I'm going to walk in from one side of the screen
+[00:12.2 -> 00:14.9] and move enough to show the text effect.
+[00:15.1 -> 00:17.6] Then you open Claude, use the Video Studio plugin,
+[00:17.8 -> 00:20.9] drop your raw clip with this prompt with Billy's Wheel,
+[00:21.0 -> 00:23.0] and you should get something that looks like this.
+[00:24.0 -> 00:25.1] Yeah, so Claude.
+[00:27.6 -> 00:30.4] Now if you want Claude to edit your videos in any style you want
+[00:30.4 -> 00:34.2] and have the ability to turn those videos into trial wheels and carousels,
+[00:34.3 -> 00:37.5] then just comment System and I'll send you a link to join my waitlist.
+[00:37.7 -> 00:39.6] Oh, and make sure to follow for more videos like this.

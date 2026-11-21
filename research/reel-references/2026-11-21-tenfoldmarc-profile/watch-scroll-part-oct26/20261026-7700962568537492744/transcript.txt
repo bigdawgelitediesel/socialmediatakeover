@@ -1,0 +1,11 @@
+[00:00.4 -> 00:06.6] This is how you create a Spotify scrolling effect. Let's go interesting. Let's see if Claude can make that
+[00:06.6 -> 00:13.2] Okay, so film yourself pretending to scroll then tap a song screen record on Spotify. Claude can probably do that
+[00:13.2 -> 00:18.3] All right, let's test it out. Okay, so scroll and then tap a song and let's see if it works
+[00:19.7 -> 00:22.5] All right, let's see how it did. Let me just play the video
+[00:23.2 -> 00:24.6] Wow, this is pretty good
+[00:24.6 -> 00:29.2] I just kind of wish that the song kept playing because it's fire now if you want to recreate this effect
+[00:29.2 -> 00:36.4] I'm releasing a full system where you just paste your raw clips full of mistakes and Claude trims splices and edits your own videos
+[00:36.4 -> 00:39.9] In your own style and it even includes 26 different video effects
+[00:39.9 -> 00:42.3] Just like this one that you can copy if you want it
+[00:42.3 -> 00:44.7] Then just comment studio and I'll send you the invite link
+[00:44.7 -> 00:47.0] Oh, and make sure to follow for more AI tips like this
