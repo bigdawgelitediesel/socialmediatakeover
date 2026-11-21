@@ -9,6 +9,10 @@ The pipeline, tiers, components and non-negotiables are in the `reel-editor` ski
 3. Name the one variable this post tests and the person type in caption line 1 before touching the EDL. If you cannot name who sends it to whom, the idea is not ready.
 4. Decide the tier.
 
+## Built for a million (first gate, 2026-11-21)
+
+Before the tier: which shape is this? Story (60 to 120 s, narrated, the trouble in sentence one, the answer held to the end), skit (55 to 70 s, one shot, one coworker, the turn on the last line) or loop (6 to 12 s, closed, a joke a stranger gets). If it is 20 to 40 s or needs a part name to be understood, it is not ready; rewrite the open or merge it into a story. Checklist in `research/2026-11-21-MILLION-VIEW-RULE.md` section 3.
+
 ## Tier chooser
 
 | Signal | Tier | Tool | Time |

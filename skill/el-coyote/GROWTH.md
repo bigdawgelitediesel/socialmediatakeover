@@ -2,7 +2,11 @@
 
 The strategist. Four jobs: read the numbers and name the lever, plan what to post, keep the profile converting, and land partners for SEMA. Rules by tag: `research/inventory/02-rule-index.md` (HOOK, SENDS, MEASURE, TRIBE, MEME, GATE, PROFILE, PARTNER, CALENDAR).
 
-## The diagnosis in one paragraph (2026-11-21)
+## The objective (changed 2026-11-21 afternoon)
+
+Jacob: "I'm changing the game. All the videos have to have over a million views, not 30K." Read `research/2026-11-21-MILLION-VIEW-RULE.md` before planning anything. In the 2,286-post watch list only 32 posts (1.4 percent) cleared a million; their median length is 68 s, none under 10 s on TikTok or YouTube, and they come from two shapes: the narrated story (60 to 120 s: Oversteer, DriveHub whose 14K-median channel got 5.76M on "Rare 7.3 Won't Start", Dave's) and the two-man skit (55 to 70 s: joegotti, 9 millions in 60 posts). Instagram adds the closed loop (6 to 12 s, replays counted; Jacob's own 506K). Everything 20 to 40 s and everything that needs a 7.3 to be understood is cut from the grid. The calendar in that file replaces the matrix calendar; `coyote.py plan` already reads it. Ranking at day 15 is by 7-day views; sends per reach and watch share at 48 h are the early warning. The paragraph below is still the mechanism that gets a post moving in its first two days.
+
+## The diagnosis in one paragraph (2026-11-21 morning)
 
 Reach is not the bottleneck and never was: the account gets 3 to 4 times its follower count in views per post and 99 percent of reach is non-followers. Hooks are fixed on the good cuts (Harley Trade 37.8 percent skip, 59 percent watch). Sends are not: build reels send at 0 to 0.06 percent of reach, memes at 1.5 to 4.9 percent, the 10-mil meme at 4.05 percent of views (506,827 views, 20,552 shares). Identity tests, inside jokes and named-tribe news get sent; spectacle and thank-yous get views or nothing. So the grade is sends per reach at 48 h (floor 1, goal 2), the lever is who the reel is for, and the method is the 5 x 6 matrix run two posts a day for 15 days then winners only.
 

@@ -33,6 +33,7 @@ except Exception:
 
 ROOT = Path(__file__).resolve().parents[1]
 MATRIX = ROOT / "research" / "2026-11-21-OUTLIER-MATRIX.md"
+MILLION = ROOT / "research" / "2026-11-21-MILLION-VIEW-RULE.md"   # 2026-11-21: the objective is a million views per video; its calendar and ideas 31+ win
 POSTS = ROOT / "data" / "instagram" / "posts.tsv"
 PLAN_LOG = ROOT / "data" / "instagram" / "plan-log.tsv"
 PENDING = ROOT / "data" / "instagram" / "pending-reads.tsv"
@@ -55,8 +56,12 @@ def ideas() -> dict[int, dict]:
     txt = _matrix_text()
     s = txt.index("## 4. The 30 ideas"); e = txt.index("## 5. The 30-day calendar")
     block = txt[s:e]
+    if MILLION.exists():
+        mt = MILLION.read_text(encoding="utf-8")
+        if "### Ten new ideas" in mt:
+            block += "\n" + mt[mt.index("### Ten new ideas"):mt.index("## 5. The calendar")]
     out = {}
-    pat = re.compile(r'^\*\*(\d+)\. (.+?): "(.+?)"\*\*\s*\n(.*?)(?=^\*\*\d+\. |^### |\Z)', re.M | re.S)
+    pat = re.compile(r'^\*\*(\d+)\. (.+?): "(.+?)"\*\*\s*\n(.*?)(?=^\*\*\d+\. |^### |^## |\Z)', re.M | re.S)
     for m in pat.finditer(block):
         n = int(m.group(1)); head = m.group(2); title = m.group(3); body = m.group(4).strip()
         cell = head.split(" (")[0].strip()
@@ -65,8 +70,11 @@ def ideas() -> dict[int, dict]:
 
 def calendar() -> list[dict]:
     """Section 5 table rows: Day | Date | Slot | Idea | Cell | ... """
-    txt = _matrix_text()
-    s = txt.index("## 5. The 30-day calendar"); e = txt.index("### The ranking rule")
+    txt = _matrix_text(); s = txt.index("## 5. The 30-day calendar"); e = txt.index("### The ranking rule")
+    if MILLION.exists():
+        mt = MILLION.read_text(encoding="utf-8")
+        if "## 5. The calendar" in mt:
+            txt = mt; s = txt.index("## 5. The calendar"); e = txt.index("## 6. Ranking")
     rows = []
     for line in txt[s:e].splitlines():
         if not line.startswith("|"): continue
@@ -103,7 +111,7 @@ def write_tsv(p: Path, rows: list[dict], cols: list[str]):
 
 PENDING_COLS = ["media_id", "label", "posted_iso", "due_iso", "status"]
 PLAN_COLS = ["day", "date", "slot", "idea_n", "media_id", "reach_48h", "sends", "sends_per_reach_pct", "skip_pct", "saves_per_reach_pct", "note"]
-READ_COLS = ["read_at", "media_id", "label", "posted", "age_h", "views", "reach", "likes", "comments", "shares", "saves", "sends_per_reach_pct", "likes_per_reach_pct", "saves_per_reach_pct", "skip_pct", "avg_watch_s", "watch_pct", "grade", "verdict"]
+READ_COLS = ["read_at", "media_id", "label", "posted", "age_h", "views", "reach", "likes", "comments", "shares", "saves", "sends_per_reach_pct", "likes_per_reach_pct", "saves_per_reach_pct", "skip_pct", "avg_watch_s", "watch_pct", "grade", "tier", "verdict"]
 
 # ---------------------------------------------------------------- commands
 def today(args) -> dt.date:
@@ -134,7 +142,7 @@ def cmd_plan(args):
             lg = log.get((r["day"], r["slot"]))
             if lg and lg.get("media_id"):
                 print(f"  LOGGED: media {lg['media_id']} reach {lg['reach_48h']} sends/reach {lg['sends_per_reach_pct']}% skip {lg['skip_pct']}%")
-    print("\nEvery post: one topic, one lockup at most, no on-screen ask, caption line 1 names a person type, song in-app, pin a comment repeating the person type, share to Story with the same line, 48 h read logged.")
+    print("\nEvery post is built for a million (research/2026-11-21-MILLION-VIEW-RULE.md section 3): stranger test, one universal emotion, a number in the title, the answer held to the end, story 60 to 120 s / skit 55 to 70 s / loop 6 to 12 s, a question that splits the comments, TikTok and Shorts the same day. Craft rules unchanged: one lockup at most, no on-screen ask, caption line 1 names a person type, song in-app, 48 h and 7-day reads logged.")
 
 def cmd_idea(args):
     ids = ideas()
@@ -289,6 +297,7 @@ def grade_post(post: dict, durations: dict, now: dt.datetime) -> dict:
     watch_s = round(watch_ms / 1000, 1) if watch_ms else None
     watch_pct = round(100 * watch_s / dur, 0) if (watch_s and dur) else None
     verdicts = []; grade = "no read"
+    tier = "MILLION" if views >= 1_000_000 else "CANDIDATE" if views >= 100_000 else "building" if views >= 10_000 else "-"
     if reach and reach < 500: verdicts.append("under 500 reach: no read, does not rank")
     elif reach:
         if spr is not None:
@@ -305,7 +314,7 @@ def grade_post(post: dict, durations: dict, now: dt.datetime) -> dict:
     return {"read_at": now.isoformat(timespec="minutes"), "media_id": post.get("id"), "label": cap[:60], "posted": ts, "age_h": age_h,
             "views": views, "reach": reach, "likes": likes, "comments": comments, "shares": shares, "saves": saves,
             "sends_per_reach_pct": spr, "likes_per_reach_pct": lpr, "saves_per_reach_pct": svr, "skip_pct": skip,
-            "avg_watch_s": watch_s, "watch_pct": watch_pct, "grade": grade, "verdict": "; ".join(verdicts), "permalink": post.get("permalink", ""),
+            "avg_watch_s": watch_s, "watch_pct": watch_pct, "grade": grade, "tier": tier, "verdict": "; ".join(verdicts), "permalink": post.get("permalink", ""),
             "media_product_type": post.get("media_product_type", "")}
 
 def cmd_grade(args):
@@ -316,20 +325,27 @@ def cmd_grade(args):
     now = dt.datetime.now(dt.timezone.utc)
     rows = [grade_post(p, durations, now) for p in posts]
     rows = [r for r in rows if (r["media_product_type"] or "REELS") == "REELS"] or rows
-    print(f"{'posted':<16} {'age':>5} {'views':>7} {'reach':>7} {'sends':>5} {'s/r%':>5} {'skip':>5} {'watch':>5} {'l/r%':>5} {'grade':<6} caption")
+    print(f"{'posted':<16} {'age':>5} {'views':>9} {'tier':<9} {'reach':>7} {'sends':>5} {'s/r%':>5} {'skip':>5} {'watch':>5} {'48h':<6} caption")
     for r in rows:
-        print(f"{(r['posted'] or '')[:16]:<16} {str(r['age_h'] or ''):>5} {r['views']:>7} {r['reach']:>7} {r['shares']:>5} {str(r['sends_per_reach_pct'] or ''):>5} {str(r['skip_pct'] or '')[:5]:>5} {str(r['watch_pct'] or '')[:5]:>5} {str(r['likes_per_reach_pct'] or ''):>5} {r['grade']:<6} {r['label'][:48]}")
+        print(f"{(r['posted'] or '')[:16]:<16} {str(r['age_h'] or ''):>5} {r['views']:>9,} {r['tier']:<9} {r['reach']:>7} {r['shares']:>5} {str(r['sends_per_reach_pct'] or ''):>5} {str(r['skip_pct'] or '')[:5]:>5} {str(r['watch_pct'] or '')[:5]:>5} {r['grade']:<6} {r['label'][:44]}")
         if r["verdict"] and args.verbose: print(f"{'':>16} -> {r['verdict']}")
+    byv = sorted(rows, key=lambda r: -(r["views"] or 0))
+    print("\nRanked by views (goal 1,000,000; 100,000 is a candidate):")
+    for r in byv[:5]: print(f"  {r['views']:>9,}  {r['tier']:<9} sends/reach {str(r['sends_per_reach_pct'] or '-'):>5}%  watch {str(r['watch_pct'] or '-'):>4}%  {r['label'][:50]}")
     good = [r for r in rows if r["reach"] and r["reach"] >= 500 and r["sends_per_reach_pct"] is not None]
     if good:
         good.sort(key=lambda r: (-(r["sends_per_reach_pct"] or 0), r["skip_pct"] or 99))
-        print("\nRanked by sends per reach (reach 500+):")
+        print("\nEarly warning at 48 h, sends per reach (reach 500+):")
         for r in good[:5]: print(f"  {r['sends_per_reach_pct']:>5}%  skip {str(r['skip_pct'])[:4]:>4}  {r['label'][:60]}")
     if args.log:
         old = read_tsv(READS); old += rows; write_tsv(READS, old, READ_COLS)
-        pend = read_tsv(PENDING); got = {r["media_id"] for r in rows if (r["age_h"] or 0) >= 44}
+        pend = read_tsv(PENDING)
+        ages = {r["media_id"]: (r["age_h"] or 0) for r in rows}
         for p in pend:
-            if p["media_id"] in got: p["status"] = "read"
+            a = ages.get(p["media_id"])
+            if a is None: continue
+            if "7-day" in p["label"] and a >= 164: p["status"] = "read"
+            elif "7-day" not in p["label"] and a >= 44: p["status"] = "read"
         write_tsv(PENDING, pend, PENDING_COLS)
         # posts.tsv: add rows that are not there yet
         posts_rows = read_tsv(POSTS); have = {p["media_id"] for p in posts_rows}
@@ -354,6 +370,7 @@ def cmd_pending(args):
         posted = dt.datetime.fromisoformat(args.posted)
         due = posted + dt.timedelta(hours=48)
         pend.append({"media_id": args.media_id, "label": args.label, "posted_iso": posted.isoformat(timespec="minutes"), "due_iso": due.isoformat(timespec="minutes"), "status": "due"})
+        pend.append({"media_id": args.media_id, "label": args.label + " (7-day views read)", "posted_iso": posted.isoformat(timespec="minutes"), "due_iso": (posted + dt.timedelta(days=7)).isoformat(timespec="minutes"), "status": "due"})
         write_tsv(PENDING, pend, PENDING_COLS); print("added")
     elif args.action == "done":
         for p in pend:
@@ -398,7 +415,7 @@ def cmd_status(args):
     dayn = (d - first).days + 1
     print(f"El Coyote status · {now:%a %b %d %H:%M} MT")
     if dayn < 1: print(f"  30-day plan starts {first:%a %b %d} (in {1 - dayn} days). Bank the skits and memes now.")
-    elif dayn <= 15: print(f"  Day {dayn} of 30 (ideas phase). Day 15 ranking on Sun Dec 7.")
+    elif dayn <= 15: print(f"  Day {dayn} of 30 (built for a million: story PM, skit or loop AM). Day 15 ranking by 7-day views on Sun Dec 7.")
     elif dayn <= 30: print(f"  Day {dayn} of 30 (winners-only phase).")
     else: print("  The 30-day plan is over; rank, keep the winning cells, write the next matrix.")
     rows = [r for r in cal if r["date"] == d]

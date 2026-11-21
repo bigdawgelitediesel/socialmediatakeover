@@ -48,6 +48,6 @@ Caption (line 1 first), song and downbeat offset (song added in-app), cover fram
 
 `coyote.py week` prints the Monday list. Monthly: profile spec (name field `Jake Dalton | 7.3 Diesel Builds`, bio first line "Building a 1959 Ford F600 on a 7.3 Powerstroke", no shop line, pins Harley Trade + "Why companies hate your truck" + the current Rival episode, highlights RIVAL / PARTS / CHIEF / JAKE, cover on every reel), `site/media-kit.html` numbers, F600 portal partner numbers (that repo: `git fetch` first, builder voice, run build.mjs and deploy).
 
-## Cross-posting (decided 2026-11-21)
+## Cross-posting (decided 2026-11-21, made mandatory the same afternoon by the million-view rule)
 
-TikTok 1 to 2 a day from the same masters, YouTube Shorts via Buffer Free, Facebook toggle on. Instagram is the home; nothing is edited differently for the mirrors. YouTube channel exists for the Shorts mirror and milestone episodes only (`research/2026-11-21-youtube-decision.md`).
+Every post goes to TikTok and YouTube Shorts the same day as Instagram, from the same master (the millions in the watch list are TikTok and YouTube; DriveHub's 14K-median channel got 5.76M on Shorts). Shorts via Buffer Free or by hand, Facebook toggle on. Instagram is the home; nothing is edited differently for the mirrors. The posting kit lists all three with the same caption line 1. YouTube channel exists for the Shorts mirror and milestone episodes only (`research/2026-11-21-youtube-decision.md`).

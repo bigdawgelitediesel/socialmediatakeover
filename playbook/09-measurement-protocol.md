@@ -43,6 +43,18 @@ Single reel: `INSTAGRAM_GET_IG_MEDIA_INSIGHTS` with `metric: ["views","reach","s
 
 Download the posted reel with yt-dlp (`yt-dlp.exe https://www.instagram.com/reel/<id>/`), run `tools/smooth_check.py` on it, compare against the master (libvmaf when needed), and log any difference Jacob's finishing pass introduced (research/2026-11-21-capcut-edits-finishing.md handoff rules). Fold repeated differences into the rules.
 
+## The million-view objective (added 2026-11-21 afternoon)
+
+Jacob: "All the videos have to have over a million views, not 30K." The 48 h read above stays as the early warning; the judge is now views at 7 days. Both reads are scheduled by `coyote.py pending add` and graded by `coyote.py grade` (tier column: building 10,000, CANDIDATE 100,000, MILLION 1,000,000).
+
+| Metric | Read at | Floor | Goal | If it misses |
+|---|---|---|---|---|
+| Views | 7 days (and 30 days for the loops, which keep compounding) | 100,000 (167 times the account median) | 1,000,000 | the first sentence failed the stranger test, or the shape was wrong (20 to 40 s, tribe-only); rewrite the open and the title number, not the footage |
+| Sends per reach at 48 h | 48 h | 1 percent | 2 percent | early warning: under 1 percent with watch under 60 percent, the post will not travel; log and move on |
+| Watch share | 48 h | 50 percent | 60 percent | the answer was given too early or the middle sagged; hold the payoff to the last ten seconds |
+
+Shapes and the checklist: research/2026-11-21-MILLION-VIEW-RULE.md. Every post also goes to TikTok and Shorts the same day; log those view counts in the 7-day read when available.
+
 ## Change one thing per post
 
 A reel is an experiment with one variable: the hook move, the caption first line, the length, the format. Two variables changed means nothing was learned. Trial Reels make this cheap once unlocked.
