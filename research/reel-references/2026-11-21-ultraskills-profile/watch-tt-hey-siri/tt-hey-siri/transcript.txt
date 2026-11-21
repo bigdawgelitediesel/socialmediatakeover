@@ -1,0 +1,42 @@
+[00:00.0 -> 00:02.0] your iPhone hears every word you say on the couch,
+[00:02.1 -> 00:04.5] just to catch a Siri and it isn't recording you.
+[00:04.8 -> 00:05.6] So how is that possible?
+[00:05.9 -> 00:07.4] Because what's listening isn't Siri.
+[00:07.7 -> 00:09.3] It's the little chip that counts your steps
+[00:09.3 -> 00:10.8] and it only knows seven sounds,
+[00:11.2 -> 00:12.1] the ones in those two words.
+[00:12.4 -> 00:13.3] Imagine your partner laughs,
+[00:13.6 -> 00:14.2] hey, seriously?
+[00:14.6 -> 00:16.7] And across the room, your face down the phone lights up.
+[00:16.9 -> 00:17.9] Rewind to your phone,
+[00:18.1 -> 00:20.2] your whole evening is just air shaking a microphone
+[00:20.2 -> 00:22.2] 16,000 times a second.
+[00:22.4 -> 00:23.9] The little chip cuts that into slices
+[00:23.9 -> 00:26.3] a fifth of a second long and scores each one.
+[00:26.5 -> 00:28.2] Pass the remote, scores almost nothing.
+[00:28.2 -> 00:29.8] So it's thrown away and written over.
+[00:30.1 -> 00:31.8] Then, hey, Siri comes in.
+[00:32.0 -> 00:33.1] And the moment it sounds close enough,
+[00:33.3 -> 00:34.6] your iPhone says, that's my name.
+[00:34.9 -> 00:36.0] So it wakes the big chip,
+[00:36.2 -> 00:38.4] which runs a second AI six times bigger
+[00:38.4 -> 00:39.4] on that same slice.
+[00:39.7 -> 00:42.0] Apple's own research paper uses that exact phrase,
+[00:42.4 -> 00:43.7] hey, seriously, as its example.
+[00:44.0 -> 00:45.2] But the big AI is full too.
+[00:45.5 -> 00:46.4] So your screen lit up
+[00:46.4 -> 00:47.9] and the next few words go to Apple.
+[00:48.2 -> 00:50.7] There, a third check sees you never set its name
+[00:50.7 -> 00:52.2] and puts your phone back to sleep.
+[00:52.4 -> 00:53.6] That's also why the iPhone 6
+[00:53.6 -> 00:55.6] only listened for you while it was plugged in.
+[00:55.8 -> 00:57.3] It's step counter couldn't reach the mic,
+[00:57.3 -> 00:59.5] so the big chip stayed up all night eating the battery.
+[00:59.8 -> 01:01.8] And it's why your partner usually can't set off your phone.
+[01:02.1 -> 01:03.9] That's what the five phrases you said it set up before
+[01:03.9 -> 01:05.8] every match is checked against your voice.
+[01:06.1 -> 01:07.8] So your iPhone isn't recording the two of you.
+[01:08.2 -> 01:10.4] It's a step counter waiting for seven sounds
+[01:10.4 -> 01:12.4] and letting the rest of your night slip away.
+[01:12.5 -> 01:14.8] Follow me and send this to someone who whispers
+[01:14.8 -> 01:16.1] when their phone is in the room.

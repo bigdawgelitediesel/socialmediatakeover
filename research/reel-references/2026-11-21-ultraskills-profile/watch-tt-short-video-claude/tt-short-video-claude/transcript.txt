@@ -1,0 +1,11 @@
+[00:00.0 -> 00:03.1] You can now create thousands of videos with one prompt.
+[00:03.3 -> 00:04.7] Let me show you Open Montage.
+[00:05.1 -> 00:07.9] Most people juggle five different tools just to push one video out.
+[00:08.5 -> 00:10.1] Open Montage handles all of it.
+[00:10.5 -> 00:11.2] One prompt.
+[00:11.5 -> 00:14.4] It downloads your source, transcribes it, writes the script,
+[00:14.6 -> 00:15.5] generates the voice,
+[00:15.7 -> 00:18.2] animates it, adds visuals, runs quality checks.
+[00:18.7 -> 00:18.8] Done.
+[00:19.2 -> 00:20.4] The whole thing is open source.
+[00:20.9 -> 00:22.7] Comment prompt and I'll send you the repo.

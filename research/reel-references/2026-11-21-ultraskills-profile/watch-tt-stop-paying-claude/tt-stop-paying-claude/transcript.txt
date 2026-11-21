@@ -1,0 +1,17 @@
+[00:00.0 -> 00:01.8] Claude can now check your whole website
+[00:01.8 -> 00:04.3] and tell you exactly why nobody's finding it on Google.
+[00:04.6 -> 00:07.4] Someone build a free add-on that gives Claude 18 helpers.
+[00:07.7 -> 00:09.2] Each one checks a different part of your website.
+[00:09.5 -> 00:10.6] They all run at the same time.
+[00:11.2 -> 00:12.9] A quick timer checks if your site loads fast.
+[00:13.4 -> 00:15.2] A link test to make sure your buttons are not broken.
+[00:15.7 -> 00:18.1] A pre-free to ensures your page titles make clear sense.
+[00:18.4 -> 00:19.9] A digital scout verifies that Google
+[00:19.9 -> 00:20.8] can actually find you.
+[00:21.3 -> 00:23.7] A smart assistant checks if chatGPT knows you exist.
+[00:24.2 -> 00:26.1] A full website health check done in minutes.
+[00:26.5 -> 00:28.9] Most businesses pay $1,500 a month
+[00:28.9 -> 00:29.8] for someone to do this.
+[00:30.1 -> 00:31.9] With Claude, it is less than 20 bucks.
+[00:32.4 -> 00:32.9] Same results.
+[00:33.2 -> 00:34.8] Common SEO and I'll send it over.
