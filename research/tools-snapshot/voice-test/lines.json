@@ -1,0 +1,153 @@
+{
+ "voice": "am_michael",
+ "base_speed": 1.1,
+ "takes": 2,
+ "whisper_model": "small",
+ "total_s": 32.66,
+ "lines": [
+  {
+   "line": 1,
+   "text": "This is a 1959 Ford F600, and it is getting a 7.3 Powerstroke.",
+   "speed": 1.06,
+   "start": 0.0,
+   "end": 6.46,
+   "dur": 6.46,
+   "wer": 0.0,
+   "transcript": "This is a 1,959 Ford F600 and it is getting a 7.3 power stroke.",
+   "words": 13,
+   "take": "line01_t0_x1.06.wav",
+   "takes": [
+    {
+     "speed": 1.06,
+     "wer": 0.0,
+     "raw_dur": 6.59
+    },
+    {
+     "speed": 1.18,
+     "wer": 0.0,
+     "raw_dur": 6.02
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "text": "The old frame stays in the weeds. The cab and bed go on a Super Duty frame.",
+   "speed": 1.06,
+   "start": 6.66,
+   "end": 11.46,
+   "dur": 4.8,
+   "wer": 0.0,
+   "transcript": "The old frame stays in the weeds. The cab and bed go on a super-duty frame.",
+   "words": 17,
+   "take": "line02_t0_x1.06.wav",
+   "takes": [
+    {
+     "speed": 1.06,
+     "wer": 0.0,
+     "raw_dur": 4.91
+    },
+    {
+     "speed": 1.18,
+     "wer": 0.0,
+     "raw_dur": 4.57
+    }
+   ]
+  },
+  {
+   "line": 3,
+   "text": "Two wheel drive, single rear wheel, express bed, built to drive every day.",
+   "speed": 1.06,
+   "start": 11.76,
+   "end": 16.7,
+   "dur": 4.94,
+   "wer": 0.0,
+   "transcript": "Two-wheel drive, single rear wheel express bed built to drive every day.",
+   "words": 13,
+   "take": "line03_t0_x1.06.wav",
+   "takes": [
+    {
+     "speed": 1.06,
+     "wer": 0.0,
+     "raw_dur": 5.01
+    },
+    {
+     "speed": 1.18,
+     "wer": 0.077,
+     "raw_dur": 4.63
+    }
+   ]
+  },
+  {
+   "line": 4,
+   "text": "Compound turbos, somewhere around 550 to 600 horsepower, and it has to start every morning.",
+   "speed": 1.06,
+   "start": 17.0,
+   "end": 24.24,
+   "dur": 7.24,
+   "wer": 0.0,
+   "transcript": "compound turbos, somewhere around 550 to 600 horsepower, and it has to start every morning.",
+   "words": 15,
+   "take": "line04_t0_x1.06.wav",
+   "takes": [
+    {
+     "speed": 1.06,
+     "wer": 0.0,
+     "raw_dur": 7.4
+    },
+    {
+     "speed": 1.18,
+     "wer": 0.0,
+     "raw_dur": 6.91
+    }
+   ]
+  },
+  {
+   "line": 5,
+   "text": "Every part on this truck gets picked for one reason. It has to last.",
+   "speed": 1.06,
+   "start": 24.54,
+   "end": 28.5,
+   "dur": 3.96,
+   "wer": 0.0,
+   "transcript": "Every part on this truck gets picked for one reason. It has to last.",
+   "words": 14,
+   "take": "line05_t0_x1.06.wav",
+   "takes": [
+    {
+     "speed": 1.06,
+     "wer": 0.0,
+     "raw_dur": 4.16
+    },
+    {
+     "speed": 1.18,
+     "wer": 0.0,
+     "raw_dur": 3.84
+    }
+   ]
+  },
+  {
+   "line": 6,
+   "text": "Follow along. We take this to SEMA in 2027.",
+   "speed": 1.06,
+   "start": 28.8,
+   "end": 32.66,
+   "dur": 3.86,
+   "wer": 0.0,
+   "transcript": "Follow along. We take this to SEMA in 2027.",
+   "words": 9,
+   "take": "line06_t0_x1.06.wav",
+   "takes": [
+    {
+     "speed": 1.06,
+     "wer": 0.0,
+     "raw_dur": 4.12
+    },
+    {
+     "speed": 1.18,
+     "wer": 0.0,
+     "raw_dur": 3.8
+    }
+   ]
+  }
+ ]
+}

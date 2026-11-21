@@ -1,0 +1,28 @@
+vo_scratch report  2026-11-21 09:12
+script: C:\Users\Parts\OneDrive - Elite Diesel Service\Desktop\VIDEO\tools\voice-test\script.txt
+voice am_michael  base speed 1.1  takes/line 2  whisper small
+SCRATCH VOICE ONLY. Timing and preview. Jacob records the real VO.
+
+total duration   32.66 s   (31.26 s spoken + 1.40 s gaps)
+words            81
+words per minute 149 overall, 155 while speaking   target 150 to 165
+hook             13 words, ends at 6.46 s   target 15 words inside 5 s   OVER
+mean WER         0.000  (0 = Whisper read back every word of the script)
+flags            runs 32.7 s, over the 18 s ceiling: cut words; hook misses the 15 words in 5 s target
+
+line  start    end   dur wds  wpm speed   wer  text
+   1   0.00   6.46  6.46  13  121  1.06 0.000  This is a 1959 Ford F600, and it is getting a 7.3 Powerstroke.
+     (not picked x1.18 wer 0.000 6.02s)
+   2   6.66  11.46  4.80  17  213  1.06 0.000  The old frame stays in the weeds. The cab and bed go on a Super Duty frame.
+     (not picked x1.18 wer 0.000 4.57s)
+   3  11.76  16.70  4.94  13  158  1.06 0.000  Two wheel drive, single rear wheel, express bed, built to drive every day.
+     (not picked x1.18 wer 0.077 4.63s)
+   4  17.00  24.24  7.24  15  124  1.06 0.000  Compound turbos, somewhere around 550 to 600 horsepower, and it has to start every morning.
+     (not picked x1.18 wer 0.000 6.91s)
+   5  24.54  28.50  3.96  14  212  1.06 0.000  Every part on this truck gets picked for one reason. It has to last.
+     (not picked x1.18 wer 0.000 3.84s)
+   6  28.80  32.66  3.86   9  140  1.06 0.000  Follow along. We take this to SEMA in 2027.
+     (not picked x1.18 wer 0.000 3.80s)
+
+timing           kokoro 24.7 s for 62.0 s of raw takes, whole run 76.7 s
+files            vo.wav (48k stereo polished), vo_raw_24k.wav, words.json, lines.json, takes/
