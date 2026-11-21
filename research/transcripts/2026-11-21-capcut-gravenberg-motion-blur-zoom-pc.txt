@@ -1,0 +1,21 @@
+TITLE: How To Add Motion Blur When Zooming In On CapCut PC
+CHANNEL: Gravenberg Tutorials
+PUBLISHED: 2026-10-02
+DURATION: 91 s
+VIEWS: 122
+URL: https://www.youtube.com/watch?v=r8l144yjA0Y
+EFFECT: 05 digital zoom / 09 zoom-through (motion blur)
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+This tutorial shows you how to add motion blur to a zoom by rendering the zoom movement first in CapCut
+desktop. Start with a separate project containing the shot you want to zoom. Select the video and open video
+basic in the right panel. Move to the first frame and add a scale keyframe using the diamond button. Keep the
+starting scale at 100%. Move forward about half a second, add another keyframe, and increase scale to 130%.
+Play the shot to check the zoom speed. Move the second keyframe closer to the first for a quicker zoom or
+farther away for a slower one. Export this short zoom pass at the same resolution and frame rate you intend to
+use in the edit. Then import the exported file into your main project and place it where the zoom belongs.
+Select the imported zoom video, open video basic, and find motion blur. And enable it. Adjust the blur and
+blend controls available in your build, and click apply if prompted. Let the processing finish before
+comparing the result. Start with a moderate amount and pause during the moving section to inspect the blur.
+The useful detail is that the zoom is now part of the imported video's frames. This workflow gives the
+processing tool moving imagery to analyze rather than relying on it to include live scale keyframes. Check the
+settled frame after the zoom, too. Reduce the settings if the picture keeps an excessive ghosted trail.

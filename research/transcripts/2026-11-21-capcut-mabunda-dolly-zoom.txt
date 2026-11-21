@@ -1,0 +1,12 @@
+TITLE: How to create DOLLY ZOOM effect using just CapCut
+CHANNEL: Mabunda Studios
+PUBLISHED: 2026-10-03
+DURATION: 30 s
+VIEWS: 45
+URL: https://www.youtube.com/watch?v=RMNXXezeEas
+EFFECT: 15 vertigo
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+is how to make this cool dolly zoom effect in CapCut. >> [music] >> Add your media to the timeline. Make sure
+your play head is at the beginning. Then create a scale keyframe. Increase the scale to your liking. Then take
+the play head where you want the zoom to stop and decrease the scale back to 100. And the second keyframe will
+be created. And that's how you do it. Don't forget to like, comment, [music] subscribe, and share.

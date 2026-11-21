@@ -1,0 +1,82 @@
+TITLE: 7 Viral CapCut Effects that make Your videos look INSANE (FREE)
+CHANNEL: Edit with Rumi
+PUBLISHED: 2026-10-29
+DURATION: 455 s
+VIEWS: 5384
+URL: https://www.youtube.com/watch?v=Wa2n2_C7JhA
+EFFECT: mixed: 7 free CapCut effects
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+Master these seven viral CapCut effects that are trending right now and your content will never look the same.
+The reactive [music] text effect is currently trending across social media platforms like Instagram Reels and
+TikTok. >> [music] >> To create it, add your footage background and add a song with lyrics or a voiceover.
+Then go to captions and generate auto captions. Once your captions are ready, you can change the font to suit
+your style. Next, go to animation, open the caption section, and search for reactive text presets such as
+single line, negative grow, multi line, and multi line three. Select the style you like and preview the
+result. The text will appear to change with the colors and textures behind it, creating a dynamic effect. For
+an even more dramatic look, choose the multi line animation, return to the text settings, increase the font
+size, and position the text in the center of the screen. You can also adjust the line spacing to around minus
+10% to make the text overlap and create a layered appearance. >> I got nightmares in my head. I fear the
+thoughts build up until I can't hear. That my mind fills up into a creature. >> But if you want to give your
+text a shiny look, check out the next effect. The shiny text effect is especially useful for captions in Reels
+and short-form videos and gives your content that luxurious [music] vibe. For the best results, start with a
+dark background so the shine stands out more clearly. First, add a text layer and type your desired word. Then
+customize the font and text color however you like. Next, duplicate the text layer and convert the duplicate
+into a compound clip. Go to the adjust tab, open curves, and drag the curve toward the left until the text
+becomes much lighter. Then navigate to the mask tab and add a filmstrip mask. Set the size to around 50,
+rotate it by approximately 10°, and increase the feather to around 50 to create a smooth, realistic shine. At
+this point, your text will already have a cool reflective effect, but you can make it look even better by
+adding a glow effect. You can also experiment with different colors to achieve different styles. For example,
+green creates a luxurious lime shine, while gray gives your text a sleek silver metallic appearance. Next up,
+we have this white flash transition. It's a viral and creative way to reveal text that viewers absolutely
+love. >> To create this effect, add two text layers for the two words. Change the font color and spacing.
+Since I'm doing this on a black background, I will leave the text color white. Place the second text layer
+about two frames ahead of the first so that the words appear one after another. Next, open the shapes tab and
+add a square shape. Then, change its color to white. Place it over the first text and adjust its size so it
+completely covers the word. Repeat the same process for the second text layer. Move forward one frame and cut
+the shape. Finally, select everything and move it slightly behind >> beginning of the timeline. And there you
+go. Your text appears with a smooth and stylish white flash reveal effect. Let's move to next effect, which is
+this stunning opening effect. The cinematic letterbox opening is a stunning way to start any video and
+instantly makes your content look professional. >> To do this, place your video on the timeline and select it.
+Navigate to video, basic, masks, and click add mask. By default, the mask is set to rectangle, so switch it to
+filmstrip to display two horizontal lines. Move the playhead to the beginning of the timeline or wherever you
+want the effect to start, and drag the two lines closer together to create the letterbox effect. Next, scroll
+down to mask settings and click the plus icon to add a keyframe. Move the playhead forward about 7 seconds and
+click the plus icon again to add another keyframe. Then, return to the preview window and drag the two lines
+apart to reveal the full video. Now, when you play the video from the beginning, you'll see a smooth,
+cinematic letterbox opening effect. >> But if you want to take your visuals to the next level, the next effect
+is an absolute [music] game-changer. >> In my previous video, I showed you how to add an outline to your
+clips. But here is another version that looks absolutely stunning. [music] First, add your clip to your
+timeline. Then go to video, mask, add a mask, and select the rectangle one. Drag the horizontal line and
+vertical lines so it covers the whole screen. Then scroll down and increase the corner roundness. This will
+add a clean, rounded corner. Next, head back to basic and scale it down and place your clip in the center. Now
+duplicate the clip by pressing Alt + G and place it above. On the bottom layer, increase its size a bit or
+turn off the uniform scale and adjust the width and height. Once you are happy with that, you can turn this on
+again. Now select the bottom layer and go to the adjust tab. From here, we are going to increase the exposure,
+blacks, and whites. You can copy my settings. Just play around with this and you will find your desired look.
+And now you have this amazing glass outline border effect. To make it stand out even more, go to the effects
+tab and search for glow. Then add it to the bottom layer. Now, you might know this one, but some of you might
+not know how to actually use this. >> Using CapCut's chroma key feature, it's so simple to use. >> To get
+started, select a video with a green background, go to remove background, choose chroma key, and use the color
+picker to select the green area. >> Once the background is removed, you can play the video and see the effect
+in action. This technique works great for animated openers, but you can also use it to create an animated
+subscribe button. Simply select your subscribe button video, apply chroma key, and pick the green background
+to remove it. You can then resize the button, move it to the bottom of your screen, and create an animated
+subscribe call to action. >> If you're looking for green screen clips, go to media, select library, and open
+the green screen section where you'll find plenty of free backgrounds to use. The best part is that chroma key
+isn't limited to green backgrounds. You can also remove other solid colors such as black by selecting the
+video, choosing remove background, and opening chroma key. Use the color picker to select the black area, and
+you can turn a simple loading icon into a clean animated overlay for your videos. >> Finally, [music] here's
+one practical effect that will boost your CTR immediately. >> The final trick is how to create thumbnails
+directly in CapCut using its free thumbnail designer. First, go to the beginning of your timeline and swipe
+down until you see the cover option. Then tap edit cover. Select a moment from your video that you like, such
+as a frame where you are clearly visible on screen, and tap edit cover again. Here you have the template
+option. You can take a look, but here we are going to do this manually. So, select your footage. You can also
+add from your computer if you want. Just click this icon and add your clip. Now start customizing your
+thumbnail by adding text, changing the font, increasing the text size, and positioning it wherever you want on
+the screen. You can also explore different text templates and add stickers to make your thumbnail more
+attractive. Add an arrow from here. Search for an arrow, select one, and simply drag it onto your image and
+adjust it. To enhance the image further, select the base image layer and tap more. From there, you can adjust
+the color settings by increasing the saturation and subtly boosting the exposure under the light section. Once
+you're happy with your thumbnail, tap save, and you will have your finished design. >> There you have [music]
+it. Seven effects that will instantly level up your CapCut game and make your content go viral. See you in the
+next video.

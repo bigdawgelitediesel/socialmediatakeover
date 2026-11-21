@@ -1,0 +1,33 @@
+TITLE: Add Mobile Phone Frame to Your Video (CapCut Tutorial)
+CHANNEL: Power and Profit
+PUBLISHED: 2026-10-16
+DURATION: 138 s
+VIEWS: 55
+URL: https://www.youtube.com/watch?v=ITx0ojGe4N8
+EFFECT: 06 phone mockup
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+In today's video, I'm going to teach you add mobile phone frame to your video in CapCut. We're going to create
+a clean mobile phone frame effect by placing your video inside a phone-shaped sticker and adjusting it so
+everything lines up properly. This is a great way to make screen-style content look more polished and
+intentional. To begin, open your CapCut edit page. In the tools below, look for the stickers option and click
+on it. This is where CapCut keeps decorative and graphic elements, including frames that can be used on top of
+your footage. Once you're in the sticker section, go to the search bar and type in mobile frame. CapCut will
+show you different phone frame options. Choose the one that best matches the style you want. Some frames may
+look more modern, while others may be simpler, so just pick the one that fits your video. After adding the
+frame, resize and position it on your screen. Try to place it neatly where you want the phone to appear in the
+final video. When it looks right, click the check mark to confirm. It helps to be precise here because this
+frame will guide the placement of your clip later. Next, match the duration of the phone frame to the duration
+of your clip. This is important so the frame stays visible for the entire section of video where you want the
+effect to appear. Now, unselect your current clip. Then, in the tools below, click overlay and choose add
+overlay. This lets you place another clip on top of your existing timeline, which is what we need for the
+phone screen effect. Choose the clip you want to place inside the phone frame, then click add. Resize that
+clip so it becomes as large as the phone frame area. At this stage, it doesn't have to be perfect yet. You
+just want it roughly filling the screen area of the frame. After that, go to mask and select rectangle. This
+will let you crop the overlay into a cleaner shape so it fits inside the phone frame more naturally. Now,
+reposition your clip again. Just enough to make it fit properly within the phone frame. Take your time with
+this adjustment because small movements can make a big difference in how realistic the effect looks. To refine
+the edges, drag the cone icon to adjust the mask edge. This helps you tighten the fit and clean up the border
+so the video sits more naturally inside the frame. Once you're done, click the check mark to apply the
+changes. Then play your video back and review it carefully. Make sure the frame stays aligned, the clip fits
+well inside it, and the overall look feels smooth. And that's it. You've learned how to add a mobile phone
+frame to your video in CapCut.

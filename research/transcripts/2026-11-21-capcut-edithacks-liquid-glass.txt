@@ -1,0 +1,36 @@
+TITLE: How to get Apple's Liquid Glass effect in CapCut | Easy Tutorial
+CHANNEL: Edit Hacks
+PUBLISHED: 2026-10-09
+DURATION: 264 s
+VIEWS: 2516
+URL: https://www.youtube.com/watch?v=q6Og1Yib8go
+EFFECT: 17 glass type
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+When Apple introduced liquid glass last year, it instantly became one of the most recognizable design styles
+in the new iOS experience. That glassy, transparent look with the reflections, depth, and subtle distortion
+made everything feel completely different. So, in this video, I'm going to show you my version of the liquid
+glass effect made entirely in CapCut. Let's get started. Add your clip and extend the length as you need.
+Duplicate this layer and keep it on top. Now, add a square from stickers and increase the width and reduce the
+height as you need. Drag the corner radius inwards all the way to the center. Now, change the sticker color to
+white and reduce the fill opacity to 20. Now, select the duplicated base layer and add a rectangle mask and
+resize it to match the rectangle sticker. Duplicate this layer twice and place one on top and one between the
+two base layers. Turn off fill on the top most sticker and turn on stroke and set the weight as one. On the
+bottom most sticker, change the fill color to whichever color that suits your video. Now, convert the top two
+stickers into compound clips. Select the second compound clip and add a split mask. Under mask settings, click
+reverse. Drag the mask slightly below and increase the feather to 40. Now, select the first compound clip and
+add a film strip mask. Reduce the mask size as needed and increase the feather to 40. Add another film strip
+mask, repeat the same and change its rotation. Convert the bottom sticker into a compound clip as well. Now
+let's add a blur effect to the duplicated base layer and the bottom most compound clip to give a depth to the
+liquid glass. Adjust the blur strength as needed. To make it look more premium, we can animate the film strip
+mask that we applied earlier. Select the first layer and go to mask. [music] For mask one, add a rotation key
+frame at frame one. Now go to the last frame and set rotation [music] to 60. Do the same for mask two. This
+adds a subtle reflection to the glass effect. To finish it off, let's add text that slides up inside the
+glass. Add a text layer and change the font as per your liking. I'm going with Inter SB as it kind of closely
+resembles Apple's font style. Duplicate this layer, click the below layer and change the text color to gray.
+Select the top layer and convert to compound clip. Add a split mask, move the mask slightly below and increase
+feather to 40. Now our text is ready. Let's animate it. Before that, let's convert the text layers into
+compound clips. Move the slider to wherever you want the first frame to be. I'm keeping it at the first
+second. And here add the first keyframe. Drag the text layer below the glass effect. Move six frames forward,
+drag the text to its original position. This is our last keyframe. Go back by two frames, add an opacity
+keyframe, and reduce opacity to zero. Now move to the last keyframe and change opacity to 100. And there you
+have it.

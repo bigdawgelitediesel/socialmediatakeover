@@ -1,0 +1,15 @@
+TITLE: Text Behind Object in CapCut (PC) | Put Text Behind Anything
+CHANNEL: CapCutt Tutorials
+PUBLISHED: 2026-10-31
+DURATION: 58 s
+VIEWS: 117
+URL: https://www.youtube.com/watch?v=FTV8n0vtKqw
+EFFECT: 16 cover story (text behind)
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+Want to put text behind anything, like this? It takes about a minute in CapCut. Start a new project, open the
+library, and search for a clip with one clear subject. Drag it onto the timeline. Move the playhead to 5
+seconds, hit control B to split, and delete the rest. Now go to text and drag default text onto the timeline.
+Type your word, I'm using wild, set the size to 60, and make it bold. Stretch the text so it covers the whole
+clip. Now copy and paste your video. Here's the key step. Drag that copy above the text layer. Select the top
+copy, go to remove BG, and tick auto removal. And now your subject walks right in front of the text. That's
+text behind subject. Subscribe for a new CapCut trick every week.

@@ -1,0 +1,33 @@
+TITLE: How to Create an Out of TV Frame Video Effect in CapCut PC (Simple Guide)
+CHANNEL: Ask Randy
+PUBLISHED: 2026-11-04
+DURATION: 227 s
+VIEWS: 57
+URL: https://www.youtube.com/watch?v=gW0bv-ShPkk
+EFFECT: 04 frame break
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+In today's video, I'm going to teach you how to create an out of TV frame video effect in CapCut PC. This is a
+really fun effect that makes it look like your subject is coming right out of a television screen. And the
+good news is that it's actually pretty simple to build once your layers are set up correctly. I'll walk you
+through the full process clearly so you can recreate it in your own project. Start by opening CapCut on your
+PC and clicking new project. Once your project opens, click import and bring in the files you need. You'll
+want your main video clip along with a TV frame image that has a transparent screen area. That transparent
+center is important because it allows your video to show through the frame naturally. Next, drag your video
+clip onto the main track in the timeline. Then take the TV frame image and place it on an overlay track above
+the video. In the preview window, resize and position the TV frame so it sits exactly where you want it. Take
+your time here because good alignment makes the whole effect look much more believable. Now click on your
+video clip in the timeline and go to the editing panel. Then select mask. Choose the rectangle mask. You'll
+use this to limit the visible part of the video so it only appears inside the TV screen area. Adjust the shape
+of the mask until it fits neatly within the screen opening of the TV frame. After that, fine-tune the mask
+size and feather. The size controls how tightly the video fits inside the frame, while feather softens the
+edges slightly, so everything blends better. A subtle feather usually works best, since too much can make the
+screen edges look blurry. To create the out-of-frame effect, import a duplicate of your subject or use a
+cutout version where the background has already been removed. Place that cutout on a track above the TV frame.
+This top layer is what creates the illusion that the subject is extending beyond the screen. With the cutout
+selected, go to video, then remove BG, and choose auto removal. CapCut will isolate the subject for you. Once
+that's done, resize and position the cutout so part of the subject appears to come out of the TV screen.
+Usually, placing the body mostly inside the frame and letting a hand, head, or arm extend outward gives the
+strongest effect. Play your video back and check how everything looks. If needed, adjust the layer order,
+positioning, or scale until the effect feels clean and natural. When you're happy with the result, click
+export to save your video. If this tutorial helped you, please consider subscribing. We post new software
+tutorials every day to help you get the most out of your favorite tools. Thanks for watching.

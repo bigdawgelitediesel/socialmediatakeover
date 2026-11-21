@@ -1,0 +1,46 @@
+TITLE: How to Get the Clean GLASS EFFECT in CapCut PC
+CHANNEL: Cortex CapCut
+PUBLISHED: 2026-09-25
+DURATION: 343 s
+VIEWS: 301
+URL: https://www.youtube.com/watch?v=5ga5d9SXg0w
+EFFECT: 17 glass type
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+In this video, I'm going to show you how to create this Apple style glass effect animation in CapCut PC. So,
+let's get started. To create this animation, start with a vibrant background so the glass effect looks more
+attractive. Add your image, adjust its size, and apply a mask. Set the corner radius to around 20. Now go to
+stickers, select shapes, and add a rectangle shape to the timeline. Increase its duration to match the image.
+Adjust the rectangle to your desired size and position the image properly inside the shape. Now change the
+corner radius of the shape to around 30. Go to fill, set the color to white, and reduce the opacity to around
+30%. This creates the transparent glass appearance. Now duplicate the shape clip and place it above the
+previous one. Select the first shape, increase the opacity to 100%, remove the fill, and go to stroke. Set the
+stroke to three and keep the stroke color white. This creates the clean border around the glass element. Now
+select the second shape layer, disable the first layer, and create a compound clip. Go to mask, select add
+mask, and choose the filmstrip mask. Increase the feather and set the angle to 45°. Position the mask around
+the edges of the shape to create that soft faded glass effect. Now activate the second clip, make it a
+compound clip and go to mask again. Add the same filmstrip mask, increase the feather, and set the angle to
+45°. Now, let's animate the glass effect. Go to the starting position and add a keyframe. Move to the 2-second
+mark and add another keyframe. At the second keyframe, set the rotation to 45°. I haven't downloaded the
+graphs yet. So, for this example, I'm using ease in. You can experiment with different graphs depending on the
+type of movement you want. Now, take the second shape layer, duplicate it, and place it above the image to
+create an additional frosted glass effect. For my image, this extra effect isn't necessary, so I'm keeping it
+as it is. Now, select all the required layers and make them into a compound clip except for the main image.
+Text animation. Now, let's animate the glass element. Bring in the default text layer and type your main text.
+Adjust the size and choose your preferred font. Add another text layer, type views, and place it below the
+main text. To animate the glass effect, we'll be using keyframes. Go to the 1-second mark and add a keyframe
+to transform and blend for both the compound clip and the image. Then, go back to the beginning of the
+timeline and add another keyframe to both layers. At the starting keyframe, move the layers down, decrease the
+opacity, and set the scale to around 50. Apply the ease and graph and adjust the position if necessary. Now
+you can see the glass element smoothly moving into the frame. For the image, go to the starting keyframe and
+set the scale to zero and blend to zero. The image animation may feel slightly slower than the glass effect,
+so adjust the keyframes accordingly. You can also add another blend keyframe before the second keyframe and
+fine-tune the timing until both animations feel properly synchronized. Text animation. Now let's animate the
+text. At the 1-second mark, add a keyframe to the main text layer. Move five frames back and add another
+keyframe. Select the blend keyframe, set the opacity to zero, and apply the ease and graph. This creates a
+smooth entrance for the main text instead of making it appear suddenly. Now select the second text layer. For
+this one, I'm keeping it simple and using a basic fade-in animation with keyframes. And that's it. We've
+created the complete glass style animation in CapCut PC. You can experiment with the opacity, feather,
+rotation, keyframe timing, and graphs to create your own variations and make the effect fit your style. If you
+want me to make a separate video explaining keyframing in detail, comment below and let me know. I'll make a
+dedicated video on keyframing and explain everything from the basics to more advanced techniques. Thanks for
+watching and I'll see you in the next one.

@@ -1,0 +1,18 @@
+TITLE: How To Add Outline in CapCut Around Any Image [2026 Guide]
+CHANNEL: Fix Pilot
+PUBLISHED: 2026-11-09
+DURATION: 71 s
+VIEWS: 30
+URL: https://www.youtube.com/watch?v=0uiie3ABDL4
+EFFECT: 13 paper cut (sticker outline)
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+Want a clean white outline around an image in CapCut PC? It helps thumbnails, product photos, and cutouts
+stand out. Open CapCut PC and import your image. Drag it down onto the timeline. The effects are applied to
+the clip from there. Click the image clip once. The editing menu appears in the top right corner. Open the
+remove BG tab and turn on auto remove. This cuts out the background so the outline shows clearly around your
+subject. If the background is busy, check that the subject is picked correctly before moving on. Stay in that
+menu and click stroke. Set the color to white. White gives a bright, high contrast look, especially on dark
+backgrounds. Now use the thickness slider. Keep it thin for a clean, simple look. Make it thicker if you want
+the image to pop like on a thumbnail. Preview it on the canvas. If the outline looks off, adjust the thickness
+until it fits the image. If this helped, like the video and subscribe to Fix Pilot for more easy CapCut
+tutorials. See you in the next one.

@@ -1,0 +1,11 @@
+TITLE: How to Place Text Behind an Object in CapCut PC (2026)
+CHANNEL: How 2 Wow
+PUBLISHED: 2026-10-01
+DURATION: 26 s
+VIEWS: 251
+URL: https://www.youtube.com/watch?v=IszlAGG1t7Y
+EFFECT: 16 cover story (text behind)
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+To place text behind an object, add your video to the timeline and create a text layer. Then duplicate the
+video by holding alt and dragging it to the upper track. On the duplicated clip, use remove background to
+isolate the subject. The text will now appear behind the subject.

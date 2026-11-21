@@ -1,0 +1,16 @@
+TITLE: How to Add Smooth Transitions in CapCut (PC) | Zoom Swipe Tutorial
+CHANNEL: CapCutt Tutorials
+PUBLISHED: 2026-10-29
+DURATION: 70 s
+VIEWS: 62
+URL: https://www.youtube.com/watch?v=PZulSTXBdQc
+EFFECT: 09 zoom-through cut
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+Want your clips to flow like this? Here's how to add a smooth transition in CapCut. Start a new project. Open
+the library and search for your first clip. I'm using snowy mountains. Download it and drag it onto the
+timeline. Move the play head to 4 seconds, hit control B, and delete the rest. Short clips make transitions
+feel snappier. Now search for a second clip. Pick something that contrasts, like this desert. Drag it onto the
+timeline right after the first clip. Open transitions and search zoom. Zoom swipe is free and looks great.
+Drag it right onto the cut between your two clips. If CapCut asks about duplicate frames, just hit okay. The
+default is 1 second. I'm dropping it to 0.6 for a snappier swipe. Play it back and there it is. Snow to desert
+in one swipe. Subscribe for a new CapCut trick every week.

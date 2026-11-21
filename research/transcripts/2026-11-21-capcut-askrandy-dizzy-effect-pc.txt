@@ -1,0 +1,33 @@
+TITLE: How to Create an Amazing Dizzy Effect in CapCut PC (Simple Guide)
+CHANNEL: Ask Randy
+PUBLISHED: 2026-10-23
+DURATION: 221 s
+VIEWS: 75
+URL: https://www.youtube.com/watch?v=x5JPMQPR3gQ
+EFFECT: 15 vertigo / dizzy
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+In today's video, I'm going to teach you how to create an amazing dizzy effect in CapCut PC. We'll be working
+entirely inside CapCut on a new project and the process is very simple once you know where everything is. The
+main idea is to import your footage, apply a dizzy style effect such as dizzy, swirl, or spiral, and then
+fine-tune it so it appears at exactly the right moment in your video. To begin, open CapCut and make sure
+you're starting a new project. Starting fresh helps keep your workspace organized and makes it easier to
+follow along without any extra clips or settings getting in the way. Once your new project is open, go to the
+media section and click import. From there, select the video you want to use. After the file is added to your
+project, drag it down onto the timeline. This is where you'll do all of your editing and placing the clip on
+the timeline is what allows you to add effects and control when they appear. Next, click effects in the top
+toolbar. In the search bar, type dizzy, swirl, or spiral. Different versions of CapCut may show slightly
+different effect names, so the goal here is to choose the closest available effect that creates that spinning
+or disorienting visual style. Once you find one that fits the look you want, drag it onto your video clip or
+onto the effects track above it, depending on how CapCut displays effects in your layout. After applying the
+effect, click on it in the timeline. If your version of CapCut includes effect controls, you'll see adjustment
+options in the panel on the right side. This is where you can refine the look. For example, if intensity or
+similar settings are available, you can increase them for a stronger dizzy effect or reduce them for something
+more subtle. It's usually a good idea to match the strength of the effect to the mood of the scene, so it
+feels intentional rather than overwhelming. Now, trim the effect layer to control exactly when the dizzy
+effect starts and ends. This is especially useful if you only want the effect to appear during a dramatic
+moment, transition, or beat in the music. Then, click play to preview the result. Watch carefully and see how
+the effect feels in motion. If needed, go back and adjust the duration or intensity, as long as those controls
+are available in your version of CapCut. Small changes can make a big difference in making the effect look
+polished. Once you're happy with the result, click export to save your finished video. If this tutorial helped
+you, please consider subscribing. We post new software tutorials every day to help you get the most out of
+your favorite tools. Thanks for watching.

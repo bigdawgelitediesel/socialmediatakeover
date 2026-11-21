@@ -1,0 +1,20 @@
+TITLE: How To Make Subtitle Behind Character in Capcut Laptop (2026 Guide)
+CHANNEL: Quick Solve
+PUBLISHED: 2026-11-08
+DURATION: 86 s
+VIEWS: 8
+URL: https://www.youtube.com/watch?v=aALviPty7Bs
+EFFECT: 16 cover story (captions behind head)
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+In this video, I'm going to show you how to make subtitle behind character in CapCut laptop. Make sure to hit
+that like button, subscribe to the channel, and let's get into it. First, you can drag your video clip onto
+the main timeline. And then you can go to the captions tab in the top left menu and select auto captions.
+Choose your language and then click generate. Now make sure that your subtitles appear on top of your video
+footage. Next, you can select your original video clip and then you can copy it. Now you can paste it directly
+above your subtitle track. And then you can click on the duplicated video clip. You can open the audio tab and
+drag the volume slider all the way down to 0%. Now let's remove the background from the top layer. You can
+select your duplicated video clip and then go to the video tab. You can click on remove BG and check the box
+for auto removal. Wait a few moments for CapCut's AI to process the frame. Now playback your timeline and make
+sure that the subtitle track becomes visible except where your character stands. And that's how you can make
+subtitle behind character in CapCut laptop. If this video useful, leave a like down below, leave a comment if
+you have any questions, and subscribe for more quick guides.

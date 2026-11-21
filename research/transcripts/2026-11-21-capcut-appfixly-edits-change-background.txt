@@ -1,0 +1,13 @@
+TITLE: How To Change Video Background In Edits App (2026 Easy Guide)
+CHANNEL: AppFixly
+PUBLISHED: 2026-10-26
+DURATION: 28 s
+VIEWS: 134
+URL: https://www.youtube.com/watch?v=7Io4rBUd3Ik
+EFFECT: 12 green screen (Edits app cutout)
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+Here's how to change your video background in the Edits app. Start a new project and add your new background
+first. Then add your video on top of it. Select your clip and tap cutout. Edits removes the background behind
+you automatically. Pinch to resize yourself and drag to place it where you want. Play it to check the edges.
+Then export it or share it straight to Instagram. If this helped, like the video and subscribe for more quick
+app guides.

@@ -1,0 +1,29 @@
+TITLE: How to Make & Remove Green Screen + White Outlines for Roblox Edits (CapCut, FREE)
+CHANNEL: Calico
+PUBLISHED: 2026-11-19
+DURATION: 166 s
+VIEWS: 30
+URL: https://www.youtube.com/watch?v=a1QaCgOv7_w
+EFFECT: 12 green screen + 13 white outline
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+Hello there. I'll tell you how you can be in cool edits too. I'll tell you how to make a green screen
+background, remove it in video, and make outline. So let's go. First open the game where you're going to
+record your clips. you're in, you'll see this environment. worry, don't be scared. I've learned a new trick.
+Head over to the settings at the bottom and click on them and then you will pop up. Select player and scroll
+down until you find hidden players. As you can see, I haven't hidden anyone yet, so what we're going to do is
+hide everyone and here's the magic. Everyone is now hidden, but we can still see the chat. Perfect. Now let's
+set up our background. Open the settings again and go to environment. From here select green screen, but
+there's one important thing you need to know. If your avatar has any green elements, whether it's your
+clothes, hair, or accessories, don't use a green background. Why? Because when you remove the background using
+chroma key in CapCut, it will also remove those green parts of your avatar, making the final result look
+messy. Instead, choose a background color that doesn't appear anywhere on your avatar. Now what if your avatar
+already contains all these colors? Don't worry, there's another way. Go to Studio, select this option, and
+you'll be able to customize both your background and floor color separately. Choose your desired background
+color, copy its color code, and confirm it. Then do the same for the floor. Paste the color code and confirm
+it. Now that we know how to set up our background and record our clips, let's head over to CapCut and start
+editing. First an easy way to do it is to select your clip and crop it. Unselect and set aspect ratio to 9 to
+16. Now go to remove background and select chroma key. Increase it much as you want to remove outlines. Now to
+make white borders, select clip and duplicate Select first one and overlay it. Go to adjust and maximize its
+brightness. Go to graphs and increase white graph like this. You can see lines around. To make it more
+visible, go to transform then basic and zoom in as much as you want. And here's the free features you can use
+to make edits in in very easy steps. I hope it helps you out.

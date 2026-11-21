@@ -1,0 +1,25 @@
+TITLE: How to Make Pro Mixtape Edit Zooms on CAPCUT PC
+CHANNEL: Aeko
+PUBLISHED: 2026-09-23
+DURATION: 103 s
+VIEWS: 20207
+URL: https://www.youtube.com/watch?v=Lx4l-VSfvwY
+EFFECT: 05 digital zoom (keyframe snap zooms)
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+Okay, so basically we'll start off by getting our two clips we're going to zoom into. So, the first clip has
+to basically be more zoomed out than the second clip you're zooming into. Because both of them are kind of
+facing the same area and also they have a similar camera angle. So, this is just perfect for zoom. So, we're
+going to go 1.5 out of three of [music] the clip. Put like a key frame over here and key frame over there.
+But, as you can see I'm going in all the way and I don't think this is enough. Like we kind of need to zoom in
+a little bit more. I have this trick where I basically just make this into a compound clip. As you can see I
+got so much more space to zoom into, like a lot more. We just perfectly align, like we just kind of align the
+the eyes with each other. The viewers, they always focus on the eyes when looking at the edit. So, you just
+kind of need to match the eyes. That's basically all you need to do. Okay, so now that we got this, you can
+put your shakes now. Here, I got my shakes. Now, we're going to add our um key frame animation. So, um also
+you kind of want to just like play around with the length. The like this is way too long and this is way too
+short. So, just keep it like somewhat half of the clip according to how much you're zooming in it. So, um make
+the preset [music] curves as ease in. Now, um now you got this. This is already pretty good. Add a mix
+transition. 0.3 is way too long and 0.1 is also too short. But, you just want to go to like 0.2 [music] is
+usually the best case. Okay. Okay, that is really nice. If you found this tutorial helpful, make sure to like
+and uh comment if I should make another tutorial like this about um maybe transitions and uh make sure to
+subscribe for more tutorials like this.

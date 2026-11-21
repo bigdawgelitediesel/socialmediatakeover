@@ -1,0 +1,38 @@
+TITLE: Create This Pop Out Effect in CapCut PC 🔥
+CHANNEL: Mishi Edits
+PUBLISHED: 2026-10-29
+DURATION: 198 s
+VIEWS: 266
+URL: https://www.youtube.com/watch?v=rJvMWda0psM
+EFFECT: 04 frame break (pop out)
+SOURCE: yt-dlp auto/native captions, pulled 2026-11-21 (auto captions, punctuation approximate)
+Do you want your photos to stand out from the frame like this?  Let me show you how to create this effect in
+CapCut PC.  First , go to the library section and select a background.  I'll choose a white background for
+this tutorial, but you can use any color that matches your design.  Next, select the background and adjust it
+to fill the entire screen so that there are no empty spaces at the edges.  Now, drag your image to the
+timeline and place it over the background layer.  Before doing anything else, we need to remove the background
+from our image.  Select the image and use CapCut's background removal feature to separate the subject from the
+original background.  If there are unnecessary parts, such as extra space around the legs, you can trim them
+to make the composition look cleaner.  Take your time with this step because the position of your subject will
+make a big difference to the final effect.  Go to the sticker section and look for a sticker shaped like a
+box.  Add it to your timeline and place it on top of the background layer.  Select the sticker and adjust its
+size and position according to your image .  First, adjust the corners to make them rounded.  You can change
+the degree of roundness according to your design. Next, rotate the sticker slightly to give it a more
+interesting look. Don't turn it too much.  We want the final design to look clean and balanced, not
+distracting.  Now, let 's change the color of our sticker. Select the sticker and go to the color settings.
+Open the gradient option and choose the colors you like.  You can experiment with different gradient
+combinations depending on the style you're looking for.  Now, choose a gradient color that you like.  I'm
+going to use a color that goes well with my image.  Now, drag the sticker layer below your image layer in the
+timeline.  Now, select the sticker layer and duplicate it.  Now, select the top layer of the sticker and
+change its color.  Since I'm using a white background, I'm going to change this sticker to white as well.
+This helps the top part blend into the background while keeping the colored sticker visible behind the
+subject.  You can choose a different color if you're working with a different background, but make sure it
+blends naturally with your design. Now, carefully adjust the position and size of the top sticker.  This step
+requires attention because we want the white sticker to cover the bottom of the design correctly without
+obscuring the subject .  Move it until the bottom part is covered and it looks like the subject is sticking
+out of the colored shape.  Don't rush this adjustment.  Make small changes to the position and size while
+reviewing the preview.  If the effect doesn't look right at first, keep adjusting the sticker until the image
+and both sticker layers are properly aligned.  And that's it.  Our pop-out effect is ready in CapCut PC.  As
+you can see, by combining an image with no background, two layers of stickers, and some simple adjustments, we
+can create a much more interesting design that gives depth to the image. Like and subscribe for more creative
+effects.  See you in the next video.
