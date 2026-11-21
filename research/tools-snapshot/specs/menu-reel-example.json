@@ -1,0 +1,63 @@
+{
+  "_schema": {
+    "composition": "CardReel | RivalReel",
+    "bg": "CardReel only: '#0b0b0c' | 'paper' | 'still.png' | 'clip.mp4' (public/ path)",
+    "plate": "RivalReel only: plate video in public/; optional 'cutout' webm",
+    "fps": 30,
+    "handle": "optional HUD handle, default @elcoyotediesel",
+    "ghost": "optional giant outline word behind everything",
+    "hook": { "text": "max 7 words, shown as the Headline from 0 until the first item", "accent": "one word of the hook" },
+    "hud": "'dots' | 'bar' | null",
+    "sidebar": "true | false (numbered list anchored above the IG UI; uses item.short or item.name)",
+    "captions": "'auto' | 'none'",
+    "captionStyle": "'plain' | 'pill'",
+    "items": [
+      {
+        "name": "card title (ItemCard.title)",
+        "short": "optional sidebar label",
+        "cue": "spoken word that triggers the card: prefix match, case-insensitive, searched forward from the previous item. 'word', 'word#2' for the 2nd hit, 'two words' for consecutive words",
+        "at": "optional explicit start in seconds instead of a cue",
+        "old": "optional: the part being replaced -> a StrikeStamp at the cue, the card 0.5 s later",
+        "oldTag": "STOCK (default) | PAID ...", "oldMeta": "mono text on the strike row", "stamp": "RIVAL (default)",
+        "sub": "mono sub-line", "icon": "cards/x.png", "tag": "PARTNER",
+        "count": { "to": 600, "prefix": "", "suffix": " hp", "label": "ready" },
+        "chips": [ { "text": "chip text", "cue": "spoken word inside the item window" }, { "text": "or timed", "after": 0.8 } ],
+        "foot": "small footnote", "sticker": "ON THE TRUCK", "stickerCue": "optional word; default 10 frames after the last chip",
+        "accent": "optional caption accent word; default the first word of name"
+      }
+    ],
+    "gate": { "word": "RIVAL", "reply": "DM reply line", "items": ["optional numbered chips, default item names"], "cue": "comment", "handle": "you" }
+  },
+
+  "composition": "CardReel",
+  "bg": "#0b0b0c",
+  "fps": 30,
+  "ghost": "RIVAL",
+  "hook": { "text": "Stop running these stock parts", "accent": "stock" },
+  "hud": "dots",
+  "sidebar": true,
+  "captions": "auto",
+  "captionStyle": "plain",
+  "items": [
+    {
+      "name": "Driven Diesel fuel system", "short": "Fuel system", "cue": "driven",
+      "old": "Stock lift pump", "oldTag": "STOCK", "oldMeta": "1999",
+      "sub": "regulated return  ·  partner", "icon": "cards/drivendiesel-logo.png",
+      "count": { "to": 600, "suffix": " hp", "label": "ready" }, "tag": "PARTNER",
+      "chips": [ { "text": "Regulated return", "cue": "return" }, { "text": "Clean fuel", "cue": "clean" } ],
+      "sticker": "ON THE TRUCK"
+    },
+    {
+      "name": "ISSPRO gauges", "short": "Gauges", "cue": "isspro",
+      "old": "Edge CTS3", "oldTag": "SUPERSEDED",
+      "icon": "cards/isspro-logo.png", "tag": "PARTNER",
+      "chips": [ { "text": "Boost", "cue": "boost" }, { "text": "EGT", "cue": "egt" }, { "text": "Fuel pressure", "cue": "pressure" } ]
+    },
+    {
+      "name": "Power Hungry Hydra", "short": "Tuning", "cue": "hydra",
+      "sub": "chip + media interface", "icon": "cards/powerhungry-logo.png", "tag": "PARTNER",
+      "chips": [ { "text": "Live tunes", "cue": "tunes" } ]
+    }
+  ],
+  "gate": { "word": "RIVAL", "reply": "Your Rival parts list", "cue": "comment" }
+}

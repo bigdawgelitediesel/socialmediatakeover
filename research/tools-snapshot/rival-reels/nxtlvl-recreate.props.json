@@ -1,0 +1,861 @@
+{
+ "bg": "#0b0b0c",
+ "durationSec": 51.48,
+ "fps": 30,
+ "captionStyle": "plain",
+ "overlays": [
+  {
+   "type": "hud",
+   "at": 0,
+   "dur": 5.08,
+   "props": {
+    "count": 0,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "headline",
+   "at": 0,
+   "dur": 5.08,
+   "props": {
+    "text": "Stop paying for these nine apps",
+    "y": 400,
+    "accent": "nine"
+   }
+  },
+  {
+   "type": "hud",
+   "at": 5.08,
+   "dur": 6.88,
+   "props": {
+    "count": 1,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 5.08,
+   "dur": 6.88,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 1,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 5.08,
+   "dur": 6.88,
+   "props": {
+    "name": "Higgsfield",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 5.58,
+   "dur": 6.38,
+   "props": {
+    "title": "Open Generative AI",
+    "y": 700,
+    "sub": "images + cinematic video",
+    "count": {
+     "to": 600,
+     "suffix": "+",
+     "label": "models"
+    },
+    "tag": "OPEN SOURCE",
+    "chips": [
+     {
+      "text": "AI images",
+      "at": 73
+     },
+     {
+      "text": "Cinematic video",
+      "at": 96
+     },
+     {
+      "text": "600+ models",
+      "at": 140
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 11.96,
+   "dur": 4.84,
+   "props": {
+    "count": 2,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 11.96,
+   "dur": 4.84,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 2,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 11.96,
+   "dur": 4.84,
+   "props": {
+    "name": "ElevenLabs",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 12.46,
+   "dur": 4.34,
+   "props": {
+    "title": "Voice Studio",
+    "y": 700,
+    "sub": "voice cloning",
+    "tag": "LOCAL",
+    "chips": [
+     {
+      "text": "Clone voices",
+      "at": 42
+     },
+     {
+      "text": "Fully local",
+      "at": 74
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 16.8,
+   "dur": 4.7,
+   "props": {
+    "count": 3,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 16.8,
+   "dur": 4.7,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 3,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 16.8,
+   "dur": 4.7,
+   "props": {
+    "name": "Semrush",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 17.3,
+   "dur": 4.2,
+   "props": {
+    "title": "Open SEO",
+    "y": 700,
+    "sub": "rank tracking + audits",
+    "chips": [
+     {
+      "text": "Rank tracking",
+      "at": 29
+     },
+     {
+      "text": "Backlinks",
+      "at": 58
+     },
+     {
+      "text": "Site audits",
+      "at": 85
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 21.5,
+   "dur": 4.96,
+   "props": {
+    "count": 4,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 21.5,
+   "dur": 4.96,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 4,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 21.5,
+   "dur": 4.96,
+   "props": {
+    "name": "Notion",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 22.0,
+   "dur": 4.46,
+   "props": {
+    "title": "AppFlowy",
+    "y": 700,
+    "sub": "notes and docs",
+    "chips": [
+     {
+      "text": "Notes + docs",
+      "at": 28
+     },
+     {
+      "text": "Local AI models",
+      "at": 83
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 26.46,
+   "dur": 4.34,
+   "props": {
+    "count": 5,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 26.46,
+   "dur": 4.34,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 5,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 26.46,
+   "dur": 4.34,
+   "props": {
+    "name": "Wispr Flow",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 26.96,
+   "dur": 3.84,
+   "props": {
+    "title": "Open Whisper",
+    "y": 700,
+    "sub": "dictation",
+    "chips": [
+     {
+      "text": "Dictate anywhere",
+      "at": 38
+     },
+     {
+      "text": "Even offline",
+      "at": 81
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 30.8,
+   "dur": 3.94,
+   "props": {
+    "count": 6,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 30.8,
+   "dur": 3.94,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 6,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 30.8,
+   "dur": 3.94,
+   "props": {
+    "name": "Asana",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 31.3,
+   "dur": 3.44,
+   "props": {
+    "title": "OpenProject",
+    "y": 700,
+    "sub": "tasks + projects",
+    "chips": [
+     {
+      "text": "Tasks",
+      "at": 34
+     },
+     {
+      "text": "Your own server",
+      "at": 80
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 34.74,
+   "dur": 4.46,
+   "props": {
+    "count": 7,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 34.74,
+   "dur": 4.46,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 7,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 34.74,
+   "dur": 4.46,
+   "props": {
+    "name": "Calendly",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 35.24,
+   "dur": 3.96,
+   "props": {
+    "title": "Cal.com",
+    "y": 700,
+    "sub": "scheduling",
+    "chips": [
+     {
+      "text": "Book meetings",
+      "at": 44
+     },
+     {
+      "text": "Google + Outlook",
+      "at": 80
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 39.2,
+   "dur": 4.68,
+   "props": {
+    "count": 8,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 39.2,
+   "dur": 4.68,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 8,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 39.2,
+   "dur": 4.68,
+   "props": {
+    "name": "Intercom",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 39.7,
+   "dur": 4.18,
+   "props": {
+    "title": "Chatwoot",
+    "y": 700,
+    "sub": "support inbox",
+    "chips": [
+     {
+      "text": "Every lead",
+      "at": 36
+     },
+     {
+      "text": "One inbox",
+      "at": 94
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 43.88,
+   "dur": 3.261,
+   "props": {
+    "count": 9,
+    "total": 9,
+    "y": 300,
+    "variant": "dots",
+    "handle": "@ai.nxtlvl study"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 43.88,
+   "dur": 3.261,
+   "props": {
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "current": 9,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 43.88,
+   "dur": 3.261,
+   "props": {
+    "name": "Loom",
+    "tag": "PAID",
+    "stamp": "FREE",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 44.38,
+   "dur": 2.761,
+   "props": {
+    "title": "Cap",
+    "y": 700,
+    "sub": "screen recording",
+    "sticker": "ONE CLICK",
+    "chips": [
+     {
+      "text": "Record your screen",
+      "at": 13
+     },
+     {
+      "text": "Share it",
+      "at": 43
+     }
+    ],
+    "stickerAt": 69
+   }
+  },
+  {
+   "type": "iris",
+   "at": 46.84,
+   "dur": 0.7,
+   "props": {
+    "color": "#7a1f1f"
+   }
+  },
+  {
+   "type": "gate",
+   "at": 47.24,
+   "dur": 4.24,
+   "props": {
+    "word": "REPO",
+    "reply": "Here are all nine links",
+    "items": [
+     "Higgsfield",
+     "ElevenLabs",
+     "Semrush",
+     "Notion",
+     "Wispr Flow",
+     "Asana",
+     "Calendly",
+     "Intercom",
+     "Loom"
+    ],
+    "y": 620,
+    "typeAt": 6,
+    "dmAt": 36
+   }
+  }
+ ],
+ "captions": [
+  {
+   "text": "Hicks Field.",
+   "start": 5.2,
+   "end": 6.14,
+   "y": 1129
+  },
+  {
+   "text": "Open generative AI.",
+   "start": 6.14,
+   "end": 7.68,
+   "y": 1129,
+   "accent": "Open"
+  },
+  {
+   "text": "AI images and cinematic",
+   "start": 7.68,
+   "end": 9.24,
+   "y": 1129
+  },
+  {
+   "text": "video with 600 plus models.",
+   "start": 9.24,
+   "end": 12.08,
+   "y": 1129
+  },
+  {
+   "text": "Eleven Labs.",
+   "start": 12.08,
+   "end": 12.98,
+   "y": 1129
+  },
+  {
+   "text": "Voice Studio.",
+   "start": 12.98,
+   "end": 13.86,
+   "y": 1129,
+   "accent": "Voice"
+  },
+  {
+   "text": "Clone Voices.",
+   "start": 13.86,
+   "end": 14.94,
+   "y": 1129
+  },
+  {
+   "text": "Fully local on your own machine.",
+   "start": 14.94,
+   "end": 16.92,
+   "y": 1129
+  },
+  {
+   "text": "SEMrush OpenCO.",
+   "start": 16.92,
+   "end": 18.28,
+   "y": 1129
+  },
+  {
+   "text": "Rank tracking.",
+   "start": 18.28,
+   "end": 19.24,
+   "y": 1129
+  },
+  {
+   "text": "Backlinks and site audits in",
+   "start": 19.24,
+   "end": 20.68,
+   "y": 1129
+  },
+  {
+   "text": "one place.",
+   "start": 20.68,
+   "end": 21.62,
+   "y": 1129
+  },
+  {
+   "text": "Notion App Flowy.",
+   "start": 21.62,
+   "end": 22.92,
+   "y": 1129
+  },
+  {
+   "text": "Notes and Docs.",
+   "start": 22.92,
+   "end": 24.1,
+   "y": 1129
+  },
+  {
+   "text": "And it works with local",
+   "start": 24.1,
+   "end": 25.14,
+   "y": 1129
+  },
+  {
+   "text": "AI models.",
+   "start": 25.14,
+   "end": 26.58,
+   "y": 1129
+  },
+  {
+   "text": "Whisper Flow.",
+   "start": 26.58,
+   "end": 27.32,
+   "y": 1129
+  },
+  {
+   "text": "Open Whisper.",
+   "start": 27.32,
+   "end": 28.22,
+   "y": 1129,
+   "accent": "Open"
+  },
+  {
+   "text": "Dictate into any app.",
+   "start": 28.22,
+   "end": 29.3,
+   "y": 1129
+  },
+  {
+   "text": "Even offline.",
+   "start": 29.3,
+   "end": 30.92,
+   "y": 1129
+  },
+  {
+   "text": "Asana Open Project.",
+   "start": 30.92,
+   "end": 32.42,
+   "y": 1129
+  },
+  {
+   "text": "Tasks and projects on your",
+   "start": 32.42,
+   "end": 33.74,
+   "y": 1129
+  },
+  {
+   "text": "own server.",
+   "start": 33.74,
+   "end": 34.86,
+   "y": 1129
+  },
+  {
+   "text": "Calendly. Cal .DIY.",
+   "start": 34.86,
+   "end": 36.7,
+   "y": 1129
+  },
+  {
+   "text": "Book meetings synced with",
+   "start": 36.7,
+   "end": 37.92,
+   "y": 1129
+  },
+  {
+   "text": "Google and Outlook.",
+   "start": 37.92,
+   "end": 39.32,
+   "y": 1129
+  },
+  {
+   "text": "Intercom. Chatroom.",
+   "start": 39.32,
+   "end": 40.7,
+   "y": 1129
+  },
+  {
+   "text": "Every lead and client message.",
+   "start": 40.7,
+   "end": 42.46,
+   "y": 1129
+  },
+  {
+   "text": "In one inbox. And",
+   "start": 42.46,
+   "end": 44.0,
+   "y": 1129
+  },
+  {
+   "text": "Loom Cap.",
+   "start": 44.0,
+   "end": 44.82,
+   "y": 1129,
+   "accent": "Cap"
+  },
+  {
+   "text": "Record your screen and share",
+   "start": 44.82,
+   "end": 46.08,
+   "y": 1129
+  },
+  {
+   "text": "it in one click.",
+   "start": 46.08,
+   "end": 47.24,
+   "y": 1129
+  }
+ ]
+}
