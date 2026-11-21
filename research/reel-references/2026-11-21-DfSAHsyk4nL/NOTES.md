@@ -1,0 +1,9 @@
+# Harrison Niap (@harrisonniap, "Desk Setup & Cinematics") font-pairing carousel (DfSAHsyk4nL, slide 2 requested)
+
+Sent by Jacob 2026-11-21 with img_index=2. Posted 2026-11-02, 2,646 likes, 842 comments (gate "Comment FONT" for a list of 20 cinematic fonts). Only the cover slide is reachable logged out (slide-01.jpg, a 640 px centre crop); the child post pages serve the same cover, so slides 2 onward need a screenshot from Jacob's phone into this folder.
+
+What the cover shows: a dark cinematic room photo, a huge white lockup "Font" where a flourished script capital F overlaps a heavy grotesque "ont", the script sitting on top and the bold word cut off by the frame edge; a small handle top right. It is the same lockup grammar as Jacob's locked Combo A LOUDER (Kaushan Script over Anton with a Poppins Italic sub, research/FONT-LIBRARY.md), which came from the same trend.
+
+His caption is the craft note worth keeping, in his words: "a good taste of pattern interruption both captures attention and adds to the aesthetic... putting a bold font next to a script to just make it pop more... The trick is letting them overlap a little, AND reduce the font kerning (space between each character) so it looks more unique. That's the secret sauce."
+
+Applied: the lockup renderer already overlaps the script on the block word (script rotated -4 degrees over the top of the block). Kerning: FONT-LIBRARY locks the Anton block at tracking +2; his advice is tighter. Added a `tight` option to ScriptBlock (letterSpacing -6 on the block, script pulled 10 px lower into the block) so the tighter version can be tried on the next LOUDER lockup without changing the locked default. The 20-font list is gated; our free equivalents are already on disk (Kaushan Script, Caveat Brush, Yellowtail for the script; Anton, Archivo Black, Bebas for the block).

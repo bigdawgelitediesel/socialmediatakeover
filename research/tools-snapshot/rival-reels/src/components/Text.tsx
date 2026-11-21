@@ -30,16 +30,16 @@ export const KineticHook: React.FC<{ words: string[]; dur: number; y?: number; s
 };
 
 /* ---------- Script over block ("Create LOUDER") ---------- */
-export const ScriptBlock: React.FC<{ script: string; block: string; sub?: string; dur: number; y?: number }> = ({ script, block, sub, dur, y = 520 }) => {
+export const ScriptBlock: React.FC<{ script: string; block: string; sub?: string; dur: number; y?: number; tight?: boolean }> = ({ script, block, sub, dur, y = 520, tight = false }) => {   // tight: Harrison Niap's "overlap a little and reduce the kerning" (2026-11-21), a test option, the locked default stays
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const pb = pop(frame, fps, 0), ps = pop(frame, fps, 4), pu = pop(frame, fps, 9);
   const out = tailFade(frame, dur, 8);
   return (
     <AbsoluteFill style={{ alignItems: "center", paddingTop: y, opacity: out }}>
       <div style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center" }}>
-        <div style={{ fontFamily: F.block, fontSize: 380, lineHeight: 0.9, letterSpacing: 2, color: C.white, textShadow: shadow,
+        <div style={{ fontFamily: F.block, fontSize: 380, lineHeight: 0.9, letterSpacing: tight ? -6 : 2, color: C.white, textShadow: shadow,
           transform: `scale(${0.96 + 0.04 * pb})`, opacity: pb, marginTop: 110 }}>{block}</div>
-        <div style={{ position: "absolute", top: 0, fontFamily: F.script, fontSize: 190, color: C.yellow, textShadow: shadow,
+        <div style={{ position: "absolute", top: tight ? 10 : 0, fontFamily: F.script, fontSize: 190, color: C.yellow, textShadow: shadow,
           transform: `rotate(-4deg) scale(${0.92 + 0.08 * ps})`, opacity: ps, whiteSpace: "nowrap" }}>{script}</div>
         {sub && <div style={{ fontFamily: F.uiItalic, fontSize: 46, letterSpacing: 3, color: C.white, textTransform: "uppercase", marginTop: 26,
           opacity: pu, transform: `translateY(${(1 - pu) * 14}px)`, textShadow: shadow }}>{sub}</div>}

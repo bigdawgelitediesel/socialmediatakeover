@@ -1,0 +1,13 @@
+Parts-counter lane references, pulled 2026-11-21 with yt-dlp (TikTok). Each clip has <slug>.mp4, <slug>.info.json, <slug>.meta.txt and watch-<slug>/<slug>/ (scenes.csv, transcript.txt, sheet-NN.jpg, shots/).
+Ratio = shares / plays at pull time.
+
+slug                     | account              | plays     | shares | ratio  | what it is
+dpg-parts-training-2     | @dealerplateguy      | 687,300   | 8,498  | 1.24%  | skit: new hire's first phone call, "just say parts, don't say your name, don't say the store"
+dpg-parts-training-3     | @dealerplateguy      | 300,700   | 5,058  | 1.68%  | skit: counter role-play, "you didn't ask enough irrelevant questions" (VIN, 2WD/4WD, color, tire brand for wiper blades)
+dpg-old-parts-back       | @dealerplateguy      | 1,500,000 | 163    | 0.01%  | skit: customer wants old alternator back, gets a $75 core charge. Huge views, nobody sends it
+jordy-truthful           | @jordyjdpartsguy     | 8,070     | 234    | 2.90%  | 6 s green-screen meme, question overlay "advice for someone starting at the parts counter?", Ken Jeong audio
+jordy-backordered        | @jordyjdpartsguy     | 6,196     | 85     | 1.37%  | 11 s Homer-with-clipboard over a real parts warehouse, "The parts warehouse taking my order"
+jordy-whats-that         | @jordyjdpartsguy     | 46,100    | 2,009  | 4.36%  | 13 s Sid the sloth over a combine, farm-crew in-joke (not parts, shows how a tribe meme sends)
+diehl-parts-guy-phone    | @diehlautomotive     | 3,688     | 60     | 1.63%  | 15 s two-man skit, tech melts down while parts counterperson stays on the phone
+hhp-rocker-levers        | @highwayandheavyparts| 3,976     | 11     | 0.28%  | 61 s supplier talking head over rebuild B-roll, karaoke captions, phone number in caption
+dtp-good-vs-bad-cores    | @davidstruckparts    | 724       | 1      | 0.14%  | 160 s warehouse walk, owner explains which transmission cores get dinged
