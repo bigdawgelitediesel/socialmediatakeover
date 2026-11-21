@@ -4,15 +4,15 @@ import { C, F, shadow } from "../theme";
 import { prog, pop, tailFade, EASE_IN_OUT } from "./anim";
 
 /* ---------- Kinetic hook: words slam in one at a time (Anton block caps) ---------- */
-export const KineticHook: React.FC<{ words: string[]; dur: number; y?: number; size?: number; accent?: string; color?: string }> = ({
-  words, dur, y = 560, size = 150, accent, color = C.cream,
+export const KineticHook: React.FC<{ words: string[]; dur: number; y?: number; size?: number; accent?: string; color?: string; align?: "center" | "right" | "left"; pad?: number }> = ({
+  words, dur, y = 560, size = 150, accent, color = C.cream, align = "center", pad = 70,
 }) => {
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const step = Math.max(4, Math.floor((fps * 0.14)));
   const out = tailFade(frame, dur, 8);
   return (
-    <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: y, opacity: out }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 0 }}>
+    <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: align === "right" ? "flex-end" : align === "left" ? "flex-start" : "center", paddingTop: y, paddingLeft: pad, paddingRight: pad, opacity: out }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: align === "right" ? "flex-end" : align === "left" ? "flex-start" : "center", gap: 0 }}>
         {words.map((w, i) => {
           const p = pop(frame, fps, i * step);
           const isAcc = accent && w.toUpperCase() === accent.toUpperCase();
@@ -61,7 +61,7 @@ export const WordStamp: React.FC<{ text: string; dur: number; y?: number; size?:
         {echo && <div style={{ position: "absolute", left: 10, top: 12, fontFamily: font, fontSize: size, color: C.tan, opacity: 0.35, letterSpacing: 2, whiteSpace: "nowrap" }}>{text}</div>}
         <div style={{ fontFamily: font, fontSize: size, color, letterSpacing: 2, whiteSpace: "nowrap", textShadow: shadow, display: "flex", maxWidth: 960, transform: "scale(var(--fit,1))" }}>
           {letters.map((ch, i) => {
-            const p = pop(frame, fps, i * 2);
+            const p = pop(frame, fps, i);
             return <span key={i} style={{ display: "inline-block", transform: `translateY(${(1 - p) * 40}px)`, opacity: p, minWidth: ch === " " ? size * 0.3 : undefined }}>{ch}</span>;
           })}
         </div>

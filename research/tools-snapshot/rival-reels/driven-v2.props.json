@@ -119,8 +119,10 @@
      "ON BLAST"
     ],
     "accent": "ON BLAST",
-    "y": 940,
-    "size": 112
+    "y": 110,
+    "size": 104,
+    "align": "right",
+    "pad": 60
    }
   },
   {
@@ -142,8 +144,8 @@
    "dur": 1.9,
    "props": {
     "text": "STRICTLY DIESEL",
-    "size": 100,
-    "y": 1000,
+    "size": 96,
+    "y": 1010,
     "echo": true
    }
   },
