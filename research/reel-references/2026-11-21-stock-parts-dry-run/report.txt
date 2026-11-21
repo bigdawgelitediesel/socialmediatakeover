@@ -1,0 +1,40 @@
+vo_scratch report  2026-11-21 09:15
+script: C:\Users\Parts\OneDrive - Elite Diesel Service\Desktop\VIDEO\tools\rival-reels\out\stock-parts\script.txt
+voice am_michael  base speed 1.1  takes/line 2  whisper small
+SCRATCH VOICE ONLY. Timing and preview. Jacob records the real VO.
+
+total duration   41.23 s   (38.33 s spoken + 2.90 s gaps)
+words            95
+words per minute 138 overall, 149 while speaking   target 150 to 165
+hook             9 words, ends at 3.84 s   target 15 words inside 5 s   OK
+mean WER         0.024  (0 = Whisper read back every word of the script)
+flags            runs 41.2 s, over the 18 s ceiling: cut words; 138 wpm is under 140: tighten the lines or raise --speed
+
+line  start    end   dur wds  wpm speed   wer  text
+   1   0.00   3.84  3.84   9  141  1.06 0.000  Every stock part leaving this 7.3. Nine of them.
+     (not picked x1.18 wer 0.000 3.65s)
+   2   4.04   8.04  4.00  10  150  1.06 0.000  Rods. Stock Navistar rods are out. Forged rods go in.
+     (not picked x1.18 wer 0.000 3.90s)
+   3   8.34  11.90  3.56   9  152  1.06 0.000  Pistons. Forged, bored to whatever the machine shop says.
+     (not picked x1.18 wer 0.000 3.48s)
+   4  12.20  15.10  2.90   9  186  1.06 0.000  Cam. A Stage 2 billet cam on roller lifters.
+     (not picked x1.18 wer 0.000 2.92s)
+   5  15.40  19.05  3.65   8  132  1.06 0.000  Head gaskets. Multi layer steel on ARP studs.
+     (not picked x1.18 wer 0.000 3.41s)
+   6  19.35  23.93  4.58  10  131  1.06 0.000  Lift pump. Driven Diesel builds the regulated return fuel system.
+     (not picked x1.18 wer 0.000 4.27s)
+   7  24.23  27.35  3.12   7  135  1.06 0.000  Turbo. One stock turbo becomes compound turbos.
+     (not picked x1.18 wer 0.000 2.99s)
+   8  27.65  31.43  3.78   8  127  1.06 0.000  Injectors. Hybrid injectors sized for six hundred horsepower.
+     (not picked x1.18 wer 0.000 3.80s)
+   9  31.73  34.55  2.82   8  170  1.06 0.125  Chip. Power Hungry Hydra with the media interface.
+     (not picked x1.18 wer 0.125 2.86s)
+     whisper heard: chip power-hungry hydro with the media interface.
+  10  34.85  38.19  3.34   7  126  1.06 0.143  Gauges. ISSPRO, boost, exhaust temp, fuel pressure.
+     (not picked x1.18 wer 0.143 3.22s)
+     whisper heard: gauges, ispro boost, exhaust temp, fuel pressure.
+  11  38.49  41.23  2.74  10  219  1.06 0.000  Comment RIVAL and I will send you the full list.
+     (not picked x1.18 wer 0.000 2.82s)
+
+timing           kokoro 37.8 s for 77.5 s of raw takes, whole run 131.9 s
+files            vo.wav (48k stereo polished), vo_raw_24k.wav, words.json, lines.json, takes/

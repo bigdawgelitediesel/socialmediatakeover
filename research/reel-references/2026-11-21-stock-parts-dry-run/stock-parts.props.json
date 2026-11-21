@@ -1,0 +1,769 @@
+{
+ "bg": "#0b0b0c",
+ "durationSec": 42.71,
+ "fps": 30,
+ "captionStyle": "plain",
+ "overlays": [
+  {
+   "type": "ghost",
+   "at": 0,
+   "dur": 42.71,
+   "props": {
+    "text": "RIVAL",
+    "y": 1000
+   }
+  },
+  {
+   "type": "hud",
+   "at": 0,
+   "dur": 3.92,
+   "props": {
+    "count": 0,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "headline",
+   "at": 0,
+   "dur": 3.92,
+   "props": {
+    "text": "Every stock part leaving this 7.3",
+    "y": 400,
+    "accent": "stock"
+   }
+  },
+  {
+   "type": "hud",
+   "at": 3.92,
+   "dur": 4.3,
+   "props": {
+    "count": 1,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 3.92,
+   "dur": 4.3,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 1,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 3.92,
+   "dur": 4.3,
+   "props": {
+    "name": "Stock Navistar rods",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540,
+    "meta": "x8"
+   }
+  },
+  {
+   "type": "item",
+   "at": 4.42,
+   "dur": 3.8,
+   "props": {
+    "title": "Forged rods",
+    "y": 700,
+    "sub": "all eight replaced",
+    "sticker": "DECIDED",
+    "chips": [
+     {
+      "text": "Forged",
+      "at": 65
+     }
+    ],
+    "stickerAt": 75
+   }
+  },
+  {
+   "type": "hud",
+   "at": 8.22,
+   "dur": 3.86,
+   "props": {
+    "count": 2,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 8.22,
+   "dur": 3.86,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 2,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 8.22,
+   "dur": 3.86,
+   "props": {
+    "name": "Stock pistons",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 8.72,
+   "dur": 3.36,
+   "props": {
+    "title": "Forged pistons",
+    "y": 700,
+    "sub": "bore decides the size",
+    "chips": [
+     {
+      "text": "Machine shop first",
+      "at": 64
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 12.08,
+   "dur": 3.2,
+   "props": {
+    "count": 3,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 12.08,
+   "dur": 3.2,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 3,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 12.08,
+   "dur": 3.2,
+   "props": {
+    "name": "Stock cam",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 12.58,
+   "dur": 2.7,
+   "props": {
+    "title": "Stage 2 billet cam",
+    "y": 700,
+    "sub": "hydraulic roller lifters",
+    "chips": [
+     {
+      "text": "Billet",
+      "at": 23
+     },
+     {
+      "text": "Roller lifters",
+      "at": 49
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 15.28,
+   "dur": 3.95,
+   "props": {
+    "count": 4,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 15.28,
+   "dur": 3.95,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 4,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 15.28,
+   "dur": 3.95,
+   "props": {
+    "name": "Stock gaskets",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 15.78,
+   "dur": 3.45,
+   "props": {
+    "title": "MLS head gaskets",
+    "y": 700,
+    "sub": "ARP studs",
+    "chips": [
+     {
+      "text": "Multi layer steel",
+      "at": 22
+     },
+     {
+      "text": "ARP studs",
+      "at": 61
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 19.23,
+   "dur": 4.88,
+   "props": {
+    "count": 5,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 19.23,
+   "dur": 4.88,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 5,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 19.23,
+   "dur": 4.88,
+   "props": {
+    "name": "Stock lift pump",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 19.73,
+   "dur": 4.38,
+   "props": {
+    "title": "Driven Diesel fuel system",
+    "y": 700,
+    "sub": "regulated return  \u00b7  partner",
+    "icon": "cards/drivendiesel-logo.png",
+    "tag": "PARTNER",
+    "sticker": "PARTNER",
+    "chips": [
+     {
+      "text": "Regulated return",
+      "at": 64
+     }
+    ],
+    "stickerAt": 74
+   }
+  },
+  {
+   "type": "hud",
+   "at": 24.11,
+   "dur": 3.42,
+   "props": {
+    "count": 6,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 24.11,
+   "dur": 3.42,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 6,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 24.11,
+   "dur": 3.42,
+   "props": {
+    "name": "Stock turbo",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 24.61,
+   "dur": 2.92,
+   "props": {
+    "title": "Compound turbos",
+    "y": 700,
+    "sub": "two stages",
+    "chips": [
+     {
+      "text": "Compounds",
+      "at": 43
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 27.53,
+   "dur": 4.08,
+   "props": {
+    "count": 7,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 27.53,
+   "dur": 4.08,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 7,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 27.53,
+   "dur": 4.08,
+   "props": {
+    "name": "Stock injectors",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 28.03,
+   "dur": 3.58,
+   "props": {
+    "title": "Hybrid injectors",
+    "y": 700,
+    "sub": "sized for the target",
+    "count": {
+     "to": 600,
+     "suffix": " hp",
+     "label": "target"
+    },
+    "chips": [
+     {
+      "text": "Hybrid",
+      "at": 19
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 31.61,
+   "dur": 3.12,
+   "props": {
+    "count": 8,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 31.61,
+   "dur": 3.12,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 8,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 31.61,
+   "dur": 3.12,
+   "props": {
+    "name": "Stock chip",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 32.11,
+   "dur": 2.62,
+   "props": {
+    "title": "Power Hungry Hydra",
+    "y": 700,
+    "sub": "chip + media interface  \u00b7  partner",
+    "icon": "cards/powerhungry-logo.png",
+    "tag": "PARTNER",
+    "sticker": "PARTNER",
+    "chips": [
+     {
+      "text": "Media interface",
+      "at": 49
+     }
+    ],
+    "stickerAt": 59
+   }
+  },
+  {
+   "type": "hud",
+   "at": 34.73,
+   "dur": 3.541,
+   "props": {
+    "count": 9,
+    "total": 9,
+    "y": 300,
+    "variant": "dots"
+   }
+  },
+  {
+   "type": "sidebar",
+   "at": 34.73,
+   "dur": 3.541,
+   "props": {
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "current": 9,
+    "y": 1259,
+    "cols": 2,
+    "size": 22
+   }
+  },
+  {
+   "type": "strikestamp",
+   "at": 34.73,
+   "dur": 3.541,
+   "props": {
+    "name": "No gauges",
+    "tag": "STOCK",
+    "stamp": "RIVAL",
+    "y": 540
+   }
+  },
+  {
+   "type": "item",
+   "at": 35.23,
+   "dur": 3.041,
+   "props": {
+    "title": "ISSPRO gauges",
+    "y": 700,
+    "sub": "partner",
+    "icon": "cards/isspro-logo.png",
+    "tag": "PARTNER",
+    "sticker": "PARTNER",
+    "chips": [
+     {
+      "text": "Boost",
+      "at": 22
+     },
+     {
+      "text": "EGT",
+      "at": 45
+     },
+     {
+      "text": "Fuel pressure",
+      "at": 75
+     }
+    ],
+    "stickerAt": 85
+   }
+  },
+  {
+   "type": "iris",
+   "at": 37.97,
+   "dur": 0.7,
+   "props": {
+    "color": "#7a1f1f"
+   }
+  },
+  {
+   "type": "gate",
+   "at": 38.37,
+   "dur": 4.34,
+   "props": {
+    "word": "RIVAL",
+    "reply": "Your full Rival parts list",
+    "items": [
+     "Rods",
+     "Pistons",
+     "Cam",
+     "Head gaskets",
+     "Fuel system",
+     "Turbos",
+     "Injectors",
+     "Tuning",
+     "Gauges"
+    ],
+    "y": 620,
+    "typeAt": 6,
+    "dmAt": 36
+   }
+  }
+ ],
+ "captions": [
+  {
+   "text": "Rods. Stock Navistar rods are out.",
+   "start": 4.04,
+   "end": 6.58,
+   "y": 1129
+  },
+  {
+   "text": "Forged rods go in.",
+   "start": 6.58,
+   "end": 8.34,
+   "y": 1129,
+   "accent": "Forged"
+  },
+  {
+   "text": "Pistons. Forged, bored to whatever",
+   "start": 8.34,
+   "end": 10.66,
+   "y": 1129,
+   "accent": "Forged"
+  },
+  {
+   "text": "the machine shop says.",
+   "start": 10.66,
+   "end": 12.2,
+   "y": 1129
+  },
+  {
+   "text": "Cam. A Stage 2 billet cam",
+   "start": 12.2,
+   "end": 13.98,
+   "y": 1129,
+   "accent": "Stage"
+  },
+  {
+   "text": "on roller lifters.",
+   "start": 13.98,
+   "end": 15.4,
+   "y": 1129
+  },
+  {
+   "text": "Head gaskets.",
+   "start": 15.4,
+   "end": 16.52,
+   "y": 1129
+  },
+  {
+   "text": "Multi layer steel on ARP studs.",
+   "start": 16.52,
+   "end": 19.35,
+   "y": 1129
+  },
+  {
+   "text": "Lift pump.",
+   "start": 19.35,
+   "end": 20.39,
+   "y": 1129
+  },
+  {
+   "text": "Driven Diesel builds the",
+   "start": 20.39,
+   "end": 21.87,
+   "y": 1129,
+   "accent": "Driven"
+  },
+  {
+   "text": "regulated return fuel system.",
+   "start": 21.87,
+   "end": 24.23,
+   "y": 1129
+  },
+  {
+   "text": "Turbo. One stock turbo becomes",
+   "start": 24.23,
+   "end": 26.05,
+   "y": 1129
+  },
+  {
+   "text": "compound turbos.",
+   "start": 26.05,
+   "end": 27.65,
+   "y": 1129,
+   "accent": "Compound"
+  },
+  {
+   "text": "Injectors. Hybrid injectors sized for",
+   "start": 27.65,
+   "end": 30.45,
+   "y": 1129,
+   "accent": "Hybrid"
+  },
+  {
+   "text": "six hundred horsepower.",
+   "start": 30.45,
+   "end": 31.73,
+   "y": 1129
+  },
+  {
+   "text": "Chip. Power Hungry Hydra with the",
+   "start": 31.73,
+   "end": 33.73,
+   "y": 1129,
+   "accent": "Power"
+  },
+  {
+   "text": "media interface.",
+   "start": 33.73,
+   "end": 34.85,
+   "y": 1129
+  },
+  {
+   "text": "Gauges. ISSPRO, boost, exhaust temp,",
+   "start": 34.85,
+   "end": 37.57,
+   "y": 1129,
+   "accent": "ISSPRO"
+  },
+  {
+   "text": "fuel pressure.",
+   "start": 37.57,
+   "end": 38.37,
+   "y": 1129
+  }
+ ]
+}
