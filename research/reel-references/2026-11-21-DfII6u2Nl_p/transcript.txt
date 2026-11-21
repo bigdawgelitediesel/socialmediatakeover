@@ -1,0 +1,18 @@
+[00:00.0 -> 00:05.4] Aude has now become insanely good at motion graphics and video editing, but the sound effects
+[00:05.4 -> 00:07.0] it adds still suck.
+[00:07.3 -> 00:09.4] Here's how to fix that with three free tools.
+[00:09.7 -> 00:11.4] They add professional sounds to your timeline.
+[00:11.8 -> 00:15.5] Each one goes in the right place and at the right level, just like a pro editor would.
+[00:15.9 -> 00:17.1] Tool one is Earshot.
+[00:17.4 -> 00:19.3] Use it when the right sound effect can't be found.
+[00:19.6 -> 00:21.3] It generates a brand new one in code.
+[00:21.5 -> 00:23.9] It can even make a whole sound kit that fits your project.
+[00:24.2 -> 00:26.2] Tool two is Real SFX.
+[00:26.4 -> 00:27.4] It studies your timeline.
+[00:27.7 -> 00:29.5] It finds each moment that needs a sound.
+[00:29.5 -> 00:31.6] Then it adds one at the exact frame.
+[00:32.0 -> 00:33.3] Tool three is Openverse API.
+[00:33.7 -> 00:37.6] It gives your AI agent access to over five million high quality sound effects.
+[00:37.8 -> 00:39.8] It can search and download them on its own.
+[00:40.1 -> 00:44.9] If you want all three of these, just comment sound down below and I'll send you the
+[00:44.9 -> 00:45.6] links directly.

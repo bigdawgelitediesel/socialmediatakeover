@@ -1,0 +1,28 @@
+2026-11-21 fresh editing tutorial transcripts (Oct 7 to Nov 21 2026 uploads). Pulled via Supadata native captions. Views as of 2026-11-21.
+Synthesis: research/2026-11-21-editing-tutorials-fresh.md
+
+file | title | channel | uploaded | views | url
+2026-11-21-joseph-viral-talking-head-only-claude-minimal-style.txt | How to Edit VIRAL Talking Head Videos Using ONLY Claude! (New Minimal Style) | Joseph, Video Editing | 2026-10-31 | 290,983 | https://www.youtube.com/watch?v=g9xoKm5DEeU
+2026-11-21-joseph-viral-reels-opus-55-new-style.txt | How to Edit VIRAL Instagram Reels Using Opus 5.5! (New Style in 2026) | Joseph, Video Editing | 2026-10-11 | 190,407 | https://www.youtube.com/watch?v=5UnK3c-nlIs
+2026-11-21-kaye-creatives-motion-graphics-opus-55-claude-motion.txt | How To Make Insane Motion Graphics With Opus 5.5 (Claude Motion) | kaye.creatives | 2026-10-14 | 723,540 | https://www.youtube.com/watch?v=AsvN_feasyY
+2026-11-21-kaye-creatives-video-editing-opus-55-talking-head-reel.txt | How To Make Insane Video Editing With Opus 5.5 (Claude Motion) | kaye.creatives | 2026-11-07 | 294,807 | https://www.youtube.com/watch?v=FJZkfjM8WhI
+2026-11-21-tristen-obrien-claude-just-dropped-motion.txt | Claude Just Dropped MOTION (Get Ahead of 95% in 11 Minutes) | Tristen O'Brien | 2026-10-14 | 596,387 | https://www.youtube.com/watch?v=yf2OwchM9nw
+2026-11-21-zane-hoyer-claude-netflix-documentary-one-motion.txt | Claude Edited This Netflix-Level Documentary (Copy Me) | Zane Hoyer | 2026-11-03 | 311,200 | https://www.youtube.com/watch?v=e2Fykz51Nxg
+2026-11-21-matt-loui-automate-capcut-editing-with-claude.txt | Automate Your CapCut Editing With Claude (Step by Step + Free Skill) | Matt Loui | 2026-10-23 | 363,267 | https://www.youtube.com/watch?v=U-AdnIz1jIk
+2026-11-21-stockton-walbeck-claude-code-editing-10-year-editor.txt | How to Edit Videos With Claude Code (From a 10-Year Editor) | Stockton Walbeck | 2026-10-28 | 39,987 | https://www.youtube.com/watch?v=gM40EV6Esh0
+2026-11-21-ai-labs-8-github-repos-claude-video-editing.txt | Insane GitHub Repos To Actually 10x Claude Video Editing | AI LABS | 2026-11-02 | 144,795 | https://www.youtube.com/watch?v=oTWUyW_bR-g
+2026-11-21-therichy-8-text-animations-after-effects.txt | 8 Easy Text Animations in After Effects | theRichy | 2026-10-07 | 36,432 | https://www.youtube.com/watch?v=F6I_zPfi0UQ
+2026-11-21-thomas-creates-viral-shorts-captions-one-click.txt | How to Make VIRAL YouTube Shorts Captions in One Click | Thomas Creates | 2026-11-03 | 15,410 | https://www.youtube.com/watch?v=8sb2R11FeVw
+2026-11-21-ka-production-dynamic-auto-captions-filmora.txt | Dynamic Auto Captions Tutorial (Filmora) | Ka Production | 2026-10-17 | 12,131 | https://www.youtube.com/watch?v=3WMazrwPDkw
+2026-11-21-letta-edit-70-podcast-graphics-resolve.txt | All 70 Graphics That Turn a Podcast Into a Show (DaVinci Resolve) | Letta Edit | 2026-10-20 | 74 | https://www.youtube.com/watch?v=zhjqLOKL-IU
+2026-11-21-growthalgo-retention-trick-7-editing-fixes.txt | The Retention Trick Pro Editors Never Share | GrowthalgoYT | 2026-10-21 | 3,781 | https://www.youtube.com/watch?v=LdajwuyD28I
+2026-11-21-am-film-smooth-speed-ramps-after-effects.txt | How to Make SMOOTH Speed Ramps in After Effects | AM Film | 2026-10-12 | 5,695 | https://www.youtube.com/watch?v=LLottFJnMhI
+2026-11-21-mehran-hadad-5-color-grading-mistakes-resolve.txt | 5 Color Grading Mistakes Ruining Your Footage In Davinci Resolve | Mehran Hadad | 2026-10-11 | 76,265 | https://www.youtube.com/watch?v=U1BreW0Fe6U
+2026-11-21-think-media-iphone-18-pro-camera-settings.txt | iPhone 18 Pro Max Camera Settings You MUST Change! | Think Media | 2026-10-21 | 59,637 | https://www.youtube.com/watch?v=aZ2CsOKd5XU
+2026-11-21-creator-swift-edits-app-speed-curve-slow-fast.txt | Trending Slow Motion Edit in Edits App (Hindi, glossed) | Creator Swift | 2026-10-28 | 62,295 | https://www.youtube.com/watch?v=xEtVdcmzhxk
+2026-11-21-socialcontentking-3-capcut-tricks-text-behind-head.txt | CapCut Editing Tricks That Look Pro | socialcontentking | 2026-11-07 | 20,096 | https://www.youtube.com/watch?v=CsY9aOy3kYw
+2026-11-21-socialcontentking-5-audio-hooks.txt | Audio Hooks for Short-Form Video: 5 Sound Tricks | socialcontentking | 2026-10-22 | 825 | https://www.youtube.com/watch?v=WqmKMfMkrZw
+
+Skimmed by keyword only (not saved): Ali Abdaal C0jOKDJtK9s (631,397), Matt Wolfe ep4psgAFOqc (116,044), Usman Explains uW-8SKO8kYE (135,539).
+Not transcribed (Supadata monthly cap reached): 3vcuIfG5o0E, pQQbSMJ3cSM, I0BjUzAlRXI, 0eTqUDW14VY, RDOy_HkTWyY (Hindi only), AG6q5fEOMdE.
+Gotchas: yt-dlp --write-auto-sub returned HTTP 429 all session; Supadata free plan is 100 requests per month and rate-limits bursts over ~15 parallel calls; large COMPOSIO_MULTI_EXECUTE responses land in /mnt/files/mex/<random>.json, grep for a known phrase to find the right file.

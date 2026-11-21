@@ -1,0 +1,7 @@
+duration: 45.816667
+width: 1440
+height: 2560
+fps: 60.0
+vcodec: vp9
+audio: aac
+orientation: vertical
