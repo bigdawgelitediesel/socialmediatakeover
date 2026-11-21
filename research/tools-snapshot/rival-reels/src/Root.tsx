@@ -3,6 +3,7 @@ import { Composition, staticFile } from "remotion";
 import { getVideoMetadata } from "@remotion/media-utils";
 import { RivalReel, ReelProps } from "./RivalReel";
 import { CardReel, CardReelProps } from "./CardReel";
+import { Cover, CoverProps } from "./Cover";
 
 const FPS = 30;
 
@@ -36,6 +37,15 @@ export const Root: React.FC = () => (
       const p = props as CardReelProps; const fps = p.fps ?? FPS;
       return { durationInFrames: Math.ceil(p.durationSec * fps), fps, props };
     }}
+  />
+  <Composition
+    id="Cover"
+    component={Cover}
+    fps={FPS}
+    width={1080}
+    height={1920}
+    durationInFrames={1}
+    defaultProps={{ src: "cards/f600.jpg", title: "FRAME SWAP", tag: "RIVAL · EP 01" } as CoverProps}
   />
   </>
 );
