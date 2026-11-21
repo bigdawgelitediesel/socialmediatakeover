@@ -1,3 +1,6 @@
 .DS_Store
 *.log
 node_modules/
+
+# third-party repo clones used for study (not ours to redistribute)
+research/reel-references/*/clone/
