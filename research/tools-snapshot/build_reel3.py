@@ -41,7 +41,7 @@ import json, os, subprocess, sys, tempfile, shutil, math, re
 BIN = os.path.join(os.environ["LOCALAPPDATA"], r"Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin")
 FF = os.path.join(BIN, "ffmpeg.exe"); FP = os.path.join(BIN, "ffprobe.exe")
 W, H, FPS = 1080, 1920, 30
-RENDER_VERSION = "3.3-mblur"   # bump whenever slot filters change so the slot cache invalidates
+RENDER_VERSION = "3.4-mblur-n"   # bump whenever slot filters change so the slot cache invalidates
 TAN = "&H008CB3C9"      # #c9b38c  (ASS is &HAABBGGRR)
 WHITE = "&H00FFFFFF"; OFFWHITE = "&H00F2F2F2"; BLACK = "&H00000000"; INK = "&H00141414"
 
@@ -343,7 +343,8 @@ def render_slot(i, s, tmp, prev_whip=None, next_whip=None, cache=None):
         if s.get("mblur"):
             # synthetic 270-degree shutter: phones shoot fast motion at 1/500+ so dance/wrench moves strobe at 30 fps.
             # interpolate to 120 fps, average 3 sub-frames, back to 30. ~1 s of render per output frame at 1080x1920.
-            vf += ["minterpolate=fps=120:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1:scd=none", "tmix=frames=3"]
+            nmix = 3 if s["mblur"] is True else max(2, int(s["mblur"]))   # 3 = 270-degree shutter (dance), 2 = 180-degree (talking head, handheld)
+            vf += ["minterpolate=fps=120:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1:scd=none", f"tmix=frames={nmix}"]
         vf.append(f"fps={FPS}")
     if s.get("zoom"): vf += zoom_filters(s["zoom"], dur_out, s.get("zoom_anchor", 0.5), s.get("zoom_ease", "inout"))
     if s.get("shake"): vf += shake_filters(s["shake"])
