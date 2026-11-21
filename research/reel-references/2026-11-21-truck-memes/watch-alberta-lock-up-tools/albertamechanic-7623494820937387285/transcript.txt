@@ -1,0 +1,8 @@
+[00:00.0 -> 00:01.9] Hey, make sure you lock your toolbox tonight.
+[00:02.3 -> 00:02.5] Why?
+[00:03.1 -> 00:04.1] Because you just hired a new guy.
+[00:04.7 -> 00:05.7] Well, we always hired new guys.
+[00:06.3 -> 00:07.1] Yeah, well, this one's black.
+[00:07.5 -> 00:08.4] So the video cut off there.
+[00:08.5 -> 00:09.1] I meant to say he's a new guy.
+[00:09.1 -> 00:09.2] Scott!

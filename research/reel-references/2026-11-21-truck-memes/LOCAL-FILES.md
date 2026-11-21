@@ -1,0 +1,1 @@
+The downloaded reference clips (.mp4) stay local (repo size). Their .info.json stats, watch-* sheets, transcripts and MEME-ECONOMY.md are committed. Jacob's own three memes in own\ are his and are kept local too (they are on the account).
