@@ -1,0 +1,14 @@
+TITLE: Trending Slow Motion Edit in Edits App | Video Editing Tutorial
+CHANNEL: Creator Swift
+VIEWS: n/a (not in details batch)
+PUBLISHED: 2026-10-28
+DURATION: ~1 min
+LANES: motion (speed curves in Meta's Edits app)
+URL: https://www.youtube.com/watch?v=xEtVdcmzhxk
+SOURCE: Supadata native captions, Hindi track, pulled 2026-11-21. English gloss added by Claude below the original.
+
+ORIGINAL (Hindi):
+VN और Capko को छोड़ो। अब तुम एडिट्स ऐप के अंदर ही ऐसी सोफास्ट मोशन वाली स्पीड रैंपिंग कर सकते हो। सबसे पहले एडिट्स ऐप को ओपन करो एंड अपनी वीडियो को ऐड करो। अब वीडियो को सेलेक्ट करके स्पीड में जाओ एंड कर्व पे टैप करो। अब यहां पे कस्टम पे जाओ। अब यहां पे तुम्हें कुछ पॉइंट्स दिखेंगे। सो इन पॉइंट्स के बीच में स्लाइडर को लेके आओ एंड ऐसे एक-एक और पॉइंट्स ऐड कर दो। अब इन पॉइंट्स को जहां भी नीचे करोगे वहां वीडियो स्लो चलेगी और जहां ऊपर करोगे वहां फास्ट। सो फर्स्ट पॉइंट को छोड़ दो एंड सेकंड पॉइंट को ऐसे नीचे कर दो। अब नेक्स्ट पॉइंट को थोड़ा ऊपर कर दो। उसके बाद ऐसे ही अल्टरनेटली सारे पॉइंट्स को ऊपर और नीचे कर दो। फाइनली लास्ट वाले पॉइंट को भी नॉर्मल रहने दो। एंड तुम्हारा स्लो फ़ास्ट मोशन वाली एडिट रेडी हो जाएगा। ऐसे ही यूजफुल एडिटिंग टिप्स के लिए मुझे फॉलो कर
+
+ENGLISH GLOSS:
+Forget VN and CapCut. You can now do slow-fast speed ramping inside the Edits app itself. Open Edits and add your video. Select the clip, go to Speed, tap Curve, then go to Custom. You will see a few points. Move the slider between the points and add one more point between each pair. Wherever you pull a point down the video runs slow; wherever you push it up it runs fast. Leave the first point alone, pull the second point down, push the next one up a little, then alternate the rest up and down. Leave the last point at normal. Your slow-fast edit is ready. (Note: speed curves with preset and custom options shipped in the Edits mobile app on 2026-11-12 per Social Media Today; this tutorial from 10-28 shows it was already live for some users.)
