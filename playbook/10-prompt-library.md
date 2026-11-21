@@ -1,0 +1,13 @@
+# Prompt library (from Jacob, 2026-11-21)
+
+Seven prompts Jacob sent as screenshots, kept verbatim, with the house-rule notes on how we use them. Also in Claude memory as reference_ig_growth_prompts.
+
+1. **Prompt for viral content:** "You are a social media strategist specialized in rapid growth. Analyze the latest 10 viral Instagram trends in [your niche] and create 5 short, explosive ideas with high share potential. Be specific and practical."
+2. **Prompt to turn pain into a hook:** "List the 10 biggest pain points that the audience [describe audience] feels about [topic]. Turn each pain point into a hook of up to 10 words, ready to be used in Reels. Avoid clichés, be direct and provocative."
+3. **Prompt for a Reels script that keeps people watching until the end:** "Create a 30-second script for an Instagram Reel about [topic]. Structure: 1) Irresistible hook, 2) Short engaging story, 3) CTA to comment or save. Use short and simple sentences. No fluff."
+4. **Prompt to optimize posts using social proof:** "Take the result [insert result] and create 5 short phrases that communicate social proof and curiosity, perfect for on-screen text in videos. Keep maximum impact in up to 10 words."
+5. **Prompt for content that generates saves:** "List 5 practical and little-known tips about [topic]. Each tip must be a maximum of 12 words, clear and easy to apply. The goal is to create a carousel that's impossible not to save."
+6. **Prompt to repurpose content:** "Turn this text [paste text] into: 1. a 7-second Reels script, 2. a 5-slide carousel, 3. a static post with a powerful statement. Adapt the language and format for each one."
+7. **Prompt for an irresistible CTA:** "Create 10 short, creative, and direct CTAs that encourage comments or saves on posts about [topic]. Avoid generic phrases, use curiosity triggers and immediate action."
+
+**How to apply (house rules win where they conflict):** fill [your niche] with "diesel truck builds / 7.3 Powerstroke / classic Ford restomod" and [describe audience] with "rural US men 25 to 44 who own or want a diesel pickup"; run 1 and 2 against the live data first (hook atlas, share-engineering rules, trend calendar) rather than from memory. Prompt 3's CTA and prompt 7's CTAs go in caption line 1 or a pinned comment, never on screen (Jacob: "the call to action is lame"); prefer sends over comments and saves per [[project_editing_mastery]]. Prompt 4's social-proof lines are for the Cover title or the lockup, 3 to 4 words. Prompt 5 and 6 carousels and static posts are low-reach on this account (feed photos average about 115 views), so use them as Story slides or as the gated PDF content instead. Related: [[project_elcoyotediesel_instagram]], [[feedback_no_em_dashes]].
