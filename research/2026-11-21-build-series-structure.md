@@ -81,6 +81,9 @@ What the record actually shows. There is no public dataset of "build series" per
 
 ## 3. Sponsor integration that does not kill the reel
 
+> Correction 2026-11-21 (partner-repostability report): the 1.52x figure below is Virev's number for ALL Collab reels, not sponsored ones; sponsored Collabs hold 1.00x views vs 0.78x for solo sponsored reels. The direction of the advice is unchanged.
+
+
 **The 2026 data.**
 - Virev, 175,104 sponsored posts out of 20.2M (0.87 percent): sponsored posts get 0.69x the creator's usual likes and comments; label only 0.67x engagement and 0.90x Reel views; label plus #ad 0.61x and 0.81x; #ad with no label 0.73x and 0.80x; "gifted" with no ad tag 0.94x and 0.86x. Co-authored Collab posts 0.79x vs 0.64x solo; sponsored Collab Reels 1.52x views with nine factors held equal. Only 1.2 percent of 1K to 2K creators used the label in six months. Caveat: the row counts do not reconcile to the sample. (virev.ai/blog/use-instagram-s-paid-partnership-label-correctly)
 - SociaVault, 3,702 posts from 170 accounts (Oct 19, 2026): labeled posts median 0.46x the account's usual (n=31), 13 percent of labeled posts reach 2x usual vs 23 percent of others; the authors attribute the gap to the post being an ad, not to the label. (sociavault.com/blog/instagram-paid-partnership-label-study)
