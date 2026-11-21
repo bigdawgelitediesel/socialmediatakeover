@@ -1,17 +1,180 @@
 {
-  "composition": "CardReel", "bg": "#0b0b0c", "fps": 30, "ghost": "RIVAL",
-  "hook": { "text": "Every stock part leaving this 7.3", "accent": "stock" },
-  "hud": "dots", "sidebar": true, "captions": "auto", "captionStyle": "plain",
+  "composition": "CardReel",
+  "bg": "#0b0b0c",
+  "fps": 30,
+  "ghost": "RIVAL",
+  "hook": {
+    "text": "Every stock part leaving this 7.3",
+    "accent": "stock"
+  },
+  "hud": "dots",
+  "sidebar": true,
+  "captions": "auto",
+  "captionStyle": "plain",
   "items": [
-    { "name": "Forged rods", "short": "Rods", "cue": "rods", "old": "Stock Navistar rods", "oldTag": "STOCK", "oldMeta": "x8", "sub": "all eight replaced", "chips": [ { "text": "Forged", "cue": "forged" } ], "sticker": "DECIDED" },
-    { "name": "Forged pistons", "short": "Pistons", "cue": "pistons", "old": "Stock pistons", "oldTag": "STOCK", "sub": "bore decides the size", "chips": [ { "text": "Machine shop first", "cue": "machine" } ] },
-    { "name": "Stage 2 billet cam", "short": "Cam", "cue": "cam", "old": "Stock cam", "oldTag": "STOCK", "sub": "hydraulic roller lifters", "chips": [ { "text": "Billet", "cue": "billet" }, { "text": "Roller lifters", "cue": "roller" } ] },
-    { "name": "MLS head gaskets", "short": "Head gaskets", "cue": "head", "old": "Stock gaskets", "oldTag": "STOCK", "sub": "ARP studs", "chips": [ { "text": "Multi layer steel", "cue": "multi" }, { "text": "ARP studs", "cue": "arp" } ] },
-    { "name": "Driven Diesel fuel system", "short": "Fuel system", "cue": "lift", "old": "Stock lift pump", "oldTag": "STOCK", "sub": "regulated return  ·  partner", "icon": "cards/drivendiesel-logo.png", "tag": "PARTNER", "chips": [ { "text": "Regulated return", "cue": "regulated" } ], "sticker": "PARTNER" },
-    { "name": "Compound turbos", "short": "Turbos", "cue": "turbo", "old": "Stock turbo", "oldTag": "STOCK", "sub": "two stages", "chips": [ { "text": "Compounds", "cue": "compound" } ] },
-    { "name": "Hybrid injectors", "short": "Injectors", "cue": "injectors", "old": "Stock injectors", "oldTag": "STOCK", "sub": "sized for the target", "count": { "to": 600, "suffix": " hp", "label": "target" }, "chips": [ { "text": "Hybrid", "cue": "hybrid" } ] },
-    { "name": "Power Hungry Hydra", "short": "Tuning", "cue": "chip", "old": "Stock chip", "oldTag": "STOCK", "sub": "chip + media interface  ·  partner", "icon": "cards/powerhungry-logo.png", "tag": "PARTNER", "chips": [ { "text": "Media interface", "cue": "media" } ], "sticker": "PARTNER" },
-    { "name": "ISSPRO gauges", "short": "Gauges", "cue": "gauges", "old": "No gauges", "oldTag": "STOCK", "sub": "partner", "icon": "cards/isspro-logo.png", "tag": "PARTNER", "chips": [ { "text": "Boost", "cue": "boost" }, { "text": "EGT", "cue": "exhaust" }, { "text": "Fuel pressure", "cue": "pressure" } ], "sticker": "PARTNER" }
+    {
+      "name": "Forged rods",
+      "short": "Rods",
+      "cue": "rods",
+      "old": "Stock Navistar rods",
+      "oldTag": "STOCK",
+      "oldMeta": "x8",
+      "sub": "all eight replaced",
+      "chips": [
+        {
+          "text": "Forged",
+          "cue": "forged"
+        }
+      ],
+      "sticker": "DECIDED"
+    },
+    {
+      "name": "Forged pistons",
+      "short": "Pistons",
+      "cue": "pistons",
+      "old": "Stock pistons",
+      "oldTag": "STOCK",
+      "sub": "bore decides the size",
+      "chips": [
+        {
+          "text": "Machine shop first",
+          "cue": "machine"
+        }
+      ]
+    },
+    {
+      "name": "Stage 2 billet cam",
+      "short": "Cam",
+      "cue": "cam",
+      "old": "Stock cam",
+      "oldTag": "STOCK",
+      "sub": "hydraulic roller lifters",
+      "chips": [
+        {
+          "text": "Billet",
+          "cue": "billet"
+        },
+        {
+          "text": "Roller lifters",
+          "cue": "roller"
+        }
+      ]
+    },
+    {
+      "name": "MLS head gaskets",
+      "short": "Head gaskets",
+      "cue": "head",
+      "old": "Stock gaskets",
+      "oldTag": "STOCK",
+      "sub": "ARP studs",
+      "chips": [
+        {
+          "text": "Multi layer steel",
+          "cue": "multi"
+        },
+        {
+          "text": "ARP studs",
+          "cue": "arp"
+        }
+      ]
+    },
+    {
+      "name": "Driven Diesel fuel system",
+      "short": "Fuel system",
+      "cue": "lift",
+      "old": "Stock lift pump",
+      "oldTag": "STOCK",
+      "sub": "regulated return  \u00b7  partner",
+      "icon": "cards/drivendiesel-logo.png",
+      "tag": "PARTNER",
+      "chips": [
+        {
+          "text": "Regulated return",
+          "cue": "regulated"
+        }
+      ],
+      "sticker": "PARTNER"
+    },
+    {
+      "name": "Compound turbos",
+      "short": "Turbos",
+      "cue": "turbo",
+      "old": "Stock turbo",
+      "oldTag": "STOCK",
+      "sub": "two stages",
+      "chips": [
+        {
+          "text": "Compounds",
+          "cue": "compound"
+        }
+      ]
+    },
+    {
+      "name": "Hybrid injectors",
+      "short": "Injectors",
+      "cue": "injectors",
+      "old": "Stock injectors",
+      "oldTag": "STOCK",
+      "sub": "sized for the target",
+      "count": {
+        "to": 600,
+        "suffix": " hp",
+        "label": "target"
+      },
+      "chips": [
+        {
+          "text": "Hybrid",
+          "cue": "hybrid"
+        }
+      ]
+    },
+    {
+      "name": "Power Hungry Hydra",
+      "short": "Tuning",
+      "cue": "chip",
+      "old": "Stock chip",
+      "oldTag": "STOCK",
+      "sub": "chip + media interface  \u00b7  partner",
+      "icon": "cards/powerhungry-logo.png",
+      "tag": "PARTNER",
+      "chips": [
+        {
+          "text": "Media interface",
+          "cue": "media"
+        }
+      ],
+      "sticker": "PARTNER"
+    },
+    {
+      "name": "ISSPRO gauges",
+      "short": "Gauges",
+      "cue": "gauges",
+      "old": "No gauges",
+      "oldTag": "STOCK",
+      "sub": "partner",
+      "icon": "cards/isspro-logo.png",
+      "tag": "PARTNER",
+      "chips": [
+        {
+          "text": "Boost",
+          "cue": "boost"
+        },
+        {
+          "text": "EGT",
+          "cue": "exhaust"
+        },
+        {
+          "text": "Fuel pressure",
+          "cue": "pressure"
+        }
+      ],
+      "sticker": "PARTNER"
+    }
   ],
-  "gate": { "word": "RIVAL", "reply": "Your full Rival parts list", "cue": "comment" }
+  "gate": {
+    "word": "RIVAL",
+    "reply": "Your full Rival parts list",
+    "cue": "comment"
+  },
+  "captionY": 1180
 }

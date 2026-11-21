@@ -47,11 +47,11 @@ SIDEBAR_BOTTOM = 1430
 
 # layout (1080 x 1920). hud/headline/strike/card are the kit defaults from Menu.tsx unless noted
 Y_HUD = 300
-Y_HEADLINE = 400
-Y_STRIKE = 540
-Y_CARD = 560                # card alone
-Y_CARD_UNDER_STRIKE = 700   # card when a strikestamp sits above it
-Y_GATE = 620
+Y_HEADLINE = 440
+Y_STRIKE = 620                # 2026-11-21 dry-run critique: content sat high; the grid crop keeps y 480 to 1440
+Y_CARD = 660                # card alone
+Y_CARD_UNDER_STRIKE = 780   # card when a strikestamp sits above it
+Y_GATE = 660
 Y_GHOST = 1000
 CAPTION_LINE_H = 72         # PlainCaption 60 px * 1.2
 CAPTION_CHAR_W = 31         # Poppins SemiBold 60 px, rough average
