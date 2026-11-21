@@ -11,8 +11,8 @@ import { pop, tailFade, prog, EASE_IN_OUT } from "./anim";
 const textShadow = "0 2px 4px rgba(0,0,0,0.6), 0 8px 24px rgba(0,0,0,0.45)";
 
 /* ---------- Plain caption: white bold sans + shadow, no pill ("I'd lose the green box. Plain text with shadow looks way cleaner.") ---------- */
-export const PlainCaption: React.FC<{ text: string; accent?: string; dur: number; y?: number; size?: number; hiColor?: string; box?: boolean; variant?: "sans" | "serif" | "caps" | "italic" }> = ({
-  text, accent, dur, y = 1150, size = 68, hiColor = C.hi, box = false, variant = "sans",   // 2026-11-21 caption audit: 68 px (47 cap), accent = tan word by default, box: true = the coral box for comedic beats
+export const PlainCaption: React.FC<{ text: string; accent?: string; dur: number; y?: number; size?: number; hiColor?: string; box?: boolean; variant?: "sans" | "serif" | "caps" | "italic"; accentFont?: "serif" | "script"; ink?: boolean }> = ({
+  text, accent, dur, y = 1150, size = 68, hiColor = C.hi, box = false, variant = "sans", accentFont, ink = false,   // accentFont: the accent word also switches face (guipaulinooo: bold sans + serif italic coral). ink: dark text for paper backgrounds   // 2026-11-21 caption audit: 68 px (47 cap), accent = tan word by default, box: true = the coral box for comedic beats
 }) => {
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const p = pop(frame, fps, 0);
@@ -21,11 +21,11 @@ export const PlainCaption: React.FC<{ text: string; accent?: string; dur: number
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "flex-start", paddingTop: y, opacity: out }}>
       <div style={{
-        fontFamily: variant === "serif" ? F.serif : variant === "italic" ? F.uiItalic : variant === "caps" ? F.block : F.uiSemi, fontSize: variant === "serif" ? size * 1.25 : variant === "caps" ? size * 1.3 : size, textTransform: variant === "caps" ? "uppercase" : undefined, color: C.white, textAlign: "center", lineHeight: 1.2, maxWidth: 900, letterSpacing: variant === "caps" ? 2 : -0.5, textShadow: "0 3px 5px rgba(0,0,0,0.65), 0 10px 28px rgba(0,0,0,0.40)",
+        fontFamily: variant === "serif" ? F.serif : variant === "italic" ? F.uiItalic : variant === "caps" ? F.block : F.uiSemi, fontSize: variant === "serif" ? size * 1.25 : variant === "caps" ? size * 1.3 : size, textTransform: variant === "caps" ? "uppercase" : undefined, color: ink ? C.ink : C.white, textAlign: "center", lineHeight: 1.2, maxWidth: 900, letterSpacing: variant === "caps" ? 2 : -0.5, textShadow: ink ? "none" : "0 3px 5px rgba(0,0,0,0.65), 0 10px 28px rgba(0,0,0,0.40)",
         transform: `translateY(${(1 - p) * 10}px) scale(${0.96 + 0.04 * p})`, opacity: Math.min(1, p * 1.5),
       }}>
         {parts.map((s, i) => (accent && s.toLowerCase() === accent.toLowerCase())
-          ? (box ? <span key={i} style={{ background: hiColor, padding: "2px 14px", borderRadius: 10, textShadow: "none" }}>{s}</span> : <span key={i} style={{ color: C.tan }}>{s}</span>)
+          ? (box ? <span key={i} style={{ background: hiColor, padding: "2px 14px", borderRadius: 10, textShadow: "none" }}>{s}</span> : <span key={i} style={{ color: ink ? C.hi : C.tan, fontFamily: accentFont === "serif" ? F.serif : accentFont === "script" ? F.script : undefined, fontSize: accentFont === "serif" ? size * 1.18 : undefined }}>{s}</span>)
           : <span key={i}>{s}</span>)}
       </div>
     </AbsoluteFill>

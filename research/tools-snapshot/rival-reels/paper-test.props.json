@@ -1,0 +1,19 @@
+{
+  "bg": "paper", "durationSec": 13, "captionStyle": "plain", "grain": false,
+  "overlays": [
+    { "type": "repo", "at": 0.0, "dur": 3.0, "props": { "owner": "elcoyotediesel", "name": "rival-parts-list", "desc": "Every part on the 1959 F600, with what it cost and why it is there", "stars": "7.3", "licence": "OBS friendly", "stamp": "FREE", "credit": "@elcoyotediesel", "stampAt": 30, "creditAt": 50, "y": 520 } },
+    { "type": "terminal", "at": 3.0, "dur": 2.6, "props": { "cmd": "/rival build a 7.3 fuel system", "result": "regulated return on the list", "highlight": "7.3 fuel system", "y": 640 } },
+    { "type": "winstack", "at": 5.6, "dur": 3.2, "props": { "items": [ { "src": "cards/f600.jpg", "label": "F600", "title": "rival.html", "at": 0 }, { "src": "cards/tile-1.png", "label": "Fuel system", "title": "fuel.html", "at": 18 }, { "src": "cards/tile-2.png", "label": "Turbo", "title": "turbo.html", "at": 36 } ], "y": 500 } },
+    { "type": "pinthumb", "at": 8.8, "dur": 4.2, "props": { "src": "cards/f600.jpg", "note": "one real picture", "tag": "reference", "pinAt": 45 } },
+    { "type": "specchips", "at": 10.6, "dur": 2.4, "props": { "chips": [ { "n": "238", "unit": "cc", "at": 0 }, { "n": "38", "unit": "R", "at": 7 }, { "n": "0.030", "unit": "over", "at": 14 }, { "n": "600", "unit": "hp", "at": 21 } ], "y": 1020 } },
+    { "type": "notepill", "at": 10.6, "dur": 2.4, "props": { "text": "every number = real", "accent": "real", "y": 1130 } }
+  ],
+  "captions": [
+    { "text": "Someone just built a skill", "start": 0.2, "end": 1.6, "accent": "skill", "accentFont": "serif", "ink": true, "y": 330 },
+    { "text": "where you type one sentence", "start": 1.6, "end": 3.0, "accent": "one sentence", "accentFont": "serif", "ink": true, "y": 330 },
+    { "text": "and it builds the fuel system", "start": 3.0, "end": 5.6, "accent": "fuel system", "accentFont": "serif", "ink": true, "y": 330 },
+    { "text": "a V8, a landing gear, a robot", "start": 5.6, "end": 8.8, "accent": "robot", "accentFont": "serif", "ink": true, "y": 1500 },
+    { "text": "give it one real picture", "start": 8.8, "end": 10.6, "accent": "one real picture", "accentFont": "serif", "ink": true, "y": 1500 },
+    { "text": "from real numbers", "start": 10.6, "end": 13.0, "accent": "real numbers", "accentFont": "serif", "ink": true, "y": 1500 }
+  ]
+}

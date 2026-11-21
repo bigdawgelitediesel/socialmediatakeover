@@ -1,0 +1,18 @@
+[00:00.0 -> 00:02.4] Someone just built a skill where you type one sentence
+[00:02.4 -> 00:05.0] and Claude builds a working 3D engine.
+[00:05.6 -> 00:06.8] Here, let me show you.
+[00:07.2 -> 00:08.9] It's called Teardown, it's free,
+[00:09.2 -> 00:11.3] and you add it to Claude code with one command.
+[00:11.8 -> 00:13.5] Then you type the machine you want,
+[00:13.8 -> 00:16.6] a V8 engine, a landing gear, a walking robot.
+[00:17.1 -> 00:18.8] But here's what most people miss.
+[00:19.3 -> 00:21.3] Give it one picture of the real thing.
+[00:21.8 -> 00:23.0] Without it, you get a toy.
+[00:23.6 -> 00:26.7] With it, Claude rebuilds the machine part by part
+[00:26.7 -> 00:27.8] from real numbers.
+[00:28.3 -> 00:30.3] Then it builds the dashboard around it.
+[00:30.5 -> 00:32.1] Every gauge moves with the engine,
+[00:32.5 -> 00:34.6] cut a cylinder open and watch it fire.
+[00:35.1 -> 00:36.8] And it works on anything that moves,
+[00:37.2 -> 00:39.1] even a sand worm a kilometer long.
+[00:39.6 -> 00:42.1] Comment Teardown and I'll send you all nine prompts.

@@ -8,9 +8,10 @@ import { LogoBadge, LowerThird, QuoteBar, CornerLogos } from "./components/Brand
 import { ProgressHud, SidebarList, PhoneStage, CountUp, StrikeStamp, ItemCard, Headline, GhostWord, IrisWipe, NegativeFlash, CommentGate, QuadWall, Checklist } from "./components/Menu";
 import { WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBackWindow, ZoomThrough, HudZoom, BeforeAfter, BlurWord, Orbit, CompareCards, FaceHud } from "./components/Effects";
 import { StickerEdge, DoodleBoil } from "./components/Boil";
+import { WindowStack, PinThumb, Terminal, RepoCard, SpecChips, NotePill } from "./components/Paper";
 
 export type Overlay = { type: string; at: number; dur: number; props?: Record<string, any>; behind?: boolean };
-export type Caption = { text: string; start: number; end: number; accent?: string; y?: number; style?: "pill" | "plain" };
+export type Caption = { text: string; start: number; end: number; accent?: string; y?: number; style?: "pill" | "plain"; variant?: "sans" | "serif" | "caps" | "italic"; accentFont?: "serif" | "script"; ink?: boolean };
 export type Frame = { top: number; h: number; bg?: string; rule?: string };   // place the plate in a window (title band above it)
 export type ReelProps = { plate: string; cutout?: string; captions?: Caption[]; overlays?: Overlay[]; muted?: boolean; captionStyle?: "pill" | "plain"; fps?: number; frame?: Frame };
 
@@ -27,6 +28,8 @@ export const REG: Record<string, React.FC<any>> = {
   wall: WallBehind, masthead: Masthead, framebreak: FrameBreak, vertigo: Vertigo, bgreplace: BgReplace, chart: ChartGrow, pullback: PullBackWindow, zoomthrough: ZoomThrough, hudzoom: HudZoom, beforeafter: BeforeAfter, blurword: BlurWord, orbit: Orbit, compare: CompareCards, facehud: FaceHud,
   // silhouette effects (2026-11-21 port notes 3.2 / 3.3)
   sticker: StickerEdge, boil: DoodleBoil,
+  // paper explainer grammar (2026-11-21 guipaulinooo Teardown study)
+  winstack: WindowStack, pinthumb: PinThumb, terminal: Terminal, repo: RepoCard, specchips: SpecChips, notepill: NotePill,
 };
 
 export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], overlays = [], muted = true, captionStyle = "pill", frame }) => {
@@ -79,7 +82,7 @@ export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], o
         return (
           <Sequence key={`c${i}`} from={f(c.start)} durationInFrames={durF} layout="none">
             {style === "plain"
-              ? <PlainCaption text={c.text} accent={c.accent} dur={durF} y={c.y ?? 1150} />
+              ? <PlainCaption text={c.text} accent={c.accent} dur={durF} y={c.y ?? 1150} variant={c.variant} accentFont={c.accentFont} ink={c.ink} />
               : <CaptionPill text={c.text} accent={c.accent} dur={durF} y={c.y ?? 1230} />}
           </Sequence>
         );

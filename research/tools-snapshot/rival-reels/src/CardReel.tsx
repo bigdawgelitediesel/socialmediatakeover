@@ -52,7 +52,7 @@ export const CardReel: React.FC<CardReelProps> = ({ bg = C.black, durationSec, o
         return (
           <Sequence key={`c${i}`} from={f(c.start)} durationInFrames={durF} layout="none">
             {style === "plain"
-              ? <PlainCaption text={c.text} accent={c.accent} dur={durF} y={c.y ?? 1150} />
+              ? <PlainCaption text={c.text} accent={c.accent} dur={durF} y={c.y ?? 1150} variant={c.variant} accentFont={c.accentFont} ink={c.ink} />
               : <CaptionPill text={c.text} accent={c.accent} dur={durF} y={c.y ?? 1230} />}
           </Sequence>
         );
