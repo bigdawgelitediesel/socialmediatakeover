@@ -4,6 +4,8 @@ Jacob, Saturday morning: "use multiple agents to find live and up to date data a
 
 The one-paragraph read: the account's problem is not reach or hooks any more (Harley Trade fixed skip rate to 37.8 percent overnight); it is SENDS. Mosseri said it in his own words on Oct 23 ("sends per reach is what is particularly important for that unconnected reach"), our 600-clip TikTok measurement says the top-sending truck clips carry no ask at all, and Harley Trade got 1 share on 1,610 reach because it was about Jacob, not about the viewer's people. The editing level is now set by four accounts Jacob sent (nxtlvl, tenfoldmarc, ultra.skills, edita.visuals), and all four make their reels in code from word timestamps, which is exactly our stack. The kit now has their grammar. What it does not have yet is footage shot with moves, and that is still Jacob's half.
 
+> **Hour three (the diesel side) continues in `2026-11-21-DIESEL-HOUR.md`**: rules 48 onward, the viral-diesel table, the meme economy, the tribe venues and openers, pitches and growth case studies.
+
 ## 1. Rules added today (short form; sources in brackets)
 
 ### Sends (the growth rule) [share-engineering, live-pull, algorithm]
