@@ -37,6 +37,7 @@ def sh(cmd, cwd=None, env=None, quiet=True):
 
 import bisect
 _sample_t = [s["t"] for s in samples]
+MIN_FACE_W = 100
 def faces_at(t):
     """faces at source time t: look the sample up by its own timestamp (the file's "hz" was wrong once: the tracker
     steps whole frames, so 23.976/2 = 11.99 Hz was labelled 10 Hz and every crop read a face from the wrong moment)."""
@@ -44,7 +45,9 @@ def faces_at(t):
     i = bisect.bisect_left(_sample_t, t)
     if i >= len(samples): i = len(samples) - 1
     elif i > 0 and abs(_sample_t[i - 1] - t) < abs(_sample_t[i] - t): i -= 1
-    return sorted(samples[i]["faces"], key=lambda f: f[0])
+    # drop the bystanders: the two speakers are 150-300 px wide at 1920, passers-by in the aisle are 40-70 px and once
+    # pulled the "left" crop onto the crowd (reel 19, 2026-11-21)
+    return sorted((f for f in samples[i]["faces"] if f[2] >= MIN_FACE_W), key=lambda f: f[0])
 
 def face_cx_at(t, side):
     """centre x of the declared speaker's face at source time t: with two faces, left/right by position; with one face, that face."""
@@ -172,8 +175,12 @@ def build_reel(r):
         side = sgm["side"]
         if side in seen or side not in spec["people"]: continue
         seen.add(side); p = spec["people"][side]
+        if p.get("lowerthird") is False: continue   # Jacob 2026-11-21: no name tag on Troy, "we know it's Troy Lake"
         at = max(sgm["plate_at"], HOOK_END + 0.4) if not seen - {side} else sgm["plate_at"]
         overlays.append({"type": "lowerthird", "at": round(at, 2), "dur": 4.0, "props": {"name": p["name"], "title": p.get("title", ""), "x": 72, "y": 300}})
+    # corner logos on every DFC reel (Jacob 2026-11-21): Dynamic Diesels bottom-left, DFC lockup (white) bottom-right
+    for lg in spec.get("corner_logos", []):
+        overlays.append({"type": "corners", "at": 0, "dur": round(total, 2), "props": dict(lg)})
     if r.get("quote"):
         q = r["quote"]; overlays.append({"type": "quote", "at": q["at"], "dur": q["dur"], "props": {"text": q["text"]}})
     props = {"plate": f"{name}.mp4", "fps": FPS, "captionStyle": "plain", "captions": caps, "overlays": overlays}

@@ -455,23 +455,40 @@ def main(edl_path):
             fc.append(f"{cur}format=yuv420p[vout]")
             # ---- audio: voice beds (cleaned), ambience bed ducked by voice, sfx, loudnorm
             n_in = len(parts); voice_in = []
-            beds = e.get("audio", [])
+            beds = sorted(e.get("audio", []), key=lambda b: float(b["at"]))
+            # Joins: consecutive beds are CROSSFADED (equal power, curve=qsin) across the cut instead of butt-joined with a
+            # dip to silence. Each bed is extended past the join by half the overlap (reading up to XF_CAP s into the
+            # trimmed material) so both sides carry real room sound through the cut. Jacob 2026-11-21 on the Driven and
+            # Move Bumpers reels: butt joins "feel like a CD that keeps jumping". The cleanup chain now runs ONCE on the
+            # mixed voice track so the noise floor and compressor do not restart at every cut.
+            XF = float(e.get("audio_xfade", 0.08)); XF_CAP = 0.12
+            orig = [(float(b["at"]), float(b["at"]) + float(b["dur"])) for b in beds]
             for j, b in enumerate(beds):
-                inputs += ["-ss", f"{float(b['in']):.3f}", "-t", f"{float(b['dur']):.3f}", "-i", b["clip"]]
-                ms = int(float(b["at"]) * 1000); fade = float(b.get("fade", 0.08))
-                if b.get("clean") == "light":
-                    clean = "highpass=f=80:poles=2,afftdn=nr=6:nf=-45:tn=1,acompressor=threshold=-18dB:ratio=2.5:attack=10:release=150:makeup=2dB:knee=6,alimiter=limit=-2dB:attack=5:release=50,"
-                elif b.get("clean"):
-                    clean = ("highpass=f=90:poles=2,afftdn=nr=12:nf=-40:tn=1,deesser=i=0.3:m=0.5:f=0.6,"
-                             "acompressor=threshold=-20dB:ratio=3:attack=8:release=120:makeup=3dB:knee=4,alimiter=limit=-2dB:attack=5:release=50,")
-                else:
-                    clean = ""
-                fc.append(f"[{n_in}:a:0]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,asetpts=PTS-STARTPTS,{clean}"
-                          f"volume={float(b.get('gain_db', 0))}dB,afade=t=in:d={fade},afade=t=out:st={float(b['dur']) - fade:.3f}:d={fade},adelay={ms}|{ms}[b{j}]")
+                a0, a1 = orig[j]; src = float(b["in"]); xf = float(b.get("xfade", XF))
+                pre = post = 0.0; fin = fout = float(b.get("fade", 0.03))
+                if j > 0 and orig[j - 1][1] <= a0 + 0.001:
+                    join = (orig[j - 1][1] + a0) / 2; pre = min(a0 - join, XF_CAP) + xf / 2; fin = xf
+                if j + 1 < len(beds) and a1 <= orig[j + 1][0] + 0.001:
+                    join = (a1 + orig[j + 1][0]) / 2; post = min(join - a1, XF_CAP) + xf / 2; fout = xf
+                pre = max(0.0, min(pre, src, a0))
+                s_in = src - pre; s_dur = (a1 - a0) + pre + post; at = a0 - pre
+                inputs += ["-ss", f"{s_in:.3f}", "-t", f"{s_dur:.3f}", "-i", b["clip"]]
+                ms = int(round(at * 1000))
+                fc.append(f"[{n_in}:a:0]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,asetpts=PTS-STARTPTS,"
+                          f"volume={float(b.get('gain_db', 0))}dB,afade=t=in:d={fin:.3f}:curve=qsin,"
+                          f"afade=t=out:st={max(0.0, s_dur - fout):.3f}:d={fout:.3f}:curve=qsin,adelay={ms}|{ms}[b{j}]")
                 voice_in.append(f"[b{j}]"); n_in += 1
+            clean_mode = next((b.get("clean") for b in beds if b.get("clean")), None)
+            if clean_mode == "light":
+                clean = "highpass=f=80:poles=2,afftdn=nr=6:nf=-45:tn=1,acompressor=threshold=-18dB:ratio=2.5:attack=10:release=150:makeup=2dB:knee=6,alimiter=limit=-2dB:attack=5:release=50,"
+            elif clean_mode:
+                clean = ("highpass=f=90:poles=2,afftdn=nr=12:nf=-40:tn=1,deesser=i=0.3:m=0.5:f=0.6,"
+                         "acompressor=threshold=-20dB:ratio=3:attack=8:release=120:makeup=3dB:knee=4,alimiter=limit=-2dB:attack=5:release=50,")
+            else:
+                clean = ""
             fc.append(f"anullsrc=r=48000:cl=stereo,atrim=duration={total:.3f}[abase]")
             if voice_in:
-                fc.append("".join(["[abase]"] + voice_in) + f"amix=inputs={len(voice_in) + 1}:duration=first:normalize=0,asplit=2[voice][vkey]")
+                fc.append("".join(["[abase]"] + voice_in) + f"amix=inputs={len(voice_in) + 1}:duration=first:normalize=0,{clean}asplit=2[voice][vkey]")
             else:
                 fc.append("[abase]asplit=2[voice][vkey]")
             amb = e.get("ambience")

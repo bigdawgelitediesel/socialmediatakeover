@@ -8,7 +8,8 @@
  "people": {
   "right": {
    "name": "Troy Lake",
-   "title": "Founder, Diesel Freedom Coalition"
+   "title": "Founder, Diesel Freedom Coalition",
+   "lowerthird": false
   },
   "left": {
    "name": "Dynamic Diesels",
@@ -571,12 +572,12 @@
    "hook_size": 128,
    "keep": [
     [
-     1097.4,
-     1118.4,
+     1123.8,
+     1134.8,
      "left"
     ],
     [
-     1118.4,
+     1134.8,
      1143.7
     ],
     [
@@ -594,7 +595,7 @@
     "nine",
     "tailpipe"
    ],
-   "notes": "The interviewer: it is not about rolling coal, it is about people earning a living and food getting to tables. Troy: a semi averages five miles a gallon, DEF costs more, and proper calibration gets six, seven, eight, some nine, cleaner out the tailpipe on his emissions bench.",
+   "notes": "The interviewer: it is not about rolling coal, it is about people earning a living and food getting to tables (crop on him, fixed 2026-11-21). Troy: a semi averages five miles a gallon, DEF costs more, proper calibration gets six to nine, cleaner out the tailpipe on his bench.",
    "caption": "Not about rolling coal. Five miles a gallon stock. Six to nine tuned, and cleaner on the bench. #DieselFreedom #DFC #Diesel #Trucking #FuelEconomy"
   },
   {
@@ -629,6 +630,54 @@
    ],
    "notes": "A regen in the wrong spot burns the truck to the ground and the fire department lets it burn. Fire trucks and ambulances carry the same hardware and derate on the way to a call. Only military vehicles are exempt. If it happened to a senator's family, somebody would wake up.",
    "caption": "Fire trucks and ambulances run the same emissions hardware. They derate too. Only the military is exempt. #DieselFreedom #DFC #Diesel #FirstResponders #EPA"
+  },
+  {
+   "n": 19,
+   "slug": "food-on-tables",
+   "folder": "It is about food on tables",
+   "hook": [
+    "IT'S ABOUT",
+    "FOOD ON TABLES"
+   ],
+   "accent": "FOOD ON TABLES",
+   "hook_size": 128,
+   "keep": [
+    [
+     1097.4,
+     1118.4,
+     "left"
+    ],
+    [
+     1118.4,
+     1123.8
+    ],
+    [
+     1123.8,
+     1134.8,
+     "left"
+    ]
+   ],
+   "accents": [
+    "moving",
+    "moved",
+    "years",
+    "anything",
+    "living",
+    "food",
+    "tables",
+    "transported"
+   ],
+   "notes": "The interviewer, on camera: Troy's story is moving, he has followed him for years, he will do anything to get the message out. Troy: we need guys like this. Interviewer: it is not about rolling coal, it is about helping people earn a living, getting food to tables, getting products transported. That is what it is all about.",
+   "caption": "Not about rolling coal. It's about people earning a living and food getting to tables. #DieselFreedom #DFC #Diesel #Trucking #WeProvideAmerica"
+  }
+ ],
+ "corner_logos": [
+  {
+   "left": "cards/dynamic-diesels.png",
+   "right": "cards/dfc-white.png",
+   "h": 118,
+   "margin": 56,
+   "bottom": 96
   }
  ]
 }

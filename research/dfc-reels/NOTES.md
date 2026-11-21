@@ -11,3 +11,10 @@
   timestamp (bisect), the tracker writes the true rate. All 18 re-rendered.
 - QA note: single held frames in a static interview are the subject holding still, not judder; the 75-cents reel's
   cluster at 52.6-53.3 s is the dip transition. Compare against the approved pardon reel (one held frame at 40.4 s).
+
+## 2026-11-21 (later) corner logos, no Troy banner, reel 19, audio joins
+- Jacob: Dynamic Diesels logo bottom-left + DFC lockup (white) bottom-right on THIS set only (`corner_logos` in reels.json, `corners` overlay in Brand.tsx). Future DFC reels: white DFC lockup only unless the partner was in the shoot.
+- Jacob: "take the Troy Lake Founder banner away, we know it's Troy Lake" -> `lowerthird: false` on people.right. The interviewer's tag stays.
+- Reel 19 "It is about food on tables": the interviewer's tribute + "it's about helping people earn a living, getting food to tables". Reel 17 now starts on that line (60 s instead of 86).
+- Tracker: bystander faces (40-70 px) in the aisle pulled the "left" crop onto the crowd; faces_at now drops faces under MIN_FACE_W = 100 px.
+- Audio joins (Driven + Bumpers complaint, "like a CD that keeps jumping"): build_reel3 beds now crossfade (equal power, 80 ms, up to 120 ms read into trimmed material) and the cleanup chain runs once on the mixed voice. Join hole depth went from 27-41 dB to 4-15 dB. All 19 DFC plates rebuilt with it.

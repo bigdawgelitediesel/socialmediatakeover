@@ -1,0 +1,36 @@
+===== 7709275071654743316.info.json
+id : 7709275071654743316
+title : My automated content creation process 🤓 #ai #chatgpt #claude #fyp
+description : My automated content creation process 🤓 #ai #chatgpt #claude #fyp
+upload_date : 20261117
+duration : 58
+view_count : 828
+like_count : 35
+comment_count : 16
+repost_count : 8
+uploader : justyn.ai
+channel_follower_count : None
+width : 720
+height : 1280
+fps : None
+track : original sound
+artists : ['Justyn | The AI Guy']
+comments fetched 0
+===== 7709716526542097685.info.json
+id : 7709716526542097685
+title : These were almost big mistakes for my launch #ai #claude #chatgpt #fyp
+description : These were almost big mistakes for my launch #ai #claude #chatgpt #fyp
+upload_date : 20261119
+duration : 93
+view_count : 712
+like_count : 25
+comment_count : 1
+repost_count : 0
+uploader : justyn.ai
+channel_follower_count : None
+width : 720
+height : 1280
+fps : None
+track : original sound
+artists : ['Justyn | The AI Guy']
+comments fetched 0
