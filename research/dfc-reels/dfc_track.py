@@ -55,5 +55,5 @@ for idx, s in enumerate(samples):
                 if abs((g[0] + g[2] / 2) - cx) < 160: v += g[4]
         if v > best_v: best, best_v = fi, v
     s["speaker"] = best
-json.dump({"hz": hz, "w": W, "h": H, "samples": samples}, open(out, "w"))
+json.dump({"hz": round(fps / step, 4), "hz_requested": hz, "w": W, "h": H, "samples": samples}, open(out, "w"))  # true rate: whole-frame step
 print(f"wrote {out}: {len(samples)} samples, {sum(1 for s in samples if len(s['faces']) >= 2)} with 2+ faces")

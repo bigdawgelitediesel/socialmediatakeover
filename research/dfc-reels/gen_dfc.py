@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.join(V, "tools")); import layout
 spec = json.load(open(sys.argv[1], encoding="utf-8"))
 only = set(a for a in sys.argv[2:] if not a.startswith("--"))
 SRC, FPS, DATE = spec["source"], int(spec.get("fps", 24)), spec["date"]
-PW, PH = 1080, int(spec.get("plate_h", 1360)); BAND = 1920 - PH          # title band on top, plate below it
+PW, PH = 1080, int(spec.get("plate_h", 1920)); BAND = 1920 - PH          # title band on top, plate below it
 SCALE_P = PH / 1080                                                       # plate pixels per source pixel
 track = json.load(open(spec["track"]))
 TW, TH = track["w"], track["h"]
@@ -35,9 +35,16 @@ def sh(cmd, cwd=None, env=None, quiet=True):
         print(r.stdout[-3000:]); print(r.stderr[-3000:]); raise SystemExit(f"FAILED: {cmd if isinstance(cmd, str) else ' '.join(cmd)}")
     return r.stdout
 
+import bisect
+_sample_t = [s["t"] for s in samples]
 def faces_at(t):
+    """faces at source time t: look the sample up by its own timestamp (the file's "hz" was wrong once: the tracker
+    steps whole frames, so 23.976/2 = 11.99 Hz was labelled 10 Hz and every crop read a face from the wrong moment)."""
     if not samples: return []
-    return sorted(samples[max(0, min(len(samples) - 1, int(round(t * track["hz"]))))]["faces"], key=lambda f: f[0])
+    i = bisect.bisect_left(_sample_t, t)
+    if i >= len(samples): i = len(samples) - 1
+    elif i > 0 and abs(_sample_t[i - 1] - t) < abs(_sample_t[i] - t): i -= 1
+    return sorted(samples[i]["faces"], key=lambda f: f[0])
 
 def face_cx_at(t, side):
     """centre x of the declared speaker's face at source time t: with two faces, left/right by position; with one face, that face."""
@@ -145,24 +152,32 @@ def build_reel(r):
     for c in caps:
         if tr:
             fx, fy, fw, fh = layout.face_box(tr, c["start"], c["end"])
-            c["y"] = int(max(1180, min(1500, BAND + fy + fh + 55)))
+            c["y"] = int(max(1180, min(1420, BAND + fy + fh + 55)))
         else: c["y"] = 1300
     # smooth caption y: one value per reel (median) so the text does not hop
     med = sorted(c["y"] for c in caps)[len(caps) // 2] if caps else 1300
     for c in caps: c["y"] = med
     # ---- overlays
-    overlays = [{"type": "badge", "at": 0, "dur": total, "props": {"src": "cards/dfc-coin.png", "x": 850, "y": 318, "size": 130}}]
-    overlays.append({"type": "kinetic", "at": 0.1, "dur": float(r.get("hook_dur", 4.5)), "props": {"words": r["hook"], "accent": r.get("accent"), "y": 296, "size": int(r.get("hook_size", 150)) if len(r["hook"]) < 3 else min(88, int(r.get("hook_size", 88))), "align": "left", "pad": 72}})
+    HOOK_END = float(r.get("hook_dur", 3.0))
+    fx, fy, fw, fh = layout.face_box(tr, 0, HOOK_END) if tr else (300, 450, 480, 560)
+    hook_y = int(max(1200, min(1340, BAND + fy + fh + 110)))
+    hook_size = int(r.get("hook_size", 150)) if len(r["hook"]) < 3 else min(84, int(r.get("hook_size", 84)))
+    hook_size = min(hook_size, 100)
+    overlays = [{"type": "kinetic", "at": 0.1, "dur": HOOK_END, "props": {"words": r["hook"], "accent": r.get("accent"), "y": hook_y, "size": hook_size, "align": "center", "pad": 60}}]
+    caps = [c for c in caps if c["end"] > HOOK_END + 0.15]
+    for c in caps:
+        if c["start"] < HOOK_END + 0.15: c["start"] = round(HOOK_END + 0.15, 2)
     seen = set()
     for sgm in segmap:
         side = sgm["side"]
         if side in seen or side not in spec["people"]: continue
         seen.add(side); p = spec["people"][side]
-        at = max(sgm["plate_at"], 3.8 if not seen - {side} else sgm["plate_at"])
-        overlays.append({"type": "lowerthird", "at": round(at, 2), "dur": 4.0, "props": {"name": p["name"], "title": p.get("title", ""), "y": BAND + 28}})
+        at = max(sgm["plate_at"], HOOK_END + 0.4) if not seen - {side} else sgm["plate_at"]
+        overlays.append({"type": "lowerthird", "at": round(at, 2), "dur": 4.0, "props": {"name": p["name"], "title": p.get("title", ""), "x": 72, "y": 300}})
     if r.get("quote"):
         q = r["quote"]; overlays.append({"type": "quote", "at": q["at"], "dur": q["dur"], "props": {"text": q["text"]}})
-    props = {"plate": f"{name}.mp4", "fps": FPS, "frame": {"top": BAND, "h": PH, "bg": "#0A1226", "rule": "#C8973A"}, "captionStyle": "plain", "captions": caps, "overlays": overlays}
+    props = {"plate": f"{name}.mp4", "fps": FPS, "captionStyle": "plain", "captions": caps, "overlays": overlays}
+    if BAND > 0: props["frame"] = {"top": BAND, "h": PH, "bg": "blur"}
     props_path = os.path.join(RR, "out", f"{name}.props.json"); json.dump(props, open(props_path, "w", encoding="utf-8"), indent=1)
     # ---- render + mux
     video = os.path.join(RR, "out", f"{name}-video.mp4"); final = os.path.join(RR, "out", f"{name}-final.mp4")

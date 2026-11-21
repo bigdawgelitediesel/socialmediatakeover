@@ -39,10 +39,17 @@ export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], o
   const front = overlays.filter((o) => !o.behind);
 
   return (
-    <AbsoluteFill style={{ backgroundColor: frame?.bg ?? "#000" }}>
+    <AbsoluteFill style={{ backgroundColor: frame?.bg && frame.bg !== "blur" ? frame.bg : "#000" }}>
       {frame ? (
         <>
-          <div style={{ position: "absolute", left: 0, top: frame.top, width: 1080, height: frame.h, overflow: "hidden" }}>
+          {frame.bg === "blur" && (
+            // the top region is the shot itself, blurred and darkened, so the frame reads as one image (no color block)
+            <AbsoluteFill style={{ overflow: "hidden" }}>
+              <OffthreadVideo src={staticFile(plate)} muted style={{ width: "100%", height: "100%", objectFit: "cover", transform: "scale(1.35)", filter: "blur(38px) brightness(0.42) saturate(0.85)" }} />
+              <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.05) 60%, rgba(0,0,0,0) 100%)" }} />
+            </AbsoluteFill>
+          )}
+          <div style={{ position: "absolute", left: 0, top: frame.top, width: 1080, height: frame.h, overflow: "hidden", boxShadow: frame.bg === "blur" ? "0 -18px 50px rgba(0,0,0,0.45)" : undefined }}>
             <OffthreadVideo src={staticFile(plate)} muted={muted} style={{ width: 1080, height: frame.h, objectFit: "cover" }} />
           </div>
           {frame.rule && <div style={{ position: "absolute", left: 0, top: frame.top - 6, width: 1080, height: 6, background: frame.rule }} />}
