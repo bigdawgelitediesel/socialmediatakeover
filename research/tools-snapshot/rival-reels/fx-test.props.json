@@ -1,0 +1,16 @@
+{
+  "plate": "fx-plate.mp4", "cutout": "fx-cutout.webm", "captionStyle": "plain", "muted": true,
+  "overlays": [
+    { "type": "masthead", "at": 0, "dur": 2.5, "behind": true, "props": { "text": "RIVAL", "y": 240, "size": 320, "lines": ["ROAD TO SEMA 2027", "CHEYENNE, WY"] } },
+    { "type": "wall", "at": 2.5, "dur": 2.5, "behind": true, "props": { "tiles": ["cards/tile-1.png","cards/tile-2.png","cards/tile-3.png","cards/tile-4.png","cards/tile-5.png","cards/tile-6.png","cards/tile-7.png","cards/tile-8.png"], "layout": "scatter", "tileW": 230 } },
+    { "type": "framebreak", "at": 5.0, "dur": 2.0, "props": { "handle": "elcoyotediesel" } },
+    { "type": "vertigo", "at": 7.0, "dur": 2.0, "props": { "to": 1.35 } },
+    { "type": "bgreplace", "at": 9.0, "dur": 2.0, "props": { "bg": "cards/f600.jpg", "dim": 0.3 } },
+    { "type": "chart", "at": 11.0, "dur": 2.0, "behind": true, "props": { "values": [216, 470, 568, 577, 700], "labels": ["SEP","NOV 3","NOV 16","NOV 21","GOAL"], "label": "1K", "y": 1180, "h": 300 } },
+    { "type": "pullback", "at": 13.0, "dur": 1.5, "props": { "title": "elcoyotediesel.com", "rows": [ { "text": "Frame swap", "at": 10 }, { "text": "7.3 teardown", "at": 20 }, { "text": "Fuel system", "at": 30 } ] } },
+    { "type": "zoomthrough", "at": 14.5, "dur": 0.5, "props": { "cutAt": 5 } },
+    { "type": "hudzoom", "at": 15.0, "dur": 1.0, "props": {} },
+    { "type": "blurword", "at": 15.2, "dur": 0.8, "props": { "text": "video", "y": 1000 } }
+  ],
+  "captions": [ { "text": "seventeen effects", "start": 0.3, "end": 1.6 }, { "text": "one truck", "start": 1.6, "end": 2.5, "accent": "truck" } ]
+}

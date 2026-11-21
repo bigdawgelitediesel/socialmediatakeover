@@ -6,6 +6,7 @@ import { LogoCard, PhotoCard, SpecCard, StrikeList, BrowserCard, PromptBar, Comm
 import { PlainCaption, ToolTag, OutlineWord, PipCard, SliderReveal, GridWall, ParamPanel, StoryboardCard } from "./components/Chandler";
 import { LogoBadge, LowerThird, QuoteBar, CornerLogos } from "./components/Brand";
 import { ProgressHud, SidebarList, PhoneStage, CountUp, StrikeStamp, ItemCard, Headline, GhostWord, IrisWipe, NegativeFlash, CommentGate, QuadWall, Checklist } from "./components/Menu";
+import { WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBackWindow, ZoomThrough, HudZoom, BeforeAfter, BlurWord } from "./components/Effects";
 
 export type Overlay = { type: string; at: number; dur: number; props?: Record<string, any>; behind?: boolean };
 export type Caption = { text: string; start: number; end: number; accent?: string; y?: number; style?: "pill" | "plain" };
@@ -21,6 +22,8 @@ export const REG: Record<string, React.FC<any>> = {
   badge: LogoBadge, lowerthird: LowerThird, quote: QuoteBar, corners: CornerLogos,
   // menu-reel grammar (2026-11-21: nxtlvl, tenfoldmarc, ultra.skills, edita.visuals studies)
   hud: ProgressHud, sidebar: SidebarList, phone: PhoneStage, countup: CountUp, strikestamp: StrikeStamp, item: ItemCard, headline: Headline, ghost: GhostWord, iris: IrisWipe, negflash: NegativeFlash, gate: CommentGate, quad: QuadWall, checklist: Checklist,
+  // tenfoldmarc effect vocabulary (2026-11-21)
+  wall: WallBehind, masthead: Masthead, framebreak: FrameBreak, vertigo: Vertigo, bgreplace: BgReplace, chart: ChartGrow, pullback: PullBackWindow, zoomthrough: ZoomThrough, hudzoom: HudZoom, beforeafter: BeforeAfter, blurword: BlurWord,
 };
 
 export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], overlays = [], muted = true, captionStyle = "pill", frame }) => {
@@ -34,7 +37,7 @@ export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], o
     const durF = f(o.dur);
     return (
       <Sequence key={i} from={f(o.at)} durationInFrames={durF} layout="none">
-        <Comp plate={plate} atF={f(o.at)} {...(o.props || {})} dur={durF} />
+        <Comp plate={plate} cutout={cutout} atF={f(o.at)} {...(o.props || {})} dur={durF} />
       </Sequence>
     );
   };

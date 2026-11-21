@@ -1,0 +1,2 @@
+{ "plate": "fx-plate.mp4", "cutout": "fx-cutout.webm", "muted": true,
+  "overlays": [ { "type": "framebreak", "at": 0, "dur": 2.5, "props": { "handle": "elcoyotediesel" } }, { "type": "chart", "at": 2.5, "dur": 2.0, "props": { "values": [216, 470, 568, 577, 1000], "labels": ["SEP","NOV 3","NOV 16","NOV 21","GOAL"], "label": "1K", "y": 1100, "h": 300 } } ] }
