@@ -1,5 +1,7 @@
 # socialmediatakeover
 
+> **Start here (2026-11-21):** the all-in-one skill is `skill/el-coyote/` (SKILL.md routes to EDITOR, MANAGER, GROWTH, ASSISTANT; installed at `C:/Users/Parts/.claude/skills/el-coyote`). First command of any session: `python -I tools/coyote.py status`. The repo inventory (what exists, every rule by number and tag, every tool CLI, every studied reel) is `research/inventory/01` to `04`. Agents for parallel work live in `.claude/agents/` (reel-scout, reel-cutter, social-manager, growth-analyst). The notes below are the account history and the gotchas; the 2026-11-21 corrections block at the end overrides anything older.
+
 Growth work for **@elcoyotediesel** ("Jake Dalton"), a diesel creator account in Wyoming.
 
 **Get these three facts right — earlier sessions got them wrong:**

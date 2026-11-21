@@ -693,6 +693,8 @@ Reel views by Mountain 2-hour block of posting (62 reels, two outliers removed):
 
 Weekday medians: Thu 1,523 (n=9), Sat 1,200 (n=5), Mon 647, Fri 468, Tue 361, Wed 246. Small samples.
 
-**Working rule:** post 8 to 10am Mountain, or 1 to 3pm. Do not post 4 to 8pm. This replaces the
+**Working rule (11-03):** post 8 to 10am Mountain, or 1 to 3pm. Do not post 4 to 8pm. This replaces the
 original "16:00 to 19:00" window, which the 24 Oct correction already flagged as weak. Timing is not
 destiny: the viral reel went up at 5pm.
+
+> Superseded note 2026-11-21: the 30-day plan (research/2026-11-21-OUTLIER-MATRIX.md section 5) runs AM 09:00 to 11:00 for memes, skits, rollers and question clips and PM 16:00 to 19:00 for build, credential and story reels. Post time is logged per post; the day-15 read settles which window wins. Until then the matrix slots are the operating rule, and this 11-03 rule is the alternative to test.

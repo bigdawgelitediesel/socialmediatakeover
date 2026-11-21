@@ -30,7 +30,7 @@ Account 30-day: `INSTAGRAM_GET_USER_INSIGHTS` period=day, 30-day windows; `follo
 
 ## Posting kit (`README - posting kit.txt` in the Drive folder)
 
-Caption (line 1 first), song and downbeat offset (song added in-app), cover frame, slot (AM 09:00 to 11:00 MT for memes, skits, rollers, question clips; PM 16:00 to 19:00 for build, credential, story), Trial Reel yes/no with the two caption first lines to test, pinned comment, Story line, the one variable this post tests, partner tags and Collab invite, "do not" list (no in-app filters, no text added in-app, no trending-template overlays). CapCut or Edits finishing: 1080p30 H.264 16,000 kbps, share to Instagram from the app, never download and re-upload. After it is live: `coyote.py pending add <media_id> "<label>" <posted_iso>`.
+Caption (line 1 first), song and downbeat offset (song added in-app), cover frame, slot (AM 09:00 to 11:00 MT for memes, skits, rollers, question clips; PM 16:00 to 19:00 for build, credential, story; the 11-03 note in data/instagram/README.md preferred 8 to 10 and 13 to 15 and avoided 16 to 20, so log the posted time on every read and let day 15 settle it), Trial Reel yes/no with the two caption first lines to test, pinned comment, Story line, the one variable this post tests, partner tags and Collab invite, "do not" list (no in-app filters, no text added in-app, no trending-template overlays). CapCut or Edits finishing: 1080p30 H.264 16,000 kbps, share to Instagram from the app, never download and re-upload. After it is live: `coyote.py pending add <media_id> "<label>" <posted_iso>`.
 
 ## Publishing through the API (only when he asks)
 
