@@ -39,8 +39,11 @@ The niche's own data agrees with the morning's finding from the other direction.
 65. **The pitch that gets answered:** a specific first line about the brand, a link, one content idea, no rates, no call request, a yes-or-no close, under 120 words, "Collab" in the subject (10.6 percent replies vs 2.1 for "Sponsorship"), sent to the partnerships person by name, one follow-up at day 3 or 4. Code-only counter: take the code as the yardstick, ask for one part, one episode, one Collab, then the dealer-cost fallback. DM, email and PRI templates in Jacob's voice are in the report.
 66. **Ranked ten to pitch next for the open Rival slots:** Industrial Injection, Air Lift, BD Diesel, Hot Shot's Secret, Toyo, US Shift, KC Turbos, Prismatic Powders, Buckstop, MAHLE, each with the angle and the first move in the report.
 
+### Added mid-hour: the before/after showcase (reel-references/2026-11-21-DfsjIgTj8-9, @eightsenses.media)
+67. **Raw vs edited in one frame:** two tilted phone cards over a dark slatted field, BEFORE smaller and pushed back, AFTER larger with the edit playing on the spoken words, a hater pill on top as the hook and a three-voice lockup (small sans, condensed block, serif italic). Built as `compare` (CompareCards) in the kit: it takes our `-NOCAP` plate and the finished reel. Use at most once per finished reel, as a Story or a secondary post, no CTA, caption line 1 names the person type.
+
 ### Still landing (appended below when the agents finish)
-67. The parts-counter lane; the 6.7 tribe for Chief; the @omgadrian study.
+68. The parts-counter lane; the 6.7 tribe for Chief; the @omgadrian study.
 
 ## What to do this week, in order
 1. Post a meme in the 10-mil voice built from Jacob's own footage (template 3: cutout over own footage plus a text confession), caption line 1 as a person type.
