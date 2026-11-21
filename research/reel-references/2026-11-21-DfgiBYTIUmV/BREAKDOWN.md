@@ -1,0 +1,20 @@
+# @mrcreates.ai "17 effects. Zero editing." (DfgiBYTIUmV)
+
+Sent by Jacob 2026-11-21. M Rohmanudin ("AI & Content Strategist"), posted 2026-11-09, 24.9 s, 1,047 likes, 1,822 comments (gate "Comment LIST"). Caption: "17 effects. Zero editing. Every effect in this video was built by Claude: orbit, frame break, green screen, paper cut, doodle boil, cover story, glass type and 10 more. You describe it, and Claude codes it into your video." Files: reel.mp4, reel.info.json, scenes.csv (15 shots), sheet-01/02.jpg, transcript.txt, words.json, frames/all-2fps.jpg, frames/first3s-8fps.jpg.
+
+## What it is
+
+A faceless rebuild of @tenfoldmarc's "17 video effects" menu reel (ours: ../2026-11-21-Def9pj5TWtA/BREAKDOWN.md), on a white theme, with the same 17 names in the same order, each demonstrated for 1.1 to 1.7 s on a stock or generated talking-head clip inside a phone card, read by a voiceover at one name per 1.3 s. Posted 25 days after the original, at about one twentieth of its engagement (1,822 comments vs 34,194), with the same inverted comments-over-likes ratio of a gated reel.
+
+Fixed furniture: title "17 Video Effects" (17 in blue) over "Claude You Can Create" ("Claude" in serif italic); a two-column numbered list in small grey sans where the current effect carries a light blue highlight bar and finished effects get a check mark; the phone card centred with a "01/17" badge top-left, a blue label pill under the card naming the effect, a small round avatar bottom-right; the grey dot-grid paper background. Then the CTA: a fake comment thread with the word LIST typed and sent, a DM card listing the 17 with green checks, "Don't forget to follow" with "follow" in a script face, and a 0.4 s return to the orbit frame so it loops.
+
+## The 17 as he built them (useful as a second reference for our components)
+
+Orbit = app icons (Instagram, Claude asterisk, a play button) circling on a dashed ellipse, not reel tiles. Couch wall = four colored app windows popping on the wall behind the cutout. UI world = the subject inside a Claude chat window with a file chip "clip_001.mp4" and a prompt bar. Frame break = the clip shrinks to a card, the cutout stays full size. Digital zoom = a viewfinder with corner brackets and a "1.6x" then "2.3x" readout. Phone mockup = a black phone with the clip inside and a floating "make it better" note. Checklist = a dark card, rows ticking green. Headline wall = newspaper clippings and a "NO WAY" card pinned around him. Zoom-through cut = a blur with the word CUT on a card between the two shots. Chart grow = a bar chart climbing to "1.1M" over a dim plate. Pull-back reveal = the clip revealed inside an editor window with a colored timeline. Green screen = literal green behind the cutout, then a replaced background. Paper cut = a torn-paper sticker cutout on a tan field with tape. Doodle boil = a white sketch outline plus crown and star doodles, black and white plate. Vertigo = the background pulls while he holds. Cover story = a red masthead CLAUDE magazine cover with cover lines and "NO EDITOR NEEDED". Glass type = translucent gradient letters in front of him.
+
+## What to take
+
+1. **The menu reel survives a faceless, lower-effort copy and still inverts comments over likes.** The format carries; the presenter and the audience set the ceiling. For El Coyote the card-only version (CardReel) is the one-a-week format, and Jacob on camera with the phone card is the better version.
+2. **Two small furniture details worth having:** finished items in the sidebar get a check mark (we dimmed them; now they also tick), and a label pill under the stage names the current item for viewers who do not read the sidebar. Added to the kit (`SidebarList` ticks, `PhoneStage` `label`).
+3. **His effect demos are clean enough to QA ours against**: the frame strips in frames/all-2fps.jpg show each effect at a glance (ours differ on orbit, which uses reel tiles and passes behind the head, and on zoom-through, which streaks instead of inserting a CUT card).
+4. **Nothing else to copy.** The white theme, blue accent, script "follow" and the avatar are his; the house palette and the no-CTA rule stand.

@@ -66,6 +66,7 @@ export const SidebarList: React.FC<{ items: string[]; current: number; dur: numb
                 <div key={i} style={{ display: "flex", gap: 12, height: lineH, alignItems: "center", fontFamily: F.ui, fontSize: size, color: on ? C.ink : C.cream, opacity: on ? 1 : done ? 0.45 : 0.6, fontWeight: on ? 700 : 400 }}>
                   <span style={{ fontFamily: mono, fontSize: size * 0.8, opacity: 0.8, width: size * 1.6, color: on ? C.ink : C.tan }}>{String(idx).padStart(2, "0")}</span>
                   <span style={{ background: on ? C.tan : "transparent", borderRadius: 8, padding: on ? "2px 12px" : 0 }}>{it}</span>
+                  {done && <span style={{ color: C.tan, fontSize: size * 0.85, marginLeft: 2 }}>✓</span>}
                 </div>
               );
             })}
@@ -77,8 +78,8 @@ export const SidebarList: React.FC<{ items: string[]; current: number; dur: numb
 };
 
 /* ---------- PhoneStage: the floating 9:16 card that plays one demo per item (tenfoldmarc). Children = the demo; badge = "01/17". ---------- */
-export const PhoneStage: React.FC<{ count?: number; total?: number; dur: number; x?: number; y?: number; w?: number; src?: string; atF?: number; children?: React.ReactNode; bob?: boolean }> = ({
-  count, total, dur, x = 375, y = 690, w = 330, src, atF = 0, children, bob = true,
+export const PhoneStage: React.FC<{ count?: number; total?: number; dur: number; x?: number; y?: number; w?: number; src?: string; atF?: number; children?: React.ReactNode; bob?: boolean; label?: string }> = ({
+  count, total, dur, x = 375, y = 690, w = 330, src, atF = 0, children, bob = true, label,
 }) => {
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const p = popSoft(frame, fps, 0); const out = tailFade(frame, dur, 6);
@@ -97,6 +98,11 @@ export const PhoneStage: React.FC<{ count?: number; total?: number; dur: number;
           </div>
         )}
       </div>
+      {label && (
+        <div style={{ position: "absolute", left: x, width: w, top: y + h + 14 + dy, textAlign: "center", opacity: p }}>
+          <span style={{ fontFamily: F.uiSemi, fontSize: 24, color: C.ink, background: C.tan, borderRadius: 20, padding: "6px 18px" }}>{label}</span>
+        </div>
+      )}
     </AbsoluteFill>
   );
 };
