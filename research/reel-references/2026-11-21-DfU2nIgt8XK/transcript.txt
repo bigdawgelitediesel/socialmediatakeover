@@ -1,0 +1,31 @@
+[00:00.0 -> 00:02.0] Stop paying for these nine apps.
+[00:02.3 -> 00:05.1] GitHub has a free version of every single one.
+[00:05.2 -> 00:05.8] Hicks Field.
+[00:06.1 -> 00:07.4] Open generative AI.
+[00:07.7 -> 00:11.7] AI images and cinematic video with 600 plus models.
+[00:12.1 -> 00:12.7] Eleven Labs.
+[00:13.0 -> 00:13.6] Voice Studio.
+[00:13.9 -> 00:14.6] Clone Voices.
+[00:14.9 -> 00:16.5] Fully local on your own machine.
+[00:16.9 -> 00:18.0] SEMrush OpenCO.
+[00:18.3 -> 00:18.9] Rank tracking.
+[00:19.2 -> 00:21.2] Backlinks and site audits in one place.
+[00:21.6 -> 00:22.7] Notion App Flowy.
+[00:22.9 -> 00:24.1] Notes and Docs.
+[00:24.1 -> 00:26.1] And it works with local AI models.
+[00:26.6 -> 00:27.0] Whisper Flow.
+[00:27.3 -> 00:28.0] Open Whisper.
+[00:28.2 -> 00:29.3] Dictate into any app.
+[00:29.3 -> 00:30.4] Even offline.
+[00:30.9 -> 00:32.1] Asana Open Project.
+[00:32.4 -> 00:34.3] Tasks and projects on your own server.
+[00:34.9 -> 00:35.3] Calendly.
+[00:35.5 -> 00:36.6] Cal.DIY.
+[00:36.7 -> 00:39.0] Book meetings synced with Google and Outlook.
+[00:39.3 -> 00:39.8] Intercom.
+[00:40.0 -> 00:40.4] Chatroom.
+[00:40.7 -> 00:42.1] Every lead and client message.
+[00:42.5 -> 00:43.4] In one inbox.
+[00:43.9 -> 00:44.5] And Loom Cap.
+[00:44.8 -> 00:46.9] Record your screen and share it in one click.
+[00:47.4 -> 00:49.9] Comment repo and I'll send you all nine links.
