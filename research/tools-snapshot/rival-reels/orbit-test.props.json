@@ -1,0 +1,6 @@
+{ "plate": "fx-plate.mp4", "cutout": "fx-cutout.webm", "muted": true,
+  "overlays": [
+    { "type": "orbit", "at": 0, "dur": 3.0, "behind": true, "props": { "side": "back", "tiles": ["cards/tile-1.png","cards/tile-2.png","cards/tile-3.png","cards/tile-4.png","cards/tile-5.png","cards/tile-6.png"], "cy": 1000 } },
+    { "type": "orbit", "at": 0, "dur": 3.0, "props": { "side": "front", "tiles": ["cards/tile-1.png","cards/tile-2.png","cards/tile-3.png","cards/tile-4.png","cards/tile-5.png","cards/tile-6.png"], "cy": 1000 } },
+    { "type": "zoomthrough", "at": 3.0, "dur": 0.5, "props": { "cutAt": 5, "ox": 50, "oy": 40 } }
+  ] }

@@ -3,6 +3,7 @@ import { AbsoluteFill, Img, OffthreadVideo, staticFile, useCurrentFrame, useVide
 import { C, F, cardShadow } from "../theme";
 import { pop, popSoft, prog, tailFade, backOut, expoOut, power4Out, EASE_OUT, EASE_IN_OUT } from "./anim";
 import { mono } from "./Menu";
+import { CameraMotionBlur } from "@remotion/motion-blur";
 
 /*
   Effects.tsx (2026-11-21): the @tenfoldmarc "17 video effects" vocabulary, El Coyote edition.
@@ -200,22 +201,56 @@ export const PullBackWindow: React.FC<{ plate: string; atF?: number; dur: number
   );
 };
 
-/* ---------- ZoomThrough: zoom transition. Overlay spanning the cut: plate A scales up into blur, white flash at the peak, plate B settles from oversized. ---------- */
-export const ZoomThrough: React.FC<{ plate: string; atF?: number; dur: number; cutAt?: number; peak?: number; flash?: boolean; muted?: boolean; nextAtF?: number; next?: string }> = ({
-  plate, atF = 0, dur, cutAt = 4, peak = 2.6, flash = true, muted = true, next, nextAtF,
+/* ---------- ZoomThrough: zoom transition with a REAL radial streak (CameraMotionBlur accumulates 12 sub-frame zooms around the
+   anchor, per the 2026-11-21 effect-repo port notes; the old gaussian blur made mush). Anchor on the detail you land on. ---------- */
+export const ZoomThrough: React.FC<{ plate: string; atF?: number; dur: number; cutAt?: number; peak?: number; flash?: boolean; muted?: boolean; nextAtF?: number; next?: string; ox?: number; oy?: number; samples?: number }> = ({
+  plate, atF = 0, dur, cutAt = 4, peak = 2.6, flash = true, muted = true, next, nextAtF, ox = 50, oy = 45, samples = 12,
 }) => {
   const frame = useCurrentFrame();
   const inA = frame < cutAt;
   const tA = prog(frame, 0, cutAt, power4Out); const tB = prog(frame, cutAt, dur - cutAt, expoOut);
   const sA = 1 + (peak - 1) * tA; const sB = 1.45 - 0.45 * tB;
-  const blurA = 24 * tA; const blurB = 18 * (1 - tB);
   const fl = flash ? interpolate(frame, [cutAt - 1, cutAt, cutAt + 5], [0, 0.85, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 0;
   return (
     <AbsoluteFill style={{ background: "#000" }}>
-      {inA
-        ? <OffthreadVideo src={staticFile(plate)} startFrom={atF} muted={muted} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${sA})`, filter: `blur(${blurA}px)` }} />
-        : <OffthreadVideo src={staticFile(next ?? plate)} startFrom={(nextAtF ?? atF) + (next ? 0 : cutAt)} muted={muted} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${sB})`, filter: `blur(${blurB}px)` }} />}
+      <CameraMotionBlur shutterAngle={270} samples={samples}>
+        <AbsoluteFill style={{ background: "#000" }}>
+          {inA
+            ? <OffthreadVideo src={staticFile(plate)} startFrom={atF} muted={muted} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${sA})`, transformOrigin: `${ox}% ${oy}%` }} />
+            : <OffthreadVideo src={staticFile(next ?? plate)} startFrom={(nextAtF ?? atF) + (next ? 0 : cutAt)} muted={muted} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${sB})`, transformOrigin: `${ox}% ${oy}%` }} />}
+        </AbsoluteFill>
+      </CameraMotionBlur>
       <AbsoluteFill style={{ background: "#fff", opacity: fl }} />
+    </AbsoluteFill>
+  );
+};
+
+/* ---------- Orbit: tiles circle the head on a tilted ellipse (tenfoldmarc #1). List it TWICE in the EDL at the same `at`:
+   once with behind: true, props { side: "back" } and once in front with { side: "front" }; RivalReel's cutout does the depth swap.
+   Reference values: centre (540, 1110), rx 460, ry 150, 5.2 s per revolution, tiles 190 wide, back copies at 75 percent brightness. ---------- */
+export const Orbit: React.FC<{ tiles: string[]; dur: number; side?: "back" | "front"; cx?: number; cy?: number; rx?: number; ry?: number; rev?: number; w?: number; dim?: number }> = ({
+  tiles, dur, side = "front", cx = 540, cy = 1110, rx = 460, ry = 150, rev = 5.2, w = 190, dim = 0.75,
+}) => {
+  const frame = useCurrentFrame(); const { fps } = useVideoConfig();
+  const t = frame / fps; const n = tiles.length; const h = Math.round(w * 16 / 9);
+  const open = prog(frame, 0, 12, EASE_OUT);
+  const items = tiles.map((src, i) => {
+    const th = 2 * Math.PI * (t / rev) + (i * 2 * Math.PI) / n + 0.35;
+    const s = Math.sin(th);
+    return { src, i, x: cx + rx * open * Math.cos(th), y: cy + ry * s, sc: 0.6 + 0.4 * (s + 1) / 2, s, rot: -6 * Math.cos(th) };
+  }).filter((it) => (side === "front" ? it.s > 0 : it.s <= 0)).sort((a, b) => a.s - b.s);
+  return (
+    <AbsoluteFill style={{ opacity: tailFade(frame, dur, 6) }}>
+      {items.map((it) => {
+        const p = prog(frame, Math.round(it.i * 0.07 * fps), Math.round(0.45 * fps), backOut(1.8));
+        return (
+          <div key={it.i} style={{ position: "absolute", left: it.x - w / 2, top: it.y - h / 2, width: w, height: h, borderRadius: 16, overflow: "hidden", border: `4px solid ${C.cream}`, boxShadow: cardShadow, transform: `scale(${it.sc * p}) rotate(${it.rot}deg)`, filter: side === "back" ? `brightness(${dim})` : undefined }}>
+            {/\.(mp4|webm)$/i.test(it.src)
+              ? <OffthreadVideo src={staticFile(it.src)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              : <Img src={staticFile(it.src)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
+          </div>
+        );
+      })}
     </AbsoluteFill>
   );
 };
