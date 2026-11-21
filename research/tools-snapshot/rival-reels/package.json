@@ -1,0 +1,27 @@
+{
+  "name": "rival-reels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/captions": "^4.0.545",
+    "@remotion/cli": "^4.0.545",
+    "@remotion/fonts": "^4.0.545",
+    "@remotion/media-utils": "^4.0.545",
+    "@remotion/motion-blur": "^4.0.545",
+    "@remotion/paths": "^4.0.545",
+    "@remotion/transitions": "^4.0.545",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.545",
+    "typescript": "^5.9.3"
+  }
+}

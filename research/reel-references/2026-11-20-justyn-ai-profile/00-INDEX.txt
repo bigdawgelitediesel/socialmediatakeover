@@ -1,0 +1,14 @@
+@justyn.ai (Justyn Berkovits, 158K IG / 180K TikTok). Jacob 2026-11-20: "I want you editing like this. Check this whole profile out."
+Instagram profile is login-walled; the same videos are on TikTok @justyn.ai and yt-dlp pulls them. Ten downloaded + frame-sheeted at 2 fps.
+id                   | views  | len | date     | title
+7696963836116520213  | 332.9k | 53s | 10-15 | "Link to join the waitlist" (= IG reel DehbdDYssBE, saved separately)
+7697695105112755477  | 104.2k | 20s | 10-17 | "40+ effects!" 18 effects in 20 s, sidebar names them
+7694863095356755220  |  88.5k | 54s | 10-10 | "This is getting too good" (I didn't edit a single second)
+7694356225554697493  |  41.3k | 68s | 10-08 | "What do YOU think the future will look like" (Anthropic economy chart)
+7696694033439067412  |  15.6k | 56s | 10-15 | "ChatGPT's a video editor now"
+7705626762515942677  |  14.2k | 26s | 11-08 | "effects in the masterclass" 20 effects in 20 s v3
+7698961002590833940  |  11.6k | 23s | 10-21 | "20 of the 40+ effects" v2
+7704901674665544981  |   9.6k | 41s | 11-06 | "ChatGPT editing is crazy"
+7699317899395222804  |   7.6k | 26s | 10-22 | "It drops TOMORROW"
+7706733076331711764  |   4.4k | 40s | 11-11 | "Opus 5.5 vs Fable 5.2"
+7703784519064636693  |   1.8k | 70s | 11-03 | "Still in shock"
