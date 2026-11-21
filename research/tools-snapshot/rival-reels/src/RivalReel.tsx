@@ -7,6 +7,7 @@ import { PlainCaption, ToolTag, OutlineWord, PipCard, SliderReveal, GridWall, Pa
 import { LogoBadge, LowerThird, QuoteBar, CornerLogos } from "./components/Brand";
 import { ProgressHud, SidebarList, PhoneStage, CountUp, StrikeStamp, ItemCard, Headline, GhostWord, IrisWipe, NegativeFlash, CommentGate, QuadWall, Checklist } from "./components/Menu";
 import { WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBackWindow, ZoomThrough, HudZoom, BeforeAfter, BlurWord, Orbit } from "./components/Effects";
+import { StickerEdge, DoodleBoil } from "./components/Boil";
 
 export type Overlay = { type: string; at: number; dur: number; props?: Record<string, any>; behind?: boolean };
 export type Caption = { text: string; start: number; end: number; accent?: string; y?: number; style?: "pill" | "plain" };
@@ -24,6 +25,8 @@ export const REG: Record<string, React.FC<any>> = {
   hud: ProgressHud, sidebar: SidebarList, phone: PhoneStage, countup: CountUp, strikestamp: StrikeStamp, item: ItemCard, headline: Headline, ghost: GhostWord, iris: IrisWipe, negflash: NegativeFlash, gate: CommentGate, quad: QuadWall, checklist: Checklist,
   // tenfoldmarc effect vocabulary (2026-11-21)
   wall: WallBehind, masthead: Masthead, framebreak: FrameBreak, vertigo: Vertigo, bgreplace: BgReplace, chart: ChartGrow, pullback: PullBackWindow, zoomthrough: ZoomThrough, hudzoom: HudZoom, beforeafter: BeforeAfter, blurword: BlurWord, orbit: Orbit,
+  // silhouette effects (2026-11-21 port notes 3.2 / 3.3)
+  sticker: StickerEdge, boil: DoodleBoil,
 };
 
 export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], overlays = [], muted = true, captionStyle = "pill", frame }) => {

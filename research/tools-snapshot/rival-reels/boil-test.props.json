@@ -1,0 +1,1 @@
+{ "plate": "fx-plate.mp4", "cutout": "fx-cutout.webm", "muted": true, "overlays": [ { "type": "sticker", "at": 0, "dur": 2, "props": { "paper": "#efe9dc" } }, { "type": "boil", "at": 2, "dur": 2.5, "props": { "doodles": [ { "kind": "star", "x": 820, "y": 420, "at": 6 }, { "kind": "arrow", "x": 200, "y": 900, "at": 14 } ] } } ] }
