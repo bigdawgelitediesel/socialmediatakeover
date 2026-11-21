@@ -4,3 +4,11 @@ node_modules/
 
 # third-party repo clones used for study (not ours to redistribute)
 research/reel-references/*/clone/
+
+# third-party reel video files from 2026-11-21 10:00 on stay local (sheets, transcripts, stats and breakdowns are committed)
+research/reel-references/2026-11-21-diesel-viral-alltime/*.mp4
+research/reel-references/2026-11-21-diesel-viral-alltime/**/*.mp4
+research/reel-references/2026-11-21-truck-memes/**/*.mp4
+research/reel-references/2026-11-21-truck-memes/*.mp4
+research/reel-references/2026-11-21-omgadrian-profile/**/*.mp4
+research/reel-references/2026-11-21-omgadrian-profile/*.mp4

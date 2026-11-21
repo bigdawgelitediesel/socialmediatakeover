@@ -1,0 +1,1 @@
+The 16 downloaded clips (.mp4) in this folder are kept local only (repo size). Their .info.json stats, watch-* sheets, transcripts and the VIRAL-DIESEL.md read are committed. Re-download with yt-dlp from the URLs in the table if needed.
