@@ -1,0 +1,243 @@
+{
+ "plate": "plate.mp4",
+ "captions": [
+  {
+   "text": "come out and tell you",
+   "start": 2.76,
+   "end": 3.68,
+   "y": 1230
+  },
+  {
+   "text": "guys right now",
+   "start": 3.68,
+   "end": 5.44,
+   "y": 1230
+  },
+  {
+   "text": "Driven diesel performance",
+   "start": 5.44,
+   "end": 6.94,
+   "accent": "Driven",
+   "y": 1230
+  },
+  {
+   "text": "is in on project rival",
+   "start": 6.94,
+   "end": 9.72,
+   "accent": "rival",
+   "y": 1230
+  },
+  {
+   "text": "Strictly diesel.",
+   "start": 9.72,
+   "end": 10.62,
+   "accent": "Strictly",
+   "y": 1230
+  },
+  {
+   "text": "Absolutely awesome",
+   "start": 10.62,
+   "end": 11.6,
+   "y": 1230
+  },
+  {
+   "text": "they're jumping in to take",
+   "start": 11.6,
+   "end": 12.96,
+   "y": 1230
+  },
+  {
+   "text": "care of the",
+   "start": 12.96,
+   "end": 14.92,
+   "accent": "care",
+   "y": 1230
+  },
+  {
+   "text": "fuel system fuel delivery and",
+   "start": 14.92,
+   "end": 16.44,
+   "accent": "fuel",
+   "y": 1230
+  },
+  {
+   "text": "everything I feel like a",
+   "start": 16.44,
+   "end": 17.62,
+   "y": 1230
+  },
+  {
+   "text": "lot of people kind of",
+   "start": 17.62,
+   "end": 18.5,
+   "y": 1230
+  },
+  {
+   "text": "go generic but",
+   "start": 18.5,
+   "end": 20.12,
+   "accent": "generic",
+   "y": 1230
+  },
+  {
+   "text": "strictly deals like hey, we",
+   "start": 20.12,
+   "end": 22.12,
+   "accent": "strictly",
+   "y": 1230
+  },
+  {
+   "text": "got you.",
+   "start": 22.12,
+   "end": 22.64,
+   "y": 1230
+  },
+  {
+   "text": "We'll take care of you",
+   "start": 22.64,
+   "end": 23.55,
+   "accent": "care",
+   "y": 1230
+  },
+  {
+   "text": "I am so pumped",
+   "start": 23.55,
+   "end": 24.93,
+   "accent": "pumped",
+   "y": 1230
+  },
+  {
+   "text": "to have them a",
+   "start": 24.93,
+   "end": 26.73,
+   "y": 1230
+  },
+  {
+   "text": "part of this So go",
+   "start": 26.73,
+   "end": 28.62,
+   "y": 1230
+  },
+  {
+   "text": "check them out support them",
+   "start": 28.62,
+   "end": 30.93,
+   "accent": "support",
+   "y": 400
+  }
+ ],
+ "overlays": [
+  {
+   "type": "kinetic",
+   "at": 0.0,
+   "dur": 2.6,
+   "props": {
+    "words": [
+     "PUTTING A",
+     "COMPANY",
+     "ON BLAST"
+    ],
+    "accent": "ON BLAST",
+    "y": 230,
+    "size": 172,
+    "align": "right",
+    "pad": 40
+   },
+   "behind": true
+  },
+  {
+   "type": "logo",
+   "at": 5.45,
+   "dur": 4.1,
+   "props": {
+    "src": "cards/drivendiesel-logo.png",
+    "label": "fuel system partner",
+    "x": 100,
+    "y": 1239,
+    "w": 760,
+    "tilt": -2
+   }
+  },
+  {
+   "type": "stamp",
+   "at": 9.7,
+   "dur": 1.9,
+   "props": {
+    "text": "STRICTLY DIESEL",
+    "size": 150,
+    "y": 300,
+    "echo": true
+   },
+   "behind": true
+  },
+  {
+   "type": "spec",
+   "at": 14.6,
+   "dur": 2.5,
+   "props": {
+    "title": "Fuel system",
+    "rows": [
+     "lift pump",
+     "regulated return",
+     "lines and fittings"
+    ],
+    "x": 90,
+    "y": 300,
+    "w": 780
+   }
+  },
+  {
+   "type": "strike",
+   "at": 17.6,
+   "dur": 1.9,
+   "props": {
+    "title": "most builds",
+    "items": [
+     "GENERIC"
+    ],
+    "x": 100,
+    "y": 1330,
+    "w": 700,
+    "strikeFrom": 10
+   }
+  },
+  {
+   "type": "comment",
+   "at": 20.0,
+   "dur": 3.4,
+   "props": {
+    "handle": "strictly_diesel",
+    "word": "hey, we got you.",
+    "y": 1330
+   }
+  },
+  {
+   "type": "photo",
+   "at": 24.0,
+   "dur": 3.4,
+   "props": {
+    "src": "cards/f600.jpg",
+    "caption": "Project Rival \u00b7 1959 Ford F600",
+    "x": 250,
+    "y": 1330,
+    "w": 580,
+    "tilt": 2
+   }
+  },
+  {
+   "type": "logo",
+   "at": 27.6,
+   "dur": 3.2,
+   "props": {
+    "src": "cards/drivendiesel-logo.png",
+    "label": "elcoyotediesel.com / partners",
+    "x": 100,
+    "y": 1330,
+    "w": 760,
+    "tilt": 2
+   }
+  }
+ ],
+ "muted": true,
+ "cutout": "cutout.webm"
+}
