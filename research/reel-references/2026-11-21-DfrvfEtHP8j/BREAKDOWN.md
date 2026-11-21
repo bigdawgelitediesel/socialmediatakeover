@@ -1,0 +1,22 @@
+# @_post2all "Don't post another reel until you install these 5 free Claude skills" (DfrvfEtHP8j)
+
+Sent by Jacob 2026-11-21. post2all ("Claude for Social Media", a scheduling product), posted 2026-11-13, 50.0 s, 4,159 likes, 5,468 comments (gate "Comment SKILLS" for five install links). The caption says the reel itself was made with Remotion's skills plus remocn. Files: reel.info.json, scenes.csv, sheet-01 to 03, transcript, words.json, shots/. reel.mp4 local only. The five repos are being read in SKILLS-STUDY.md (same folder) by a separate pass: Jakeschincariol/instagram-agent-skill (hook scorer, 26 hook formulas), coreyhaines31/marketingskills (No AI Tells list), remotion-dev/skills, Remocn/remocn (825 animations), anthropics/skills skill-creator.
+
+## What is on screen
+Light paper with a faint pixel-grid pattern, no camera at all, Remotion motion graphics for 50 s.
+- 0.0 to 3.5 hook: a brand lockup (sparkle · · · Instagram glyph), "Don't post until these 5" in two weights, five numbered tiles flipping from outline to solid black one by one, "0/5 installed" under them.
+- **HUD from 4.0:** the five tiles shrink to the top as a counter "0/5": numbered black tiles, a coral "?" tile for the one being introduced, and each tile turns into the skill's icon (Instagram glyph, CH initials, Remotion R, remocn, Anthropic mark) with a green dot once "installed". 5/5 at the end. This is the ProgressHud with tiles that change state, better than dots.
+- **Per item (10 s each):** a white GitHub repo card (owner / name, description, stars, forks, licence, language), then the proof: item 1 a dark terminal running `hookscore.py` with five bars (LENGTH, SPECIFICITY, STAKES, FRONTLOAD, ADDRESS) filling and a green "93.8 STRONG" pill, then a second run scoring "Hey guys" at 0.0; item 2 a count-up "51,691" to "59,140" under a star, a 53-chip tag cloud, a markdown card with "It's not X, it's Y." struck through; item 3 a code card (TSX with `<Hook>`, `<LogoCable/>`, `<Title>`) beside a tiny phone preview of the hook; item 4 a count-up "825" and a tag cloud of animation names; item 5 the paper **inverts to black for the whole item**, a skill-creator card, a "Reply to Claude..." input with three file chips (best-post-1.md ...), a SKILL.md card typing out ("Short lines. First person. One real number per post. Never unlock or elevate."), then a caption compare card: "Generic: Unlock the power of AI to elevate your content journey!" vs "Your voice: I posted 30 reels in October. 3 worked. Here's what those 3 had in common."
+- 42 to 45: the product beat, 15 network icons popping in a grid.
+- 45 to 50: "Comment SKILLS" with the word in a blue box, "and I'll DM you all 5 links", a DM mockup listing the five repo paths one by one.
+- **Captions:** small white box pills at the bottom, 3 to 5 words, the number or key word in a blue box; the words ahead of the voice sit in grey and turn black as spoken (karaoke dim). Count-ups use tabular figures. Every card drops with a 0.3 s settle, nothing faster than 6 frames.
+
+## What to take
+1. **HUD tiles that change state** beat dots: ported as `variant: "tiles"` on ProgressHud with `icons` (number tile, "?" for current, icon plus green dot when done). For a Rival parts reel the tiles become the partner marks as each part is "on the truck".
+2. **ScoreBars** (components/Rapid.tsx): labelled bars filling with a stagger, a total pill landing after. Use: the hook scorer on our own hooks on screen (a "how I write a hook" reel), a part scored on cost / fitment / support, a dyno card.
+3. **Section invert** (`fill` overlay): paper to black for one item resets attention at the 70 percent mark. One per reel.
+4. **The caption compare card** (generic vs your voice) is the cleanest demo of a voice rule; our version is "what the sponsor wrote vs what I said" for a partner reel, spoken not burned in.
+5. **Karaoke dim captions** (future words grey): not ported today; PlainCaption would need per-word times. Added to the port list.
+6. **Repo card and credit** are the same move as the Teardown reel (`repo` in Paper.tsx), five times in a row; the star count-up is `countup` with `group: true`.
+7. Content: the hook scorer's five axes (length, specificity, stakes, front-load, address) are a usable lint for our hook atlas; the "Hey guys" scores 0 line is the same lesson as our 0.33 s rule. The SKILLS-STUDY.md pass reports what the repos actually hold and runs the scorer on 12 of Jacob's hooks.
+Gate shape: a real deliverable (links), comments above likes. House rules unchanged.

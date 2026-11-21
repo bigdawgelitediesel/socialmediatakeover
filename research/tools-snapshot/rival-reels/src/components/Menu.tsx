@@ -17,18 +17,32 @@ export const hardShadow = `12px 13px 0 ${C.ink}`;        // the REPO sticker loo
 export const mono = "JetBrains Mono, Consolas, monospace"; // mono metadata (font file optional; falls back cleanly)
 
 /* ---------- ProgressHud: "3/9" counter + dots (or a bar) + handle. The retention device of every menu reel. ---------- */
-export const ProgressHud: React.FC<{ count: number; total: number; handle?: string; dur: number; y?: number; variant?: "dots" | "bar"; progress?: number }> = ({
-  count, total, handle = "@elcoyotediesel", dur, y = 300, variant = "dots", progress,
-}) => {
+export const ProgressHud: React.FC<{ count: number; total: number; handle?: string; dur: number; y?: number; variant?: "dots" | "bar" | "tiles"; progress?: number; icons?: string[]; ink?: boolean }> = ({
+  count, total, handle = "@elcoyotediesel", dur, y = 300, variant = "dots", progress, icons = [], ink = false,
+}) => {   // tiles (post2all 2026-11-13): numbered tiles, "?" for the current one, the icon + green dot once done. ink: dark chrome on paper.
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const p = pop(frame, fps, 0);
   return (
     <AbsoluteFill style={{ opacity: p }}>
       <div style={{ position: "absolute", left: 72, right: 130, top: y, display: "flex", alignItems: "center", gap: 16 }}>
-        <div style={{ fontFamily: mono, fontSize: 30, letterSpacing: 2, color: C.cream, background: C.ink, border: `3px solid ${C.cream}`, borderRadius: 10, padding: "4px 14px", fontVariantNumeric: "tabular-nums" }}>
+        <div style={{ fontFamily: mono, fontSize: 30, letterSpacing: 2, color: ink ? C.ink : C.cream, background: ink ? "transparent" : C.ink, border: `3px solid ${ink ? C.ink : C.cream}`, borderRadius: 10, padding: "4px 14px", fontVariantNumeric: "tabular-nums" }}>
           {String(count).padStart(2, "0")}<span style={{ opacity: 0.55 }}>/{total}</span>
         </div>
-        {variant === "dots" ? (
+        {variant === "tiles" ? (
+          <div style={{ display: "flex", gap: 8 }}>
+            {Array.from({ length: total }).map((_, i) => {
+              const done = i < count - 1, cur = i === count - 1;
+              const bump = prog(frame, 0, 6, backOut(2));
+              const fg = ink ? "#fff" : C.ink, bgTile = ink ? C.ink : C.cream;
+              return (
+                <div key={i} style={{ position: "relative", width: 44, height: 44, borderRadius: 9, background: cur ? C.hi : done ? "#fff" : bgTile, boxShadow: "0 3px 8px rgba(0,0,0,0.18)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: mono, fontSize: 22, color: cur ? "#fff" : fg, transform: cur ? `scale(${0.8 + 0.2 * bump}) rotate(${(1 - bump) * -10}deg)` : "none", overflow: "visible" }}>
+                  {done && icons[i] ? <Img src={staticFile(icons[i])} style={{ width: 28, height: 28, objectFit: "contain" }} /> : cur ? "?" : i + 1}
+                  {done && <span style={{ position: "absolute", right: -4, top: -4, width: 12, height: 12, borderRadius: 6, background: "#3ca865", border: "2px solid #fff" }} />}
+                </div>
+              );
+            })}
+          </div>
+        ) : variant === "dots" ? (
           <div style={{ display: "flex", gap: 10 }}>
             {Array.from({ length: total }).map((_, i) => (
               <div key={i} style={{ width: 20, height: 20, borderRadius: 5, border: `3px solid ${C.cream}`, background: i < count ? C.tan : "transparent", transition: "none" }} />
@@ -39,7 +53,7 @@ export const ProgressHud: React.FC<{ count: number; total: number; handle?: stri
             <div style={{ width: `${Math.round((progress ?? count / total) * 100)}%`, height: "100%", background: C.tan }} />
           </div>
         )}
-        <div style={{ marginLeft: "auto", fontFamily: mono, fontSize: 22, color: C.cream, opacity: 0.7 }}>{handle}</div>
+        <div style={{ marginLeft: "auto", fontFamily: mono, fontSize: 22, color: ink ? C.ink : C.cream, opacity: 0.7 }}>{handle}</div>
       </div>
     </AbsoluteFill>
   );

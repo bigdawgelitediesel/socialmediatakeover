@@ -1,0 +1,14 @@
+# @justyn.ai "I didn't edit a single second of this video. Claude did." (DflSIzduyab)
+
+Sent by Jacob 2026-11-21. Justyn Berkovits ("AI for Solo Founders"), posted 2026-11-11, 40.9 s, 1,442 likes, 2,727 comments (gate "Drop EDIT" for a waitlist link, plus a vote: "Who do you think won this round?"). Files: reel.info.json, scenes.csv, sheet-01 to 03, transcript, words.json, shots/. reel.mp4 local only.
+
+## What is on screen
+One locked shot of him at a desk holding a phone, dark warm room, for 40 s. Above his head, two upright 9:16 cards side by side, labelled in mono caps underneath: OPUS 5.5 (left) and FABLE 5.2 (right). Each card plays a different AI-made edit of the same talking-head footage, in sync with his voice, so the viewer watches both edits at once while he explains the test. A white title pill "Claude video editor battle: Opus 5.5 vs Fable 5.2" for the first 4 s, a green pill "Drop your vote below" at 11 to 14 s. The cards: Opus (left) is poster-style, white and red type cards, a mono "SHOWDOWN" strip, a grid of testimonials; Fable (right) is heavier: red block words ("I DIDN'T EDIT", "YOU", "EDIT"), the person cut out over colour fields, a "2X" price card, "thank you" in script, a FOLLOW badge at the end. Both edits use our exact grammar (block type, cutouts, count-ups, testimonial walls) and both burn in a follow ask, which we do not.
+
+Script shape: hook (2 s) → the test (6 s) → the rules (10 s) → the price stake ("Fable is twice the price, so it better be twice as good") → the gate → social proof ("over 1,700 people have bought it") → thank-you → follow ask. The vote is what drove comments past likes.
+
+## What to take
+1. **Two clips running side by side above the head is a vote machine.** Ported as `DuelStage` (components/Rapid.tsx): two upright 9:16 cards, mono labels, both playing from the same `atF`, optional `winner`/`winAt` that scales one up and greys the other. The ask lives in the voice and in caption line 1, never burned in (house rule), and the comments are the vote. Rival uses: two wheel setups on the F600, two paint directions, two hooks for the same clip, two exhaust notes, "which 7.3 turbo kit" with the two product photos. This is the Numbers x Question-clip cell of the outlier matrix with a visual reason to answer.
+2. **State the stake in a number.** "Twice the price, so it better be twice as good" is the sentence that makes the vote matter. Rival version: "the compound kit is three times the single, so it better be worth three times."
+3. **Keep the person still, let the cards work.** 40 s on one locked shot held because the two cards never stop moving. Our talking-head Rival episodes can carry two windows (part photo and invoice, before and after) the same way.
+4. The two AI edits confirm what the kit already does; nothing new in them to port. Both burn in a follow ask and an outro; ours do not.

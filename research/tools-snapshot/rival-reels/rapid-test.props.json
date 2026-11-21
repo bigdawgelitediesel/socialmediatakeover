@@ -1,0 +1,258 @@
+{
+ "bg": "paper",
+ "durationSec": 22,
+ "captionStyle": "plain",
+ "grain": false,
+ "overlays": [
+  {
+   "type": "hud",
+   "at": 0,
+   "dur": 9,
+   "props": {
+    "count": 2,
+    "total": 5,
+    "variant": "tiles",
+    "icons": [
+     "cards/isspro-logo.png",
+     "cards/powerhungry-logo.png",
+     "cards/drivendiesel-logo.png"
+    ],
+    "ink": true,
+    "y": 300
+   }
+  },
+  {
+   "type": "slotlist",
+   "at": 0,
+   "dur": 9,
+   "props": {
+    "title": "Every 7.3 acronym in 30 seconds",
+    "rows": [
+     {
+      "text": "CPS",
+      "at": 0
+     },
+     {
+      "text": "UVCH",
+      "at": 22
+     },
+     {
+      "text": "HPOP",
+      "at": 44
+     },
+     {
+      "text": "IPR",
+      "at": 66
+     },
+     {
+      "text": "ICP",
+      "at": 88
+     },
+     {
+      "text": "EBPV",
+      "at": 110
+     },
+     {
+      "text": "CAC",
+      "at": 132
+     },
+     {
+      "text": "IDM",
+      "at": 154
+     },
+     {
+      "text": "PCM",
+      "at": 176
+     },
+     {
+      "text": "GPR",
+      "at": 198
+     },
+     {
+      "text": "EOT",
+      "at": 220
+     },
+     {
+      "text": "MAP",
+      "at": 242
+     },
+     {
+      "text": "BARO",
+      "at": 264
+     },
+     {
+      "text": "VSS",
+      "at": 286
+     },
+     {
+      "text": "EBP",
+      "at": 308
+     },
+     {
+      "text": "FPR",
+      "at": 330
+     },
+     {
+      "text": "DTC",
+      "at": 352
+     },
+     {
+      "text": "KOEO",
+      "at": 374
+     },
+     {
+      "text": "KOER",
+      "at": 396
+     },
+     {
+      "text": "CCV",
+      "at": 418
+     },
+     {
+      "text": "PMR",
+      "at": 440
+     },
+     {
+      "text": "IAT",
+      "at": 462
+     },
+     {
+      "text": "TPS",
+      "at": 484
+     },
+     {
+      "text": "CMP",
+      "at": 506
+     }
+    ],
+    "y": 440,
+    "cols": 2,
+    "size": 26,
+    "ink": true
+   }
+  },
+  {
+   "type": "fill",
+   "at": 9,
+   "dur": 5,
+   "props": {
+    "color": "#0b0b0c"
+   }
+  },
+  {
+   "type": "hud",
+   "at": 9,
+   "dur": 5,
+   "props": {
+    "count": 4,
+    "total": 5,
+    "variant": "tiles",
+    "icons": [
+     "cards/isspro-logo.png",
+     "cards/powerhungry-logo.png",
+     "cards/drivendiesel-logo.png"
+    ],
+    "y": 300
+   }
+  },
+  {
+   "type": "scorebars",
+   "at": 9,
+   "dur": 5,
+   "props": {
+    "title": "hookscore.py --hook \"7.3 guys, this one's for you\"",
+    "rows": [
+     {
+      "label": "length",
+      "value": 100
+     },
+     {
+      "label": "specificity",
+      "value": 80
+     },
+     {
+      "label": "stakes",
+      "value": 60
+     },
+     {
+      "label": "frontload",
+      "value": 100
+     },
+     {
+      "label": "address",
+      "value": 100
+     }
+    ],
+    "total": {
+     "label": "hook score",
+     "value": "88.0",
+     "tag": "STRONG"
+    },
+    "y": 700
+   }
+  },
+  {
+   "type": "duel",
+   "at": 14,
+   "dur": 8,
+   "props": {
+    "left": "fx-plate.mp4",
+    "right": "fx-after.mp4",
+    "labels": [
+     "SINGLE",
+     "COMPOUND"
+    ],
+    "y": 320,
+    "w": 400,
+    "winner": 1,
+    "winAt": 150
+   }
+  }
+ ],
+ "captions": [
+  {
+   "text": "every 7.3 acronym",
+   "start": 0.3,
+   "end": 2.0,
+   "accent": "7.3",
+   "accentFont": "serif",
+   "ink": true,
+   "y": 1500
+  },
+  {
+   "text": "in thirty seconds",
+   "start": 2.0,
+   "end": 4.0,
+   "accent": "thirty",
+   "accentFont": "serif",
+   "ink": true,
+   "y": 1500
+  },
+  {
+   "text": "it grades the hook first",
+   "start": 9.3,
+   "end": 12.0,
+   "accent": "grades",
+   "accentFont": "serif",
+   "y": 1500
+  },
+  {
+   "text": "single or compound",
+   "start": 14.3,
+   "end": 17.0,
+   "accent": "compound",
+   "accentFont": "serif",
+   "ink": true,
+   "y": 1500
+  },
+  {
+   "text": "three times the money",
+   "start": 17.0,
+   "end": 20.0,
+   "accent": "three times",
+   "accentFont": "serif",
+   "ink": true,
+   "y": 1500
+  }
+ ]
+}

@@ -9,6 +9,7 @@ import { ProgressHud, SidebarList, PhoneStage, CountUp, StrikeStamp, ItemCard, H
 import { WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBackWindow, ZoomThrough, HudZoom, BeforeAfter, BlurWord, Orbit, CompareCards, FaceHud } from "./components/Effects";
 import { StickerEdge, DoodleBoil } from "./components/Boil";
 import { WindowStack, PinThumb, Terminal, RepoCard, SpecChips, NotePill } from "./components/Paper";
+import { SlotList, ScoreBars, DuelStage, Fill } from "./components/Rapid";
 
 export type Overlay = { type: string; at: number; dur: number; props?: Record<string, any>; behind?: boolean };
 export type Caption = { text: string; start: number; end: number; accent?: string; y?: number; style?: "pill" | "plain"; variant?: "sans" | "serif" | "caps" | "italic"; accentFont?: "serif" | "script"; ink?: boolean };
@@ -30,6 +31,8 @@ export const REG: Record<string, React.FC<any>> = {
   sticker: StickerEdge, boil: DoodleBoil,
   // paper explainer grammar (2026-11-21 guipaulinooo Teardown study)
   winstack: WindowStack, pinthumb: PinThumb, terminal: Terminal, repo: RepoCard, specchips: SpecChips, notepill: NotePill,
+  // rapid-list / vote grammar (2026-11-21 rourke, post2all, justyn.ai studies)
+  slotlist: SlotList, scorebars: ScoreBars, duel: DuelStage, fill: Fill,
 };
 
 export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], overlays = [], muted = true, captionStyle = "pill", frame }) => {
