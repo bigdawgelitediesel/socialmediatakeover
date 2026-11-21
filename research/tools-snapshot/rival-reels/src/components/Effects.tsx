@@ -305,3 +305,48 @@ export const BlurWord: React.FC<{ text: string; dur: number; y?: number; size?: 
     </AbsoluteFill>
   );
 };
+
+/* ---------- CompareCards: raw clip and finished reel side by side in two tilted phone cards over a dark slatted field
+   (@eightsenses.media "Wait... CLAUDE edited this?", 2026-11-21). before/after = videos in public/. Labels BEFORE / AFTER,
+   optional quote pill on top (the hater line) and a title lockup (small / block / serif italic). No CTA. ---------- */
+export const CompareCards: React.FC<{ before: string; after: string; dur: number; atF?: number; labels?: [string, string]; quote?: string; title?: { small?: string; block: string; sub?: string }; tag?: string; muted?: boolean }> = ({
+  before, after, dur, atF = 0, labels = ["BEFORE", "AFTER"], quote, title, tag, muted = true,
+}) => {
+  const frame = useCurrentFrame(); const { fps } = useVideoConfig();
+  const pB = popSoft(frame, fps, 2), pA = popSoft(frame, fps, 6), pT = pop(frame, fps, 0), pQ = pop(frame, fps, 10);
+  const sweep = (frame / fps) * 90;  // slow light sweep across the slats
+  const card = (src: string, x: number, y: number, w: number, rot: number, p: number, label: string, front: boolean) => {
+    const h = Math.round(w * 16 / 9);
+    return (
+      <div style={{ position: "absolute", left: x, top: y, width: w, height: h, borderRadius: 30, overflow: "hidden", background: front ? "#f3f1ea" : "#e6e3da", boxShadow: cardShadow, transform: `rotate(${rot}deg) translateY(${(1 - p) * 60}px) scale(${0.92 + 0.08 * p})`, opacity: p, filter: front ? undefined : "brightness(0.82)" }}>
+        <OffthreadVideo src={staticFile(src)} startFrom={atF} muted={muted} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        <div style={{ position: "absolute", left: 16, top: 16, fontFamily: mono, fontSize: 20, letterSpacing: 2, color: C.ink, background: "rgba(255,255,255,0.9)", borderRadius: 8, padding: "4px 10px" }}>{label}</div>
+      </div>
+    );
+  };
+  return (
+    <AbsoluteFill style={{ background: "#0b0b0c", opacity: tailFade(frame, dur, 6) }}>
+      {/* slatted field */}
+      <AbsoluteFill style={{ backgroundImage: "repeating-linear-gradient(90deg, #15161a 0 44px, #0b0b0c 44px 60px)" }} />
+      <AbsoluteFill style={{ background: `linear-gradient(100deg, rgba(255,255,255,0) ${sweep - 30}%, rgba(255,255,255,0.08) ${sweep}%, rgba(255,255,255,0) ${sweep + 30}%)` }} />
+      {quote && (
+        <div style={{ position: "absolute", left: 0, right: 0, top: 290, display: "flex", justifyContent: "center", opacity: pQ, transform: `translateY(${(1 - pQ) * -20}px)` }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 12, background: "#fff", borderRadius: 40, padding: "10px 22px 10px 12px", boxShadow: cardShadow }}>
+            <div style={{ width: 34, height: 34, borderRadius: 17, background: "#bbb" }} />
+            <div style={{ fontFamily: F.uiSemi, fontSize: 24, color: C.ink }}>{quote}</div>
+          </div>
+        </div>
+      )}
+      {title && (
+        <div style={{ position: "absolute", left: 0, right: 0, top: 380, textAlign: "center", opacity: pT, transform: `scale(${0.94 + 0.06 * pT})` }}>
+          {title.small && <div style={{ fontFamily: F.ui, fontSize: 30, color: C.cream, opacity: 0.8 }}>{title.small}</div>}
+          <div style={{ fontFamily: F.block, fontSize: 150, lineHeight: 0.95, letterSpacing: 4, color: C.cream, textShadow: "0 12px 40px rgba(0,0,0,0.6)" }}>{title.block}</div>
+          {title.sub && <div style={{ fontFamily: F.serif, fontSize: 48, color: C.tan, marginTop: 6 }}>{title.sub}</div>}
+        </div>
+      )}
+      {card(before, 70, 760, 330, -6, pB, labels[0], false)}
+      {card(after, 430, 700, 560, 4, pA, labels[1], true)}
+      {tag && <div style={{ position: "absolute", left: 880, top: 690, fontFamily: F.uiSemi, fontSize: 22, color: C.ink, background: C.tan, borderRadius: 10, padding: "6px 14px", transform: "rotate(6deg)", opacity: pA }}>{tag}</div>}
+    </AbsoluteFill>
+  );
+};

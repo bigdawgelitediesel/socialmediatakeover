@@ -1,0 +1,2 @@
+{ "bg": "#0b0b0c", "durationSec": 6,
+  "overlays": [ { "type": "compare", "at": 0, "dur": 6, "props": { "before": "fx-plate.mp4", "after": "fx-after.mp4", "quote": "phone footage can't look like that.", "title": { "small": "Wait...", "block": "RIVAL", "sub": "edited this?" }, "tag": "El Coyote cut" } } ] }
