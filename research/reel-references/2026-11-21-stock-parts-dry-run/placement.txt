@@ -1,0 +1,47 @@
+# sfx_place.py  events=rival-reels/out/stock-parts/stock-parts.sfx.clean.json  kit=sfx-kit  fps=30  out=rival-reels/out/stock-parts/sfx_track.wav  style=gritty
+# anchor rule: whoosh peak -2f, hit/stamp peak on, riser end -2f, pop/tick/click/notify onset on
+kind     file                         requested    anchor    actual  delta_f style     gain  rule
+whoosh   whoosh_air_short.wav            4.4200    4.3533    4.3534    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav                4.4530    4.4530    4.4530    -0.00 gritty    +0.0  peak on at
+pop      pop_chip.wav                    6.5870    6.5870    6.5870    -0.00 neutral   +0.0  onset on at
+stamp    stamp_rubber.wav                6.9200    6.9200    6.9200    +0.00 gritty    +0.0  peak on at
+whoosh   whoosh_air_soft.wav             8.7200    8.6533    8.6534    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav                8.7530    8.7530    8.7530    +0.00 gritty    +0.0  peak on at
+pop      pop_select.wav                 10.8530   10.8530   10.8530    +0.00 neutral   +0.0  onset on at
+whoosh   whoosh_cloth.wav               12.5800   12.5133   12.5134    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav               12.6130   12.6130   12.6130    +0.00 gritty    +0.0  peak on at
+pop      pop_chip.wav                   13.3470   13.3470   13.3470    -0.00 neutral   +0.0  onset on at
+pop      pop_select.wav                 14.2130   14.2130   14.2130    +0.00 neutral   +0.0  onset on at
+whoosh   whoosh_bamboo_low.wav          15.7800   15.7133   15.7134    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav               15.8130   15.8130   15.8129    -0.00 gritty    +0.0  peak on at
+pop      pop_chip.wav                   16.5130   16.5130   16.5130    -0.00 neutral   +0.0  onset on at
+pop      pop_select.wav                 17.8130   17.8130   17.8130    +0.00 neutral   +0.0  onset on at
+whoosh   whoosh_air_short.wav           19.7300   19.6633   19.6634    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav               19.7630   19.7630   19.7630    +0.00 gritty    +0.0  peak on at
+pop      pop_chip.wav                   21.8630   21.8630   21.8630    -0.00 neutral   +0.0  onset on at
+stamp    stamp_rubber.wav               22.1970   22.1970   22.1970    +0.00 gritty    +0.0  peak on at
+whoosh   whoosh_air_soft.wav            24.6100   24.5433   24.5434    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav               24.6430   24.6430   24.6430    +0.00 gritty    +0.0  peak on at
+pop      pop_select.wav                 26.0430   26.0430   26.0430    +0.00 neutral   +0.0  onset on at
+whoosh   whoosh_cloth.wav               28.0300   27.9633   27.9634    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav               28.0630   28.0630   28.0630    +0.00 gritty    +0.0  peak on at
+pop      pop_chip.wav                   28.6630   28.6630   28.6630    -0.00 neutral   +0.0  onset on at
+whoosh   whoosh_bamboo_low.wav          32.1100   32.0433   32.0434    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav               32.1430   32.1430   32.1429    -0.00 gritty    +0.0  peak on at
+pop      pop_select.wav                 33.7430   33.7430   33.7430    +0.00 neutral   +0.0  onset on at
+stamp    stamp_rubber.wav               34.0770   34.0770   34.0770    +0.00 gritty    +0.0  peak on at
+whoosh   whoosh_air_short.wav           35.2300   35.1633   35.1634    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav               35.2630   35.2630   35.2630    +0.00 gritty    +0.0  peak on at
+pop      pop_chip.wav                   35.9630   35.9630   35.9630    -0.00 neutral   +0.0  onset on at
+pop      pop_select.wav                 36.7300   36.7300   36.7300    +0.00 neutral   +0.0  onset on at
+pop      pop_chip.wav                   37.7300   37.7300   37.7301    +0.00 neutral   +0.0  onset on at
+whoosh   whoosh_air_soft.wav            37.9700   37.9033   37.9033    +0.00 gritty    +0.0  peak at -2f
+stamp    stamp_rubber.wav               38.0630   38.0630   38.0630    +0.00 gritty    +0.0  peak on at
+tick     tick_switch.wav                38.5700   38.5700   38.5700    -0.00 gritty    +0.0  onset on at
+tick     tick_switch.wav                38.6700   38.6700   38.6700    -0.00 gritty    +0.0  onset on at
+tick     tick_switch.wav                38.7700   38.7700   38.7700    -0.00 gritty    +0.0  onset on at
+tick     tick_switch.wav                38.8700   38.8700   38.8700    -0.00 gritty    +0.0  onset on at
+tick     tick_switch.wav                38.9700   38.9700   38.9700    -0.00 gritty    +0.0  onset on at
+notify   notify_dm.wav                  39.5700   39.5700   39.5700    -0.00 neutral   +0.0  onset on at
+WARN density: --cuts not given, whoosh-per-cut check skipped (10 whooshes placed)
+WARN density: 5 sounds start between 37.73 and 38.73 s (max 3 per second)

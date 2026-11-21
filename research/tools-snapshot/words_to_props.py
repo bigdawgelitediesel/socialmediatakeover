@@ -420,7 +420,7 @@ def build(spec, words):
         fb = SFX_KIT_FALLBACK[s["kind"]]
         s["kit"] = fb
         if fb:
-            s["file"] = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sfx", f"{fb}.wav")
+            pass  # 2026-11-21: no hard file path; sfx_place.py rotates tools/sfx-kit by kind (the old tools/sfx synth kit is not shippable)
     sfx.sort(key=lambda s: s["at"])
     return props, sfx, plan, duration, hook_end
 
