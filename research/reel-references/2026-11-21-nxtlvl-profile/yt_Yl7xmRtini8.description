@@ -1,0 +1,8 @@
+Claude Code can now watch any YouTube video, frame by frame + full transcript, and turn it into a reusable skill. Free & open source (20K★).
+
+Repo: github.com/bradautomates/claude-video
+Install in Claude Code:
+/plugin marketplace add bradautomates/claude-video
+/plugin install watch@claude-video
+
+#shorts #claudecode #claudeai #aitools #github

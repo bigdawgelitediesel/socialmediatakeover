@@ -1,0 +1,9 @@
+[00:00.0 -> 00:02.5] You can now give Clotcode the ability to watch any video with this one skill.
+[00:02.8 -> 00:05.9] If you want to watch YouTube, Loom, TikTok, Instagram, and many more, just type in slash
+[00:05.9 -> 00:08.8] watch and put in the YouTube video whatever video link you want and tell it the instructions
+[00:08.8 -> 00:09.2] you want.
+[00:09.3 -> 00:12.3] It'll break down the video frame by frame and extract the audio so it understands literally
+[00:12.3 -> 00:13.0] every aspect.
+[00:13.2 -> 00:16.2] But watch this, you can turn any of those video links into a custom skill you can
+[00:16.2 -> 00:17.2] use in Clot or Chatcha BT.
+[00:17.5 -> 00:19.8] If you want the repo link just like and comment, watch and I'll send it over.

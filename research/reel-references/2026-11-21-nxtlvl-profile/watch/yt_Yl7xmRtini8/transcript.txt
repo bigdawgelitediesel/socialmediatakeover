@@ -1,0 +1,6 @@
+[00:00.0 -> 00:05.7] Claude Code can now watch YouTube for you. Not a summary. It actually watches it frame by frame.
+[00:06.0 -> 00:11.8] It's a free skill called Watch, with over 20,000 stars on GitHub. Install it with two commands,
+[00:12.2 -> 00:16.8] then drop in any video and say, watch this, and turn what it teaches into a skill.
+[00:17.2 -> 00:21.8] Now that lesson is a skill you can reuse forever. Feed it the best sales training,
+[00:22.3 -> 00:26.8] and it writes your follow-ups that way. Podcasts, lectures, tutorials, same thing.
+[00:26.8 -> 00:29.2] Comment, watch, and I'll send you the setup.
