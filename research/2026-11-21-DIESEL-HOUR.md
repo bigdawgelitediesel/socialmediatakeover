@@ -28,8 +28,13 @@ The niche's own data agrees with the morning's finding from the other direction.
 ### Montage (montage-craft report, 17 clips measured against librosa beats)
 59. Carried from rule 47: cut once per bar within 1 frame of the beat, open on a 2 to 3 bar hold, drop reveal on beat 1, bookend the ending; montages share at 0.95 to 1.56 percent, the same creators' talking memes at 1.4 to 2.4, so a montage is the build-pride slot, not the growth slot.
 
+### Growth case studies (12 accounts not in the profile report, 14,000 TikTok posts dumped for exact first-30 data)
+60. **No account broke out on a build update.** Every breakout was a reaction with the truck or the trade as the authority: rating submitted trucks, hater replies, stitches, platform takes, customer stories with a number, or the truck failing (DriveHub's "Rare 7.3 Won't Start" Short did 5.76M against a 279K finale; Zac Lucarz 52K to 189.5K in seven months of "day N of building my dad's truck" with reaction clips between).
+61. **First 30 posts of the fast growers:** 3 to 6 posts a day in month one, the premise stated in post 1, reactions and memes carrying the build episodes; the slow starters posted hashtag-only clips of one truck for a year (a 1951 Ford F600 COE channel is stuck at 2K subs after five years). Build series pay at episode 1 and sometimes the finale; the middle runs at 25 to 50 percent of that.
+62. **Sponsor-tag feeds** (Diesel Queen, Cummins Cowgirl) kept their spikes and lost their median: partner content as a share of the feed above about one in four flattens the account. The 30-post plan derived from the twelve (10 reactions, 7 Rival episodes, 6 memes, 4 credential, 3 person reels, each with a hook and a person-type caption line) is in the report.
+
 ### Still landing (appended below when the agents finish)
-60. Best pitches and brand programs; growth case studies and the first-30-posts pattern; the @omgadrian study.
+63. Best pitches and brand programs; the parts-counter lane; the 6.7 tribe for Chief; the @omgadrian study.
 
 ## What to do this week, in order
 1. Post a meme in the 10-mil voice built from Jacob's own footage (template 3: cutout over own footage plus a text confession), caption line 1 as a person type.
