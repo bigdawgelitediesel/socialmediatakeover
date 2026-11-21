@@ -22,6 +22,7 @@ EDL JSON:
              "zoom": [1.0, 1.08], "zoom_anchor": 0.5, "zoom_ease": "inout"|"out",
              "stab": true, "shake": [0.4, 1.2], "flash": [1.0],
              "xfade": {"type": "fade"|"whip_left"|"whip_right"|"wipe_left", "dur": 0.3},
+            "mblur": true,            # synthetic motion blur for fast-motion shots (dance, wrenching, walking cam); fixes the strobe look
              "grade": "natural"|"none"} ],
  "audio": [ {"clip","in","dur","at","gain_db":0,"clean":true} ],
  "sfx":   [ {"kind": "whoosh"|"impact"|"riser"|"sub"|"click"|"gap", "at": 2.6, "gain_db": -8} ],
@@ -40,7 +41,7 @@ import json, os, subprocess, sys, tempfile, shutil, math, re
 BIN = os.path.join(os.environ["LOCALAPPDATA"], r"Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin")
 FF = os.path.join(BIN, "ffmpeg.exe"); FP = os.path.join(BIN, "ffprobe.exe")
 W, H, FPS = 1080, 1920, 30
-RENDER_VERSION = "3.2-scdnone"   # bump whenever slot filters change so the slot cache invalidates
+RENDER_VERSION = "3.3-mblur"   # bump whenever slot filters change so the slot cache invalidates
 TAN = "&H008CB3C9"      # #c9b38c  (ASS is &HAABBGGRR)
 WHITE = "&H00FFFFFF"; OFFWHITE = "&H00F2F2F2"; BLACK = "&H00000000"; INK = "&H00141414"
 
@@ -338,7 +339,12 @@ def render_slot(i, s, tmp, prev_whip=None, next_whip=None, cache=None):
             vf += [f"setpts={1/speed:.4f}*PTS"]
         vf.append(f"fps={FPS}")
     else:
-        dur_src = dur_out; vf.append(f"fps={FPS}")
+        dur_src = dur_out
+        if s.get("mblur"):
+            # synthetic 270-degree shutter: phones shoot fast motion at 1/500+ so dance/wrench moves strobe at 30 fps.
+            # interpolate to 120 fps, average 3 sub-frames, back to 30. ~1 s of render per output frame at 1080x1920.
+            vf += ["minterpolate=fps=120:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1:scd=none", "tmix=frames=3"]
+        vf.append(f"fps={FPS}")
     if s.get("zoom"): vf += zoom_filters(s["zoom"], dur_out, s.get("zoom_anchor", 0.5), s.get("zoom_ease", "inout"))
     if s.get("shake"): vf += shake_filters(s["shake"])
     for ft in s.get("flash", []):
@@ -374,8 +380,9 @@ def lint(e, total):
     hooks = [c for c in e.get("captions", []) if c.get("type") in ("hook", "lockup")]
     if not hooks and e.get("captions"): problems.append("no hook caption")
     for h in hooks:
-        n = len(h["text"].replace("\n", " ").split())
-        if n > 7: problems.append(f"hook has {n} words (max 7): {h['text']!r}")
+        txt = h.get("text") or " ".join(x for x in (h.get("script"), h.get("block")) if x)   # lockups carry script + block, not text
+        n = len(txt.replace("\n", " ").split())
+        if n > 7: problems.append(f"hook has {n} words (max 7): {txt!r}")
         if h["start"] > 0.14: problems.append(f"hook starts at {h['start']} s, must be on by frame 4 (0.13 s)")
     t = 0.0
     for i, s in enumerate(e["slots"]):

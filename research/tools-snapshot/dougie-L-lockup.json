@@ -1,0 +1,118 @@
+{
+ "name": "dougie-shop-tour-L-lockup",
+ "out_dir": "C:/Users/Parts/OneDrive - Elite Diesel Service/Desktop/VIDEO/out/renders",
+ "fontsdir": "C:/Users/Parts/OneDrive - Elite Diesel Service/Desktop/VIDEO/tools/fonts",
+ "ambience": {
+  "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+  "in": 6.0,
+  "gain_db": -26
+ },
+ "slots": [
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 0.0,
+   "dur": 4.4,
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "zoom_anchor": 1.0
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 5.5,
+   "dur": 1.395,
+   "zoom": [
+    1.0,
+    1.05
+   ],
+   "zoom_anchor": 0.82,
+   "mblur": true
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 7.95,
+   "dur": 1.395,
+   "zoom": [
+    1.0,
+    1.08
+   ],
+   "zoom_anchor": 0.82,
+   "mblur": true
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 10.75,
+   "dur": 1.395,
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "zoom_anchor": 0.82,
+   "mblur": true
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 13.4,
+   "dur": 1.4,
+   "speed": 0.5
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 15.8,
+   "dur": 1.3,
+   "zoom": [
+    1.0,
+    1.1
+   ],
+   "zoom_anchor": 0.82,
+   "mblur": true
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 17.2,
+   "dur": 1.2,
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "zoom_anchor": 0.82,
+   "mblur": true
+  },
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 14.3,
+   "dur": 2.6,
+   "xfade": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "speed": 0.55
+  }
+ ],
+ "audio": [
+  {
+   "clip": "C:/Users/Parts/My Drive/VIDEO/inbox/A263E7B4-BD41-4CBA-864A-648B9647E806.mp4",
+   "in": 0.0,
+   "dur": 4.65,
+   "at": 0.12,
+   "clean": "light",
+   "fade": 0.06
+  }
+ ],
+ "sfx": [],
+ "captions": [
+  {
+   "type": "lockup",
+   "script": "Teach me how to",
+   "block": "DOUGIE",
+   "sub": "EVERY BAY IN THE SHOP",
+   "start": 0.0,
+   "end": 3.0,
+   "pos": [
+    540,
+    520
+   ]
+  }
+ ]
+}
