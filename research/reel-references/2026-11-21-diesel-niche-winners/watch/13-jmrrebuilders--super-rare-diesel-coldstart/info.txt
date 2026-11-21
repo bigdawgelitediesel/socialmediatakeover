@@ -1,0 +1,7 @@
+duration: 21.134
+width: 608
+height: 1080
+fps: 30.0
+vcodec: vp9
+audio: opus
+orientation: vertical
