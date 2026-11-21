@@ -24,7 +24,7 @@ ffmpeg is the Gyan 9.0.2 build under `%LOCALAPPDATA%\Microsoft\WinGet\Packages\.
 
 ## Events JSON (the contract for words_to_props.py)
 
-`tools\words_to_props.py` does not exist yet. When it does, it emits this list and `sfx_place.py` consumes it:
+`tools\words_to_props.py` emits this list as `<name>.sfx.json` and `sfx_place.py` consumes it (the CC0 kit in tools\sfx-kit; the older synthesized tools\sfx kit is not shippable):
 
 ```json
 [

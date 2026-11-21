@@ -85,7 +85,7 @@ one spoken. Chip cues are searched forward from the card inside the item's windo
 | gate | at its cue minus 0.12 s; iris 0.4 s before it (0.7 s long); DM card after the word is typed |
 | durationSec | last word end + 1.6 s hold |
 
-Layout (1080 x 1920): HUD y 300, headline 400, strike row 540, card 560 (700 under a strike), gate 620,
+Layout (1080 x 1920, values in the code as of 2026-11-21): HUD y 300, headline 440, strike row 620, card 660 (780 under a strike), gate 660, captions 1150 to 1180 (2 to 4 words, 24 chars max),
 captions at sidebar top minus 130 (1150 without a sidebar), sidebar anchored so it ends at y 1430.
 Overlays are emitted in time order with hud/sidebar before the card at the same `at`, because CardReel
 stacks overlays in array order.
