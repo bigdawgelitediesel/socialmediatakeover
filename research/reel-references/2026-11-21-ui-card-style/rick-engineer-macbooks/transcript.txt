@@ -1,0 +1,74 @@
+[00:00.0 -> 00:02.4] Why do so many developers prefer Mac over Windows?
+[00:02.7 -> 00:05.2] Walk into a tech startup and you'll probably see MacBooks everywhere.
+[00:05.5 -> 00:08.0] But why? Is macOS actually better for programming?
+[00:08.2 -> 00:09.6] Or is it just Apple's branding?
+[00:09.9 -> 00:10.7] Let's break it down.
+[00:10.9 -> 00:11.6] First, Unix.
+[00:12.0 -> 00:13.9] macOS is built on Unix foundations,
+[00:14.1 -> 00:16.3] so its development environment feels a lot like Linux.
+[00:16.6 -> 00:19.4] And that matters because most modern software runs on Linux servers.
+[00:19.7 -> 00:21.4] Think backend apps, cloud infrastructure,
+[00:21.8 -> 00:23.2] Docker containers, and AI tools.
+[00:23.7 -> 00:26.1] On a Mac, you can open the terminal and use familiar commands
+[00:26.1 -> 00:28.0] like SSH, Grep, Curl, and Git.
+[00:28.1 -> 00:29.7] Install development tools with Homebrew.
+[00:29.7 -> 00:31.8] And run Python, JavaScript, Go, or Rust
+[00:31.8 -> 00:33.5] without needing a separate Linux environment.
+[00:33.8 -> 00:35.1] Windows can do much of this too,
+[00:35.2 -> 00:37.9] especially with WSL, the Windows subsystem for Linux.
+[00:38.2 -> 00:40.9] But macOS gives you a Unix-based environment out of the box.
+[00:41.2 -> 00:41.8] Now hardware.
+[00:42.1 -> 00:44.6] Modern Macs use Apple Silicon, the M-Series chips.
+[00:45.1 -> 00:48.2] They combine CPU, graphics, and specialized accelerators
+[00:48.2 -> 00:49.9] on a single tightly integrated chip.
+[00:50.1 -> 00:52.1] Their biggest advantage is performance per watt.
+[00:52.3 -> 00:54.4] Strong performance with relatively little energy.
+[00:54.8 -> 00:56.3] That's perfect when you're running an IDE,
+[00:56.3 -> 00:59.6] dev servers, browser tabs, and background processes all day.
+[00:59.9 -> 01:01.4] And it means excellent battery life
+[01:01.4 -> 01:03.0] without constantly reaching for the charger.
+[01:03.2 -> 01:04.6] Next, the Apple ecosystem.
+[01:05.0 -> 01:05.9] Building an iPhone app?
+[01:06.2 -> 01:06.7] Xcode.
+[01:06.9 -> 01:09.7] Apple's official development environment only runs on macOS.
+[01:10.0 -> 01:12.9] The same goes for most native development for iOS, macOS,
+[01:13.1 -> 01:14.0] and other Apple platforms.
+[01:14.3 -> 01:16.8] So for Apple developers, a Mac is often a requirement.
+[01:16.9 -> 01:18.2] Then there's developer experience.
+[01:18.7 -> 01:20.6] macOS gives you polished desktop apps
+[01:20.6 -> 01:22.4] alongside powerful command line tools.
+[01:22.4 -> 01:25.8] VS Code, JetBrains IDEs, Docker, TerminalApps,
+[01:25.9 -> 01:27.7] local databases, all running smoothly.
+[01:28.0 -> 01:30.6] And honestly, many developers just enjoy using it.
+[01:30.8 -> 01:33.5] Smooth trackpad, crisp display, great build quality.
+[01:33.9 -> 01:35.9] When you stare at a screen all day, that matters.
+[01:36.2 -> 01:37.0] There's also consistency.
+[01:37.4 -> 01:39.7] Apple controls both the software and the hardware.
+[01:39.9 -> 01:41.0] That means tighter integration
+[01:41.0 -> 01:42.6] and fewer compatibility headaches.
+[01:42.9 -> 01:44.6] But Macs aren't perfect, they're expensive.
+[01:44.9 -> 01:46.4] Upgrades after purchase are limited.
+[01:46.8 -> 01:49.3] And some software still doesn't run natively on Apple Silicon.
+[01:49.6 -> 01:50.8] Containers are another catch.
+[01:50.8 -> 01:52.7] Most production containers run on Linux.
+[01:53.0 -> 01:54.9] And since macOS doesn't use the Linux kernel,
+[01:55.2 -> 01:58.0] Docker on a Mac runs inside a lightweight Linux virtual machine.
+[01:58.3 -> 02:00.6] So it's not quite the same as native Docker on Linux.
+[02:01.0 -> 02:01.5] What about Windows?
+[02:01.9 -> 02:04.3] It's excellent for .NET, Windows desktop apps,
+[02:04.5 -> 02:05.8] and Windows specific software.
+[02:06.0 -> 02:08.7] And WSL gives you a real Linux environment inside it.
+[02:08.9 -> 02:11.0] Meanwhile, Linux dominates servers and infrastructure.
+[02:11.5 -> 02:13.6] And it's loved by developers who want full control.
+[02:13.8 -> 02:14.8] So here's the mental model.
+[02:15.0 -> 02:16.0] Developers like Macs
+[02:16.0 -> 02:17.8] because they combine a Unix-based environment.
+[02:18.0 -> 02:20.3] Powerful, efficient hardware with great battery life.
+[02:20.3 -> 02:21.9] A polished desktop experience.
+[02:22.5 -> 02:23.9] And access to Apple's ecosystem.
+[02:24.3 -> 02:26.3] But that doesn't make macOS universally better.
+[02:26.6 -> 02:29.8] Great developers build great software on Windows, Linux, and macOS.
+[02:30.1 -> 02:32.4] The best operating system is the one that fits your tools,
+[02:32.7 -> 02:34.1] your workflow, and what you're building.
+[02:34.5 -> 02:35.4] And for many developers,
+[02:35.6 -> 02:37.3] the Mac just happens to hit all three.

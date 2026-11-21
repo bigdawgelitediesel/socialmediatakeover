@@ -1,0 +1,32 @@
+[00:00.0 -> 00:02.4] Why can a new Mac with only 16 gigs of RAM
+[00:02.4 -> 00:04.5] humiliate a PC with twice as much?
+[00:04.9 -> 00:07.3] To get it, you have to look at how a normal computer works.
+[00:07.6 -> 00:08.7] Picture a huge company.
+[00:09.1 -> 00:11.3] The processor, the brain, is in one building.
+[00:11.7 -> 00:13.8] The graphics card, the eyes, is in another
+[00:13.8 -> 00:15.0] with its own little archive.
+[00:15.4 -> 00:18.0] And the RAM, the main archives, is somewhere else again.
+[00:18.4 -> 00:19.9] So when they work on the same file,
+[00:20.1 -> 00:21.3] they have to make photocopies
+[00:21.3 -> 00:23.2] and send couriers down a narrow highway.
+[00:23.5 -> 00:25.1] It's slow and it wastes energy.
+[00:25.4 -> 00:27.8] But on an Apple Silicon chip, they broke all of that.
+[00:28.1 -> 00:29.4] It's called an SOC.
+[00:29.4 -> 00:30.7] A system on a chip.
+[00:31.0 -> 00:33.2] The processor and the graphics are one chip now,
+[00:33.4 -> 00:34.8] with the memory right beside them.
+[00:35.0 -> 00:37.1] The RAM is literally soldered a few millimeters
+[00:37.1 -> 00:37.9] from the brain.
+[00:38.2 -> 00:38.9] No more couriers.
+[00:39.4 -> 00:41.6] Now everyone sits around the same meeting table.
+[00:41.9 -> 00:43.6] The processor puts a document on the table
+[00:43.6 -> 00:45.7] and right away the graphics can read it
+[00:45.7 -> 00:46.8] without making a copy.
+[00:47.3 -> 00:49.1] Zero copies, zero couriers.
+[00:49.5 -> 00:50.8] That's a big reason these chips
+[00:50.8 -> 00:52.2] run heavy video editing apps
+[00:52.2 -> 00:54.1] or AI models right on your laptop,
+[00:54.3 -> 00:57.0] ridiculously smoothly, even with less RAM on paper.
+[00:57.0 -> 00:59.4] What matters isn't just how much memory you have.
+[00:59.8 -> 01:01.0] It's who gets to share it.
+[01:01.1 -> 01:01.9] Follow for the next one.

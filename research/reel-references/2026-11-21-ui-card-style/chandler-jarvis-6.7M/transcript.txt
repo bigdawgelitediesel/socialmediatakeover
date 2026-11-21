@@ -1,0 +1,24 @@
+[00:00.5 -> 00:07.0] Hey Jarvis wake up daddy's home. How's the app doing for that dashboard give Claude a reference image of what you want
+[00:07.0 -> 00:10.3] And it'll pretty much one-shot it like this took me five minutes to create
+[00:11.6 -> 00:15.2] Voice mode to talk instead of type which is a huge boost in productivity
+[00:15.2 -> 00:21.4] Connect 11 labs if you really want that British Jarvis voice and become Tony Stark pulling up our app stats now
+[00:21.4 -> 00:23.3] Claude and Chrome to give it access to your browser
+[00:23.3 -> 00:31.2] Over the last seven days, we had 2,459 new downloads and generated $4,289 in revenue revenue cat MCP to track your app revenue
+[00:31.2 -> 00:37.4] For organic content, I'm still posting three short form videos today and buffer MCP to publish to all platforms in a single command
+[00:37.4 -> 00:41.1] On ads, you spent $475 as a 1.5 return on ad spend
+[00:41.1 -> 00:45.5] Meta launched an official ads MCP so you can run more campaigns and give them more of your money
+[00:45.5 -> 00:47.9] Throughout the week, you received 16 customer emails
+[00:47.9 -> 00:48.9] Gmail MCP
+[00:48.9 -> 00:51.8] I resolved 13 automatically, mostly common questions and account issues
+[00:51.8 -> 00:56.2] Organize all of your FAQs and markdown and Claude will handle 90% of customer service
+[00:56.2 -> 00:59.2] Since you had already approved that direction, I handed it to Tom, the developer agent
+[00:59.6 -> 01:02.9] Define custom sub-agents and equip them with proper skills and connectors
+[01:02.9 -> 01:06.2] Then your main agent can hand off work to the proper sub-agent
+[01:06.2 -> 01:08.2] My recommendation today, review the back-end PR
+[01:08.2 -> 01:09.9] Keep your hands to the street into your ad angle
+[01:09.9 -> 01:12.4] And have Scout research the next set of organic content angles to test
+[01:12.4 -> 01:13.8] What would you like me to handle first, sir?
+[01:14.3 -> 01:16.1] Set this entire daily brief as a routine
+[01:16.1 -> 01:18.9] And Claude will have this ready for you by the time you sit down to work
+[01:18.9 -> 01:21.7] Comment Jarvis for a compiled list of everything that was mentioned
+[01:21.7 -> 01:21.9] Thank you

@@ -1,0 +1,57 @@
+[00:00.0 -> 00:04.8] One developer just rebuilt Adobe's entire suite with AI for free.
+[00:05.4 -> 00:06.9] And that's not even the scary part.
+[00:07.4 -> 00:09.1] Okay, so here's what happened.
+[00:09.4 -> 00:14.0] Brandon Thomas used Claude to rebuild seven Adobe apps, from Photoshop to Premiere,
+[00:14.3 -> 00:15.6] and release them open source.
+[00:15.9 -> 00:19.4] Adobe spent four billion dollars on research last year alone.
+[00:19.9 -> 00:21.2] And that's the real shift.
+[00:21.5 -> 00:24.5] AI just made rebuilding anything almost free.
+[00:24.6 -> 00:27.4] And when rebuilding is free, every mode starts to crack.
+[00:27.9 -> 00:28.9] First, the products.
+[00:28.9 -> 00:31.8] When Sony said it would stop making game discs,
+[00:32.1 -> 00:38.7] developers answered with any PS5, an open source project rebuilding the PS5's own system software
+[00:38.7 -> 00:40.8] so its games run natively on PC.
+[00:41.3 -> 00:43.6] It's early, but it already runs its first game.
+[00:43.9 -> 00:45.8] Decades of lock-in answered in weeks.
+[00:46.3 -> 00:47.4] Second, the companies.
+[00:47.8 -> 00:49.2] Your team used to be your mode.
+[00:49.5 -> 00:53.5] Now, XAI's Grockbot gives you always-on agents that use your apps,
+[00:53.7 -> 00:56.1] learn your tasks, and work together in one chat.
+[00:56.4 -> 00:58.3] And you add a finished one with a single tap.
+[00:58.3 -> 01:00.8] People share whole agent teams for Claude.
+[01:01.0 -> 01:03.7] One does your outreach, one coaches you on sales calls,
+[01:04.0 -> 01:06.3] one builds the work, and one answers your customers.
+[01:06.7 -> 01:08.0] And with open models from China,
+[01:08.3 -> 01:11.1] you can run it all on your own server for almost nothing.
+[01:11.6 -> 01:12.7] And third, the banks.
+[01:13.0 -> 01:14.4] This is where it gets serious.
+[01:14.7 -> 01:17.2] A lot of the world's banking still runs on COBOL,
+[01:17.4 -> 01:19.2] a programming language from 1959.
+[01:19.9 -> 01:22.3] And AI is very good at reading old code.
+[01:22.5 -> 01:25.0] So money is quietly moving somewhere else.
+[01:25.0 -> 01:29.0] Stablecoins moved $33 trillion on chain last year,
+[01:29.2 -> 01:31.0] more than Visa and MasterCard combined.
+[01:31.4 -> 01:32.4] Most of that is trading,
+[01:32.8 -> 01:34.9] but Visa now tracks it on its own dashboard.
+[01:35.2 -> 01:37.9] And MasterCard settles card payments in Stablecoins.
+[01:38.4 -> 01:42.8] In Singapore, DBS, OCBC, and UOB just moved real money
+[01:42.8 -> 01:45.4] between each other as tokens on a blockchain ledger.
+[01:45.6 -> 01:48.3] And companies can already pay salaries in Stablecoins.
+[01:48.6 -> 01:50.9] Apps like Coca look exactly like a bank,
+[01:51.0 -> 01:52.9] with an account number and a Visa card.
+[01:53.1 -> 01:54.8] But underneath, it's a crypto wallet.
+[01:54.8 -> 01:57.4] Borderless, so money crosses the world in seconds,
+[01:57.7 -> 01:59.8] even on a Sunday, and self-custody.
+[02:00.2 -> 02:02.5] So no bank holds your money, you hold the key.
+[02:02.9 -> 02:05.9] And that key is the one thing AI can't crack.
+[02:06.2 -> 02:07.8] To guess a single wallet key,
+[02:08.1 -> 02:11.6] a perfect computer running on the sun's entire energy output
+[02:11.6 -> 02:14.4] would need half a billion trillion years.
+[02:14.7 -> 02:17.1] The universe is 14 billion years old.
+[02:17.5 -> 02:21.8] So every moat built on code, on hardware, on headcount is cracking.
+[02:21.8 -> 02:25.4] And remember, this is the slowest AI will ever be.
+[02:25.6 -> 02:27.5] Every month, the models get smarter,
+[02:27.8 -> 02:30.7] the rebuilds get faster, and the agents get cheaper.
+[02:31.0 -> 02:33.3] The only thing that doesn't speed up is math.
+[02:33.7 -> 02:34.0] Follow.
+[02:34.3 -> 02:37.5] Because by next month, this video will already be out of date.

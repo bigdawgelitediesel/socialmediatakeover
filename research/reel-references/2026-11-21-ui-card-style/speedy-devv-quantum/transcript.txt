@@ -1,0 +1,31 @@
+[00:00.0 -> 00:04.9] Everyone says a quantum computer tries every answer at once. If it did, it would be useless.
+[00:05.4 -> 00:09.3] So what does it actually do? The trick isn't trying every answer.
+[00:09.6 -> 00:12.8] It's making the wrong ones shrink. Imagine you're at the airport,
+[00:13.2 -> 00:17.2] and you forgot the code to your suitcase. It has three wheels from zero to nine,
+[00:17.4 -> 00:23.1] so that's 1000 possible codes. You try them one by one, and on average, it takes you 500
+[00:23.1 -> 00:28.7] tries. A normal computer does exactly the same, just faster. A quantum computer uses qubits
+[00:28.7 -> 00:33.7] instead. A normal bit is either zero or one, but a qubit, as long as nothing looks at it,
+[00:33.9 -> 00:39.0] is a mix of both. And that mix behaves like a wave. With just 10 qubits, that wave spreads
+[00:39.0 -> 00:44.1] over all 1000 codes at once. And the taller the wave on a code, the more likely that code comes
+[00:44.1 -> 00:48.6] out when you look. The problem is looking. The moment you look, the wave collapses onto
+[00:48.6 -> 00:53.5] one code. And right now, it's the same height on every code, so you get a random one. That's
+[00:53.5 -> 00:58.4] why trying every answer at once on its own is useless. So you need the wave to be tall on
+[00:58.4 -> 01:03.0] the right code before you look. But how? If you don't know which code is right. You don't need
+[01:03.0 -> 01:07.6] the right code, just a way to check one. Your suitcase lock already works like that. It doesn't
+[01:07.6 -> 01:12.1] know your code. It only opens on the right one. Build that same check into the quantum computer,
+[01:12.5 -> 01:17.2] and it runs it on all 1000 codes in one go. But the check can't say yes or no,
+[01:17.5 -> 01:21.1] because reading the answer would count as looking. So the code that passes gets its
+[01:21.1 -> 01:25.8] wave flipped upside down instead. Upside down, it's still the same size. So if you
+[01:25.8 -> 01:30.4] looked now, you'd still get a random code. But it's the only wave pointing down. Then it
+[01:30.4 -> 01:34.9] takes the average height of all the waves, and mirrors every wave over it. The wrong codes
+[01:34.9 -> 01:39.6] were just above the average, so they land just below it, a tiny bit shorter. The right code
+[01:39.6 -> 01:45.2] pointing down was way below it, so it lands way above, three times taller. That's one round.
+[01:45.6 -> 01:50.1] Every round, the right code grows while the others shrink. After about 25 rounds,
+[01:50.5 -> 01:53.9] it's almost the only one left. Now you look, and your suitcase opens.
+[01:53.9 -> 02:00.9] That's 25 rounds instead of 500 tries. With a million codes, it's about 800 instead of 500,000.
+[02:01.2 -> 02:05.4] This trick is called Grover's Algorithm. But it only works if nothing looks too early.
+[02:05.7 -> 02:10.2] For a qubit, even a little heat or light counts as looking. So IBM keeps its quantum
+[02:10.2 -> 02:15.3] chips in a giant fridge, more than 180 times colder than deep space. It's also why
+[02:15.3 -> 02:19.3] quantum computers won't make everything faster. They only help where someone found a trick
+[02:19.3 -> 02:23.9] like this one, like searching, or one day, breaking the encryption your bank uses today.
+[02:24.3 -> 02:25.3] Follow for the next one.
