@@ -1,0 +1,11 @@
+Giving away EVERY WORKFLOW in this vid (for free) -
+
+Comment "EDIT" and I'll send it to you, with the exact styling I used.
+
+It starts with a storyboard. Before Claude Code touches the footage, it writes the whole video as a table: every line I say, what's on screen, and which tool makes it. I fix the plan, then Claude builds the edit from it.
+
+Whisper gets the timing of every word, so captions, tool labels and GitHub repo cards land exactly when I say them. A person cutout puts text behind my head, and Remotion turns each prompt into motion graphics: the prompt bar, a magazine cover, a 3x3 wall of reels I downloaded with yt-dlp.
+
+FFmpeg handles the colour: a warm look with a slider reveal, then a moody grade with curves, lower saturation and a vignette. For transitions I skipped the recursive zoom and went with a whip pan. It looks cleaner.
+
+#claude #claudecode #aivideoediting #videoediting #remotion

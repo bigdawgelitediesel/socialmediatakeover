@@ -1,0 +1,49 @@
+[00:00.0 -> 00:02.0] I didn't edit a single second of this video.
+[00:02.1 -> 00:02.5] Claude did.
+[00:03.0 -> 00:04.5] This guy's selling this for 97 bucks.
+[00:04.9 -> 00:05.9] I'm giving it away for free.
+[00:06.2 -> 00:07.2] For the text behind your head,
+[00:07.4 -> 00:09.7] tell Claude to cut you out with a person's segmentation model,
+[00:09.8 -> 00:11.8] then put the words behind you using Remotion.
+[00:12.2 -> 00:13.5] No cap cut, no edit stop.
+[00:14.2 -> 00:14.7] For the captions,
+[00:15.1 -> 00:16.7] use Whisper to get the timing of every word,
+[00:17.1 -> 00:18.3] and Remotion to put them on screen.
+[00:18.7 -> 00:19.7] I'd lose the green box, though.
+[00:20.1 -> 00:21.6] Plain text with Shadow looks way cleaner.
+[00:22.4 -> 00:24.0] One sentence and the whole video is edited.
+[00:24.2 -> 00:24.3] Watch.
+[00:24.6 -> 00:26.4] Ask Claude to draw these for you as Vector Graphics.
+[00:26.7 -> 00:27.6] The whole thing warms up.
+[00:27.9 -> 00:29.2] FF MPEG for the color change,
+[00:29.2 -> 00:31.3] and Remotion again for the slider effect.
+[00:31.7 -> 00:33.3] And the titles look like a magazine cut.
+[00:33.3 -> 00:34.7] I don't know what the heck this is supposed to be,
+[00:35.0 -> 00:35.9] but here's how you create it.
+[00:36.3 -> 00:37.5] And I know nothing about video editing.
+[00:37.7 -> 00:39.8] You could create a mock-up of your editor timeline,
+[00:40.0 -> 00:41.7] but a real screenshot would look much better.
+[00:42.0 -> 00:43.8] Exactly what you're seeing now, so I can say...
+[00:43.8 -> 00:45.3] These zooms are a bit too much in my opinion,
+[00:45.6 -> 00:46.9] but give this prompt to Claude,
+[00:47.1 -> 00:48.1] and it'll create it for you.
+[00:48.3 -> 00:49.6] Personally, I'd go with something like this.
+[00:49.7 -> 00:51.1] Make it moody and the colors go dark.
+[00:51.6 -> 00:52.8] This is just FF MPEG again.
+[00:53.2 -> 00:54.4] Curves to pull the highlights down,
+[00:54.6 -> 00:55.5] and lift the blacks.
+[00:56.0 -> 00:57.2] Saturation down 15%,
+[00:57.2 -> 00:58.4] then a soft vignette.
+[00:58.4 -> 00:59.8] And lots of people are doing this right now.
+[01:00.3 -> 01:02.4] This prompt for that 3x3 wall of reels,
+[01:02.6 -> 01:04.6] and YouTube DLP to download the reels.
+[01:05.0 -> 01:08.3] It's a free tool that grabs videos from Instagram, TikTok, YouTube, pretty much anywhere.
+[01:08.8 -> 01:09.8] My way is a little different,
+[01:10.0 -> 01:12.0] because before rendering, it gives me a complete storyboard,
+[01:12.1 -> 01:14.0] so I can see what Claude is thinking before it creates my video.
+[01:14.1 -> 01:15.0] Okay, so this part is critical.
+[01:15.3 -> 01:16.3] Before Claude edits anything,
+[01:16.7 -> 01:17.7] have it write a storyboard,
+[01:18.1 -> 01:20.2] so that you both agree on what the video looks like first.
+[01:20.8 -> 01:21.9] I always do this before I shoot.
+[01:22.6 -> 01:24.8] Comment edit for everything I explained in this video.

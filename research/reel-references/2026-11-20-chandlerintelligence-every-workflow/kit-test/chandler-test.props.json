@@ -1,0 +1,15 @@
+{"plate":"plate.mp4","cutout":"cutout.webm","captionStyle":"plain",
+ "captions":[
+  {"text":"I didn't edit","start":0.4,"end":1.2},{"text":"a single second","start":1.2,"end":2.1,"accent":"single"},
+  {"text":"Driven Diesel","start":3.8,"end":5.0},{"text":"the whole thing warms up","start":6.3,"end":8.0,"accent":"warms"},
+  {"text":"wall of reels","start":9.5,"end":11.0},{"text":"pull the highlights down","start":12.4,"end":14.0},
+  {"text":"a storyboard first","start":15.4,"end":17.2},{"text":"Comment RIVAL","start":18.4,"end":20.5,"accent":"RIVAL"}],
+ "overlays":[
+  {"type":"pip","at":0.2,"dur":3.4,"props":{"src":"pip-test.mp4","keys":[{"at":0,"x":30,"y":60,"w":560},{"at":2.0,"x":40,"y":680,"w":250}]}},
+  {"type":"tooltag","at":3.6,"dur":2.4,"props":{"icon":"cards/drivendiesel-logo.png","name":"Driven Diesel"}},
+  {"type":"slider","at":6.0,"dur":3.0,"props":{}},
+  {"type":"grid","at":9.0,"dur":3.0,"props":{"tiles":["cards/tile-1.png","cards/tile-2.png","cards/tile-3.png","cards/tile-4.png","cards/tile-5.png","cards/tile-6.png","cards/tile-7.png","cards/tile-8.png"]}},
+  {"type":"params","at":12.0,"dur":3.0,"props":{"title":"MOODY GRADE","rows":[{"label":"Highlights","to":-35,"at":0.3},{"label":"Blacks","to":12,"at":0.9},{"label":"Saturation","to":-15,"at":1.5},{"label":"Vignette","to":-40,"at":2.1}]}},
+  {"type":"storyboard","at":15.0,"dur":3.2,"props":{"title":"021 · Driven Diesel reveal","rows":[["1","Putting a company on blast","Hook behind head","Remotion"],["2","Driven Diesel","Logo tag","Remotion"],["3","regulated return","Spec card","Remotion"],["4","here's the kit","Photo card","Remotion"]]}},
+  {"type":"outline","at":18.0,"dur":3.0,"behind":true,"props":{"text":"RIVAL","y":380,"size":420}}
+ ]}
