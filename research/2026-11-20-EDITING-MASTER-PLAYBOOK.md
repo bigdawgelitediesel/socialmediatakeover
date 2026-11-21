@@ -1,5 +1,7 @@
 # El Coyote editing master playbook (synthesis of the 2026-11-20 ten-lane research)
 
+> **Read next: `2026-11-21-PLAYBOOK-ADDENDUM.md`** (2026-11-21 session: sends rules, the menu-reel grammar, the tenfoldmarc effect vocabulary, shooting openers, sound kit, series bible, profile spec, handoff files, and the 24 new Remotion components). The addendum builds on this file; where the two disagree the addendum is newer.
+
 Written 2026-11-20 after Jacob called the first Harley Trade cut "low level editing" (color off, lettering weak, flow fine). Ten research agents each took one lane; 42 YouTube tutorial transcripts (4.9M combined views) were pulled through Composio and read, plus roughly 300 web sources. Several findings were verified on this PC, not just read. The ten lane reports sit next to this file as `2026-11-20-editing-*.md`. This document is the operating manual; the lane reports are the evidence.
 
 ## 1. Why the first cut read as low level (root causes, in order of weight)
