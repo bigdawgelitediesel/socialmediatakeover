@@ -1,0 +1,20 @@
+{
+  "bg": "#0b0b0c", "durationSec": 14, "captionStyle": "plain",
+  "overlays": [
+    { "type": "ghost", "at": 0, "dur": 14, "props": { "text": "RIVAL", "y": 1180 } },
+    { "type": "hud", "at": 0, "dur": 14, "props": { "count": 1, "total": 9, "y": 300 } },
+    { "type": "headline", "at": 0.2, "dur": 3.8, "props": { "text": "Stop running these stock parts", "accent": "stock", "y": 400 } },
+    { "type": "strikestamp", "at": 1.0, "dur": 3.0, "props": { "name": "Stock 7.3 turbo", "meta": "1999", "tag": "STOCK", "stamp": "RIVAL", "y": 560 } },
+    { "type": "item", "at": 4.0, "dur": 4.0, "props": { "title": "Driven Diesel fuel system", "sub": "regulated return  ·  partner", "icon": "cards/drivendiesel-logo.png", "count": { "to": 600, "suffix": " hp", "label": "ready" }, "tag": "PARTNER", "chips": [ { "text": "Regulated return", "at": 14 }, { "text": "Clean fuel", "at": 22 }, { "text": "Big volume", "at": 30 } ], "foot": "* fits the OBS 7.3, frame swap friendly", "sticker": "ON THE TRUCK", "stickerAt": 40, "y": 560 } },
+    { "type": "sidebar", "at": 4.0, "dur": 4.0, "props": { "items": ["Fuel system", "Turbo", "Injectors", "Trans", "Gauges", "Tuning", "Suspension", "Brakes", "Wheels"], "current": 1, "y": 1320, "cols": 2, "size": 24 } },
+    { "type": "phone", "at": 8.0, "dur": 3.0, "props": { "count": 2, "total": 17, "src": "cards/f600.jpg", "x": 375, "y": 690, "w": 330 } },
+    { "type": "checklist", "at": 8.0, "dur": 3.0, "props": { "title": "THIS WEEK", "rows": [ { "text": "Pull the 7.3", "at": 6, "doneAt": 30 }, { "text": "Frame to the shop", "at": 36 }, { "text": "Order rods", "at": 60 } ], "y": 1340 } },
+    { "type": "countup", "at": 8.0, "dur": 3.0, "props": { "to": 2027, "label": "SEMA target", "x": 72, "y": 380, "size": 170 } },
+    { "type": "iris", "at": 11.0, "dur": 0.7, "props": { "color": "#7a1f1f" } },
+    { "type": "gate", "at": 11.4, "dur": 2.6, "props": { "word": "RIVAL", "reply": "Your Rival parts list", "items": ["Fuel system", "Turbo", "Injectors", "Trans", "Gauges", "Tuning"], "y": 560 } }
+  ],
+  "captions": [
+    { "text": "the stock turbo", "start": 1.0, "end": 2.4 },
+    { "text": "is the first one gone", "start": 2.4, "end": 4.0, "accent": "gone" }
+  ]
+}

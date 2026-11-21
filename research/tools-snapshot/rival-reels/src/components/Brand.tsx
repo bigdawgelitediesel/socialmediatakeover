@@ -44,3 +44,21 @@ export const QuoteBar: React.FC<{ text: string; dur: number; y?: number; size?: 
     </AbsoluteFill>
   );
 };
+
+/* ---------- Corner logos: two persistent partner / brand marks pinned in the bottom corners (DFC reels, Jacob 2026-11-21) ---------- */
+export const CornerLogos: React.FC<{ left?: string; right?: string; dur: number; h?: number; margin?: number; bottom?: number; opacity?: number; maxW?: number }> =
+  ({ left, right, dur, h = 118, margin = 56, bottom = 96, opacity = 0.96, maxW = 330 }) => {
+  const frame = useCurrentFrame(); const { fps } = useVideoConfig();
+  const p = interpolate(frame, [0, Math.round(fps * 0.5)], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const out = tailFade(frame, dur, 6);
+  const img = (src: string, side: "left" | "right") => (
+    <Img src={staticFile(src)} style={{ position: "absolute", bottom, [side]: margin, height: h, maxWidth: maxW, objectFit: "contain", objectPosition: side === "left" ? "left bottom" : "right bottom",
+      opacity: opacity * p, filter: "drop-shadow(0 4px 14px rgba(0,0,0,0.55)) drop-shadow(0 0 2px rgba(0,0,0,0.35))" }} />
+  );
+  return (
+    <AbsoluteFill style={{ opacity: out }}>
+      {left && img(left, "left")}
+      {right && img(right, "right")}
+    </AbsoluteFill>
+  );
+};

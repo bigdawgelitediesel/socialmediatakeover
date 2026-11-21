@@ -2,10 +2,12 @@ import React from "react";
 import { Composition, staticFile } from "remotion";
 import { getVideoMetadata } from "@remotion/media-utils";
 import { RivalReel, ReelProps } from "./RivalReel";
+import { CardReel, CardReelProps } from "./CardReel";
 
 const FPS = 30;
 
 export const Root: React.FC = () => (
+  <>
   <Composition
     id="RivalReel"
     component={RivalReel}
@@ -21,4 +23,19 @@ export const Root: React.FC = () => (
       return { durationInFrames: Math.ceil(meta.durationInSeconds * fps), fps, props };
     }}
   />
+
+  <Composition
+    id="CardReel"
+    component={CardReel}
+    fps={FPS}
+    width={1080}
+    height={1920}
+    durationInFrames={30 * 10}
+    defaultProps={{ bg: "#0b0b0c", durationSec: 10, overlays: [], captions: [] } as CardReelProps}
+    calculateMetadata={async ({ props }) => {
+      const p = props as CardReelProps; const fps = p.fps ?? FPS;
+      return { durationInFrames: Math.ceil(p.durationSec * fps), fps, props };
+    }}
+  />
+  </>
 );

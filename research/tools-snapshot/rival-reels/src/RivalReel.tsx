@@ -4,20 +4,23 @@ import { loadBrandFonts } from "./theme";
 import { KineticHook, ScriptBlock, WordStamp, CaptionPill, Numeral, TitleCard } from "./components/Text";
 import { LogoCard, PhotoCard, SpecCard, StrikeList, BrowserCard, PromptBar, CommentDrop, CountCard } from "./components/Cards";
 import { PlainCaption, ToolTag, OutlineWord, PipCard, SliderReveal, GridWall, ParamPanel, StoryboardCard } from "./components/Chandler";
-import { LogoBadge, LowerThird, QuoteBar } from "./components/Brand";
+import { LogoBadge, LowerThird, QuoteBar, CornerLogos } from "./components/Brand";
+import { ProgressHud, SidebarList, PhoneStage, CountUp, StrikeStamp, ItemCard, Headline, GhostWord, IrisWipe, NegativeFlash, CommentGate, QuadWall, Checklist } from "./components/Menu";
 
 export type Overlay = { type: string; at: number; dur: number; props?: Record<string, any>; behind?: boolean };
 export type Caption = { text: string; start: number; end: number; accent?: string; y?: number; style?: "pill" | "plain" };
 export type Frame = { top: number; h: number; bg?: string; rule?: string };   // place the plate in a window (title band above it)
 export type ReelProps = { plate: string; cutout?: string; captions?: Caption[]; overlays?: Overlay[]; muted?: boolean; captionStyle?: "pill" | "plain"; fps?: number; frame?: Frame };
 
-const REG: Record<string, React.FC<any>> = {
+export const REG: Record<string, React.FC<any>> = {
   kinetic: KineticHook, scriptblock: ScriptBlock, stamp: WordStamp, numeral: Numeral, titlecard: TitleCard,
   logo: LogoCard, photo: PhotoCard, spec: SpecCard, strike: StrikeList, browser: BrowserCard, prompt: PromptBar, comment: CommentDrop, count: CountCard,
   // learned from @chandlerintelligence 2026-11-20
   plaincap: PlainCaption, tooltag: ToolTag, outline: OutlineWord, pip: PipCard, slider: SliderReveal, grid: GridWall, params: ParamPanel, storyboard: StoryboardCard,
   // brand pieces (DFC interview reels 2026-11-21)
-  badge: LogoBadge, lowerthird: LowerThird, quote: QuoteBar,
+  badge: LogoBadge, lowerthird: LowerThird, quote: QuoteBar, corners: CornerLogos,
+  // menu-reel grammar (2026-11-21: nxtlvl, tenfoldmarc, ultra.skills, edita.visuals studies)
+  hud: ProgressHud, sidebar: SidebarList, phone: PhoneStage, countup: CountUp, strikestamp: StrikeStamp, item: ItemCard, headline: Headline, ghost: GhostWord, iris: IrisWipe, negflash: NegativeFlash, gate: CommentGate, quad: QuadWall, checklist: Checklist,
 };
 
 export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], overlays = [], muted = true, captionStyle = "pill", frame }) => {
