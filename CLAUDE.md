@@ -194,3 +194,11 @@ happening*; high-skip hooks open on *a product*.
 - **Harbor Freight Creator Program invitation (2026-06-28) was never acted on.**
   FASS states **no follower minimum**. Hot Shot's Secret launched a new ambassador program
   April 2026.
+
+## Corrections and additions, 2026-11-21 (verified this session; the notes above stay for history)
+
+- **`instagram.com/<handle>/` profile pages fetch again when logged out** (name field, bio, follower count, highlights, the first 12 grid tiles with Instagram's alt text). 18 profiles were read this way on 2026-11-21. Reel pages stay login-walled, but **yt-dlp downloads any public reel** (`yt-dlp.exe` lives in the WinGet packages folder) and the `/p/<id>/` page served to a crawler user agent returns og:title, og:description and the cover image. Competitor research no longer needs screenshots for most things.
+- **Trial Reels may already be open at 200 followers for professional accounts** (four late-2026 guides citing the Help Center; unconfirmed, Brock Johnson still says 1,000). Check the Reels composer for the Trial toggle before treating 1,000 as the gate.
+- **The account is now a Project Rival channel**: 1959 Ford F600 on a Super Duty frame with a built 7.3 Powerstroke, Road to SEMA 2027, El Coyote branding only (never Elite Diesel or 307 on Rival content). The pickup-niche strategy above is the September plan and still true in spirit (pickup audience, parts-counter credential); the truck is now the F600 and the 6.7 "Chief" is the second highlight.
+- **Editing and growth rules live in `research/2026-11-20-EDITING-MASTER-PLAYBOOK.md` and `research/2026-11-21-PLAYBOOK-ADDENDUM.md`**; the Remotion kit snapshot is `research/tools-snapshot/`; every studied reel has a folder under `research/reel-references/`. Read the addendum before any reel or strategy work.
+- **Jacob's standing rules that override generic advice**: no on-screen call to action, no outro, no fade; one poster lockup on the hook and nothing else burned in on the fast tier; no color grade on his footage; song added inside Instagram; share line in caption line 1; no em-dashes anywhere.
