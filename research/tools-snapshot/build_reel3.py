@@ -318,7 +318,14 @@ def render_slot(i, s, tmp, prev_whip=None, next_whip=None, cache=None):
         run([FF, "-y", "-v", "error", "-ss", f"{src_in:.3f}", "-t", f"{dur_out * (speed if not ramp else 1) + 1.0:.3f}", "-i", s["clip"],
              "-vf", (TONEMAP + "," if is_hdr(s["clip"]) else "") + f"vidstabdetect=shakiness=5:accuracy=15:result={trf}", "-f", "null", "-"], cwd=tmp)
         vf.append(f"vidstabtransform=input={trf}:zoom=3:smoothing=20:interpol=bicubic,unsharp=5:5:0.4:3:3:0.0")
-    vf += [f"scale={W}:{H}:force_original_aspect_ratio=increase", f"crop={W}:{H}", "setsar=1"]
+    # landscape -> portrait: crop_x picks where the 9:16 window sits (0 = left edge, 1 = right edge); [x0, x1] eases across the slot
+    cx = s.get("crop_x", 0.5)
+    if isinstance(cx, (list, tuple)):
+        u = f"min(1,max(0,t/{max(0.1, float(s.get('crop_move', dur_out))):.3f}))"
+        xexpr = f"(iw-ow)*({float(cx[0]):.4f}+({float(cx[1]) - float(cx[0]):.4f})*({EASE_INOUT.format(u=u)}))"
+    else:
+        xexpr = f"(iw-ow)*{float(cx):.4f}"
+    vf += [f"scale={W}:{H}:force_original_aspect_ratio=increase", f"crop={W}:{H}:x='{xexpr}':y='(ih-oh)/2'", "setsar=1"]
     g = GRADES.get(s.get("grade", "natural"))
     if g: vf.append(g)
     # time remap
@@ -403,6 +410,10 @@ def lint(e, total):
 # ---------------------------------------------------------------- main
 def main(edl_path):
     e = json.load(open(edl_path, encoding="utf-8"))
+    if e.get("fps") and int(e["fps"]) != FPS:          # 24 fps sources (Sony/cinema cameras) stay 24: conforming to 30 duplicates frames (reads choppy)
+        globals()["FPS"] = int(e["fps"]); globals()["RENDER_VERSION"] = RENDER_VERSION + f"-fps{e['fps']}"
+    if e.get("size"):                                   # e.g. [1080, 1400]: a shorter plate that Remotion places under a title band
+        globals()["W"], globals()["H"] = int(e["size"][0]), int(e["size"][1]); globals()["RENDER_VERSION"] = RENDER_VERSION + f"-{W}x{H}"
     name, out_dir = e["name"], e["out_dir"]; os.makedirs(out_dir, exist_ok=True)
     fontsdir = e.get("fontsdir"); sfxdir = e.get("sfxdir", os.path.join(os.path.dirname(os.path.abspath(__file__)), "sfx"))
     kit = ensure_sfx(sfxdir)

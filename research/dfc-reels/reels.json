@@ -1,0 +1,634 @@
+{
+ "source": "C:/Users/Parts/My Drive/VIDEO/DFC/C8429.MP4",
+ "track": "out/dfc/track.json",
+ "fps": 24,
+ "ambience_in": 1.0,
+ "deliver_dir": "C:/Users/Parts/My Drive/VIDEO/DFC",
+ "date": "2026-11-21",
+ "people": {
+  "right": {
+   "name": "Troy Lake",
+   "title": "Founder, Diesel Freedom Coalition"
+  },
+  "left": {
+   "name": "Dynamic Diesels",
+   "title": "SEMA 2026"
+  }
+ },
+ "reels": [
+  {
+   "n": 1,
+   "slug": "raided",
+   "folder": "Raided like a drug lord",
+   "hook": [
+    "RAIDED",
+    "LIKE A",
+    "DRUG LORD"
+   ],
+   "accent": "RAIDED",
+   "hook_size": 150,
+   "keep": [
+    [
+     33.0,
+     64.8
+    ],
+    [
+     65.2,
+     90.2
+    ]
+   ],
+   "accents": [
+    "raided",
+    "FBI",
+    "EPA",
+    "hospital",
+    "drug",
+    "employees",
+    "downloaded"
+   ],
+   "notes": "Troy on the October 18, 2018 raid: out of the hospital from an ATV accident, the EPA and FBI hit the shop the same day, employees in the corner, seven hours downloading his programming room.",
+   "caption": "October 18, 2018. Released from the hospital that morning. Raided by the EPA and FBI that afternoon. Troy Lake tells it at SEMA.\n\n#DieselFreedom #DFC #TroyLake #Diesel #Trucking #EPA #SEMA2026"
+  },
+  {
+   "n": 2,
+   "slug": "my-son",
+   "folder": "They wanted my son",
+   "hook": [
+    "THEY WANTED",
+    "TO JAIL",
+    "MY SON"
+   ],
+   "accent": "MY SON",
+   "hook_size": 140,
+   "keep": [
+    [
+     91.2,
+     108.9
+    ],
+    [
+     108.9,
+     129.0
+    ],
+    [
+     214.7,
+     231.3
+    ]
+   ],
+   "accents": [
+    "son",
+    "felony",
+    "jail",
+    "threat",
+    "plea",
+    "pressured"
+   ],
+   "notes": "In 2020 deleting emissions became a felony charge. Prosecutors threatened to take his son and an employee to jail. That is why he took the plea, like everybody else who gets pressured into it.",
+   "caption": "The threat was simple: your son goes to jail too. That is how you get a man to sign a plea. #DieselFreedom #DFC #TroyLake #RightToRepair #EPA"
+  },
+  {
+   "n": 3,
+   "slug": "numbers-wrong",
+   "folder": "We proved their numbers wrong",
+   "hook": [
+    "WE PROVED",
+    "THE EPA",
+    "WRONG"
+   ],
+   "accent": "WRONG",
+   "hook_size": 150,
+   "keep": [
+    [
+     167.1,
+     183.5
+    ],
+    [
+     199.2,
+     211.9
+    ]
+   ],
+   "accents": [
+    "dyno",
+    "incorrect",
+    "numbers",
+    "wrong",
+    "law"
+   ],
+   "notes": "Elite Diesel runs an engine dyno, a chassis dyno and an EPA test bench. Troy showed the government its baseline numbers were wrong. The answer: Mr. Lake, we know there are issues, but you broke the law.",
+   "caption": "He put their numbers on his dyno. They were wrong. The answer was still 'you broke the law.' #DieselFreedom #DFC #EPA #Diesel #TroyLake"
+  },
+  {
+   "n": 4,
+   "slug": "twelve-years",
+   "folder": "Twelve years one day whoops",
+   "hook": [
+    "12 YEARS.",
+    "WHOOPS.",
+    "12 MONTHS."
+   ],
+   "accent": "WHOOPS.",
+   "hook_size": 150,
+   "keep": [
+    [
+     232.4,
+     243.6
+    ],
+    [
+     245.0,
+     250.8
+    ],
+    [
+     253.2,
+     275.6
+    ],
+    [
+     275.6,
+     289.8
+    ]
+   ],
+   "accents": [
+    "millions",
+    "lawyers",
+    "example",
+    "prison",
+    "years",
+    "months",
+    "whoops"
+   ],
+   "notes": "Three sets of lawyers, millions spent, expecting house arrest. The judge says she is making an example of him: twelve years and a day. Then: whoops, twelve months and a day.",
+   "caption": "He walked in expecting house arrest. The judge said she would make an example of him. #DieselFreedom #DFC #TroyLake #Diesel #EPA"
+  },
+  {
+   "n": 5,
+   "slug": "prison-buses",
+   "folder": "Jailed for emissions then made to fix federal buses",
+   "hook": [
+    "JAILED FOR",
+    "EMISSIONS.",
+    "THEN THIS."
+   ],
+   "accent": "THEN THIS.",
+   "hook_size": 140,
+   "keep": [
+    [
+     299.3,
+     311.9
+    ],
+    [
+     317.4,
+     358.3
+    ],
+    [
+     358.3,
+     370.1
+    ]
+   ],
+   "accents": [
+    "prison",
+    "buses",
+    "SCR",
+    "EGR",
+    "deletes",
+    "ironic",
+    "government"
+   ],
+   "notes": "Self-surrendered at Florence, Colorado, February 10, 2025. Inside, the Bureau of Prisons had him keeping their prisoner-transport buses alive: EGR coolers, SCR doser valves, the exact systems he was locked up over. No deletes, just repairs. Seven months of it.",
+   "caption": "They put him in federal prison over emissions systems. Then they rolled their buses in and asked him to fix the same systems. #DieselFreedom #DFC #TroyLake #Diesel #EPA #Trucking"
+  },
+  {
+   "n": 6,
+   "slug": "75-cents",
+   "folder": "75 cents an hour",
+   "hook": [
+    "75 CENTS",
+    "AN HOUR"
+   ],
+   "accent": "75 CENTS",
+   "hook_size": 170,
+   "keep": [
+    [
+     371.3,
+     399.8
+    ],
+    [
+     399.8,
+     425.7
+    ]
+   ],
+   "accents": [
+    "75",
+    "cents",
+    "saved",
+    "buses",
+    "funding",
+    "money"
+   ],
+   "notes": "His wife did the math on what he saved the government fixing their buses at 75 cents an hour while the three-letter agencies had their repair budgets cut.",
+   "caption": "75 cents an hour. His wife did the math on what the government saved. #DieselFreedom #DFC #TroyLake #Diesel"
+  },
+  {
+   "n": 7,
+   "slug": "pardon-call",
+   "folder": "The call that cut off the ankle monitor",
+   "hook": [
+    "THE CALL THAT",
+    "CUT OFF THE",
+    "ANKLE MONITOR"
+   ],
+   "accent": "ANKLE MONITOR",
+   "hook_size": 118,
+   "keep": [
+    [
+     454.0,
+     474.2
+    ],
+    [
+     476.1,
+     505.0
+    ]
+   ],
+   "accents": [
+    "pardoned",
+    "Lummis",
+    "Trump",
+    "unconditional",
+    "ankle",
+    "monitor",
+    "pardon"
+   ],
+   "notes": "November 7. Friday, 5 o'clock. Senator Lummis on the phone: President Trump has pardoned you, full and unconditional. The halfway house had never processed a pardon, so they let him cut the ankle monitor off that night.",
+   "caption": "Friday, 5 o'clock, November 7. A full unconditional pardon. Nobody at the halfway house knew what to do with the ankle monitor. #DieselFreedom #DFC #TroyLake #Pardon #Diesel"
+  },
+  {
+   "n": 8,
+   "slug": "not-a-criminal",
+   "folder": "This is the actual pardon",
+   "hook": [
+    "THE ACTUAL",
+    "PARDON"
+   ],
+   "accent": "PARDON",
+   "hook_size": 170,
+   "keep": [
+    [
+     691.4,
+     706.6,
+     "left"
+    ],
+    [
+     707.4,
+     714.4,
+     "left"
+    ],
+    [
+     715.0,
+     733.3
+    ],
+    [
+     734.6,
+     745.7
+    ]
+   ],
+   "accents": [
+    "pardon",
+    "Trump",
+    "prison",
+    "criminal",
+    "emotional",
+    "God",
+    "mission"
+   ],
+   "notes": "The interviewer holds up the signed pardon from Donald J. Trump and chokes up. Troy: he is not a criminal, it is emotional every day, and there is a reason he got the pardon, helping other people get theirs.",
+   "caption": "This is the actual pardon. The man holding it says what everyone watching was thinking. #DieselFreedom #DFC #TroyLake #Pardon #Diesel"
+  },
+  {
+   "n": 9,
+   "slug": "bees",
+   "folder": "DEF is killing the bees",
+   "hook": [
+    "DEF IS",
+    "KILLING",
+    "THE BEES"
+   ],
+   "accent": "THE BEES",
+   "hook_size": 160,
+   "keep": [
+    [
+     558.9,
+     579.4
+    ],
+    [
+     634.2,
+     648.3
+    ],
+    [
+     648.3,
+     656.7
+    ]
+   ],
+   "accents": [
+    "SCR",
+    "honeybees",
+    "bees",
+    "nose-blind",
+    "killing",
+    "urea",
+    "UK"
+   ],
+   "notes": "The SCR system is a detriment to honeybees in transport: it makes them nose-blind. Without bees there is nothing else. UK studies on urea exist, but they do not haul bees like North America does. Their top reel ever was the DEF and bees collab, so this is a proven topic.",
+   "caption": "The SCR system makes bees nose-blind in transport. No bees, no food. The studies exist, nobody over here reads them. #DieselFreedom #DFC #Bees #DEF #Diesel #Farming"
+  },
+  {
+   "n": 10,
+   "slug": "zero-gain",
+   "folder": "Forty thousand dollar repairs zero gain since 2007",
+   "hook": [
+    "$40,000 REPAIRS.",
+    "ZERO GAIN",
+    "SINCE 2007."
+   ],
+   "accent": "ZERO GAIN",
+   "hook_size": 118,
+   "keep": [
+    [
+     582.1,
+     614.0
+    ],
+    [
+     615.0,
+     627.0
+    ]
+   ],
+   "accents": [
+    "2007",
+    "NOx",
+    "percent",
+    "devices",
+    "40,000",
+    "repairs",
+    "80,000"
+   ],
+   "notes": "Since 2007.5 the industry has gained maybe half a percent on NOx. What it added was devices: 20, 30, 40 thousand dollar repairs that fail again two or three times a year. The 80,000-dollar-a-year owner-operator is done.",
+   "caption": "Half a percent of NOx. Tens of thousands in repairs, two or three times a year. That is the trade. #DieselFreedom #DFC #Trucking #OwnerOperator #Diesel #EPA"
+  },
+  {
+   "n": 11,
+   "slug": "coalition",
+   "folder": "Who the Diesel Freedom Coalition is",
+   "hook": [
+    "EDUCATED",
+    "REDNECKS"
+   ],
+   "accent": "EDUCATED",
+   "hook_size": 160,
+   "keep": [
+    [
+     505.7,
+     531.9
+    ],
+    [
+     537.6,
+     551.1
+    ],
+    [
+     660.2,
+     682.3
+    ]
+   ],
+   "accents": [
+    "nonprofit",
+    "weaponized",
+    "EPA",
+    "Willis",
+    "proof",
+    "educated",
+    "rednecks"
+   ],
+   "notes": "What the coalition is: a nonprofit helping people who got weaponized against, invited to sit down with EPA directors, backed by proof. Troy's wife, his son, Kory Willis, Carson Jorgensen, Jeff Daugherty. Educated rednecks, his words.",
+   "caption": "A nonprofit for people the government weaponized against, now sitting down with EPA directors. Educated rednecks, his words. dieselfreedomcoalition.org #DieselFreedom #DFC #Diesel #Trucking"
+  },
+  {
+   "n": 12,
+   "slug": "clean-air",
+   "folder": "Nobody is against clean air",
+   "hook": [
+    "NOBODY HERE",
+    "IS AGAINST",
+    "CLEAN AIR"
+   ],
+   "accent": "CLEAN AIR",
+   "hook_size": 140,
+   "keep": [
+    [
+     789.6,
+     808.3
+    ],
+    [
+     817.8,
+     839.9
+    ]
+   ],
+   "accents": [
+    "clean",
+    "air",
+    "devices",
+    "lobbyists",
+    "testing",
+    "Caterpillar",
+    "reality"
+   ],
+   "notes": "None of the diesel market is opposed to clean air. The fight is the devices: lobbyist-driven, no real-world testing. At Caterpillar they tested three to five years before release. Now a computer says it is correct and reality says otherwise.",
+   "caption": "Clean air was never the argument. Untested hardware mandated by lobbyists is. #DieselFreedom #DFC #Diesel #EPA #RightToRepair"
+  },
+  {
+   "n": 13,
+   "slug": "egr",
+   "folder": "The EGR is the culprit",
+   "hook": [
+    "THE EGR",
+    "IS THE",
+    "CULPRIT"
+   ],
+   "accent": "THE EGR",
+   "hook_size": 160,
+   "keep": [
+    [
+     846.4,
+     870.6
+    ],
+    [
+     870.6,
+     898.8
+    ]
+   ],
+   "accents": [
+    "upstream",
+    "DEF",
+    "DPF",
+    "EGR",
+    "culprit",
+    "70s",
+    "O2",
+    "tune"
+   ],
+   "notes": "Failures start upstream. An injector goes off, the EGR plugs, everything downstream fails. The EGR did not work on 70s cars, cars do not run it now, they use O2. Troy, Kory and his son can tune these cleaner than ever.",
+   "caption": "It failed on cars in the 70s. Cars dropped it. Diesels still have it bolted on. #DieselFreedom #DFC #EGR #Diesel #Trucking"
+  },
+  {
+   "n": 14,
+   "slug": "fifty-million",
+   "folder": "Fifty million a year in DEF sales",
+   "hook": [
+    "$50 MILLION",
+    "A YEAR",
+    "IN DEF"
+   ],
+   "accent": "$50 MILLION",
+   "hook_size": 140,
+   "keep": [
+    [
+     903.5,
+     935.4
+    ]
+   ],
+   "accents": [
+    "Pilot",
+    "Flying",
+    "50",
+    "million",
+    "DEF",
+    "bees",
+    "money"
+   ],
+   "notes": "At a seminar, a man from the truck-stop side said his biggest fear of losing DEF was 50 million dollars a year in DEF sales. Not the bees, not the environment. Money. That is what the whole thing has always been about.",
+   "caption": "His biggest fear was not the bees. It was fifty million a year in DEF sales. #DieselFreedom #DFC #DEF #Diesel #Trucking"
+  },
+  {
+   "n": 15,
+   "slug": "two-more-months",
+   "folder": "Two more months and the shop was gone",
+   "hook": [
+    "TWO MORE MONTHS",
+    "AND THE SHOP",
+    "WAS GONE"
+   ],
+   "accent": "WAS GONE",
+   "hook_size": 118,
+   "keep": [
+    [
+     1013.2,
+     1048.3
+    ]
+   ],
+   "accents": [
+    "millions",
+    "lawyers",
+    "prison",
+    "business",
+    "dynos",
+    "hearts"
+   ],
+   "notes": "Kory Willis spent millions, Troy spent millions. Two more months inside and Elite Diesel would not exist. The dynos still are not back up. It takes everyday people with good hearts.",
+   "caption": "Two more months in prison and the shop was gone. That is what the fight costs the people in it. #DieselFreedom #DFC #TroyLake #Diesel #SmallBusiness"
+  },
+  {
+   "n": 16,
+   "slug": "empire-state",
+   "folder": "Steaks do not grow on the Empire State Building",
+   "hook": [
+    "STEAKS DON'T",
+    "GROW ON THE",
+    "EMPIRE STATE"
+   ],
+   "accent": "STEAKS DON'T",
+   "hook_size": 118,
+   "keep": [
+    [
+     1056.4,
+     1096.6
+    ]
+   ],
+   "accents": [
+    "electric",
+    "windmills",
+    "fossil",
+    "groceries",
+    "steaks",
+    "Empire",
+    "awareness"
+   ],
+   "notes": "Electric and wind have a place. So does diesel: groceries, fuel, everything on a shelf. People think steaks grow off the Empire State Building. They are not ignorant, they are unaware, and awareness is the job.",
+   "caption": "Everything has a place. Diesel's place is every shelf in the store. #DieselFreedom #DFC #WeProvideAmerica #Diesel #Trucking"
+  },
+  {
+   "n": 17,
+   "slug": "rolling-coal",
+   "folder": "It is not about rolling coal",
+   "hook": [
+    "IT'S NOT ABOUT",
+    "ROLLING COAL"
+   ],
+   "accent": "ROLLING COAL",
+   "hook_size": 128,
+   "keep": [
+    [
+     1097.4,
+     1118.4,
+     "left"
+    ],
+    [
+     1118.4,
+     1143.7
+    ],
+    [
+     1143.7,
+     1183.5
+    ]
+   ],
+   "accents": [
+    "rolling",
+    "coal",
+    "living",
+    "food",
+    "economy",
+    "five",
+    "nine",
+    "tailpipe"
+   ],
+   "notes": "The interviewer: it is not about rolling coal, it is about people earning a living and food getting to tables. Troy: a semi averages five miles a gallon, DEF costs more, and proper calibration gets six, seven, eight, some nine, cleaner out the tailpipe on his emissions bench.",
+   "caption": "Not about rolling coal. Five miles a gallon stock. Six to nine tuned, and cleaner on the bench. #DieselFreedom #DFC #Diesel #Trucking #FuelEconomy"
+  },
+  {
+   "n": 18,
+   "slug": "ambulance",
+   "folder": "An ambulance in derate",
+   "hook": [
+    "AN AMBULANCE",
+    "IN DERATE"
+   ],
+   "accent": "DERATE",
+   "hook_size": 150,
+   "keep": [
+    [
+     1185.9,
+     1217.0
+    ],
+    [
+     1217.0,
+     1245.8
+    ]
+   ],
+   "accents": [
+    "regen",
+    "fire",
+    "burn",
+    "derate",
+    "ambulance",
+    "military",
+    "senator",
+    "loved"
+   ],
+   "notes": "A regen in the wrong spot burns the truck to the ground and the fire department lets it burn. Fire trucks and ambulances carry the same hardware and derate on the way to a call. Only military vehicles are exempt. If it happened to a senator's family, somebody would wake up.",
+   "caption": "Fire trucks and ambulances run the same emissions hardware. They derate too. Only the military is exempt. #DieselFreedom #DFC #Diesel #FirstResponders #EPA"
+  }
+ ]
+}

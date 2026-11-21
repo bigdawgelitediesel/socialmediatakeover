@@ -1,8 +1,11 @@
 import { loadFont } from "@remotion/fonts";
 import { staticFile } from "remotion";
 
+// Brand switch at bundle time: `REMOTION_BRAND=dfc npx remotion render ...` (default = El Coyote).
+export const BRAND: "coyote" | "dfc" = (process.env.REMOTION_BRAND === "dfc" ? "dfc" : "coyote");
+
 // El Coyote brand kit (locked 2026-11-20, see socialmediatakeover/research/FONT-LIBRARY.md)
-export const C = {
+const COYOTE = {
   black: "#0b0b0c",
   ink: "#141414",
   cream: "#efe9dc",
@@ -12,9 +15,24 @@ export const C = {
   yellow: "#f7d43c",
   white: "#ffffff",
   green: "#1f3a2d",
+  hi: "#e2543e",          // caption highlight box
 };
+// Diesel Freedom Coalition (dfc-web globals.css: navy / cream / oxblood / gold)
+const DFC = {
+  black: "#0A1226",
+  ink: "#0F1A33",
+  cream: "#F5EDD8",
+  tan: "#C8973A",
+  oxblood: "#8B1A1A",
+  oxbloodDeep: "#5a1010",
+  yellow: "#C8973A",
+  white: "#ffffff",
+  green: "#1B2A4A",
+  hi: "#C8973A",
+};
+export const C = BRAND === "dfc" ? DFC : COYOTE;
 
-export const F = {
+const F_COYOTE = {
   block: "Anton",
   script: "Kaushan Script",
   ui: "Poppins",
@@ -24,6 +42,17 @@ export const F = {
   serif: "Instrument Serif",
   heavy: "Archivo Black",
 };
+const F_DFC = {
+  block: "Oswald Bold",
+  script: "Instrument Serif",
+  ui: "Montserrat SemiBold",
+  uiLight: "Poppins Light",
+  uiItalic: "Poppins Italic",
+  uiSemi: "Montserrat SemiBold",
+  serif: "Instrument Serif",
+  heavy: "Montserrat ExtraBold",
+};
+export const F = BRAND === "dfc" ? F_DFC : F_COYOTE;
 
 export const SAFE = { top: 290, bottom: 1920 - 680, left: 72, right: 1080 - 130 };
 
@@ -32,14 +61,18 @@ export const loadBrandFonts = async () => {
   if (loaded) return;
   loaded = true;
   await Promise.all([
-    loadFont({ family: F.block, url: staticFile("fonts/Anton-Regular.ttf") }),
-    loadFont({ family: F.script, url: staticFile("fonts/KaushanScript-Regular.ttf") }),
-    loadFont({ family: F.ui, url: staticFile("fonts/Poppins-Medium.ttf") }),
-    loadFont({ family: F.uiLight, url: staticFile("fonts/Poppins-Light.ttf") }),
-    loadFont({ family: F.uiItalic, url: staticFile("fonts/Poppins-Italic.ttf") }),
-    loadFont({ family: F.uiSemi, url: staticFile("fonts/Poppins-SemiBold.ttf") }),
-    loadFont({ family: F.serif, url: staticFile("fonts/InstrumentSerif-Italic.ttf") }),
-    loadFont({ family: F.heavy, url: staticFile("fonts/ArchivoBlack-Regular.ttf") }),
+    loadFont({ family: "Anton", url: staticFile("fonts/Anton-Regular.ttf") }),
+    loadFont({ family: "Kaushan Script", url: staticFile("fonts/KaushanScript-Regular.ttf") }),
+    loadFont({ family: "Poppins", url: staticFile("fonts/Poppins-Medium.ttf") }),
+    loadFont({ family: "Poppins Light", url: staticFile("fonts/Poppins-Light.ttf") }),
+    loadFont({ family: "Poppins Italic", url: staticFile("fonts/Poppins-Italic.ttf") }),
+    loadFont({ family: "Poppins SemiBold", url: staticFile("fonts/Poppins-SemiBold.ttf") }),
+    loadFont({ family: "Instrument Serif", url: staticFile("fonts/InstrumentSerif-Italic.ttf") }),
+    loadFont({ family: "Archivo Black", url: staticFile("fonts/ArchivoBlack-Regular.ttf") }),
+    loadFont({ family: "Oswald Bold", url: staticFile("fonts/Oswald-Bold.ttf") }),
+    loadFont({ family: "Oswald Medium", url: staticFile("fonts/Oswald-Medium.ttf") }),
+    loadFont({ family: "Montserrat SemiBold", url: staticFile("fonts/Montserrat-SemiBold.ttf") }),
+    loadFont({ family: "Montserrat ExtraBold", url: staticFile("fonts/Montserrat-ExtraBold.ttf") }),
   ]);
 };
 

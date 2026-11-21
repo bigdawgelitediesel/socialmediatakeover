@@ -12,7 +12,7 @@ const textShadow = "0 2px 4px rgba(0,0,0,0.6), 0 8px 24px rgba(0,0,0,0.45)";
 
 /* ---------- Plain caption: white bold sans + shadow, no pill ("I'd lose the green box. Plain text with shadow looks way cleaner.") ---------- */
 export const PlainCaption: React.FC<{ text: string; accent?: string; dur: number; y?: number; size?: number; hiColor?: string }> = ({
-  text, accent, dur, y = 1150, size = 60, hiColor = "#e2543e",
+  text, accent, dur, y = 1150, size = 60, hiColor = C.hi,
 }) => {
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const p = pop(frame, fps, 0);
@@ -33,14 +33,17 @@ export const PlainCaption: React.FC<{ text: string; accent?: string; dur: number
 };
 
 /* ---------- Tool tag: icon + name at top center the moment a tool/partner is named ---------- */
-export const ToolTag: React.FC<{ icon?: string; name: string; dur: number; y?: number; size?: number }> = ({ icon, name, dur, y = 340, size = 92 }) => {
+export const ToolTag: React.FC<{ icon?: string; name?: string; dur: number; y?: number; size?: number; iconW?: number; iconH?: number; pill?: boolean }> = ({
+  icon, name, dur, y = 340, size = 92, iconW, iconH, pill = false,
+}) => {
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const pi = pop(frame, fps, 0), pt = pop(frame, fps, 4); const out = tailFade(frame, dur, 6);
+  const w = iconW ?? size * 1.6, h = iconH ?? size * 1.6;      // wide wordmarks: pass iconW/iconH (e.g. 520 x 46)
   return (
     <AbsoluteFill style={{ alignItems: "center", paddingTop: y, opacity: out }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 26 }}>
-        {icon && <Img src={staticFile(icon)} style={{ width: size * 1.6, height: size * 1.6, objectFit: "contain", borderRadius: 30, boxShadow: shadow, transform: `scale(${pi})`, opacity: pi }} />}
-        <div style={{ fontFamily: F.uiSemi, fontSize: size, color: C.white, textShadow, transform: `translateX(${(1 - pt) * -20}px)`, opacity: pt, whiteSpace: "nowrap" }}>{name}</div>
+      <div style={{ display: "flex", alignItems: "center", gap: 26, background: pill ? "rgba(12,12,14,0.82)" : undefined, borderRadius: pill ? 28 : 0, padding: pill ? "22px 36px" : 0, boxShadow: pill ? cardShadow : undefined, transform: `scale(${0.94 + 0.06 * pi})`, opacity: pi }}>
+        {icon && <Img src={staticFile(icon)} style={{ width: w, height: h, objectFit: "contain", borderRadius: iconW ? 0 : 30, boxShadow: iconW ? undefined : shadow }} />}
+        {name && <div style={{ fontFamily: F.uiSemi, fontSize: size, color: C.white, textShadow, transform: `translateX(${(1 - pt) * -20}px)`, opacity: pt, whiteSpace: "nowrap" }}>{name}</div>}
       </div>
     </AbsoluteFill>
   );
