@@ -1,0 +1,47 @@
+source: https://www.youtube.com/watch?v=H1FVHyqZC40
+
+Do you know that satisfying moment when
+the music beat hits just right?
+With Cupcut's hidden velocity effect,
+you can make every motion drop exactly
+on beat automatically. Let's get
+started. Open Cupcut and create a new
+project. Tap the import button and
+select the video and audio file you want
+to use. Once imported, add them to the
+track. If your audio is longer than the
+video to match their duration, use the
+split tool to trim the excess part.
+Now go to the speed tab and select
+velocity effect.
+Here you'll see different presets you
+can choose from. Velocity effects
+automatically adjust the playback speed
+of your video to sync perfectly with
+your music beat drops so every motion
+hits right on time. Once you've selected
+a preset, Cupcot will process your
+video, syncing it automatically with the
+audio. After it's done, you'll have more
+option to customize it, such as
+selecting the music source if you have
+multiple tracks,
+adjusting the beat frequency,
+changing the speed of the effect,
+and adjusting the intensity slider to
+control how strong the motion effect is.
+Once everything looks perfect, preview
+your video.
+[Music]
+Once satisfied, tap the export button to
+save your perfectly synced edit. And
+that's it. You've just mastered Cupcut's
+velocity effect. Now you can make any
+movement land perfectly on Music Drop.
+I've got a free step-by-step guide link
+in the description below. Thanks for
+watching and happy editing. If you find
+this video helpful so far, please
+consider subscribing to help YouTube
+algorithm show my videos to other nerds
+like us. Thanks.

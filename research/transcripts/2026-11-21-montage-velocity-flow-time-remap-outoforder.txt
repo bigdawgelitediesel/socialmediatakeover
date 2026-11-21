@@ -1,0 +1,564 @@
+source: https://www.youtube.com/watch?v=moVNF0W8duE
+
+Hey, what's up guys? It's Out of Order.
+Welcome back to the channel. And in this
+video guys, I'm going to be teaching you
+guys how to sync up your clips using
+velocity and timer mapping. So, let's
+just jump right into the tutorial.
+&gt;&gt; I'm not a playr. [music]
+[music]
+I'm not a player.
+[music]
+&gt;&gt; So, as you guys can see, I got Adobe
+After Effects pulled up right here. And
+I do have some clips right here
+imported, by the way. So, these clips
+are I believe they're maybe 500 600 FPS.
+I'll leave a link to these clips down
+below. These clips are created by
+Izzy.mpp5, but I'll also include some
+more clips, too, if you're interested in
+experimenting and working with other
+different games to edit. But, let's jump
+right into it. So, I'm going to show you
+exactly how I made that preview you saw
+in the intro of this video. So, to do
+that, we're just going to make a
+composition right here in After Effects.
+Now, I like to make my composition the
+same as my clips. So, these clips are
+1920 x 1080p. And then for frame rate, I
+personally like editing 24, but you
+could also do 30 as well, but in this
+instance, we're going to do 24. Now that
+we got our composition made, we can
+import our clip, which is this one right
+here. So, you'll notice these clips I
+imported are playing at a really slow
+time scale, which basically gives us
+more frames to work with when we slow
+down and speed up the edit. So, to make
+it normal speed, all I'm going to do is
+right click on this, go to time, go to
+time stretch, and we're going to make
+this 06. Now, you won't have to do this
+for every clip. Sometimes your clips
+will be normal speed, or if you're
+editing clips that you already recorded
+on your own, it'll probably be normal
+speed, but if you download clips off the
+internet, sometimes they're at a slower
+time scale, like I mentioned, and in
+this instance, these clips are. So, if
+we play it back, you should see it's
+normal speed now. Now, obviously, we
+need a song to sync this up to. So, I'm
+going to import a song that I personally
+made and recorded myself. However, you
+could of course edit any song you like.
+So, just download whatever song you
+want, drag it into the project bin and
+then drag it into the timeline. Now, the
+next thing I like to do once I import a
+song is I like to press L twice on the
+keyboard with the thing selected. And
+now we can see all the audio waveforms.
+And if your audio waveforms don't look
+like this, if you rightclick this button
+here, rectified audio, it'll probably
+look something like this. But if you
+want to see it better, just rightclick
+this icon right here and then turn off
+rectified audio. [music]
+So, I want to start the edit off right
+here. So, I'm going to select my clip,
+press control shift D to split the clip,
+and then once I split the clip, I'm
+going to drag my cursor over here to
+this side. I'm going to press the left
+bracket, and that's going to drag the
+clip to wherever my cursor is. So, we're
+going to go to the very start and put it
+there with the left bracket. [music]
+&gt;&gt; So, the next thing I like to do when
+syncing my clip is I like to always have
+the song in mind first. So, I think the
+song is the most important thing you
+want to have in your head when you're
+singing because there's so many elements
+of the song you can sync to. You could
+sync to the kicks, you could sync to the
+snares, you could sync to the vocals, or
+you could sync to the melody. So, when
+I'm syncing my edits, what I like to do
+is I like to visualize what part syncs
+with what. So, if we play this back.
+&gt;&gt; So, what I'm thinking right here is
+first of all, we're going to add some
+markers here by going here, and we're
+going to basically add a marker on each
+little snare and each little kick. So,
+now that I got markers placed out, let's
+give it another listen. [music]
+&gt;&gt; So, what I'm thinking how we're going to
+sync this is I think we're going to
+start by syncing to the kicks and snares
+at the front. And then at the part where
+I say, "Yeah, baby, I'll turn you on." I
+think we should have it slow motion and
+to just slow down to where we'll really
+emphasize that moment. So, in other
+words, we're going to sync to the kicks,
+we're going to sync to the snares, and
+then after that, we're going to sync to
+the vocals. And then on this part right
+here, [music]
+&gt;&gt; we could sync to the high hats, too. So,
+a little we could sync to that also with
+effects. So, without talking about it,
+let's actually get to work. So, I guess
+we'll start with the kicks first. So, I
+think I'm going to have the shot here.
+So, what I like to do is I like to
+control shift D to split the clip. And
+then I like to basically place every
+shot on the basically where the shots
+belong. So, as you can see, I want a
+shot here.
+&gt;&gt; And then right here, I also want one
+here when I say song. So, we're going to
+add that there. And I usually like to
+have it go like this. [music]
+And then I think what I'm going to do
+here is I'm going to have this shot
+right here on this right here. And then
+I want the scope in to be on this part
+right here. So I'm pretty much just
+syncing it up to where I want everything
+to fall into line. And then I think
+right here what we could do actually is
+we could overlay a cinematic on this
+part. So I'm just going to end it off
+right there. So this is how it looks
+like so far. My god. [music and singing]
+&gt;&gt; And I know it's kind of confusing doing
+this, but essentially you just want to
+structure your shots out to the beat.
+So, as you can see, I got a shot here on
+this kick. I got a shot here on this
+kick. And then I got a sculp in on this
+kick right here with the shot on the
+next kick. [music and singing]
+&gt;&gt; So, now we just got to sync it up. So, I
+think right here what we're going to do
+is I typically try and sync up the
+animations. I always like to have the
+animations in mind when I'm aligning
+them to the shots. So, as you can see,
+we have it here. And then what I'm going
+to do on this part is I'm going to split
+it on the snare and I'm going to find
+when this animation starts. So, as you
+can see, it's kind of like he's turning
+away. And then this right here is when
+he's starting to scope in. So, when he
+starts to scope in is where I'm going to
+put it on the next shot. So, as you can
+see, it's going to go like that.
+And then right here, same thing here.
+So, there's a snare. So, we're going to
+have the snare start on when he scopes
+in. So, I think this is just one frame
+off. [music]
+&gt;&gt; And so, now that we got all our shots
+placed out, let's play it one more time.
+[music]
+&gt;&gt; Now, we're pretty much done with the
+structuring, the next thing we're going
+to do is the actual timer mapping. So,
+to do that, we're just going to start
+here. I'm going to have it start on this
+shot right here. So, the first thing I
+like to do is press Ctrl Alt T. And once
+I press Ctrl Alt T, I add a key frame at
+the start of the clip. And then not on
+the very end, but one frame before the
+end, I'll add another key frame. And
+then I delete the other two key frames.
+Now, the reason I add a key frame right
+before the end is because on this part,
+you can't actually see what's going on
+because this clip right here is playing.
+So, if you go here, now we can see what
+clip is going on here. So, the next
+thing we're going to do once we have our
+key frames is we're going to select both
+of them. We're going to right click on
+them, key frame assistant, and press
+easy ease. or you could press F92 on
+your keyboard, whichever you prefer. So
+once we press easy ease on them, we're
+going to go here and click on this graph
+editor. And with the graph editor
+selected, we'll basically be able to
+adjust the flow and the velocity. Also
+to move on the graph editor, if you hold
+middle mouse, you can basically drag it
+along. If you hold alt and scroll, you
+can basically zoom in and out like this.
+So this is the most confusing part on
+doing velocity. However, I'll try my
+best to explain it. So this frame right
+here is basically going to be at this
+time stamp. So if you zoom it up and
+down, you can see basically what time
+you're putting this frame at. So if I go
+to this end, if I put it on the same
+frame here, it's going to be frozen. If
+I make it go higher, it's going to be
+further in time and it's going to make
+the clip faster. So as you can see, it's
+already got some VLOO to it.
+&gt;&gt; It's basically going to start off like
+this. And if I drag it here,
+&gt;&gt; you'll see that it's got a different
+kind of flow to it now. So the way I
+like to think about it is whatever the
+Y-axis is is basically your time. So, if
+I make this go up here, it's going to be
+really fast at first and then it's going
+to slow down because it's staying on
+this frame or this area of frames a lot
+longer essentially. So, if I do it like
+this, for example, it's going to be
+really slow and then it's going to go
+all the way to the end. [music] Now,
+velocity and flows is one of those
+things that has to be learned through
+practice. I can't really teach you how
+to do it in this video. Honestly, I've
+been doing this over 10 years and I feel
+like I still have a lot to go and it's
+always a unique experience and
+everything because every song and video
+is different. But I'm going to try and
+explain this as best as I possibly can
+so you could get your flow looking
+really good. So, I'll teach you the
+basics first. So, what a lot of people
+like to do, and this is what you'll see
+most editors do when they're starting
+off and beginning, is they like to have
+it go fast at first and then fast at the
+end, like this. [music]
+&gt;&gt; Now, as you can see, it's starting to
+come together. It's looking a lot better
+now. [music]
+&gt;&gt; But, I feel like we could do it a lot
+better. So, what I like to do on my
+velocity is I like to get a little bit
+more specific and I like to find the
+frame that I want it to be on. So, I
+typically kind of like it to be not too
+harsh, but also not too slow. So, what
+we can do is if we drag it out like
+this, it's going to be showing the
+animation a lot longer. And another
+thing I like to do is I like to press
+the tilda key, which is that squiggly
+line underneath the escape. And then
+once you do that, you could basically
+full screen this. So, if I have this
+window selected, tilda full screen,
+preview, full screen. And you can do
+this with any window too. So you could
+full screen it. So I'm going to full
+screen this one. And a lot of people
+will usually have it look something like
+this. And to me, what is basically doing
+is it's going to be really fast and then
+almost frozen at this part, which I
+don't want to do. So what I'm going to
+do instead is I'm going to have it go
+down like that. And I'm also going to
+drag it over here a little bit too. And
+I'm going to bring it over here a little
+bit as well. So it's not too too slow on
+this part cuz I still want to have some
+movement on the after the shot
+essentially. [music and singing]
+So, as you can see, that looks pretty
+good. I feel like it needs to be a
+little bit harsher because this is like
+the main beat drop essentially. This is
+like the drop essentially. So, we want
+it to have some more impact. So, what I
+can do is I could drag this up higher so
+it goes into it travels a further
+distance essentially.
+&gt;&gt; Or I could have it go less to where it's
+a little bit harsher though. So, if I
+drag it like this and drag this over
+here, [music]
+&gt;&gt; as you can see, it's a lot sharper. And
+then if I go like this, it's gonna move
+a little bit more. [music]
+&gt;&gt; I think I'm gonna do a mix of the two.
+So, I'm gonna have it sharp at first,
+maybe not too sharp. So, I'll add
+another key frame by holding control.
+And then I'm going to have this part
+right here. I'm going to bring this one
+up a little bit. And I'm going to have
+it like this. So, what this is
+essentially doing is it's going to start
+really fast at first, and then it's
+going to kind of turn into a normal
+speed. [music]
+&gt;&gt; Maybe a little bit less. Let's try this.
+&gt;&gt; [music]
+&gt;&gt; And then what I can do as well is I
+could just play with it a little bit
+more.
+&gt;&gt; Maybe drag this lower. [music]
+&gt;&gt; And then I could also not have it go so
+fast at the end. And we can make it go
+fast on the next clip. So let's try
+this.
+&gt;&gt; And now that we got that first clip
+done, we just got to do this for all the
+rest of the clips. So Ctrl Alt T to
+enable timer map. Add a key frame at the
+start. Add a key frame at the end.
+Delete these other two ones. Select
+them. F9. And I forgot to mention this
+earlier, but another thing you want to
+do, and this mostly goes for the um
+editors that are editing like 60 fps.
+So, let's say you're editing clips that
+aren't slow motion. What you can do
+instead is you see this button right
+here? You just want to drag them all
+like that. And then make sure the icons
+look like this. This is going to enable
+motion blending. So, if your clip slowed
+down, it's going to warp the previous
+frame to the next frame to where you're
+not essentially lagging. So, make sure
+you do this so you avoid that lag
+effect. And if for some reason you don't
+have that icon available where it's
+hidden, just go to the very bottom of
+your screen, click on this button, and
+then it'll activate all these settings
+right here. So now on to the next clip.
+We're basically going to do the same
+thing that we already did. This time I'm
+going to have it go up a little bit
+more. I'm going to add a key frame here.
+I'm going to drag this one down. And
+then I'm going to drag this one up. So
+it scopes in here. It goes up a little
+bit more here. And then let's play it
+out. [music]
+&gt;&gt; And I actually do want to change the
+sync. So, as you can see, [music]
+&gt;&gt; we're gonna instead of syncing to the
+kicks, like I mentioned earlier, we're
+actually going to change it to the
+vocals. So, I say, "Oh my god, this your
+song." We're going to actually have it
+go on the song instead. So, one quick
+tip, too, is because I want this to be
+longer. [music]
+&gt;&gt; So, I say song right here. We're going
+to drag that here. What we can do is
+drag this out. And if I select my key
+frames and hold Alt on the keyboard, I
+can actually just make it slower.
+[music]
+And right here, I don't want it to be
+too sharp. I kind of want it to play
+into the into essentially the the more
+impact. So, it should look like this.
+&gt;&gt; And we could actually have it sync to
+where I say this.
+So, we got two beats we could sync to.
+So, instead of doing it like this, we
+could actually do something like this.
+And this is going to have that like.
+[music]
+&gt;&gt; Now, as you can see, it looks a little
+wonky. So we could drag this part lower
+so that there's essentially more
+essentially movement. And then at the
+top we could drag this up a little bit
+too. And then we could also drag maybe
+make this happen a little quicker so
+it's a little bit faster. [music]
+&gt;&gt; Another thing we could do is I could add
+a key frame here. Drag this one back.
+And it seems kind of subtle but it'll
+make a big difference. [music]
+&gt;&gt; And another thing I like to do is I like
+to always have a single frame of a scope
+because I feel like it adds so much more
+impact. So, as you can see, this is what
+it looks like right now.
+[music]
+&gt;&gt; It looks cool, but this is what it was
+like before.
+&gt;&gt; So, it's kind of lacking some kind of
+impact. So, what I'm going to do is I'm
+going to drag this out. And then I'm
+going to control shift D. And I'm
+essentially going to add just one frame
+of a scope. So, like this. We're just
+going to have a single scope frame.
+As you can see, that looks like a lot
+better. [music] And I think this part
+right here needs to have a little bit
+more movement. So maybe something like
+this.
+And
+&gt;&gt; I think I'm g also drag this another
+frame ahead. [music]
+&gt;&gt; So on this next shot, as you guys could
+see, I have some more movement that I've
+adjusted. So right here, it's kind of
+like uh moving the gun a little bit and
+then it moves it a lot more and then he
+shoots. [music]
+&gt;&gt; So we're going to do that on the next
+clip as well. I'm going to go right
+here. Ctrl Alt T. And then on this one,
+I want this one to be a lot slower. So
+something like this, maybe. So, I'm
+going to make another key frame at the
+end there. I'm going to delete these two
+ones over here. Select them. F9. And
+we're just going to repeat the process.
+I kind of want to switch it up. So,
+basically what I like to do when having
+flow is I like to make sure every shot
+doesn't look the same and that every
+shot matches the beat. So, obviously on
+the beat drop, we want to have the
+fastest velocity there. [music]
+&gt;&gt; Because that's the beat drop, it's got
+to hit the hardest.
+&gt;&gt; And then this part right here is just
+like a basic sync where I say song. So,
+when I say song like that, I don't know
+why I tried singing it, but anyway, I
+kind of don't want it to have as much
+impact because it's not like the beat
+drop. So, instead of having it super
+sharp, we're going to make it a little
+less.
+[music]
+&gt;&gt; That looks a lot better, actually.
+&gt;&gt; And then now we're just going to
+continue the rest of it. So, on this
+one, it's kind of similar to the last
+clip. I'm just going to have it go like
+this. And this one's really short, so we
+don't have to spend too much time
+because it's like got some fast cuts to
+it. it's already going to have a lot of
+impact. [music]
+&gt;&gt; And then right here, we're on this part
+where I shoot this guy. So, we're going
+to Ctrl Alt T. And this one, we don't
+really need to have any velocity because
+it's like a single frame. So, I'm just
+going to drag this out here. As you can
+see, I usually don't like to have frozen
+frames. So, instead of just making this
+like, you know, having it like this. As
+you can see, there's no movement. I
+typically always try and have some
+movement like this. Even if it's barely
+anything, it still looks a lot better.
+So, let's play it from the top and see
+what we got.
+So, as you can see, it's starting to
+look a lot better. We're on our last
+clip. I made this a little bit shorter
+just so we have uh essentially just more
+to work with. So, I'm going to add a key
+frame here. I'm going to drag it out
+like this. Delete this. And the reason I
+made it here and dragged it out is so
+that it basically is already slow
+motioned. So, we're going to go back
+into the graph editor. I'm going to do
+it like this. And because this is the
+last clip, I don't really need to have
+it speed up at the end. So, we could
+just have it fade into slow-mo. [music]
+awesome.
+&gt;&gt; And then what I like to do when I have
+the clip fade out like this is I'll just
+drag it out. And then if we go here in
+our graph editor, I'm going to hold
+control to make another key frame. I'mma
+full screen this. And then once I full
+screen this, drag this up. Drag that
+there. And let me actually save the
+project file. Always remember to save,
+guys. You know what I mean? I basically
+try and control shift after everything.
+And I'll also include this project file
+for free down in the description down
+below if you want to download it for
+yourself. But nevertheless, this is how
+it looks so far.
+And that's pretty much how to sync with
+velocity/ timer mapping. I really hope
+you guys enjoyed the tutorial. The next
+part I'll be teaching you guys how to do
+pancrop, [music] which is essentially
+how to scale. And I'll also be teaching
+you how to do effects later in the
+series. But for now guys, I hope you
+learned something new. I really [music]
+hope you guys enjoyed the video. This
+was a lot of fun to make. I miss making
+tutorials like this. Let's just play it
+back one more time. [music]
+&gt;&gt; [music]
+&gt;&gt; And if you want to see all the graphs,
+I'll show you them right here. This is
+the first shot. As you can see, got some
+nice impact there. It speeds up at the
+end. If we go to this next one over
+here, same thing. It starts off pretty
+fast. Then there's a second one here.
+Boom. He shoots. And then, like I said,
+you want to have at least one frame of
+the scope because it looks so much
+better than without it. And then this
+next one right here, because it's not
+the final shot, we made it a little
+different. So the first shot looks more
+like that. This one looks a lot more
+like that. So, it's a little easier on
+the eyes. And the song is by me, by the
+way. So, if you appreciate my singing
+and want to check it out, link to it
+will be down below in the description,
+as well as my editing pack. So, if you
+want to download all my presets and
+project files, feel free to do so. It
+really supports the channel, and I hope
+you guys enjoy and learn something new
+from it. But, nevertheless, I hope you
+enjoyed the video. Be sure to hit that
+subscribe button as well as drop a like
+or comment on what you want [music] to
+see next. God bless you all. I love you
+all so much. You guys mean so much to
+me. And I appreciate it all, and I hope
+you guys have a blessed day. Peace.

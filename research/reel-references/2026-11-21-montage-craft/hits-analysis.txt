@@ -1,0 +1,56 @@
+#####
+05-6ixoh_titan--first-day-of-fall-edits.mp4: fps 60.00, 1131 frames, tempo 129.2, beats 42, strong onsets 5, visual hits 8
+visual hits (s): 4.12 6.02 7.85 9.63 11.45 13.35 15.25 17.03
+to nearest beat: median |off| 1.0 fr, within 2 fr 88%, within 3 fr 100%, mean signed +0.7 fr
+to nearest strong onset: median |off| 42.0 fr, within 2 fr 0%, within 3 fr 0%, mean signed -17.2 fr
+random baseline to beat: 3.2 fr
+hits per 4-beat bar: 0.76; shots/8 bars equivalent: 6.1
+#####
+10-reference--somewhere-i-belong-lyric-template.mp4: fps 30.00, 989 frames, tempo 107.7, beats 60, strong onsets 12, visual hits 23
+visual hits (s): 2.27 3.63 4.87 6.73 7.87 8.00 8.23 8.47 8.70 9.00 10.73 12.00 14.73 17.17 18.17 18.47 19.50 19.67 19.90 20.63 22.50 25.00 27.50
+to nearest beat: median |off| 3.2 fr, within 2 fr 35%, within 3 fr 43%, mean signed -0.7 fr
+to nearest strong onset: median |off| 20.9 fr, within 2 fr 9%, within 3 fr 9%, mean signed +8.4 fr
+random baseline to beat: 4.1 fr
+hits per 4-beat bar: 1.53; shots/8 bars equivalent: 12.3
+#####
+11-pghdevinn--beat-it-truck-edit-template.mp4: fps 30.00, 658 frames, tempo 136.0, beats 50, strong onsets 10, visual hits 15
+visual hits (s): 14.00 14.67 14.97 15.33 16.13 16.33 16.73 17.50 18.27 18.50 18.83 19.60 19.80 20.27 21.03
+to nearest beat: median |off| 1.9 fr, within 2 fr 53%, within 3 fr 67%, mean signed +0.3 fr
+to nearest strong onset: median |off| 39.3 fr, within 2 fr 7%, within 3 fr 7%, mean signed +5.1 fr
+random baseline to beat: 3.3 fr
+hits per 4-beat bar: 1.20; shots/8 bars equivalent: 9.6
+#####
+12-trent_cody--iphone-clips-lowkey-fun.mp4: fps 30.00, 546 frames, tempo 136.0, beats 42, strong onsets 21, visual hits 11
+visual hits (s): 0.17 5.80 7.07 8.47 9.47 10.67 12.20 13.53 15.27 16.60 18.13
+to nearest beat: median |off| 2.6 fr, within 2 fr 45%, within 3 fr 64%, mean signed +1.6 fr
+to nearest strong onset: median |off| 8.5 fr, within 2 fr 18%, within 3 fr 27%, mean signed +5.0 fr
+random baseline to beat: 3.2 fr
+hits per 4-beat bar: 1.05; shots/8 bars equivalent: 8.4
+#####
+13-trent_cody--into-the-wall-for-the-edit.mp4: fps 60.00, 946 frames, tempo 123.0, beats 33, strong onsets 7, visual hits 30
+visual hits (s): 0.12 0.32 0.48 0.65 0.82 1.08 1.32 1.48 1.78 2.05 2.50 2.65 2.83 3.02 3.18 3.97 4.82 5.57 6.80 7.90 8.83 9.55 10.28 10.50 10.70 10.87 11.08 11.92 13.28 14.23
+to nearest beat: median |off| 3.3 fr, within 2 fr 23%, within 3 fr 37%, mean signed -0.3 fr
+to nearest strong onset: median |off| 17.2 fr, within 2 fr 7%, within 3 fr 7%, mean signed +4.4 fr
+random baseline to beat: 3.6 fr
+hits per 4-beat bar: 3.64; shots/8 bars equivalent: 29.1
+#####
+14-trent_cody--legacy.mp4: fps 30.00, 529 frames, tempo 143.6, beats 42, strong onsets 13, visual hits 15
+visual hits (s): 0.07 1.23 1.37 3.13 4.03 4.73 6.50 8.43 9.87 11.07 12.07 13.57 15.33 16.60 17.57
+to nearest beat: median |off| 3.6 fr, within 2 fr 27%, within 3 fr 40%, mean signed -1.6 fr
+to nearest strong onset: median |off| 13.5 fr, within 2 fr 20%, within 3 fr 20%, mean signed +5.8 fr
+random baseline to beat: 3.2 fr
+hits per 4-beat bar: 1.43; shots/8 bars equivalent: 11.4
+#####
+16-pghdevinn--dodge-diesel-capcut.mp4: fps 30.00, 471 frames, tempo 99.4, beats 26, strong onsets 9, visual hits 22
+visual hits (s): 2.73 5.33 5.53 5.67 6.17 6.37 6.57 6.77 7.07 7.37 7.57 7.73 8.23 9.20 9.43 10.57 10.73 11.37 12.43 12.60 12.77 14.13
+to nearest beat: median |off| 4.9 fr, within 2 fr 14%, within 3 fr 27%, mean signed -0.7 fr
+to nearest strong onset: median |off| 10.5 fr, within 2 fr 9%, within 3 fr 18%, mean signed +4.3 fr
+random baseline to beat: 4.7 fr
+hits per 4-beat bar: 3.38; shots/8 bars equivalent: 27.1
+#####
+17-trent_cody--regular-traffic.mp4: fps 60.00, 881 frames, tempo 123.0, beats 31, strong onsets 7, visual hits 13
+visual hits (s): 5.97 6.13 6.30 6.48 6.65 6.82 6.98 7.15 7.32 7.48 7.65 10.87 11.03
+to nearest beat: median |off| 4.6 fr, within 2 fr 38%, within 3 fr 38%, mean signed -1.1 fr
+to nearest strong onset: median |off| 14.7 fr, within 2 fr 8%, within 3 fr 8%, mean signed -1.0 fr
+random baseline to beat: 3.5 fr
+hits per 4-beat bar: 1.68; shots/8 bars equivalent: 13.4

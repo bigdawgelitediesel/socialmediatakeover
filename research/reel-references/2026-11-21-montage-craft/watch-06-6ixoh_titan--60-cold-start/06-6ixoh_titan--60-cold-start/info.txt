@@ -1,0 +1,7 @@
+duration: 12.145479
+width: 1080
+height: 1920
+fps: 29.97
+vcodec: hevc
+audio: aac
+orientation: vertical
