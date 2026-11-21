@@ -1,0 +1,4 @@
+Timecode List:,00:00:01.042
+Scene Number,Start Frame,Start Timecode,Start Time (seconds),End Frame,End Timecode,End Time (seconds),Length (frames),Length (timecode),Length (seconds)
+1,1,00:00:00.000,0.000,25,00:00:01.042,1.042,25,00:00:01.042,1.042
+2,26,00:00:01.042,1.042,330,00:00:13.750,13.750,305,00:00:12.708,12.708

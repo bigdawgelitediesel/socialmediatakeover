@@ -1,0 +1,42 @@
+handle,platform,lane,posts,median_views,max_views,outliers_5x,median_share_pct,status
+rust_ridge_ranch26,tiktok,7.3 / OBS,60,28900,365800,5,0.18,ok
+dom_obs7.3,tiktok,7.3 / OBS,40,20100,727800,9,0.69,ok
+gas_guzzlin_obs,tiktok,7.3 / OBS,60,9113,418400,8,0.3,ok
+1738_ford,tiktok,7.3 / OBS,60,5734,51800,5,0.08,ok
+jeff.salv,tiktok,7.3 / OBS,60,19350,517700,7,1.0,ok
+project_furd,tiktok,7.3 / OBS,60,3110,200100,5,0.23,ok
+kory_ppei,tiktok,7.3 / OBS,60,10200,183300,4,0.12,ok
+bensdiesels,tiktok,7.3 / OBS,60,9151,811500,14,0.86,ok
+JMRRebuilders,youtube,7.3 / OBS,60,19000,111000,1,,ok
+FordBossMe,youtube,7.3 / OBS,60,3550,37000,3,,ok
+DentsideDepot,youtube,classic Ford,60,44000,552000,3,,ok
+DriveHub,youtube,7.3 / OBS,57,14000,5700000,9,,ok
+davesautocenter,tiktok,diesel shop,60,92800,2000000,9,0.12,ok
+dirtydieselcustoms,tiktok,diesel shop,60,2563,94200,9,0.15,ok
+smithsdieselperformance,tiktok,diesel shop,60,10450,296600,8,0.17,ok
+cayleependerass,tiktok,diesel shop,60,138050,1700000,4,0.07,ok
+albertamechanic,tiktok,diesel shop,60,38350,854300,9,1.21,ok
+hblakefitz,tiktok,diesel shop,60,28850,489400,6,0.14,ok
+gearman_93,tiktok,owner-op / class 8,60,8530,446100,4,0.1,ok
+dieseltechchris,tiktok,diesel shop,60,8764,964000,5,0.06,ok
+thedreadlockmechanic,tiktok,diesel memes,60,4388,246000,8,0.05,ok
+tomsrefurb,tiktok,classic Ford / restomod,60,86900,596900,1,0.29,ok
+PuddinsFabShop,youtube,classic Ford / restomod,4,,,,,skipped (too few rows)
+ViceGripGarage,youtube,classic Ford / restomod,29,197000,861000,0,,ok
+squarebodysyndicate,tiktok,classic / restomod,60,4319,177900,11,0.27,ok
+c10talk,tiktok,classic / restomod,60,5215,1200000,7,0.23,ok
+Oversteer.Originals,youtube,classic / restomod,60,98500,14000000,10,,ok
+lifted_rippers,youtube,identity / truck brand,60,7250,885000,9,,ok
+custom_harvest_guy,tiktok,farm truck,60,3591,80800,5,1.57,ok
+DylanMcCool,youtube,farm truck,0,,,,,skipped (ERROR: [youtube:tab] @DylanMcCool: This channel does not have a shorts tab)
+bluecollar.memes,tiktok,diesel memes,60,4197,358500,9,1.5,ok
+diesel_syrup,tiktok,diesel memes,60,94300,1100000,10,0.23,ok
+topherolive,tiktok,diesel memes,60,89950,2500000,8,0.77,ok
+joegotti96,tiktok,diesel memes,60,151800,7300000,11,0.21,ok
+zac.lucarz,tiktok,diesel commentary,60,69250,1600000,4,0.07,ok
+fassfuelsystems,tiktok,partner brand,60,12900,855000,10,0.17,ok
+dieselpowerproducts,tiktok,retailer,60,3280,929000,21,0.07,ok
+bddieselperformance,tiktok,partner brand,60,1357,122900,7,0.07,ok
+iidiesel,tiktok,partner brand,60,2908,46100,2,0.12,ok
+desertdieselscartel,tiktok,growing small account,60,2221,82800,6,0.27,ok
+powerhungryperformance,tiktok,partner brand,60,1361,15700,5,0.93,ok

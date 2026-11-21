@@ -1,0 +1,663 @@
+{
+ "Fails, fixes, warnings||Roller / sound clip, no talk": {
+  "n": 0,
+  "med_outlier": 0,
+  "max_outlier": 0,
+  "med_share": null,
+  "accounts": 0,
+  "top": []
+ },
+ "Fails, fixes, warnings||Narrated story-fix": {
+  "n": 24,
+  "med_outlier": 10.1,
+  "max_outlier": 407.14,
+  "med_share": 0.17,
+  "accounts": 8,
+  "top": [
+   [
+    1,
+    "DriveHub",
+    "407.14",
+    "",
+    "Rare 7.3 Won't Start"
+   ],
+   [
+    13,
+    "Oversteer.Originals",
+    "90.36",
+    "",
+    "Trying to get Jet Fuel for my truck almost k**led me. #truck"
+   ],
+   [
+    24,
+    "thedreadlockmechanic",
+    "56.06",
+    "0.32",
+    "This is the real reason as to why I don\u2019t use the E39 at the"
+   ]
+  ]
+ },
+ "Fails, fixes, warnings||Cutout / text-card meme": {
+  "n": 0,
+  "med_outlier": 0,
+  "max_outlier": 0,
+  "med_share": null,
+  "accounts": 0,
+  "top": []
+ },
+ "Fails, fixes, warnings||Two-man one-liner skit": {
+  "n": 0,
+  "med_outlier": 0,
+  "max_outlier": 0,
+  "med_share": null,
+  "accounts": 0,
+  "top": []
+ },
+ "Fails, fixes, warnings||Named-tribe news, one fact": {
+  "n": 2,
+  "med_outlier": 9.3,
+  "max_outlier": 10.42,
+  "med_share": null,
+  "accounts": 1,
+  "top": [
+   [
+    135,
+    "FordBossMe",
+    "10.42",
+    "",
+    "The Biggest Lie In The Car World That Millions Of Drivers St"
+   ],
+   [
+    172,
+    "FordBossMe",
+    "8.17",
+    "",
+    "The Best Oil We've Tested So Far Beats Everybody #oil #mecha"
+   ]
+  ]
+ },
+ "Fails, fixes, warnings||Clip + question caption": {
+  "n": 17,
+  "med_outlier": 18.1,
+  "max_outlier": 283.23,
+  "med_share": 0.21,
+  "accounts": 4,
+  "top": [
+   [
+    2,
+    "dieselpowerproducts",
+    "283.23",
+    "0.3",
+    "What do you think? #diesel\u00a0#dieseltruck\u00a0#dieselpower\u00a0#diesel"
+   ],
+   [
+    4,
+    "dieselpowerproducts",
+    "232.13",
+    "0.33",
+    "What would you do? #diesel\u00a0#dieseltruck\u00a0#dieselpower\u00a0#diesel"
+   ],
+   [
+    6,
+    "dieselpowerproducts",
+    "196.22",
+    "2.13",
+    "Did you know about this? #diesel\u00a0#dieseltruck\u00a0#dieselpower\u00a0#"
+   ]
+  ]
+ },
+ "Shop life||Roller / sound clip, no talk": {
+  "n": 1,
+  "med_outlier": 6.6,
+  "max_outlier": 6.62,
+  "med_share": null,
+  "accounts": 1,
+  "top": [
+   [
+    218,
+    "lifted_rippers",
+    "6.62",
+    "",
+    "At Lifted Rippers, the grind never stops\u2026 neither do the bui"
+   ]
+  ]
+ },
+ "Shop life||Narrated story-fix": {
+  "n": 6,
+  "med_outlier": 6.8,
+  "max_outlier": 52.3,
+  "med_share": 0.28,
+  "accounts": 3,
+  "top": [
+   [
+    26,
+    "gearman_93",
+    "52.3",
+    "0.64",
+    "#gearman_93 #dieselmechanic #mechanic #trucker #transmission"
+   ],
+   [
+    205,
+    "gearman_93",
+    "6.94",
+    "0.22",
+    "#gearman_93 #mechanic #dieselmechanic #trucker #transmission"
+   ],
+   [
+    207,
+    "smithsdieselperformance",
+    "6.88",
+    "0.11",
+    "Since one of our former customers is making some extreme acc"
+   ]
+  ]
+ },
+ "Shop life||Cutout / text-card meme": {
+  "n": 18,
+  "med_outlier": 15.2,
+  "max_outlier": 85.41,
+  "med_share": 2.3,
+  "accounts": 4,
+  "top": [
+   [
+    17,
+    "bluecollar.memes",
+    "85.41",
+    "3.35",
+    "#bluecollar #bluecollarhumor #work #workmemes #fyp"
+   ],
+   [
+    25,
+    "bluecollar.memes",
+    "53.29",
+    "0.84",
+    "#bluecollar #bluecollarhumor #work #workmemes #fyp"
+   ],
+   [
+    33,
+    "bluecollar.memes",
+    "45.91",
+    "3.1",
+    "#bluecollar #bluecollarhumor #work #workmemes #fyp"
+   ]
+  ]
+ },
+ "Shop life||Two-man one-liner skit": {
+  "n": 23,
+  "med_outlier": 11.2,
+  "max_outlier": 48.09,
+  "med_share": 1.79,
+  "accounts": 5,
+  "top": [
+   [
+    30,
+    "joegotti96",
+    "48.09",
+    "0.89",
+    "Is trucking a trade? #funny #comedy"
+   ],
+   [
+    44,
+    "lifted_rippers",
+    "36.28",
+    "",
+    "Ladies, don't worry, your truck is in good hands with our me"
+   ],
+   [
+    63,
+    "joegotti96",
+    "22.4",
+    "0.12",
+    "You say cash #funny #comedy"
+   ]
+  ]
+ },
+ "Shop life||Named-tribe news, one fact": {
+  "n": 0,
+  "med_outlier": 0,
+  "max_outlier": 0,
+  "med_share": null,
+  "accounts": 0,
+  "top": []
+ },
+ "Shop life||Clip + question caption": {
+  "n": 1,
+  "med_outlier": 9.2,
+  "max_outlier": 9.24,
+  "med_share": null,
+  "accounts": 1,
+  "top": [
+   [
+    150,
+    "lifted_rippers",
+    "9.24",
+    "",
+    "We all have a favorite coworker, tag yours down below"
+   ]
+  ]
+ },
+ "Tribe identity||Roller / sound clip, no talk": {
+  "n": 13,
+  "med_outlier": 9.9,
+  "max_outlier": 45.91,
+  "med_share": 0.8,
+  "accounts": 3,
+  "top": [
+   [
+    34,
+    "gas_guzzlin_obs",
+    "45.91",
+    "0.8",
+    "Been a minute #obsford #f150 #90s #gravedigger #fyp"
+   ],
+   [
+    45,
+    "dom_obs7.3",
+    "36.21",
+    "1.13",
+    "Your boyfriends dream truck #powerstroke #seventhree #obsfor"
+   ],
+   [
+    106,
+    "gas_guzzlin_obs",
+    "12.84",
+    "1.15",
+    "Just an old half ton short bed Ford\u2026 #obs #ford#f150 #90"
+   ]
+  ]
+ },
+ "Tribe identity||Narrated story-fix": {
+  "n": 2,
+  "med_outlier": 16.7,
+  "max_outlier": 21.55,
+  "med_share": 0.04,
+  "accounts": 1,
+  "top": [
+   [
+    67,
+    "davesautocenter",
+    "21.55",
+    "0.04",
+    "A 17 year-old and a 7.3 L. Who knows the story on this? #aut"
+   ],
+   [
+    119,
+    "davesautocenter",
+    "11.85",
+    "0.05",
+    "20,000 People Told Me to Help This Young Engine Builder #aut"
+   ]
+  ]
+ },
+ "Tribe identity||Cutout / text-card meme": {
+  "n": 15,
+  "med_outlier": 10.6,
+  "max_outlier": 47.31,
+  "med_share": 0.9,
+  "accounts": 4,
+  "top": [
+   [
+    31,
+    "thedreadlockmechanic",
+    "47.31",
+    "0.29",
+    "I\u2019m A bOxEr EnGiNe #fyp #mechanic #trend #boxer #meme"
+   ],
+   [
+    49,
+    "bensdiesels",
+    "30.86",
+    "2.79",
+    "Bro doesn\u2019t know how fragile this is #ford #liftedtrucks #po"
+   ],
+   [
+    53,
+    "bensdiesels",
+    "27.1",
+    "4.72",
+    "After numerous requests of an accurate version of this, here"
+   ]
+  ]
+ },
+ "Tribe identity||Two-man one-liner skit": {
+  "n": 0,
+  "med_outlier": 0,
+  "max_outlier": 0,
+  "med_share": null,
+  "accounts": 0,
+  "top": []
+ },
+ "Tribe identity||Named-tribe news, one fact": {
+  "n": 0,
+  "med_outlier": 0,
+  "max_outlier": 0,
+  "med_share": null,
+  "accounts": 0,
+  "top": []
+ },
+ "Tribe identity||Clip + question caption": {
+  "n": 7,
+  "med_outlier": 8.3,
+  "max_outlier": 72.54,
+  "med_share": 0.36,
+  "accounts": 7,
+  "top": [
+   [
+    19,
+    "c10talk",
+    "72.54",
+    "0.11",
+    "How many BowTies is too many? this weekend at the first REUN"
+   ],
+   [
+    54,
+    "bensdiesels",
+    "26.81",
+    "3.15",
+    "7.3 owners will literally learn to fly before buying a new t"
+   ],
+   [
+    114,
+    "dieselpowerproducts",
+    "12.23",
+    "4.4",
+    "Imagine #diesel\u00a0#dieseltruck\u00a0#dieselpower\u00a0#dieselpowerproduc"
+   ]
+  ]
+ },
+ "Old truck nostalgia||Roller / sound clip, no talk": {
+  "n": 18,
+  "med_outlier": 11.1,
+  "max_outlier": 41.19,
+  "med_share": 0.97,
+  "accounts": 6,
+  "top": [
+   [
+    35,
+    "squarebodysyndicate",
+    "41.19",
+    "2.39",
+    "Extended cab 7\u2019 bed #c30 #squarebodysyndicate"
+   ],
+   [
+    47,
+    "c10talk",
+    "31.22",
+    "1.18",
+    "Rollin out from Fresno to SLO! #c10club #c10talk #centralval"
+   ],
+   [
+    55,
+    "jeff.salv",
+    "26.75",
+    "1.64",
+    "#dentside"
+   ]
+  ]
+ },
+ "Old truck nostalgia||Narrated story-fix": {
+  "n": 3,
+  "med_outlier": 8.7,
+  "max_outlier": 142.13,
+  "med_share": 1.82,
+  "accounts": 2,
+  "top": [
+   [
+    8,
+    "Oversteer.Originals",
+    "142.13",
+    "",
+    "Daily drive a classic car they said-It will be fun they said"
+   ],
+   [
+    160,
+    "jeff.salv",
+    "8.69",
+    "1.82",
+    "My friends brother built this truck himself from nothing. He"
+   ],
+   [
+    215,
+    "Oversteer.Originals",
+    "6.68",
+    "",
+    "Crackhead C10 gets un-crack-ified, and tries to send me into"
+   ]
+  ]
+ },
+ "Old truck nostalgia||Cutout / text-card meme": {
+  "n": 0,
+  "med_outlier": 0,
+  "max_outlier": 0,
+  "med_share": null,
+  "accounts": 0,
+  "top": []
+ },
+ "Old truck nostalgia||Two-man one-liner skit": {
+  "n": 0,
+  "med_outlier": 0,
+  "max_outlier": 0,
+  "med_share": null,
+  "accounts": 0,
+  "top": []
+ },
+ "Old truck nostalgia||Named-tribe news, one fact": {
+  "n": 4,
+  "med_outlier": 5.8,
+  "max_outlier": 6.48,
+  "med_share": 1.23,
+  "accounts": 2,
+  "top": [
+   [
+    220,
+    "c10talk",
+    "6.48",
+    "0.25",
+    "Posse\u2019 Up!! April 9th we will be filling this parking garage"
+   ],
+   [
+    234,
+    "DentsideDepot",
+    "6.2",
+    "",
+    "Ford Trucks Were Brilliant in the 1970s"
+   ],
+   [
+    254,
+    "c10talk",
+    "5.43",
+    "2.21",
+    "New Podcast - New Cordless Ash Tray Phone Chargers #c10talk "
+   ]
+  ]
+ },
+ "Old truck nostalgia||Clip + question caption": {
+  "n": 1,
+  "med_outlier": 6.2,
+  "max_outlier": 6.22,
+  "med_share": null,
+  "accounts": 1,
+  "top": [
+   [
+    231,
+    "Oversteer.Originals",
+    "6.22",
+    "",
+    "Anyone ever seen one on the road? Full video otw! #nissan #p"
+   ]
+  ]
+ },
+ "Numbers: news, records, cost||Roller / sound clip, no talk": {
+  "n": 2,
+  "med_outlier": 11.0,
+  "max_outlier": 14.56,
+  "med_share": 4.38,
+  "accounts": 2,
+  "top": [
+   [
+    95,
+    "bensdiesels",
+    "14.56",
+    "8.18",
+    "So much torque the chassis twisted coming off the line! \u200d #f"
+   ],
+   [
+    192,
+    "fassfuelsystems",
+    "7.4",
+    "0.59",
+    "This FASS-fueled 6.4 Powerstroke got it DONE at FP Truck Fes"
+   ]
+  ]
+ },
+ "Numbers: news, records, cost||Narrated story-fix": {
+  "n": 9,
+  "med_outlier": 8.6,
+  "max_outlier": 271.43,
+  "med_share": 0.43,
+  "accounts": 6,
+  "top": [
+   [
+    3,
+    "DriveHub",
+    "271.43",
+    "",
+    "I Painted My Car With $59 of Turbo Spray Cans\u2026 #rattlecan #t"
+   ],
+   [
+    16,
+    "DriveHub",
+    "85.71",
+    "",
+    "Painting the Corvette with a Sharpie"
+   ],
+   [
+    82,
+    "kory_ppei",
+    "17.97",
+    "0.5",
+    "My company hits levels of transparency unheard of. I see lot"
+   ]
+  ]
+ },
+ "Numbers: news, records, cost||Cutout / text-card meme": {
+  "n": 6,
+  "med_outlier": 43.1,
+  "max_outlier": 88.68,
+  "med_share": 1.39,
+  "accounts": 3,
+  "top": [
+   [
+    14,
+    "bensdiesels",
+    "88.68",
+    "0.9",
+    "The 12\u201d lift is legal, but the 38s gotta go! #ford #liftedtr"
+   ],
+   [
+    18,
+    "bddieselperformance",
+    "76.12",
+    "1.87",
+    "How much is it where you live right now? #diesel #gasprices "
+   ],
+   [
+    28,
+    "bensdiesels",
+    "48.95",
+    "5.54",
+    "Anything to save a few bucks, am I right?! #ford #f350 #dies"
+   ]
+  ]
+ },
+ "Numbers: news, records, cost||Two-man one-liner skit": {
+  "n": 4,
+  "med_outlier": 13.2,
+  "max_outlier": 122.07,
+  "med_share": 0.31,
+  "accounts": 2,
+  "top": [
+   [
+    10,
+    "lifted_rippers",
+    "122.07",
+    "",
+    "How many \u201cpromise you won\u2019t get mad\u201d upgrades do you have?"
+   ],
+   [
+    91,
+    "joegotti96",
+    "15.81",
+    "0.43",
+    "That red dye #funny #comedy"
+   ],
+   [
+    133,
+    "joegotti96",
+    "10.54",
+    "0.31",
+    "Carton and five on the diesel #funny @BlueCollarRejectz @Rob"
+   ]
+  ]
+ },
+ "Numbers: news, records, cost||Named-tribe news, one fact": {
+  "n": 17,
+  "med_outlier": 16.7,
+  "max_outlier": 90.57,
+  "med_share": 0.93,
+  "accounts": 5,
+  "top": [
+   [
+    12,
+    "bddieselperformance",
+    "90.57",
+    "1.79",
+    "How much does it cost to have a booth at the SEMA show? #sem"
+   ],
+   [
+    20,
+    "fassfuelsystems",
+    "66.28",
+    "1.09",
+    "BREAKING: The 8.3 liter \u201cMONGOOSE\u201d Duramax is coming!"
+   ],
+   [
+    41,
+    "dieselpowerproducts",
+    "36.8",
+    "0.69",
+    "Did you know this? #diesel\u00a0#dieseltruck\u00a0#dieselpower\u00a0#diesel"
+   ]
+  ]
+ },
+ "Numbers: news, records, cost||Clip + question caption": {
+  "n": 3,
+  "med_outlier": 10.0,
+  "max_outlier": 18.69,
+  "med_share": 0.31,
+  "accounts": 2,
+  "top": [
+   [
+    78,
+    "dieselpowerproducts",
+    "18.69",
+    "0.31",
+    "Who wants one? #diesel\u00a0#dieseltruck\u00a0#dieselpower\u00a0#dieselpowe"
+   ],
+   [
+    140,
+    "dieselpowerproducts",
+    "10.0",
+    "0.09",
+    "You need one of these #diesel\u00a0#dieseltruck\u00a0#dieselpower\u00a0#die"
+   ],
+   [
+    226,
+    "bensdiesels",
+    "6.35",
+    "0.38",
+    "What MPG are you guys getting towing?? #73powerstroke #fordp"
+   ]
+  ]
+ }
+}

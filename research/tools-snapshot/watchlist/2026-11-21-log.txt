@@ -1,0 +1,44 @@
+[10:56:07] run start, 41 accounts, limit 60, min outlier 5.0x
+[10:56:11] 01 rust_ridge_ranch26 [tiktok] 60 posts, median 28,900, max 365,800, 5 at 5x, 4s
+[10:56:18] 02 dom_obs7.3 [tiktok] 40 posts, median 20,100, max 727,800, 9 at 5x, 3s
+[10:56:26] 03 gas_guzzlin_obs [tiktok] 60 posts, median 9,113, max 418,400, 8 at 5x, 4s
+[10:56:33] 04 1738_ford [tiktok] 60 posts, median 5,734, max 51,800, 5 at 5x, 4s
+[10:56:40] 05 jeff.salv [tiktok] 60 posts, median 19,350, max 517,700, 7 at 5x, 5s
+[10:56:49] 06 project_furd [tiktok] 60 posts, median 3,110, max 200,100, 5 at 5x, 5s
+[10:56:57] 07 kory_ppei [tiktok] 60 posts, median 10,200, max 183,300, 4 at 5x, 4s
+[10:57:05] 08 bensdiesels [tiktok] 60 posts, median 9,151, max 811,500, 14 at 5x, 4s
+[10:57:10] 09 JMRRebuilders [youtube] 60 posts, median 19,000, max 111,000, 1 at 5x, 2s
+[10:57:16] 10 FordBossMe [youtube] 60 posts, median 3,550, max 37,000, 3 at 5x, 3s
+[10:57:22] 11 DentsideDepot [youtube] 60 posts, median 44,000, max 552,000, 3 at 5x, 3s
+[10:57:30] 12 DriveHub [youtube] 57 posts, median 14,000, max 5,700,000, 9 at 5x, 4s
+[10:57:38] 13 davesautocenter [tiktok] 60 posts, median 92,800, max 2,000,000, 9 at 5x, 6s
+[10:57:46] 14 dirtydieselcustoms [tiktok] 60 posts, median 2,563, max 94,200, 9 at 5x, 6s
+[10:57:54] 15 smithsdieselperformance [tiktok] 60 posts, median 10,450, max 296,600, 8 at 5x, 5s
+[10:58:01] 16 cayleependerass [tiktok] 60 posts, median 138,050, max 1,700,000, 4 at 5x, 4s
+[10:58:08] 17 albertamechanic [tiktok] 60 posts, median 38,350, max 854,300, 9 at 5x, 4s
+[10:58:14] 18 hblakefitz [tiktok] 60 posts, median 28,850, max 489,400, 6 at 5x, 4s
+[10:58:21] 19 gearman_93 [tiktok] 60 posts, median 8,530, max 446,100, 4 at 5x, 4s
+[10:58:28] 20 dieseltechchris [tiktok] 60 posts, median 8,764, max 964,000, 5 at 5x, 4s
+[10:58:34] 21 thedreadlockmechanic [tiktok] 60 posts, median 4,388, max 246,000, 8 at 5x, 3s
+[10:58:42] 22 tomsrefurb [tiktok] 60 posts, median 86,900, max 596,900, 1 at 5x, 4s
+[10:58:47] SKIP PuddinsFabShop [youtube] 4 rows with views, rc=0: 
+[10:58:52] 24 ViceGripGarage [youtube] 29 posts, median 197,000, max 861,000, 0 at 5x, 2s
+[10:59:00] 25 squarebodysyndicate [tiktok] 60 posts, median 4,319, max 177,900, 11 at 5x, 4s
+[10:59:06] 26 c10talk [tiktok] 60 posts, median 5,215, max 1,200,000, 7 at 5x, 4s
+[10:59:11] 27 Oversteer.Originals [youtube] 60 posts, median 98,500, max 14,000,000, 10 at 5x, 2s
+[10:59:16] 28 lifted_rippers [youtube] 60 posts, median 7,250, max 885,000, 9 at 5x, 2s
+[10:59:25] 29 custom_harvest_guy [tiktok] 60 posts, median 3,591, max 80,800, 5 at 5x, 5s
+[10:59:29] SKIP DylanMcCool [youtube] 0 rows with views, rc=1: ERROR: [youtube:tab] @DylanMcCool: This channel does not have a shorts tab
+[10:59:35] 31 bluecollar.memes [tiktok] 60 posts, median 4,197, max 358,500, 9 at 5x, 4s
+[10:59:42] 32 diesel_syrup [tiktok] 60 posts, median 94,300, max 1,100,000, 10 at 5x, 5s
+[10:59:49] 33 topherolive [tiktok] 60 posts, median 89,950, max 2,500,000, 8 at 5x, 4s
+[10:59:55] 34 joegotti96 [tiktok] 60 posts, median 151,800, max 7,300,000, 11 at 5x, 4s
+[11:00:05] 35 zac.lucarz [tiktok] 60 posts, median 69,250, max 1,600,000, 4 at 5x, 6s
+[11:00:14] 36 fassfuelsystems [tiktok] 60 posts, median 12,900, max 855,000, 10 at 5x, 5s
+[11:00:24] 37 dieselpowerproducts [tiktok] 60 posts, median 3,280, max 929,000, 21 at 5x, 6s
+[11:00:33] 38 bddieselperformance [tiktok] 60 posts, median 1,357, max 122,900, 7 at 5x, 7s
+[11:00:41] 39 iidiesel [tiktok] 60 posts, median 2,908, max 46,100, 2 at 5x, 5s
+[11:00:50] 40 desertdieselscartel [tiktok] 60 posts, median 2,221, max 82,800, 6 at 5x, 6s
+[11:00:58] 41 powerhungryperformance [tiktok] 60 posts, median 1,361, max 15,700, 5 at 5x, 6s
+[11:01:02] enriching 35 YouTube outliers
+[11:06:08] done in 601s: 2286 posts, 271 outliers -> C:\Users\Parts\OneDrive - Elite Diesel Service\Desktop\VIDEO\tools\watchlist\2026-11-21-outliers.md
