@@ -1,0 +1,50 @@
+[00:00.1 -> 00:02.8] So today I'm gonna teach y'all how to do pop-up text
+[00:02.8 -> 00:03.9] just like this.
+[00:04.1 -> 00:05.8] I do this in Adobe Premiere Pro.
+[00:06.0 -> 00:07.9] I just take my footage I want to put text on,
+[00:08.1 -> 00:08.9] I duplicate the clip,
+[00:09.0 -> 00:11.1] and I put it two layers above the original.
+[00:11.3 -> 00:13.1] I then go to the Object Select tool,
+[00:13.3 -> 00:14.8] I click on me on the top layer
+[00:14.8 -> 00:16.7] and it'll mask me out automatically.
+[00:17.1 -> 00:18.5] Next, I'll use the text tool
+[00:18.5 -> 00:19.6] and write out what I'm saying
+[00:19.6 -> 00:21.9] and I design the entire layout
+[00:21.9 -> 00:23.9] of how I want the text to look first.
+[00:24.1 -> 00:25.5] And this is very important
+[00:25.5 -> 00:27.8] because this is where taste and design
+[00:27.8 -> 00:30.0] of visual identity and branding
+[00:30.0 -> 00:31.7] is supposed to represent you.
+[00:32.1 -> 00:33.7] So I decided this is how I like it.
+[00:33.9 -> 00:36.8] Then I time each word to pop up as I say it
+[00:36.8 -> 00:40.2] by slicing and deleting each word as I go.
+[00:40.4 -> 00:41.8] Okay, now let's see how it looks.
+[00:42.3 -> 00:43.7] This is pop-up text.
+[00:44.0 -> 00:44.8] Well, that looks great.
+[00:45.0 -> 00:46.1] And people ask me all the time
+[00:46.1 -> 00:48.3] if I have presets or if it's automated
+[00:48.3 -> 00:49.5] or if I use AI.
+[00:50.0 -> 00:51.1] And no, it's not.
+[00:51.5 -> 00:53.2] People suggest me to use AI tools
+[00:53.2 -> 00:55.1] or their caption apps all the time as well.
+[00:55.1 -> 00:60.0] And no, it cannot execute to this level of taste and design
+[00:60.0 -> 01:01.6] that represents the visual identity
+[01:01.6 -> 01:03.3] that I want to bring to my content.
+[01:03.5 -> 01:05.3] And also another really important tip is
+[01:05.3 -> 01:06.5] you see all this up here?
+[01:06.9 -> 01:08.8] This negative space is intentional.
+[01:09.2 -> 01:10.9] I leave it open because the text
+[01:10.9 -> 01:12.1] is gonna end up going here.
+[01:12.2 -> 01:13.6] And also, you wanna make sure
+[01:13.6 -> 01:14.8] it's not very distracting.
+[01:15.0 -> 01:17.4] Otherwise, the text is gonna be a bit harder to read.
+[01:17.6 -> 01:18.5] Then to get these blurs,
+[01:18.7 -> 01:19.7] I just use a Gaussian blur,
+[01:19.9 -> 01:20.7] go to the keyframes
+[01:20.7 -> 01:22.0] and the same thing with the zooms.
+[01:22.0 -> 01:23.1] I use a transform tool
+[01:23.1 -> 01:25.8] but those are whole separate videos themselves
+[01:25.8 -> 01:27.5] which I'll be sharing next time.
+[01:27.7 -> 01:29.4] So follow from more so you don't miss it.
+[01:29.7 -> 01:31.4] Happy creating and I'll catch you all next time.
+[01:31.8 -> 01:32.1] Peace.

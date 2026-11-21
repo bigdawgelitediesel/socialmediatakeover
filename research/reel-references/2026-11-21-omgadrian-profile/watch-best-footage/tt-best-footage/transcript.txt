@@ -1,0 +1,20 @@
+[00:00.1 -> 00:06.0] Today, I'm going to show y'all how to get the best possible quality looking footage out of this camera.
+[00:10.1 -> 00:13.2] All this footage was shot on the DJI Osmo Pocket 3.
+[00:13.5 -> 00:18.3] And here are my settings. First and foremost, most importantly, we're going to go right here.
+[00:18.6 -> 00:22.7] Select Pro, then select D-Log M as the color picture profile.
+[00:23.0 -> 00:25.3] Okay, look, y'all are going to have to trust me on this one, alright?
+[00:25.8 -> 00:28.9] I know it looks murky. It doesn't have life. It looks flat.
+[00:29.5 -> 00:32.3] Don't worry, because I have made this.
+[00:33.3 -> 00:36.8] This is my color grading preset that I've made for this camera.
+[00:37.2 -> 00:41.2] A simple one-click drag-and-drop preset available as a LUT.
+[00:41.5 -> 00:45.5] This takes your footage from this to this and this to this.
+[00:45.7 -> 00:51.2] Easy enough for even the folks who don't know how to color grade to use on any editing platform of your choice.
+[00:51.4 -> 00:53.3] You can get it now with the link in my bio.
+[00:53.7 -> 00:56.7] And if you tried it or have it, let me know what you think in the comments.
+[00:56.7 -> 00:58.8] Now let's go back to the rest of the settings.
+[00:59.5 -> 01:05.8] We're going to set the exposure on manual, set the shutter speed at 1 over 50 so we can get our cinematic motion blur.
+[01:06.1 -> 01:10.7] Now, I know it looks super bright and blown out, but I put these on right here.
+[01:10.8 -> 01:15.5] This is an ND filter so we can film at a low shutter speed, even when you're out in broad daylight.
+[01:15.8 -> 01:19.9] And lastly, I set my sharpness to minus 2 and my noise reduction to minus 2 as well.
+[01:20.1 -> 01:25.2] This is how you achieve the best possible quality image on your DJI Osmo Pocket 3.
+[01:25.2 -> 01:30.5] Hope this helps and as always, take care, happy creating and I'll catch you all next time. Peace.

@@ -1,0 +1,916 @@
+INFO {'duration': 90.943991, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 38 shots in 9.9s
+  shot 001  00:00.0 -> 00:06.3  (6.3s)
+  shot 002  00:06.3 -> 00:08.3  (2.0s)
+  shot 003  00:08.3 -> 00:09.6  (1.2s)
+  shot 004  00:09.6 -> 00:11.3  (1.7s)
+  shot 005  00:11.3 -> 00:15.0  (3.7s)
+  shot 006  00:15.0 -> 00:18.6  (3.6s)
+  shot 007  00:18.6 -> 00:19.4  (0.8s)
+  shot 008  00:19.4 -> 00:22.9  (3.4s)
+  shot 009  00:22.9 -> 00:32.2  (9.4s)
+  shot 010  00:32.2 -> 00:37.2  (4.9s)
+  shot 011  00:37.2 -> 00:38.2  (1.0s)
+  shot 012  00:38.2 -> 00:39.1  (0.9s)
+  shot 013  00:39.1 -> 00:40.1  (1.0s)
+  shot 014  00:40.1 -> 00:41.5  (1.4s)
+  shot 015  00:41.5 -> 00:43.6  (2.1s)
+  shot 016  00:43.6 -> 00:45.2  (1.6s)
+  shot 017  00:45.2 -> 00:47.1  (1.9s)
+  shot 018  00:47.1 -> 00:48.0  (0.8s)
+  shot 019  00:48.0 -> 00:48.8  (0.8s)
+  shot 020  00:48.8 -> 00:49.8  (1.0s)
+  shot 021  00:49.8 -> 00:50.6  (0.9s)
+  shot 022  00:50.6 -> 00:51.4  (0.8s)
+  shot 023  00:51.4 -> 00:59.8  (8.4s)
+  shot 024  00:59.8 -> 01:00.9  (1.1s)
+  shot 025  01:00.9 -> 01:02.2  (1.3s)
+  shot 026  01:02.2 -> 01:03.7  (1.5s)
+  shot 027  01:03.7 -> 01:05.0  (1.3s)
+  shot 028  01:05.0 -> 01:06.0  (1.0s)
+  shot 029  01:06.0 -> 01:09.0  (3.0s)
+  shot 030  01:09.0 -> 01:10.9  (1.8s)
+  shot 031  01:10.9 -> 01:11.6  (0.8s)
+  shot 032  01:11.6 -> 01:12.9  (1.3s)
+  shot 033  01:12.9 -> 01:15.7  (2.8s)
+  shot 034  01:15.7 -> 01:16.3  (0.6s)
+  shot 035  01:16.3 -> 01:18.0  (1.7s)
+  shot 036  01:18.0 -> 01:19.0  (1.0s)
+  shot 037  01:19.0 -> 01:20.0  (1.0s)
+  shot 038  01:20.0 -> 01:30.9  (10.9s)
+SHEETS 4 sheet(s), one tile every 1.5s
+TRANSCRIPT 20 segments in 17.5s
+  [00:00.1 -> 00:06.0] Today, I'm going to show y'all how to get the best possible quality looking footage out of this camera.
+  [00:10.1 -> 00:13.2] All this footage was shot on the DJI Osmo Pocket 3.
+  [00:13.5 -> 00:18.3] And here are my settings. First and foremost, most importantly, we're going to go right here.
+  [00:18.6 -> 00:22.7] Select Pro, then select D-Log M as the color picture profile.
+  [00:23.0 -> 00:25.3] Okay, look, y'all are going to have to trust me on this one, alright?
+  [00:25.8 -> 00:28.9] I know it looks murky. It doesn't have life. It looks flat.
+  [00:29.5 -> 00:32.3] Don't worry, because I have made this.
+  [00:33.3 -> 00:36.8] This is my color grading preset that I've made for this camera.
+  [00:37.2 -> 00:41.2] A simple one-click drag-and-drop preset available as a LUT.
+  [00:41.5 -> 00:45.5] This takes your footage from this to this and this to this.
+  [00:45.7 -> 00:51.2] Easy enough for even the folks who don't know how to color grade to use on any editing platform of your choice.
+  [00:51.4 -> 00:53.3] You can get it now with the link in my bio.
+  [00:53.7 -> 00:56.7] And if you tried it or have it, let me know what you think in the comments.
+  [00:56.7 -> 00:58.8] Now let's go back to the rest of the settings.
+  [00:59.5 -> 01:05.8] We're going to set the exposure on manual, set the shutter speed at 1 over 50 so we can get our cinematic motion blur.
+  [01:06.1 -> 01:10.7] Now, I know it looks super bright and blown out, but I put these on right here.
+  [01:10.8 -> 01:15.5] This is an ND filter so we can film at a low shutter speed, even when you're out in broad daylight.
+  [01:15.8 -> 01:19.9] And lastly, I set my sharpness to minus 2 and my noise reduction to minus 2 as well.
+  [01:20.1 -> 01:25.2] This is how you achieve the best possible quality image on your DJI Osmo Pocket 3.
+  [01:25.2 -> 01:30.5] Hope this helps and as always, take care, happy creating and I'll catch you all next time. Peace.
+OUT ../watch-best-footage\tt-best-footage
+DONE tt-best-footage
+INFO {'duration': 74.218005, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 46 shots in 9.7s
+  shot 001  00:00.0 -> 00:03.8  (3.8s)
+  shot 002  00:03.8 -> 00:04.5  (0.8s)
+  shot 003  00:04.5 -> 00:06.0  (1.5s)
+  shot 004  00:06.0 -> 00:06.6  (0.6s)
+  shot 005  00:06.6 -> 00:11.2  (4.6s)
+  shot 006  00:11.2 -> 00:12.7  (1.5s)
+  shot 007  00:12.7 -> 00:14.5  (1.8s)
+  shot 008  00:14.5 -> 00:17.6  (3.1s)
+  shot 009  00:17.6 -> 00:20.0  (2.3s)
+  shot 010  00:20.0 -> 00:21.4  (1.5s)
+  shot 011  00:21.4 -> 00:22.4  (0.9s)
+  shot 012  00:22.4 -> 00:23.9  (1.5s)
+  shot 013  00:23.9 -> 00:25.4  (1.6s)
+  shot 014  00:25.4 -> 00:27.0  (1.5s)
+  shot 015  00:27.0 -> 00:28.1  (1.1s)
+  shot 016  00:28.1 -> 00:28.9  (0.8s)
+  shot 017  00:28.9 -> 00:29.9  (1.0s)
+  shot 018  00:29.9 -> 00:30.7  (0.8s)
+  shot 019  00:30.7 -> 00:34.5  (3.8s)
+  shot 020  00:34.5 -> 00:35.3  (0.8s)
+  shot 021  00:35.3 -> 00:38.5  (3.2s)
+  shot 022  00:38.5 -> 00:39.2  (0.8s)
+  shot 023  00:39.2 -> 00:40.0  (0.7s)
+  shot 024  00:40.0 -> 00:43.3  (3.4s)
+  shot 025  00:43.3 -> 00:45.3  (1.9s)
+  shot 026  00:45.3 -> 00:46.2  (0.9s)
+  shot 027  00:46.2 -> 00:47.3  (1.1s)
+  shot 028  00:47.3 -> 00:49.0  (1.8s)
+  shot 029  00:49.0 -> 00:49.8  (0.7s)
+  shot 030  00:49.8 -> 00:50.7  (1.0s)
+  shot 031  00:50.7 -> 00:52.1  (1.4s)
+  shot 032  00:52.1 -> 00:53.7  (1.6s)
+  shot 033  00:53.7 -> 00:54.6  (0.9s)
+  shot 034  00:54.6 -> 00:55.2  (0.6s)
+  shot 035  00:55.2 -> 00:56.1  (0.9s)
+  shot 036  00:56.1 -> 00:59.4  (3.3s)
+  shot 037  00:59.4 -> 01:00.1  (0.6s)
+  shot 038  01:00.1 -> 01:00.9  (0.8s)
+  shot 039  01:00.9 -> 01:01.6  (0.8s)
+  shot 040  01:01.6 -> 01:03.4  (1.8s)
+  shot 041  01:03.4 -> 01:04.1  (0.7s)
+  shot 042  01:04.1 -> 01:04.9  (0.8s)
+  shot 043  01:04.9 -> 01:06.0  (1.1s)
+  shot 044  01:06.0 -> 01:06.9  (0.9s)
+  shot 045  01:06.9 -> 01:08.8  (1.9s)
+  shot 046  01:08.8 -> 01:14.2  (5.4s)
+SHEETS 4 sheet(s), one tile every 1.2s
+TRANSCRIPT 33 segments in 14.4s
+  [00:00.0 -> 00:03.4] Today, I'm going to teach you how to take better-candid photos of your girlfriend.
+  [00:04.1 -> 00:05.5] Did you just take a photo of me?
+  [00:05.8 -> 00:06.0] Yeah.
+  [00:07.5 -> 00:08.9] Aw, I like these.
+  [00:09.4 -> 00:10.5] Said no girlfriend ever.
+  [00:11.2 -> 00:12.4] We're going to change that today.
+  [00:12.7 -> 00:14.1] Welcome back to Boyfriend Boot Camp.
+  [00:14.2 -> 00:17.3] And this one's my favorite because it has nothing to do with being perfect.
+  [00:17.6 -> 00:19.7] And there are two types of candidates that I want you to know.
+  [00:19.9 -> 00:21.0] One, stationary.
+  [00:21.4 -> 00:23.7] She's not posing, but she's not moving either.
+  [00:24.0 -> 00:26.6] She's either looking away or in her own world.
+  [00:26.6 -> 00:29.7] Your job is to find the frame and capture the moment.
+  [00:30.2 -> 00:31.0] Not a photo.
+  [00:31.4 -> 00:33.8] Because candidates are the photos that make her girlfriend say,
+  [00:34.0 -> 00:35.1] I wish I was there.
+  [00:35.2 -> 00:38.2] Not because the location was perfect or the lighting was crazy,
+  [00:38.3 -> 00:39.9] but because it felt real.
+  [00:40.2 -> 00:42.9] The goal is to make the photo feel like you were there with her.
+  [00:43.3 -> 00:44.2] Two, in motion.
+  [00:44.5 -> 00:46.7] Sidewalk, crosswalk, stairs.
+  [00:47.2 -> 00:48.9] Anywhere people naturally move through.
+  [00:49.1 -> 00:50.1] Find your composition first.
+  [00:50.5 -> 00:51.9] The same rules as episode one.
+  [00:52.1 -> 00:53.3] Then have her walk through.
+  [00:53.8 -> 00:56.2] Diagonally, forwards you, away from you.
+  [00:56.2 -> 00:59.1] You want to stay locked in at that center point.
+  [00:59.3 -> 01:01.8] And when she crosses it, you shoot and follow.
+  [01:02.1 -> 01:03.0] And keep shooting.
+  [01:03.5 -> 01:06.5] It's always better to have more photos to choose from than not to know.
+  [01:06.8 -> 01:08.2] Well, that about wraps up part two.
+  [01:08.5 -> 01:12.4] And make sure you follow along for part three because we saved the best for last.
+  [01:12.8 -> 01:13.8] See y'all in a few days.
+OUT ../watch-candid-photos\tt-candid-photos
+DONE tt-candid-photos
+INFO {'duration': 101.122902, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 47 shots in 12.1s
+  shot 001  00:00.0 -> 00:02.7  (2.7s)
+  shot 002  00:02.7 -> 00:05.0  (2.3s)
+  shot 003  00:05.0 -> 00:05.7  (0.7s)
+  shot 004  00:05.7 -> 00:08.5  (2.8s)
+  shot 005  00:08.5 -> 00:11.0  (2.5s)
+  shot 006  00:11.0 -> 00:11.8  (0.9s)
+  shot 007  00:11.8 -> 00:15.4  (3.5s)
+  shot 008  00:15.4 -> 00:19.1  (3.7s)
+  shot 009  00:19.1 -> 00:25.7  (6.6s)
+  shot 010  00:25.7 -> 00:26.9  (1.2s)
+  shot 011  00:26.9 -> 00:28.2  (1.2s)
+  shot 012  00:28.2 -> 00:29.4  (1.2s)
+  shot 013  00:29.4 -> 00:30.7  (1.4s)
+  shot 014  00:30.7 -> 00:31.4  (0.7s)
+  shot 015  00:31.4 -> 00:32.0  (0.6s)
+  shot 016  00:32.0 -> 00:32.7  (0.7s)
+  shot 017  00:32.7 -> 00:33.4  (0.7s)
+  shot 018  00:33.4 -> 00:34.3  (0.9s)
+  shot 019  00:34.3 -> 00:35.2  (0.9s)
+  shot 020  00:35.2 -> 00:35.9  (0.7s)
+  shot 021  00:35.9 -> 00:42.4  (6.5s)
+  shot 022  00:42.4 -> 00:46.3  (3.8s)
+  shot 023  00:46.3 -> 00:46.9  (0.6s)
+  shot 024  00:46.9 -> 00:47.7  (0.8s)
+  shot 025  00:47.7 -> 00:48.9  (1.3s)
+  shot 026  00:48.9 -> 00:49.7  (0.8s)
+  shot 027  00:49.7 -> 00:50.8  (1.2s)
+  shot 028  00:50.8 -> 00:52.0  (1.1s)
+  shot 029  00:52.0 -> 00:52.9  (0.9s)
+  shot 030  00:52.9 -> 00:54.2  (1.3s)
+  shot 031  00:54.2 -> 00:55.6  (1.4s)
+  shot 032  00:55.6 -> 01:09.8  (14.2s)
+  shot 033  01:09.8 -> 01:15.7  (5.9s)
+  shot 034  01:15.7 -> 01:18.7  (3.0s)
+  shot 035  01:18.7 -> 01:20.7  (2.0s)
+  shot 036  01:20.7 -> 01:21.4  (0.7s)
+  shot 037  01:21.4 -> 01:22.3  (0.9s)
+  shot 038  01:22.3 -> 01:23.8  (1.5s)
+  shot 039  01:23.8 -> 01:25.2  (1.4s)
+  shot 040  01:25.2 -> 01:25.8  (0.6s)
+  shot 041  01:25.8 -> 01:28.4  (2.5s)
+  shot 042  01:28.4 -> 01:30.0  (1.6s)
+  shot 043  01:30.0 -> 01:31.0  (1.0s)
+  shot 044  01:31.0 -> 01:32.7  (1.7s)
+  shot 045  01:32.7 -> 01:34.2  (1.5s)
+  shot 046  01:34.2 -> 01:37.0  (2.8s)
+  shot 047  01:37.0 -> 01:41.1  (4.1s)
+SHEETS 3 sheet(s), one tile every 1.7s
+TRANSCRIPT 31 segments in 22.4s
+  [00:00.0 -> 00:03.2] People say being a creator isn't a real job, and honestly,
+  [00:03.7 -> 00:07.4] may be they're right. Let's talk about it. The best advice I ever got from my career
+  [00:07.4 -> 00:10.9] came from my dad, who didn't think I should have this career to begin with.
+  [00:11.1 -> 00:11.4] He said,
+  [00:12.1 -> 00:15.1] Decide what makes you happy and do something you won't regret.
+  [00:15.8 -> 00:18.8] And the thing is, he's never actually said this to me directly.
+  [00:19.1 -> 00:21.9] This photo is from my sister's school project back in 2012,
+  [00:21.9 -> 00:24.2] where she asked our parents for some life advice.
+  [00:24.5 -> 00:28.7] To seem choosing a creative career path isn't quite the American Dream Vision immigrant
+  [00:28.7 -> 00:31.6] and parents would let everything behind has for their kids.
+  [00:32.0 -> 00:35.3] It's usually a real job, and I don't blame him for thinking that.
+  [00:35.4 -> 00:42.3] I tried everything, every odd job, but my dream of being a creative has always brought me back.
+  [00:42.5 -> 00:44.5] So I committed myself to figuring it out.
+  [00:44.7 -> 00:49.5] Year after year, working every job and production, it all finally started to make sense.
+  [00:49.8 -> 00:53.1] And now as a creator, I knew I had to eventually level it up.
+  [00:53.2 -> 00:56.4] The next level was to build a proper functioning business around my art.
+  [00:56.4 -> 00:60.0] All the content that I've made here and everything that I've ever taught you,
+  [01:00.3 -> 01:01.7] I don't put behind a paywall here.
+  [01:01.9 -> 01:07.4] I've never charged for, but to support that, I needed to make a system to sustain it,
+  [01:07.5 -> 01:09.5] which is why I chose MediChat.
+  [01:09.8 -> 01:12.9] They're coming into DM Automation since everyone who's interested in purchasing
+  [01:12.9 -> 01:15.1] any of my digital products a direct link,
+  [01:15.2 -> 01:18.4] which has helped me build a passive seven-figure business over the years.
+  [01:18.7 -> 01:20.7] It's given me the system to create my art freely,
+  [01:21.0 -> 01:24.4] without anything and everything I want, while it works for me behind the scenes.
+  [01:24.4 -> 01:27.5] And while my dad never had the chance to see my creative career
+  [01:27.5 -> 01:29.7] fully flourish since he passed in 2022,
+  [01:30.1 -> 01:33.4] the advice he gave me is something that was always in my blood.
+  [01:33.6 -> 01:36.8] I chose to make me happy and I did something I didn't regret.
+  [01:37.0 -> 01:38.3] So is creating a real job?
+  [01:38.9 -> 01:40.9] No, it's the dream job.
+OUT ../watch-creator-real-job\tt-creator-real-job
+DONE tt-creator-real-job
+INFO {'duration': 75.462993, 'width': 720, 'height': 1280, 'fps': 24.0, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 24 shots in 5.8s
+  shot 001  00:00.0 -> 00:01.3  (1.3s)
+  shot 002  00:01.3 -> 00:02.3  (1.0s)
+  shot 003  00:02.3 -> 00:03.1  (0.8s)
+  shot 004  00:03.1 -> 00:03.7  (0.6s)
+  shot 005  00:03.7 -> 00:04.3  (0.6s)
+  shot 006  00:04.3 -> 00:05.0  (0.7s)
+  shot 007  00:05.0 -> 00:05.8  (0.8s)
+  shot 008  00:05.8 -> 00:08.5  (2.8s)
+  shot 009  00:08.5 -> 00:12.1  (3.6s)
+  shot 010  00:12.1 -> 00:21.3  (9.2s)
+  shot 011  00:21.3 -> 00:22.2  (0.9s)
+  shot 012  00:22.2 -> 00:23.8  (1.5s)
+  shot 013  00:23.8 -> 00:24.6  (0.9s)
+  shot 014  00:24.6 -> 00:29.1  (4.5s)
+  shot 015  00:29.1 -> 00:30.8  (1.8s)
+  shot 016  00:30.8 -> 00:38.0  (7.1s)
+  shot 017  00:38.0 -> 00:39.4  (1.4s)
+  shot 018  00:39.4 -> 00:46.8  (7.5s)
+  shot 019  00:46.8 -> 00:47.8  (1.0s)
+  shot 020  00:47.8 -> 00:49.4  (1.6s)
+  shot 021  00:49.4 -> 00:50.8  (1.5s)
+  shot 022  00:50.8 -> 00:54.0  (3.1s)
+  shot 023  00:54.0 -> 01:05.4  (11.5s)
+  shot 024  01:05.4 -> 01:15.5  (10.0s)
+SHEETS 3 sheet(s), one tile every 1.3s
+TRANSCRIPT 33 segments in 18.5s
+  [00:00.0 -> 00:04.0] Most people think good editing is just cutting to a beat.
+  [00:04.3 -> 00:05.5] Rhythmic synchro.
+  [00:06.4 -> 00:08.2] Today, we're gonna level up your editing.
+  [00:08.6 -> 00:11.5] The best editors, you'll never notice their cuts at all.
+  [00:12.1 -> 00:12.7] They're invisible.
+  [00:13.3 -> 00:15.1] So I'm gonna show you how to do that.
+  [00:15.4 -> 00:17.8] And the way to make your edits feel invisible
+  [00:17.8 -> 00:19.7] is by cutting to motion,
+  [00:20.0 -> 00:23.3] doing things like head turns or hand movements.
+  [00:24.6 -> 00:26.1] Now, I already know what you're thinking.
+  [00:26.6 -> 00:28.8] How do you actually do this while you're filming?
+  [00:28.8 -> 00:30.7] I write it into my shot lens.
+  [00:31.0 -> 00:33.4] So let's say you wanna walk head on to this camera angle right here,
+  [00:33.6 -> 00:36.1] then stop and say something from a profile angle.
+  [00:36.6 -> 00:37.7] This is what you should do.
+  [00:38.0 -> 00:41.1] Walk up, stop, look over to my left, stop recording,
+  [00:41.3 -> 00:43.0] then place a camera at a new angle.
+  [00:43.2 -> 00:46.4] I'll repeat that same action, walk, stop, look left again
+  [00:46.4 -> 00:47.6] and deliver my line.
+  [00:47.8 -> 00:49.2] So now let's go see what that looks like.
+  [00:50.8 -> 00:52.2] This is what it looks like.
+  [00:52.5 -> 00:53.4] Pretty good, ain't it?
+  [00:53.8 -> 00:55.3] So by the time I'm in my edit,
+  [00:55.5 -> 00:57.1] I already know I have what I need.
+  [00:57.1 -> 00:59.5] And if you wanna see videos on how I write
+  [00:59.5 -> 01:02.5] or how I shot list, I've got videos on that here.
+  [01:03.1 -> 01:05.1] Just click them above and it'll take you straight there.
+  [01:05.4 -> 01:06.2] And if you wanna learn more
+  [01:06.2 -> 01:08.4] with an even deeper and more in-depth breakdown,
+  [01:08.6 -> 01:11.0] just comment college and I'll send you all the info.
+  [01:11.6 -> 01:13.4] As always, take care, happy creating
+  [01:13.4 -> 01:14.5] and I'll catch you on next time.
+  [01:14.9 -> 01:15.1] Peace.
+OUT ../watch-editing-not-on-beat\tt-editing-not-on-beat
+DONE tt-editing-not-on-beat
+INFO {'duration': 21.938605, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 9 shots in 3.9s
+  shot 001  00:00.0 -> 00:03.3  (3.3s)
+  shot 002  00:03.3 -> 00:05.1  (1.8s)
+  shot 003  00:05.1 -> 00:06.5  (1.4s)
+  shot 004  00:06.5 -> 00:10.8  (4.3s)
+  shot 005  00:10.8 -> 00:12.2  (1.4s)
+  shot 006  00:12.2 -> 00:14.1  (1.9s)
+  shot 007  00:14.1 -> 00:15.4  (1.3s)
+  shot 008  00:15.4 -> 00:16.6  (1.2s)
+  shot 009  00:16.6 -> 00:21.9  (5.4s)
+SHEETS 2 sheet(s), one tile every 1.0s
+TRANSCRIPT 9 segments in 5.5s
+  [00:00.0 -> 00:03.0] These are the five shots I use to film every video.
+  [00:03.4 -> 00:06.1] I start every video wide, then get a bit closer.
+  [00:06.6 -> 00:08.2] Next is always context.
+  [00:08.7 -> 00:10.0] Show what you're about to get into.
+  [00:10.8 -> 00:13.3] Then the details that immerse you into the scene.
+  [00:13.7 -> 00:15.3] Now to transition to a new location,
+  [00:15.6 -> 00:17.1] a series of fast close-ups,
+  [00:17.4 -> 00:19.8] then end up in your new location with a wide shot.
+  [00:20.1 -> 00:21.1] And just repeat from there.
+OUT ../watch-five-shots-nov08\tt-five-shots-nov08
+DONE tt-five-shots-nov08
+INFO {'duration': 79.18, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 56 shots in 13.6s
+  shot 001  00:00.0 -> 00:02.4  (2.4s)
+  shot 002  00:02.4 -> 00:04.7  (2.3s)
+  shot 003  00:04.7 -> 00:06.9  (2.3s)
+  shot 004  00:06.9 -> 00:10.4  (3.5s)
+  shot 005  00:10.4 -> 00:12.1  (1.7s)
+  shot 006  00:12.1 -> 00:13.9  (1.8s)
+  shot 007  00:13.9 -> 00:15.7  (1.8s)
+  shot 008  00:15.7 -> 00:17.6  (1.9s)
+  shot 009  00:17.6 -> 00:18.8  (1.3s)
+  shot 010  00:18.8 -> 00:20.8  (2.0s)
+  shot 011  00:20.8 -> 00:21.7  (0.9s)
+  shot 012  00:21.7 -> 00:22.5  (0.8s)
+  shot 013  00:22.5 -> 00:23.9  (1.3s)
+  shot 014  00:23.9 -> 00:24.4  (0.6s)
+  shot 015  00:24.4 -> 00:25.2  (0.8s)
+  shot 016  00:25.2 -> 00:25.9  (0.7s)
+  shot 017  00:25.9 -> 00:28.2  (2.3s)
+  shot 018  00:28.2 -> 00:33.6  (5.4s)
+  shot 019  00:33.6 -> 00:35.7  (2.1s)
+  shot 020  00:35.7 -> 00:36.5  (0.9s)
+  shot 021  00:36.5 -> 00:37.2  (0.6s)
+  shot 022  00:37.2 -> 00:37.9  (0.8s)
+  shot 023  00:37.9 -> 00:38.8  (0.9s)
+  shot 024  00:38.8 -> 00:39.7  (1.0s)
+  shot 025  00:39.7 -> 00:40.7  (1.0s)
+  shot 026  00:40.7 -> 00:41.3  (0.6s)
+  shot 027  00:41.3 -> 00:42.0  (0.6s)
+  shot 028  00:42.0 -> 00:42.6  (0.6s)
+  shot 029  00:42.6 -> 00:43.6  (1.0s)
+  shot 030  00:43.6 -> 00:44.5  (0.9s)
+  shot 031  00:44.5 -> 00:45.1  (0.6s)
+  shot 032  00:45.1 -> 00:46.4  (1.3s)
+  shot 033  00:46.4 -> 00:47.0  (0.7s)
+  shot 034  00:47.0 -> 00:48.3  (1.2s)
+  shot 035  00:48.3 -> 00:48.8  (0.6s)
+  shot 036  00:48.8 -> 00:49.6  (0.8s)
+  shot 037  00:49.6 -> 00:50.8  (1.2s)
+  shot 038  00:50.8 -> 00:51.8  (1.0s)
+  shot 039  00:51.8 -> 00:53.6  (1.9s)
+  shot 040  00:53.6 -> 00:55.2  (1.6s)
+  shot 041  00:55.2 -> 00:56.0  (0.8s)
+  shot 042  00:56.0 -> 00:56.9  (0.9s)
+  shot 043  00:56.9 -> 00:57.9  (1.0s)
+  shot 044  00:57.9 -> 00:59.3  (1.3s)
+  shot 045  00:59.3 -> 01:00.1  (0.9s)
+  shot 046  01:00.1 -> 01:01.2  (1.1s)
+  shot 047  01:01.2 -> 01:01.9  (0.7s)
+  shot 048  01:01.9 -> 01:03.0  (1.1s)
+  shot 049  01:03.0 -> 01:04.4  (1.3s)
+  shot 050  01:04.4 -> 01:05.4  (1.0s)
+  shot 051  01:05.4 -> 01:12.0  (6.6s)
+  shot 052  01:12.0 -> 01:13.4  (1.4s)
+  shot 053  01:13.4 -> 01:14.4  (1.0s)
+  shot 054  01:14.4 -> 01:15.1  (0.7s)
+  shot 055  01:15.1 -> 01:16.0  (0.9s)
+  shot 056  01:16.0 -> 01:19.2  (3.2s)
+SHEETS 4 sheet(s), one tile every 1.3s
+TRANSCRIPT 43 segments in 18.7s
+  [00:00.0 -> 00:02.0] So, is it a waste to get your girl flowers?
+  [00:02.4 -> 00:03.1] I mean, sure.
+  [00:03.5 -> 00:03.8] They die.
+  [00:04.7 -> 00:06.0] But buy them anyways.
+  [00:06.8 -> 00:09.4] So fellas, today I'm gonna walk y'all through the process.
+  [00:09.8 -> 00:10.2] Let's go.
+  [00:10.4 -> 00:11.7] This is boyfriend bootcamp.
+  [00:12.1 -> 00:13.6] Girls don't want flowers.
+  [00:14.0 -> 00:15.4] They want to be thought of.
+  [00:15.6 -> 00:15.8] 1.
+  [00:16.6 -> 00:17.4] Flowers aren't the gift.
+  [00:17.6 -> 00:18.4] It's the action.
+  [00:18.8 -> 00:21.7] You were out somewhere, gone about your day, and you thought about her.
+  [00:21.8 -> 00:22.3] No occasion.
+  [00:22.8 -> 00:23.5] You just did.
+  [00:23.8 -> 00:25.6] That's what she feels when you hand them over.
+  [00:26.0 -> 00:26.3] 2.
+  [00:26.7 -> 00:27.0] They die.
+  [00:27.4 -> 00:28.0] That's the point.
+  [00:28.0 -> 00:29.6] But this is where it matters.
+  [00:29.9 -> 00:33.3] You don't just do it once and cross it off the list as something you did once on.
+  [00:33.4 -> 00:34.3] Flowers die.
+  [00:34.6 -> 00:38.2] And when they do, you gift them again and again and again.
+  [00:38.5 -> 00:42.8] That's the part that means something, not the flowers or how intricate or expensive
+  [00:42.8 -> 00:43.3] they are.
+  [00:43.6 -> 00:44.9] It's the ongoing effort.
+  [00:45.1 -> 00:46.1] And that's what love is, right?
+  [00:46.5 -> 00:50.7] Showing up again and again, choosing your person, and flowers are just an extension
+  [00:50.7 -> 00:51.6] of that effort.
+  [00:51.8 -> 00:52.0] 3.
+  [00:52.2 -> 00:53.1] It's cheaper than you think.
+  [00:53.6 -> 00:54.5] This was $8.
+  [00:55.2 -> 00:57.6] Don't fall for the fake news and manage your propaganda.
+  [00:58.0 -> 00:59.1] It doesn't make you soft.
+  [00:59.4 -> 01:00.6] And flowers can be affordable.
+  [01:01.0 -> 01:04.9] Every city, every town has a local flower market just like this.
+  [01:05.2 -> 01:07.2] You don't need pre-arranged bouquets.
+  [01:07.5 -> 01:10.5] Pick a flower, pick the color, reuse the same vase.
+  [01:11.1 -> 01:11.7] That's what I do.
+  [01:11.9 -> 01:14.9] And if you don't know how to put together a flower arrangement, that's exactly what
+  ... 3 more in transcript.txt
+OUT ../watch-flowers-series\tt-flowers-series
+DONE tt-flowers-series
+INFO {'duration': 98.431995, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 52 shots in 15.5s
+  shot 001  00:00.0 -> 00:04.6  (4.6s)
+  shot 002  00:04.6 -> 00:07.0  (2.4s)
+  shot 003  00:07.0 -> 00:09.4  (2.3s)
+  shot 004  00:09.4 -> 00:11.1  (1.7s)
+  shot 005  00:11.1 -> 00:12.2  (1.1s)
+  shot 006  00:12.2 -> 00:15.6  (3.5s)
+  shot 007  00:15.6 -> 00:16.7  (1.0s)
+  shot 008  00:16.7 -> 00:18.6  (1.9s)
+  shot 009  00:18.6 -> 00:20.4  (1.8s)
+  shot 010  00:20.4 -> 00:21.6  (1.3s)
+  shot 011  00:21.6 -> 00:24.1  (2.5s)
+  shot 012  00:24.1 -> 00:28.8  (4.7s)
+  shot 013  00:28.8 -> 00:31.2  (2.4s)
+  shot 014  00:31.2 -> 00:32.3  (1.1s)
+  shot 015  00:32.3 -> 00:32.9  (0.6s)
+  shot 016  00:32.9 -> 00:33.5  (0.6s)
+  shot 017  00:33.5 -> 00:34.1  (0.6s)
+  shot 018  00:34.1 -> 00:35.2  (1.1s)
+  shot 019  00:35.2 -> 00:36.0  (0.8s)
+  shot 020  00:36.0 -> 00:36.8  (0.8s)
+  shot 021  00:36.8 -> 00:37.4  (0.6s)
+  shot 022  00:37.4 -> 00:38.0  (0.6s)
+  shot 023  00:38.0 -> 00:38.6  (0.6s)
+  shot 024  00:38.6 -> 00:42.4  (3.8s)
+  shot 025  00:42.4 -> 00:43.8  (1.4s)
+  shot 026  00:43.8 -> 00:47.1  (3.3s)
+  shot 027  00:47.1 -> 00:48.4  (1.3s)
+  shot 028  00:48.4 -> 00:49.5  (1.2s)
+  shot 029  00:49.5 -> 00:50.9  (1.3s)
+  shot 030  00:50.9 -> 00:54.0  (3.1s)
+  shot 031  00:54.0 -> 00:54.6  (0.6s)
+  shot 032  00:54.6 -> 00:56.3  (1.7s)
+  shot 033  00:56.3 -> 00:59.6  (3.3s)
+  shot 034  00:59.6 -> 01:00.5  (0.8s)
+  shot 035  01:00.5 -> 01:02.4  (1.9s)
+  shot 036  01:02.4 -> 01:03.5  (1.2s)
+  shot 037  01:03.5 -> 01:07.4  (3.8s)
+  shot 038  01:07.4 -> 01:09.1  (1.7s)
+  shot 039  01:09.1 -> 01:09.8  (0.7s)
+  shot 040  01:09.8 -> 01:11.4  (1.6s)
+  shot 041  01:11.4 -> 01:12.4  (1.0s)
+  shot 042  01:12.4 -> 01:13.1  (0.6s)
+  shot 043  01:13.1 -> 01:14.0  (1.0s)
+  shot 044  01:14.0 -> 01:15.5  (1.5s)
+  shot 045  01:15.5 -> 01:16.3  (0.8s)
+  shot 046  01:16.3 -> 01:18.5  (2.2s)
+  shot 047  01:18.5 -> 01:19.8  (1.3s)
+  shot 048  01:19.8 -> 01:21.9  (2.1s)
+  shot 049  01:21.9 -> 01:22.6  (0.7s)
+  shot 050  01:22.6 -> 01:27.7  (5.0s)
+  shot 051  01:27.7 -> 01:29.5  (1.9s)
+  shot 052  01:29.5 -> 01:38.4  (8.9s)
+SHEETS 4 sheet(s), one tile every 1.6s
+TRANSCRIPT 37 segments in 31.0s
+  [00:00.0 -> 00:04.4] Today, I'm going to teach y'all how to take better photos of your girlfriend that she won't hate
+  [00:04.4 -> 00:09.2] because there's nothing worse than taking photos over and over because you couldn't do your job right.
+  [00:09.4 -> 00:11.3] A relationship should be 50-50.
+  [00:12.0 -> 00:12.8] I go on vacation.
+  [00:14.1 -> 00:15.0] And I take the photos.
+  [00:15.5 -> 00:18.2] So here are three things that will immediately make your photos better.
+  [00:18.6 -> 00:20.0] Welcome to Boyfriend Bootcamp.
+  [00:20.3 -> 00:21.3] Number one, zoom in.
+  [00:21.6 -> 00:22.4] Don't crop in.
+  [00:22.7 -> 00:23.8] Those are not the same thing.
+  [00:24.1 -> 00:28.2] When you crop, you're just cutting a bad photo into a smaller bad photo.
+  [00:28.2 -> 00:31.7] So what this actually does is it makes the photo feel more real.
+  [00:32.0 -> 00:35.7] I'd say the sweet spot is around 1.3 to 1.7x.
+  [00:35.9 -> 00:38.7] And doing this makes the photo more focused on her.
+  [00:39.0 -> 00:42.0] She is the star and the background is her supporting cat.
+  [00:42.5 -> 00:43.3] Two, exposure.
+  [00:43.8 -> 00:48.2] By default, our phones and cameras take photos really bright, but that's not the vibe.
+  [00:48.5 -> 00:49.1] It's not aesthetic.
+  [00:49.5 -> 00:50.7] Here's how we're going to fix it.
+  [00:50.8 -> 00:53.4] Set your frame and just drag that exposure down.
+  [00:53.7 -> 00:55.6] Let it get a little dark, a little moody.
+  [00:55.6 -> 00:59.5] That's what makes it look like a Pinterest photo instead of a passport photo.
+  [00:59.7 -> 01:03.4] But don't get me wrong, my girl's passport photo is still baddie material too.
+  [01:03.5 -> 01:07.2] And I know what you're thinking, if you're a single guy, how is this useful to you?
+  [01:07.3 -> 01:07.7] You know what?
+  [01:07.9 -> 01:10.7] If you want a bag of baddie, you better know ball before you all meet.
+  [01:11.0 -> 01:12.6] I want her to think, who cooked here?
+  [01:12.8 -> 01:15.3] And you'll be telling her that it was me and not an ex.
+  [01:15.6 -> 01:15.9] You're welcome.
+  [01:16.4 -> 01:18.4] Three, get below eye level.
+  [01:18.6 -> 01:22.2] Not too low, on the floor, just slightly below.
+  [01:22.2 -> 01:27.2] Like chest to waist level, because this is going to be the most flattering angle for proportion.
+  [01:27.5 -> 01:29.1] The photos will look more balanced.
+  [01:29.4 -> 01:33.2] So that about wraps part one, but make sure you follow along for part two because next,
+  [01:33.4 -> 01:35.3] we're going to teach you how to capture candies.
+  [01:35.7 -> 01:37.4] So see y'all back here in a few days.
+  [01:37.8 -> 01:38.0] Peace.
+OUT ../watch-gf-photos-pt1\tt-gf-photos-pt1
+DONE tt-gf-photos-pt1
+INFO {'duration': 74.673923, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 36 shots in 11.8s
+  shot 001  00:00.0 -> 00:03.7  (3.7s)
+  shot 002  00:03.7 -> 00:04.7  (1.0s)
+  shot 003  00:04.7 -> 00:05.6  (0.9s)
+  shot 004  00:05.6 -> 00:07.3  (1.7s)
+  shot 005  00:07.3 -> 00:11.3  (4.0s)
+  shot 006  00:11.3 -> 00:13.1  (1.8s)
+  shot 007  00:13.1 -> 00:14.8  (1.8s)
+  shot 008  00:14.8 -> 00:23.7  (8.9s)
+  shot 009  00:23.7 -> 00:24.4  (0.7s)
+  shot 010  00:24.4 -> 00:25.3  (0.9s)
+  shot 011  00:25.3 -> 00:28.8  (3.5s)
+  shot 012  00:28.8 -> 00:30.2  (1.4s)
+  shot 013  00:30.2 -> 00:31.1  (0.9s)
+  shot 014  00:31.1 -> 00:32.4  (1.3s)
+  shot 015  00:32.4 -> 00:36.1  (3.7s)
+  shot 016  00:36.1 -> 00:37.0  (0.9s)
+  shot 017  00:37.0 -> 00:38.4  (1.4s)
+  shot 018  00:38.4 -> 00:41.7  (3.3s)
+  shot 019  00:41.7 -> 00:42.3  (0.7s)
+  shot 020  00:42.3 -> 00:42.9  (0.6s)
+  shot 021  00:42.9 -> 00:44.9  (2.0s)
+  shot 022  00:44.9 -> 00:45.9  (1.0s)
+  shot 023  00:45.9 -> 00:46.8  (0.9s)
+  shot 024  00:46.8 -> 00:47.8  (1.0s)
+  shot 025  00:47.8 -> 00:49.1  (1.4s)
+  shot 026  00:49.1 -> 00:52.6  (3.5s)
+  shot 027  00:52.6 -> 00:54.1  (1.5s)
+  shot 028  00:54.1 -> 00:54.8  (0.7s)
+  shot 029  00:54.8 -> 00:55.7  (0.9s)
+  shot 030  00:55.7 -> 00:56.4  (0.7s)
+  shot 031  00:56.4 -> 00:57.3  (0.9s)
+  shot 032  00:57.3 -> 00:59.1  (1.7s)
+  shot 033  00:59.1 -> 01:03.4  (4.3s)
+  shot 034  01:03.4 -> 01:05.8  (2.4s)
+  shot 035  01:05.8 -> 01:10.9  (5.1s)
+  shot 036  01:10.9 -> 01:14.7  (3.8s)
+SHEETS 4 sheet(s), one tile every 1.2s
+TRANSCRIPT 26 segments in 17.7s
+  [00:00.0 -> 00:03.3] Today, I'm going to teach y'all how to take better photos of your girlfriend.
+  [00:04.4 -> 00:06.6] Wait, so what should I do with my hands?
+  [00:07.1 -> 00:10.9] We've been getting one comment more than anything else, and that's how to pose.
+  [00:11.2 -> 00:12.8] So ladies, today I'll be teaching you.
+  [00:13.1 -> 00:14.5] Welcome to Boyfriend Boot Camp.
+  [00:14.8 -> 00:17.8] We'll tell you how to take the photo, and now we're going to teach you how to show up.
+  [00:18.2 -> 00:20.0] First thing, figure out your good side.
+  [00:20.2 -> 00:23.2] Once you know that, you'll know which angle of your face to always prioritize.
+  [00:23.6 -> 00:24.8] For me, it's my left.
+  [00:25.2 -> 00:28.3] And this matters because you want to avoid your photos from looking flat.
+  [00:28.3 -> 00:31.4] Let's start here. We're going to avoid this.
+  [00:32.3 -> 00:35.8] Just by turning my body to my good side, that's already half the work done.
+  [00:36.4 -> 00:37.9] Now, what to do with your hands?
+  [00:38.3 -> 00:41.4] This is where most people freeze, but here's how I think about it.
+  [00:41.5 -> 00:46.6] You want to create angles, whether it's hands in my pockets, on my hips, behind my back,
+  [00:46.8 -> 00:48.7] crossing my arms, holding something.
+  [00:49.1 -> 00:52.2] The specific poses don't matter as much as what they all have in common.
+  [00:52.5 -> 00:53.9] They're all creating angles.
+  [00:54.3 -> 00:57.3] Your hands are your anchor points. Use them to break up the flatness.
+  [00:57.3 -> 00:58.7] That looks quick.
+  [00:58.9 -> 01:02.9] Now, we know it might feel uncomfortable. It might feel new, but that's okay.
+  [01:03.3 -> 01:05.4] Because that's exactly where we're getting into next.
+  [01:05.8 -> 01:07.3] Knowing the poses is step one.
+  [01:07.6 -> 01:10.6] Actually feeling confident doing them is a whole other thing.
+  [01:10.8 -> 01:13.0] So make sure you follow along so you don't miss it.
+  [01:13.4 -> 01:14.2] See y'all back here soon.
+OUT ../watch-hands-in-photos\tt-hands-in-photos
+DONE tt-hands-in-photos
+INFO {'duration': 102.612993, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 36 shots in 12.5s
+  shot 001  00:00.0 -> 00:03.2  (3.2s)
+  shot 002  00:03.2 -> 00:06.1  (2.9s)
+  shot 003  00:06.1 -> 00:07.1  (1.0s)
+  shot 004  00:07.1 -> 00:08.1  (1.0s)
+  shot 005  00:08.1 -> 00:09.0  (0.9s)
+  shot 006  00:09.0 -> 00:09.9  (1.0s)
+  shot 007  00:09.9 -> 00:10.6  (0.7s)
+  shot 008  00:10.6 -> 00:20.6  (10.0s)
+  shot 009  00:20.6 -> 00:24.5  (4.0s)
+  shot 010  00:24.5 -> 00:29.7  (5.2s)
+  shot 011  00:29.7 -> 00:30.5  (0.8s)
+  shot 012  00:30.5 -> 00:31.1  (0.6s)
+  shot 013  00:31.1 -> 00:32.4  (1.3s)
+  shot 014  00:32.4 -> 00:35.1  (2.7s)
+  shot 015  00:35.1 -> 00:39.4  (4.3s)
+  shot 016  00:39.4 -> 00:40.0  (0.6s)
+  shot 017  00:40.0 -> 00:43.4  (3.4s)
+  shot 018  00:43.4 -> 00:45.5  (2.1s)
+  shot 019  00:45.5 -> 00:46.7  (1.2s)
+  shot 020  00:46.7 -> 00:48.1  (1.4s)
+  shot 021  00:48.1 -> 00:49.5  (1.4s)
+  shot 022  00:49.5 -> 00:51.0  (1.4s)
+  shot 023  00:51.0 -> 01:02.0  (11.0s)
+  shot 024  01:02.0 -> 01:04.5  (2.5s)
+  shot 025  01:04.5 -> 01:07.7  (3.2s)
+  shot 026  01:07.7 -> 01:08.9  (1.3s)
+  shot 027  01:08.9 -> 01:11.1  (2.2s)
+  shot 028  01:11.1 -> 01:19.5  (8.4s)
+  shot 029  01:19.5 -> 01:20.2  (0.8s)
+  shot 030  01:20.2 -> 01:20.8  (0.6s)
+  shot 031  01:20.8 -> 01:21.7  (0.9s)
+  shot 032  01:21.7 -> 01:22.5  (0.8s)
+  shot 033  01:22.5 -> 01:31.5  (9.0s)
+  shot 034  01:31.5 -> 01:33.4  (2.0s)
+  shot 035  01:33.4 -> 01:38.4  (5.0s)
+  shot 036  01:38.4 -> 01:42.6  (4.2s)
+SHEETS 4 sheet(s), one tile every 1.7s
+TRANSCRIPT 41 segments in 23.0s
+  [00:00.0 -> 00:03.8] If you're not getting views, it's not because your content's bad, it's because you're
+  [00:03.8 -> 00:05.6] losing people in the first three seconds.
+  [00:06.2 -> 00:09.5] In this video, I'll show you how to fix that with three simple hook strategies.
+  [00:10.1 -> 00:13.7] One, nail the first three seconds with relatability and tension.
+  [00:14.1 -> 00:17.6] It's not just about being flashy or a cool visual hooker transition,
+  [00:18.3 -> 00:22.6] it's about being able to relate to the viewer, state the problem that your audience already feels,
+  [00:22.9 -> 00:24.3] and make it stingily.
+  [00:24.6 -> 00:25.2] What's the issue?
+  [00:25.6 -> 00:26.7] Why should they care?
+  [00:27.2 -> 00:29.1] That is how you create tension.
+  [00:30.9 -> 00:32.4] It's like a movie trailer.
+  [00:32.6 -> 00:35.0] It gives us just enough conflict to make us lean in.
+  [00:35.2 -> 00:39.1] If you don't hook immediately, people won't even give your story a chance to unfold.
+  [00:39.6 -> 00:43.0] Two, support your hook with on-screen titles just like this.
+  [00:43.5 -> 00:45.1] You can't just rely on what you say.
+  [00:45.5 -> 00:48.3] Add a title above you that teases or frames what's to come,
+  [00:48.4 -> 00:50.8] or gives the viewer what they can expect if they keep watching.
+  [00:51.0 -> 00:51.5] So here's a trick.
+  [00:52.0 -> 00:55.3] It shouldn't be a one-to-one direct transcript of your words.
+  [00:55.7 -> 00:57.1] It should be an amplifier.
+  [00:57.1 -> 00:59.0] Something that makes people think,
+  [00:59.3 -> 01:01.8] wait, I need to see where this is going.
+  [01:02.0 -> 01:04.1] The same way a YouTube title earns a click,
+  [01:04.5 -> 01:07.4] the on-screen text should grab attention in the middle of a scroll.
+  [01:07.7 -> 01:10.6] And lastly, three, always add captions.
+  [01:11.2 -> 01:13.8] The reality, most people scroll with sound offs.
+  [01:14.0 -> 01:15.9] No captions equals instant skips.
+  [01:16.2 -> 01:19.3] This gives viewers a reason to keep watching even when on mute.
+  [01:19.5 -> 01:22.5] And it also reinforces your words for people who do have the sound off.
+  [01:22.6 -> 01:24.2] Plus, when captions are styled right,
+  [01:24.5 -> 01:26.6] they add rhythm and energy to the video.
+  [01:26.6 -> 01:30.0] Almost like a second hook running alongside your voice.
+  [01:30.4 -> 01:31.2] Just like this.
+  [01:31.4 -> 01:32.1] That's about it.
+  [01:32.3 -> 01:33.3] Hope you learned a thing or two.
+  [01:33.5 -> 01:34.8] And if you found this helpful,
+  [01:35.1 -> 01:38.3] make sure you follow along because I have so much more I can share.
+  [01:38.5 -> 01:39.5] As always, take care.
+  [01:39.7 -> 01:40.2] Happy creating.
+  [01:40.4 -> 01:41.3] I'll catch you all next time.
+  ... 1 more in transcript.txt
+OUT ../watch-hook-formula\tt-hook-formula
+DONE tt-hook-formula
+INFO {'duration': 66.793991, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 22 shots in 7.8s
+  shot 001  00:00.0 -> 00:03.8  (3.8s)
+  shot 002  00:03.8 -> 00:13.5  (9.8s)
+  shot 003  00:13.5 -> 00:14.4  (0.9s)
+  shot 004  00:14.4 -> 00:21.5  (7.1s)
+  shot 005  00:21.5 -> 00:22.2  (0.7s)
+  shot 006  00:22.2 -> 00:23.1  (0.9s)
+  shot 007  00:23.1 -> 00:23.7  (0.6s)
+  shot 008  00:23.7 -> 00:25.7  (1.9s)
+  shot 009  00:25.7 -> 00:28.1  (2.5s)
+  shot 010  00:28.1 -> 00:36.8  (8.7s)
+  shot 011  00:36.8 -> 00:37.6  (0.8s)
+  shot 012  00:37.6 -> 00:42.5  (5.0s)
+  shot 013  00:42.5 -> 00:43.4  (0.8s)
+  shot 014  00:43.4 -> 00:45.0  (1.7s)
+  shot 015  00:45.0 -> 00:46.7  (1.6s)
+  shot 016  00:46.7 -> 00:47.3  (0.6s)
+  shot 017  00:47.3 -> 00:49.0  (1.7s)
+  shot 018  00:49.0 -> 00:52.1  (3.1s)
+  shot 019  00:52.1 -> 00:54.8  (2.7s)
+  shot 020  00:54.8 -> 01:01.1  (6.4s)
+  shot 021  01:01.1 -> 01:06.1  (5.0s)
+  shot 022  01:06.1 -> 01:06.8  (0.7s)
+SHEETS 4 sheet(s), one tile every 1.1s
+TRANSCRIPT 32 segments in 18.1s
+  [00:00.1 -> 00:01.9] Do you want to make better content this year?
+  [00:02.2 -> 00:03.6] Well, I could fix that for you.
+  [00:03.8 -> 00:05.8] I've spent the past three years making content
+  [00:05.8 -> 00:07.5] that helps creators create better.
+  [00:07.8 -> 00:08.6] And the crazy part?
+  [00:09.0 -> 00:11.0] I haven't even shown you my best work yet.
+  [00:11.4 -> 00:13.6] Three years ago, I introduced myself on this platform,
+  [00:13.9 -> 00:14.6] told you who I was,
+  [00:14.8 -> 00:16.3] and what I wanted to bring to your feed.
+  [00:16.7 -> 00:18.5] Since then, I've shown you everything I know
+  [00:18.5 -> 00:20.4] about building a real creative career.
+  [00:20.8 -> 00:22.9] From storytelling principles, to camera work,
+  [00:23.1 -> 00:25.6] to editing, to consistency, and to my surprise,
+  [00:26.0 -> 00:27.7] so many of you followed this journey,
+  [00:27.7 -> 00:30.4] but there are also so many new faces on here.
+  [00:30.9 -> 00:32.8] So, let's try this again.
+  [00:33.2 -> 00:35.5] Allow me to reintroduce myself.
+  [00:35.6 -> 00:36.3] My name is Adrian.
+  [00:36.8 -> 00:37.9] This year is different.
+  [00:38.2 -> 00:39.8] And this year, I'm raising the bar,
+  [00:40.1 -> 00:42.5] not just with better visuals or cleaner edits,
+  [00:42.6 -> 00:44.8] but with deeper stories, more meaningful lessons,
+  [00:45.0 -> 00:47.2] and content that actually pushes you to level up.
+  [00:47.5 -> 00:48.5] I'm not here to show you shortcuts.
+  [00:49.2 -> 00:50.6] I'm here to show you how to craft stories
+  [00:50.6 -> 00:51.7] that feel alive.
+  [00:52.1 -> 00:54.4] Help you share stories only you can tell.
+  [00:54.8 -> 00:56.9] So if you want to make this year your year as a creator,
+  [00:56.9 -> 00:58.1] you're in the right place,
+  [00:58.1 -> 01:00.8] because everything up until now was just for warmth.
+  [01:01.0 -> 01:02.2] Let's make it the best yet.
+  [01:02.8 -> 01:03.2] See you soon.
+OUT ../watch-level-up-2026\tt-level-up-2026
+DONE tt-level-up-2026
+INFO {'duration': 69.486153, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 29 shots in 10.2s
+  shot 001  00:00.0 -> 00:04.5  (4.5s)
+  shot 002  00:04.5 -> 00:06.8  (2.2s)
+  shot 003  00:06.8 -> 00:07.6  (0.9s)
+  shot 004  00:07.6 -> 00:12.0  (4.4s)
+  shot 005  00:12.0 -> 00:14.9  (2.9s)
+  shot 006  00:14.9 -> 00:18.0  (3.1s)
+  shot 007  00:18.0 -> 00:21.6  (3.6s)
+  shot 008  00:21.6 -> 00:23.4  (1.9s)
+  shot 009  00:23.4 -> 00:35.9  (12.4s)
+  shot 010  00:35.9 -> 00:41.2  (5.3s)
+  shot 011  00:41.2 -> 00:43.2  (2.0s)
+  shot 012  00:43.2 -> 00:45.8  (2.6s)
+  shot 013  00:45.8 -> 00:46.7  (0.9s)
+  shot 014  00:46.7 -> 00:47.8  (1.1s)
+  shot 015  00:47.8 -> 00:50.0  (2.3s)
+  shot 016  00:50.0 -> 00:52.2  (2.1s)
+  shot 017  00:52.2 -> 00:52.8  (0.6s)
+  shot 018  00:52.8 -> 00:53.5  (0.7s)
+  shot 019  00:53.5 -> 00:55.6  (2.1s)
+  shot 020  00:55.6 -> 00:56.7  (1.1s)
+  shot 021  00:56.7 -> 00:57.3  (0.6s)
+  shot 022  00:57.3 -> 01:00.3  (3.0s)
+  shot 023  01:00.3 -> 01:01.7  (1.4s)
+  shot 024  01:01.7 -> 01:03.1  (1.4s)
+  shot 025  01:03.1 -> 01:04.9  (1.8s)
+  shot 026  01:04.9 -> 01:05.6  (0.8s)
+  shot 027  01:05.6 -> 01:06.6  (1.0s)
+  shot 028  01:06.6 -> 01:07.6  (1.0s)
+  shot 029  01:07.6 -> 01:09.5  (1.9s)
+SHEETS 3 sheet(s), one tile every 1.2s
+TRANSCRIPT 36 segments in 29.2s
+  [00:00.0 -> 00:01.2] Have you ever finished an edit
+  [00:01.2 -> 00:02.7] and you realize that you're missing footage,
+  [00:02.9 -> 00:04.2] but your deadline is tomorrow?
+  [00:05.1 -> 00:06.6] Let me show you how we can fix that.
+  [00:07.7 -> 00:09.7] I had my edit put together in my Premiere Pro timeline,
+  [00:10.0 -> 00:11.9] but unfortunately sometimes gaps happen.
+  [00:12.1 -> 00:14.8] Missing angles and shots that can help tell your story better.
+  [00:15.0 -> 00:16.3] And sometimes you don't have enough time
+  [00:16.3 -> 00:17.8] before your deadline to reshoot.
+  [00:17.9 -> 00:19.8] This is where Adobe Firefly comes in.
+  [00:19.9 -> 00:20.8] I can fill in these gaps
+  [00:20.8 -> 00:23.1] and it goes straight back into my timeline seamlessly.
+  [00:23.5 -> 00:24.2] And I know what you're thinking,
+  [00:24.2 -> 00:26.1] so I wanna address something first.
+  [00:26.7 -> 00:29.0] Adobe's approach to AI is creative first.
+  [00:29.7 -> 00:32.2] Firefly is to help empower your creativity
+  [00:32.7 -> 00:35.6] and it is never trained off of your content.
+  [00:35.9 -> 00:37.1] With Firefly's latest update,
+  [00:37.3 -> 00:40.1] I can pull from the world's best video models right inside it,
+  [00:40.1 -> 00:42.2] like clean 3.0 fast, high quality,
+  [00:42.5 -> 00:44.8] great for when I need to move quickly in times like these.
+  [00:45.0 -> 00:46.1] Full professional control,
+  [00:46.3 -> 00:47.7] shots I couldn't pull off on my own,
+  [00:47.9 -> 00:48.7] angles I couldn't get,
+  [00:48.9 -> 00:49.9] ideas that I had to shelve
+  [00:49.9 -> 00:51.8] because I just didn't have the resources.
+  [00:52.1 -> 00:53.0] And as a solo creator,
+  [00:53.4 -> 00:55.1] AI tools like this make my ideas
+  [00:55.1 -> 00:57.0] and possibilities genuinely endless.
+  [00:57.0 -> 00:59.2] And depending on what I need within Firefly,
+  [00:59.4 -> 01:01.4] I can pull from different partner models.
+  [01:01.7 -> 01:02.7] It's not just one tool.
+  [01:02.9 -> 01:04.3] It's your entire creative studio
+  [01:04.3 -> 01:07.3] from ideation to upload all in one place.
+  [01:07.5 -> 01:08.2] Happy creating.
+  [01:08.6 -> 01:08.9] Peace.
+OUT ../watch-missing-shot\tt-missing-shot
+DONE tt-missing-shot
+INFO {'duration': 92.65, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 29 shots in 10.3s
+  shot 001  00:00.0 -> 00:04.0  (4.0s)
+  shot 002  00:04.0 -> 00:05.8  (1.8s)
+  shot 003  00:05.8 -> 00:07.2  (1.5s)
+  shot 004  00:07.2 -> 00:08.2  (1.0s)
+  shot 005  00:08.2 -> 00:11.2  (3.0s)
+  shot 006  00:11.2 -> 00:11.9  (0.7s)
+  shot 007  00:11.9 -> 00:12.9  (1.0s)
+  shot 008  00:12.9 -> 00:17.0  (4.1s)
+  shot 009  00:17.0 -> 00:18.2  (1.2s)
+  shot 010  00:18.2 -> 00:24.1  (5.9s)
+  shot 011  00:24.1 -> 00:26.2  (2.1s)
+  shot 012  00:26.2 -> 00:28.1  (1.9s)
+  shot 013  00:28.1 -> 00:30.2  (2.1s)
+  shot 014  00:30.2 -> 00:32.0  (1.8s)
+  shot 015  00:32.0 -> 00:34.1  (2.1s)
+  shot 016  00:34.1 -> 00:42.1  (8.0s)
+  shot 017  00:42.1 -> 00:43.9  (1.8s)
+  shot 018  00:43.9 -> 00:44.8  (0.9s)
+  shot 019  00:44.8 -> 00:53.5  (8.7s)
+  shot 020  00:53.5 -> 00:56.3  (2.8s)
+  shot 021  00:56.3 -> 00:58.2  (1.9s)
+  shot 022  00:58.2 -> 01:00.1  (1.9s)
+  shot 023  01:00.1 -> 01:03.4  (3.3s)
+  shot 024  01:03.4 -> 01:17.6  (14.1s)
+  shot 025  01:17.6 -> 01:21.6  (4.0s)
+  shot 026  01:21.6 -> 01:23.5  (1.9s)
+  shot 027  01:23.5 -> 01:26.2  (2.7s)
+  shot 028  01:26.2 -> 01:27.5  (1.4s)
+  shot 029  01:27.5 -> 01:32.6  (5.1s)
+SHEETS 4 sheet(s), one tile every 1.5s
+TRANSCRIPT 50 segments in 30.8s
+  [00:00.1 -> 00:02.8] So today I'm gonna teach y'all how to do pop-up text
+  [00:02.8 -> 00:03.9] just like this.
+  [00:04.1 -> 00:05.8] I do this in Adobe Premiere Pro.
+  [00:06.0 -> 00:07.9] I just take my footage I want to put text on,
+  [00:08.1 -> 00:08.9] I duplicate the clip,
+  [00:09.0 -> 00:11.1] and I put it two layers above the original.
+  [00:11.3 -> 00:13.1] I then go to the Object Select tool,
+  [00:13.3 -> 00:14.8] I click on me on the top layer
+  [00:14.8 -> 00:16.7] and it'll mask me out automatically.
+  [00:17.1 -> 00:18.5] Next, I'll use the text tool
+  [00:18.5 -> 00:19.6] and write out what I'm saying
+  [00:19.6 -> 00:21.9] and I design the entire layout
+  [00:21.9 -> 00:23.9] of how I want the text to look first.
+  [00:24.1 -> 00:25.5] And this is very important
+  [00:25.5 -> 00:27.8] because this is where taste and design
+  [00:27.8 -> 00:30.0] of visual identity and branding
+  [00:30.0 -> 00:31.7] is supposed to represent you.
+  [00:32.1 -> 00:33.7] So I decided this is how I like it.
+  [00:33.9 -> 00:36.8] Then I time each word to pop up as I say it
+  [00:36.8 -> 00:40.2] by slicing and deleting each word as I go.
+  [00:40.4 -> 00:41.8] Okay, now let's see how it looks.
+  [00:42.3 -> 00:43.7] This is pop-up text.
+  [00:44.0 -> 00:44.8] Well, that looks great.
+  [00:45.0 -> 00:46.1] And people ask me all the time
+  [00:46.1 -> 00:48.3] if I have presets or if it's automated
+  [00:48.3 -> 00:49.5] or if I use AI.
+  [00:50.0 -> 00:51.1] And no, it's not.
+  [00:51.5 -> 00:53.2] People suggest me to use AI tools
+  [00:53.2 -> 00:55.1] or their caption apps all the time as well.
+  [00:55.1 -> 00:60.0] And no, it cannot execute to this level of taste and design
+  [00:60.0 -> 01:01.6] that represents the visual identity
+  [01:01.6 -> 01:03.3] that I want to bring to my content.
+  [01:03.5 -> 01:05.3] And also another really important tip is
+  [01:05.3 -> 01:06.5] you see all this up here?
+  [01:06.9 -> 01:08.8] This negative space is intentional.
+  [01:09.2 -> 01:10.9] I leave it open because the text
+  [01:10.9 -> 01:12.1] is gonna end up going here.
+  [01:12.2 -> 01:13.6] And also, you wanna make sure
+  [01:13.6 -> 01:14.8] it's not very distracting.
+  [01:15.0 -> 01:17.4] Otherwise, the text is gonna be a bit harder to read.
+  ... 10 more in transcript.txt
+OUT ../watch-popup-text\tt-popup-text
+DONE tt-popup-text
+INFO {'duration': 38.975986, 'width': 1080, 'height': 1920, 'fps': 23.98, 'vcodec': 'hevc', 'audio': 'aac', 'orientation': 'vertical'}
+SCENES 15 shots in 7.3s
+  shot 001  00:00.0 -> 00:05.5  (5.5s)
+  shot 002  00:05.5 -> 00:08.9  (3.4s)
+  shot 003  00:08.9 -> 00:10.2  (1.3s)
+  shot 004  00:10.2 -> 00:10.8  (0.6s)
+  shot 005  00:10.8 -> 00:11.9  (1.1s)
+  shot 006  00:11.9 -> 00:13.8  (1.8s)
+  shot 007  00:13.8 -> 00:17.1  (3.3s)
+  shot 008  00:17.1 -> 00:17.8  (0.7s)
+  shot 009  00:17.8 -> 00:18.9  (1.1s)
+  shot 010  00:18.9 -> 00:23.4  (4.5s)
+  shot 011  00:23.4 -> 00:26.1  (2.8s)
+  shot 012  00:26.1 -> 00:28.2  (2.1s)
+  shot 013  00:28.2 -> 00:29.8  (1.6s)
+  shot 014  00:29.8 -> 00:32.5  (2.8s)
+  shot 015  00:32.5 -> 00:39.0  (6.4s)
+SHEETS 2 sheet(s), one tile every 1.0s
+TRANSCRIPT 18 segments in 15.6s
+  [00:00.0 -> 00:02.1] If you want your content to stop people from scrolling,
+  [00:02.5 -> 00:04.1] fix your vertical framing.
+  [00:04.6 -> 00:05.3] Let me show you how.
+  [00:05.5 -> 00:07.1] This is 60-second film school,
+  [00:07.5 -> 00:10.7] bite-sized filmmaking tips to level up your content every week.
+  [00:11.0 -> 00:13.3] Turn your body and put your lead eye in the center.
+  [00:13.8 -> 00:15.3] It's a more captivating composition
+  [00:15.3 -> 00:16.6] to grab your audience's attention.
+  [00:17.0 -> 00:18.7] And some of the most iconic paintings
+  [00:18.7 -> 00:20.1] and photographs have proven so.
+  [00:20.4 -> 00:23.1] It creates instant focus and emotional connection.
+  [00:23.3 -> 00:25.0] So next time you're filming a talking video
+  [00:25.0 -> 00:27.9] just like this, you don't have to just center your face.
+  [00:27.9 -> 00:30.9] Center your lead eye and watch how much better
+  [00:30.9 -> 00:32.1] your vertical videos feel.
+  [00:32.5 -> 00:35.4] If you enjoyed this, follow for more and comment APCC
+  [00:35.4 -> 00:37.6] if you want to learn how to tell and shoot stories
+  [00:37.6 -> 00:38.6] just like this.
+OUT ../watch-vertical-framing\tt-vertical-framing
+DONE tt-vertical-framing
+ALLDONE

@@ -1,0 +1,36 @@
+[00:00.0 -> 00:01.2] Have you ever finished an edit
+[00:01.2 -> 00:02.7] and you realize that you're missing footage,
+[00:02.9 -> 00:04.2] but your deadline is tomorrow?
+[00:05.1 -> 00:06.6] Let me show you how we can fix that.
+[00:07.7 -> 00:09.7] I had my edit put together in my Premiere Pro timeline,
+[00:10.0 -> 00:11.9] but unfortunately sometimes gaps happen.
+[00:12.1 -> 00:14.8] Missing angles and shots that can help tell your story better.
+[00:15.0 -> 00:16.3] And sometimes you don't have enough time
+[00:16.3 -> 00:17.8] before your deadline to reshoot.
+[00:17.9 -> 00:19.8] This is where Adobe Firefly comes in.
+[00:19.9 -> 00:20.8] I can fill in these gaps
+[00:20.8 -> 00:23.1] and it goes straight back into my timeline seamlessly.
+[00:23.5 -> 00:24.2] And I know what you're thinking,
+[00:24.2 -> 00:26.1] so I wanna address something first.
+[00:26.7 -> 00:29.0] Adobe's approach to AI is creative first.
+[00:29.7 -> 00:32.2] Firefly is to help empower your creativity
+[00:32.7 -> 00:35.6] and it is never trained off of your content.
+[00:35.9 -> 00:37.1] With Firefly's latest update,
+[00:37.3 -> 00:40.1] I can pull from the world's best video models right inside it,
+[00:40.1 -> 00:42.2] like clean 3.0 fast, high quality,
+[00:42.5 -> 00:44.8] great for when I need to move quickly in times like these.
+[00:45.0 -> 00:46.1] Full professional control,
+[00:46.3 -> 00:47.7] shots I couldn't pull off on my own,
+[00:47.9 -> 00:48.7] angles I couldn't get,
+[00:48.9 -> 00:49.9] ideas that I had to shelve
+[00:49.9 -> 00:51.8] because I just didn't have the resources.
+[00:52.1 -> 00:53.0] And as a solo creator,
+[00:53.4 -> 00:55.1] AI tools like this make my ideas
+[00:55.1 -> 00:57.0] and possibilities genuinely endless.
+[00:57.0 -> 00:59.2] And depending on what I need within Firefly,
+[00:59.4 -> 01:01.4] I can pull from different partner models.
+[01:01.7 -> 01:02.7] It's not just one tool.
+[01:02.9 -> 01:04.3] It's your entire creative studio
+[01:04.3 -> 01:07.3] from ideation to upload all in one place.
+[01:07.5 -> 01:08.2] Happy creating.
+[01:08.6 -> 01:08.9] Peace.
