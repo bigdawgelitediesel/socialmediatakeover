@@ -35,6 +35,21 @@ Rule: poster lockups, not caption text. One lockup on the hook, placed in the op
 - Renderer: `{"type":"lockup","preset":"tropi","block":"EL COYOTE","start":0,"end":3,"pos":[540,520]}`
 - Use for: the truck outside, golden hour, nostalgia beats.
 
+## Reference 4 (added 2026-11-21): @asherintech "The fonts I actually use"
+
+Jacob sent instagram.com/p/DfcJ9VTEQsq (slides saved as `research/font-references/fontref_4_*.jpg`). Streaming-UI grammar: every slide is a Netflix-style beat ("Next episode", "Season finale", "Previously on...", "Skip intro", "Plot twist.", "Still watching?", "Roll the credits") set in one of six fonts over a dimmed photo, with an EP. 01 / 06 progress bar. The six, with licence and the stand-in we already own:
+
+| # | His font | Where it is used | Licence | Our stand-in (on disk) |
+|---|---|---|---|---|
+| 1 | Helvetica Neue | default for titles, labels, captions | ships with macOS only, not on this PC | **Inter** (he lists it himself; Regular to Black added 2026-11-21) |
+| 2 | Inter | clean UI-style overlays and story frames | free, Google Fonts / SIL OFL | **Inter** |
+| 3 | Galderglynn 1884 (Typodermic) | tall condensed caps for punchy titles | paid | **Bebas Neue** (his own free alternative) |
+| 4 | Founder's Hand (Jen Wagner Co.) | handwritten touch on covers and stories | paid; his free alt Hey Tiny is a personal-use demo | **Caveat Brush** (commercial-safe); Kaushan Script if it should read as script, not marker |
+| 5 | Advercase (Indieground) | elegant condensed serif for captions and hooks | free for personal use only, so not for the account | **Instrument Serif** or **DM Serif Display** |
+| 6 | Editor's Note (Jen Wagner Co.) | editorial serif titles, roman mixed with italic in one line | paid | **Instrument Serif** Regular + Italic (his own free alternative) |
+
+His signature combo ("Roll the / credits"): a small handwritten word (Founder's Hand) tucked on top of a big lowercase Helvetica Neue Bold word. Ours would be Caveat Brush 90 px over Inter Bold or ExtraBold 300 px, white, no shadow layer, over a dimmed plate. Candidate **Combo D "CREDITS"** for series beats on the build episodes (S1 EP cards, "Previously on", "Season finale", a "Still watching?" mid-reel beat). Not rendered or approved yet; it lands in the renderer only after Jacob picks it on an artboard. Note the earlier rejection of Instrument Serif as a lone hook still stands; here it is the roman + italic title mix, a different use.
+
 ## Colors
 - Yellow `#F7D43C` (script in Combo A; the lyric reel yellow `#F8D000` is close enough to swap)
 - White `#FFFFFF` (block words)
@@ -43,7 +58,7 @@ Rule: poster lockups, not caption text. One lockup on the hook, placed in the op
 - Coyote tan `#C9B38C` stays the accent for site and labels, never the script word.
 
 ## Fonts on disk (static TTFs, libass-safe; all SIL OFL or Apache)
-Anton, Archivo Black, Bebas Neue, Kaushan Script, Caveat Brush, Yellowtail, Poppins (Light, Medium, SemiBold, Italic, MediumItalic, SemiBoldItalic), Shrikhand, Bagel Fat One, Chango, Rubik Bubbles, Montserrat (SemiBold, Bold, ExtraBold), Oswald (Medium, Bold), Instrument Serif (Regular, Italic), DM Serif Display/Text, Playfair Display (variable, renders Regular only).
+Anton, Archivo Black, Bebas Neue, Kaushan Script, Caveat Brush, Yellowtail, Poppins (Light, Medium, SemiBold, Italic, MediumItalic, SemiBoldItalic), Shrikhand, Bagel Fat One, Chango, Rubik Bubbles, Montserrat (SemiBold, Bold, ExtraBold), Oswald (Medium, Bold), Instrument Serif (Regular, Italic), DM Serif Display/Text, Playfair Display (variable, renders Regular only), Inter (Regular, Medium, SemiBold, Bold, ExtraBold, Black; added 2026-11-21 from the @asherintech guide).
 
 ## Rejected (do not come back to these)
 Oswald Bold + Montserrat SemiBold caption system, Anton-alone hook, Bebas-alone hook, Instrument Serif hook, thick outlined ExtraBold, any per-word highlighted captions, the dark caption band.
