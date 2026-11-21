@@ -53,8 +53,11 @@ The niche's own data agrees with the morning's finding from the other direction.
 73. **Information shape sends at 0 to 0.3 percent, recognition shape at 1.2 to 2.9:** Highway and Heavy Parts posts the right numbers ("$50 part protecting your $40k engine") and gets zero shares because no person is addressed; the 1.5M-view core-charge sketch sent at 0.01 percent. The owner-operator tribe sends exact bills ($3,408.94 did 3.5x on a 5K channel), shared enemies, named engines and the cheap part that took the truck down. A parts manager reaches them without a mechanic on camera if the counter is visible and the engine is named.
 74. **Guardrails:** the employee disclosure must be in the video (FTC), comparative claims while sponsored by FASS are the exposed case, solo gripes about the employer are unprotected (NLRB). Fifteen concepts, led by the FASS disable-not-swap reel and the "don't buy this" returns sheet, are in the report.
 
-### Still landing (appended below when the agents finish)
-75. The 6.7 tribe for Chief.
+### The 6.7 tribe, for Chief (6.7 report, 8 clips measured)
+75. **The 6.7 tribe is organized around one fear and one argument:** the CP4, and what to do about it. Droesser v. Ford was certified Sept 30, 2026 in five states (CA, OH, LA, PA, SC), out-of-pocket repairs only, Ford appealing; the RP7 recall covered 295,449 2020 to 2022 trucks with a software fix; 2011 to 2019 trucks sit in no recall. Every top 6.7 video is a CP4 video, a "what it costs" video or a 600 hp video; prevention outperforms disaster (Dave's CP3 plus FASS install 201K, the 900,000-mile CP4 375K).
+76. **Jacob's disable-and-FASS position is held by nobody on the list**, which is the opening; the one-sentence on-camera meaning of "disabled the CP4" is the first question the comments will ask, so it is written before the reel. The 750 hp rebuttal stays: it is not either-or, the FASS feeds the CP4 clean consistent fuel now and supplies the volume later.
+77. **Brands:** FASS (@fassfuelsystems, 290K) and Industrial Injection (@iidiesel, 200K; Scott Dana's bio tags it) both run 4 of 12 grid tiles as creator Collabs this week; FASS's vehicle sponsorship page has no follower floor; Derale reposts 9 of 12. The emissions-intact power lane (TopCorey 96.7K, Banks, ATS, EZ Lynk shops) is where Chief sits: the audience reflexes are "show the dyno" and "will factory parts hold up", which the over-spec parts list answers. 25-term glossary and 15 named openers in the report.
+
 
 ## What to do this week, in order
 1. Post a meme in the 10-mil voice built from Jacob's own footage (template 3: cutout over own footage plus a text confession), caption line 1 as a person type.
