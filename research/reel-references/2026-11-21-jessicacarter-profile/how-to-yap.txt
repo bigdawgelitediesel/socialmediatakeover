@@ -1,0 +1,171 @@
+/description/canonical/OG here on purpose: react-helmet-async
+ sets all of those per page, so there is exactly one of each in the
+ rendered/prerendered HTML (a static 
+ here would duplicate it). -->
+How to Yap: What 84 Talking-Head Reels Have in Common
+How to Yap: What 84 Talking-Head Reels Have in Common
+Instagram
+9 min read
+Published 
+3 October 2026
+ · Updated 
+7 November 2026
+ · ManyScripts
+Try Instagram Transcript 
+Free to try. No account needed.
+TLDR:
+We transcribed 84 talk-to-camera Reels from 17 creators, including Oren John, Jessi Jean and Jun Yuh. The first line, the length, the shape, the ask, and a script.
+In this guide
+1. Nobody says hello
+2. The first sentence is 13 words long, and it is usually about you
+3. A yap is about 270 words
+4. Half of them are lists said out loud
+5. Twice as much "you" as "I"
+6. The ask lives in the caption
+7. A named idea beats a tip
+The shape, in six moves
+A yap script you can fill in
+Five voices, five breakdowns
+Do this for your own niche
+How we counted
+ Put this guide into practice
+Paste a Reel URL and get the transcript in seconds.
+Works with TikTok, Instagram, YouTube, Facebook, X, LinkedIn (beta), Bluesky and RedNote.
+Try Instagram Transcript 
+A yap is a Reel where one person talks straight into the camera about one idea, and the words carry the whole thing. It is the format behind Oren John's creative direction essays, Jessi Jean's Yap Challenge, Jun Yuh's storytelling reels and most of what parents watch from Dr. Becky. Every guide to it says the same three things: be yourself, use good lighting, talk like you are on FaceTime. None of them quotes a script.
+So we read the scripts. On October 3, 2026 we pasted 84 public talking-head Reels from 17 creators into the 
+Instagram Reel script extractor
+ and put the transcripts side by side. The set covers 16 Reels from Oren John, 13 from Dr. Becky, 11 from Jun Yuh, 10 from Jessi Jean, 8 from Codie Sanchez, 9 from Brian Mark, 4 from Alex Hormozi, 3 from Chris Do, and 10 from nine tech and career accounts that came up in a search for the "10 things that get increasingly niche" format. Clips under 30 words were left out. We quote short lines only.
+1. Nobody says hello
+Zero of the 84 Reels open by greeting the audience. Two start with the word "hey", and both are Brian Mark quoting a DM ("Hey Brian, what do I say in the DMs to book a sales call?"). The rest start on the idea.
+Jun Yuh says why in one of his own Reels: "No one is watching your videos with a group of friends. So stop saying, hey guys or hi everyone."
+The headline numbers from the 84 scripts.
+2. The first sentence is 13 words long, and it is usually about you
+The median first sentence runs 13 words. In 34 of the 84 Reels it contains "you" or "your". In 17 it contains a number. In 14 it is a question. Some first lines from the set, each one a complete thought:
+"We used to live our hobbies. Now, we just buy into them." (Oren John)
+"Stop posting more. I mean it." (Jun Yuh)
+"Money loves speed." (Codie Sanchez)
+"My kid never takes accountability. It's always someone else's fault." (Dr. Becky)
+"Being a content creator isn't a real job, or so they say." (Jessi Jean)
+"Four words to never say in marketing." (Brian Mark)
+"Strategy is a word for war." (Oren John)
+"If I woke up with zero dollars tomorrow and wanted to become a millionaire" (Alex Hormozi)
+Each one states the claim or names the exact situation, and the rest of the Reel earns it. 
+The 5 hook formulas
+ covers the patterns in more detail; in this set the two that dominate are the flat claim and the viewer's own moment said back to them.
+What the first sentence contains, counted on the text up to the first full stop.
+See exactly how they say it
+Paste a Reel URL and get the transcript in seconds. Free to try. No account needed.
+Try Instagram Transcript 
+3. A yap is about 270 words
+The median transcript is 271 words. Half of the Reels sit between 191 and 326 words. The shortest substantial one is Brian Mark's four-word list at 37 words, and the longest is Alex Hormozi's millionaire roadmap at just over 600. We did not time the videos, but at a normal talking pace of around 150 words a minute, 270 words is close to two minutes of speech.
+The biggest Reels in the set are shorter than the median. Codie Sanchez's haters Reel is 109 words and took 240,026 likes. Her three businesses Reel is 157 words and took 246,331. Jun Yuh's "10 out of 10 habits" is 235 words and took 395,841. Length does not seem to hurt, but the ones people share most say one thing and stop.
+Jessi Jean's recent Reels. The on-screen title is the first line, written down. Screenshot: Instagram.
+Get the script of any Reel in seconds.
+ Paste a link into the 
+Instagram Reel script extractor
+ and read it as text. One Reel a day is free with no account, five a day with a free account.
+4. Half of them are lists said out loud
+44 of the 84 transcripts contain "number one", "first", "second" or "step one". The list is the most common skeleton in the set by a wide margin, and it shows up in every niche: three businesses to buy, five hires, seven Instagram settings, three career takes, ten habits that get increasingly niche.
+A list gives the viewer a reason to stay (how many are there, how niche does it get), it gives each item a chance to be the one they comment on, and it is easy to say without a script. The 
+"10 things that get increasingly niche" format
+ is the purest version, and it has been copied from Jun Yuh into tech accounts within weeks.
+5. Twice as much "you" as "I"
+Across the set, "you" and "your" appear 4.9 times per 100 words and "I", "my" and "I'm" appear 2.6 times. The median sentence is 12 words. Creators who sound like they are talking about themselves are mostly talking about the viewer, with their own story used as proof in the middle.
+Jessi Jean is the exception. Her most-liked Reel in our set is an unscripted update on how she feels after a big launch, told almost entirely in the first person, and it took 15,206 likes against a feed that usually sits around 5,000. So "I" works when the Reel is a story, and "you" works when it gives advice.
+Copy the script, then make it yours
+Paste a Reel URL and get the transcript in seconds. Free to try. No account needed.
+Try Instagram Transcript 
+6. The ask lives in the caption
+Few of the 84 Reels end on a question to the audience: counted strictly, only 2 finish on a question mark, and a handful more ask something in their last lines. 14 say "comment" out loud and 15 say "follow". The rest end on the last point, and the sell happens in the caption with a keyword (OWN, STORY, GAME, DFK) that a DM tool answers.
+That split keeps the Reel itself clean. Dr. Becky says "More in the caption" and stops. Codie Sanchez never pitches in the script and sells the book in the caption instead. Brian Mark is the exception, with "comment GAME" inside the video, and his Reels are also the shortest and most direct in the set.
+How the Reels end. Most just stop, and the sell lives in the caption.
+7. A named idea beats a tip
+11 of the Reels give the idea a name before explaining it: deeply feeling kids, the storytelling wheel, emotional vaccination, the buyback loop, the Closer framework, gear acquisition syndrome, visual counter-positioning. A tip is forgettable, while a name can be searched, repeated in a comment, and sold later.
+Oren John's feed: a thesis on every cover. Screenshot: Instagram.
+The shape, in six moves
+Put the findings together and most of the 84 Reels follow the same six moves. Not every Reel uses all six, but the order barely changes.
+The line.
+ One sentence, around 13 words, with the claim or the viewer's own moment in it.
+The mistake.
+ What people do now and why it backfires, said in the second person.
+The name.
+ The idea gets a name, a letter, or a number, and a one-sentence definition.
+The proof.
+ A list, a short story with a number in it, or a named example.
+The turn.
+ The one sentence the viewer is meant to repeat. Usually a reversal: "You don't get rich doing more. You get rich doing less of the things that don't actually make you any money."
+The exit.
+ A short instruction, a dare for the comments, or nothing. The sell goes in the caption.
+See exactly how they say it
+Paste a Reel URL and get the transcript in seconds. Free to try. No account needed.
+Try Instagram Transcript 
+A yap script you can fill in
+Eight lines, in our words, shaped like the set. Say it out loud before you record and cut any line that sounds written.
+[The claim, or the exact moment your viewer is in, in under 13 words.]
+Most people [the common move]. It feels right. It backfires because [one reason].
+I call this [a name]. [One sentence that defines it.]
+First, [item]. [One reason.] Second, [item]. [One reason.] Third, [item]. [One reason.]
+I know because [one moment from your own life, with a number or a date in it].
+[The turn: the sentence someone could repeat to a friend.]
+[One instruction for today.]
+[Stop. Put the offer and the keyword in the caption.]
+Five voices, five breakdowns
+The averages hide how different the best yappers sound. We wrote a separate breakdown for each, with their openers quoted, their shape mapped, and a template in their style:
+How to yap like Oren John
+: a thesis in the first sentence, brand names as vocabulary, a dare at the end.
+How to yap like Jessi Jean
+: the uncomfortable thing people are already thinking, then the real number, then a question back.
+How to yap like Jun Yuh
+: the call-out, the named framework spelled letter by letter, his own story as proof, the keyword.
+How to yap like Codie Sanchez
+: a question, a numbered answer, a line for the mug, the sell in the caption.
+How to yap like Dr. Becky
+: the parent's exact moment, what we do out of fear, the words to say instead.
+How to yap like Hormozi and Brian Mark
+: the longest and the shortest Reels in the set, side by side.
+All the templates live on one page: 
+Yap script templates
+.
+The same method on TikTok, with durations this time: 
+How to yap on TikTok
+.
+What the extractor returns for Jun Yuh's most-liked Reel in the set: the caption, then the script as text.
+Do this for your own niche
+You can run the same check on your own niche. Pick ten Reels in your niche that did better than the account's usual, get the scripts as text, and read them in one sitting.
+Paste one link at a time into the 
+Instagram Reel script extractor
+. One Reel a day is free with no account, and a free account covers five a day.
+For a whole creator at once, 
+Bulk
+ on Pro takes up to 100 links and returns every script in one CSV with the like and comment counts beside each one.
+Keep the scripts in a 
+swipe file
+ and mark the first line, the name, the turn and the ask in each one. After ten, the shape of your niche is obvious.
+How we counted
+The 84 Reels are public talking-head videos read on October 3, 2026 with ManyScripts, which transcribes the audio and returns plain text with no timestamps. Word counts are from the transcripts. "First sentence" is the text up to the first full stop or question mark. Likes are the counts Instagram showed on the day. A handful of clips in the set are podcast excerpts or partner posts, because that is what these creators actually publish; we kept them in rather than hand-pick. ManyScripts is not affiliated with any creator named here, and the quotes are short excerpts used for commentary.
+Ready to try it?
+Go from video to usable text.
+Paste a Reel URL and get the transcript in seconds.
+Try Instagram Transcript 
+Next up
+Keep reading
+All articles
+The 'Increasingly Niche' List Reel: How It Works, With a Script
+The list reel that tech creators copied within weeks: where it came from, how the items escalate, why people watch to the end, and a fill-in script for your niche.
+Read next 
+How to Yap Like Hormozi and Brian Mark: Longest vs Shortest Reels
+Alex Hormozi's Reels run past 500 words. Brian Mark's run 37. We read 13 of their scripts as text to see what each length buys, and wrote a template for both.
+Read next 
+How to Yap Like Codie Sanchez (We Transcribed 9 of Her Reels)
+We ran 9 of Codie Sanchez's Instagram Reels through a script extractor and read them as text. The openers, the numbered shape, the closing lines, and a fill-in template.
+Read next 
+All articles
+ Put this guide into practice
+Paste a Reel URL and get the transcript in seconds.
+Works with TikTok, Instagram, YouTube, Facebook, X, LinkedIn (beta), Bluesky and RedNote.
+Try Instagram Transcript 
+Get any creator's script, word for word
+Paste a Reel URL and get the transcript in seconds.
+Try it free 
+Free to try. No account needed.

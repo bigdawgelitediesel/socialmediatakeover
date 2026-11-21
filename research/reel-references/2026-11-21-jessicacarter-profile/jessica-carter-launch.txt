@@ -1,0 +1,4 @@
+/description/canonical/OG here on purpose: react-helmet-async
+ sets all of those per page, so there is exactly one of each in the
+ rendered/prerendered HTML (a static 
+ here would duplicate it). -->

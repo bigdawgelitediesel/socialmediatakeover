@@ -1,0 +1,201 @@
+/description/canonical/OG here on purpose: react-helmet-async
+ sets all of those per page, so there is exactly one of each in the
+ rendered/prerendered HTML (a static 
+ here would duplicate it). -->
+Jessica Carter Launch Breakdown, Part 2: She Built on a Challenge
+Jessica Carter Launch Breakdown, Part 2: She Built on a Challenge
+Creator strategy
+12 min read
+Published 
+19 October 2026
+ · Updated 
+7 November 2026
+ · ManyScripts
+TLDR:
+Jessica Carter was a student in Jessi Jean's Yap Challenge. Three months later she sold a $37 editing course built on it. We read 16,000 comments to see how.
+In this guide
+TLDR
+Before It Started: Why Did Anyone Notice Her?
+Part 1: She Started as a Student
+Part 2: She Found What Others Were Missing
+Part 3: Her Viewers Told Her What to Sell
+Part 4: She Sold Without Pushing
+Part 5: The Launch
+What She Added to Jessi Jean's Method
+Were These Real People?
+What You Can Do This Week
+How We Counted
+ Put this guide into practice
+Start with any public short-form video URL.
+Works with TikTok, Instagram, YouTube, Facebook, X, LinkedIn (beta), Bluesky and RedNote.
+Try ManyScripts free 
+This is Part 2 of our Jessica Carter launch breakdown. 
+Part 1
+ showed how her views grew, month by month. This part shows how she turned someone else's challenge into her own $37 course.
+In May 2026, Jessica Carter was a mom of three with a small account. She watched another creator, Jessi Jean, sell a program called the Yap Challenge. Jessi Jean says it made $7.5 million in 10 weeks. It taught people to sit in front of a camera and talk.
+Jessica signed up. She did the work every day. Three months later, she sold her own $37 course. She says it made over $700,000.
+She bought someone else's idea, followed it, and added the one piece that was missing. This is her story, and what you can take from it.
+TLDR
+She stood out by mixing three things.
+ A real mom, a business brain, and good editing on a free phone app.
+She started as a student.
+ She paid for someone else's program and followed it every day.
+She found what other students were missing.
+ They could talk to the camera. They did not know how to edit.
+Her viewers told her what to sell.
+ Three people asked for a course on the night her first editing lesson went up.
+She moved fast.
+ Within a day, she asked people to comment one word if they wanted it.
+She sold without pushing.
+ She taught for free for five weeks. She never told anyone to "buy".
+Before It Started: Why Did Anyone Notice Her?
+In June 2026, the internet was full of mom accounts. It was full of editing tips. And after the Yap Challenge, it was full of people talking to the camera. Thousands of new accounts did the same thing at the same time. So why did people stop on hers?
+She was not new.
+ She had used Instagram for over ten years. She had built a real estate business on it since 2018. She had changed topics many times. In her words: "I've built businesses on this page. I've gone mega viral, sharing relatable content. I've sold digital products. I've literally done it all."
+She had failed in public, more than once.
+ She once built a course for real estate agents and held a free webinar to sell it. Nobody came. She tried again: "it was me and one other person on a live webinar." She still stayed under 10,000 followers. So in June she was an experienced person starting over.
+She mixed three things that are rarely in one place.
+A real mom.
+ Three boys, a messy bun, filming on the corner of her bed during nap time. Moms saw themselves in her.
+A business brain.
+ She talked about money from day one: "My goal is to make money on this app, like a lot of money." She tracked every dollar and posted it. Most mom accounts do not talk like that.
+Editing that looked good, made on her phone with a free app.
+ Most editing accounts teach paid or complex tools. She used Instagram's free Edits app. Many of her viewers had never heard of it.
+The comments show that people noticed the editing first, even when nobody knew her name:
+"Immediate follow, fellow mama. Checked your profile and how do you have under 100 followers!? Your edits are too good!" (TikTok viewer, June 15)
+"Followed!! There's an edits app for iPhone?!" (TikTok viewer, July 10, 4 likes)
+"Sooo first question what's the Edits app lol😅" (TikTok viewer, July 13, 6 likes)
+She showed the work, not only the result.
+ She said people "want to see someone actually figure it out, trial and error in real time, not just disappearing to work in secret and then pop back up with the results." So she made a series of her own start: "Starting From Scratch", episodes 1 to 6.
+She treated it like a job.
+ "If you want to do social media right, you have to treat it like a business." She planned her ideas on a board. She wrote her scripts with an AI tool, then rewrote them in her own words. She used a teleprompter and said so openly.
+Other creators were better moms on camera, better editors or better talkers. She was the one who did all three, inside a big new crowd, at the moment that crowd needed her. Thousands of people had just learned to talk to the camera. Within weeks, they all hit the same problem: their videos looked plain. She was a few steps ahead, with a free fix. Timing and position did as much work as talent.
+What this means for you:
+ You do not need to be the best at one thing. Look for two or three things you already do that rarely go together. Then find a group of people who are just starting what you started a few weeks ago. Their next problem may be the thing you already know.
+Part 1: She Started as a Student
+In late May, she watched Jessi Jean's launch. She could not stop talking about it. She sent her husband one video after another. He thought it was "getting unhealthy." She said it was not jealousy: "Something in me had unlocked."
+She signed up for the Yap Challenge. On June 9, she posted her first "yap", a video of herself talking to the camera. Then she did it again the next day, and the next.
+She also did something most people avoid. She showed how little she earned. Her first month brought in $234.03. She posted that number anyway.
+The first two bars are almost too small to see. She recorded her "before" when nobody was watching. So when the big month came, people believed it.
+At first, fewer people watched her videos. But the people who watched cared more. They liked and commented more often. She said viewers wrote things like "it feels like you're in my brain." The comments back her up:
+"I needed to hear this 👏👏👏" (TikTok viewer, June 25)
+"I needed this! I've been struggling with my "value" recently" (TikTok viewer, June 28)
+What this means for you:
+ Find someone who is a few steps ahead of you, and learn from them. Then show your real starting point, even if it is small. Your first month may get fewer views. Watch your likes and comments instead. They tell you if people care.
+Part 2: She Found What Others Were Missing
+The Yap Challenge had thousands of students. They all learned to talk to the camera. Many of them found Jessica's page. They were small creators, like her.
+They noticed something. Her videos had words that popped up on screen, quick cuts and fun sound effects. Their videos looked plain. So they started to ask.
+"what did you use to edit this? I really like the list/typing effect" (TikTok viewer, June 21)
+"Do you mind if I ask what you use to edit your videos?!" (Instagram viewer, June 22)
+"Would love to see an editing tutorial and how long it takes you!" (Instagram viewer, June 24)
+At first, only a few people asked. Then, on July 1, she posted a video about her filming tools. It showed her mic, her light and the free app she edits in. The questions jumped.
+"ok what app has teleprompter? I definitely need a guide when talking" (TikTok viewer, July 1)
+"I'm new I don't want to pay to edit my content" (TikTok viewer, July 1)
+That day, she replied to one of them: "Gonna do some tutorials soon."
+Who was asking? Most of them made videos too. Some made videos for brands. Some sold products online. They were a few weeks behind her, on the same road. Jessi Jean had taught them to talk. Nobody had taught them to edit.
+What this means for you:
+ Look at the questions people ask you more than once. Pay attention to the ones your teacher does not answer. That gap is often your first product. A simple video about your tools can show you what people want to learn.
+Part 3: Her Viewers Told Her What to Sell
+On July 9, she posted the first free lesson: "How I edit my yaps." It became her biggest video so far. She said she got 7,000 new followers overnight. Her new viewers were excited:
+"Following because finally someone isn't using CapCut 🤩" (TikTok viewer, July 10, 13 likes)
+"Non techy moms here too 💁🏼‍♀️ Appreciate the tips!" (TikTok viewer, July 10)
+On Instagram, that same night, three people asked for a course:
+"I was literally just thinking someone needs to do an editing course." (Instagram viewer, 2 hours after she posted)
+"Girl you need to go ahead and make you a course momma and monetize it." (Instagram viewer, 6 hours after)
+"Heads straight to Stan store for the course." (Instagram viewer, 17 hours after)
+One of the three was not a regular fan. That account had 87,000 followers and taught people how to make money online. So the real sign was small: two fans and one marketer.
+She did not wait for more. 22 hours after she posted, she wrote under her own video: "Comment INTERESTED to add to the interest list for an Instagram Edits mini-course." The first reply came 12 minutes later. Within three days, 65 people had written "interested".
+On July 20, she made up her mind. She said the course was "launching in a couple weeks."
+What this means for you:
+ When a video does well, read the comments that night. Your next product may be sitting there. Do not build it yet. First ask people to comment one word if they want it. Count the replies. A few real people asking is often enough to start.
+Part 4: She Sold Without Pushing
+For the next five weeks, she kept teaching for free. She posted six editing lessons. Each one was complete. She called the course "a deeper dive" for people who wanted more.
+She made the ask a little louder each week:
+Here is what each step sounded like, in her own words:
+A note under the video (July 10).
+ "Comment INTERESTED to add to the interest list for an Instagram Edits mini-course." The video itself was a free lesson.
+One spoken line at the end of a lesson (August 5).
+ After teaching sound effects for two minutes, she ended with: "If you want to go deeper, comment the word interested to get on the waitlist for my editing mini course, which I'll be launching soon."
+A whole video about why she made it (August 13).
+ It opens with "Every talking head video I ever posted flopped, like badly. And then I changed one thing." It tells her story. It ends with "That is exactly why I'm creating" the course.
+A price and a date (August 20).
+ "Waitlisters will get access for $37 when we launch Friday at 9:30am CST!"
+She almost never said "buy". The word appears in only 3 of her 113 TikToks. One of those is a joke about buying "half a Starbucks."
+She used a few phrases again and again:
+"Non-techy."
+ She said it in 1 video in June and in 15 during the launch. It told beginners: this is for you.
+"Peer pressured."
+ She said viewers "begged" her. This made the course feel like their idea.
+"If I can do this, so can you."
+ She was a student a few weeks earlier. That made her easy to trust.
+"Stay at home mom to three boys."
+ She said it in 66 posts. New viewers always knew who she was.
+What this means for you:
+ Give real value for free before you ask for anything. Then ask in small steps. Start with one line at the end of a caption. Move to a full video only when people already want it. Use words that tell your viewer "this is for someone like you."
+Part 5: The Launch
+She called the course My Non-Techy Edits. She sold it three times, and the price went up each time.
+She launched on her birthday. That morning she said she expected people to buy, "because people were begging for it." What surprised her was the support: "literally strangers that I've never met before supporting me like I'm their best friend."
+Each day, she posted her sales total. "$50,000 in 24 hours." Then "$70,000." Then "$150,000." She said viewers watched it "like your favorite Netflix series."
+Then her husband guessed the final number on camera. She read him each day's total. He guessed low. She said "Go higher." Then she told him the total, and the camera caught the moment: "Whoa! Is this real life?" That video got 6.5 million views. It is the most watched video on her TikTok.
+She also offered a scripting guide as an add-on at checkout. She says most buyers added it.
+The comments under the launch videos show how people felt:
+"I just bought your course. I'm so excited to learn from you. Congratulations on the amazing launch" (TikTok viewer, August 24)
+"The weight on that man's shoulders has been lifted so much. Congratulations. That's an amazing accomplishment." (TikTok viewer, August 30, 30,918 likes)
+"First tiktok I have seen of yours but I am genuinely so happy for you guys I started crying!" (TikTok viewer, August 30, 10,026 likes)
+Not everyone was sold. Under the husband video, one stranger asked:
+"can someone explain where she advertises her course ? like who bought the course ?? i dont understand" (TikTok viewer, August 30, 41 likes)
+Her selling was so quiet that new viewers could not see it.
+What this means for you:
+ Give early supporters the best price. It rewards them for trusting you. Share your progress as it happens. People like to watch a story unfold, and they share it.
+What She Added to Jessi Jean's Method
+She followed her teacher's path. Talk to the camera every day. Share your real life. Share your income, even when it is small. Launch one product. Share the numbers as they come in.
+Then she added four things of her own:
+A new skill for the same people.
+ Jessi Jean taught talking. Jessica taught editing. Many of her viewers were on the same road.
+A low price.
+ $37 is an easy yes.
+A "one step ahead" voice.
+ She was only a few weeks ahead, and people found that easy to trust.
+Proof from day one.
+ She showed her $234 month. So her $313,000 month felt real.
+Were These Real People?
+Yes. We opened 63 random commenter profiles, and almost all were ordinary accounts with a few hundred to a few thousand followers.
+The only fake accounts we found were two scam accounts on TikTok, about 2% of comments, and they were not hers.
+We could not check her waitlist, which was in her private messages, or her sales numbers, which come only from her.
+What You Can Do This Week
+Pick one person a few steps ahead of you.
+ Follow what they do for 30 days.
+Write down every question people ask you.
+ Circle the ones you hear more than once.
+Make one free video about your tools or your method.
+ See what people ask next.
+Ask for one word.
+ "Comment INTERESTED if you want more." Count the replies before you build anything.
+Missed Part 1? Read how her views grew in our 
+Jessica Carter teardown
+. To learn about her teacher, read 
+How to Yap Like Jessi Jean
+.
+How We Counted
+We read all 113 TikToks on @the.jessicacarter, from May 12 to October 13, 2026, with ManyScripts Bulk Mode. We read the comments on her public TikTok and Instagram pages on October 17 and 18, 2026. That is 8,709 TikTok comments and about 7,400 comments on her 34 Instagram reels from June 9 to July 13. Some of her busiest Instagram reels are only partly covered. Each comment is dated to when it was written. A question about editing is a comment that asks about editing, apps, fonts, captions or similar. We checked 63 random public profiles. We did not include the names of people who commented. Views are the TikTok views shown on each video in October 2026. Jessi Jean's $7.5 million is her own claim. All of Jessica Carter's income, follower, waitlist, buyer and sales numbers are her own claims, and we did not audit them. Her August income of $313,274.79 is her corrected figure, after she found she had counted some PayPal sales twice. She did not post a September income report, so the September bar is our estimate from her "over $700,000" course total. We cannot see private messages. ManyScripts is not affiliated with Jessica Carter or Jessi Jean. The quotes are short excerpts for commentary.
+Ready to try it?
+Go from video to usable text.
+Start with any public short-form video URL.
+Try ManyScripts free 
+Next up
+Keep reading
+All articles
+How to Yap Like Shelby Haas on TikTok (We Read 83 of Her Scripts)
+We read 83 TikTok scripts from Shelby Haas (@diaryofasalesgirl) of SheSells Academy: her openers, her sales rules, and why her videos spread.
+Read next 
+How to Yap Like Jessi Jean on TikTok (We Read 93 of Her Scripts)
+We read 93 of Jessi Jean's TikTok scripts and checked about 40 of her own rules against what she says: her voice, her first lines, and why it feels personal.
+Read next 
+We Analysed 113 Jessica Carter TikToks. Here's What Her View Data Reveals.
+We read all 113 of Jessica Carter's TikToks in order. Five stages of her views, the series she never names, how she picks the next post, and what to copy.
+Read next 
+All articles
+ Put this guide into practice
+Start with any public short-form video URL.
+Works with TikTok, Instagram, YouTube, Facebook, X, LinkedIn (beta), Bluesky and RedNote.
+Try ManyScripts free

@@ -1,0 +1,397 @@
+/description/canonical/OG here on purpose: react-helmet-async
+ sets all of those per page, so there is exactly one of each in the
+ rendered/prerendered HTML (a static 
+ here would duplicate it). -->
+How to Yap Like Jessi Jean on TikTok (We Read 93 of Her Scripts)
+How to Yap Like Jessi Jean on TikTok (We Read 93 of Her Scripts)
+TikTok
+15 min read
+Published 
+9 November 2026
+ · Updated 
+12 November 2026
+ · ManyScripts
+TLDR:
+We read 93 of Jessi Jean's TikTok scripts and checked about 40 of her own rules against what she says: her voice, her first lines, and why it feels personal.
+In this guide
+Start with these 5
+Her voice
+Her scripts
+What she talks about
+How often she posts
+Fear and comments
+Views into a business
+Be certain in the first line
+Why it feels like she's talking to you
+What she does but doesn't teach
+Her 9 months
+A Jessi Jean TikTok template
+How we did it
+What next
+ Put this guide into practice
+Turn a TikTok URL into clean, editable text.
+Works with TikTok, Instagram, YouTube, Facebook, X, LinkedIn (beta), Bluesky and RedNote.
+Try TikTok Transcript 
+In October we read 
+10 of Jessi Jean's Instagram Reels
+. This time we read every TikTok Jessi Jean (@jessijeanhome) posted from 28 February to 3 November 2026. That is 100 videos, and 93 of them are her talking. Her median video runs 88 seconds and she speaks at 215 words a minute, against about 150 in normal conversation.
+Her account grew from 0 to 700,000 followers across platforms in 11 months, by her own count, and she sold $7.5 million of her 6-week Yap Challenge. Most of her videos are about how she did that, so her TikTok is a long course in public. We sorted it into the parts you can use.
+Jessi Jean, quick facts.
+ Everything below comes from her own posts and sites. Money figures are her own claims.
+Yap Challenge:
+ her course is called Yap on Camera. Her site describes it as a 6-week posting challenge: 40 posts in 43 days.
+Website:
+jessijean.com
+ for the challenge, and 
+jessijean.life
+ for her other work.
+Age:
+ in a March 2026 video she calls herself "a 35 year old married person with one kiddo".
+Where to find her:
+ @jessijeanhome on TikTok.
+Start with these 5
+If you only change 5 things after reading this, make it these. Each one is something she teaches, and her own videos lean the same way. The numbers show patterns, not proof: newer videos and bigger audiences push some groups up, which we explain in "How we did it". "Views a day" means a video's total views divided by the days since it was posted, read on 9 November 2026.
+Open with a claim. Say your point as a flat fact about the topic, like "There are certain creators who just have the it factor." Skip the question, the "I think" and the "Can I make this video?". Her videos whose first sentence is a question get 114 views a day. The rest get 205.
+Re-film your best video. She re-recorded her "psychological hacks" video 6 months later, almost word for word. The repost got 410 views a day against 132 the first time, though it was newer and her audience bigger.
+Record 5 takes. In 1 caption she says she has posted 215 times, averages "at least FIVE TAKES per posted video" and has recorded "over 1,075 videos" in 11 months.
+Name what your viewer is too embarrassed to say. Her example for a home creator: skip "how to turn your Pinterest board into reality in five steps" and open with "you avoid having people over at your home because your space, your home, doesn't feel like how you want to be perceived." Videos where she describes the viewer's feelings like this get 240 views a day against 179.
+Put your product inside a story. She names the Yap Challenge in 31 videos, almost never as a pitch. Those get 240 views a day against 155, but her business stories may simply be the ones people want to watch, so don't expect the mention itself to add reach.
+Her voice
+This is the part she cares about most. She calls it trying "to become disgustingly well spoken because I think it's one of the highest paying skills."
+Her rule
+In her words
+Try this
+Speak in cadence
+"speed up certain parts of a sentence and having the restraint to slow down other areas"
+Mark 1 place to slow down and 1 place to pause before you record
+End on a period
+"end my sentences with a period instead of a question mark"
+Say your key line 2 ways, rising and then flat, and keep the flat one
+Talk faster than in real life
+"Talk quicker than you likely do in real life and drop your tone"
+Pick up the pace but lower your pitch, so it sounds sure and not rushed
+Choose a vocal archetype
+"the friend, coach, motivator, educator"
+Decide which one a video needs. She uses the friend most of the time
+Calm down, not up
+"If you're feeling anxious, lower your energy. Take a few deep breaths."
+Skip the hype before you record. Breathe and start lower
+Energy before wording
+"calm, clear, and direct before trying to be clever"
+Fix how you sound before you rewrite the hook
+Watch it back
+"where did my energy drop? Where do I need to slow down"
+Do 5 takes and note where each one loses energy
+Use your voice off camera
+She talks to "people at the checkout line"
+Start small conversations in daily life. It is practice too
+She learned the practice habit as an intern at a Denver TV station, watching anchors warm up their voices before going live. Her point is that charisma on camera is "a set of very learnable skills", and the professionals rehearse.
+Her scripts
+Her rule
+In her words
+Try this
+No intro
+"Cut out your intros. Get straight to the point. This isn't foreplay."
+Delete your first sentence and see if the video still makes sense. It usually does
+Talk to 1 person
+"stop saying, hey, guys… You are talking to this person right here"
+Say "you", never "everyone". She says "hey guys" in 0 of 93 videos
+Leave a gap
+"explain yourself and your point like 80% of the way"
+Leave 1 thing unsaid so people add it in the comments
+Write it yourself
+"stop using AI to write your scripts. You sound like a robot"
+Use AI for ideas and tightening, then say it in your own words
+Use notes
+"sticky notes all around my phone"
+Notes and a teleprompter are fine. Record 1 point per take if you need to
+Be clear first
+"stop trying to be impressive and focus on just trying to be clear"
+Make 1 point per video
+Open loops
+"open loops within a single video and across multiple videos"
+Name the next episode. Her videos that do get 240 views a day against 179
+Her lists are spoken out loud: "Number one… No. 2… No. 3." She uses them in 19 videos and they hold up well, at 248 views a day against 188 for the rest. Lists work for her because each point is short and comes with an example. Her Mother's Day list for husbands opens "Number one, it's not about the gift" and goes straight to what to write in the card.
+"Talk to 1 person", from "how to yap on camera like a pro". Video: @jessijeanhome on TikTok. Transcript: ManyScripts.
+What she talks about
+Her rule
+In her words
+Try this
+Describe the viewer's inner world
+"articulating what's going on in somebody's internal world, maybe even better than they can"
+Write down the feeling your viewer would never post about, then open with it
+Say the unsaid
+"Say the shit others are feeling and thinking, but won't say"
+Post 1 opinion a week that people in your niche avoid
+Perspective over facts
+"people don't follow for information, they follow for your perspective"
+Add what you think to every tip you give
+Pick your topics
+"I look at the five to six topics I'm rotating my content around and I just pick one"
+Write your 5 or 6 topics down and stop asking "what should I post today?"
+Know who it helps
+If she can't say who a video helps, she assumes it is bad
+Write 1 line, "this helps \_\_\_ with \_\_\_", before you record
+Share the misses
+"share your shortcomings and your failures, cause that's gonna help build trust"
+Put 1 thing that went wrong next to every win
+Be specific
+"the internet pays for specific insight"
+Swap "I work in HR" for "three red flags in interviews that nobody talks about"
+Document
+Gary Vee's "don't create content. Document the journey."
+Film the thing you are working on this week
+Her clearest example of the first rule is about hooks. A home creator could open with "how to turn your Pinterest board into reality in five steps." She suggests this instead: "you avoid having people over at your home because your space, your home, doesn't feel like how you want to be perceived." The second line names something people feel and don't say, and that is when, in her words, "now I'm locked in."
+4 of her rules, quoted from "my entire content strategy in 60 seconds". Video: @jessijeanhome on TikTok. Transcript: ManyScripts.
+How often she posts
+Her rule
+In her words
+Try this
+Post daily
+"My commitment was to post once a day and just see what the hell could happen"
+Commit to a daily post for a set number of days, such as 40
+Permission to be bad
+"I'm allowed to suck so bad for an entire year"
+Lower your own bar on purpose for the first months
+Break the freeze
+"you gotta throw up a shit post"
+When you are stuck, post something rough just to move again
+Change format, keep the pace
+She rotates "yaps… carousels, voice over vlogs" and whiteboard videos
+Switch formats when an idea runs dry
+Repost your best
+"Repost your outliers… every 90 days"
+Re-film your top video. Her repost did better than the original, though it was newer and her audience bigger
+Watch less advice
+"maybe stop watching so many how to videos and just post more?"
+Watch fewer tutorials and spend the time posting
+Remove the audience you fear
+"just start new accounts and block them"
+If friends and family are why you don't post, block them for now
+Her follow rule did not show up in her numbers. She ends 11 videos with "feel free to follow along", and those get fewer views a day, 163 against 197. The line may still win follows, but it doesn't seem to help a video travel.
+Fear and comments
+37 of her 93 videos name a feeling like fear, cringe or overwhelm. She handles it with the same few tools, again and again.
+The 90-year-old test
+She asked herself "what will your 90 year old self regret more?" Then she wrote a pros and cons list for staying in her old job and for starting to post. "Embarrassment" and "judgment" were the cons of posting. Written down, the answer became "very clear very quickly".
+High visibility, low emotional access
+She wants to be seen by as many people as possible and to care about the opinions of very few: family, friends and paying clients. For everyone else, "silence is a completely acceptable response."
+Don't become the hero
+When a post does well, she tries not "to become a hero in my own mind", because then a flop hurts twice as much. In 1 month she lost 6,000 followers and gained 47,000, and she says she tries not to read much into either.
+Fear as a signal
+Before her first keynote she cried while practising in front of her family. Her takeaway: "instead of viewing fear as a stop signal, I've gotten into the habit of seeing it as a growth signal."
+Views into a business
+Several videos explain how she went from $7,000 to $9,000 a month to a $7.5 million launch. The steps are specific enough to copy at a small scale.
+A video about yapping went viral on 21 February. 4 days later she posted a follow-up with a waitlist, before she had a product.
+She read her comments and DMs to decide what to build. "You basically fed me the idea for the Yap Challenge."
+She launched cheaply. She had spent $3,300 when doors opened, then hired help only after $106,000 came in on day 1.
+She kept asking her audience. In 1 video she put 792 answers to "when do you stop liking a creator?" into an AI tool and shared the results.
+The top reason people gave for unfollowing, at 28%, was a creator who "does nothing but sell." That fits how she sells: the challenge comes up inside stories, and the hard pitch is rare. Her other piece of business advice is to start an email list "even if it's your first day on social media."
+Be certain in the first line
+She teaches that "conviction and certainty is contagious", yet hedges like "I think", "I genuinely think", "maybe", "probably" or "I don't know if" appear in 68 of her 93 videos. In the body of a video that doesn't seem to matter much: her top fifth hedges 4.1 times per 1,000 words and her bottom fifth 4.6. In the opening the gap is bigger.
+Her first 2 sentences
+Videos
+Views a day
+Total views
+Median age
+Contain a hedge ("I think…", "I don't know if…")
+21
+155
+22,200
+207 days
+No hedge
+72
+215
+24,850
+164 days
+Start with "I" or "my"
+17
+132
+22,400
+183 days
+Don't start with "I" or "my"
+76
+220
+24,550
+164 days
+End the first sentence with a question mark
+11
+114
+20,600
+187 days
+Don't
+82
+205
+25,250
+164 days
+Medians, views read on 9 November 2026. The hedged and question openers are older, so they have had more time to collect total views and still have fewer. On total views the gap is about 10 to 20%, smaller than on views a day, because views a day favours newer videos. Question marks come from the transcript's punctuation, which may not always match how she says the line.
+A hedged opener and a point-first opener, with views a day. Video: @jessijeanhome on TikTok. Transcript: ManyScripts.
+Her strongest openers are flat claims about the topic, with no question, no hedge and no "I" up front, such as "There are certain creators who just have the it factor." and "Most creators talk at people and never learn how to articulate what's happening inside someone." Once the point is out, she thinks out loud as much as she likes. There are exceptions: "This is my entire content strategy in 60 seconds. I don't know if it'll work for you" hedges in its second sentence and still got 1,377 views a day.
+Why it feels like she's talking to you
+She says she wants a viewer to feel "like you just pulled up to my house and we're shooting the shit." Her word choices show how she gets there, and some of them go against common advice.
+She saves "you" for the end
+Part of the video
+"you" or "your" per 100 words
+First 2 sentences
+1.6
+First third
+2.2
+Middle third
+3.0
+Last third
+4.3
+Overall she talks about herself more than about the viewer: 6.4 "I", "my" or "me" per 100 words against 4.2 "you". But the "you" builds as the video goes on. By the last third she says it almost 3 times as often as in her opening.
+Here is what that looks like. Her "it factor" video starts with the topic and no "you": "There are certain creators who just have the it factor." The middle explains how magnetic people talk. The last lines are all about the viewer: "So if you're currently in a place where you hate the sound of your own voice, you hate the way you show up on camera, know that the way that you speak is a habit."
+Think of a stranger who walks up and opens with "You need to fix your hooks." It feels like a sales pitch. A friend tells you what they noticed first, and only then says "you should try this." She talks like the friend.
+Her "it factor" video: no "you" in the first line, 6 in the last lines. Video: @jessijeanhome on TikTok. Transcript: ManyScripts.
+"We" and "our brain"
+In 8 videos she puts herself in the same group as the viewer: "we know total revenue does not equal net profit, so let's talk about expenses", "our brain loves people who make information easy to process". Those 8 get 383 views a day against 186, though 8 videos is a small group and several are money videos, which do well anyway. "Our brain" makes a lesson about how people work, so nobody is being told they are doing it wrong.
+She talks like a peer
+Word choice
+Example
+Videos
+Views a day, with vs without
+Peer names
+"fellow entrepreneurs, I see you", "Homies"
+5
+222 vs 191
+A swear word
+"throw up a shit post"
+38
+223 vs 170
+"The truth is" before a confession
+"And the truth is, this entire time, I've been scared shitless."
+11
+218 vs 179
+Small groups and small gaps. These describe how she talks, not tricks that add views.
+She also picks casual words where an expert would be formal: "shooting the shit with a friend", "I'm a course hoe", "geeked", "Hell no". When a commenter told her that clearer enunciation would make her sound more polished, she answered on camera: "I'm actually not trying to come across polished."
+She leaves the stumbles in
+Her scripts are full of restarts like "Um, okay, hold on". In one caption she explains why: "I didn't edit this video because I want you to see where I stumble over my words…(super normal)." A stumble tells the viewer this is a person talking right now and not a script being read. It also shows nervous viewers that they could do it too.
+"Okay, listen"
+3 videos open the way a friend starts a real conversation, with "Okay" or "Listen": "Okay, this is an honest chat about how I've been feeling…". They average 527 views a day, but 3 videos is far too few to read anything into. Try it and see.
+What did worse
+Several popular ways of "talking to the viewer" did worse for her.
+Trick
+Example
+Videos
+Views a day, with vs without
+Opening with "If you…"
+"If you are nosy, I'm gonna go over…"
+6
+157 vs 209
+A "you" scene
+"You make a video, it gets 200 views, your cousin sees it…"
+5
+125 vs 211
+Opening on where she is
+"Good morning. I'm in Chicago."
+5
+125 vs 205
+Each group is only 5 or 6 videos, so treat this as a pattern to test, not a finding. They lean the same way, though: lines that announce "I'm talking to you" do worse than lines that let the viewer feel they are overhearing a real conversation. The "you" scene is a surprise, because it is exactly what she teaches. It may work better in the middle of a video than as the hook.
+What she does but doesn't teach
+These habits run through her videos, but she doesn't teach them in the 93 we read.
+Her lessons show the lesson
+Her video telling you to cut your intro has no intro. It opens "How to yap on camera like a pro part 2. No. 1 stop over explaining yourself." You learn the skill by watching her do it while she explains it.
+She sounds sure but keeps her status low
+The second reason people unfollow in her survey, at 18%, is a creator who stops feeling real, including one who "replaces curiosity with certainty and starts to act like an expert." So she speaks with conviction and keeps saying "I'm not a content guru" and "I'm not an expert." The 11 videos where she lowers herself like this get 248 views a day against 179.
+She admits she is nosy
+"I'm nosy, I like this kind of content" and "I'm an open book" come before her money talk. Admitting she is nosy gives viewers permission to be nosy too, so the numbers read like gossip, not bragging. These 8 videos average 388 views a day against 186, though they are mostly money videos, which do well on their own.
+She puts the small number next to the big one
+She rarely says a big number alone. In one video: "in April of this year, I made seventy five hundred dollars on social media… And then between may and June… we did 6.7 million." The small figure makes the large one believable. Videos with an exact money figure get 232 views a day against 179.
+She answers doubts before anyone raises them
+"If you don't believe it, I get it." "I'm not an overnight success." "This post is probably gonna flop."
+She lets her body show
+She stretches her pregnant back during the "honest chat", mentions the "red spots on my chest, on my arms, from the nerves", and says she is out of breath. These details make her feel real without her having to claim it.
+She builds a vocabulary and repeats it
+Her phrase
+Times in 93 videos
+"career confused"
+19
+"cringe" (and "climb cringe mountain")
+17
+"reps"
+11
+"the art of a damn good yap"
+7
+"nervous system", "it factor"
+6 each
+The problem words (cringe, career confused) are things her viewers feel. The fix words (reps, "learnable skills") are what she sells. "The art of a damn good yap" is also the name of her masterclass, so the product name lives inside her everyday speech.
+Her audience writes her next videos
+"What would you want to hear me talk about?" "Drop your questions." She asks for comments in 27 videos, which get 240 views a day against 188, and the answers turn into later videos and in 1 case into the Yap Challenge itself.
+She also names the people she learns from. In 1 video she points to Shelby Sapp: "It is so obvious to me why 25 year old Shelby Sapp is making tens of millions… she speaks with such a level of confidence and conviction." We read Shelby's scripts next.
+Her 9 months
+When
+What she mostly talked about
+Feb to Apr
+Being career confused at 35, furniture flips, money as a couple, AI and kids
+Apr to May
+How to yap on camera (13 of her 16 May videos, by our topic sort)
+June
+Launch numbers, often filmed as they happened
+Jul to Nov
+Pregnancy, the decisions behind $7.5 million, round 3 of the challenge
+Her best videos by views a day, leaving out the ad and 1 reaction to a podcast clip, show the same mix: telling her mum the launch did $1.2 million (1,009 comments, the most of any video here), a Mother's Day list for husbands, hitting $1 million "an hour and 12 minutes" after doors opened, the "honest chat" about how $7.5 million feels, and "my entire content strategy in 60 seconds". Newer videos have an edge on this measure, so treat the order loosely.
+A Jessi Jean TikTok template
+Built from her rules and her best openers. Read it out loud, then record 5 takes.
+State the point as a fact: "[Your claim]."
+Name who it is for and what they feel: "If you [the thing they would never post about]…"
+Prove it with your own story, small number first, then the big one.
+Teach it in 3 to 5 numbered points, each with 1 example. If it's a story, tell it in order with dates.
+Lower your status in 1 line: "I'm not an expert, this is just what worked for me."
+Open a loop: "I'll break down [the next part] in the next video."
+End on a stance or 1 real question for the comments.
+Get the script from any video in seconds.
+ Paste a link into the 
+ManyScripts transcript tool
+ and get the full spoken script as text, the creator's caption, and the numbers where the platform shows them, like views, likes and comments. It works on 
+TikTok
+, 
+Instagram Reels
+, 
+YouTube videos and Shorts
+, 
+Facebook
+, 
+X
+, 
+LinkedIn
+, 
+Bluesky
+ and 
+RedNote
+. 1 video a day is free with no account, 5 a day with a free account. With Pro, 
+Bulk
+ takes up to 100 links at once and returns every script in one file.
+How we did it
+We listed her newest 100 public TikToks on 9 November 2026 and ran every link through ManyScripts. 6 had no speech of her own (music or song lyrics). We also left out 1 paid partnership with Chime. It had a like rate of 0.59% against her usual 6.24% and 5.3 million views, far outside her normal pattern, so we treated it as an unusual sponsored post. We can't tell from outside TikTok how much of its reach was paid. That leaves 93 videos. Views, length and dates come from TikTok's public listing. Views a day means views divided by days since posting, and every comparison uses medians.
+Views a day favours newer videos. A video gets most of its views in its first days, and her audience grew all year. Her topics also changed over time, so some gaps between groups may partly come from when those videos were posted.
+A few videos include other people talking (a podcast clip she reacts to, a TV interview, her family), and their words are in the counts. 1 creator, 1 platform, 1 snapshot. The numbers show what she does and how those videos did, not what caused the views. With this many comparisons across 93 videos, some gaps will be chance, and we've marked the small groups. Quotes are short excerpts used for commentary, and money figures are her own claims. ManyScripts is not affiliated with Jessi Jean or the Yap Challenge.
+What next
+5 yap script templates inspired by Jessi Jean
+: her 5 strongest video types as fill-in scripts, each with an AI prompt you can copy.
+How to yap like Jessi Jean on Instagram
+: our read of 10 of her Reels, with her first lines and the shape of a Jessi yap.
+How to yap
+: 84 talking-head Reels from 17 creators, and what their scripts share.
+Yap script templates
+: 7 more fill-in scripts from top talking-head creators.
+Ready to try it?
+Go from video to usable text.
+Turn a TikTok URL into clean, editable text.
+Try TikTok Transcript 
+Next up
+Keep reading
+All articles
+How to Yap Like Shelby Haas on TikTok (We Read 83 of Her Scripts)
+We read 83 TikTok scripts from Shelby Haas (@diaryofasalesgirl) of SheSells Academy: her openers, her sales rules, and why her videos spread.
+Read next 
+We Analysed 113 Jessica Carter TikToks. Here's What Her View Data Reveals.
+We read all 113 of Jessica Carter's TikToks in order. Five stages of her views, the series she never names, how she picks the next post, and what to copy.
+Read next 
+How to Write a Script Like Shelby Haas: Hooks, Words and 10 Templates
+10 fill-in TikTok scripts from Shelby Haas (@diaryofasalesgirl): her hooks ranked by views, her favourite words, and a tested AI prompt for each.
+Read next 
+All articles
+ Put this guide into practice
+Turn a TikTok URL into clean, editable text.
+Works with TikTok, Instagram, YouTube, Facebook, X, LinkedIn (beta), Bluesky and RedNote.
+Try TikTok Transcript

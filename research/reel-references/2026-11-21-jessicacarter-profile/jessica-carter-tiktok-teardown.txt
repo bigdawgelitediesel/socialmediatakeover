@@ -1,0 +1,392 @@
+/description/canonical/OG here on purpose: react-helmet-async
+ sets all of those per page, so there is exactly one of each in the
+ rendered/prerendered HTML (a static 
+ here would duplicate it). -->
+We Analysed 113 Jessica Carter TikToks: What the Data Shows
+We Analysed 113 Jessica Carter TikToks. Here's What Her View Data Reveals.
+TikTok
+12 min read
+Published 
+16 October 2026
+ · Updated 
+7 November 2026
+ · ManyScripts
+Try TikTok Transcript 
+Free to try. No account needed.
+TLDR:
+We read all 113 of Jessica Carter's TikToks in order. Five stages of her views, the series she never names, how she picks the next post, and what to copy.
+In this guide
+1. What Happened to Her Views?
+2. What Changed at Each Turn?
+3. What Series Does She Run Without Naming Them?
+4. How Does She Pick What to Post Next?
+5. How Does She Say It?
+6. What Moved Her Views?
+7. What Is Her "It" Factor?
+5 Things Creators Can Learn From Jessica Carter
+Methodology
+ Put this guide into practice
+Turn a TikTok URL into clean, editable text.
+Works with TikTok, Instagram, YouTube, Facebook, X, LinkedIn (beta), Bluesky and RedNote.
+Try TikTok Transcript 
+TL;DR: Her views didn't explode overnight. Editing tutorials helped lift her typical reach. Public sales updates pushed it further. And one video brought in 6.5 million views.
+One of Jessica Carter's TikToks reached 6.5 million views. That's roughly 69% of the total views in our dataset.
+Her typical views tell a more useful story than that one video.
+For weeks, Jessica posted daily talking videos with relatively modest views. Then she started showing people how she edited those videos.
+Her median views rose from 4,410 during the daily talking stage to 16,050 during her editing series. During her course launch, they climbed to 51,650.
+We used ManyScripts to analyse 113 TikToks published between May 12 and October 13, 2026. We reviewed 31,209 words from 71 talking videos, looking at her opening lines, repeated phrases, content series and audience reactions.
+Jessica has reported more than $700,000 in course sales over roughly three weeks. These are self-reported gross figures, not independently verified earnings.
+Here's what we found about the content behind her growth, and what other creators can learn from it.
+Her own monthly income reports, read out to camera:
+Month
+Social media income
+May
+$234.03
+June
+$286.72
+July
+$6,683.93
+August
+$313,274.79
+1. What Happened to Her Views?
+Two flat months, a step, a spike, and a cool down. Her first 37 posts never reached 20,000 views. When she started daily talking videos on June 9, views went 
+down
+ while likes per view more than doubled. The step came on July 9 with "how I edit my yaps, part 1." The peak came with her course launch. By October she is back near 10,000 a post.
+Each dot is one post with view data (105 of 113; the other 8 are music-only posts with no view data, see Methodology). The line across each stage is its median. Log scale.
+Stage (posts)
+Median views
+Likes per view
+New on TikTok, May 12 to Jun 8 (11)
+7,227
+1.4%
+Daily yaps, Jun 9 to Jul 8 (30)
+4,410
+3.4%
+Editing series, Jul 9 to Aug 20 (38)
+16,050
+3.5%
+Launch, Aug 21 to Sep 11 (18)
+51,650
+2.5%
+Cool down, Sep 12 to Oct 13 (16)
+11,900
+3.4%
+Make this chart for any creator.
+ Paste their video links into 
+Bulk Mode
+ and get every transcript with its views and likes in one batch. A free account can run a batch from its 5-a-day allowance; Pro takes up to 100 links at a time.
+2. What Changed at Each Turn?
+One clip from each stage: a May trend post, her first yap, edit part 1, her husband's reaction and the messy bun video. Screenshots: TikTok, 2026.
+New on TikTok (median 7,200).
+ A generic mom account: trends, a baby clip, a birthday montage, a "boy mom's house" joke and two paid ads. Only 2 of 11 posts are real talking videos. Her early videos had a median of around 7,200 views, but relatively few viewers liked them. She was getting reach without much visible interaction.
+Daily yaps (median 4,400).
+ She joins Jessi Jean's yap challenge and talks to camera almost every day (21 of 30 posts). She starts "Starting From Scratch" and the monthly income reports. Reach falls, but likes per view jump to 3.4%. The content is about her, so it only travels to people who already care.
+my views are technically lower right now than they used to be and yet my account is growing more than it literally ever has.
+Editing series (median 16,000).
+ "Here's exactly how I edit my talking head reels, aka my yaps. Part 1." It gets 55,400 views, 12 times her old median. Her early videos were mostly about her life. The editing tutorials offered something different: a skill other creators could use immediately. That's when her typical views started rising. Her floor rises too: the weakest post here (5,700) beats the stage 2 median. From July 13 every caption carries "DM me INTERESTED" for a course waitlist.
+Launch (median 51,600).
+ Every post passes 20,000. Each one updates the total: $50k in 24 hours, $70k, $150k, $313k. Then her husband guesses the last day's sales on camera and gets 
+6.5 million
+ views. That video accounts for 69% of the measured views in our dataset. It works like a game show, with a number, a guess and a reaction. It needs no context, so it travels to strangers. Likes per view drop to 2.5% as those strangers watch and move on.
+Cool down (median 11,900).
+ The scoreboard stops moving. Posts turn to post-launch thoughts, a PR haul, faith, a messy bun tutorial and a waitlist for her next product. The August income recap still reaches 46,300, so the scoreboard is still her strongest format. October posts get 5,000 to 12,000: about 2.5 times her June level, but the peak is over.
+What she did
+What happened to reach
+Trends and b-roll
+Relatively modest views, few likes per view
+Talked to camera daily, about herself
+Down, but engagement up 2.4x
+Taught a skill other creators want
+Up 3.6x, engagement held
+Sold it in public with live numbers
+Up 3.2x, then 6.5M
+Stopped reporting numbers
+Down 4.3x, engagement back up
+Each stage made the next one possible. The flat month of daily yaps got people asking "how do you edit?" The editing series gave her something to sell, and the sale gave her a scoreboard.
+Want to analyse another creator like this?
+We used ManyScripts to turn video links into transcripts and collect performance data. You can start with one TikTok for free, or use Bulk Mode to compare multiple videos.
+Try one TikTok free 
+Use Bulk Mode
+3. What Series Does She Run Without Naming Them?
+She names two series out loud: "Starting From Scratch" (episodes 1 to 6) and "How I edit my yaps" (parts 1 to 6). The series that pulled the most views have no name at all.
+The income report
+Same opener every month: "I'm about to show you my [month] income report." Same five categories in the same order. Same joke for the empty ones: "goose egg." These get the most comments per view of anything she posts. In August she replayed her own May clip and said, "Well, that aged quite well."
+Same corner, same opener, a bigger number each month. Screenshots: TikTok, 2026.
+Report
+Views
+Income she reported
+May
+9,452
+$234.03
+June
+5,536
+$286.72
+July
+43,800
+$6,683.93
+August
+46,300
+$313,274.79
+The May detail: affiliate $11.93 ("We're building people"), brand deal $100, UGC $0 ("goose egg").
+Read her income report word for word.
+ Paste any of these TikToks into the 
+TikTok transcript generator
+ to get the full script. One video a day is free with no account.
+The running scoreboard
+From July to September almost every video opens by updating a number. The follower numbers are her Instagram numbers.
+July:
+ +7,000 overnight (Jul 10), doubled in 48 hours (Jul 11), +27,000 (Jul 22), +30,000 (Jul 29).
+August, before launch:
+ +40,000 (Aug 18), 3,000 on the waitlist (Aug 19), 55,000 total (Aug 20).
+Launch:
+ $50k in 24 hours (Aug 22), $70k (Aug 23), $150k (Aug 25), $313k (Aug 28), her husband guesses on Aug 30 (6.5M views).
+After:
+ half a million (Sep 10), $585k (Sep 11), $700k (Sep 16), +190,000 followers (Sep 24).
+some of you have been watching this like your favorite Netflix series, and you want the final numbers
+Sequels without a label
+First video
+The sequel
+Jul 8: "Going viral does nothing to grow a true community."
+Jul 15: "I lied to you, and I need to make it right."
+Jul 24: bloopers of her tagline, "make a lot of freaking money"
+Jul 24: a reply to a viewer's message about money and faith
+Oct 3: "Apparently my messy bun is a marketing scheme."
+Oct 6: a messy bun tutorial, because people asked
+May 26: "Stop snoozing your alarm."
+Sep 16: her $700k story, rewound to "January 5th… stop hitting snooze"
+Aug 28: she reads the launch totals (295k views)
+Aug 30: same totals, her husband guessing (6.5M)
+Why it works without a label
+A pilot line for strangers
+ (23 of 71 videos): "If you're new here, I'm Jessica, stay at home mom to three boys…" A stranger is never lost.
+A "previously on" for regulars:
+ "So far in this series we've covered trimming, text, keyframes…" A regular gets the thread back.
+A "next time" for everyone
+ (13 of 71 videos): "In the next video I'll cover…" Everyone has a reason to return.
+4. How Does She Pick What to Post Next?
+Instead of guessing what her audience wanted, Jessica used their questions to guide her next videos. In 21 of the 71 talking videos, she mentioned being asked about a topic.
+They asked
+She posted (views)
+"How do you edit?"
+"How I edit my yaps," parts 1 to 6 (13k to 55k)
+"Do you use AI for scripts?"
+"How I use AI without sounding like AI" (60.6k)
+"Do you use a teleprompter?"
+A teleprompter tip (15.4k)
+"How are you doing it all?"
+"I'm not. Nobody's doing it all." (6.0k)
+"What should my digital product be?"
+"I am not your girl." (16.1k)
+"How did you get here?"
+The snooze-button origin story (15.4k)
+Three answers to questions from her comments. Screenshots: TikTok, 2026.
+Five habits sit behind the calendar:
+A spike gets a sequel.
+ Edit part 1 hit 55,400. The next day: "I just grew 7,000 followers overnight from one video and here's why that matters for you."
+Gauge, then build.
+ The "INTERESTED" waitlist ran 5 weeks before launch. "I didn't choose the product. I just allowed my audience to choose it for me."
+Each series becomes a product.
+ A Trello board in a Scratch episode became a $9 template. The editing series became a $37 to $67 course. The launch videos became a launch workshop, with 9,000 on the waitlist before she picked a format.
+A soft post after a hard sell.
+ After "last call," Peter walking on water. After a launch video, the parable of the talents. Her faith posts have lower median views, but remain a recurring part of her content.
+Once a day, six days a week.
+ 113 posts in 155 days, median gap 1 day. Most go up in the early afternoon, US Central time, which is her kids' nap time.
+Read any creator's whole profile as text.
+ Paste a TikTok link into the 
+TikTok transcript generator
+, or pull a full profile with 
+Bulk Mode
+ the way we did here. One video a day is free with no account.
+5. How Does She Say It?
+Six kinds of first line she uses, with her own examples:
+Result plus "you"
+ (17 of 71 first lines have a number): "I just grew 7,000 followers overnight from one video and here's why that matters for you."
+The process promise
+ (8 times): "Here's exactly how I edit my talking head reels, aka my yaps."
+Contrarian:
+ "Niching down is the worst advice on the internet and I am done following it."
+Confession:
+ "I lied to you, and I need to make it right."
+Hate turned into a hook:
+ "I have been called a scammer, a liar, apparently I'm a cult leader now."
+Small numbers, said with a joke:
+ "Eleven dollars and ninety three cents. We're building people."
+Three openings with the title she puts on screen. Screenshots: TikTok, 2026.
+Phrases she repeats
+Phrase
+Videos (of 71)
+"stay at home mom"
+35
+"three boys"
+28
+"comment / DM me [word]"
+25
+"if you're new here"
+23
+honest, vulnerable, unfiltered
+23
+asked, begged, peer pressured
+21
+God, Lord, Jesus
+21
+"follow along"
+21
+"thank you for being here"
+20
+"non techy"
+17
+"next video", "coming up"
+13
+"freaking"
+12
+"not a content coach"
+9
+Find the phrases a creator repeats.
+ Pull their scripts with 
+Bulk Mode
+, then search the text for the lines they say again and again.
+Six habits in how she talks
+An approachable style.
+ She doesn't present herself as a marketing expert with all the answers. She shares what she's learning, shows how she does it and makes the process feel achievable. She calls herself "non techy" in 17 videos and "not a content coach" in 9.
+Faith.
+ Faith is a recurring part of Jessica's content. She often links her business milestones to gratitude and her beliefs, so the updates read as part of her life story.
+The ask is one word.
+ "Comment interested" 12 times, "comment launch" 4 times. "Buy" is never the ask.
+A diary that turns at the end.
+ "I" 3.7 times per 100 words, "you" 2.2. Our Instagram yap set from October 3 was the reverse (you 4.9, I 2.6). Her lessons come out of her story: "Here's what I want you to hear."
+Fast and prompted.
+ 245 words a minute, about 415 words, about 1 minute 45. She uses a teleprompter and says so. Scripts are drafted with Claude, then rewritten in her voice.
+Same set every day.
+ Corner of the bed, window light, lamp behind, messy bun, T-shirt. Chosen to lower the "barrier to entry" and make her space easy to recognize.
+Five videos over three months, filmed in the same spot. Screenshots: TikTok, 2026.
+Want to analyse a creator like this?
+Search for a creator in ManyScripts, select the videos you want to study, and extract their transcripts, captions and performance data. Export everything to CSV to compare hooks, recurring topics and views.
+Explore Creator Mode 
+6. What Moved Her Views?
+Median views by type of post. Reach came from how-to with receipts. Faith and mom life kept her human but did not travel on TikTok.
+Type of post (count)
+Median views
+Launch updates (16)
+47,350
+Editing tips outside the series (4)
+46,150
+Editing series parts (6)
+26,950
+Income reports (4)
+26,626
+Paid ads (4)
+12,746
+Music and trends (23)
+10,900
+Growth reflections (14)
+9,442
+Mom life, hauls (16)
+7,172
+Faith (12)
+5,796
+Starting From Scratch (6)
+5,778
+7. What Is Her "It" Factor?
+Five things working together:
+Receipts, down to the cent.
+ She posted the $234 month on purpose, "the video that most people have lived and nobody wants to post." When $313k came, four months of footage backed it.
+One step ahead, not ten.
+ Non-techy, nap time, messy bun, teleprompter. A peer who figured out one thing is who people buy a cheap course from.
+The audience are co-authors.
+ They asked, she built, they watched the numbers live. Buying meant joining the story: "all of you refreshing my page every other second."
+Money told as testimony.
+ Faith lets her post a big number without sounding out of touch, and gives viewers a reason to pass it on.
+Borrowed momentum, passed on.
+ She rode Jessi Jean's yap challenge and credits her again and again, then sells the same feeling back: "maybe mine is supposed to be that for you."
+5 Things Creators Can Learn From Jessica Carter
+1. Lower views don't always mean your content is getting worse.
+ Her median views initially fell when she started talking to camera, but likes per view increased.
+2. Teach something people can use.
+ Her editing tutorials coincided with a much bigger lift in typical views than her personal updates.
+3. Let your audience help choose your content.
+ Questions about editing, AI and teleprompters became videos people had already shown interest in.
+4. Give people a reason to return.
+ Monthly income reports, recurring updates and follow-up videos made her account feel like an ongoing story.
+5. Don't confuse one viral video with a repeatable strategy.
+ One clip accounted for roughly 69% of the measured views. The more useful insights come from looking at the median performance across dozens of posts.
+The lesson is to understand which parts of your content people respond to, what questions they keep asking, and what makes them return.
+We built ManyScripts to make it easier to study videos as text, compare the data and find patterns you might otherwise miss.
+Want to see how other creators talk to camera? Read 
+How to Yap
+ and 
+How to Yap on TikTok
+.
+Next: 
+Part 2
+, how she built a course on top of a challenge.
+Methodology
+What we analysed.
+ All 113 public TikToks on @the.jessicacarter, posted between May 12 and October 13, 2026. We collected them on October 14, 2026 with ManyScripts Bulk Mode, which returns each video's transcript, caption, upload date, length, views, likes, comments and shares.
+What we could read.
+ 105 of the 113 videos returned full data. The other 8 are music-only posts with no speech. Our batch could not read them, so they have no transcript and no view data. They count toward the post totals in the stage table, but not toward any median, the chart or the 69% figure.
+Talking videos.
+ We call a video a "talking video" if it has at least 150 spoken words. 71 videos meet that bar, for 31,209 words in total. The first lines, repeated phrases and the "asked about a topic" count (21 of 71) all come from these 71 transcripts. A phrase counts once per video, however often she says it in that video.
+Stages.
+ We split her timeline into five stages at four turning points:
+Stage
+Dates
+Starts with
+New on TikTok
+May 12 to Jun 8
+Her first posts
+Daily yaps
+Jun 9 to Jul 8
+Her first daily talking video
+Editing series
+Jul 9 to Aug 20
+"How I edit my yaps, part 1"
+Launch
+Aug 21 to Sep 11
+Her course launch
+Cool down
+Sep 12 to Oct 13
+The end of her launch updates
+How we measured performance.
+Median views:
+ the middle value of all posts with view data in a stage. We use the median so that one viral video doesn't skew the picture.
+Likes per view:
+ likes divided by views.
+Share of views:
+ a video's views divided by the total views of the 105 measured posts. That's how we got 69% for the husband reaction video (6.5 million of about 9.5 million).
+Content types.
+ We read each video and gave it one main type, such as launch update, editing tutorial or faith. Some videos fit more than one, so these groups are our judgement, not a fixed rule. The content-type table covers the 105 posts with view data.
+Her own numbers.
+ Income, sales, buyers, waitlist sizes and follower counts are Jessica's own figures, from her videos and captions. They are gross and not independently verified. We can't see refunds, fees or costs. She corrected one launch total herself after counting PayPal sales twice. The follower counts she quotes are from Instagram, which we did not analyse.
+Limits.
+View counts are a snapshot from October 14. Recent posts had less time to collect views.
+We only looked at TikTok. She also posts on Instagram, where her audience and results may differ.
+Some groups are small (four income reports, four paid ads), so treat the differences as patterns, not proof.
+These numbers show what happened alongside what. They don't prove that one thing caused another.
+Transcripts are machine-made and can contain small errors.
+Pictures.
+ The screenshots come from her public TikToks and are used for commentary. ManyScripts is not affiliated with Jessica Carter, and all quotes are short excerpts.
+Ready to try it?
+Stop guessing what makes a video work. Study the scripts.
+Extract the spoken words, compare opening lines and look for patterns across videos. ManyScripts helps you turn content into data you can actually analyse.
+Analyse a Video for Free 
+Next up
+Keep reading
+All articles
+How to Yap Like Shelby Haas on TikTok (We Read 83 of Her Scripts)
+We read 83 TikTok scripts from Shelby Haas (@diaryofasalesgirl) of SheSells Academy: her openers, her sales rules, and why her videos spread.
+Read next 
+How to Yap Like Jessi Jean on TikTok (We Read 93 of Her Scripts)
+We read 93 of Jessi Jean's TikTok scripts and checked about 40 of her own rules against what she says: her voice, her first lines, and why it feels personal.
+Read next 
+How to Write a Script Like Shelby Haas: Hooks, Words and 10 Templates
+10 fill-in TikTok scripts from Shelby Haas (@diaryofasalesgirl): her hooks ranked by views, her favourite words, and a tested AI prompt for each.
+Read next 
+All articles
+ Put this guide into practice
+Turn a TikTok URL into clean, editable text.
+Works with TikTok, Instagram, YouTube, Facebook, X, LinkedIn (beta), Bluesky and RedNote.
+Try TikTok Transcript 
+Get the words from any TikTok
+Turn a TikTok URL into clean, editable text.
+Try it free 
+Free to try. No account needed.
