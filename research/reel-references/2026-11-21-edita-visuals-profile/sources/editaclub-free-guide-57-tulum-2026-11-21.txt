@@ -1,0 +1,149 @@
+ 
+ Free guide · Podcast edit · Edita Club 
+ Free guide · Podcast edit · Opus 5.5 
+ Podcast edit.
+ Built in code. 
+ Claude Opus 5.5 built this whole edit in code: the name tags, the b-roll, the split screens, the pills, the herb chips, the sound. No After Effects. The raw clip, the finished edit and the prompts are below, free.
+ Want Claude to make you an edit like this in 30–45 minutes? 
+ Join Edita Club. No code. No After Effects. Just Claude.
+ Join now → 
+ One-time payment · Lifetime access
+ members already inside 
+ Before you start 
+ What you need
+ 1 Claude with Opus 5.5 + Claude Code
+ the desktop app or the VS Code extension. Claude Code is what lets it run code, Chrome and ffmpeg on your computer, not just talk about it 
+ 2 The files → download them below
+ raw.mp4 (the raw podcast clip) and reference.mp4 (the finished edit). Put both in one empty folder 
+ 3 Open that folder in Claude Code
+ so Claude can see the files and run the edit there 
+ 4 Paste Prompt B to get this exact edit
+ Claude copies reference.mp4 onto raw.mp4, shot by shot. Prompt A is for the same style on your own clip later 
+ 5 Prompt C makes the before/after post
+ the raw clip in black and white next to the finished edit, like in the reel 
+ 6 Give notes, one round at a time
+ specific ones: "the pill comes in late", "the caption covers her mouth" 
+ The effect, second by second 
+ How the edit works
+ 1. The name tag Her name slides in from the left, the big peach word lands as she says it. 
+ 2. The b-roll Stills slide right to left under a rust gradient, the key words sit in a rust pill. 
+ 3. The split Her on the bottom, a still on top, the chips pop in on her words. 
+ 4. The herb chips One chip per herb, each one pops in as she names it. 
+ 0 After Effects, Premiere or templates
+ 19 shots in 24 seconds
+ 2 accent colours, rust and terracotta
+ 3 prompts: copy it, your clip, the before/after
+ 0.0–2.3 s The hook Close-up of her, the shot zooms out from 115 % to 100 %, a white silhouette of her flashes on frames 1, 3 and 5 with a glitch click. The name tag Sienna Moreno ✓ Herbalist slides in from the left. "I think" small, right now big in peach with a rust pill "wellness", then "is in a really" and INTERESTING on a rust bar that wipes open.
+ 2.3–4.3 s The problem Full-screen b-roll: two stills slide right to left, a rust gradient at the bottom, a fine scanline, the whole frame stepped at 14 fps. A red "!" icon, "And sort of" and the pill PRECARIOUS PLACE .
+ 4.3–6.9 s The shelves Three more cuts (shelves, supplements, a hand with red capsules) under one caption that grows word by word: "WHERE WE'RE / ON THE VERGE OF / LOSING THE PLOT".
+ 6.9–10.1 s The split White canvas, two rounded panels: her side view on top, the second guest below with her own tag Leila Hart ✓ Author . "THE POINT IS TO BE" thin, HEALTHY AND WELL heavy, "RIGHT?".
+ 10.1–13.9 s The chips The top panel cuts through four stills of pills and capsules while she stays on the bottom. "! Not necessarily to", then the chips + Consume and + Over consume pop in on her words.
+ 13.9–17.9 s The big words Back on her: "There is an" and HERB FOR EVERYTHING on a rust bar, "So • for" and anxiety huge in cream with two frosted-glass "!" tiles, then "some of the best are" and NERVE VINES .
+ 17.9–23.9 s The herbs Seven plant stills, a dark green gradient, "✦ Lavender is a perfect example" and one white chip per herb as she names it: Chamomile, Valerian, Kava, Rose, Passion flower.
+ The files 
+ The raw clip and the finished edit
+ Downloads 
+ raw.mp4 the raw podcast clip, 16:9 · 10 MB 
+ Download 
+ reference.mp4 the finished edit, the one you copy, 1080x1920 · 16 MB 
+ Download 
+ Prompt B · copy this edit 1:1 
+ Paste this with the files in the folder
+ Prompt B Copy 
+ Copy the edit of reference.mp4 onto my clip raw.mp4, 1:1. Same shots, timing, layout, fonts, colours, motion and sound. 1080x1920, 30 fps. Build it in code: every shot is an HTML/CSS/JS page that headless Chrome renders frame by frame (Playwright), ffmpeg for the audio and the final encode. No After Effects.
+1. Split reference.mp4 into shots (every cut is a hard cut). For each shot write REF.md: what is on screen, frame by frame, with every number measured from the frames, never guessed : positions and sizes in px, fonts (match by x-height and letter shapes), colours sampled from the frame, when each word appears, how it moves and on what curve.
+2. Transcribe raw.mp4 with word timestamps and line my sentences up with the reference shots. Cut only in real pauses. Never stretch the voice.
+3. raw.mp4 is 16:9 with two speakers. For every speaker shot, crop 9:16 on the speaker with the same framing as the reference. One still crop per shot, no fake camera moves. The only move is the zoom-out on the first shot.
+4. B-roll: for every b-roll shot find a free still of the same subject (Pexels, Unsplash) and frame it the same way. Never cut images out of the reference.
+5. Build one shot at a time. Render it next to the reference frame for frame, write DIFF.md (every difference, worst first), fix, compare again. Move on only when the shot matches.
+6. Graphics (name tags, pills, bars, chips, the glass tiles): rebuild them clean and sharp at full resolution.
+7. Sound: the reference's whooshes, clicks and the glitch on the same frames, a quiet bed under the voice, master around -14 LUFS.
+8. Finish with a side-by-side (reference left, mine right) and a per-frame motion check so nothing jitters. Don't ask me questions, show me the result.
+ Prompt A · your own clip 
+ The same style on your footage
+ Prompt A Copy 
+ You are my video editor. Edit raw.mp4 (my podcast or talking clip, 16:9, 20-30 s) into a 1080x1920, 30 fps reel in the style below. Build every shot as an HTML/CSS/JS page that headless Chrome renders frame by frame (Playwright), ffmpeg for the audio and the final encode. No After Effects, no Premiere, no timeline editor.
+ First: transcribe raw.mp4 with word timestamps (Whisper), then write the beat plan: for every sentence, which shot it gets (speaker full screen, full-screen b-roll or split screen) and the exact second it starts. A b-roll or a split every 2-4 s, never more than 4 s on a talking head. Show me the plan before you render anything. What I talk about: [my topic, my offer].
+ STYLE (warm and editorial)
+- Colours: rust #A24A24 and terracotta #C77136 for every accent, peach #ECA572 or cream #E1D1BB for one big word, warm white #FBF8F3 for captions, red #DD3C37 only for the "!" icons.
+- Type: Inter for the captions (small lowercase lines, thin caps lines, heavy caps lines), Bebas Neue for the big accent words.
+- Text zone: captions only between y 950 and 1410, at least 51 px from the left and 58 px from the right. Nothing in the top half on full-screen shots.
+1. Speaker shots: the footage untouched, a black gradient over the bottom third. The first shot zooms out from 115 % to 100 % and flashes a white silhouette of me on frames 1, 3 and 5 with a glitch click.
+2. Name tag on the first frame of every speaker: dark tag at 68 % opacity, white name, small role under it, a blue verified badge, slides in from the left.
+3. Every caption word slides in from 29 px on the right with a circ.out ease. 1-3 lines per page and one accent per page: a rust pill, a Bebas word on a rust bar that wipes open from the left, or one big peach or cream word.
+4. Full-screen b-roll: free stills that slide right to left from the cut, a rust gradient at the bottom, a fine scanline, the whole b-roll run stepped at about 14 fps. One caption with a red "!" icon and a rust pill spans the whole run and grows word by word.
+5. Split screen: white canvas, two rounded panels (radius 22), me on the bottom, b-roll or the other speaker on top, the caption in the top panel.
+6. Lists: when I name things, one white chip per item with a terracotta "+" circle, popping in from below as I say it.
+7. A big feeling word ("anxiety"): cream and huge, with two frosted-glass "!" tiles tilted 12 degrees.
+ MOTION RULES 
+- Hard cuts only, no dissolves. Nothing animates out: everything leaves on the cut.
+- Pills slide in 54 px from the side with a small spring. Bars wipe open with an expo ease.
+- One accent per page, never two.
+ AUDIO A whoosh on every cut between speaker and b-roll, a double click on cuts inside a b-roll run, a quiet bed 15 dB under the voice, master around -14 LUFS.
+ QC Export a still of every shot. Check no text covers a mouth or leaves the text zone, check every caption against the word timestamps, then render final.mp4.
+ Prompt C · the before/after post 
+ Raw footage next to the edit
+ Prompt C Copy 
+ Make the before/after post from raw.mp4 and final.mp4. 1440x2560 (9:16), 60 fps, the sound of final.mp4.
+1. Background: off-white with a few soft, blurred peach brush strokes.
+2. Left: a small rounded card with raw.mp4 in black and white, cropped to the same framing as the edit and playing in sync with it. A dark label "Raw footage" with a red dot on top of it.
+3. Right, overlapping it: the big rounded card with final.mp4 in colour and a soft shadow. A dark pill "Opus 5.5" with a small orange starburst icon on top of it.
+4. Under the cards, centred: 'Follow & comment "OPUS"' with "OPUS" in orange, and "for the full guide" on the second line.
+5. Everything is on screen from the first frame. Show me a still every second first, then export reel.mp4, H.264 + AAC.
+ What makes it hit 
+ Four things we learned
+ 1 Something new every 2-4 seconds.
+ A b-roll, a split or a new caption page. Never more than 4 seconds on a talking head. 
+ 2 Two warm accents.
+ Rust and terracotta only, everything else warm white. The whole reel reads like one brand. 
+ 3 One accent per page.
+ A pill, a bar or one big word. Never two at once. 
+ 4 Show the raw next to it.
+ The before/after card is what makes people stop: they see exactly what Claude started from. 
+ What people inside are saying 
+ Real messages from members in our Skool. Tap any card to see the original.
+ Not technical? “Most I like that the lessons are short and clear, I just do one step after the other and it works. I am not technical at all so this was very important for me”
+ Lena Collins Member · Skool DM View ↗ 
+ Worried about Claude limits? “what I like most is I'm not burning my Claude limits anymore. before I wasted half my usage going back and forth explaining what I want, now I paste the prompt and it gets it first try”
+ Dylan Ward Member · Skool DM View ↗ 
+ Will it really copy the style? “it copied the captions the zooms the cuts EVERYTHING on my footage”
+ Evan Ellis Member · Skool DM View ↗ 
+ No time to edit? “a reel that took me 4 hours last week was done in 20 min. went to the gym in between lol”
+ Matteo Romano Member · Skool DM View ↗ 
+ Old computer? “it runs on my old laptop. renders a bit slower but it works, i was scared i needed a new pc for this”
+ Luka Novak Member · Skool DM View ↗ 
+ Is it worth $29? “just one day but already worth the $29. watched 4 lessons last night, couldn't stop”
+ Alex Novak Member · Skool DM View ↗ 
+ What if I get stuck? “This is the least I can do. The results are excellent, and the support team is always quick to respond. Honestly, this course is a great opportunity for anyone who wants to improve their skills and achieve outstanding results.”
+ Wael Haddad Member · Skool DM View ↗ 
+ Will it do the work for me? “Edita Visuals has been a huge help with my video projects, and their support is great! It handles most of the work and gives me a solid foundation. I still make some tweaks myself, but it makes the whole process so much easier.”
+ Ellen Carter Member · Skool DM View ↗ 
+ Is it easy to follow? “Honestly, the course is amazing! 🔥 It’s really easy to follow and put into practice. The lessons are super short, just a few minutes each, and everything is demonstrated clearly with real examples, without any long or unnecessary explanations. Everything is straight to the point, which makes learning really enjoyable and effective! The implementation is simple and quick, and the results are really impressive. I’m very happy with the course and would definitely recommend it! 🙏”
+ Abbas Khorsh Member · Skool DM View ↗ 
+ 294 people inside our Skool Screenshot of our Skool group View ↗ 
+ See Edita Club → One-time payment · Lifetime access
+ × 
+ Skip the trial and error.
+ Get the tools we used. 
+ EDITA BRAIN: our Claude's rules and fixes
+ The exact references + the exact prompts
+ 21 courses, 54 lessons + The Playbook
+ Every new lesson, included
+ See Edita Club → One-time payment · Lifetime access
+ Questions
+ What will I learn to make? You'll learn how to edit short-form and long-form videos, and also how to create videos for SaaS companies, all using just Claude.
+ Can I copy any edit I want onto my own footage? Yes. Pick any reference edit you like and recreate it with Claude on your own A-roll: your footage or your client's footage, not the clip from the reference. We have a whole module dedicated to exactly this. It works whether you edit for clients or you're building your own brand.
+ Why doesn't my Claude edit like yours? Because we spent five months perfecting our videos with Claude. We pay more than $600 a month for Claude, and all we do is create and edit videos with it. That's how we perfected the process. Inside the Skool you get our Claude's brain, so yours edits like ours.
+ What do I need to start? Just Claude. Nothing else.
+ How much of my Claude usage does one edit take? Will I hit my limit? It depends on the style and length of the video. But you can create plenty of videos before hitting your limit, because we show you all our tips on how to save credits while you work.
+ Do I need Premiere, After Effects, CapCut or code? No. No editing software and no coding. You copy our prompts and paste them into Claude. Claude writes and runs the code that edits your video for you.
+ I've never edited a video. Can I still do this? Yes. You don't edit anything by hand. You give Claude your clip, paste the prompt, and give notes like "make the captions bigger". If you can write a message, you can do this.
+ Do I need an expensive computer? No. Any normal Mac or Windows laptop that runs Claude works. On an older one, renders just take a bit longer.
+ How fast will I get my first edit? An edit takes Claude about 30–45 minutes. You can have your first one done the day you join.
+ Is it worth $29? Can I really get paid with this? You pay $29 once. We show you exactly how we use Claude to edit for our own clients, so you can offer the same edits. What you earn depends on you. We don't promise income, but we give you the exact system we use.
+ What if I get stuck? Is there any support? Yes. You have the admin you can talk to. Just DM him privately on Skool and he'll help you.
+ Is it monthly? No. You pay $29 once and keep it forever, including every new lesson we add.
+ How do I pay? How do I get in? With PayPal or with your debit or credit card. You don't need a PayPal account to pay by card. After you pay, you get the link to our Skool group. Request to join with the email you paid with, and we let you in.
+ See Edita Club → 
+ © 2026 Edita Club · @edita.visuals · editaclub.com · Refund policy 
+Claude is a product of Anthropic. Edita Club is not affiliated with Anthropic.

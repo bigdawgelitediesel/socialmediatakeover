@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edita Club</title>
+<meta name="description" content="Copy any edit you love onto your own footage with Claude. 59 video lessons, 36 Claude skills you download and give to your Claude, plus the references, raw clips and prompts behind every edit on @edita.visuals. $29 once, lifetime access.">
+<meta property="og:title" content="Edita Club">
+<meta property="og:description" content="Copy any edit you love onto your own footage with Claude. $29 once, lifetime access.">
+<meta property="og:image" content="vid/pair_lara.jpg">
+<link rel="icon" href="img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root { --red:#D90000; --text:#0E0E0E; --muted:#6B6B6B; --line:#EAEAEA; --soft:#FAFAFA; --green:#22C55E; }
+* { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body { font-family:Inter, system-ui, sans-serif; background:#fff; color:var(--text); line-height:1.55; -webkit-font-smoothing:antialiased; overflow-x:hidden; -webkit-tap-highlight-color:transparent; }
+img, video { display:block; max-width:100%; }
+.narrow { max-width:640px; margin:0 auto; padding:0 22px; }
+.wide { max-width:1040px; margin:0 auto; padding:0 22px; }
+section { padding:76px 0; }
+.bt { border-top:1px solid var(--line); }
+h1, h2 { font-weight:800; letter-spacing:-.035em; line-height:1.08; text-align:center; text-wrap:balance; }
+h2 { font-size:clamp(28px, 3.4vw, 40px); }
+.eyebrow { display:block; text-align:center; font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
+.lead { text-align:center; margin:14px auto 0; max-width:520px; color:var(--muted); font-size:17px; text-wrap:balance; }
+.red { color:var(--red); }
+
+/* the ONE action, repeated after every block */
+.cta { margin-top:34px; text-align:center; }
+.buy { display:flex; align-items:center; justify-content:center; gap:10px; width:100%; max-width:380px; margin:0 auto; background:var(--text); color:#fff; text-decoration:none; font-weight:800; font-size:17px; letter-spacing:-.01em; min-height:58px; padding:16px 24px; border-radius:14px; box-shadow:0 14px 30px -14px rgba(0,0,0,.45); transition:background .2s, transform .15s; }
+.buy:hover { background:#2a2a2a; }
+.buy:active { transform:scale(.985); }
+.cta small { display:block; margin-top:11px; font-size:13px; font-weight:500; color:var(--muted); }
+
+/* 1. hero */
+.hero { padding:22px 0 0; text-align:center; }
+.logo { height:22px; margin:0 auto 46px; }
+.callout { display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--red); background:#FFF1F1; border-radius:999px; padding:7px 13px; margin-bottom:18px; }
+.hero h1 { font-size:clamp(33px, 4.6vw, 56px); max-width:860px; margin:0 auto; }
+.hero h1 .red { white-space:nowrap; }
+.hero .sub { margin:18px auto 0; font-size:18px; color:var(--muted); max-width:540px; text-wrap:balance; }
+.proof { display:flex; align-items:center; justify-content:center; gap:10px; margin-top:16px; }
+.faces { display:flex; }
+.faces img { width:28px; height:28px; border-radius:50%; border:2px solid #fff; margin-left:-8px; object-fit:cover; background:#eee; }
+.faces img:first-child { margin-left:0; }
+.proof p { font-size:13.5px; font-weight:500; color:var(--muted); }
+.proof b { color:var(--text); }
+.proof b.rise-top { display:inline-block; margin-top:4px; color:var(--red); font-weight:800; }
+.dot { display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--green); margin-right:6px; vertical-align:1px; }
+.quote { margin:28px auto 0; max-width:500px; padding:16px 20px; border:1px solid var(--line); border-radius:16px; background:var(--soft); text-align:left; }
+.quote q { display:block; font-size:16px; font-weight:600; line-height:1.45; quotes:"\201C" "\201D"; }
+.quote q mark { background:linear-gradient(transparent 60%, rgba(217,0,0,.14) 60%); color:inherit; }
+.quote small { display:flex; align-items:center; gap:8px; margin-top:9px; font-size:12.5px; color:#8A8A8A; font-weight:500; }
+.quote small img { width:22px; height:22px; border-radius:50%; }
+
+/* marquee of the reels live on our page */
+.marq { margin-top:44px; overflow:hidden; position:relative; }
+.marq::before, .marq::after { content:""; position:absolute; top:0; bottom:0; width:40px; z-index:2; pointer-events:none; }
+.marq::before { left:0; background:linear-gradient(90deg, #fff, rgba(255,255,255,0)); }
+.marq::after { right:0; background:linear-gradient(270deg, #fff, rgba(255,255,255,0)); }
+.track { display:flex; gap:12px; width:max-content; animation:slide 70s linear infinite; will-change:transform; }
+.track figure { position:relative; width:168px; aspect-ratio:9/16; border-radius:14px; overflow:hidden; background:#111; border:1px solid var(--line); flex:none; }
+.track video { width:100%; height:100%; object-fit:cover; }
+@keyframes slide { from { transform:translate3d(0,0,0); } to { transform:translate3d(-50%,0,0); } }
+@media (prefers-reduced-motion:reduce) { .track { animation:none; } }
+.marq-cap { margin-top:14px; text-align:center; font-size:13.5px; font-weight:600; color:var(--muted); padding:0 22px; }
+/* hero: what's inside, in numbers */
+.hstats { display:flex; justify-content:center; flex-wrap:wrap; gap:8px; margin-top:16px; }
+.hstats span { font-size:13px; font-weight:700; letter-spacing:-.005em; border:1px solid var(--line); border-radius:999px; padding:6px 12px; background:#fff; white-space:nowrap; }
+.hstats span.hi { color:var(--red); background:#FFF1F1; border-color:#F6D4D4; }
+
+/* claude skills */
+.sk-card { max-width:460px; margin:32px auto 0; border:1px solid var(--line); border-radius:18px; overflow:hidden; background:#fff; box-shadow:0 30px 70px -40px rgba(0,0,0,.35); text-align:left; }
+.sk-vid { display:flex; align-items:center; gap:14px; padding:16px 18px; background:var(--soft); border-bottom:1px solid var(--line); }
+.sk-play { flex:none; width:40px; height:40px; border-radius:50%; background:var(--text); display:flex; align-items:center; justify-content:center; }
+.sk-vid small, .sk-dl small { display:block; font:600 11px/1.3 "JetBrains Mono", monospace; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+.sk-vid b { display:block; margin-top:3px; font-size:16px; font-weight:800; letter-spacing:-.02em; line-height:1.25; }
+.sk-dl { display:flex; align-items:center; gap:12px; padding:14px 18px 16px; }
+.sk-dl svg { flex:none; }
+.sk-dl b { display:block; margin-top:3px; font:600 13.5px/1.3 "JetBrains Mono", monospace; letter-spacing:-.01em; overflow-wrap:anywhere; }
+#skills .steps { margin-top:26px; }
+@media (max-width:600px) { #skills .step { padding:14px 18px 14px; } #skills .step h3 { margin-top:6px; font-size:17px; } #skills .step p { margin-top:3px; } }
+.sk-dl small { color:#157A43; }
+.sk-dl em { margin-left:auto; flex:none; font-style:normal; font-size:13px; font-weight:800; color:#fff; background:var(--red); border-radius:999px; padding:7px 13px; }
+.sk-tags { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin:26px auto 0; max-width:600px; }
+.sk-tags span { font-size:13px; font-weight:600; background:var(--soft); border:1px solid var(--line); border-radius:999px; padding:6px 11px; }
+.sk-tags span.more { background:var(--text); color:#fff; border-color:var(--text); }
+
+/* 2. problem */
+.pains { list-style:none; margin-top:32px; display:grid; gap:12px; }
+.pains li { border:1px solid var(--line); border-radius:16px; padding:18px 20px; background:#fff; }
+.pains li b { display:block; font-size:17px; letter-spacing:-.02em; line-height:1.3; }
+.pains li span { display:block; margin-top:5px; font-size:15px; color:var(--muted); }
+.pains li.top { border-color:#0E0E0E; box-shadow:0 14px 34px -22px rgba(0,0,0,.4); }
+.verdict { margin-top:30px; text-align:center; font-size:22px; font-weight:800; letter-spacing:-.03em; line-height:1.28; text-wrap:balance; }
+
+/* 2b. before -> with edita club */
+.ba { list-style:none; margin-top:30px; display:grid; gap:14px; }
+.ba li { border:1px solid var(--line); border-radius:18px; overflow:hidden; background:#fff; }
+.ba .was { padding:18px 20px 16px; }
+.ba .now { padding:14px 20px 16px; background:#F3FBF5; border-top:1px solid #DCEFE2; }
+.ba small { display:block; font:600 11px/1 "JetBrains Mono", monospace; letter-spacing:.1em; margin-bottom:8px; }
+.ba .was small { color:#9a9a9a; }
+.ba .now small { color:#157A43; }
+.ba b { display:block; font-size:17px; letter-spacing:-.02em; line-height:1.3; }
+.ba .was span { display:block; margin-top:5px; font-size:15px; color:var(--muted); }
+.ba .now b { font-size:16px; }
+/* 3. mechanism: reference vs Claude */
+.pair { margin:34px auto 0; max-width:560px; }
+.pair-labels { display:grid; grid-template-columns:1fr 1fr; margin-bottom:10px; }
+.pair-labels span { text-align:center; font:600 12px/1.3 "JetBrains Mono", monospace; letter-spacing:.08em; }
+.pair-labels em { display:block; font:800 15px/1.2 Inter, sans-serif; letter-spacing:-.01em; font-style:normal; margin-top:4px; color:var(--text); }
+.pair-labels span:last-child em { color:var(--red); }
+.pair-labels span:last-child { color:var(--red); }
+.pair video { width:100%; aspect-ratio:720/640; object-fit:cover; border-radius:18px; border:1px solid var(--line); background:#111; box-shadow:0 30px 70px -36px rgba(0,0,0,.5); }
+.pair p { margin-top:12px; text-align:center; font-size:13.5px; color:var(--muted); }
+.steps { display:grid; grid-template-columns:repeat(3, 1fr); gap:12px; margin-top:34px; counter-reset:s; }
+.step { border:1px solid var(--line); border-radius:16px; padding:20px 20px 18px; background:var(--soft); }
+.step::before { counter-increment:s; content:"0" counter(s); font:600 12px/1 "JetBrains Mono", monospace; letter-spacing:.1em; color:var(--red); }
+.step h3 { margin-top:10px; font-size:19px; font-weight:800; letter-spacing:-.03em; }
+.step p { margin-top:5px; font-size:14.5px; color:var(--muted); }
+
+/* 4. proof (same cards as live) */
+.tmx-card { display:block; background:#fff; border:1px solid #EAEAEA; border-radius:18px; cursor:zoom-in; box-shadow:0 1px 2px rgba(0,0,0,.03); transition:transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s; }
+.tmx-card:hover { transform:translateY(-3px); box-shadow:0 18px 40px -16px rgba(0,0,0,.14); }
+.tmx-tag { display:block; font-size:11px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:#D90000; }
+.tmx-who { display:flex; align-items:center; gap:12px; }
+.tmx-who img { width:36px; height:36px; border-radius:50%; flex:none; object-fit:cover; background:#eee; }
+.tmx-who b { display:block; font-size:14px; font-weight:700; line-height:1.25; color:#0E0E0E; }
+.tmx-who small { display:block; font-size:12px; font-weight:500; color:#8A8A8A; }
+.tmx-foot { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+.tmx-see { font-size:12px; font-weight:600; color:#8A8A8A; white-space:nowrap; flex:none; }
+.t2-card { font:inherit; text-align:left; color:inherit; display:flex; flex-direction:column; }
+.t2-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; margin-top:34px; align-items:stretch; }
+.t2-grid .t2-card { padding:20px 20px 16px; }
+.t2-grid .t2-card p { margin-top:10px; flex:1; font-size:15px; line-height:1.55; color:#2B2B2B; }
+.t2-grid .tmx-foot { margin-top:16px; padding-top:12px; border-top:1px solid #F0F0F0; }
+.t2-sk { display:flex; align-items:center; gap:16px; max-width:420px; margin:22px auto 0; padding:12px 16px 12px 12px; background:#FAFAFA; border:1px solid #EAEAEA; border-radius:16px; font:inherit; color:inherit; text-align:left; cursor:zoom-in; width:100%; }
+.t2-sk img { width:60px; height:auto; border-radius:8px; border:1px solid #EAEAEA; flex:none; }
+.t2-sk b { display:block; font-size:17px; font-weight:800; letter-spacing:-.02em; line-height:1.2; }
+.t2-sk small { display:block; margin-top:3px; font-size:13px; font-weight:500; color:#6B6B6B; }
+.t2-sk .tmx-see { margin-left:auto; }
+.tmx-dlg { border:0; padding:0; background:transparent; max-width:min(92vw, 680px); max-height:90vh; margin:auto; overflow:visible; }
+.tmx-dlg::backdrop { background:rgba(14,14,14,.6); backdrop-filter:blur(6px); }
+.tmx-dlg img { display:block; max-width:min(92vw, 680px); max-height:82vh; width:auto; height:auto; border-radius:16px; background:#fff; }
+.tmx-dlg figcaption { margin-top:12px; text-align:center; font-size:13px; color:#eee; }
+.tmx-x { position:absolute; top:-14px; right:-10px; width:38px; height:38px; border-radius:50%; border:0; background:#fff; color:#0E0E0E; font:400 22px/1 Inter, sans-serif; cursor:pointer; display:flex; align-items:center; justify-content:center; padding:0 0 2px; box-shadow:0 6px 20px rgba(0,0,0,.25); }
+
+/* 5. offer: the stack, then the price */
+.stack { list-style:none; margin:30px auto 0; max-width:560px; border-top:1px solid var(--line); }
+.stack li { display:flex; gap:14px; padding:16px 0; border-bottom:1px solid var(--line); }
+.stack li svg { flex:none; margin-top:3px; }
+.stack b { display:block; font-size:16.5px; letter-spacing:-.015em; line-height:1.3; }
+.stack span { display:block; margin-top:2px; font-size:14.5px; color:var(--muted); }
+.ls { margin-top:34px; }
+.ls-top { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:14px; }
+.ls-top h3 { font-size:19px; font-weight:800; letter-spacing:-.02em; }
+.ls-new { display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600; background:#EEF8F1; color:#157A43; border-radius:999px; padding:6px 12px; }
+.ls-new i { width:7px; height:7px; border-radius:50%; background:var(--green); display:block; }
+.ls-track { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:12px; margin:0 -22px; padding:4px 22px 12px; scrollbar-width:none; }
+.ls-track::-webkit-scrollbar { display:none; }
+.ls-shot { flex:0 0 min(78%, 300px); scroll-snap-align:center; margin:0; border-radius:16px; overflow:hidden; border:1px solid var(--line); background:#F8F7F5; }
+.ls-shot img { width:100%; height:auto; }
+.ls-hint { text-align:center; font-size:13px; font-weight:600; color:var(--muted); margin-top:2px; }
+.rise { display:inline-block; margin:0 auto 18px; font-size:13px; font-weight:800; letter-spacing:.02em; color:#fff; background:var(--red); border-radius:999px; padding:7px 14px; }
+@media (min-width:861px) { #join .narrow { max-width:1040px; } #join .stack, #join .fit, #join .offer, #join h2 { max-width:640px; margin-left:auto; margin-right:auto; }
+  #join .courses { margin:0; padding:4px 0 14px; gap:14px; }
+  #join .course { flex:0 0 calc((100% - 28px) / 3); scroll-snap-align:start; } #join .ls-hint { display:none; } }
+/* lessons carousel: arrows on phone and desktop */
+.ls-wrap { position:relative; }
+.ls-arr { position:absolute; top:50%; transform:translateY(-50%); z-index:3; width:46px; height:46px; border-radius:50%; border:1px solid var(--line); background:#fff; box-shadow:0 8px 24px rgba(0,0,0,.14); display:flex; align-items:center; justify-content:center; cursor:pointer; padding:0; transition:opacity .2s; }
+.ls-arr svg { width:20px; height:20px; }
+.ls-arr.prev { left:-12px; } .ls-arr.next { right:-12px; }
+.ls-arr[disabled] { opacity:0; pointer-events:none; }
+@media (max-width:860px) { .ls-arr { width:40px; height:40px; } .ls-arr.prev { left:-6px; } .ls-arr.next { right:-6px; } }
+@media (min-width:861px) { .ls-arr.prev { left:-23px; } .ls-arr.next { right:-23px; } }
+.fit { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:34px; }
+.fit > div { border:1px solid var(--line); border-radius:16px; padding:20px; }
+.fit h3 { font-size:16px; font-weight:800; letter-spacing:-.02em; }
+.fit ul { list-style:none; margin-top:8px; }
+.fit li { padding:9px 0; border-bottom:1px solid var(--line); font-size:15px; display:flex; gap:11px; line-height:1.45; }
+.fit li:last-child { border:0; }
+.fit .no { background:var(--soft); }
+.fit .no li::before { content:"✕"; color:#9a9a9a; font-weight:700; flex:none; }
+.fit .yes li::before { content:"✓"; color:#157A43; font-weight:800; flex:none; }
+.offer { margin-top:40px; border:2px solid var(--text); border-radius:22px; padding:34px 26px 28px; text-align:center; box-shadow:0 30px 70px -40px rgba(0,0,0,.35); }
+.price { font-size:72px; font-weight:800; letter-spacing:-.05em; line-height:1; }
+.once { color:var(--muted); font-size:15px; margin:10px 0 16px; }
+.anchor { display:grid; gap:6px; max-width:400px; margin:0 auto 22px; }
+.anchor b { color:var(--red); }
+.anchor .ai { text-align:left; font-weight:500; line-height:1.5; padding:12px 14px; }
+.anchor .ai b { font-weight:700; }
+.anchor div { font-size:13.5px; font-weight:600; background:var(--soft); border:1px solid var(--line); border-radius:10px; padding:9px 12px; }
+.pp { max-width:380px; margin:0 auto; min-height:110px; }
+.final { max-width:380px; margin:10px auto 0; font-size:11px; color:#a8a8a8; }
+.final a, footer a { color:inherit; }
+.seats { margin-top:20px; padding-top:18px; border-top:1px solid var(--line); font-size:13px; font-weight:600; color:var(--muted); display:flex; align-items:center; justify-content:center; gap:10px; flex-wrap:wrap; }
+.seats i { width:6px; height:6px; border-radius:50%; background:var(--red); display:block; }
+
+/* all lessons, as real text */
+.courses { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:12px; margin:0 -22px; padding:4px 22px 14px; scrollbar-width:none; }
+.courses::-webkit-scrollbar { display:none; }
+.course { flex:0 0 min(80%, 310px); scroll-snap-align:center; border:1px solid var(--line); border-radius:16px; background:#fff; padding:18px 18px 10px; }
+.course small { font:600 11px/1 "JetBrains Mono", monospace; letter-spacing:.1em; color:var(--muted); }
+.course li.grp { display:block; padding:12px 0 4px; border:0; font:600 11px/1.3 "JetBrains Mono", monospace; letter-spacing:.08em; text-transform:uppercase; color:var(--red); }
+.course { min-height:390px; }
+.course h4 { margin-top:8px; font-size:16px; font-weight:800; letter-spacing:-.02em; line-height:1.3; }
+.course ul { list-style:none; margin-top:10px; border-top:1px solid var(--line); }
+.course li { display:flex; justify-content:space-between; gap:12px; padding:9px 0; border-bottom:1px solid #F1F1F1; font-size:14px; line-height:1.35; }
+.course li:last-child { border:0; }
+.course li i { flex:none; width:18px; height:18px; border-radius:50%; background:#22C55E; position:relative; margin-top:1px; }
+.course li i::after { content:""; position:absolute; left:6px; top:4px; width:4px; height:8px; border:solid #fff; border-width:0 2px 2px 0; transform:rotate(45deg); }
+/* 6. faq */
+.faq { margin-top:30px; border-top:1px solid var(--line); }
+details { border-bottom:1px solid var(--line); }
+summary { font-weight:600; font-size:16px; cursor:pointer; list-style:none; display:flex; justify-content:space-between; gap:16px; padding:18px 0; min-height:58px; line-height:1.4; }
+summary::-webkit-details-marker { display:none; }
+summary::after { content:"+"; font-weight:400; font-size:22px; line-height:1; color:var(--muted); flex:none; }
+details[open] summary::after { content:"–"; }
+details p { margin-top:-4px; padding-bottom:18px; color:var(--muted); font-size:15px; }
+
+/* 7. close + P.S. */
+.close { text-align:center; background:#0E0E0E; color:#fff; border-radius:24px; padding:52px 24px 44px; }
+.close h2 { color:#fff; }
+.close .lead { color:#b9b9b9; }
+.close .buy { background:#fff; color:#0E0E0E; }
+.close .buy:hover { background:#eaeaea; }
+.close .cta small { color:#9a9a9a; }
+.ps { max-width:560px; margin:28px auto 0; font-size:15px; color:var(--muted); text-align:left; }
+.ps b { color:var(--text); }
+
+footer { padding:30px 0 120px; text-align:center; font-size:12px; color:#9a9a9a; border-top:1px solid var(--line); margin-top:70px; line-height:1.7; }
+.bar { position:fixed; left:12px; right:12px; bottom:calc(12px + env(safe-area-inset-bottom)); z-index:9; display:none; }
+.bar .buy { max-width:none; box-shadow:0 12px 30px rgba(0,0,0,.25); }
+
+@media (max-width:860px) {
+  .steps { grid-template-columns:1fr; }
+  .t2-grid { grid-template-columns:1fr 1fr; }
+}
+@media (max-width:600px) {
+  section { padding:60px 0; }
+  .hero h1 { font-size:clamp(32px, 9.2vw, 40px); line-height:1.06; letter-spacing:-.045em; }
+  .hero .sub { font-size:16.5px; }
+  .proof { flex-direction:column; gap:7px; }
+  .track figure { width:132px; border-radius:12px; }
+  .t2-grid, .fit { grid-template-columns:1fr; }
+  .verdict { font-size:21px; }
+  .price { font-size:64px; }
+  .offer { padding:30px 18px 24px; }
+  .close { padding:44px 18px 38px; border-radius:20px; }
+  .bar.show { display:block; }
+}
+</style>
+</head>
+<body>
+
+<!-- 1. HOOK: callout, big promise, one button, proof (Brunson: above the fold) -->
+<header class="hero">
+  <div class="narrow" style="max-width:900px">
+    <img class="logo" src="img/logo.png" alt="Edita Club">
+    <span class="callout">For video editors and creators</span>
+    <h1>Paste our prompts into Claude. Get the same edits you see on <span class="red">@edita.visuals</span></h1>
+    <p class="sub">Copy any edit you love onto your own footage or your client's. No timeline. No After Effects. No code.</p>
+    <div class="cta"><a class="buy" href="#checkout">Join now · $29</a><small>One-time payment · Lifetime access · 24/7 support</small></div>
+    <div class="proof">
+      <div class="faces"><img src="img/t2/matteo-romano-av.webp" alt=""><img src="img/t2/lena-collins-av.webp" alt=""><img src="img/t2/evan-ellis-av.webp" alt=""><img src="img/t2/dylan-ward-av.webp" alt=""><img src="img/t2/luka-novak-av.webp" alt=""></div>
+      <p><span class="dot"></span><b>294 editors and creators</b> already inside</p>
+    </div>
+    <div class="hstats"><span>59 video lessons</span><span>30 modules</span><span class="hi">36 Claude skills included</span></div>
+  </div>
+  <div class="marq" aria-label="Reels from our page"><div class="track" id="track"></div></div>
+  <p class="marq-cap">Every reel above is live on our page. Claude edited all of them.</p>
+</header>
+
+<!-- 4. PROOF: third-party, each card answers one objection -->
+<section id="reviews">
+  <div class="wide">
+    <span class="eyebrow">Real messages from members</span>
+    <h2>What people inside are saying</h2>
+    <div class="t2-grid">
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/evan-ellis.webp" data-name="Evan Ellis"><span class="tmx-tag">Will it really copy the style?</span><p>“it copied the captions the zooms the cuts EVERYTHING on my footage”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/evan-ellis-av.webp" alt=""><span><b>Evan Ellis</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/matteo-romano.webp" data-name="Matteo Romano"><span class="tmx-tag">No time to edit?</span><p>“a reel that took me 4 hours last week was done in 20 min. went to the gym in between lol”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/matteo-romano-av.webp" alt=""><span><b>Matteo Romano</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/dylan-ward.webp" data-name="Dylan Ward"><span class="tmx-tag">Worried about Claude limits?</span><p>“what I like most is I&#x27;m not burning my Claude limits anymore. before I wasted half my usage going back and forth explaining what I want, now I paste the prompt and it gets it first try”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/dylan-ward-av.webp" alt=""><span><b>Dylan Ward</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/lena-collins.webp" data-name="Lena Collins"><span class="tmx-tag">Not technical?</span><p>“Most I like that the lessons are short and clear, I just do one step after the other and it works. I am not technical at all so this was very important for me”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/lena-collins-av.webp" alt=""><span><b>Lena Collins</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/luka-novak.webp" data-name="Luka Novak"><span class="tmx-tag">Old computer?</span><p>“it runs on my old laptop. renders a bit slower but it works, i was scared i needed a new pc for this”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/luka-novak-av.webp" alt=""><span><b>Luka Novak</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/wael-haddad-2.webp" data-name="Wael Haddad"><span class="tmx-tag">What if I get stuck?</span><p>“This is the least I can do. The results are excellent, and the support team is always quick to respond. Honestly, this course is a great opportunity for anyone who wants to improve their skills and achieve outstanding results.”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/wael-haddad-av.webp" alt=""><span><b>Wael Haddad</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/alex-novak.webp" data-name="Alex Novak"><span class="tmx-tag">Is it worth $29?</span><p>“just one day but already worth the $29. watched 4 lessons last night, couldn&#x27;t stop”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/alex-novak-av.webp" alt=""><span><b>Alex Novak</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/ellen-carter-2.webp" data-name="Ellen Carter"><span class="tmx-tag">Will it do the work for me?</span><p>“Edita Visuals has been a huge help with my video projects, and their support is great! It handles most of the work and gives me a solid foundation. I still make some tweaks myself, but it makes the whole process so much easier.”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/ellen-carter-av.webp" alt=""><span><b>Ellen Carter</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="img/t2/abbas-khorsh-2.webp" data-name="Abbas Khorsh"><span class="tmx-tag">Is it easy to follow?</span><p>“Honestly, the course is amazing! 🔥 It’s really easy to follow and put into practice. The lessons are super short, just a few minutes each, and everything is demonstrated clearly with real examples, without any long or unnecessary explanations.”</p><span class="tmx-foot"><span class="tmx-who"><img src="img/t2/abbas-khorsh-av.webp" alt=""><span><b>Abbas Khorsh</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+    </div>
+    <button type="button" class="t2-sk" data-shot="img/t2/skool-members-294-8.webp" data-name="Our Skool group"><img src="img/t2/skool-members-294-8.webp" alt="Edita Club Skool group card"><span><b><span class="red">294 people</span> inside our Skool</b><small>Screenshot of our Skool group</small></span><span class="tmx-see">View ↗</span></button>
+    <div class="cta"><a class="buy" href="#checkout">Join now · $29</a><small>Join 294 editors and creators</small></div>
+  </div>
+  <dialog class="tmx-dlg" id="t2dlg"><button type="button" class="tmx-x" aria-label="Close">×</button><img src="" alt=""><figcaption></figcaption></dialog>
+</section>
+
+<!-- 5. OFFER: the stack, who it's for, then the price (Brunson stack + JC recap → price) -->
+<section class="bt" id="join">
+  <div class="narrow">
+    <h2>Everything you get inside</h2>
+    <ul class="stack">
+      <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2.2"/></svg><div><b>Our Claude, the moment you join</b><span>EDITA BRAIN, our Claude's brain, so your Claude edits like ours from day one.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2.2"/></svg><div><b>36 Claude skills to download</b><span>Every edit we teach comes with its own skill. Give it to your Claude and it edits in that style.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2.2"/></svg><div><b>Copy any edit onto your footage</b><span>We teach you how. A whole module where we show you how to copy any edit you love onto your footage or your client's.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2.2"/></svg><div><b>The references, raw clips and prompts behind our edits</b><span>Paste the prompt and you get the same edit.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2.2"/></svg><div><b>30 modules, 59 video lessons</b><span>Every format on our page, plus our outreach strategy that found us 100+ clients.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2.2"/></svg><div><b>24/7 support on Skool</b><span>Stuck? We're there for you any time.</span></div></li>
+      <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2.2"/></svg><div><b>A new lesson every week</b><span>Pay once. Every lesson we add is yours.</span></div></li>
+    </ul>
+    <div class="ls">
+      <div class="ls-top"><h3>All 63 lessons inside</h3><span class="ls-new"><i></i>New every week</span></div>
+      <div class="ls-wrap"><button type="button" class="ls-arr prev" aria-label="Previous lessons" disabled><svg viewBox="0 0 20 20"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="#0E0E0E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="courses" id="courses"><div class="course"><small>PART 1 OF 11</small><ul><li class="grp">Copy Any Reel With Claude</li><li><span>Module 0 · Set up your Claude</span><i></i></li><li><span>Start here · Your first edit (files included)</span><i></i></li><li><span>Module 1 · Copy any reel 1:1</span><i></i></li><li><span>Module 2 · Templates for a client</span><i></i></li><li><span>Copy any edit onto new footage</span><i></i></li><li><span>Module 3 · Spend fewer credits</span><i></i></li></ul></div><div class="course"><small>PART 2 OF 11</small><ul><li class="grp">Copy Any Reel With Claude</li><li><span>Module 4 · Raw clip to finished edit</span><i></i></li><li><span>Module 5 · Podcast to 10 shorts</span><i></i></li><li><span>Module 6 · Caption styles</span><i></i></li><li><span>Module 7 · Our before/after posts</span><i></i></li><li><span>Module 8 · Get clients</span><i></i></li><li><span>Module 9 · Fix bad footage</span><i></i></li></ul></div><div class="course"><small>PART 3 OF 11</small><ul><li class="grp">Copy Any Reel With Claude</li><li><span>Module 10 · Brand kit per client</span><i></i></li><li><span>SaaS &amp; app ads (the KFC edit)</span><i></i></li><li><span>Bonus · The Playbook (all modules)</span><i></i></li><li><span>Bonus · All our Telegram edits (videos + raw)</span><i></i></li><li><span>Bonus · Our sound effects you can use</span><i></i></li><li class="grp">Edit formats, step by step</li><li><span>Plush Mascot Reels</span><i></i></li></ul></div><div class="course"><small>PART 4 OF 11</small><ul><li class="grp">Edit formats, step by step</li><li><span>Three-Panel Reels</span><i></i></li><li><span>Monitor Room Reels</span><i></i></li><li><span>The Brown Style</span><i></i></li><li><span>Big-Creator YouTube Edits</span><i></i></li><li><span>Clean YouTube Edits</span><i></i></li><li><span>Animated Explainers With Maps</span><i></i></li></ul></div><div class="course"><small>PART 5 OF 11</small><ul><li class="grp">Edit formats, step by step</li><li><span>Podcast Clips People Finish</span><i></i></li><li><span>Talking-Head Reels</span><i></i></li><li><span>3D Laptop Room Reels</span><i></i></li><li><span>Motion Graphics on a Monitor</span><i></i></li><li><span>SaaS Ads From Just a Website</span><i></i></li><li><span>App Promo Videos</span><i></i></li></ul></div><div class="course"><small>PART 6 OF 11</small><ul><li class="grp">Edit formats, step by step</li><li><span>Blender Scenes With Claude</span><i></i></li><li><span>Fresh Scene Ideas</span><i></i></li><li class="grp">Map Reels</li><li><span>How our map reels work</span><i></i></li><li><span>Fly the camera over a real city</span><i></i></li><li><span>Put the route on the real streets</span><i></i></li><li><span>Put it on a monitor or keep it vertical</span><i></i></li></ul></div><div class="course"><small>PART 7 OF 11</small><ul><li class="grp">Laptop Motion Reels</li><li><span>How our laptop reel works</span><i></i></li><li><span>Build the animation on the screen</span><i></i></li><li><span>Put it on your laptop in a real room</span><i></i></li><li class="grp">How We Found 100+ Clients</li><li><span>The outreach system that got us 100+ clients</span><i></i></li><li><span>Let Claude find your next clients</span><i></i></li><li><span>Get the 20 seconds that win them over</span><i></i></li></ul></div><div class="course"><small>PART 8 OF 11</small><ul><li class="grp">How We Found 100+ Clients</li><li><span>Make 10 free edits that sell for you</span><i></i></li><li><span>Send it on Instagram so they can&#x27;t ignore it</span><i></i></li><li><span>Warm up your inbox so emails don&#x27;t hit spam</span><i></i></li><li><span>Write emails that get replies</span><i></i></li><li><span>Turn a reply into a paying client</span><i></i></li><li class="grp">Faceless Brand</li><li><span>Why a faceless brand works</span><i></i></li></ul></div><div class="course"><small>PART 9 OF 11</small><ul><li class="grp">Faceless Brand</li><li><span>One promise, one audience</span><i></i></li><li><span>Set up your profile</span><i></i></li><li><span>Posts that grow the page</span><i></i></li><li><span>Turn comments into fans</span><i></i></li><li><span>Read your numbers</span><i></i></li></ul></div><div class="course"><small>PART 10 OF 11</small><ul><li class="grp">Our edits, step by step</li><li><span>The Ali Abdaal edit: 19 scenes, one clip</span><i></i></li><li><span>You Are Climbing: our AI reel</span><i></i></li><li><span>New Brand Launched: our AI reel</span><i></i></li><li><span>Let Claude Handle the Rest: our AI reel</span><i></i></li><li><span>Make Better Content: our AI reel</span><i></i></li></ul></div><div class="course"><small>PART 11 OF 11</small><ul><li class="grp">Our edits, step by step</li><li><span>Gyms in California: our AI reel</span><i></i></li><li><span>Value, Not Cost: our AI reel</span><i></i></li><li><span>Don&#x27;t Expect the Growth: our AI reel</span><i></i></li><li><span>See The Magic: our SaaS promo</span><i></i></li><li><span>The Netflix story edit</span><i></i></li></ul></div></div><button type="button" class="ls-arr next" aria-label="Next lessons"><svg viewBox="0 0 20 20"><path d="M7.5 4l6 6-6 6" fill="none" stroke="#0E0E0E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+      <div class="ls-hint">Swipe to see all 63 lessons →</div>
+    </div>
+    <div class="offer" id="checkout" style="scroll-margin-top:12px">
+      <span class="eyebrow">Edita Club</span>
+      <div class="price">$29</div>
+      <div class="once">One payment · Lifetime access · Every future lesson included</div>
+      <div class="pp"><div id="paypal-container-DJGHYM632U8NE"></div></div>
+      <div class="final">By purchasing you agree to our <a href="refund.html">Refund Policy</a>.</div>
+      <div class="seats"><i></i>294 members already inside · 24/7 support on Skool</div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. OBJECTIONS -->
+<section style="padding-top:0">
+  <div class="narrow">
+    <h2>Questions</h2>
+    <div class="faq">
+      <details><summary>Can I copy any edit I want onto my own footage?</summary><p>Yes. Pick any edit you like and Claude recreates it on your own A-roll: your footage or your client's. We have a whole module on exactly this.</p></details>
+      <details><summary>Won't AI edits look generic?</summary><p>They do when Claude guesses. That's what EDITA BRAIN fixes: Claude measures a real reference frame by frame instead of "being creative".</p></details>
+      <details><summary>I've never edited a video. Can I still do this?</summary><p>Yes. You give Claude your clip, paste the prompt, and give notes like "make the captions bigger". If you can write a message, you can do this.</p></details>
+      <details><summary>What do I need to start?</summary><p>Just Claude. Nothing else. Any normal Mac or Windows laptop that runs Claude works.</p></details>
+      <details><summary>What are the Claude skills?</summary><p>Every edit we teach comes with a skill file under the lesson video. Download it and give it to your Claude, and it knows that edit: the look, the captions, the timing. Then you just give it your footage. 36 skills inside right now.</p></details>
+      <details><summary>Will I hit my Claude limit?</summary><p>It depends on the style and length of the video, but you can make plenty of videos, because we show you every tip we use to save credits.</p></details>
+      <details><summary>How fast will I get my first edit?</summary><p>An edit takes Claude about 30–45 minutes. You can have your first one done the day you join.</p></details>
+      <details><summary>What if I get stuck?</summary><p>We have 24/7 support on Skool. Message us any time and we help you get it running.</p></details>
+      <details><summary>Is it monthly?</summary><p>No. You pay $29 once and keep it forever, including every new lesson we add.</p></details>
+      <details><summary>How do I pay? How do I get in?</summary><p>With PayPal or with your debit or credit card. You don't need a PayPal account to pay by card. After you pay, you get the link to our Skool group. Request to join with the email you paid with, and we let you in.</p></details>
+    </div>
+    <div class="cta"><a class="buy" href="#checkout">Join now · $29</a><small>One-time payment · Lifetime access</small></div>
+  </div>
+</section>
+
+<!-- 7. CLOSE + P.S. (identity close) -->
+<section style="padding:0">
+  <div class="wide">
+    <div class="close">
+      <h2>Stop editing by hand.</h2>
+      <p class="lead">Join 294 editors and creators who give the work to Claude and keep the result.</p>
+      <div class="cta"><a class="buy" href="#checkout">Join now · $29</a><small>One-time payment · Lifetime access</small></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="narrow">© 2026 Edita Club · @edita.visuals · <a href="refund.html">Refund policy</a><br>Claude is a product of Anthropic. Edita Club is not affiliated with Anthropic.</div>
+</footer>
+<div class="bar"><a class="buy" href="#checkout">Join now · $29</a></div>
+
+<script>
+// marquee: the reels live on our page, twice in a row so the loop is seamless; only on-screen clips play
+(() => {
+  const ids = ["DfpVUtdRMDU","DfoQW85BpwC","DfnZYCxh2Ok","DfmuzAixI85","DfkzkKbRinb","DfkLt6lx73i","DfjXLf2RsHw","DfjGu-UhI0_","DfiO0G2xNhX","DfhooIiJyo9","Dfgh9DiBq6z","DffpMeJRO8L","DffEa6GpJ5e","Dfd697-pHrJ","DfXsKjURpSx"];
+  const tr = document.getElementById("track");
+  tr.innerHTML = [...ids, ...ids].map(i => `<figure><video src="vid/ig_${i}.mp4" poster="vid/ig_${i}.jpg" muted loop playsinline preload="none"></video></figure>`).join("");
+  const io = new IntersectionObserver(es => es.forEach(e => { const v = e.target; if (e.isIntersecting) v.play().catch(() => {}); else v.pause(); }), { threshold: 0.1 });
+  tr.querySelectorAll("video").forEach(v => io.observe(v));
+})();
+// lessons carousel: arrows scroll one card; hidden at the ends
+(() => {
+  const c = document.getElementById("courses"); if (!c) return;
+  const w = c.parentElement, prev = w.querySelector(".prev"), next = w.querySelector(".next");
+  const step = () => { const k = c.querySelector(".course"); return k ? k.getBoundingClientRect().width + parseFloat(getComputedStyle(c).columnGap || 12) : 300; };
+  const upd = () => { prev.disabled = c.scrollLeft < 4; next.disabled = c.scrollLeft + c.clientWidth > c.scrollWidth - 4; };
+  prev.addEventListener("click", () => c.scrollBy({ left: -step(), behavior: "smooth" }));
+  next.addEventListener("click", () => c.scrollBy({ left: step(), behavior: "smooth" }));
+  c.addEventListener("scroll", upd, { passive: true }); window.addEventListener("resize", upd); upd();
+})();
+// member messages: tap to see the original
+(() => {
+  const d = document.getElementById("t2dlg"), im = d.querySelector("img"), cap = d.querySelector("figcaption");
+  document.querySelectorAll(".t2-card, .t2-sk").forEach(c => c.addEventListener("click", () => {
+    im.src = c.dataset.shot; im.alt = "Message from " + c.dataset.name;
+    cap.textContent = c.classList.contains("t2-sk") ? "Our Skool group" : c.dataset.name + " · original message in our Skool";
+    d.showModal();
+  }));
+  d.querySelector(".tmx-x").addEventListener("click", () => d.close());
+  d.addEventListener("click", e => { if (e.target === d) d.close(); });
+})();
+// phone buy bar: hidden while a "Join now" button or the price box is on screen
+(() => {
+  const bar = document.querySelector(".bar"), seen = new Set();
+  const io = new IntersectionObserver(es => { es.forEach(e => e.isIntersecting ? seen.add(e.target) : seen.delete(e.target)); bar.classList.toggle("show", seen.size === 0); });
+  document.querySelectorAll("section .buy, header .buy, #checkout").forEach(el => io.observe(el));
+})();
+</script>
+<!-- PayPal checkout: the same hosted button as live (unchanged) -->
+<script src="https://www.paypal.com/sdk/js?client-id=BAA3mZJSpkXC-hJlTsPuRbDQkrderp4nVIQ1sfHeR38R-Y0BcFMqE9mVXcY4B2IqKyyxI9BDRu6SrxScpU&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<script>try { paypal.HostedButtons({ hostedButtonId: "DJGHYM632U8NE" }).render("#paypal-container-DJGHYM632U8NE"); } catch (e) {}</script>
+<script>
+// unique-visitor counter: random id kept in this browser, sent once per page load (functions/api/v.js)
+try {
+  let id = localStorage.getItem("ec_vid");
+  if (!id) { id = Math.random().toString(36).slice(2, 12) + Date.now().toString(36); localStorage.setItem("ec_vid", id); }
+  navigator.sendBeacon("/api/v", JSON.stringify({ id, path: location.pathname, ref: document.referrer && new URL(document.referrer).hostname }));
+} catch (e) {}
+</script>
+<script>/* funnel clicks -> /api/v (edita-gate worker, 8 Nov) */(function(){try{var id=localStorage.getItem("ec_vid");if(!id)return;var done={};
+function s(ev){if(done[ev])return;done[ev]=1;try{navigator.sendBeacon("/api/v",JSON.stringify({id:id,path:location.pathname,ev:ev}))}catch(e){}}
+document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";
+if(/#checkout$/.test(h)||/^https:\/\/editaclub\.com\/?$/.test(h)||h==="/"||/skool\.com\//.test(h))s("join")},true);
+var box=document.getElementById("checkout");if(box&&"IntersectionObserver" in window){var o=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){s("box");o.disconnect()}})},{threshold:0.3});o.observe(box)}
+window.addEventListener("blur",function(){setTimeout(function(){var el=document.activeElement;if(el&&el.tagName==="IFRAME")s("paypal")},0)})}catch(e){}})();</script><script>/* ec-card-label 20 Nov */(function(){function f(){var b=document.getElementById("checkout-button");if(!b)return;b.childNodes.forEach(function(n){if(n.nodeType===3&&/check\s*out/i.test(n.nodeValue))n.nodeValue="Pay with card";});}f();try{new MutationObserver(f).observe(document.documentElement,{childList:true,subtree:true,characterData:true});}catch(e){}})();</script></body>
+</html>

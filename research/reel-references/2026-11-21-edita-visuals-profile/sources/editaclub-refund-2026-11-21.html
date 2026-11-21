@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Refund Policy · Edita Club</title>
+<meta name="description" content="Edita Club is a digital product with instant access. All sales are final.">
+<link rel="icon" href="img/icon.png?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root { --text:#0E0E0E; --muted:#6B6B6B; --line:#EAEAEA; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:Inter, system-ui, sans-serif; background:#fff; color:var(--text); line-height:1.6; -webkit-font-smoothing:antialiased; }
+.narrow { max-width:640px; margin:0 auto; padding:0 24px; }
+header { padding:28px 0 72px; text-align:center; }
+.logo { height:24px; display:block; margin:0 auto; }
+h1 { font-weight:800; letter-spacing:-.035em; line-height:1.08; font-size:clamp(32px, 4vw, 44px); }
+.date { margin-top:10px; font-size:13px; font-weight:500; color:var(--muted); }
+main p { margin-top:20px; font-size:16px; color:#2a2a2a; }
+main a { color:var(--text); font-weight:600; }
+.back { display:inline-block; margin-top:40px; font-size:15px; font-weight:600; color:var(--text); text-decoration:none; }
+footer { margin-top:96px; padding:32px 0 48px; text-align:center; font-size:12px; color:#9a9a9a; border-top:1px solid var(--line); }
+@media (max-width:600px) { header { padding-bottom:56px; } .logo { height:22px; } }
+</style>
+</head>
+<body>
+
+<header><a href="./"><img class="logo" src="img/logo.png?v=2" alt="Edita Club"></a></header>
+
+<main class="narrow">
+  <h1>Refund Policy</h1>
+  <div class="date">Last updated 29 October 2026</div>
+  <p>Edita Club is a digital product. You get instant access to everything the moment you pay, so all sales are final and we don't offer refunds, partial refunds or exchanges.</p>
+  <p>By paying you agree to get instant access and you accept that you lose your right to cancel once access starts.</p>
+  <p>If something isn't working or you're stuck, message us in the Skool group or DM us on Instagram at <a href="https://instagram.com/edita.visuals">@edita.visuals</a> and we'll help you get it running.</p>
+  <a class="back" href="./">← Back to Edita Club</a>
+</main>
+
+<footer><div class="narrow">© 2026 Edita Club · @edita.visuals<br>Claude is a product of Anthropic. Edita Club is not affiliated with Anthropic.</div></footer>
+
+<script>
+// unique-visitor counter: random id kept in this browser, sent once per page load (functions/api/v.js)
+try {
+  let id = localStorage.getItem("ec_vid");
+  if (!id) { id = Math.random().toString(36).slice(2, 12) + Date.now().toString(36); localStorage.setItem("ec_vid", id); }
+  navigator.sendBeacon("/api/v", JSON.stringify({ id, path: location.pathname, ref: document.referrer && new URL(document.referrer).hostname }));
+} catch (e) {}
+</script>
+
+</body>
+</html>

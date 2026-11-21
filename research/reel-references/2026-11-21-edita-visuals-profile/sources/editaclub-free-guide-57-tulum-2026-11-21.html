@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free guide · Podcast edit · Edita Club</title>
+<meta name="description" content="A podcast reel built in code by Claude Opus 5.5: name tags, b-roll, split screens, herb chips. The raw clip, the finished edit and the prompts are free.">
+<meta property="og:title" content="The free guide behind the podcast edit · Edita Club">
+<meta property="og:description" content="A podcast reel built in code by Claude Opus 5.5: name tags, b-roll, split screens, herb chips. The raw clip, the finished edit and the prompts are free.">
+<meta property="og:image" content="https://editaclub.com/g/57-tulum/poster.jpg">
+<link rel="icon" href="/img/icon.png?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* site tokens (editaclub.com) + the guide accent (Claude orange, like the PDF guides) */
+:root { --red:#D90000; --text:#0E0E0E; --muted:#6B6B6B; --line:#EAEAEA; --soft:#FAFAFA; --o:#D97757; }
+* { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body { font-family:Inter, system-ui, sans-serif; background:#fff; color:var(--text); line-height:1.55; -webkit-font-smoothing:antialiased; }
+img, video { display:block; max-width:100%; }
+.narrow { max-width:640px; margin:0 auto; padding:0 22px; }
+section { padding:56px 0; }
+h2 { font-weight:800; letter-spacing:-.035em; line-height:1.08; font-size:clamp(28px, 6vw, 38px); }
+.o { color:var(--o); }
+.inside { font-size:13.5px; font-weight:600; display:flex; align-items:center; justify-content:center; gap:8px; }
+.inside i { width:7px; height:7px; border-radius:50%; background:#22C55E; display:block; }
+
+/* top */
+.top { border-bottom:1px solid var(--line); }
+.top .narrow { display:flex; align-items:center; height:58px; }
+.top img { height:22px; }
+
+/* hero */
+.hero { padding:32px 0 0; }
+.pill { display:inline-flex; align-items:center; gap:8px; background:var(--text); color:#fff; font-weight:600; font-size:13.5px; padding:8px 15px 8px 10px; border-radius:999px; }
+.pill i { width:16px; height:16px; border-radius:50%; background:var(--o); display:block; box-shadow:0 0 0 4px rgba(217,119,87,.25); }
+h1 { font-weight:900; font-size:clamp(40px, 10vw, 62px); line-height:1; letter-spacing:-.045em; margin-top:18px; }
+.lead { font-size:17px; color:#333; margin-top:12px; }
+.video { margin:24px auto 0; width:min(100%, 420px); border-radius:20px; overflow:hidden; background:#000; border:1px solid var(--line); box-shadow:0 24px 60px rgba(0,0,0,.14); }
+.video video { width:100%; aspect-ratio:4/5; object-fit:cover; }
+
+/* the one strong CTA */
+.club { background:var(--text); color:#fff; border-radius:22px; padding:30px 24px; text-align:center; }
+.club h2 { color:#fff; font-size:clamp(27px, 6vw, 34px); }
+.club p { color:#bdbdbd; font-size:15.5px; margin-top:10px; }
+.club .btn { display:block; background:var(--o); color:#fff; text-decoration:none; font-weight:800; font-size:17px; padding:17px 20px; border-radius:12px; margin-top:20px; }
+.club .terms { color:#fff; font-weight:700; font-size:15px; margin-top:14px; }
+.club .inside { color:#e4e4e4; margin-top:6px; }
+.jt { text-align:center; font-size:14px; font-weight:600; color:var(--muted); margin-top:10px; line-height:1.5; }
+
+/* guide (PDF look) */
+.kicker { font-size:12px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:var(--o); }
+.kicker + h2 { margin-top:10px; }
+.need { margin-top:18px; list-style:none; border-top:1px solid var(--line); }
+.need li { display:flex; gap:14px; align-items:baseline; padding:13px 0; border-bottom:1px solid var(--line); font-size:16px; font-weight:600; }
+.need li > b { flex:none; width:26px; height:26px; border-radius:50%; background:var(--text); color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; transform:translateY(-1px); }
+.need li span { font-weight:400; color:var(--muted); font-size:14.5px; }
+.note { margin-top:22px; background:#FFF5F0; border-left:4px solid var(--o); border-radius:0 12px 12px 0; padding:14px 16px; font-size:15px; color:#333; }
+.prompt { margin-top:18px; background:#111; border-radius:18px; overflow:hidden; }
+.prompt .hd { display:flex; justify-content:space-between; align-items:center; padding:11px 16px; border-bottom:1px solid #262626; }
+.prompt .hd span { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#9b9b9b; }
+.prompt button { background:var(--o); color:#fff; border:0; font:700 13px Inter, sans-serif; padding:7px 14px; border-radius:999px; cursor:pointer; }
+.prompt pre { font-family:'JetBrains Mono', monospace; font-size:13px; line-height:1.6; color:#e8e8e8; white-space:pre-wrap; padding:16px 18px 20px; }
+.prompt pre b { color:#fff; }
+.pitch { margin-top:20px; background:#FFF8F4; border:1.5px solid #F2CDBE; border-radius:18px; padding:22px 20px 18px; text-align:center; }
+.pitch .left { display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:700; color:var(--red); }
+.pitch .left i { width:7px; height:7px; border-radius:50%; background:var(--red); display:block; }
+.pitch h3 { font-size:24px; font-weight:800; letter-spacing:-.03em; margin-top:8px; }
+.pitch p { font-size:15px; color:#444; margin-top:6px; }
+.pitch .join { margin-top:16px; }
+.pitch .jt { font-size:13px; }
+.join { display:block; margin-top:18px; background:var(--o); color:#fff; text-align:center; text-decoration:none; font-weight:800; font-size:17px; padding:17px 20px; border-radius:12px; }
+
+/* offer (same as editaclub.com) */
+.get { margin-top:18px; list-style:none; }
+.get li { display:flex; gap:12px; align-items:center; padding:9px 0; font-size:16px; font-weight:600; }
+.offer { margin-top:26px; border:1px solid var(--line); border-radius:20px; padding:38px 26px 30px; text-align:center; scroll-margin-top:20px; }
+.price { font-size:64px; font-weight:800; letter-spacing:-.05em; line-height:1; }
+.once { color:var(--muted); font-size:15px; margin:10px 0 26px; }
+.pp { max-width:380px; margin:0 auto; min-height:110px; }
+.final { max-width:380px; margin:10px auto 0; font-size:11px; color:#a8a8a8; }
+.final a, footer a { color:inherit; }
+.seats { margin-top:20px; padding-top:18px; border-top:1px solid var(--line); font-size:13px; font-weight:600; color:var(--muted); display:flex; align-items:center; justify-content:center; gap:10px; }
+.seats i { width:6px; height:6px; border-radius:50%; background:var(--red); display:block; flex:none; }
+.faq { margin-top:26px; border-top:1px solid var(--line); }
+details { border-bottom:1px solid var(--line); padding:20px 0; }
+summary { font-weight:600; font-size:16px; cursor:pointer; list-style:none; display:flex; justify-content:space-between; gap:16px; }
+summary::-webkit-details-marker { display:none; }
+summary::after { content:"+"; font-weight:400; font-size:20px; line-height:1; color:var(--muted); }
+details[open] summary::after { content:"–"; }
+details p { margin-top:8px; color:var(--muted); font-size:15px; }
+.video video { aspect-ratio:9/16; }
+.scn { margin-top:18px; list-style:none; border-top:1px solid var(--line); }
+.scn li { display:flex; gap:14px; padding:14px 0; border-bottom:1px solid var(--line); font-size:15px; color:#444; }
+.scn .ts { flex:none; width:84px; font:500 12.5px/1.6 'JetBrains Mono', monospace; color:var(--o); padding-top:2px; }
+.scn b { display:block; font-size:16px; color:var(--text); margin-bottom:2px; }
+.scn i, .how i { font-style:normal; font-weight:600; color:var(--text); }
+.how { margin-top:18px; display:grid; gap:10px; }
+.how > div { border:1px solid var(--line); border-radius:14px; padding:14px 16px; background:var(--soft); }
+.how b { font-size:16px; }
+.how p { font-size:14.5px; color:#555; margin-top:4px; }
+.video img { width:100%; height:auto; aspect-ratio:9/16; object-fit:cover; }
+.frames { margin-top:18px; display:grid; grid-template-columns:1fr 1fr; gap:16px 12px; }
+.frames img { width:100%; height:auto; aspect-ratio:888/381; object-fit:cover; border-radius:12px; border:1px solid var(--line); }
+.frames b { display:block; font-size:15.5px; margin-top:8px; }
+.frames span { display:block; font-size:13.5px; color:var(--muted); line-height:1.45; }
+.stats { margin-top:18px; display:grid; grid-template-columns:repeat(4, 1fr); gap:8px; }
+.stats div { border:1px solid var(--line); border-radius:14px; padding:12px 12px 13px; background:var(--soft); font-size:12.5px; color:#555; line-height:1.4; }
+.stats b { display:block; font-size:26px; font-weight:800; letter-spacing:-.03em; line-height:1.1; color:var(--o); margin-bottom:4px; }
+.scn .ts { white-space:nowrap; }
+@media (max-width:520px) { .stats { grid-template-columns:1fr 1fr; } }
+@media (max-width:600px) {
+  .faq { margin-top:28px; }
+  details { padding:0; }
+  summary { min-height:60px; padding:18px 0; align-items:flex-start; font-size:16px; line-height:1.4; text-wrap:pretty; }
+  summary::after { font-size:22px; margin-top:-1px; width:22px; text-align:center; flex:none; }
+  details p { margin-top:-6px; padding-bottom:20px; font-size:15px; line-height:1.6; }
+}
+footer { padding:30px 0 40px; text-align:center; font-size:12px; color:#9a9a9a; border-top:1px solid var(--line); }
+</style>
+<style>
+/* testimonials (same block as editaclub.com, scoped to .t2) */
+.t2 { border-top:1px solid var(--line); position:relative; overflow:hidden; padding:56px 0 60px; }
+.t2::before { content:""; position:absolute; left:50%; top:0; width:900px; height:420px; transform:translateX(-50%); background:radial-gradient(closest-side, rgba(217,0,0,.06), transparent 100%); pointer-events:none; }
+.t2 .red { color:var(--red); }
+.tmx-wrap { position:relative; max-width:1080px; margin:0 auto; padding:0 22px; }
+.tmx-head { text-align:center; max-width:640px; margin:0 auto; }
+.tmx-lead { margin:12px auto 0; color:var(--muted); font-size:16px; max-width:500px; text-wrap:balance; }
+.tmx-mq { position:relative; overflow:hidden; margin:30px -22px 0; padding:6px 0 10px; -webkit-mask-image:linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); mask-image:linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); }
+.tmx-track { display:flex; gap:14px; width:max-content; animation:tmxScroll 60s linear infinite; will-change:transform; }
+.tmx-mq:hover .tmx-track, .tmx-mq:focus-within .tmx-track { animation-play-state:paused; }
+@keyframes tmxScroll { from { transform:translate3d(0,0,0); } to { transform:translate3d(calc(-50% - 7px),0,0); } }
+.tmx-card { background:#fff; border:1px solid var(--line); border-radius:18px; cursor:zoom-in; box-shadow:0 1px 2px rgba(0,0,0,.03); transition:transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s, border-color .35s; }
+.tmx-card:hover, .tmx-card:focus-within { transform:translateY(-3px); border-color:#E0E0E0; box-shadow:0 18px 40px -16px rgba(0,0,0,.14); }
+.t2-card { font:inherit; text-align:left; color:inherit; display:flex; flex-direction:column; flex:none; width:340px; margin:0; padding:18px 20px 14px; }
+.tmx-tag { display:block; font-size:11px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--red); }
+.t2-card p { margin-top:10px; flex:1; font-size:15px; line-height:1.55; color:#2B2B2B; }
+.tmx-foot { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:12px; font-size:12px; font-weight:600; color:#A0A0A0; }
+.tmx-who { display:flex; align-items:center; gap:12px; }
+.tmx-who img { width:36px; height:36px; border-radius:50%; flex:none; object-fit:cover; background:#eee; }
+.tmx-who b { display:block; font-size:14px; font-weight:700; letter-spacing:-.01em; line-height:1.25; color:var(--text); }
+.tmx-who small { display:flex; align-items:center; gap:5px; font-size:12px; font-weight:500; color:#8A8A8A; }
+.tmx-see { font:inherit; font-size:12px; font-weight:600; color:#8A8A8A; display:inline-flex; align-items:center; gap:5px; white-space:nowrap; flex:none; transition:color .25s; }
+.tmx-card:hover .tmx-see, .t2-sk:hover .tmx-see { color:var(--red); }
+.t2-sk { display:flex; align-items:center; gap:16px; max-width:420px; margin:26px auto 0; padding:12px 18px 12px 12px; background:var(--soft); border:1px solid var(--line); border-radius:16px; font:inherit; color:inherit; text-align:left; cursor:zoom-in; width:100%; transition:border-color .25s, box-shadow .25s; }
+.t2-sk:hover, .t2-sk:focus-visible { border-color:#E0E0E0; box-shadow:0 14px 32px -16px rgba(0,0,0,.18); }
+.t2-sk img { width:64px; height:auto; border-radius:8px; border:1px solid var(--line); flex:none; }
+.t2-sk b { display:block; font-size:17px; font-weight:800; letter-spacing:-.02em; line-height:1.2; color:var(--text); }
+.t2-sk small { display:block; margin-top:3px; font-size:13px; font-weight:500; color:var(--muted); }
+.t2-sk .tmx-see { margin-left:auto; }
+.tmx-go { margin:22px auto 0; text-align:center; max-width:360px; }
+.tmx-go .join { margin-top:0; }
+.tmx-go-sm { margin-top:10px; font-size:13px; font-weight:500; color:var(--muted); }
+.tmx-dlg { border:0; padding:0; background:transparent; max-width:min(92vw, 680px); max-height:90vh; margin:auto; overflow:visible; }
+.tmx-dlg::backdrop { background:rgba(14,14,14,.6); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); }
+.tmx-dlg[open] { animation:tmxPop .28s cubic-bezier(.2,.7,.2,1); }
+@keyframes tmxPop { from { opacity:0; transform:scale(.97) translateY(8px); } to { opacity:1; transform:none; } }
+.tmx-dlg img { display:block; max-width:min(92vw, 680px); max-height:82vh; width:auto; height:auto; border-radius:16px; background:#fff; box-shadow:0 30px 80px rgba(0,0,0,.35); }
+.t2-dlg figcaption { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:12px; font-size:13px; color:#eee; }
+.tmx-x { position:absolute; top:-14px; right:-14px; width:36px; height:36px; border-radius:50%; border:0; background:#fff; color:var(--text); font:400 22px/1 Inter, system-ui, sans-serif; cursor:pointer; display:flex; align-items:center; justify-content:center; padding:0 0 2px; box-shadow:0 6px 20px rgba(0,0,0,.25); }
+@media (max-width:600px) { .tmx-track { animation-duration:48s; gap:10px; } .t2-card { width:280px; } .t2-card p { font-size:14.5px; } .tmx-x { top:-12px; right:-6px; } }
+/* static 9-card grid, same as main page */
+.t2-grid { display:grid; grid-template-columns:repeat(6, 1fr); gap:16px; margin-top:40px; align-items:stretch; }
+.t2-grid .t2-card { width:auto; flex:initial; margin:0; height:100%; padding:22px 22px 18px; grid-column:span 2; }
+.t2-grid .t2-card:last-child:nth-child(3n+1) { grid-column:3 / 5; }
+.t2-grid .t2-card p { margin-top:12px; flex:1; font-size:15px; line-height:1.55; color:#2B2B2B; }
+.t2-grid .tmx-foot { margin-top:18px; padding-top:14px; border-top:1px solid #F0F0F0; }
+@media (max-width:960px) { .t2-grid { grid-template-columns:repeat(4, 1fr); } .t2-grid .t2-card, .t2-grid .t2-card:last-child:nth-child(3n+1) { grid-column:span 2; } .t2-grid .t2-card:last-child:nth-child(odd) { grid-column:2 / 4; } }
+@media (max-width:600px) { .t2-grid { grid-template-columns:1fr; gap:12px; margin-top:28px; } .t2-grid .t2-card, .t2-grid .t2-card:last-child:nth-child(n) { grid-column:1 / -1; } .t2-grid .t2-card { padding:20px 20px 16px; border-radius:18px; } .t2-grid .t2-card p { font-size:15px; line-height:1.6; } .t2-grid .t2-card .tmx-tag { font-size:11.5px; letter-spacing:.14em; } .t2-grid .t2-card .tmx-see { padding:12px 0 12px 12px; margin:-12px 0; } }
+@media (prefers-reduced-motion:reduce) { .tmx-track { animation:none; } .tmx-mq { overflow-x:auto; } .tmx-card, .tmx-card:hover { transition:none; transform:none; } }
+</style>
+<meta name="ec-offer" content="{&quot;h&quot;: &quot;Make this exact edit yourself&quot;, &quot;i&quot;: [&quot;The raw podcast clip (raw.mp4)&quot;, &quot;The finished edit, to copy (reference.mp4)&quot;, &quot;3 prompts: copy it 1:1, your own clip, the before/after post&quot;], &quot;b&quot;: &quot;Get the files + prompts&quot;, &quot;done&quot;: &quot;Your files and prompts are right below.&quot;}">
+<style>.frames img{aspect-ratio:16/9;height:auto}.dl .dlr{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-top:1px solid #262626}.dl .dlr b{display:block;color:#fff;font-size:15px;font-family:'JetBrains Mono',monospace}.dl .dlr span{color:#9b9b9b;font-size:13px}.dl .dlr a{flex:none;background:var(--o);color:#fff;text-decoration:none;font:700 13px Inter,sans-serif;padding:9px 16px;border-radius:999px}.ec-gate .dl .dlr{filter:blur(4px)}</style>
+<script>window.EC_MODE="gate";window.EC_AUTO=false;window.EC_MEMBERS=294;</script><script>(function(){var H=document.documentElement;if(window.EC_MODE!=='open')H.classList.add('ec-gate');})();</script>
+<style>
+.ec-gate .prompt{position:relative}
+.ec-gate .prompt pre{filter:blur(5px);-webkit-user-select:none;user-select:none;max-height:200px;overflow:hidden;pointer-events:none}
+.ec-gate .prompt .hd button{visibility:hidden}
+.ec-lock{display:none}
+.ec-gate .ec-lock{display:flex;position:absolute;left:0;right:0;top:44px;bottom:0;width:100%;align-items:center;justify-content:center;background:linear-gradient(rgba(17,17,17,.1),rgba(17,17,17,.7));border:0;cursor:pointer;padding:0}
+.ec-lock span{background:#fff;color:#0E0E0E;font:800 15px Inter,system-ui,sans-serif;padding:12px 18px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.ecg{margin:0 0 40px;background:#FFF8F4;border:1.5px solid #F2CDBE;border-radius:20px;padding:26px 20px 20px;text-align:center;scroll-margin-top:24px}
+.ecg h2,.ecm-card h2{font-size:clamp(27px,6.4vw,36px);text-wrap:balance}
+.ecg .s,.ecg .f,.ecm-card .s,.ecm-card .f{text-wrap:balance}
+.ecg .s,.ecm-card .s{font-size:15.5px;color:#444;margin-top:8px}
+.ecf{margin-top:18px;display:flex;flex-direction:column;gap:10px}
+.ecf input{width:100%;font:500 17px Inter,system-ui,sans-serif;padding:16px;border:1.5px solid #E2E2E2;border-radius:12px;background:#fff;color:#0E0E0E;outline:none;-webkit-appearance:none;appearance:none}
+.ecf input:focus{border-color:#D97757}
+.ecf button{background:#D97757;color:#fff;border:0;font:800 17px Inter,system-ui,sans-serif;padding:17px 20px;border-radius:12px;cursor:pointer}
+.ecg .f,.ecm-card .f{font-size:12.5px;color:#8a8a8a;margin-top:10px}
+.ec-l{list-style:none;margin:14px auto 0;padding:0;text-align:left;max-width:330px}
+.ec-l li{display:flex;gap:10px;align-items:baseline;font:600 15.5px/1.4 Inter,system-ui,sans-serif;color:#222;padding:4px 0}
+.ec-l li:before{content:"\2713";flex:none;color:#16A34A;font-weight:800}
+.ecg.done .ecf,.ecg.done .f{display:none}
+.ecg.done{padding:20px}
+.ec-up{margin-top:16px;padding-top:16px;border-top:1px solid #F2CDBE}
+.ec-up b{display:block;font:800 19px/1.25 Inter,system-ui,sans-serif;color:#0E0E0E}
+.ec-up p{font-size:14.5px;color:#444;margin-top:6px}
+.ec-upb{display:block;margin-top:12px;background:#0E0E0E;color:#fff;text-decoration:none;font:800 16px Inter,system-ui,sans-serif;padding:15px 18px;border-radius:12px}
+/* pop-up */
+.ecm{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:flex-start;justify-content:center;padding:max(9vh,48px) 16px 16px}
+.ecm[hidden]{display:none}
+.ecm-bg{position:absolute;inset:0;background:rgba(10,10,10,.6);opacity:0;transition:opacity .25s}
+.ecm-card{position:relative;width:100%;max-width:420px;background:#fff;border-radius:22px;padding:26px 20px 20px;text-align:center;box-shadow:0 30px 80px rgba(0,0,0,.35);opacity:0;transform:translateY(18px);transition:opacity .25s,transform .35s cubic-bezier(.2,.8,.2,1)}
+.ecm.on .ecm-bg{opacity:1}
+.ecm.on .ecm-card{opacity:1;transform:none}
+.ecm-x{position:absolute;top:10px;right:10px;width:36px;height:36px;border:0;border-radius:50%;background:#F1F1F1;color:#555;font:400 24px/36px Inter,system-ui,sans-serif;cursor:pointer;padding:0}
+.ecm-t{display:block;width:56px;height:100px;object-fit:cover;border-radius:10px;margin:0 auto 14px;background:#111}
+html.ec-noscroll,html.ec-noscroll body{overflow:hidden}
+/* 6 Nov his "why join edita club 3 times" hid the black box under the video, the mid-prompt pitch and the See Edita Club
+   buttons under the reviews + in the FAQ. 12 Nov his "sell in the guides dude please do" (record days 29 Oct + 6 Nov had them all):
+   shown again. Since 8 Nov ~1,400 guide-only visitors bought 0 with them hidden. Free prompt untouched. */
+/* 7 Nov downloads block (files injected by the worker) */
+.ec-dl{background:#111;border-radius:16px;overflow:hidden;margin-top:14px}
+.ec-dl .hd{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;color:#bdbdbd;font:700 13px Inter,system-ui,sans-serif}
+.ec-dl .dlr{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-top:1px solid #262626}
+.ec-dl .dlr b{display:block;color:#fff;font:700 15px Inter,system-ui,sans-serif}
+.ec-dl .dlr span{display:block;color:#9b9b9b;font:400 13px/1.35 Inter,system-ui,sans-serif;margin-top:2px}
+.ec-dl .dlr a{flex:none;background:#D97757;color:#fff;text-decoration:none;font:700 13px Inter,system-ui,sans-serif;padding:9px 16px;border-radius:10px}
+.ec-gate .ec-dl .dlr{filter:blur(4px);pointer-events:none}
+.ec-gate .ec-dl{min-height:150px}
+</style></head>
+<body>
+
+<div class="top"><div class="narrow"><a href="/"><img src="/img/logo.png?v=2" alt="Edita Club"></a></div></div>
+
+<header class="hero"><div class="narrow">
+  <span class="pill"><i></i>Free guide · Podcast edit · Opus 5.5</span>
+  <h1>Podcast edit.<br><span class="o">Built in code.</span></h1>
+  <p class="lead">Claude Opus 5.5 built this whole edit in code: the name tags, the b-roll, the split screens, the pills, the herb chips, the sound. No After Effects. The raw clip, the finished edit and the prompts are below, free.</p>
+  <div class="video"><video src="reel.mp4" poster="poster.jpg" autoplay muted loop playsinline controls preload="metadata"></video></div>
+</div></header>
+
+<section style="padding-top:28px"><div class="narrow">
+  <div class="club">
+    <h2>Want Claude to make you an edit like this <span class="o">in 30–45 minutes?</span></h2>
+    <p>Join Edita Club. No code. No After Effects. Just Claude.</p>
+    <a class="btn" href="https://editaclub.com/">Join now →</a>
+    <div class="terms">One-time payment · Lifetime access</div>
+    <div class="inside"><i></i><span><span class="n"></span> members already inside</span></div>
+  </div>
+</div></section>
+
+<style>.frames img{aspect-ratio:9/16}</style>
+<section style="padding-top:8px"><div class="narrow">
+  <span class="kicker">Before you start</span>
+  <h2>What you need</h2>
+  <ol class="need">
+    <li><b>1</b><div>Claude with Opus 5.5 + Claude Code<br><span>the desktop app or the VS Code extension. Claude Code is what lets it run code, Chrome and ffmpeg on your computer, not just talk about it</span></div></li><li><b>2</b><div>The files &rarr; download them below<br><span><b>raw.mp4</b> (the raw podcast clip) and <b>reference.mp4</b> (the finished edit). Put both in one empty folder</span></div></li><li><b>3</b><div>Open that folder in Claude Code<br><span>so Claude can see the files and run the edit there</span></div></li><li><b>4</b><div>Paste Prompt B to get this exact edit<br><span>Claude copies reference.mp4 onto raw.mp4, shot by shot. Prompt A is for the same style on your own clip later</span></div></li><li><b>5</b><div>Prompt C makes the before/after post<br><span>the raw clip in black and white next to the finished edit, like in the reel</span></div></li><li><b>6</b><div>Give notes, one round at a time<br><span>specific ones: "the pill comes in late", "the caption covers her mouth"</span></div></li>
+  </ol>
+</div></section>
+
+<section style="padding-top:0"><div class="narrow">
+  <span class="kicker">The effect, second by second</span>
+  <h2>How the edit works</h2>
+  <div class="frames">
+    <div><img src="f1.jpg" alt="1. The name tag" loading="lazy" width="540" height="960"><b>1. The name tag</b><span>Her name slides in from the left, the big peach word lands as she says it.</span></div><div><img src="f2.jpg" alt="2. The b-roll" loading="lazy" width="540" height="960"><b>2. The b-roll</b><span>Stills slide right to left under a rust gradient, the key words sit in a rust pill.</span></div><div><img src="f3.jpg" alt="3. The split" loading="lazy" width="540" height="960"><b>3. The split</b><span>Her on the bottom, a still on top, the chips pop in on her words.</span></div><div><img src="f4.jpg" alt="4. The herb chips" loading="lazy" width="540" height="960"><b>4. The herb chips</b><span>One chip per herb, each one pops in as she names it.</span></div>
+  </div>
+  <div class="stats">
+    <div><b>0</b>After Effects, Premiere or templates</div>
+    <div><b>19</b>shots in 24 seconds</div>
+    <div><b>2</b>accent colours, rust and terracotta</div>
+    <div><b>3</b>prompts: copy it, your clip, the before/after</div>
+  </div>
+  <ol class="scn">
+    <li><span class="ts">0.0&ndash;2.3 s</span><div><b>The hook</b>Close-up of her, the shot zooms out from 115&nbsp;% to 100&nbsp;%, a white silhouette of her flashes on frames 1, 3 and 5 with a glitch click. The name tag <i>Sienna Moreno &#10003; Herbalist</i> slides in from the left. "I think" small, <i>right now</i> big in peach with a rust pill "wellness", then "is in a really" and INTERESTING on a rust bar that wipes open.</div></li><li><span class="ts">2.3&ndash;4.3 s</span><div><b>The problem</b>Full-screen b-roll: two stills slide right to left, a rust gradient at the bottom, a fine scanline, the whole frame stepped at 14 fps. A red "!" icon, "And sort of" and the pill <i>PRECARIOUS PLACE</i>.</div></li><li><span class="ts">4.3&ndash;6.9 s</span><div><b>The shelves</b>Three more cuts (shelves, supplements, a hand with red capsules) under one caption that grows word by word: "WHERE WE'RE / ON THE <i>VERGE OF</i> / LOSING THE PLOT".</div></li><li><span class="ts">6.9&ndash;10.1 s</span><div><b>The split</b>White canvas, two rounded panels: her side view on top, the second guest below with her own tag <i>Leila Hart &#10003; Author</i>. "THE POINT IS TO BE" thin, <i>HEALTHY AND WELL</i> heavy, "RIGHT?".</div></li><li><span class="ts">10.1&ndash;13.9 s</span><div><b>The chips</b>The top panel cuts through four stills of pills and capsules while she stays on the bottom. "! Not necessarily to", then the chips <i>+ Consume</i> and <i>+ Over consume</i> pop in on her words.</div></li><li><span class="ts">13.9&ndash;17.9 s</span><div><b>The big words</b>Back on her: "There is an" and <i>HERB FOR EVERYTHING</i> on a rust bar, "So &bull; for" and <i>anxiety</i> huge in cream with two frosted-glass "!" tiles, then "some of the best are" and <i>NERVE VINES</i>.</div></li><li><span class="ts">17.9&ndash;23.9 s</span><div><b>The herbs</b>Seven plant stills, a dark green gradient, "&#10022; Lavender is a perfect example" and one white chip per herb as she names it: Chamomile, Valerian, Kava, Rose, Passion flower.</div></li>
+  </ol>
+</div></section>
+
+<section style="padding-top:0"><div class="narrow">
+  <span class="kicker">The files</span>
+  <h2>The raw clip and the finished edit</h2>
+  <div class="prompt dl"><div class="hd"><span>Downloads</span></div><div class="dlr"><div><b>raw.mp4</b><span>the raw podcast clip, 16:9 &middot; 10&nbsp;MB</span></div><a href="dl/raw.mp4" download>Download</a></div><div class="dlr"><div><b>reference.mp4</b><span>the finished edit, the one you copy, 1080x1920 &middot; 16&nbsp;MB</span></div><a href="dl/reference.mp4" download>Download</a></div></div>
+</div></section>
+
+<section style="padding-top:0"><div class="narrow">
+  <span class="kicker">Prompt B &middot; copy this edit 1:1</span>
+  <h2>Paste this with the files in the folder</h2>
+  <div class="prompt"><div class="hd"><span>Prompt B</span><button data-copy="pb">Copy</button></div><pre id="pb"><b>Copy the edit of reference.mp4 onto my clip raw.mp4, 1:1.</b> Same shots, timing, layout, fonts, colours, motion and sound. 1080x1920, 30 fps. Build it in code: every shot is an HTML/CSS/JS page that headless Chrome renders frame by frame (Playwright), ffmpeg for the audio and the final encode. No After Effects.
+
+1. Split reference.mp4 into shots (every cut is a hard cut). For each shot write REF.md: what is on screen, frame by frame, with every number <b>measured from the frames, never guessed</b>: positions and sizes in px, fonts (match by x-height and letter shapes), colours sampled from the frame, when each word appears, how it moves and on what curve.
+2. Transcribe raw.mp4 with word timestamps and line my sentences up with the reference shots. Cut only in real pauses. Never stretch the voice.
+3. raw.mp4 is 16:9 with two speakers. For every speaker shot, crop 9:16 on the speaker with the same framing as the reference. One still crop per shot, no fake camera moves. The only move is the zoom-out on the first shot.
+4. B-roll: for every b-roll shot find a free still of the same subject (Pexels, Unsplash) and frame it the same way. Never cut images out of the reference.
+5. Build one shot at a time. Render it next to the reference frame for frame, write DIFF.md (every difference, worst first), fix, compare again. Move on only when the shot matches.
+6. Graphics (name tags, pills, bars, chips, the glass tiles): rebuild them clean and sharp at full resolution.
+7. Sound: the reference's whooshes, clicks and the glitch on the same frames, a quiet bed under the voice, master around -14 LUFS.
+8. Finish with a side-by-side (reference left, mine right) and a per-frame motion check so nothing jitters. Don't ask me questions, show me the result.</pre></div>
+</div></section>
+
+<section style="padding-top:0"><div class="narrow">
+  <span class="kicker">Prompt A &middot; your own clip</span>
+  <h2>The same style on your footage</h2>
+  <div class="prompt"><div class="hd"><span>Prompt A</span><button data-copy="pa">Copy</button></div><pre id="pa"><b>You are my video editor.</b> Edit raw.mp4 (my podcast or talking clip, 16:9, 20-30 s) into a 1080x1920, 30 fps reel in the style below. Build every shot as an HTML/CSS/JS page that headless Chrome renders frame by frame (Playwright), ffmpeg for the audio and the final encode. No After Effects, no Premiere, no timeline editor.
+
+<b>First:</b> transcribe raw.mp4 with word timestamps (Whisper), then write the beat plan: for every sentence, which shot it gets (speaker full screen, full-screen b-roll or split screen) and the exact second it starts. A b-roll or a split every 2-4 s, never more than 4 s on a talking head. Show me the plan before you render anything. What I talk about: [my topic, my offer].
+
+<b>STYLE</b> (warm and editorial)
+- Colours: rust #A24A24 and terracotta #C77136 for every accent, peach #ECA572 or cream #E1D1BB for one big word, warm white #FBF8F3 for captions, red #DD3C37 only for the "!" icons.
+- Type: Inter for the captions (small lowercase lines, thin caps lines, heavy caps lines), Bebas Neue for the big accent words.
+- Text zone: captions only between y 950 and 1410, at least 51 px from the left and 58 px from the right. Nothing in the top half on full-screen shots.
+1. Speaker shots: the footage untouched, a black gradient over the bottom third. The first shot zooms out from 115 % to 100 % and flashes a white silhouette of me on frames 1, 3 and 5 with a glitch click.
+2. Name tag on the first frame of every speaker: dark tag at 68 % opacity, white name, small role under it, a blue verified badge, slides in from the left.
+3. Every caption word slides in from 29 px on the right with a circ.out ease. 1-3 lines per page and one accent per page: a rust pill, a Bebas word on a rust bar that wipes open from the left, or one big peach or cream word.
+4. Full-screen b-roll: free stills that slide right to left from the cut, a rust gradient at the bottom, a fine scanline, the whole b-roll run stepped at about 14 fps. One caption with a red "!" icon and a rust pill spans the whole run and grows word by word.
+5. Split screen: white canvas, two rounded panels (radius 22), me on the bottom, b-roll or the other speaker on top, the caption in the top panel.
+6. Lists: when I name things, one white chip per item with a terracotta "+" circle, popping in from below as I say it.
+7. A big feeling word ("anxiety"): cream and huge, with two frosted-glass "!" tiles tilted 12 degrees.
+
+<b>MOTION RULES</b>
+- Hard cuts only, no dissolves. Nothing animates out: everything leaves on the cut.
+- Pills slide in 54 px from the side with a small spring. Bars wipe open with an expo ease.
+- One accent per page, never two.
+
+<b>AUDIO</b> A whoosh on every cut between speaker and b-roll, a double click on cuts inside a b-roll run, a quiet bed 15 dB under the voice, master around -14 LUFS.
+
+<b>QC</b> Export a still of every shot. Check no text covers a mouth or leaves the text zone, check every caption against the word timestamps, then render final.mp4.</pre></div>
+</div></section>
+
+<section style="padding-top:0"><div class="narrow">
+  <span class="kicker">Prompt C &middot; the before/after post</span>
+  <h2>Raw footage next to the edit</h2>
+  <div class="prompt"><div class="hd"><span>Prompt C</span><button data-copy="pc">Copy</button></div><pre id="pc"><b>Make the before/after post from raw.mp4 and final.mp4.</b> 1440x2560 (9:16), 60 fps, the sound of final.mp4.
+
+1. Background: off-white with a few soft, blurred peach brush strokes.
+2. Left: a small rounded card with raw.mp4 in black and white, cropped to the same framing as the edit and playing in sync with it. A dark label "Raw footage" with a red dot on top of it.
+3. Right, overlapping it: the big rounded card with final.mp4 in colour and a soft shadow. A dark pill "Opus 5.5" with a small orange starburst icon on top of it.
+4. Under the cards, centred: 'Follow &amp; comment "OPUS"' with "OPUS" in orange, and "for the full guide" on the second line.
+5. Everything is on screen from the first frame. Show me a still every second first, then export reel.mp4, H.264 + AAC.</pre></div>
+</div></section>
+
+<section style="padding-top:0"><div class="narrow">
+  <span class="kicker">What makes it hit</span>
+  <h2>Four things we learned</h2>
+  <ol class="need">
+    <li><b>1</b><div>Something new every 2-4 seconds.<br><span>A b-roll, a split or a new caption page. Never more than 4 seconds on a talking head.</span></div></li><li><b>2</b><div>Two warm accents.<br><span>Rust and terracotta only, everything else warm white. The whole reel reads like one brand.</span></div></li><li><b>3</b><div>One accent per page.<br><span>A pill, a bar or one big word. Never two at once.</span></div></li><li><b>4</b><div>Show the raw next to it.<br><span>The before/after card is what makes people stop: they see exactly what Claude started from.</span></div></li>
+  </ol>
+</div></section>
+
+<section class="tmx t2" id="reviews">
+  <div class="tmx-wrap">
+    <div class="tmx-head">
+      <h2>What people inside are <span class="red">saying</span></h2>
+      <p class="tmx-lead">Real messages from members in our Skool. Tap any card to see the original.</p>
+    </div>
+    <div class="t2-grid">
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/lena-collins.webp" data-name="Lena Collins"><span class="tmx-tag">Not technical?</span><p>“Most I like that the lessons are short and clear, I just do one step after the other and it works. I am not technical at all so this was very important for me”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/lena-collins-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Lena Collins</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/dylan-ward.webp" data-name="Dylan Ward"><span class="tmx-tag">Worried about Claude limits?</span><p>“what I like most is I&#x27;m not burning my Claude limits anymore. before I wasted half my usage going back and forth explaining what I want, now I paste the prompt and it gets it first try”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/dylan-ward-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Dylan Ward</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/evan-ellis.webp" data-name="Evan Ellis"><span class="tmx-tag">Will it really copy the style?</span><p>“it copied the captions the zooms the cuts EVERYTHING on my footage”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/evan-ellis-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Evan Ellis</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/matteo-romano.webp" data-name="Matteo Romano"><span class="tmx-tag">No time to edit?</span><p>“a reel that took me 4 hours last week was done in 20 min. went to the gym in between lol”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/matteo-romano-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Matteo Romano</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/luka-novak.webp" data-name="Luka Novak"><span class="tmx-tag">Old computer?</span><p>“it runs on my old laptop. renders a bit slower but it works, i was scared i needed a new pc for this”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/luka-novak-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Luka Novak</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/alex-novak.webp" data-name="Alex Novak"><span class="tmx-tag">Is it worth $29?</span><p>“just one day but already worth the $29. watched 4 lessons last night, couldn&#x27;t stop”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/alex-novak-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Alex Novak</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/wael-haddad-2.webp" data-name="Wael Haddad"><span class="tmx-tag">What if I get stuck?</span><p>“This is the least I can do. The results are excellent, and the support team is always quick to respond. Honestly, this course is a great opportunity for anyone who wants to improve their skills and achieve outstanding results.”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/wael-haddad-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Wael Haddad</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/ellen-carter-2.webp" data-name="Ellen Carter"><span class="tmx-tag">Will it do the work for me?</span><p>“Edita Visuals has been a huge help with my video projects, and their support is great! It handles most of the work and gives me a solid foundation. I still make some tweaks myself, but it makes the whole process so much easier.”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/ellen-carter-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Ellen Carter</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+      <button type="button" class="tmx-card t2-card" data-shot="/img/t2/abbas-khorsh-2.webp" data-name="Abbas Khorsh"><span class="tmx-tag">Is it easy to follow?</span><p>“Honestly, the course is amazing! 🔥 It’s really easy to follow and put into practice. The lessons are super short, just a few minutes each, and everything is demonstrated clearly with real examples, without any long or unnecessary explanations. Everything is straight to the point, which makes learning really enjoyable and effective! The implementation is simple and quick, and the results are really impressive. I’m very happy with the course and would definitely recommend it! 🙏”</p><span class="tmx-foot"><span class="tmx-who"><img src="/img/t2/abbas-khorsh-av.webp" alt="" width="40" height="40" loading="lazy"><span><b>Abbas Khorsh</b><small>Member · Skool DM</small></span></span><span class="tmx-see">View ↗</span></span></button>
+    </div>
+    <button type="button" class="t2-sk" data-shot="/img/t2/skool-members-294-8.webp" data-name="Our Skool group"><img src="/img/t2/skool-members-294-8.webp" alt="Edita Club Skool group card" width="64" height="89" loading="lazy"><span><b><span class="red">294 people</span> inside our Skool</b><small>Screenshot of our Skool group</small></span><span class="tmx-see">View ↗</span></button>
+    <div class="tmx-go"><a class="join" href="/">See Edita Club →</a><div class="tmx-go-sm">One-time payment · Lifetime access</div></div>
+  </div>
+  <dialog class="tmx-dlg t2-dlg" id="t2dlg"><button type="button" class="tmx-x" aria-label="Close">×</button><img src="" alt=""><figcaption></figcaption></dialog>
+</section>
+<script>
+(() => {
+  const d = document.getElementById("t2dlg"), im = d.querySelector("img"), cap = d.querySelector("figcaption");
+  document.querySelectorAll(".t2-card, .t2-sk").forEach(c => c.addEventListener("click", () => {
+    im.src = c.dataset.shot; im.alt = "Message from " + c.dataset.name;
+    cap.textContent = c.classList.contains("t2-sk") ? "Our Skool group" : c.dataset.name + " · original message in our Skool";
+    d.showModal();
+  }));
+  d.querySelector(".tmx-x").addEventListener("click", () => d.close());
+  d.addEventListener("click", e => { if (e.target === d) d.close(); });
+})();
+</script>
+
+<section style="border-top:1px solid var(--line)"><div class="narrow">
+  <h2>Skip the trial and error.<br><span class="o">Get the tools we used.</span></h2>
+  <ul class="get">
+    <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2"/></svg>EDITA BRAIN: our Claude's rules and fixes</li>
+    <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2"/></svg>The exact references + the exact prompts</li>
+    <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2"/></svg>21 courses, 54 lessons + The Playbook</li>
+    <li><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 9.5l4 4 8-9" fill="none" stroke="#0E0E0E" stroke-width="2"/></svg>Every new lesson, included</li>
+  </ul>
+  <div class="tmx-go"><a class="join" href="/">See Edita Club →</a><div class="tmx-go-sm">One-time payment · Lifetime access</div></div>
+  </div></section>
+
+<section class="gfaq" style="padding-top:0"><div class="narrow">
+  <h2>Questions</h2>
+  <div class="faq">
+    <details><summary>What will I learn to make?</summary><p>You'll learn how to edit short-form and long-form videos, and also how to create videos for SaaS companies, all using just Claude.</p></details>
+    <details><summary>Can I copy any edit I want onto my own footage?</summary><p>Yes. Pick any reference edit you like and recreate it with Claude on your own A-roll: your footage or your client's footage, not the clip from the reference. We have a whole module dedicated to exactly this. It works whether you edit for clients or you're building your own brand.</p></details>
+    <details><summary>Why doesn't my Claude edit like yours?</summary><p>Because we spent five months perfecting our videos with Claude. We pay more than $600 a month for Claude, and all we do is create and edit videos with it. That's how we perfected the process. Inside the Skool you get our Claude's brain, so yours edits like ours.</p></details>
+    <details><summary>What do I need to start?</summary><p>Just Claude. Nothing else.</p></details>
+    <details><summary>How much of my Claude usage does one edit take? Will I hit my limit?</summary><p>It depends on the style and length of the video. But you can create plenty of videos before hitting your limit, because we show you all our tips on how to save credits while you work.</p></details>
+    <details><summary>Do I need Premiere, After Effects, CapCut or code?</summary><p>No. No editing software and no coding. You copy our prompts and paste them into Claude. Claude writes and runs the code that edits your video for you.</p></details>
+    <details><summary>I've never edited a video. Can I still do this?</summary><p>Yes. You don't edit anything by hand. You give Claude your clip, paste the prompt, and give notes like "make the captions bigger". If you can write a message, you can do this.</p></details>
+    <details><summary>Do I need an expensive computer?</summary><p>No. Any normal Mac or Windows laptop that runs Claude works. On an older one, renders just take a bit longer.</p></details>
+    <details><summary>How fast will I get my first edit?</summary><p>An edit takes Claude about 30–45 minutes. You can have your first one done the day you join.</p></details>
+    <details><summary>Is it worth $29? Can I really get paid with this?</summary><p>You pay $29 once. We show you exactly how we use Claude to edit for our own clients, so you can offer the same edits. What you earn depends on you. We don't promise income, but we give you the exact system we use.</p></details>
+    <details><summary>What if I get stuck? Is there any support?</summary><p>Yes. You have the admin you can talk to. Just DM him privately on Skool and he'll help you.</p></details>
+    <details><summary>Is it monthly?</summary><p>No. You pay $29 once and keep it forever, including every new lesson we add.</p></details>
+    <details><summary>How do I pay? How do I get in?</summary><p>With PayPal or with your debit or credit card. You don't need a PayPal account to pay by card. After you pay, you get the link to our Skool group. Request to join with the email you paid with, and we let you in.</p></details>
+  </div>
+  <div class="tmx-go faq-go"><a class="join" href="/">See Edita Club →</a></div>
+</div></section>
+
+<style>
+/* full FAQ, same as main page */
+.gfaq .faq { margin-top:36px; }
+.gfaq details { padding:20px 0; }
+.faq-go { margin-top:40px; }
+@media (max-width:600px) {
+  .gfaq .faq { margin-top:28px; }
+  .gfaq details { padding:0; }
+  .gfaq summary { min-height:60px; padding:18px 0; align-items:flex-start; font-size:16px; line-height:1.4; text-wrap:pretty; }
+  .gfaq summary::after { font-size:22px; margin-top:-1px; width:22px; text-align:center; flex:none; }
+  .gfaq details p { margin-top:-6px; padding-bottom:20px; font-size:15px; line-height:1.6; }
+}
+</style>
+<footer><div class="narrow">© 2026 Edita Club · @edita.visuals · <a href="/">editaclub.com</a> · <a href="/refund.html">Refund policy</a><br>Claude is a product of Anthropic. Edita Club is not affiliated with Anthropic.</div></footer>
+<script>
+  // real paid members (guide_web.py fills it in from the same number as the main page)
+  const MEMBERS = 294;
+  document.querySelectorAll('.n').forEach(s => s.textContent = MEMBERS);
+  document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', () => {
+    navigator.clipboard.writeText(document.getElementById(b.dataset.copy).innerText).then(() => { b.textContent = 'Copied ✓'; setTimeout(() => b.textContent = 'Copy', 1800); });
+  }));
+</script>
+<script>
+// unique-visitor counter (same as the main page): random id kept in this browser, sent once per page load (functions/api/v.js)
+try {
+  let id = localStorage.getItem("ec_vid");
+  if (!id) { id = Math.random().toString(36).slice(2, 12) + Date.now().toString(36); localStorage.setItem("ec_vid", id); }
+  navigator.sendBeacon("/api/v", JSON.stringify({ id, path: location.pathname, ref: document.referrer && new URL(document.referrer).hostname }));
+} catch (e) {}
+</script>
+<script>/* ab_1115 */(function(){var t=0;function go(){try{var id=localStorage.getItem("ec_vid");if(!id){if(++t<10)setTimeout(go,700);return}navigator.sendBeacon("/api/v",JSON.stringify({id:id,path:location.pathname,ev:"abA"}))}catch(e){}}go()})();</script><script>
+(function(){
+  var H=document.documentElement;
+  var ps=[].slice.call(document.querySelectorAll('.prompt'));
+  if(!ps.length){H.classList.remove('ec-gate');return;}
+  var vid=''; try{ vid=localStorage.getItem('ec_vid')||''; }catch(_){}
+  function send(path,obj){ try{ obj.page=location.pathname; obj.vid=vid; fetch(path,{method:'POST',headers:{'content-type':'application/json'},keepalive:true,body:JSON.stringify(obj)}); }catch(_){} }
+  // daily cap bookkeeping (3 new guides a day per browser once they gave an email)
+  var SLUG=(location.pathname.split('/')[2]||'').toLowerCase(), TODAY=new Date().toISOString().slice(0,10);
+  function getU(){ var u={}; try{ u=JSON.parse(localStorage.getItem('ec_unl')||'{}')||{}; }catch(_){ u={}; } if(u.d!==TODAY){ u.d=TODAY; u.today=[]; } u.all=u.all||[]; u.today=u.today||[]; return u; }
+  function addU(){ var u=getU(); if(u.all.indexOf(SLUG)<0) u.all.push(SLUG); if(u.today.indexOf(SLUG)<0) u.today.push(SLUG); try{ localStorage.setItem('ec_unl',JSON.stringify(u)); }catch(_){} }
+  if(!H.classList.contains('ec-gate')){ if(window.EC_AUTO){ send('/g/_ev',{ev:'gate_auto'}); } return; }   // the server already counted it
+  var CAPPED=(window.EC_MODE==='cap'); // today's free guides used up for this visitor
+  // 6 Nov A/B test (his "do this"): a = pop-up 2.5 s after open, b = when they scroll toward the prompts (25 s fallback). Sticky per browser.
+  var AB='a'; try{ AB=localStorage.getItem('ec_ab'); if(AB!=='a'&&AB!=='b'){ AB=Math.random()<0.5?'a':'b'; localStorage.setItem('ec_ab',AB); } }catch(_){ AB=Math.random()<0.5?'a':'b'; }
+  send('/g/_ev',{ev:CAPPED?'gate_cap':'gate_view', why:AB});
+  // per-page offer (6 Nov his "make the offer as strong as possible"): <meta name="ec-offer" content='{"h","i":[...],"b","done"}'>
+  var O={}; try{ var om=document.querySelector('meta[name="ec-offer"]'); if(om) O=JSON.parse(om.getAttribute('content'))||{}; }catch(_){ O={}; }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  var FORM='<form class="ecf" action="/g/_lead" method="post" autocomplete="on">'+
+      '<input type="email" name="email" autocomplete="email" inputmode="email" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="Your email" required>'+
+      '<button type="submit">'+esc(O.b||'Get the prompt')+' \u2192</button></form>';
+  var TXT='<h2>'+esc(O.h||'Get the prompt for this edit')+'</h2>'+
+    ((O.i&&O.i.length)?'<ul class="ec-l">'+O.i.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul>'
+                      :'<p class="s">Type your email and it opens right here, free.</p>');
+  var MB=window.EC_MEMBERS||0, MBL=MB?(MB+' people already joined Edita Club'):'';   // 7 Nov: live paid-member count (sales tracker pushes it)
+  var FINE='<p class="f">Opens instantly. '+(MB?MBL+'. ':'')+'We\u2019ll also send you new free prompts.</p>';
+  if(CAPPED){ // 6 Nov: the limit turns into the sales moment
+    TXT='<h2>That\u2019s your 3 free guides for today</h2><p class="s">New ones open again tomorrow. Want this one now, plus every guide and EDITA BRAIN?</p>';
+    FORM='<a class="ec-upb ec-capb" href="https://editaclub.com/">Join Edita Club \u00b7 $29 \u2192</a>';
+    FINE='<p class="f">One-time payment \u00b7 Lifetime access'+(MB?' \u00b7 '+MBL:'')+'</p>';
+  }
+
+  // inline card before the first prompt
+  var sec=ps[0].closest('section'), host=(sec&&sec.querySelector('.narrow'))||ps[0].parentNode;
+  var g=document.createElement('div'); g.className='ecg'; g.id='get';
+  g.innerHTML=TXT+FORM+FINE;
+  host.insertBefore(g, host.firstChild);
+
+  // pop-up
+  var og=document.querySelector('meta[property="og:image"]'), img=og&&og.getAttribute('content');
+  var m=document.createElement('div'); m.className='ecm'; m.id='ecm'; m.hidden=true;
+  m.setAttribute('role','dialog'); m.setAttribute('aria-modal','true');
+  m.innerHTML='<div class="ecm-bg"></div><div class="ecm-card"><button type="button" class="ecm-x" aria-label="Close">\u00d7</button>'+
+    (img?'<img class="ecm-t" src="'+img+'" alt="">':'')+TXT+FORM+FINE+'</div>';
+  document.body.appendChild(m);
+  var shown=false, unlocked=false;
+  function openPop(why){
+    if(unlocked||!m.hidden) return;
+    m.hidden=false; H.classList.add('ec-noscroll');
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){ m.classList.add('on'); }); });
+    send('/g/_ev',{ev:shown?'gate_pop_again':'gate_pop', why:why}); shown=true;
+  }
+  function closePop(log){
+    if(m.hidden) return;
+    m.classList.remove('on'); H.classList.remove('ec-noscroll');
+    setTimeout(function(){ m.hidden=true; },260);
+    if(log) send('/g/_ev',{ev:'gate_close'});
+  }
+  m.querySelector('.ecm-x').addEventListener('click',function(){ closePop(true); });
+  m.querySelector('.ecm-bg').addEventListener('click',function(){ closePop(true); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') closePop(true); });
+  if(AB==='a'){ setTimeout(function(){ openPop('a_timer'); }, 2500); }
+  else {
+    var fired=false;
+    var chk=function(){ if(fired) return; if(g.getBoundingClientRect().top < innerHeight*1.6){ fired=true; window.removeEventListener('scroll',chk); openPop('b_scroll'); } };
+    window.addEventListener('scroll',chk,{passive:true});
+    setTimeout(function(){ if(!fired){ fired=true; window.removeEventListener('scroll',chk); openPop('b_time'); } }, 25000);
+  }
+
+  // blurred prompts: tap = pop-up
+  ps.forEach(function(p){ var b=document.createElement('button'); b.type='button'; b.className='ec-lock'; b.innerHTML=CAPPED?'<span>\ud83d\udd12 Unlock with Edita Club</span>':'<span>\ud83d\udd12 Unlock with your email</span>'; b.addEventListener('click',function(){ openPop(AB+'_lock'); }); p.appendChild(b); });
+
+  function unlock(form, src){
+    var em=form.querySelector('input').value.trim();
+    send('/g/_lead',{email:em, src:src+'_'+AB, ref:document.referrer||''});
+    try{ localStorage.setItem('ec_lead','1'); }catch(_){}
+    addU();
+    unlocked=true; H.classList.remove('ec-gate'); closePop(false);
+    g.classList.add('done'); g.querySelector('h2').textContent='Unlocked \u2713';
+    var gl=g.querySelector('.ec-l'); if(gl) gl.style.display='none';
+    var gs=g.querySelector('.s'); if(!gs){ gs=document.createElement('p'); gs.className='s'; g.querySelector('h2').after(gs); }
+    gs.textContent=O.done||'The prompt is right below.';
+    // 15 Nov: someone tapping "Not spam" is the strongest inbox signal a new sending domain can get (3 of 5 test Gmails had us in spam)
+    var sp=document.createElement('p'); sp.className='ec-sp'; sp.style.cssText='font-size:13px;opacity:.75;margin:6px 0 0';
+    sp.textContent='Watch your inbox for a quick note from Edita. Not there? Check spam and tap "Not spam" so the next ones reach you.';
+    gs.after(sp);
+    // 6 Nov his "do that": sell Edita Club the moment they unlock (Brunson's offer right after the opt-in). Copy = his live pages.
+    var up=document.createElement('div'); up.className='ec-up';
+    up.innerHTML='<b>Want it right the first time?</b><p>Get EDITA BRAIN, the rules our Claude follows, plus our references, raw clips and prompts. Your Claude edits like ours.</p>'+
+      '<a class="ec-upb" href="https://editaclub.com/">Join Edita Club \u00b7 $29 \u2192</a><p class="f">One-time payment \u00b7 Lifetime access'+(MB?' \u00b7 '+MBL:'')+'</p>';
+    g.appendChild(up);
+    up.querySelector('a').addEventListener('click',function(){ send('/g/_ev',{ev:'gate_offer', why:AB}); });
+    setTimeout(function(){ g.scrollIntoView({behavior:'smooth',block:'start'}); }, 320);
+  }
+  if(CAPPED){
+    [].slice.call(document.querySelectorAll('.ec-capb')).forEach(function(a){ a.addEventListener('click',function(){ send('/g/_ev',{ev:'gate_offer', why:'cap'}); }); });
+  } else {
+    g.querySelector('.ecf').addEventListener('submit',function(e){ e.preventDefault(); unlock(this,'card'); });
+    m.querySelector('.ecf').addEventListener('submit',function(e){ e.preventDefault(); unlock(this,'pop'); });
+  }
+})();
+</script><script>/* funnel clicks -> /api/v (edita-gate worker, 8 Nov) */(function(){try{var id=localStorage.getItem("ec_vid");if(!id)return;var done={};
+function s(ev){if(done[ev])return;done[ev]=1;try{navigator.sendBeacon("/api/v",JSON.stringify({id:id,path:location.pathname,ev:ev}))}catch(e){}}
+document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";
+if(/#checkout$/.test(h)||/^https:\/\/editaclub\.com\/?$/.test(h)||h==="/"||/skool\.com\//.test(h))s("join")},true);
+var box=document.getElementById("checkout");if(box&&"IntersectionObserver" in window){var o=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){s("box");o.disconnect()}})},{threshold:0.3});o.observe(box)}
+window.addEventListener("blur",function(){setTimeout(function(){var el=document.activeElement;if(el&&el.tagName==="IFRAME")s("paypal")},0)})}catch(e){}})();</script></body>
+</html>
