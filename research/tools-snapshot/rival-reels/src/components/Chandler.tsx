@@ -11,8 +11,8 @@ import { pop, tailFade, prog, EASE_IN_OUT } from "./anim";
 const textShadow = "0 2px 4px rgba(0,0,0,0.6), 0 8px 24px rgba(0,0,0,0.45)";
 
 /* ---------- Plain caption: white bold sans + shadow, no pill ("I'd lose the green box. Plain text with shadow looks way cleaner.") ---------- */
-export const PlainCaption: React.FC<{ text: string; accent?: string; dur: number; y?: number; size?: number; hiColor?: string }> = ({
-  text, accent, dur, y = 1150, size = 60, hiColor = C.hi,
+export const PlainCaption: React.FC<{ text: string; accent?: string; dur: number; y?: number; size?: number; hiColor?: string; box?: boolean }> = ({
+  text, accent, dur, y = 1150, size = 68, hiColor = C.hi, box = false,   // 2026-11-21 caption audit: 68 px (47 cap), accent = tan word by default, box: true = the coral box for comedic beats
 }) => {
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const p = pop(frame, fps, 0);
@@ -21,11 +21,11 @@ export const PlainCaption: React.FC<{ text: string; accent?: string; dur: number
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "flex-start", paddingTop: y, opacity: out }}>
       <div style={{
-        fontFamily: F.uiSemi, fontSize: size, color: C.white, textAlign: "center", lineHeight: 1.2, maxWidth: 900, textShadow,
+        fontFamily: F.uiSemi, fontSize: size, color: C.white, textAlign: "center", lineHeight: 1.2, maxWidth: 900, letterSpacing: -0.5, textShadow: "0 3px 5px rgba(0,0,0,0.65), 0 10px 28px rgba(0,0,0,0.40)",
         transform: `translateY(${(1 - p) * 10}px) scale(${0.96 + 0.04 * p})`, opacity: Math.min(1, p * 1.5),
       }}>
         {parts.map((s, i) => (accent && s.toLowerCase() === accent.toLowerCase())
-          ? <span key={i} style={{ background: hiColor, padding: "2px 14px", borderRadius: 10, textShadow: "none" }}>{s}</span>
+          ? (box ? <span key={i} style={{ background: hiColor, padding: "2px 14px", borderRadius: 10, textShadow: "none" }}>{s}</span> : <span key={i} style={{ color: C.tan }}>{s}</span>)
           : <span key={i}>{s}</span>)}
       </div>
     </AbsoluteFill>

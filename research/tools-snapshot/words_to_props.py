@@ -38,7 +38,7 @@ HOLD = 1.60
 IRIS_LEAD = 0.40
 IRIS_DUR = 0.70
 CAPTION_GAP = 0.55
-CAP_MIN, CAP_MAX, CAP_CHARS = 2, 5, 28
+CAP_MIN, CAP_MAX, CAP_CHARS = 2, 4, 24   # 2026-11-21 caption audit: 2 to 4 words, 24 chars, one line
 MIN_WINDOW = 1.2
 MAX_OVERLAP = 0.3
 HOOK_MAX_WORDS = 7
@@ -53,8 +53,8 @@ Y_CARD = 660                # card alone
 Y_CARD_UNDER_STRIKE = 780   # card when a strikestamp sits above it
 Y_GATE = 660
 Y_GHOST = 1000
-CAPTION_LINE_H = 72         # PlainCaption 60 px * 1.2
-CAPTION_CHAR_W = 31         # Poppins SemiBold 60 px, rough average
+CAPTION_LINE_H = 82         # PlainCaption 68 px * 1.2
+CAPTION_CHAR_W = 35         # Poppins SemiBold 68 px, rough average
 
 # sfx: the study's peaks (dBFS) and the nearest sound build_reel3's synthesized kit already has
 SFX_GAIN = {"whoosh": -10, "pop": -12, "stamp": -7, "tick": -17, "notify": -12}
