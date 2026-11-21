@@ -49,12 +49,23 @@ def faces_at(t):
     # pulled the "left" crop onto the crowd (reel 19, 2026-11-21)
     return sorted((f for f in samples[i]["faces"] if f[2] >= MIN_FACE_W), key=lambda f: f[0])
 
+LAST = {}   # last accepted face centre per side inside the current keep window (reset by sub_slots)
 def face_cx_at(t, side):
-    """centre x of the declared speaker's face at source time t: with two faces, left/right by position; with one face, that face."""
+    """centre x of the declared speaker's face at source time t. The two speakers are the two LARGEST faces (a bystander
+    walking up the aisle is third); left/right by position among those two. With one face only, accept it when it sits
+    near the side's last known position, otherwise treat it as a tracker drop-out (YuNet loses Troy for a frame or two
+    and the single face is the other man; reel 8 at 40 s swung onto the interviewer's chest, 2026-11-21)."""
     fs = faces_at(t)
     if not fs: return None
-    f = fs[0] if (side == "left" and len(fs) >= 2) else fs[-1]
-    return f[0] + f[2] / 2
+    if len(fs) >= 2:
+        two = sorted(sorted(fs, key=lambda f: -f[2])[:2], key=lambda f: f[0])
+        f = two[0] if side == "left" else two[1]
+    else:
+        f = fs[0]
+        cx = f[0] + f[2] / 2
+        if LAST.get(side) is not None and abs(cx - LAST[side]) > 350: return None
+    cx = f[0] + f[2] / 2; LAST[side] = cx
+    return cx
 
 def crop_x_for(cx): return max(0.0, min(1.0, (cx * SCALE - 540) / CROP_RANGE))
 
@@ -62,6 +73,7 @@ def sub_slots(t0, t1, side, jump=170, hold=0.6):
     """split [t0,t1] into windows with a stable crop; a new window starts (with an eased glide) when the face
     has moved more than `jump` source px for at least `hold` s. Returns [(a, b, cx_from, cx_to)]."""
     pts = []
+    LAST.clear()
     t = t0
     while t < t1:
         cx = face_cx_at(t, side)
@@ -189,7 +201,7 @@ def build_reel(r):
     # ---- render + mux
     video = os.path.join(RR, "out", f"{name}-video.mp4"); final = os.path.join(RR, "out", f"{name}-final.mp4")
     env = dict(os.environ, REMOTION_BRAND="dfc")
-    sh(f'npx remotion render src/index.ts RivalReel "{video}" --props="{props_path}" --codec=h264 --crf=17 --log=error', cwd=RR, env=env)
+    sh(f'npx remotion render src/index.ts RivalReel "{video}" --props="{props_path}" --codec=h264 --crf=17 --concurrency=4 --log=error', cwd=RR, env=env)   # 4 browser tabs, not 14: the machine killed the batch for memory at 14
     sh([FF, "-y", "-v", "error", "-i", video, "-i", pub_plate, "-map", "0:v:0", "-map", "1:a:0",
         "-vf", "unsharp=5:5:0.4:3:3:0.0,format=yuv420p,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv",
         "-c:v", "libx264", "-preset", "slow", "-profile:v", "high", "-level", "4.2", "-crf", "17", "-maxrate", "16M", "-bufsize", "32M",
