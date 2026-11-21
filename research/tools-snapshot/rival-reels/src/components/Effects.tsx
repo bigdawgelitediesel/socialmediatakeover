@@ -350,3 +350,26 @@ export const CompareCards: React.FC<{ before: string; after: string; dur: number
     </AbsoluteFill>
   );
 };
+
+/* ---------- FaceHud: show the mechanism (viashaan 2026-11-01): the YuNet face box with corner brackets, score and coordinates,
+   plus the dashed Instagram UI zone. `face` = the facetrack.py list [[t, x, y, w, h], ...] at 10 samples/s. ---------- */
+export const FaceHud: React.FC<{ face: number[][]; atF?: number; dur: number; color?: string; uiBox?: boolean; label?: string }> = ({ face, atF = 0, dur, color = C.tan, uiBox = true, label = "FACE" }) => {
+  const frame = useCurrentFrame(); const { fps } = useVideoConfig();
+  const t = (frame + atF) / fps;
+  let best = face[0] || [0, 400, 300, 300, 300];
+  for (const f of face) { if (f[0] <= t) best = f; else break; }
+  const [, x, y, w, h] = best;
+  const p = prog(frame, 0, 6, EASE_OUT);
+  const br = (bx: number, by: number, fx: number, fy: number) => (
+    <div style={{ position: "absolute", left: bx, top: by, width: 34, height: 34, borderTop: fy < 0 ? `4px solid ${color}` : undefined, borderBottom: fy > 0 ? `4px solid ${color}` : undefined, borderLeft: fx < 0 ? `4px solid ${color}` : undefined, borderRight: fx > 0 ? `4px solid ${color}` : undefined }} />
+  );
+  return (
+    <AbsoluteFill style={{ opacity: p * tailFade(frame, dur, 4) }}>
+      {br(x, y, -1, -1)}{br(x + w - 34, y, 1, -1)}{br(x, y + h - 34, -1, 1)}{br(x + w - 34, y + h - 34, 1, 1)}
+      <div style={{ position: "absolute", left: x + w / 2 - 2, top: y + h / 2 - 2, width: 4, height: 4, background: color }} />
+      <div style={{ position: "absolute", left: x, top: y - 40, fontFamily: mono, fontSize: 22, color, letterSpacing: 2 }}>{label} 0.9{String(Math.floor((frame * 7) % 10))}  X {String(Math.round(x + w / 2)).padStart(4, "0")}  Y {String(Math.round(y + h / 2)).padStart(4, "0")}</div>
+      {uiBox && <div style={{ position: "absolute", left: 1080 - 130, top: 1155, width: 110, height: 500, border: `2px dashed ${color}`, opacity: 0.6 }} />}
+      {uiBox && <div style={{ position: "absolute", left: 0, right: 0, top: 1440, height: 0, borderTop: `2px dashed ${color}`, opacity: 0.4 }} />}
+    </AbsoluteFill>
+  );
+};

@@ -245,12 +245,12 @@ export const IrisWipe: React.FC<{ dur: number; color?: string; cx?: number; cy?:
 };
 
 /* ---------- NegativeFlash: 2 frames of a white cutout silhouette on a hit (edita.visuals). Needs the RVM cutout webm. ---------- */
-export const NegativeFlash: React.FC<{ cutout: string; atF?: number; dur: number; frames?: number }> = ({ cutout, atF = 0, dur, frames = 2 }) => {
+export const NegativeFlash: React.FC<{ cutout: string; atF?: number; dur: number; frames?: number; invert?: boolean }> = ({ cutout, atF = 0, dur, frames = 2, invert = false }) => {   // invert + frames 30 = the 1 s cream poster beat with a black silhouette (viashaan)
   const frame = useCurrentFrame();
   if (frame >= frames) return null;
   return (
     <AbsoluteFill style={{ background: C.cream }}>
-      <OffthreadVideo src={staticFile(cutout)} startFrom={atF} muted transparent style={{ width: "100%", height: "100%", filter: "brightness(0)" }} />
+      <OffthreadVideo src={staticFile(cutout)} startFrom={atF} muted transparent style={{ width: "100%", height: "100%", filter: invert ? "brightness(0)" : "brightness(0) invert(1)" }} />
     </AbsoluteFill>
   );
 };
@@ -322,7 +322,7 @@ export const QuadWall: React.FC<{ panels: { src: string; atF?: number }[]; dur: 
 };
 
 /* ---------- Checklist: dark task card, rows type in, a tan check fills, "1 of 3" counter and bar (tenfoldmarc #07). ---------- */
-export const Checklist: React.FC<{ title?: string; rows: { text: string; at: number; doneAt?: number }[]; dur: number; x?: number; y?: number; w?: number }> = ({ title = "ALL YOU NEED TO DO", rows, dur, x = 72, y = 420, w = 936 }) => {
+export const Checklist: React.FC<{ title?: string; rows: { text: string; at: number; doneAt?: number }[]; dur: number; x?: number; y?: number; w?: number; reveal?: boolean }> = ({ title = "ALL YOU NEED TO DO", rows, dur, x = 72, y = 420, w = 936, reveal = false }) => {   // reveal: future rows shown blurred (kallaway), not empty
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const p = popSoft(frame, fps, 0); const out = tailFade(frame, dur, 6);
   const done = rows.filter((r) => r.doneAt !== undefined && frame >= r.doneAt).length;
@@ -341,8 +341,8 @@ export const Checklist: React.FC<{ title?: string; rows: { text: string; at: num
           return (
             <div key={i} style={{ display: "flex", alignItems: "center", gap: 18, marginTop: 18, opacity: frame >= r.at ? 1 : 0.35 }}>
               <div style={{ width: 40, height: 40, borderRadius: 20, border: `3px solid ${isDone ? C.tan : "#666"}`, background: isDone ? C.tan : "transparent", display: "flex", alignItems: "center", justifyContent: "center", color: C.ink, fontSize: 26, transform: `scale(${isDone ? 0.8 + 0.2 * cp : 1})` }}>{isDone ? "✓" : ""}</div>
-              <div style={{ fontFamily: F.uiSemi, fontSize: 36, color: isDone ? C.tan : C.cream, flex: 1 }}>{frame >= r.at ? r.text.slice(0, n) : ""}</div>
-              {!isDone && frame < r.at && <div style={{ flex: 1, height: 8, background: "#333", borderRadius: 4 }} />}
+              <div style={{ fontFamily: F.uiSemi, fontSize: 36, color: isDone ? C.tan : C.cream, flex: 1, filter: reveal && frame < r.at ? "blur(7px)" : undefined, opacity: reveal && frame < r.at ? 0.5 : 1 }}>{frame >= r.at ? r.text.slice(0, n) : (reveal ? r.text : "")}</div>
+              {!reveal && !isDone && frame < r.at && <div style={{ flex: 1, height: 8, background: "#333", borderRadius: 4 }} />}
             </div>
           );
         })}

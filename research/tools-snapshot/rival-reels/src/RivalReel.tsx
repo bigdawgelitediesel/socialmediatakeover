@@ -6,7 +6,7 @@ import { LogoCard, PhotoCard, SpecCard, StrikeList, BrowserCard, PromptBar, Comm
 import { PlainCaption, ToolTag, OutlineWord, PipCard, SliderReveal, GridWall, ParamPanel, StoryboardCard } from "./components/Chandler";
 import { LogoBadge, LowerThird, QuoteBar, CornerLogos } from "./components/Brand";
 import { ProgressHud, SidebarList, PhoneStage, CountUp, StrikeStamp, ItemCard, Headline, GhostWord, IrisWipe, NegativeFlash, CommentGate, QuadWall, Checklist } from "./components/Menu";
-import { WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBackWindow, ZoomThrough, HudZoom, BeforeAfter, BlurWord, Orbit, CompareCards } from "./components/Effects";
+import { WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBackWindow, ZoomThrough, HudZoom, BeforeAfter, BlurWord, Orbit, CompareCards, FaceHud } from "./components/Effects";
 import { StickerEdge, DoodleBoil } from "./components/Boil";
 
 export type Overlay = { type: string; at: number; dur: number; props?: Record<string, any>; behind?: boolean };
@@ -24,7 +24,7 @@ export const REG: Record<string, React.FC<any>> = {
   // menu-reel grammar (2026-11-21: nxtlvl, tenfoldmarc, ultra.skills, edita.visuals studies)
   hud: ProgressHud, sidebar: SidebarList, phone: PhoneStage, countup: CountUp, strikestamp: StrikeStamp, item: ItemCard, headline: Headline, ghost: GhostWord, iris: IrisWipe, negflash: NegativeFlash, gate: CommentGate, quad: QuadWall, checklist: Checklist,
   // tenfoldmarc effect vocabulary (2026-11-21)
-  wall: WallBehind, masthead: Masthead, framebreak: FrameBreak, vertigo: Vertigo, bgreplace: BgReplace, chart: ChartGrow, pullback: PullBackWindow, zoomthrough: ZoomThrough, hudzoom: HudZoom, beforeafter: BeforeAfter, blurword: BlurWord, orbit: Orbit, compare: CompareCards,
+  wall: WallBehind, masthead: Masthead, framebreak: FrameBreak, vertigo: Vertigo, bgreplace: BgReplace, chart: ChartGrow, pullback: PullBackWindow, zoomthrough: ZoomThrough, hudzoom: HudZoom, beforeafter: BeforeAfter, blurword: BlurWord, orbit: Orbit, compare: CompareCards, facehud: FaceHud,
   // silhouette effects (2026-11-21 port notes 3.2 / 3.3)
   sticker: StickerEdge, boil: DoodleBoil,
 };

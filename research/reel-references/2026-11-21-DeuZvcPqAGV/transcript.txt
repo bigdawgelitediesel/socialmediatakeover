@@ -1,0 +1,13 @@
+[00:00.0 -> 00:02.7] If you want to get good results for your Claude editor,
+[00:02.8 -> 00:05.5] exactly like this, tell it to make it a sheet
+[00:05.5 -> 00:08.4] of all of the major chapters,
+[00:08.7 -> 00:10.9] all of the major parts of the video
+[00:10.9 -> 00:12.9] that it did animations on.
+[00:13.0 -> 00:15.9] That way it will instantly know,
+[00:16.2 -> 00:19.7] oh shit, I need to change exactly right here,
+[00:20.1 -> 00:23.0] this animation, so you can get the best results
+[00:23.0 -> 00:24.1] you're looking for.
+[00:24.2 -> 00:25.9] Instead of having to re-render it
+[00:25.9 -> 00:26.8] each and every single time.
+[00:26.9 -> 00:28.8] If you want to learn more advanced Claude tips,
+[00:28.8 -> 00:29.7] make sure to follow me.

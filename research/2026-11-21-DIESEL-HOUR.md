@@ -59,6 +59,12 @@ The niche's own data agrees with the morning's finding from the other direction.
 77. **Brands:** FASS (@fassfuelsystems, 290K) and Industrial Injection (@iidiesel, 200K; Scott Dana's bio tags it) both run 4 of 12 grid tiles as creator Collabs this week; FASS's vehicle sponsorship page has no follower floor; Derale reposts 9 of 12. The emissions-intact power lane (TopCorey 96.7K, Banks, ATS, EZ Lynk shops) is where Chief sits: the audience reflexes are "show the dyno" and "will factory parts hold up", which the over-spec parts list answers. 25-term glossary and 15 named openers in the report.
 
 
+### Late additions, editing side (four reels Jacob sent at 10:45; breakdowns in their folders)
+78. **Desire hook (@kallawaymarketing, 9.7K likes):** lead with the desired outcome, then tie it to a relatable character (Jacob, the viewer, or the truck): "How a parts manager with no shop of his own is getting a '59 F600 to SEMA 2027 on a 7.3" beats "Three parts every 7.3 needs". Added to the hook templates. His blurred-future-steps card is now `reveal: true` on Checklist.
+79. **Diagram + result + behind-the-scenes in one frame (@borisforeal, 7.9K likes, 75 comments):** the cleanest "how I film this" reel; top a line diagram of the bay, middle the talking-head result, bottom the wide with arrows, each light or camera landing in all three on the same beat. Gear list in the caption is a partner moment.
+80. **Caption style per phrase and show-the-mechanism HUD (@viashaan, 6K comments):** glowing, capitals, italics chosen to mean the word; a face-track HUD with score and coordinates; a dashed box where the Instagram UI sits. Added `variant` (sans, serif, caps, italic) on PlainCaption, `facehud` (draws the YuNet box, coordinates and the UI zone from facetrack.py's list) and `invert` on NegativeFlash for the 1 s cream poster beat. Text on a curved path and the generated room are not for us.
+81. **The phone-at-a-screen reel (@torsten.roscoe, 1,259 comments):** zero-setup format, a blue title pill plus a face bubble; the content was our artboard rule. Jacob's version is phone-at-the-Fullbay-screen for the parts-counter credential.
+
 ## What to do this week, in order
 1. Post a meme in the 10-mil voice built from Jacob's own footage (template 3: cutout over own footage plus a text confession), caption line 1 as a person type.
 2. First named-tribe build reel: "7.3 guys, this one's for you" (opener 1), raw footage, one fact, no text or one label.
