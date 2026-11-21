@@ -72,14 +72,28 @@ The one-paragraph read: the account's problem is not reach or hooks any more (Ha
 45. **Artboard before render is now a tool (tools/artboard.py):** one contact sheet of the planned frames (hook frame, each overlay at +0.5 s, last frame) with tile numbers, the 480/1440 safe lines and a lint (text below the floor, overlapping cards, multiple hook elements). About 0.7 s per frame. Jacob redlines by tile number. Run it on every new cut before the full render; the stock-parts artboard is in the dry-run folder and shows the open layout note: the band between the captions and the 1440 floor is still empty on card reels.
 46. **Caption audit (55 reels measured at delivery px, reel-references/2026-11-21-caption-audit):** zero strokes, zero per-word colour flashes and one accent colour across all 55; talking-head captions run 44 to 58 px cap-height-equivalent, sentence case, 2 to 4 words, centre y about 1185, never on a face; ten of fourteen diesel winners burn no text and the other four carry exactly one object. Our Harley captions were the smallest and most outlined text in the set. Applied to the kit: PlainCaption 68 px (was 60), two-layer shadow, accent = tan word by default (`box: true` keeps the coral box for comedic beats), groups 2 to 4 words and 24 characters, hook titles only in the upper third; the Oswald hook and the serif end card are retired. Full v2 spec for the three cases (talking head, card reel, meme) is in the audit, section 5.
 
-## 2. What was built today (all in VIDEO/tools, snapshot in research/tools-snapshot)
+## 2. What was built today (all in VIDEO/tools, snapshot in research/tools-snapshot; every one test-rendered or test-run)
 
-- `rival-reels/src/components/anim.ts`: backOut(s), expoOut, power4Out, power2In, steps(n), popSoft, sf.
-- `rival-reels/src/components/Menu.tsx` (13): ProgressHud, SidebarList, PhoneStage, CountUp, StrikeStamp, ItemCard, Headline, GhostWord, IrisWipe, NegativeFlash, CommentGate, QuadWall, Checklist.
-- `rival-reels/src/components/Effects.tsx` (11): WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBackWindow, ZoomThrough, HudZoom, BeforeAfter, BlurWord.
-- `rival-reels/src/CardReel.tsx`: plate-free composition (bg color / paper / still / blurred video, durationSec, same overlay schema). RivalReel now passes `plate` and `cutout` to every overlay.
-- Tested: menu-test (14 s, 23 s render), fx-test and fb-test on the Driven plate + cutout (frames in research/reel-references/2026-11-21-menu-kit-test/).
-- In progress by build agents at the time of writing (see their READMEs when they land): `tools/words_to_props.py` + specs/menu-reel-example.json (word-timestamp generator and lint), `tools/vo_scratch.py` + venv-voice (Kokoro scratch voice with words.json), `tools/sfx-kit` + `tools/sfx_place.py` + Earshot customs.
+Remotion kit (tools/rival-reels):
+- `src/components/anim.ts`: backOut(s), expoOut, power4Out, power2In, steps(n), popSoft, sf.
+- `src/components/Menu.tsx` (13): ProgressHud, SidebarList, PhoneStage, CountUp, StrikeStamp, ItemCard, Headline, GhostWord, IrisWipe, NegativeFlash, CommentGate, QuadWall, Checklist.
+- `src/components/Effects.tsx` (12): WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBackWindow, ZoomThrough (CameraMotionBlur radial streak), HudZoom, BeforeAfter, BlurWord, Orbit.
+- `src/components/Boil.tsx` (2): StickerEdge, DoodleBoil.
+- `src/components/Chandler.tsx`: PlainCaption to the v2 spec (68 px, two-layer shadow, tan accent, `box` opt-in).
+- `src/CardReel.tsx` (plate-free composition), `src/Cover.tsx` (grid-safe cover still, cream band for MEGANTE). RivalReel passes `plate` and `cutout` to every overlay; 27 new overlay types registered.
+
+Tools (tools/):
+- `words_to_props.py` + `specs/`: cue words to props with lint and sfx events (`WORDS-TO-PROPS-README.md`).
+- `vo_scratch.py` + `venv-voice` + `models/kokoro`: scratch voice with words.json and a pacing report (`VOICE-README.md`). Timing only, never shipped.
+- `sfx-kit/` (16 CC0 slots, 4 Earshot customs, `KIT.md`), `sfx_place.py`, `sfx_lint.py` (`SFX-README.md`): frame-accurate placement, measured 0.00 to 0.03 frames.
+- `artboard.py` + `venv-artboard` (`ARTBOARD-README.md`): the artboard-before-render sheet with safe lines and lint.
+- `tools/earshot/` clone (data), `venv-sfx`.
+
+Worked examples: research/reel-references/2026-11-21-menu-kit-test (component tests), 2026-11-21-stock-parts-dry-run (the full chain on a Rival script: 42.7 s, 9 items, scratch voice, sfx, artboard).
+
+Playbook and skill: playbook/09-measurement-protocol.md, CLAUDE.md corrections block, reel-editor skill (menu tier pipeline, new components, sends/shooting/handoff rules, artboard step), this addendum.
+
+Open items for the next build pass: matte.py morphological close (lumpy alpha at the cap), CardReel caption at y 360 on paper plates per the audit, the serif-italic selection-box accent component, PlainCaption y from the face tracker (chin + 120), legacy ASS styles in build_reel3 marked legacy, `rampable: true` slots, the port list items 3 to 7 (digital zoom curve, floor timeline, paper desk, 2.5D teardown, split flap).
 
 ## 3. Reference library added today (research/reel-references/)
 
