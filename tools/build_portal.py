@@ -39,13 +39,13 @@ SHAPES = {
     "story": {"name": "Story", "length": "60 to 120 s", "when": "PM 16:00 to 19:00 MT",
               "how": ["Sentence one is trouble a stranger understands. A number or a regret in the title.",
                       "Your face not before 20 s. Pocket 3 on a magnet mount, voice recorded after in the cab.",
-                      "Every problem in order, the fix for each, cut every 2 to 4 s. Re-hook a third and two thirds in.",
+                      "Every problem in order, the fix for each; each clause cuts to the thing it names and holds until the next sentence names something else. One loop, one turn, the answer last.",
                       "Hold the answer for the last ten seconds. End within 1.5 s of the payoff. No outro."]},
-    "talk": {"name": "Talking head, in the truck", "length": "60 to 120 s", "when": "PM 16:00 to 19:00 MT, every day",
-             "how": ["Same seat, same mount, Pocket 3 on the dash at eye height, Face Auto-Detect on, engine off, windows up, DJI Mic 3 to 5 inches off.",
+    "talk": {"name": "Talking head, in the truck", "length": "40 to 60 s (60 to 120 once watch clears 10 s)", "when": "PM 16:00 to 19:00 MT, every day",
+             "how": ["Same seat, same mount, Pocket 3 on the dash at eye height, 70 to 90 cm from the face, passenger window as the key, Face Auto-Detect on, engine off, windows up, DJI Mic 3 to 5 inches off.",
                      "Never a static face on frame 1: door shuts mid-sentence, turn from the windshield on the first word, or the part comes up first. First noun by 0.9 s.",
                      "Title sentence with a number in the upper third for the first 3 s. Pilot line once around 15 s, spoken. One idea per breath, 150 to 165 wpm, say the acronyms.",
-                     "Re-hook at a third and two thirds. Answer in the last ten seconds, one question that splits the comments, your fixed sign-off, cliffhanger to tomorrow. No outro, no ask.",
+                     "One loop in sentence one, one turn in the middle, the answer in the last ten seconds; one question that splits the comments, your sign-off, cliffhanger to tomorrow. Change every five to eight seconds with the pad, the part or a turn; cut only to remove, on a breath. No outro, no ask.",
                      "Five takes straight through, teleprompter allowed, pick the best. Rotation: Relatable, Trust, Funny; the trucks are the backdrop, Rival only as an honest check-in while the build starts. Full page: playbook/12-talking-head-in-the-truck.md"]},
     "question": {"name": "Question clip", "length": "9 to 25 s", "when": "AM 09:00 to 11:00 MT",
                  "how": ["A real clip from your own world with something going wrong or a hack happening.",
@@ -75,6 +75,7 @@ POST_CHECK = [
 ]
 
 RULES = [
+    "Change, not cut (doctrine 2026-11-22): something the viewer cares about changes every five to eight seconds; a cut is the most expensive way to make it. One physical device per talking head, cut only to remove, on a breath. Full text: research/2026-11-22-REEL-EDITOR-DOCTRINE.md.",
     "Community first. The more relatable the better. A stranger with any truck, or no truck, has to see themselves in it before the F600, the 7.3 or the shop matter. They are the backdrop and the credential, not the subject.",
     "No on-screen call to action, no outro, no fade. The share line is caption line 1, written as a person type.",
     "One poster lockup on the hook (LOUDER, MEGANTE or TROPI). Nothing else burned in on the fast tier.",

@@ -28,12 +28,12 @@ First noun by 0.9 s. No "hey guys", no "so today". The title sentence sits in th
 - **One day ahead.** Film in the gaps during the day, edit at night, post the next day (Mariah, 300K in two months as a mom with two kids). Never shoot the morning of.
 - **Double down.** When an episode works, the next three answer its comments before anything new.
 
-## The shape (60 to 120 s)
+## The shape (40 to 60 s now, 60 to 120 s once ten episodes in a row hold an average watch over 10 s)
 
 1. **Trouble or claim in sentence one**, a stranger understands it. A number or a price in the title line.
-2. **Pilot line once, around 15 to 20 s, spoken not burned:** "If you're new here, I'm Jake, parts manager at a semi shop, building a 1959 Ford on a 7.3 for SEMA 2027." Lower the status in one line when it fits ("I don't own a shop. I work at one.").
+2. **Credential inside a working sentence, never a standalone intro line (2026-11-22):** "I order parts for semis all day, and I still bought the wrong one for my own truck." Lower the status once, after the credential ("I don't own a shop. I work at one.").
 3. **Body:** the case in order, one idea per breath (8 to 12 words), 150 to 165 wpm. Say the acronyms, never explain them. Small number next to the big one. Keep the failure in.
-4. **Re-hook at a third and two thirds** ("the part nobody expected was...", "and that is not the expensive one").
+4. **One loop opened in sentence one, one turn in the middle, the answer last.** No scheduled re-hook; the device is inherited from YouTube long-form and measured nowhere. Read the retention chart at 24 h and put a turn where it sagged last time.
 5. **Answer held to the last ten seconds.** Then one question that splits the comments ("Would you daily it?", "Is parts a trade?"), spoken.
 6. **Fixed sign-off, in his words, every time.** Pick it once. Then a cliffhanger to the next episode instead of any follow ask ("Tomorrow: the part that came back three times."). End within 1.5 s. No outro, no fade.
 
@@ -41,7 +41,7 @@ Rotation so the page breathes: **Relatable** (the first truck, the hotshot years
 
 ## The edit (motion tier on a plate)
 
-- Jump cuts on motion only (a head turn, a hand up, the part coming in), every 2 to 4 s; never a cut mid payoff line.
+- **Change, not cut (2026-11-22 doctrine, research/2026-11-22-REEL-EDITOR-DOCTRINE.md).** Something the viewer cares about changes every five to eight seconds: a hand, the pad, the part, a turn, a pause. Cut only to remove, on a breath or a gesture or the first consonant of a word, room tone running under the join; one or two cuts in 60 s, zero is fine; never a cut mid payoff line, never a punch-in on handheld, never both a punch and a cut on one join. The 2 to 4 s cadence is retired: across 131 studied reels it does not sort winners from losers, and the one-take talking heads with one physical device are the ones that won.
 - **The default insert is the notebook (added 2026-11-22 from @mariah_mpls, 50K likes):** a legal pad on the dash or the counter, your own hand writing the point in Sharpie, shot top-down after the take with the phone on the mount or the Pocket 3 held overhead. Five to eight per trust episode, 2 to 4 s each, cut in on the noun. Ranked lists, the two questions, the price beside the OEM price, the one line a customer said. No render, no second person.
 - B-roll amplifies the feeling of the line, it does not have to illustrate the exact thing (Jun Yuh: text tells the story, visuals carry the emotion). Cut on the noun within 0.3 s: the bay, the counter, the part on the shelf, the truck. Three to five inserts per episode, each 1.5 to 3 s. Without inserts the episode is still legal; it is just a yap.
 - Captions: PlainCaption 68 px, 2 to 4 words, sentence case, one tan accent word, chest band, never on the face, no stroke. Title in the upper third only during the open (off by 3 s).
@@ -71,4 +71,15 @@ Record the whole thing five times, straight through, no stopping for stumbles in
 
 ## Do not
 
-Open static. Explain an acronym. Ask for the follow. Burn a call to action. Grade it. Name a customer, a plate or a vendor price. Promise anything for the shop. Say SEMA is anything but "the target". Go 20 to 40 s; the shape is 60 to 120.
+Open on a greeting or a promise the reel does not pay. Explain an acronym. Ask for the follow on screen. Burn a call to action. Grade it. Add a whoosh, a riser or a sound effect. Name a customer, a plate or a vendor price. Promise anything for the shop. Say SEMA is anything but "the target". Pad to a length: 40 to 60 s until the watch time earns 60 to 120; the 20 to 40 s ban is for narrated story over footage, not for a talking head that ends when the last line is said.
+
+## Added 2026-11-22 from the doctrine (research/2026-11-22-REEL-EDITOR-DOCTRINE.md)
+
+- **Write the last line first, then the first line as its opposite.** But and therefore, never and then. Three beats: normal, explosion, new normal.
+- **Zoom into the moment (Philipp Humm):** where I was in one phrase, the verb, the raw thought, the emotion on the body, the exact words someone said. At least three of the five in the first 20 s. Never summarize what you can replay.
+- **Voice before the picture, mid-sentence inside 0.5 s.** The sentence is the opener; the lockup landing is the move; a static seated face with a noun by 0.9 s is legal.
+- **Delivery:** 160 to 180 words a minute for the facts, his own speed for the human line; pauses under a second at clause ends; one held beat after the turn; let the pitch move and end the key sentences falling; up to five ums a minute is free; hands in frame; eyes on the lens or two degrees under.
+- **Camera, exact:** lens at seated eye height, 70 to 90 cm from the face, never under 50 cm; passenger window as the key at 45 degrees; depth through the glass behind the shoulder; 4K30, no grade.
+- **Sound:** -14 LUFS integrated, -1 dBTP; one second of room tone each end and under every cut; voice only; no SFX.
+- **Grade a talking head on watch share (floor 50 percent of runtime) and likes per reach (floor 4 percent).** Sends are logged, not graded, until one clears 0.7 percent; no face held past 10 s on this account ever has. Memes and loops are graded on sends.
+- **The card for the dash** is section 18 of the doctrine.
