@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T22:57-07:00",
+ "generated_at": "2026-11-21T22:58-07:00",
  "plan_first_date": "2026-11-24",
  "plan_last_date": "2026-12-08",
  "sema_date": "2027-11-02",
@@ -156,8 +156,8 @@
    "day": 10,
    "date": "2026-12-03",
    "slot": "AM",
-   "idea_n": 15,
-   "idea": "7.3 owners when asked how fast",
+   "idea_n": 7,
+   "idea": "6:02 a.m.",
    "cell": "Loop"
   },
   {
@@ -1024,6 +1024,7 @@
   "Log it: python -I tools/coyote.py pending add <media_id> \"<label>\" <posted_iso>"
  ],
  "rules": [
+  "Community first. The more relatable the better. A stranger with any truck, or no truck, has to see themselves in it before the F600, the 7.3 or the shop matter. They are the backdrop and the credential, not the subject.",
   "No on-screen call to action, no outro, no fade. The share line is caption line 1, written as a person type.",
   "One poster lockup on the hook (LOUDER, MEGANTE or TROPI). Nothing else burned in on the fast tier.",
   "No color grade. Real footage only. Your voice only; the Kokoro scratch voice never ships.",

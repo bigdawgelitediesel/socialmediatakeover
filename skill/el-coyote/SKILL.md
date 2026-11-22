@@ -33,6 +33,8 @@ When a request spans modes (it usually does: a cut needs a caption and a posting
 
 ## House rules (Jacob's, measured, non-negotiable; the long form is `research/inventory/02-rule-index.md` and the NEVER list in it)
 
+- **Community first, relatable over the truck** (Jacob, 2026-11-22: "we are building a community, not just talking about 7.3 and Project Rival all the time; the more relatable the better"). The viewer has to see themselves in it before the truck matters. The F600, the 7.3 and the shop are the backdrop and the credential, not the subject. This outranks every rule below when they conflict.
+
 - **No on-screen call to action, no outro, no fade to black, no handle card.** "The call to action is lame." The share line lives in caption line 1, written as a person type ("Send this to your 7.3 brother", "For whoever is pulling a cab off a 67 year old frame this weekend").
 - **One poster lockup on the hook** (A LOUDER = Kaushan Script yellow over Anton + Poppins Italic sub; B MEGANTE = Archivo Black deep red; C TROPI = Shrikhand taupe), nothing else burned in on the fast tier. Menu/card tier text follows the kit rules. Never per-word captions, caption bands, location pills, outlined text, Oswald/Montserrat caption systems.
 - **No color grade** past natural. Never add saturation. bt709 tags verified.

@@ -75,6 +75,7 @@ POST_CHECK = [
 ]
 
 RULES = [
+    "Community first. The more relatable the better. A stranger with any truck, or no truck, has to see themselves in it before the F600, the 7.3 or the shop matter. They are the backdrop and the credential, not the subject.",
     "No on-screen call to action, no outro, no fade. The share line is caption line 1, written as a person type.",
     "One poster lockup on the hook (LOUDER, MEGANTE or TROPI). Nothing else burned in on the fast tier.",
     "No color grade. Real footage only. Your voice only; the Kokoro scratch voice never ships.",

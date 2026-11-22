@@ -191,7 +191,7 @@ Morning (09:00 to 11:00 MT) carries the loop, the skit or the question clip, sho
 | 8 | Tue Dec 1 | PM | 54 Three questions to ask before you pay for a diagnosis | Trust x Talking head | | | | | |
 | 9 | Wed Dec 2 | AM | 4 Did it fit? | Fails x Skit | | | | | |
 | 9 | Wed Dec 2 | PM | 55 The night I almost quit hotshot | Relatable x Talking head | | | | | |
-| 10 | Thu Dec 3 | AM | 15 7.3 owners when asked how fast | Loop | | | | | |
+| 10 | Thu Dec 3 | AM | 7 6:02 a.m. | Loop | | | | | |
 | 10 | Thu Dec 3 | PM | 42 I disabled the CP4 and ran a FASS. What that means | Trust x Talking head | | | | | |
 | 11 | Fri Dec 4 | AM | 16 Nice Cummins | Identity x Skit | | | | | |
 | 11 | Fri Dec 4 | PM | 56 Ranking the worst places to drop a 10 mm | Funny x Talking head | | | | | |
