@@ -333,7 +333,7 @@
    "title": "The order that came back three times.",
    "evidence": "6 posts; gearman_93 52x on 446k",
    "body": "Frame 1: Jacob at the counter screen, VO at 0.0: \"One part. Three returns. Same truck. Here's what was actually wrong.\" Named engine (ISX, X15, DD15), no customer, no shop name, the principle at the end (\"the part was never the problem\"). 60 s, cut on the screen, the box, the part. Caption line 1: \"For the parts guy who has explained a core charge four times today.\" Backed by gearman_93 26, 205, 216 and the owner-operator finding that exact bills travel. Day 5 afternoon (the semi variety slot).",
-   "shape": "story",
+   "shape": "talk",
    "length": "60 to 120 s",
    "caption_line1": "For the parts guy who has explained a core charge four times today.",
    "frame1": "Jacob at the counter screen, VO at 0.0: \"One part."
@@ -366,7 +366,7 @@
    "title": "Parts guys, the most returned part in the building this year.",
    "evidence": "empty cell",
    "body": "Frame 1: Jacob with the returns shelf behind him, the part in hand, \"Parts guys, this one's for you. The most returned part in this building in 2026, and it's not the one you'd guess.\" One part, one reason, principle only. 20 s. Caption line 1: \"For the guy who buys by the box color.\" Backed by the Numbers x News column (17 posts) and the September \"don't buy this\" format; employee disclosure in the caption. Day 11 afternoon.",
-   "shape": "story",
+   "shape": "talk",
    "length": "60 to 120 s",
    "caption_line1": "For the guy who buys by the box color.",
    "frame1": "Jacob with the returns shelf behind him, the part in hand, \"Parts guys, this one's for you."
@@ -399,7 +399,7 @@
    "title": "There's a kid in Cheyenne doing his first 7.3.",
    "evidence": "2 posts; Dave's 17-year-old 22x, 2.0M, 9k comments",
    "body": "Frame 1: Jacob at the bench, \"There's a kid in Cheyenne trying to do his first 7.3 and he's stuck on the exact thing I was stuck on.\" 30 s, two 2 s inserts of the part in question, ends on \"should I go help him?\" Part two three days later. Caption line 1: \"For anyone who learned this stuff from a stranger.\" Only if the kid is real; otherwise swap for the \"why it stays 2WD\" reply-to-comment reel. Backed by 67 and 119. Day 14 afternoon.",
-   "shape": "story",
+   "shape": "talk",
    "length": "60 to 120 s",
    "caption_line1": "For anyone who learned this stuff from a stranger.",
    "frame1": "Jacob at the bench, \"There's a kid in Cheyenne trying to do his first 7.3 and he's stuck on the exact thing I was stuck on.\" 30 s, two 2 s inserts of the part in question, ends on \"should I go help him?\" Part two three days later."
@@ -465,7 +465,7 @@
    "title": "This truck worked for a lumber company in 1959.",
    "evidence": "3 posts; Oversteer 142x on 14.8M, jeff.salv 1.82",
    "body": "Frame 1: the truck wide, VO at 0.0: \"This truck hauled lumber out of Laramie, Wyoming starting in 1959. Here's what 67 years did to it.\" A walk through the damage with the story: the cab, the rot, the 2WD, the frame that is leaving, the lettering that gets photographed before paint. Cut every 2 to 3 s, 60 to 75 s, captions for the first 20 s only. Caption line 1: \"For the guy restoring his grandpa's truck one bolt at a time.\" Backed by 8, 160, 215 and the Oversteer Y9 read. Day 7 afternoon.",
-   "shape": "story",
+   "shape": "talk",
    "length": "60 to 120 s",
    "caption_line1": "For the guy restoring his grandpa's truck one bolt at a time.",
    "frame1": "the truck wide, VO at 0.0: \"This truck hauled lumber out of Laramie, Wyoming starting in 1959."
@@ -586,7 +586,7 @@
    "title": "One of the last 1959 F600s in Wyoming. It runs. It just can't go anywhere.",
    "evidence": "DriveHub 5.76M, 110 s",
    "body": "Facts from Jacob, 2026-11-22: the truck starts and runs, badly, and it does not move; it sits in a bay at the shop. Frame 1: Jacob's hand on the door, VO at 0.0: \"This is one of the last 1959 Ford F600s left in Wyoming. It runs. It just can't go anywhere.\" The first ten seconds are the start-up as it really is (the crank, the smoke, the idle), then the case in order: what stops it from moving, what else is wrong as it sits, what the lumber company left behind, the one thing that makes people say leave it alone. The answer held to the last ten seconds: the 7.3, the Super Duty frame, SEMA 2027 as the target. Face not before 20 s. 90 to 120 s. Caption line 1: \"Send this to the guy who says you should never cut up an original.\" Title number: \"one of the last\". Shoot note (2026-11-22): the shop may be in frame, Jacob wants the association; say \"I work there\" once on camera, keep customers, plates and invoices out of the shot. Platform: TikTok and Shorts first.",
-   "shape": "story",
+   "shape": "talk",
    "length": "60 to 120 s",
    "caption_line1": "Send this to the guy who says you should never cut up an original.",
    "frame1": "Jacob's hand on the door, VO at 0.0: \"This is one of the last 1959 Ford F600s left in Wyoming."
@@ -597,7 +597,7 @@
    "title": "Frame swap, to the dollar.",
    "evidence": "DriveHub $59 at 3.86M",
    "body": "Frame 1: a receipt pile on the hood, VO: \"Everybody asks what a frame swap costs. Nobody posts the number. Here is mine so far, to the dollar.\" Every line item on screen as a chip on its word (specchips), the surprise item, the running total count-up, the line \"and I have not bought the part everyone thinks is the expensive one.\" 60 to 90 s. Caption line 1: \"Send this to the guy who says a frame swap is cheap.\"",
-   "shape": "story",
+   "shape": "talk",
    "length": "60 to 120 s",
    "caption_line1": "Send this to the guy who says a frame swap is cheap.",
    "frame1": "a receipt pile on the hood, VO: \"Everybody asks what a frame swap costs."
@@ -641,8 +641,8 @@
    "title": "20,000 of you told me what engine to put in it.",
    "evidence": "Dave's 1.1M, 41 s",
    "body": "Jacob reads the top comments from the swap-vote posts (Cummins, LS, Coyote, keep the gas), answers each in one line, lands on the 7.3 and why. 40 to 60 s. Caption line 1: \"For the one who commented Cummins. This is for you.\"",
-   "shape": "question",
-   "length": "9 to 25 s",
+   "shape": "talk",
+   "length": "60 to 120 s",
    "caption_line1": "For the one who commented Cummins. This is for you.",
    "frame1": ""
   },
@@ -652,7 +652,7 @@
    "title": "Everything the last owner did to this truck.",
    "evidence": "",
    "body": "Oversteer's \"problems from the last mechanic\" shape (4.9M): the bodges found on the F600 and the frame donor, one by one, with the fix. 90 s. Caption line 1: \"Send this to the guy who bought a 'fully sorted' truck.\"",
-   "shape": "story",
+   "shape": "talk",
    "length": "60 to 120 s",
    "caption_line1": "Send this to the guy who bought a 'fully sorted' truck.",
    "frame1": ""
@@ -674,7 +674,7 @@
    "title": "What a truck at SEMA actually costs.",
    "evidence": "",
    "body": "The exhibitor rule, the fee, the transport, the booth partner, the deadline, told as a budget with the gaps. 60 to 90 s. Caption line 1: \"For the guy who thinks you just drive your truck to SEMA.\"",
-   "shape": "story",
+   "shape": "talk",
    "length": "60 to 120 s",
    "caption_line1": "For the guy who thinks you just drive your truck to SEMA.",
    "frame1": ""

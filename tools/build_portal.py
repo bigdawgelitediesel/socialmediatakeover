@@ -111,6 +111,10 @@ def parse_idea(i: dict) -> dict:
 def main():
     cal = coyote.calendar()
     ideas = {n: parse_idea(i) for n, i in coyote.ideas().items()}
+    # every afternoon slot is the talking head in the truck (2026-11-22), whatever cell the idea came from
+    for r in cal:
+        if r["slot"] == "PM" and r["idea_n"] in ideas:
+            ideas[r["idea_n"]]["shape"] = "talk"; ideas[r["idea_n"]]["length"] = SHAPES["talk"]["length"]
     hooks = coyote.hook_variants()
     reads = coyote.read_tsv(coyote.READS)
     posts = coyote.read_tsv(coyote.POSTS)
