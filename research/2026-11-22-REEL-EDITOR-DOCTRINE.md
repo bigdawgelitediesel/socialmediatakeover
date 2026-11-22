@@ -35,6 +35,10 @@ Kier Porter's 112-reel sample and the independent data agree on the shape; file 
 4. **The title sentence, three to seven words, with a number, upper third, gone by 3 s.** Written as a flat claim or an identity or pain line ("the kind of guy who buys the cheap filter twice"), never a question. Readable at a glance, high contrast, never under the right rail or the bottom overlay.
 5. **Open only on a line the reel pays off.** The cold open is not the trick; the unpaid promise is. A 35-year-old in Wyoming forgives a mid-sentence start and does not forgive a bait.
 6. **No scheduled re-hook.** The one-third, two-thirds device is inherited from YouTube long-form and measured nowhere. One loop at the top, one turn in the middle, the answer last. Read the retention chart; where it sags, that point gets a turn next time.
+7. **Write the lockup as a name-call, not a topic (file 10).** "For the guy still running the stock pump" beats "CP4 failure explained": identity first, the pain in the same breath. Hooks built on "you" ran 9.6x an account's typical views against 6.2x for "I" (Content Labs, 14,424 videos); a number in the hook adds almost nothing unless the number is the story.
+8. **Rueful beats angry.** Sad words out-clicked angry ones across 105,000 Upworthy tests, and the relatability research says a mild shared grievance bonds and a rant does not. The tone of the open is "I did this too," never "you people."
+9. **Rotate the set once a week.** After ten episodes the cab is a known frame; the F600 cab in the bay, the parts room, the counter after close, a Class 8 cab are pattern interrupts that are still his. "I work there" when the shop is in frame.
+10. **What the six-things sample cannot say.** Kier counted what 112 winners shared with no losers in the sample, so it is prevalence, not lift; the measured side (Emplifi's 10,110 Reels, the TikTok and MetrixLab hook study, Content Labs) agrees on speech at once, a face, "you," and legible text, is silent on the timed angle change, and says layered text slightly lowers retention on speech-led video. One lockup, off by 3 s, then captions.
 
 ## 4. Delivery as a human
 
