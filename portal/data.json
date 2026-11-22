@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-21T22:25-07:00",
- "plan_first_date": "2026-11-22",
- "plan_last_date": "2026-12-06",
+ "generated_at": "2026-11-21T22:44-07:00",
+ "plan_first_date": "2026-11-24",
+ "plan_last_date": "2026-12-08",
  "sema_date": "2027-11-02",
  "slots": {
   "AM": "09:00 to 11:00 MT",
@@ -10,7 +10,7 @@
  "calendar": [
   {
    "day": 1,
-   "date": "2026-11-22",
+   "date": "2026-11-24",
    "slot": "AM",
    "idea_n": 40,
    "idea": "Where the 10 mil at, part 2",
@@ -18,15 +18,15 @@
   },
   {
    "day": 1,
-   "date": "2026-11-22",
+   "date": "2026-11-24",
    "slot": "PM",
-   "idea_n": 31,
-   "idea": "One of the last 1959 F600s, and it won't start",
-   "cell": "Fails x Story"
+   "idea_n": 32,
+   "idea": "Frame swap, to the dollar",
+   "cell": "Numbers x Story"
   },
   {
    "day": 2,
-   "date": "2026-11-23",
+   "date": "2026-11-25",
    "slot": "AM",
    "idea_n": 33,
    "idea": "Is parts a trade?",
@@ -34,15 +34,15 @@
   },
   {
    "day": 2,
-   "date": "2026-11-23",
+   "date": "2026-11-25",
    "slot": "PM",
-   "idea_n": 32,
-   "idea": "Frame swap, to the dollar",
-   "cell": "Numbers x Story"
+   "idea_n": 31,
+   "idea": "One of the last 1959 F600s. It runs. Tearing it apart anyway",
+   "cell": "Fails x Story"
   },
   {
    "day": 3,
-   "date": "2026-11-24",
+   "date": "2026-11-26",
    "slot": "AM",
    "idea_n": 6,
    "idea": "Did you know about this?",
@@ -50,7 +50,7 @@
   },
   {
    "day": 3,
-   "date": "2026-11-24",
+   "date": "2026-11-26",
    "slot": "PM",
    "idea_n": 34,
    "idea": "A parts manager, a 7.3, and no shop",
@@ -58,7 +58,7 @@
   },
   {
    "day": 4,
-   "date": "2026-11-25",
+   "date": "2026-11-27",
    "slot": "AM",
    "idea_n": 38,
    "idea": "It just started doing that today",
@@ -66,7 +66,7 @@
   },
   {
    "day": 4,
-   "date": "2026-11-25",
+   "date": "2026-11-27",
    "slot": "PM",
    "idea_n": 36,
    "idea": "20,000 of you told me what engine to put in it",
@@ -74,7 +74,7 @@
   },
   {
    "day": 5,
-   "date": "2026-11-26",
+   "date": "2026-11-28",
    "slot": "AM",
    "idea_n": 9,
    "idea": "Porch light",
@@ -82,7 +82,7 @@
   },
   {
    "day": 5,
-   "date": "2026-11-26",
+   "date": "2026-11-28",
    "slot": "PM",
    "idea_n": 37,
    "idea": "Everything the last owner did to this truck",
@@ -90,7 +90,7 @@
   },
   {
    "day": 6,
-   "date": "2026-11-27",
+   "date": "2026-11-29",
    "slot": "AM",
    "idea_n": 10,
    "idea": "It's a sensor",
@@ -98,7 +98,7 @@
   },
   {
    "day": 6,
-   "date": "2026-11-27",
+   "date": "2026-11-29",
    "slot": "PM",
    "idea_n": 20,
    "idea": "This truck worked for a lumber company",
@@ -106,7 +106,7 @@
   },
   {
    "day": 7,
-   "date": "2026-11-28",
+   "date": "2026-11-30",
    "slot": "AM",
    "idea_n": 3,
    "idea": "Fit on the bench",
@@ -114,7 +114,7 @@
   },
   {
    "day": 7,
-   "date": "2026-11-28",
+   "date": "2026-11-30",
    "slot": "PM",
    "idea_n": 14,
    "idea": "A kid in Cheyenne doing his first 7.3",
@@ -122,7 +122,7 @@
   },
   {
    "day": 8,
-   "date": "2026-11-29",
+   "date": "2026-12-01",
    "slot": "AM",
    "idea_n": 12,
    "idea": "Who's this at your shop?",
@@ -130,7 +130,7 @@
   },
   {
    "day": 8,
-   "date": "2026-11-29",
+   "date": "2026-12-01",
    "slot": "PM",
    "idea_n": 39,
    "idea": "What a truck at SEMA actually costs",
@@ -138,7 +138,7 @@
   },
   {
    "day": 9,
-   "date": "2026-11-30",
+   "date": "2026-12-02",
    "slot": "AM",
    "idea_n": 4,
    "idea": "Did it fit?",
@@ -146,7 +146,7 @@
   },
   {
    "day": 9,
-   "date": "2026-11-30",
+   "date": "2026-12-02",
    "slot": "PM",
    "idea_n": 8,
    "idea": "The order that came back three times",
@@ -154,7 +154,7 @@
   },
   {
    "day": 10,
-   "date": "2026-12-01",
+   "date": "2026-12-03",
    "slot": "AM",
    "idea_n": 15,
    "idea": "7.3 owners when asked how fast",
@@ -162,7 +162,7 @@
   },
   {
    "day": 10,
-   "date": "2026-12-01",
+   "date": "2026-12-03",
    "slot": "PM",
    "idea_n": 2,
    "idea": "It sat in a field and now it won't",
@@ -170,7 +170,7 @@
   },
   {
    "day": 11,
-   "date": "2026-12-02",
+   "date": "2026-12-04",
    "slot": "AM",
    "idea_n": 16,
    "idea": "Nice Cummins",
@@ -178,7 +178,7 @@
   },
   {
    "day": 11,
-   "date": "2026-12-02",
+   "date": "2026-12-04",
    "slot": "PM",
    "idea_n": 35,
    "idea": "The old man who drove it for Deal Lumber",
@@ -186,7 +186,7 @@
   },
   {
    "day": 12,
-   "date": "2026-12-03",
+   "date": "2026-12-05",
    "slot": "AM",
    "idea_n": 24,
    "idea": "When did you last see one on the road?",
@@ -194,7 +194,7 @@
   },
   {
    "day": 12,
-   "date": "2026-12-03",
+   "date": "2026-12-05",
    "slot": "PM",
    "idea_n": 26,
    "idea": "What the frame swap has cost, to the dollar",
@@ -202,7 +202,7 @@
   },
   {
    "day": 13,
-   "date": "2026-12-04",
+   "date": "2026-12-06",
    "slot": "AM",
    "idea_n": 28,
    "idea": "Promise you won't get mad?",
@@ -210,7 +210,7 @@
   },
   {
    "day": 13,
-   "date": "2026-12-04",
+   "date": "2026-12-06",
    "slot": "PM",
    "idea_n": 29,
    "idea": "What it costs to put a truck at SEMA",
@@ -218,7 +218,7 @@
   },
   {
    "day": 14,
-   "date": "2026-12-05",
+   "date": "2026-12-07",
    "slot": "AM",
    "idea_n": 18,
    "idea": "Guess the truck by the door",
@@ -226,7 +226,7 @@
   },
   {
    "day": 14,
-   "date": "2026-12-05",
+   "date": "2026-12-07",
    "slot": "PM",
    "idea_n": 30,
    "idea": "What's diesel where you are?",
@@ -234,7 +234,7 @@
   },
   {
    "day": 15,
-   "date": "2026-12-06",
+   "date": "2026-12-08",
    "slot": "AM",
    "idea_n": 22,
    "idea": "Numbers matching?",
@@ -242,7 +242,7 @@
   },
   {
    "day": 15,
-   "date": "2026-12-06",
+   "date": "2026-12-08",
    "slot": "PM",
    "idea_n": 27,
    "idea": "Where the 10 mil at, part 3",
@@ -583,13 +583,13 @@
   "31": {
    "n": 31,
    "cell": "Fails x Narrated story-fix",
-   "title": "One of the last 1959 F600s in Wyoming, and it won't start.",
+   "title": "One of the last 1959 F600s in Wyoming. It runs. I'm tearing it apart anyway.",
    "evidence": "DriveHub 5.76M, 110 s",
-   "body": "Frame 1: the F600 at the house, Jacob's hand on the door, VO at 0.0: \"This is one of the last 1959 Ford F600s left in Wyoming and it has not run since the lumber company parked it.\" The whole first attempt to start or move it, every problem in order, the fix for each, the face not before 20 s, the moment it rolls or fires at the end. 90 to 120 s. Caption line 1: \"For whoever has a truck in the yard that 'just needs a battery'.\" Title number: \"one of the last\". Platform: TikTok and Shorts first.",
+   "body": "Jacob confirmed 2026-11-22 that the truck starts, so the trouble is not a dead truck, it is a running 67-year-old truck losing its frame, engine and running gear to a 7.3 and a Super Duty chassis. Frame 1: the F600 at the house, Jacob's hand on the door, VO at 0.0: \"This is one of the last 1959 Ford F600s left in Wyoming. It runs. And I'm about to pull everything out from under it.\" Then the case, in order: what is wrong with it as it sits (brakes, steering, 50 mph top speed, the 223 inline six, whatever is real), what the lumber company left behind, the one thing that makes people say leave it alone, the answer withheld until the last ten seconds: the 7.3, the frame, SEMA 2027 as the target. Face not before 20 s. 90 to 120 s. Caption line 1: \"Send this to the guy who says you should never cut up an original.\" Title number: \"one of the last\". Platform: TikTok and Shorts first.",
    "shape": "story",
    "length": "60 to 120 s",
-   "caption_line1": "For whoever has a truck in the yard that 'just needs a battery'.",
-   "frame1": "the F600 at the house, Jacob's hand on the door, VO at 0.0: \"This is one of the last 1959 Ford F600s left in Wyoming and it has not run since the lumber company parked it.\" The whole first attempt to start or move it, every problem in order, the fix for each, the face not before 20 s, the moment it rolls or fires at the end."
+   "caption_line1": "Send this to the guy who says you should never cut up an original.",
+   "frame1": "the F600 at the house, Jacob's hand on the door, VO at 0.0: \"This is one of the last 1959 Ford F600s left in Wyoming."
   },
   "32": {
    "n": 32,

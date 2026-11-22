@@ -415,7 +415,7 @@ def cmd_status(args):
     dayn = (d - first).days + 1
     print(f"El Coyote status · {now:%a %b %d %H:%M} MT")
     if dayn < 1: print(f"  30-day plan starts {first:%a %b %d} (in {1 - dayn} days). Bank the skits and memes now.")
-    elif dayn <= 15: print(f"  Day {dayn} of 30 (built for a million: story PM, skit or loop AM). Day 15 ranking by 7-day views on Sun Dec 7.")
+    elif dayn <= 15: print(f"  Day {dayn} of 30 (built for a million: story PM, skit or loop AM). Day 15 ranking by 7-day views on Tue Dec 8.")
     elif dayn <= 30: print(f"  Day {dayn} of 30 (winners-only phase).")
     else: print("  The 30-day plan is over; rank, keep the winning cells, write the next matrix.")
     rows = [r for r in cal if r["date"] == d]

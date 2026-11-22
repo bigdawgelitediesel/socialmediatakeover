@@ -25,11 +25,11 @@ Reach is not the bottleneck and never was: the account gets 3 to 4 times its fol
 
 Under 500 reach at 48 h = no read, does not rank. One variable per post or nothing was learned. Views and likes rank nothing.
 
-## Plan (the 30-day run, started Sun Nov 22, 2026)
+## Plan (the 30-day run, starts Tue Nov 24, 2026; moved from Nov 22 by Jacob)
 
 - `coyote.py plan` prints today's two slots with the full idea rows; `--week` for seven days; `idea <n>` or `idea shop meme` for a cell; `hooks A|B|C` for the pre-written variants (A Shop x Meme, B Shop x Skit, C Numbers x Named-tribe news).
 - The matrix: rows fails/fixes, shop life, tribe identity, old truck nostalgia, numbers; columns roller, narrated story-fix, cutout meme, two-man skit, named-tribe news, clip + question. Send cells: Shop x Meme (2.30 median share), Shop x Skit (1.79). View cells: Fails x Story, Fails x Question-clip. Both: Numbers x Named-tribe news. Eight empty cells are week-two bets.
-- Day 15 (Sun Dec 7): rank by sends per reach, ties by lower skip then saves per reach; the winning cell plus a second cell from a different column; keep a build cell in the afternoon if any clears 1 percent, else the build goes to Stories for two weeks. Days 16 to 30: winners only, a new hook every post, a cell is spent after three posts under the day-15 median.
+- Day 15 (Tue Dec 8): rank by sends per reach, ties by lower skip then saves per reach; the winning cell plus a second cell from a different column; keep a build cell in the afternoon if any clears 1 percent, else the build goes to Stories for two weeks. Days 16 to 30: winners only, a new hook every post, a cell is spent after three posts under the day-15 median.
 - Weekly re-run of `outlier_watchlist.py` (40 accounts, outlier = views over the account median, 5x flags) files new outliers into cells.
 - Trend calendar: `research/2026-11-21-trend-calendar-30d.md` (PRI Dec 10 to 12, holiday shop memes, the Jan "new year new build" slot). Audio: trending check Monday in the order dashboard, Ignix, CreatorDB; the song is chosen for the format it carries, added in-app.
 - Cadence: two posts a day is the bounded 15-day sprint the matrix needs for clean reads; after day 30 the floor is 3 to 4 reels a week (research/2026-11-21-live-instagram-algorithm.md), with the mirrors on TikTok and Shorts carrying the extra. Do not run two a day forever.

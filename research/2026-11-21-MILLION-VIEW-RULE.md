@@ -70,8 +70,8 @@ The 30 ideas in `2026-11-21-OUTLIER-MATRIX.md` were ranked for clean 48 h reads 
 
 ### Ten new ideas written to the shape (numbers continue from the matrix)
 
-**31. Fails x Narrated story-fix (DriveHub 5.76M, 110 s): "One of the last 1959 F600s in Wyoming, and it won't start."**
-Frame 1: the F600 at the house, Jacob's hand on the door, VO at 0.0: "This is one of the last 1959 Ford F600s left in Wyoming and it has not run since the lumber company parked it." The whole first attempt to start or move it, every problem in order, the fix for each, the face not before 20 s, the moment it rolls or fires at the end. 90 to 120 s. Caption line 1: "For whoever has a truck in the yard that 'just needs a battery'." Title number: "one of the last". Platform: TikTok and Shorts first.
+**31. Fails x Narrated story-fix (DriveHub 5.76M, 110 s): "One of the last 1959 F600s in Wyoming. It runs. I'm tearing it apart anyway."**
+Jacob confirmed 2026-11-22 that the truck starts, so the trouble is not a dead truck, it is a running 67-year-old truck losing its frame, engine and running gear to a 7.3 and a Super Duty chassis. Frame 1: the F600 at the house, Jacob's hand on the door, VO at 0.0: "This is one of the last 1959 Ford F600s left in Wyoming. It runs. And I'm about to pull everything out from under it." Then the case, in order: what is wrong with it as it sits (brakes, steering, 50 mph top speed, the 223 inline six, whatever is real), what the lumber company left behind, the one thing that makes people say leave it alone, the answer withheld until the last ten seconds: the 7.3, the frame, SEMA 2027 as the target. Face not before 20 s. 90 to 120 s. Caption line 1: "Send this to the guy who says you should never cut up an original." Title number: "one of the last". Platform: TikTok and Shorts first.
 
 **32. Numbers x Narrated story-fix (DriveHub $59 at 3.86M): "Frame swap, to the dollar."**
 Frame 1: a receipt pile on the hood, VO: "Everybody asks what a frame swap costs. Nobody posts the number. Here is mine so far, to the dollar." Every line item on screen as a chip on its word (specchips), the surprise item, the running total count-up, the line "and I have not bought the part everyone thinks is the expensive one." 60 to 90 s. Caption line 1: "Send this to the guy who says a frame swap is cheap."
@@ -102,40 +102,42 @@ The record holder's sequel in the same voice, a closed loop under 10 s, the joke
 
 ## 5. The calendar, re-cut (days 1 to 15, replaces section 5 of the matrix for scheduling; same slots)
 
+Start moved by Jacob on 2026-11-22: day 1 is Tuesday November 24, day 15 is Tuesday December 8, the ranking is on December 8 and days 16 to 30 run December 9 to 23. Sunday and Monday before the start are for banking the skits and loops.
+
 Morning (09:00 to 11:00 MT) carries the loop or the skit; afternoon (16:00 to 19:00) carries the story. Every post goes to TikTok and Shorts the same day. The five columns are read at 48 h and again at 7 days (views).
 
 | Day | Date | Slot | Idea | Cell | Reach 48h | Sends | Sends/reach | Skip % | Views 7d |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | Sat Nov 22 | AM | 40 Where the 10 mil at, part 2 | Loop | | | | | |
-| 1 | Sat Nov 22 | PM | 31 One of the last 1959 F600s, and it won't start | Fails x Story | | | | | |
-| 2 | Sun Nov 23 | AM | 33 Is parts a trade? | Shop x Skit | | | | | |
-| 2 | Sun Nov 23 | PM | 32 Frame swap, to the dollar | Numbers x Story | | | | | |
-| 3 | Mon Nov 24 | AM | 6 Did you know about this? | Fails x Question-clip | | | | | |
-| 3 | Mon Nov 24 | PM | 34 A parts manager, a 7.3, and no shop | Shop x Story | | | | | |
-| 4 | Tue Nov 25 | AM | 38 It just started doing that today | Shop x Skit | | | | | |
-| 4 | Tue Nov 25 | PM | 36 20,000 of you told me what engine to put in it | Numbers x Question-clip | | | | | |
-| 5 | Wed Nov 26 | AM | 9 Porch light | Loop | | | | | |
-| 5 | Wed Nov 26 | PM | 37 Everything the last owner did to this truck | Fails x Story | | | | | |
-| 6 | Thu Nov 27 | AM | 10 It's a sensor | Shop x Skit | | | | | |
-| 6 | Thu Nov 27 | PM | 20 This truck worked for a lumber company | Old x Story | | | | | |
-| 7 | Fri Nov 28 | AM | 3 Fit on the bench | Loop | | | | | |
-| 7 | Fri Nov 28 | PM | 14 A kid in Cheyenne doing his first 7.3 | Identity x Story | | | | | |
-| 8 | Sat Nov 29 | AM | 12 Who's this at your shop? | Shop x Question-clip | | | | | |
-| 8 | Sat Nov 29 | PM | 39 What a truck at SEMA actually costs | Numbers x Story | | | | | |
-| 9 | Sun Nov 30 | AM | 4 Did it fit? | Fails x Skit | | | | | |
-| 9 | Sun Nov 30 | PM | 8 The order that came back three times | Shop x Story | | | | | |
-| 10 | Mon Dec 1 | AM | 15 7.3 owners when asked how fast | Loop | | | | | |
-| 10 | Mon Dec 1 | PM | 2 It sat in a field and now it won't | Fails x Story | | | | | |
-| 11 | Tue Dec 2 | AM | 16 Nice Cummins | Identity x Skit | | | | | |
-| 11 | Tue Dec 2 | PM | 35 The old man who drove it for Deal Lumber | Identity x Story | | | | | |
-| 12 | Wed Dec 3 | AM | 24 When did you last see one on the road? | Old x Question-clip | | | | | |
-| 12 | Wed Dec 3 | PM | 26 What the frame swap has cost, to the dollar | Numbers x Story | | | | | |
-| 13 | Thu Dec 4 | AM | 28 Promise you won't get mad? | Numbers x Skit | | | | | |
-| 13 | Thu Dec 4 | PM | 29 What it costs to put a truck at SEMA | Numbers x Story | | | | | |
-| 14 | Fri Dec 5 | AM | 18 Guess the truck by the door | Identity x Question-clip | | | | | |
-| 14 | Fri Dec 5 | PM | 30 What's diesel where you are? | Numbers x Question-clip | | | | | |
-| 15 | Sat Dec 6 | AM | 22 Numbers matching? | Old x Skit | | | | | |
-| 15 | Sat Dec 6 | PM | 27 Where the 10 mil at, part 3 | Loop | | | | | |
+| 1 | Tue Nov 24 | AM | 40 Where the 10 mil at, part 2 | Loop | | | | | |
+| 1 | Tue Nov 24 | PM | 32 Frame swap, to the dollar | Numbers x Story | | | | | |
+| 2 | Wed Nov 25 | AM | 33 Is parts a trade? | Shop x Skit | | | | | |
+| 2 | Wed Nov 25 | PM | 31 One of the last 1959 F600s. It runs. Tearing it apart anyway | Fails x Story | | | | | |
+| 3 | Thu Nov 26 | AM | 6 Did you know about this? | Fails x Question-clip | | | | | |
+| 3 | Thu Nov 26 | PM | 34 A parts manager, a 7.3, and no shop | Shop x Story | | | | | |
+| 4 | Fri Nov 27 | AM | 38 It just started doing that today | Shop x Skit | | | | | |
+| 4 | Fri Nov 27 | PM | 36 20,000 of you told me what engine to put in it | Numbers x Question-clip | | | | | |
+| 5 | Sat Nov 28 | AM | 9 Porch light | Loop | | | | | |
+| 5 | Sat Nov 28 | PM | 37 Everything the last owner did to this truck | Fails x Story | | | | | |
+| 6 | Sun Nov 29 | AM | 10 It's a sensor | Shop x Skit | | | | | |
+| 6 | Sun Nov 29 | PM | 20 This truck worked for a lumber company | Old x Story | | | | | |
+| 7 | Mon Nov 30 | AM | 3 Fit on the bench | Loop | | | | | |
+| 7 | Mon Nov 30 | PM | 14 A kid in Cheyenne doing his first 7.3 | Identity x Story | | | | | |
+| 8 | Tue Dec 1 | AM | 12 Who's this at your shop? | Shop x Question-clip | | | | | |
+| 8 | Tue Dec 1 | PM | 39 What a truck at SEMA actually costs | Numbers x Story | | | | | |
+| 9 | Wed Dec 2 | AM | 4 Did it fit? | Fails x Skit | | | | | |
+| 9 | Wed Dec 2 | PM | 8 The order that came back three times | Shop x Story | | | | | |
+| 10 | Thu Dec 3 | AM | 15 7.3 owners when asked how fast | Loop | | | | | |
+| 10 | Thu Dec 3 | PM | 2 It sat in a field and now it won't | Fails x Story | | | | | |
+| 11 | Fri Dec 4 | AM | 16 Nice Cummins | Identity x Skit | | | | | |
+| 11 | Fri Dec 4 | PM | 35 The old man who drove it for Deal Lumber | Identity x Story | | | | | |
+| 12 | Sat Dec 5 | AM | 24 When did you last see one on the road? | Old x Question-clip | | | | | |
+| 12 | Sat Dec 5 | PM | 26 What the frame swap has cost, to the dollar | Numbers x Story | | | | | |
+| 13 | Sun Dec 6 | AM | 28 Promise you won't get mad? | Numbers x Skit | | | | | |
+| 13 | Sun Dec 6 | PM | 29 What it costs to put a truck at SEMA | Numbers x Story | | | | | |
+| 14 | Mon Dec 7 | AM | 18 Guess the truck by the door | Identity x Question-clip | | | | | |
+| 14 | Mon Dec 7 | PM | 30 What's diesel where you are? | Numbers x Question-clip | | | | | |
+| 15 | Tue Dec 8 | AM | 22 Numbers matching? | Old x Skit | | | | | |
+| 15 | Tue Dec 8 | PM | 27 Where the 10 mil at, part 3 | Loop | | | | | |
 
 Shooting load this creates: the stories (31, 32, 34, 37, 20, 14, 8, 2, 35, 26, 39, 29) are evening work, one to two hours each, Pocket 3 on a magnet mount, voice recorded after; the skits (33, 38, 10, 4, 16, 28, 22) are one coworker for sixty seconds each, bank them in two lunch breaks; the loops are one cutout session. If a story is not shot by its day, a question clip takes the slot; nothing short and tribe-only goes in an afternoon slot again.
 

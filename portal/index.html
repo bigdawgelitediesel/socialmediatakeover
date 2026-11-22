@@ -236,7 +236,7 @@ function renderCal(){
     return `<div class="day ${cls}" data-d="${d}"><div class="d"><b>${fmtDay(d)}</b> · day ${rows[0].day}</div>` +
       rows.map(r=>{ const i=D.ideas[r.idea_n]||{title:r.idea}; const st=state[key(r)]||''; return `<div class="i"><em class="${r.slot.toLowerCase()}">${r.slot}</em> ${esc(i.title)} ${st&&st!=='not shot'?`<span class="st ${st}">${st}</span>`:''}</div>`; }).join('') + `</div>`;
   }).join('') + `</div>`;
-  h += `<h2>Days 16 to 30: winners only</h2><div class="card"><div class="body">After the day-15 ranking (Sun Dec 7), post only the winning shape and its best subtopic, a new title number each time. The ten pre-written hook variants per cell are under Ideas.</div></div>`;
+  h += `<h2>Days 16 to 30: winners only</h2><div class="card"><div class="body">After the day-15 ranking (Tue Dec 8), post only the winning shape and its best subtopic, a new title number each time. The ten pre-written hook variants per cell are under Ideas.</div></div>`;
   h += `<div id="cal-detail"></div>`;
   const v=$('#v-cal'); v.innerHTML=h;
   v.querySelectorAll('.day').forEach(el=>el.onclick=()=>{
