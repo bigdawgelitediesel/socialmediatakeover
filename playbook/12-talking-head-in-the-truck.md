@@ -23,6 +23,7 @@ First noun by 0.9 s. No "hey guys", no "so today". The title sentence sits in th
 
 - **The daily talking head is a named series.** One title, burned top centre for the whole episode in the house serif caps (the lockup, held), the same every day; Jacob picks the name. Nate Gaffney went 10K to 500K in 40 days the week he started packaging episodes as a series and saying who it was for; Jacob Kitton's 30-second car talk carries "CONTENT PSYCHOLOGY" top centre for all 30 s at 9,221 likes.
 - **The first line names who it is for.** "For everyone building something after a ten-hour shift." "For the parts guy who gets asked why he's not a tech." The caption line 1 rule, spoken.
+- **One person, you and I, us versus the problem (Jun Yuh, 5M).** Call out one person in sentence one, never a crowd. "You" names what they want, "I" owns the failures ("you want it to start every morning; I ran a stock CP4 for two years before I did anything about it"). Then us versus the problem, never you versus them ("you're not cheap, nobody ever showed us what that pump does"). Read every script against those three before filming.
 - **Say the thing they already think.** Every episode articulates a thought the viewer has had and never said out loud (Kitton: "the most powerful content doesn't introduce a new thought, it articulates one that already exists"). Recognition, not news. If the script teaches something nobody in the audience has felt, it is a save, not a send.
 - **One day ahead.** Film in the gaps during the day, edit at night, post the next day (Mariah, 300K in two months as a mom with two kids). Never shoot the morning of.
 - **Double down.** When an episode works, the next three answer its comments before anything new.
@@ -41,7 +42,7 @@ Rotation so the page breathes: **Relatable** (the first truck, the hotshot years
 ## The edit (motion tier on a plate)
 
 - Jump cuts on motion only (a head turn, a hand up, the part coming in), every 2 to 4 s; never a cut mid payoff line.
-- B-roll from the playground cut on the noun within 0.3 s: the bay, the counter, the part on the shelf, the truck. Three to five inserts per episode, each 1.5 to 3 s. Without inserts the episode is still legal; it is just a yap.
+- B-roll amplifies the feeling of the line, it does not have to illustrate the exact thing (Jun Yuh: text tells the story, visuals carry the emotion). Cut on the noun within 0.3 s: the bay, the counter, the part on the shelf, the truck. Three to five inserts per episode, each 1.5 to 3 s. Without inserts the episode is still legal; it is just a yap.
 - Captions: PlainCaption 68 px, 2 to 4 words, sentence case, one tan accent word, chest band, never on the face, no stroke. Title in the upper third only during the open (off by 3 s).
 - Pop word at 0.0 when the open is a claim (omgadrian): one word, upper third, behind the head if the matte is made.
 - Chapter numerals on list episodes (the pilot's five rules, the receipts). Countdown ring on the 90-second pilot.
