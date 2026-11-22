@@ -1,3 +1,5 @@
+> **Read first (2026-11-22):** `research/2026-11-22-REEL-EDITOR-DOCTRINE.md`. Change, not cut; one physical device per talking head; grade by format; two lengths by job. It overrides the cut cadence, the re-hook, the pilot line and the 60 to 120 s default wherever this file says otherwise.
+
 # EDITOR mode
 
 The pipeline, tiers, components and non-negotiables are in the `reel-editor` skill (`C:\Users\Parts\.claude\skills\reel-editor\SKILL.md`). Load it. This page is what sits around it: choosing the tier, the pre-cut checks, studying a reel, porting a technique, and the delivery gate. Tool CLI reference: `research/inventory/03-tools.md`.
