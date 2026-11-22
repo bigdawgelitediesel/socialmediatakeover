@@ -121,46 +121,90 @@ Read the comment off the phone, then answer it from the cab: it is not either or
 **46. People x Talking head (growth case studies: rate or roast a submitted truck is the breakout mechanism): "Send me your 7.3. I'll tell you what breaks first."**
 Collected from the comments on days 5 and 10 (ask in the caption and the pinned comment, never burned in). Three submitted trucks, thirty seconds each, the parts guy's read on each: what to check, what it costs, the one thing to do this month. Caption line 1: "Tag the guy whose 7.3 needs to hear this." If the old Deal Lumber driver (idea 35) is found by day 15, he takes this slot instead.
 
+
+### Thirteen more, after Jacob's correction (2026-11-22: "you are jumping the gun on the Rival build, it's just getting started, I barely have any parts. I want the talking heads to be relatable, trust-building or funny")
+
+The Rival episodes written above (31, 32, 34, 37, 39, 41) wait until there is a build to show; 32 and 41 come back when parts exist. The daily talking head rotates Relatable, Trust, Funny, with the trucks and the shop as the backdrop, never the subject. Rival gets two honest check-ins in fifteen days, Chief two, because those are true now.
+
+**47. Funny x Talking head (parts-counter lane; dealerplateguy 143K on exactly this): "Every line I hear at the parts counter, ranked."**
+In the truck, counting on his fingers: "it just started doing that today", "the part's on the truck, the truck's the one with the hood up", "do you have the thing that goes on the thing", "it's always done that", "can you just look it up by the truck". One sentence of what each one actually means, the worst one last. "I work at a semi shop" said once. Caption line 1: "Tag the customer who says 'it just started doing that today.'"
+
+**48. Trust x Talking head (returns-sheet credential, CLAUDE.md "don't buy this"): "The guy who sees the returns tells you the one part he would never buy."**
+A category, not a brand (no comparative claims against a partner's competitor): the cheap version of the part that comes back the most, why it comes back, what the right one costs, said flat. "Nobody else gets to see the return rack. I do." Caption line 1: "Send this to your buddy before he orders the cheap one."
+
+**49. Relatable x Talking head (PERSONAL pillar, 14.80 percent ER, the account's best): "The first truck I ever bought, and the dumbest thing I did to it."**
+The story with the number (what he paid, what the mistake cost), the lesson at the end, the truck he is sitting in as the proof he learned. Caption line 1: "For whoever is about to buy their first truck this winter."
+
+**50. Trust x Talking head (Black Friday Nov 27; emissions-intact lane; trend calendar): "Don't buy a tuner on Black Friday. Buy this instead."**
+What the sale emails push versus what actually breaks and what a parts guy would spend the same money on (filters, a lift pump, gauges, a real battery). Nothing delete, nothing defeat. Caption line 1: "Send this to the guy with a tuner in his cart right now."
+
+**51. Relatable x Talking head (contrarian take, Caleb rule 3): "Why I work the parts counter instead of turning wrenches."**
+The honest answer: what the counter sees that the bay does not, every part that fails on every truck in the building, the day he decided that was the better seat. Lower the status in one line ("I'm not the mechanic. I'm the guy the mechanic calls."). Caption line 1: "For the parts guy who gets asked why he's not a tech."
+
+**52. Rival check-in x Talking head (receipts rule: the small number next to the big one): "I said I'm building a SEMA truck. Here is exactly where it stands."**
+The whole truth in ninety seconds: one 1959 F600 that runs and cannot move, a list of parts bought that fits on one hand, a target 345 days out, and what happens first. No hype, no partner names unless they are already on the truck. Caption line 1: "For everyone who started something big with almost nothing."
+
+**53. Funny x Talking head (meme 19 told as a story): "The five stages of a backorder."**
+Hope, denial, bargaining, despair, acceptance, each one a real phone call from the counter, the January date on the sticky note as the last line. Caption line 1: "Send this to whoever has been 'waiting on a part' since October."
+
+**54. Trust x Talking head (utility lane, one in six): "Three questions to ask before you pay for a diagnosis."**
+What a shop should be able to tell you, what the diag fee covers, what it does not, and the one question that saves people money. General, no shop pricing, no promises for the business. Caption line 1: "Send this to your dad before his next shop visit."
+
+**55. Relatable x Talking head (hotshot years, the gooseneck audience that already found him): "The night I almost quit hotshot."**
+One run, one night, one number (miles, dollars, hours), what it taught him about trucks and about himself, why he still has the trailer habits. Caption line 1: "For every hotshot driver who has had this night."
+
+**56. Funny x Talking head (universal shop joke, the 10 mil tribe): "Ranking the worst places to drop a 10 mm."**
+Five places, worst last, from the truck with the actual socket in hand; the engine bay of a Class 8 wins. Caption line 1: "Tag the guy who is still looking for his."
+
+**57. Relatable x Talking head (Jessica Carter: lower your status, say why you post): "Why I film all of this after a ten-hour shift."**
+The honest reason, the cost in hours, the thing he is afraid of, the thing he wants out of it; no sponsor talk. Caption line 1: "For everyone building something after work that nobody asked for."
+
+**58. People x Talking head (reaction format, the breakout mechanism in the growth case studies): "Tell me your truck's problem in one line. I'll tell you what it probably is."**
+Reads five comments collected from days 1 to 10 (ask in the caption and pinned comment only), gives the parts-guy answer and the price range for each, admits the one he cannot call from a sentence. Any make, any engine. Caption line 1: "Tag the guy whose truck 'makes a noise sometimes.'"
+
+**59. Trust x Talking head (Chief, the truck he is sitting in): "What I did to my own 6.7, and what each thing cost."**
+The receipts rule on the truck that exists: the FASS, the gauges, the filters, the small numbers first, the surprise, the total last, the one thing he would not do again. "Disabled the CP4" explained in one sentence inside it. Caption line 1: "Send this to your 6.7 brother before he spends a dollar."
+
 ## 5. The calendar, re-cut (days 1 to 15, replaces section 5 of the matrix for scheduling; same slots)
 
 Start moved by Jacob on 2026-11-22: day 1 is Tuesday November 24, day 15 is Tuesday December 8, the ranking is on December 8 and days 16 to 30 run December 9 to 23. Sunday and Monday before the start are for banking the skits and loops.
 
-Morning (09:00 to 11:00 MT) carries the loop, the skit or the question clip, shot in the shop playground. Afternoon (16:00 to 19:00) is the daily talking head in the truck (Jacob, 2026-11-22), 60 to 120 s, rotating Rival, Rival, Counter, Chief, People so the 7.3 is two afternoons in five and the page can breathe. The format is playbook/12-talking-head-in-the-truck.md. Every post goes to TikTok and Shorts the same day. The five columns are read at 48 h and again at 7 days (views).
+Morning (09:00 to 11:00 MT) carries the loop, the skit or the question clip, shot in the shop playground. Afternoon (16:00 to 19:00) is the daily talking head in the truck (Jacob, 2026-11-22), 60 to 120 s, rotating Relatable, Trust, Funny with the shop and the trucks as the backdrop; Rival is two honest check-ins in fifteen days because the build is just starting, Chief two because that truck exists. The format is playbook/12-talking-head-in-the-truck.md. Every post goes to TikTok and Shorts the same day. The five columns are read at 48 h and again at 7 days (views).
 
 | Day | Date | Slot | Idea | Cell | Reach 48h | Sends | Sends/reach | Skip % | Views 7d |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | Tue Nov 24 | AM | 40 Where the 10 mil at, part 2 | Loop | | | | | |
-| 1 | Tue Nov 24 | PM | 41 How I am getting a 1959 Ford to SEMA from a parts counter (90 s) | Rival x Talking head | | | | | |
+| 1 | Tue Nov 24 | PM | 47 Every line I hear at the parts counter, ranked | Funny x Talking head | | | | | |
 | 2 | Wed Nov 25 | AM | 33 Is parts a trade? | Shop x Skit | | | | | |
-| 2 | Wed Nov 25 | PM | 32 Frame swap, to the dollar | Rival x Talking head | | | | | |
+| 2 | Wed Nov 25 | PM | 48 The one part the returns guy would never buy | Trust x Talking head | | | | | |
 | 3 | Thu Nov 26 | AM | 6 Did you know about this? | Fails x Question-clip | | | | | |
-| 3 | Thu Nov 26 | PM | 8 The order that came back three times | Counter x Talking head | | | | | |
+| 3 | Thu Nov 26 | PM | 49 The first truck I ever bought, and the dumbest thing I did to it | Relatable x Talking head | | | | | |
 | 4 | Fri Nov 27 | AM | 38 It just started doing that today | Shop x Skit | | | | | |
-| 4 | Fri Nov 27 | PM | 42 I disabled the CP4 and ran a FASS. What that means | Chief x Talking head | | | | | |
+| 4 | Fri Nov 27 | PM | 50 Don't buy a tuner on Black Friday. Buy this instead | Trust x Talking head | | | | | |
 | 5 | Sat Nov 28 | AM | 9 Porch light | Loop | | | | | |
-| 5 | Sat Nov 28 | PM | 36 20,000 of you told me what engine to put in it | People x Talking head | | | | | |
+| 5 | Sat Nov 28 | PM | 51 Why I work the parts counter instead of turning wrenches | Relatable x Talking head | | | | | |
 | 6 | Sun Nov 29 | AM | 10 It's a sensor | Shop x Skit | | | | | |
-| 6 | Sun Nov 29 | PM | 31 One of the last 1959 F600s. It runs. It just can't go anywhere | Rival x Talking head | | | | | |
+| 6 | Sun Nov 29 | PM | 52 I said I am building a SEMA truck. Here is exactly where it stands | Rival check-in x Talking head | | | | | |
 | 7 | Mon Nov 30 | AM | 3 Fit on the bench | Loop | | | | | |
-| 7 | Mon Nov 30 | PM | 20 This truck worked for a lumber company in 1959 | Rival x Talking head | | | | | |
+| 7 | Mon Nov 30 | PM | 53 The five stages of a backorder | Funny x Talking head | | | | | |
 | 8 | Tue Dec 1 | AM | 12 Who's this at your shop? | Shop x Question-clip | | | | | |
-| 8 | Tue Dec 1 | PM | 11 The most returned part in the building this year | Counter x Talking head | | | | | |
+| 8 | Tue Dec 1 | PM | 54 Three questions to ask before you pay for a diagnosis | Trust x Talking head | | | | | |
 | 9 | Wed Dec 2 | AM | 4 Did it fit? | Fails x Skit | | | | | |
-| 9 | Wed Dec 2 | PM | 43 What my 6.7 has actually cost me, to the dollar | Chief x Talking head | | | | | |
+| 9 | Wed Dec 2 | PM | 55 The night I almost quit hotshot | Relatable x Talking head | | | | | |
 | 10 | Thu Dec 3 | AM | 15 7.3 owners when asked how fast | Loop | | | | | |
-| 10 | Thu Dec 3 | PM | 14 A kid in Cheyenne doing his first 7.3 | People x Talking head | | | | | |
+| 10 | Thu Dec 3 | PM | 42 I disabled the CP4 and ran a FASS. What that means | Trust x Talking head | | | | | |
 | 11 | Fri Dec 4 | AM | 16 Nice Cummins | Identity x Skit | | | | | |
-| 11 | Fri Dec 4 | PM | 39 What a truck at SEMA actually costs | Rival x Talking head | | | | | |
+| 11 | Fri Dec 4 | PM | 56 Ranking the worst places to drop a 10 mm | Funny x Talking head | | | | | |
 | 12 | Sat Dec 5 | AM | 24 When did you last see one on the road? | Old x Question-clip | | | | | |
-| 12 | Sat Dec 5 | PM | 37 Everything the last owner did to this truck | Rival x Talking head | | | | | |
+| 12 | Sat Dec 5 | PM | 57 Why I film all of this after a ten-hour shift | Relatable x Talking head | | | | | |
 | 13 | Sun Dec 6 | AM | 28 Promise you won't get mad? | Numbers x Skit | | | | | |
-| 13 | Sun Dec 6 | PM | 44 The $50 part that cost a trucker $3,400 and a day | Counter x Talking head | | | | | |
+| 13 | Sun Dec 6 | PM | 36 20,000 of you told me what engine to put in it | Rival check-in x Talking head | | | | | |
 | 14 | Mon Dec 7 | AM | 18 Guess the truck by the door | Identity x Question-clip | | | | | |
-| 14 | Mon Dec 7 | PM | 45 Zero reason to upgrade a lift pump under 750 hp. Wrong | Chief x Talking head | | | | | |
+| 14 | Mon Dec 7 | PM | 59 What I did to my own 6.7, and what each thing cost | Trust x Talking head | | | | | |
 | 15 | Tue Dec 8 | AM | 22 Numbers matching? | Old x Skit | | | | | |
-| 15 | Tue Dec 8 | PM | 46 Send me your 7.3. I'll tell you what breaks first | People x Talking head | | | | | |
+| 15 | Tue Dec 8 | PM | 58 Tell me your truck's problem in one line. I'll tell you what it is | People x Talking head | | | | | |
 
-Shooting load this creates: the talking heads are one sit in the truck per day, five takes, 20 to 30 minutes, plus b-roll grabbed in the shop that day; the pilot (41) and the receipts episodes (32, 43) want the props on the dash; the skits (33, 38, 10, 4, 16, 28, 22) are one coworker for sixty seconds each, bank them in two lunch breaks; the loops are one cutout session. If a story is not shot by its day, a question clip takes the slot; nothing short and tribe-only goes in an afternoon slot again.
+Shooting load this creates: the talking heads are one sit in the truck per day, five takes, 20 to 30 minutes, plus b-roll grabbed in the shop that day; the counter episodes want the real part or the sticky note on the dash; the skits (33, 38, 10, 4, 16, 28, 22) are one coworker for sixty seconds each, bank them in two lunch breaks; the loops are one cutout session. If a story is not shot by its day, a question clip takes the slot; nothing short and tribe-only goes in an afternoon slot again.
 
 ## 6. Ranking at day 15 (replaces the matrix rule for ranking)
 

@@ -46,7 +46,7 @@ SHAPES = {
                      "Never a static face on frame 1: door shuts mid-sentence, turn from the windshield on the first word, or the part comes up first. First noun by 0.9 s.",
                      "Title sentence with a number in the upper third for the first 3 s. Pilot line once around 15 s, spoken. One idea per breath, 150 to 165 wpm, say the acronyms.",
                      "Re-hook at a third and two thirds. Answer in the last ten seconds, one question that splits the comments, your fixed sign-off, cliffhanger to tomorrow. No outro, no ask.",
-                     "Five takes straight through, teleprompter allowed, pick the best. Rotation: Rival, Rival, Counter, Chief, People. Full page: playbook/12-talking-head-in-the-truck.md"]},
+                     "Five takes straight through, teleprompter allowed, pick the best. Rotation: Relatable, Trust, Funny; the trucks are the backdrop, Rival only as an honest check-in while the build starts. Full page: playbook/12-talking-head-in-the-truck.md"]},
     "question": {"name": "Question clip", "length": "9 to 25 s", "when": "AM 09:00 to 11:00 MT",
                  "how": ["A real clip from your own world with something going wrong or a hack happening.",
                          "One white pill top centre with the question. You keyed lower left reacting, or silent.",
