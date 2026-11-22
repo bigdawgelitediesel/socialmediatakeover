@@ -55,4 +55,7 @@ Frame 1 moves (walk-in, head-up, drop, reach-in, the engine turning). First noun
 
 ## Known open build items (keep this list honest; also in the addendum section 2 and `03-tools.md`)
 
+**First on the list (2026-11-22): the motion-rules port**, `research/2026-11-22-motion-rules-port.md`. Curves by name, duration from distance, uneven reactions instead of staggers, text cuts on, exits faster than entrances, holds alive, one device per reel. About a day in anim.ts and words_to_props.py.
+
+
 matte.py morphological close; CardReel caption y 360 on paper; serif-italic selection-box accent; PlainCaption y from the face tracker; legacy ASS styles in build_reel3; `rampable` slots; karaoke-dim captions (future words grey, needs per-word times); the remaining port list (digital zoom curve, floor timeline, paper desk, 2.5D teardown or remocn exploded-view, split flap, blueprint wipe, price-slate, rotary dial); the "lower band empty" layout note on card reels; Teardown sim of the 7.3 (needs Jacob's yes against the real-footage rule).

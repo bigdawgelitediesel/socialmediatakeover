@@ -19,6 +19,14 @@ Never a static face on frame 1. Pick one:
 
 First noun by 0.9 s. No "hey guys", no "so today". The title sentence sits in the upper third as the one burned-in text: 3 to 7 words with the number in it ("Frame swap, to the dollar", "One of the last '59 F600s"). Flat claim, never a question (Jessi Jean rule).
 
+## Package it as a series, and say who it is for (added 2026-11-22 from @nategaffney, @jacob.kitton, @mariah_mpls)
+
+- **The daily talking head is a named series.** One title, burned top centre for the whole episode in the house serif caps (the lockup, held), the same every day; Jacob picks the name. Nate Gaffney went 10K to 500K in 40 days the week he started packaging episodes as a series and saying who it was for; Jacob Kitton's 30-second car talk carries "CONTENT PSYCHOLOGY" top centre for all 30 s at 9,221 likes.
+- **The first line names who it is for.** "For everyone building something after a ten-hour shift." "For the parts guy who gets asked why he's not a tech." The caption line 1 rule, spoken.
+- **Say the thing they already think.** Every episode articulates a thought the viewer has had and never said out loud (Kitton: "the most powerful content doesn't introduce a new thought, it articulates one that already exists"). Recognition, not news. If the script teaches something nobody in the audience has felt, it is a save, not a send.
+- **One day ahead.** Film in the gaps during the day, edit at night, post the next day (Mariah, 300K in two months as a mom with two kids). Never shoot the morning of.
+- **Double down.** When an episode works, the next three answer its comments before anything new.
+
 ## The shape (60 to 120 s)
 
 1. **Trouble or claim in sentence one**, a stranger understands it. A number or a price in the title line.
