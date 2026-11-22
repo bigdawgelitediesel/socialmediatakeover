@@ -36,3 +36,7 @@ __pycache__/
 research/reel-references/2026-11-22-DdmJNQJp81s/*.mp4
 research/reel-references/2026-11-22-DdmJNQJp81s/*.m4a
 research/reel-references/2026-11-22-DdmJNQJp81s/page.html
+
+# tudormorari profile study: videos stay local
+research/reel-references/2026-11-22-tudormorari-profile/**/*.mp4
+research/reel-references/2026-11-22-tudormorari-profile/*.mp4
