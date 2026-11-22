@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "python3 tools/build_portal.py",
+  "outputDirectory": "portal",
+  "framework": null,
+  "cleanUrls": true,
+  "headers": [
+    { "source": "/data.json", "headers": [ { "key": "Cache-Control", "value": "no-cache" } ] }
+  ]
+}
