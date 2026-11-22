@@ -88,10 +88,19 @@ details{background:var(--card);border:1px solid var(--line);border-radius:14px;p
 summary{cursor:pointer;font-weight:600;font-size:15px}
 summary .shape{margin-left:8px}
 .footer{color:var(--muted);font-size:12px;padding:20px 0}
+#gate{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;align-items:center;justify-content:center;padding:24px}
+#gate .box{width:100%;max-width:360px;text-align:center}
+#gate h1{font-size:44px;margin-bottom:6px}
+#gate p{color:var(--muted);font-size:14px;margin:0 0 18px}
+#gate input{width:100%;background:var(--ink);border:1px solid var(--line);border-radius:14px;padding:16px;color:var(--cream);font:600 28px/1 Poppins,sans-serif;text-align:center;letter-spacing:10px;outline:none}
+#gate input:focus{border-color:var(--tan)}
+#gate .err{color:var(--hi);font-size:13px;height:18px;margin-top:10px}
+#gate button{margin-top:12px;width:100%;background:var(--ox);color:#fff;border-radius:14px;padding:14px;font-weight:600;font-size:16px}
 @media (min-width:720px){h1{font-size:48px}.title{font-size:30px}}
 </style>
 </head>
 <body>
+<div id="gate"><form class="box" autocomplete="off"><h1>EL COYOTE <span>portal</span></h1><p>Enter the access code</p><input id="code" inputmode="numeric" pattern="[0-9]*" maxlength="6" autofocus aria-label="access code"><div class="err" id="gerr"></div><button type="submit">Open</button></form></div>
 <div class="wrap">
 <header>
   <h1>EL COYOTE <span>portal</span></h1>
@@ -117,6 +126,19 @@ summary .shape{margin-left:8px}
 
 <script>
 (async function(){
+// Access gate. The code itself is not in this file, only its SHA-256; the match is remembered on this device.
+const HASH = 'f8a3ab4db236acc0a49f3a00f3d0fac16ed93169ffc29827b01215511a3926a7';
+async function sha(s){ const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join(''); }
+const gate = document.getElementById('gate');
+let ok = false; try { ok = localStorage.getItem('coyote-gate') === HASH; } catch(e){}
+if(!ok){
+  await new Promise(res=>{
+    const f = gate.querySelector('form'), inp = document.getElementById('code'), err = document.getElementById('gerr');
+    f.onsubmit = async (e)=>{ e.preventDefault(); if(await sha(inp.value.trim()) === HASH){ try{ localStorage.setItem('coyote-gate', HASH);}catch(x){} res(); } else { err.textContent = 'Not it. Try again.'; inp.value=''; inp.focus(); } };
+    inp.focus();
+  });
+}
+gate.remove();
 const D = await fetch('data.json?v=' + Date.now()).then(r=>r.json());
 const $ = (s)=>document.querySelector(s);
 const esc = (s)=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
