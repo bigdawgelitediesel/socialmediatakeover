@@ -42,6 +42,7 @@ Rotation so the page breathes: **Relatable** (the first truck, the hotshot years
 ## The edit (motion tier on a plate)
 
 - Jump cuts on motion only (a head turn, a hand up, the part coming in), every 2 to 4 s; never a cut mid payoff line.
+- **The default insert is the notebook (added 2026-11-22 from @mariah_mpls, 50K likes):** a legal pad on the dash or the counter, your own hand writing the point in Sharpie, shot top-down after the take with the phone on the mount or the Pocket 3 held overhead. Five to eight per trust episode, 2 to 4 s each, cut in on the noun. Ranked lists, the two questions, the price beside the OEM price, the one line a customer said. No render, no second person.
 - B-roll amplifies the feeling of the line, it does not have to illustrate the exact thing (Jun Yuh: text tells the story, visuals carry the emotion). Cut on the noun within 0.3 s: the bay, the counter, the part on the shelf, the truck. Three to five inserts per episode, each 1.5 to 3 s. Without inserts the episode is still legal; it is just a yap.
 - Captions: PlainCaption 68 px, 2 to 4 words, sentence case, one tan accent word, chest band, never on the face, no stroke. Title in the upper third only during the open (off by 3 s).
 - Pop word at 0.0 when the open is a claim (omgadrian): one word, upper third, behind the head if the matte is made.
