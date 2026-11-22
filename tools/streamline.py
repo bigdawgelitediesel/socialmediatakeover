@@ -139,16 +139,27 @@ def cmd_plan(args):
     words = load_words(args.words)
     sents = sentences(words)
     if not sents: sys.exit("no words")
+    for cut in (args.split_at or []):
+        first = cut.lower().split()[0]; out = []
+        for s in sents:
+            idx = next((i for i in range(1, len(s["words"])) if " ".join(w["w"].lower() for w in s["words"][i:i + len(cut.split())]).startswith(cut.lower())), None)
+            if idx is None: out.append(s); continue
+            a_w, b_w = s["words"][:idx], s["words"][idx:]
+            out.append(dict(s, b=a_w[-1]["e"], words=a_w, text=" ".join(w["w"] for w in a_w)))
+            out.append(dict(s, a=b_w[0]["s"], words=b_w, text=" ".join(w["w"] for w in b_w)))
+        sents = [dict(s, k=i) for i, s in enumerate(out)]
     lo, hi = JOBS[args.job]
 
     # drop phrases the editor names, plus known intro filler
     dropped = []
     drops = [d.lower() for d in (args.drop or [])] + FILLER_PHRASES
     keep = []
+    keeps = [k.lower() for k in (args.keep or [])]
+    def protected(s): return any(k in s["text"].lower() for k in keeps)
     for s in sents:
-        t = s["text"].lower()
+        t = re.sub(r"[^a-z0-9' ]", "", s["text"].lower())
         hit = next((d for d in drops if d in t and len(d) > 8), None)
-        if hit and len(s["words"]) <= 20:
+        if hit and len(s["words"]) <= 24 and not protected(s):
             dropped.append({"text": s["text"], "why": f"contains '{hit}'"}); continue
         keep.append(s)
     sents = keep
@@ -183,7 +194,7 @@ def cmd_plan(args):
     def total(seq): return sum(s["b"] - s["a"] for s in seq)
     limit = min(hi, args.target) if args.target else hi
     while total(ordered) > limit and len(ordered) > 2:
-        middle = sorted(ordered[1:-1], key=lambda s: score_opener(s)[0] + score_closer(s))
+        middle = sorted((s for s in ordered[1:-1] if not protected(s)), key=lambda s: score_opener(s)[0] + score_closer(s))
         victim = next((s for s in middle if total(ordered) - (s["b"] - s["a"]) >= lo), None)
         if victim is None: break  # nothing can go without dropping under the band floor
         dropped.append({"text": victim["text"], "why": f"over {limit:g} s ({args.job} band {lo} to {hi}); lowest-value middle sentence"})
@@ -467,7 +478,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("plan"); p.add_argument("--words", required=True); p.add_argument("--src", required=True); p.add_argument("--job", default="talk", choices=sorted(JOBS))
-    p.add_argument("--open-on"); p.add_argument("--end-on"); p.add_argument("--drop", action="append"); p.add_argument("--keep-before-opener", action="store_true", default=False)
+    p.add_argument("--open-on"); p.add_argument("--end-on"); p.add_argument("--drop", action="append", help="drop any sentence containing this text (repeatable)"); p.add_argument("--keep", action="append", help="never drop a sentence containing this text (repeatable)"); p.add_argument("--split-at", action="append", help="force a sentence boundary where this text begins (repeatable)"); p.add_argument("--keep-before-opener", action="store_true", default=False)
     p.add_argument("--target", type=float, help="aim at this many seconds (default: the top of the band)")
     p.add_argument("-o", "--out", default="plan.json"); p.set_defaults(fn=cmd_plan)
     c = sub.add_parser("challenge"); c.add_argument("plan"); c.add_argument("--set"); c.add_argument("--device"); c.add_argument("--lockup-style"); c.add_argument("--tone"); c.set_defaults(fn=cmd_challenge)

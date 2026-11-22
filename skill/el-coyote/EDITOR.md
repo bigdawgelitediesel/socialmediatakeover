@@ -1,3 +1,5 @@
+> **Streamline editor (2026-11-23):** `python -I tools/streamline.py plan --words words.json --src IN.MOV --job talk --open-on "..." --end-on "..." -o plan.json`, then `challenge plan.json --set ... --device ... --tone ...` (doctrine counter-arguments, sameness check against `data/edits/ledger.tsv`, the thinking test), then `render plan.json --lockup "..." -o post.mp4`, `lint plan.json`, `ledger add plan.json --label "..."`. Principles, not steps: `skill/el-coyote/PRINCIPLES.md`. Rotate one axis per episode, never all.
+
 > **Read first (2026-11-22):** `research/2026-11-22-REEL-EDITOR-DOCTRINE.md`. Change, not cut; one physical device per talking head; grade by format; two lengths by job. It overrides the cut cadence, the re-hook, the pilot line and the 60 to 120 s default wherever this file says otherwise.
 
 # EDITOR mode

@@ -1,3 +1,5 @@
+> **Principles (2026-11-23):** `skill/el-coyote/PRINCIPLES.md` is the thinking behind the rules; audit scripts and cuts against it, not against the rule numbers. The streamline editor is `tools/streamline.py` (plan, challenge, render, lint, ledger).
+
 > **Doctrine (2026-11-22):** `research/2026-11-22-REEL-EDITOR-DOCTRINE.md` is the editing and growth doctrine; EDITOR, MANAGER and GROWTH read through it. Dash card: section 18.
 
 ---
