@@ -50,7 +50,10 @@ OPENER_TYPES = ["you-line", "number", "cold-line", "sound-first", "prop-first", 
 SETS = ["Chief cab", "F600 bay", "counter after close", "parts room", "porch", "walking the bay", "Class 8 cab"]
 DEVICES = ["pad", "part in hand", "phone with the comment", "card", "none"]
 LOCKUPS = ["name-call", "number claim", "flat contrarian"]
-TONES = ["relatable", "trust", "funny"]
+TONES = ["relatable", "trust", "funny", "grievance held lightly", "gratitude", "curiosity"]
+CAMERAS = ["dash locked", "ActiveTrack headrest", "handheld walk", "top-down pad", "passenger angle"]
+PAYOFFS = ["a number", "a rule", "a question", "open loop to a named episode", "a callback"]
+FORMATS = ["talking head", "story over footage", "one-take walk", "Q&A from comments", "honest check-in"]
 
 
 # ---------- words, sentences, scoring ----------
@@ -276,7 +279,8 @@ def cmd_challenge(args):
         notes.append({"decision": "delivery", "flag": f"{plan['filler']['per_min']} fillers a minute", "counter": "Doctrine 4.4: five a minute is free, above eight cut; damage is um and uh, not like.", "fix": "drop the worst sentence or re-shoot"})
     # 3. sameness against the ledger
     axes = {"opener_type": (op["type"], OPENER_TYPES), "set": (args.set, SETS), "device": (args.device, DEVICES),
-            "lockup_style": (args.lockup_style, LOCKUPS), "tone": (args.tone, TONES)}
+            "lockup_style": (args.lockup_style, LOCKUPS), "tone": (args.tone, TONES), "camera": (args.camera, CAMERAS),
+            "payoff": (args.payoff, PAYOFFS), "format": (args.format, FORMATS)}
     same = []
     for ax, (val, options) in axes.items():
         recent = [r.get(ax, "") for r in led]
@@ -300,7 +304,16 @@ def cmd_challenge(args):
         "What is the counter-argument to this cut, and which Trial twin would settle it?",
     ]})
     plan["challenge"] = notes
-    plan["ledger_axes"] = {"set": args.set, "device": args.device, "lockup_style": args.lockup_style, "tone": args.tone}
+    plan["ledger_axes"] = {"set": args.set, "device": args.device, "lockup_style": args.lockup_style, "tone": args.tone,
+                           "camera": args.camera, "payoff": args.payoff, "format": args.format}
+    # the five-axis check from file 01: if the new episode matches more than two of five against any one of the last three, change one axis
+    five = ["opener_type", "set", "device", "tone", "length_s"]
+    for r in led:
+        hits = [ax for ax in five if (str(r.get(ax, "")) == str({"opener_type": op["type"], "set": args.set, "device": args.device, "tone": args.tone, "length_s": None}.get(ax)))
+                or (ax == "length_s" and abs(float(r.get("length_s", 0) or 0) - plan["total_s"]) < 6)]
+        if len(hits) > 2:
+            notes.insert(len(notes) - 1, {"decision": "variation", "flag": f"matches {len(hits)} of 5 axes against '{r.get('label','')}' ({', '.join(hits)})",
+                                          "counter": "File 01, five-axis check: change one axis before it goes out.", "fix": "rotate the opener type, the set, the device or the length"})
     Path(args.plan).write_text(json.dumps(plan, indent=1, ensure_ascii=False), encoding="utf-8")
     flags = [n for n in notes if "flag" in n]
     print(f"challenge: {len(flags)} flag(s) against the doctrine, {len(same)} sameness warning(s) against the last {len(led)} episode(s)")
@@ -453,7 +466,7 @@ def cmd_lint(args):
 
 # ---------- ledger ----------
 def cmd_ledger(args):
-    cols = ["date", "label", "job", "opener_type", "first_noun", "set", "device", "lockup_style", "tone", "length_s", "cuts", "captions", "lockup", "plan"]
+    cols = ["date", "label", "job", "opener_type", "first_noun", "set", "device", "lockup_style", "tone", "camera", "payoff", "format", "length_s", "cuts", "captions", "lockup", "plan"]
     if args.action == "show":
         rows = read_ledger()
         if not rows: print("ledger empty:", LEDGER); return
@@ -463,7 +476,7 @@ def cmd_ledger(args):
     axes = plan.get("ledger_axes", {})
     row = {"date": dt.date.today().isoformat(), "label": args.label, "job": plan["job"], "opener_type": plan["opener"]["type"], "first_noun": plan["opener"]["first_noun"] or "",
            "set": args.set or axes.get("set") or "", "device": args.device or axes.get("device") or "", "lockup_style": args.lockup_style or axes.get("lockup_style") or "",
-           "tone": args.tone or axes.get("tone") or "", "length_s": plan["total_s"], "cuts": plan["cuts"], "captions": "no" if args.no_captions else "yes",
+           "tone": args.tone or axes.get("tone") or "", "camera": axes.get("camera") or "", "payoff": axes.get("payoff") or "", "format": axes.get("format") or "", "length_s": plan["total_s"], "cuts": plan["cuts"], "captions": "no" if args.no_captions else "yes",
            "lockup": (plan.get("render") or {}).get("lockup") or "", "plan": os.path.relpath(args.plan, ROOT) if str(ROOT) in os.path.abspath(args.plan) else args.plan}
     new = not LEDGER.exists()
     LEDGER.parent.mkdir(parents=True, exist_ok=True)
@@ -481,7 +494,7 @@ def main():
     p.add_argument("--open-on"); p.add_argument("--end-on"); p.add_argument("--drop", action="append", help="drop any sentence containing this text (repeatable)"); p.add_argument("--keep", action="append", help="never drop a sentence containing this text (repeatable)"); p.add_argument("--split-at", action="append", help="force a sentence boundary where this text begins (repeatable)"); p.add_argument("--keep-before-opener", action="store_true", default=False)
     p.add_argument("--target", type=float, help="aim at this many seconds (default: the top of the band)")
     p.add_argument("-o", "--out", default="plan.json"); p.set_defaults(fn=cmd_plan)
-    c = sub.add_parser("challenge"); c.add_argument("plan"); c.add_argument("--set"); c.add_argument("--device"); c.add_argument("--lockup-style"); c.add_argument("--tone"); c.set_defaults(fn=cmd_challenge)
+    c = sub.add_parser("challenge"); c.add_argument("plan"); c.add_argument("--set"); c.add_argument("--device"); c.add_argument("--lockup-style"); c.add_argument("--tone"); c.add_argument("--camera"); c.add_argument("--payoff"); c.add_argument("--format"); c.set_defaults(fn=cmd_challenge)
     r = sub.add_parser("render"); r.add_argument("plan"); r.add_argument("-o", "--out", required=True); r.add_argument("--lockup", default=""); r.add_argument("--no-captions", action="store_true"); r.add_argument("--fonts", default=str(FONTS)); r.set_defaults(fn=cmd_render)
     l = sub.add_parser("lint"); l.add_argument("plan"); l.add_argument("--video"); l.add_argument("--ass"); l.set_defaults(fn=cmd_lint)
     g = sub.add_parser("ledger"); g.add_argument("action", choices=["add", "show"]); g.add_argument("plan", nargs="?"); g.add_argument("--label", default=""); g.add_argument("--set"); g.add_argument("--device"); g.add_argument("--lockup-style"); g.add_argument("--tone"); g.add_argument("--no-captions", action="store_true"); g.set_defaults(fn=cmd_ledger)
