@@ -15,11 +15,12 @@ To add 9,423 followers in 30 days is 314 a day. Follows come from reach times co
 | Conversion of reach to follows | Reach needed in 30 days | What that looks like |
 |---|---|---|
 | 0.037 percent (September audit) | 25 million | Not available |
+| 0.28 percent (the account's own Nov 3 to 12 funnel: 0.93 percent of reach opened the profile, 30 percent of those followed) | 3.4 million | The current series without a breakout |
 | 0.2 percent (profile fixed, series running) | 4.7 million | Two October-sized memes plus the series |
 | 0.5 percent (series converting like the studied cases) | 1.9 million | One October-sized meme, or a sustained 60,000 reach a day |
 | 1.0 percent (the top of what small series accounts report) | 940,000 | One breakout and a converting profile |
 
-So the plan has two engines and they are not the same post. The send engine (memes, loops, skits, Trials of hooks) buys reach from strangers. The conversion engine (the daily talking head, the profile, the replies, the Collabs) turns the strangers who arrive into followers who stay. Without the second engine a breakout produces views and nothing else, which is what happened in July and October. Without the first, the series grows at the Jessica Carter rate (113 posts in 155 days to the first lift), which is real but not 30 days.
+The account's own funnel (file 02, from Insights) says where the hole is: in the viral month 0.14 percent of reach opened the profile and 38 percent of those followed; in the first two weeks of November 0.93 percent opened the profile (9.3 taps per 1,000 reach) and 30 percent followed. The profile converts about a third of whoever taps it. The tap is the gate, and the tap is a property of the reel: a person worth meeting, a series worth more of, a pinned comment that says what tomorrow is. So the plan has two engines and they are not the same post. The send engine (memes, loops, skits, Trials of hooks) buys reach from strangers. The conversion engine (the daily talking head, the profile, the replies, the Collabs) turns the strangers who arrive into followers who stay. Without the second engine a breakout produces views and nothing else, which is what happened in July and October. Without the first, the series grows at the Jessica Carter rate (113 posts in 155 days to the first lift), which is real but not 30 days.
 
 **The honest forecast, with the research behind it (file 03).** No account with a verifiable number went from under 1,000 to 10,000 in 30 days without a viral post or an audience carried in from elsewhere; the fastest documented case to 10K took 42 days and the average 163. Cohort data: accounts posting seven or more reels a week grew a median 16.2 percent a month against 0.45 percent for the median account (viral.app, about 7,900 accounts); a 981-account cohort landed 62 percent of its 90-day gain by day 30. Growth is a staircase: in every case with numbers, two or three posts carried most of the gain. So the target is written as 10,000 by day 90 with a day-30 checkpoint of 1,500 to 2,500, and the 30 days are run as if 10K were possible, because the posts that would do it in 30 are the same posts that do it in 90. Ceiling inside 30 days: one meme at October scale while the series and the profile convert at 0.5 percent or better. A follower count bought any other way (gates on every post, giveaways, pods, follow-for-follow) is not the goal and is on the never list; the one measured giveaway study found a 71 percent probability that more than half the followers gained leave within two weeks.
 
@@ -30,7 +31,7 @@ A quality follower is one who matches the audience brief and comes back. Weekly,
 - Follower geography stays 85 percent or more US and the age band 25 to 44 stays the majority (data/instagram/follower-demographics.json baseline: 87 percent US, 76 percent male, 51 percent 25 to 44). A giveaway or a pod shows up here first.
 - Likes per reach on talking heads holds above 4 percent and comments per reach above 0.3 percent as the count grows. Growth that halves these is the wrong growth.
 - Story views as a share of followers holds above 15 percent (the share of followers who actually come back).
-- Profile visits to follows holds at or above the in-house baseline of 38 percent (file 03: the measured hole on this account is reach to profile tap, not tap to follow), so the lever is profile visits per reach, target 2 percent, which the pinned comment and the first-hour reply move.
+- Profile visits per 1,000 reach, weekly, with 9.3 as the bar (the account's own Nov 3 to 12 figure) and 20 as the goal; profile visits to follows holds at or above 30 percent (the account ran 30 to 38 percent). The measured hole is reach to tap, not tap to follow, so the levers are the reel (a person, a series, a cliffhanger) and the pinned comment, not the bio.
 - Comments that use the shared language (the sign-off, "it runs, it just can't go anywhere", the counter lines) are the sign the community exists; count them in the weekly read.
 
 ## 4. The two engines, day by day
@@ -41,7 +42,9 @@ A quality follower is one who matches the audience brief and comes back. Weekly,
 
 **Two of every seven morning posts are reactions (file 03):** a submitted truck rated, a stitch of a claim, a comment read deadpan. It is the measured breakout family in the diesel set and the only format that reaches Cummins and Duramax viewers without changing the truck. The reaction is to a thing, never to a person by name.
 
-**Stories, daily, two to four frames:** the morning post shared with one line, a behind-the-shot frame from the cab, a question sticker once a week whose answers become episodes. Stories are where followers decide to stay; they are also the only place follows and profile visits are measured per post.
+**Stories, daily, two to four frames:** the morning post shared with one line, a behind-the-shot frame from the cab, a question sticker once a week whose answers become episodes. Stories do not lift the reel's reach (Mosseri, reported; file 02); they are where followers decide to stay, and they are the only place follows and profile visits are measured per post.
+
+**Timing:** the sources disagree on the hour and agree on midweek; Mosseri says timing does not matter much and to post just before the followers' peak. The account's own online-followers data puts that at 16:00 to 19:00 MT for the talking head; the morning post goes up when it is ready. The posted-time log settles the account's own window by day 15; nothing is held back for a clock.
 
 **Replies, twice a day, fifteen minutes each:** every comment answered in Jacob's own voice inside the hour where possible, the pinned comment within 60 s of posting, DMs that reply to a reel answered. Caleb, Mariah and Ronny all put this above any editing decision, and at 600 followers it costs minutes.
 
@@ -56,17 +59,25 @@ The stranger arrives from one reel and decides in four seconds. Caleb: refine th
 - Pinned three: the best meme by sends (the 10 mil), the best talking head by watch, the Rival honest check-in ("It runs. It just can't go anywhere.") once it exists. Re-pin weekly to the current best.
 - Highlights, four, named for the stranger: Chief, the F600, the counter, the cab series. Bingeable, newest first, no sponsor reels.
 - The grid's first nine: covers chosen from the lockup frame so the series reads as a series. No static posts, no thank-you reels on the grid (they go to Stories).
+- Nothing is deleted or archived to clean the grid (no measured downside to leaving it, and the account's own history is part of the story), and no old file is re-uploaded (the duplicate matcher limits reach); a reel worth running again is re-cut with a new opening, which the streamline editor does in minutes.
 
 ## 6. Trial Reels, the protocol
 
-The mechanics as of November 2026 and the eligibility are in research/2026-11-23-masterclass-2/02; the probable floor is 200 followers for professional accounts (two guides quote the Help Center, one dated 2026-11-06), so the first act on Tuesday is to open the Reels composer and look for the toggle. If it is there:
+The mechanics as of November 2026 are in research/2026-11-23-masterclass-2/02 with sources and grades. The parts that matter here:
 
-- Every talking head goes out first as a Trial with two first lines (an identity line and a pain line on the same take), judged at 24 h on skip rate and sends; the winner is shared to followers, the loser stays a Trial. Never the identical file twice.
-- Memes and loops are trialled as three hooks on the same plate on bank nights (Karissa's content roulette at a one-man volume: three, not twenty).
-- A Trial that performs and then flops when shared is a hook that worked on strangers and a body that did not; the fix is the body, not another hook.
-- Trials do not go on the grid, so they cost nothing in profile sameness and they are the only legitimate way to run twenty tests a week on this account.
+- **Eligibility.** The Help Center article, as quoted by six guides (one dated 2026-11-06): 200 followers for professional accounts, 1,000 for personal, public, recommendation-eligible. Brock Johnson still says 1,000; Mosseri confirmed 1,000 in July 2025 and the split came later. At 580 on a Creator account the toggle should be in the Reels composer. If it is not, check Account Status first. First act on Tuesday.
+- **Distribution.** Non-followers only, a performance read at 24 h, an optional auto-share if the reel "performs well based on the views it receives within the first 72 hours" (no published threshold, duration, count or cap). Mosseri: several different Trials a day is fine; the same Trial posted again "we're going to crack down on that"; no reach advantage over a normal post, same ranking system; Trials do not hurt and "if anything will help"; old Trials were never on the profile, leave them. Trial scheduling exists (April 2026). Reels only; a Collab partner on a Trial is probably not possible; the API publish tool the account uses has no Trial field, so Trials are an in-app step from the phone.
+- **What creators measured.** Creatorhouse (4,200 followers, ten against ten, May 2026): 2.3x non-follower reach, 0.6x engagement, 12.4 follows per Trial against about 9 for a normal post. Kapwing: 2.3x views on one Trial to a million, the same likes, one extra follower, then a lull. Millie Adrian: about 2,600 followers from 75 Trials in 15 days, 90 percent of them from two reels that were re-posted talking heads. Meta's own June 2025 note: 40 percent of creators posted more after using Trials and 80 percent of those saw more non-follower reach. So: double the strangers, a quarter of the engagement, under a dozen follows per Trial, and the real value is the hook test and the extra at-bats.
 
-If the toggle is not there, the same tests run as two posts a week apart in the same slot, and 1,000 followers becomes the first milestone of the plan for that reason alone.
+The protocol:
+
+1. The second post of the day is a Trial of the day's talking head with a different first sentence (one variable, same take, auto-share off): an identity line against a pain line. Judged at 24 h on skip rate and non-follower reach against the last four Trials. The winner is shared to followers for the grid, not for reach; the loser stays a Trial and nothing is lost.
+2. Memes and loops: three hooks on the same plate on bank nights, as Trials, the winner to the feed.
+3. Never the same file twice, as a Trial or a post. A reel worth running again is re-cut with a new opening.
+4. A Trial that performs and then flops when shared is a hook that worked on strangers and a body that did not; the fix is the body.
+5. Log net follows per Trial by hand from Insights (the redesign in test since November 20 sorts content by follows and adds a Trial shortcut) against the one published figure, 12.4.
+
+If the toggle is not there, the same tests run as two posts a week apart in the same slot, and 1,000 followers becomes the plan's first milestone for that reason alone.
 
 ## 7. Collabs and feeders
 
@@ -106,13 +117,8 @@ That is about ninety minutes on a weekday. If it cannot be held, the fallback is
 - Day 15: the cell ranking. Day 30: the top-10-percent study and the January cadence.
 - Change course when: a format misses its floor three times running (drop it), the demographics drift (stop whatever grew last week), replies fall behind (cut the morning post before cutting replies), or a post breaks out (the next three posts answer its comments in its lane within 48 h, which is the only moment the 30-day ceiling is reachable).
 
-## 11. What the research confirmed, and what it still has to
+## 11. What the research confirmed
 
-Confirmed (files 01 and 03): the staircase (two or three posts carry the gain), cadence buys at-bats not hits, the 38 percent profile close with reach-to-tap as the hole, Collabs at 1.52x, giveaway churn, Live hosting closed under 1,000, reactions as the diesel breakout family, topic controls making drift expensive, the first-hour reply and the pinned comment as the only commenting tactics with a measured lift, cross-platform spillover unmeasured and slow (mirror at zero cost, expect nothing inside 30 days).
+Files 01, 02 and 03 in research/2026-11-23-masterclass-2, all graded. Confirmed: the staircase (two or three posts carry the gain), cadence buys at-bats not hits (seven plus reels a week at 16.2 percent a month against 0.45), the account's own funnel (the tap is the gate, 30 to 38 percent of taps follow), Collabs at 1.52x views, giveaway churn (71 percent chance more than half leave in two weeks), Live hosting closed under 1,000, reactions as the diesel breakout family, topic controls making drift expensive, the first-hour reply and the pinned comment as the only commenting tactics with a measured lift, Stories not lifting the reel, timing mattering little, no deleting and no re-uploading, Trial eligibility probably 200 and Trials as a hook test worth about double the strangers and a quarter of the engagement, and the human-versus-template tells with the five-axis variation check that keeps the daily series from decaying.
 
-Still to confirm (file 02 when it lands, and the composer screenshot):
-
-- Trial Reels eligibility and graduation rules as of this month, and the measured reach multiple creators report.
-- The Collab reach effect on accounts under 1,000, with numbers.
-- The 500 to 10K cases closest to this lane: cadence, the engine, how long it took, and what their follower quality looked like after.
-- Whether posting time matters at all for a small account in 2026 or only the window the audience is online.
+Still open: the composer screenshot that settles Trial eligibility; whether Trial views roll into account-level Insights; a weekly follows-minus-unfollows baseline from Insights before the first growth week; the Collab effect on accounts under 1,000 with numbers (none published); the raw Graph `trial_params` route through Composio (untested because it would publish).
