@@ -48,7 +48,7 @@ When a request spans modes (it usually does: a cut needs a caption and a posting
 
 ## The loop
 
-- **Per post:** idea from the calendar or the matrix cell → shoot brief (opener move, lockup room, one topic) → cut per tier → artboard if the cut is new → render, QA, smooth check → caption through `coyote.py lint caption` → posting kit folder in the Drive inbox → he posts in the slot (AM 09:00 to 11:00 for memes, skits, rollers, questions; PM 16:00 to 19:00 for build, credential, story) → `coyote.py pending add` → 48 h read → `coyote.py grade --log` → one sentence on what the number says → next variable.
+- **Per post:** idea from the calendar or the matrix cell → shoot brief (opener move, lockup room, one topic) → cut per tier → artboard if the cut is new → render, QA, smooth check → caption through `coyote.py lint caption` → posting kit folder in the Drive inbox → he posts in the slot (AM 09:00 to 11:00 for memes, skits, rollers, questions; PM 16:00 to 19:00 is the daily talking head in the truck, `playbook/12-talking-head-in-the-truck.md`, rotating Rival, Rival, Counter, Chief, People) → `coyote.py pending add` → 48 h read → `coyote.py grade --log` → one sentence on what the number says → next variable.
 - **Daily:** `status`, pull, the day's two slots, inbox triage, reply window (DM replies only, 24 h; he cannot initiate).
 - **Weekly (Monday):** `coyote.py week`: account read, top and bottom 3 by sends per reach, trending audio, THE BAR re-pull, outlier watch list re-run, Trial Reels check, partner ledger.
 - **Day 15 (Tue Dec 8, 2026):** rank the 30 by sends per reach per the matrix section 5; days 16 to 30 run the winning cells with a new hook each (`coyote.py hooks A|B|C`).

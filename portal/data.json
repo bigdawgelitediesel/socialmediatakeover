@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T22:50-07:00",
+ "generated_at": "2026-11-21T22:54-07:00",
  "plan_first_date": "2026-11-24",
  "plan_last_date": "2026-12-08",
  "sema_date": "2027-11-02",
@@ -20,9 +20,9 @@
    "day": 1,
    "date": "2026-11-24",
    "slot": "PM",
-   "idea_n": 32,
-   "idea": "Frame swap, to the dollar",
-   "cell": "Numbers x Story"
+   "idea_n": 41,
+   "idea": "How I am getting a 1959 Ford to SEMA from a parts counter (90 s)",
+   "cell": "Rival x Talking head"
   },
   {
    "day": 2,
@@ -36,9 +36,9 @@
    "day": 2,
    "date": "2026-11-25",
    "slot": "PM",
-   "idea_n": 31,
-   "idea": "One of the last 1959 F600s. It runs. Tearing it apart anyway",
-   "cell": "Fails x Story"
+   "idea_n": 32,
+   "idea": "Frame swap, to the dollar",
+   "cell": "Rival x Talking head"
   },
   {
    "day": 3,
@@ -52,9 +52,9 @@
    "day": 3,
    "date": "2026-11-26",
    "slot": "PM",
-   "idea_n": 34,
-   "idea": "A parts manager, a 7.3, and no shop",
-   "cell": "Shop x Story"
+   "idea_n": 8,
+   "idea": "The order that came back three times",
+   "cell": "Counter x Talking head"
   },
   {
    "day": 4,
@@ -68,9 +68,9 @@
    "day": 4,
    "date": "2026-11-27",
    "slot": "PM",
-   "idea_n": 36,
-   "idea": "20,000 of you told me what engine to put in it",
-   "cell": "Numbers x Question-clip"
+   "idea_n": 42,
+   "idea": "I disabled the CP4 and ran a FASS. What that means",
+   "cell": "Chief x Talking head"
   },
   {
    "day": 5,
@@ -84,9 +84,9 @@
    "day": 5,
    "date": "2026-11-28",
    "slot": "PM",
-   "idea_n": 37,
-   "idea": "Everything the last owner did to this truck",
-   "cell": "Fails x Story"
+   "idea_n": 36,
+   "idea": "20,000 of you told me what engine to put in it",
+   "cell": "People x Talking head"
   },
   {
    "day": 6,
@@ -100,9 +100,9 @@
    "day": 6,
    "date": "2026-11-29",
    "slot": "PM",
-   "idea_n": 20,
-   "idea": "This truck worked for a lumber company",
-   "cell": "Old x Story"
+   "idea_n": 31,
+   "idea": "One of the last 1959 F600s. It runs. It just can't go anywhere",
+   "cell": "Rival x Talking head"
   },
   {
    "day": 7,
@@ -116,9 +116,9 @@
    "day": 7,
    "date": "2026-11-30",
    "slot": "PM",
-   "idea_n": 14,
-   "idea": "A kid in Cheyenne doing his first 7.3",
-   "cell": "Identity x Story"
+   "idea_n": 20,
+   "idea": "This truck worked for a lumber company in 1959",
+   "cell": "Rival x Talking head"
   },
   {
    "day": 8,
@@ -132,9 +132,9 @@
    "day": 8,
    "date": "2026-12-01",
    "slot": "PM",
-   "idea_n": 39,
-   "idea": "What a truck at SEMA actually costs",
-   "cell": "Numbers x Story"
+   "idea_n": 11,
+   "idea": "The most returned part in the building this year",
+   "cell": "Counter x Talking head"
   },
   {
    "day": 9,
@@ -148,9 +148,9 @@
    "day": 9,
    "date": "2026-12-02",
    "slot": "PM",
-   "idea_n": 8,
-   "idea": "The order that came back three times",
-   "cell": "Shop x Story"
+   "idea_n": 43,
+   "idea": "What my 6.7 has actually cost me, to the dollar",
+   "cell": "Chief x Talking head"
   },
   {
    "day": 10,
@@ -164,9 +164,9 @@
    "day": 10,
    "date": "2026-12-03",
    "slot": "PM",
-   "idea_n": 2,
-   "idea": "It sat in a field and now it won't",
-   "cell": "Fails x Story"
+   "idea_n": 14,
+   "idea": "A kid in Cheyenne doing his first 7.3",
+   "cell": "People x Talking head"
   },
   {
    "day": 11,
@@ -180,9 +180,9 @@
    "day": 11,
    "date": "2026-12-04",
    "slot": "PM",
-   "idea_n": 35,
-   "idea": "The old man who drove it for Deal Lumber",
-   "cell": "Identity x Story"
+   "idea_n": 39,
+   "idea": "What a truck at SEMA actually costs",
+   "cell": "Rival x Talking head"
   },
   {
    "day": 12,
@@ -196,9 +196,9 @@
    "day": 12,
    "date": "2026-12-05",
    "slot": "PM",
-   "idea_n": 26,
-   "idea": "What the frame swap has cost, to the dollar",
-   "cell": "Numbers x Story"
+   "idea_n": 37,
+   "idea": "Everything the last owner did to this truck",
+   "cell": "Rival x Talking head"
   },
   {
    "day": 13,
@@ -212,9 +212,9 @@
    "day": 13,
    "date": "2026-12-06",
    "slot": "PM",
-   "idea_n": 29,
-   "idea": "What it costs to put a truck at SEMA",
-   "cell": "Numbers x Story"
+   "idea_n": 44,
+   "idea": "The $50 part that cost a trucker $3,400 and a day",
+   "cell": "Counter x Talking head"
   },
   {
    "day": 14,
@@ -228,9 +228,9 @@
    "day": 14,
    "date": "2026-12-07",
    "slot": "PM",
-   "idea_n": 30,
-   "idea": "What's diesel where you are?",
-   "cell": "Numbers x Question-clip"
+   "idea_n": 45,
+   "idea": "Zero reason to upgrade a lift pump under 750 hp. Wrong",
+   "cell": "Chief x Talking head"
   },
   {
    "day": 15,
@@ -244,9 +244,9 @@
    "day": 15,
    "date": "2026-12-08",
    "slot": "PM",
-   "idea_n": 27,
-   "idea": "Where the 10 mil at, part 3",
-   "cell": "Loop"
+   "idea_n": 46,
+   "idea": "Send me your 7.3. I'll tell you what breaks first",
+   "cell": "People x Talking head"
   }
  ],
  "ideas": {
@@ -616,13 +616,13 @@
   "34": {
    "n": 34,
    "cell": "Shop x Narrated story",
-   "title": "A parts manager, a 7.3, and no shop.",
+   "title": "A parts manager, a 7.3, and the shop I might run one day.",
    "evidence": "Dave's 2.0M, 89 s",
-   "body": "Frame 1: Jacob in the home garage, VO: \"I order parts for semis all day and I do not have a shop. This is where a 1959 Ford is getting a 7.3 that everybody said could not make power.\" The build so far as trouble: the frame, the engine, the hours after work, the cost, the one thing that went right. 80 to 100 s. Caption line 1: \"For everyone building in a garage after a ten-hour shift.\"",
+   "body": "Frame 1: Jacob at the counter or in the bay, VO: \"I order parts for semis all day. After hours this bay is where a 1959 Ford is getting a 7.3 that everybody said could not make power.\" The build so far as trouble: the frame, the engine, the hours after the shift, the cost, the one thing that went right, and the line that he wants to be associated with this place because one day he may run it. 80 to 100 s. Caption line 1: \"For everyone building something after a ten-hour shift.\"",
    "shape": "story",
    "length": "60 to 120 s",
-   "caption_line1": "For everyone building in a garage after a ten-hour shift.",
-   "frame1": "Jacob in the home garage, VO: \"I order parts for semis all day and I do not have a shop."
+   "caption_line1": "For everyone building something after a ten-hour shift.",
+   "frame1": "Jacob at the counter or in the bay, VO: \"I order parts for semis all day."
   },
   "35": {
    "n": 35,
@@ -689,6 +689,72 @@
    "length": "6 to 12 s",
    "caption_line1": "Send this to whoever still owes you money.",
    "frame1": ""
+  },
+  "41": {
+   "n": 41,
+   "cell": "Rival x Talking head",
+   "title": "How I'm getting a 1959 Ford to SEMA from a parts counter (in 90 seconds).",
+   "evidence": "Caleb Ralston format, 19.6K likes; reel-references/2026-11-22-DdmJNQJp81s",
+   "body": "The pilot. Sitting in the truck, one locked shot, a countdown ring from 90, five numbered rules with a red headline each: 1 the pairing (a parts guy, a '59 Ford, a 7.3, SEMA 2027), 2 why a 7.3 and not a Cummins, 3 no shop of my own, so the shop I work at is the playground, 4 every dollar posted, 5 what done looks like on November 2, 2027. Last line: \"That is the map. Day one.\" Caption line 1: \"Send this to the guy who says parts guys don't build trucks.\" Day 1 afternoon; the premise in post one is what every fast grower did (growth case studies).",
+   "shape": "talk",
+   "length": "60 to 120 s",
+   "caption_line1": "Send this to the guy who says parts guys don't build trucks.",
+   "frame1": ""
+  },
+  "42": {
+   "n": 42,
+   "cell": "Chief x Talking head",
+   "title": "I disabled the CP4 on my 6.7 and ran a FASS. Here is what that sentence means.",
+   "evidence": "6.7 tribe report, prevention beats disaster, Dave's CP3 plus FASS 201K",
+   "body": "The one-sentence meaning first, in the cab of the truck it happened to: the CP4 is the pump that takes the engine with it when it fails, disabling it means it no longer does the job that kills it, the FASS feeds clean consistent fuel now and the volume later. What it cost, what a CP3 or DCR swap would have cost, and the honest catch. Not either or. Caption line 1: \"For your 6.7 brother who is still running the stock CP4.\"",
+   "shape": "talk",
+   "length": "60 to 120 s",
+   "caption_line1": "For your 6.7 brother who is still running the stock CP4.",
+   "frame1": ""
+  },
+  "43": {
+   "n": 43,
+   "cell": "Chief x Talking head",
+   "title": "What my 6.7 has actually cost me, to the dollar.",
+   "evidence": "receipts rule, Jessica Carter study",
+   "body": "Every receipt on Chief in order, the small numbers first, the surprise item, the total held to the end, the one thing he would not buy again. Caption line 1: \"Send this to whoever thinks a daily-driven 6.7 is cheap to keep.\"",
+   "shape": "talk",
+   "length": "60 to 120 s",
+   "caption_line1": "Send this to whoever thinks a daily-driven 6.7 is cheap to keep.",
+   "frame1": ""
+  },
+  "44": {
+   "n": 44,
+   "cell": "Counter x Talking head",
+   "title": "The $50 part that cost a trucker $3,400 and a day.",
+   "evidence": "parts-counter lane, owner-op bills send at 3.5x; dealerplateguy 300K",
+   "body": "A real pattern from the counter with no customer named: the cheap part that takes a Class 8 down, what the tow and the downtime cost, what the part costs on the shelf, why nobody stocks it. \"I work at a semi shop\" said out loud. Caption line 1: \"Send this to the owner-op who skips the small stuff.\"",
+   "shape": "talk",
+   "length": "60 to 120 s",
+   "caption_line1": "Send this to the owner-op who skips the small stuff.",
+   "frame1": ""
+  },
+  "45": {
+   "n": 45,
+   "cell": "Chief x Talking head",
+   "title": "Someone told me there is zero reason to upgrade a lift pump under 750 hp.",
+   "evidence": "the rebuttal he owns, CLAUDE.md",
+   "body": "Read the comment off the phone, then answer it from the cab: it is not either or, the pump protects the CP4 now and is already there when the power comes, with the one number that makes it concrete. Caption line 1: \"For the guy who told you to wait until 750 hp.\"",
+   "shape": "talk",
+   "length": "60 to 120 s",
+   "caption_line1": "For the guy who told you to wait until 750 hp.",
+   "frame1": ""
+  },
+  "46": {
+   "n": 46,
+   "cell": "People x Talking head",
+   "title": "Send me your 7.3. I'll tell you what breaks first.",
+   "evidence": "growth case studies: rate or roast a submitted truck is the breakout mechanism",
+   "body": "Collected from the comments on days 5 and 10 (ask in the caption and the pinned comment, never burned in). Three submitted trucks, thirty seconds each, the parts guy's read on each: what to check, what it costs, the one thing to do this month. Caption line 1: \"Tag the guy whose 7.3 needs to hear this.\" If the old Deal Lumber driver (idea 35) is found by day 15, he takes this slot instead.",
+   "shape": "talk",
+   "length": "60 to 120 s",
+   "caption_line1": "Tag the guy whose 7.3 needs to hear this.",
+   "frame1": ""
   }
  },
  "shapes": {
@@ -723,6 +789,18 @@
     "Your face not before 20 s. Pocket 3 on a magnet mount, voice recorded after in the cab.",
     "Every problem in order, the fix for each, cut every 2 to 4 s. Re-hook a third and two thirds in.",
     "Hold the answer for the last ten seconds. End within 1.5 s of the payoff. No outro."
+   ]
+  },
+  "talk": {
+   "name": "Talking head, in the truck",
+   "length": "60 to 120 s",
+   "when": "PM 16:00 to 19:00 MT, every day",
+   "how": [
+    "Same seat, same mount, Pocket 3 on the dash at eye height, Face Auto-Detect on, engine off, windows up, DJI Mic 3 to 5 inches off.",
+    "Never a static face on frame 1: door shuts mid-sentence, turn from the windshield on the first word, or the part comes up first. First noun by 0.9 s.",
+    "Title sentence with a number in the upper third for the first 3 s. Pilot line once around 15 s, spoken. One idea per breath, 150 to 165 wpm, say the acronyms.",
+    "Re-hook at a third and two thirds. Answer in the last ten seconds, one question that splits the comments, your fixed sign-off, cliffhanger to tomorrow. No outro, no ask.",
+    "Five takes straight through, teleprompter allowed, pick the best. Rotation: Rival, Rival, Counter, Chief, People. Full page: playbook/12-talking-head-in-the-truck.md"
    ]
   },
   "question": {

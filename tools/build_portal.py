@@ -41,6 +41,12 @@ SHAPES = {
                       "Your face not before 20 s. Pocket 3 on a magnet mount, voice recorded after in the cab.",
                       "Every problem in order, the fix for each, cut every 2 to 4 s. Re-hook a third and two thirds in.",
                       "Hold the answer for the last ten seconds. End within 1.5 s of the payoff. No outro."]},
+    "talk": {"name": "Talking head, in the truck", "length": "60 to 120 s", "when": "PM 16:00 to 19:00 MT, every day",
+             "how": ["Same seat, same mount, Pocket 3 on the dash at eye height, Face Auto-Detect on, engine off, windows up, DJI Mic 3 to 5 inches off.",
+                     "Never a static face on frame 1: door shuts mid-sentence, turn from the windshield on the first word, or the part comes up first. First noun by 0.9 s.",
+                     "Title sentence with a number in the upper third for the first 3 s. Pilot line once around 15 s, spoken. One idea per breath, 150 to 165 wpm, say the acronyms.",
+                     "Re-hook at a third and two thirds. Answer in the last ten seconds, one question that splits the comments, your fixed sign-off, cliffhanger to tomorrow. No outro, no ask.",
+                     "Five takes straight through, teleprompter allowed, pick the best. Rotation: Rival, Rival, Counter, Chief, People. Full page: playbook/12-talking-head-in-the-truck.md"]},
     "question": {"name": "Question clip", "length": "9 to 25 s", "when": "AM 09:00 to 11:00 MT",
                  "how": ["A real clip from your own world with something going wrong or a hack happening.",
                          "One white pill top centre with the question. You keyed lower left reacting, or silent.",
@@ -81,6 +87,7 @@ RULES = [
 
 def shape_of(cell: str) -> str:
     c = cell.lower()
+    if "talking head" in c: return "talk"
     if c == "loop" or "meme" in c: return "loop"
     if "skit" in c: return "skit"
     if "question" in c: return "question"

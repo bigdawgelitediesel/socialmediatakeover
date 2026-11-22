@@ -79,8 +79,8 @@ Frame 1: a receipt pile on the hood, VO: "Everybody asks what a frame swap costs
 **33. Shop x Two-man skit (joegotti 7.3M, 63 s): "Is parts a trade?"**
 One shot, the counter, a tech and Jacob. The tech says parts is not a trade. Jacob answers with the day: the part number with eleven digits, the core, the truck that is "the one with the hood up", the backorder with no update, the customer whose belt has been shredded since July. The turn: the tech needs a part and cannot name it. 60 s. Caption line 1: "Tag the tech who thinks parts is not a trade."
 
-**34. Shop x Narrated story (Dave's 2.0M, 89 s): "A parts manager, a 7.3, and no shop."**
-Frame 1: Jacob in the home garage, VO: "I order parts for semis all day and I do not have a shop. This is where a 1959 Ford is getting a 7.3 that everybody said could not make power." The build so far as trouble: the frame, the engine, the hours after work, the cost, the one thing that went right. 80 to 100 s. Caption line 1: "For everyone building in a garage after a ten-hour shift."
+**34. Shop x Narrated story (Dave's 2.0M, 89 s): "A parts manager, a 7.3, and the shop I might run one day."**
+Frame 1: Jacob at the counter or in the bay, VO: "I order parts for semis all day. After hours this bay is where a 1959 Ford is getting a 7.3 that everybody said could not make power." The build so far as trouble: the frame, the engine, the hours after the shift, the cost, the one thing that went right, and the line that he wants to be associated with this place because one day he may run it. 80 to 100 s. Caption line 1: "For everyone building something after a ten-hour shift."
 
 **35. Identity x Narrated story (Dave's 17-year-old): "The old man who drove it for Deal Lumber."**
 If a former Deal Lumber driver or family can be found in Laramie, the truck meets them; if not, the lettering, the paperwork and the last registration told as a search. 60 to 90 s. Caption line 1: "Send this to the person who learned to drive in a work truck."
@@ -100,46 +100,67 @@ The exhibitor rule, the fee, the transport, the booth partner, the deadline, tol
 **40. Loop (Instagram, universal): "Where the 10 mil at, part 2."**
 The record holder's sequel in the same voice, a closed loop under 10 s, the joke about money and the build, no tribe knowledge needed. Caption line 1: "Send this to whoever still owes you money."
 
+
+### Six more, written for the daily talking head in the truck (Jacob, 2026-11-22: "a talking head video every day, me sitting in the truck")
+
+**41. Rival x Talking head (Caleb Ralston format, 19.6K likes; reel-references/2026-11-22-DdmJNQJp81s): "How I'm getting a 1959 Ford to SEMA from a parts counter (in 90 seconds)."**
+The pilot. Sitting in the truck, one locked shot, a countdown ring from 90, five numbered rules with a red headline each: 1 the pairing (a parts guy, a '59 Ford, a 7.3, SEMA 2027), 2 why a 7.3 and not a Cummins, 3 no shop of my own, so the shop I work at is the playground, 4 every dollar posted, 5 what done looks like on November 2, 2027. Last line: "That is the map. Day one." Caption line 1: "Send this to the guy who says parts guys don't build trucks." Day 1 afternoon; the premise in post one is what every fast grower did (growth case studies).
+
+**42. Chief x Talking head (6.7 tribe report, prevention beats disaster, Dave's CP3 plus FASS 201K): "I disabled the CP4 on my 6.7 and ran a FASS. Here is what that sentence means."**
+The one-sentence meaning first, in the cab of the truck it happened to: the CP4 is the pump that takes the engine with it when it fails, disabling it means it no longer does the job that kills it, the FASS feeds clean consistent fuel now and the volume later. What it cost, what a CP3 or DCR swap would have cost, and the honest catch. Not either or. Caption line 1: "For your 6.7 brother who is still running the stock CP4."
+
+**43. Chief x Talking head (receipts rule, Jessica Carter study): "What my 6.7 has actually cost me, to the dollar."**
+Every receipt on Chief in order, the small numbers first, the surprise item, the total held to the end, the one thing he would not buy again. Caption line 1: "Send this to whoever thinks a daily-driven 6.7 is cheap to keep."
+
+**44. Counter x Talking head (parts-counter lane, owner-op bills send at 3.5x; dealerplateguy 300K): "The $50 part that cost a trucker $3,400 and a day."**
+A real pattern from the counter with no customer named: the cheap part that takes a Class 8 down, what the tow and the downtime cost, what the part costs on the shelf, why nobody stocks it. "I work at a semi shop" said out loud. Caption line 1: "Send this to the owner-op who skips the small stuff."
+
+**45. Chief x Talking head (the rebuttal he owns, CLAUDE.md): "Someone told me there is zero reason to upgrade a lift pump under 750 hp."**
+Read the comment off the phone, then answer it from the cab: it is not either or, the pump protects the CP4 now and is already there when the power comes, with the one number that makes it concrete. Caption line 1: "For the guy who told you to wait until 750 hp."
+
+**46. People x Talking head (growth case studies: rate or roast a submitted truck is the breakout mechanism): "Send me your 7.3. I'll tell you what breaks first."**
+Collected from the comments on days 5 and 10 (ask in the caption and the pinned comment, never burned in). Three submitted trucks, thirty seconds each, the parts guy's read on each: what to check, what it costs, the one thing to do this month. Caption line 1: "Tag the guy whose 7.3 needs to hear this." If the old Deal Lumber driver (idea 35) is found by day 15, he takes this slot instead.
+
 ## 5. The calendar, re-cut (days 1 to 15, replaces section 5 of the matrix for scheduling; same slots)
 
 Start moved by Jacob on 2026-11-22: day 1 is Tuesday November 24, day 15 is Tuesday December 8, the ranking is on December 8 and days 16 to 30 run December 9 to 23. Sunday and Monday before the start are for banking the skits and loops.
 
-Morning (09:00 to 11:00 MT) carries the loop or the skit; afternoon (16:00 to 19:00) carries the story. Every post goes to TikTok and Shorts the same day. The five columns are read at 48 h and again at 7 days (views).
+Morning (09:00 to 11:00 MT) carries the loop, the skit or the question clip, shot in the shop playground. Afternoon (16:00 to 19:00) is the daily talking head in the truck (Jacob, 2026-11-22), 60 to 120 s, rotating Rival, Rival, Counter, Chief, People so the 7.3 is two afternoons in five and the page can breathe. The format is playbook/12-talking-head-in-the-truck.md. Every post goes to TikTok and Shorts the same day. The five columns are read at 48 h and again at 7 days (views).
 
 | Day | Date | Slot | Idea | Cell | Reach 48h | Sends | Sends/reach | Skip % | Views 7d |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | Tue Nov 24 | AM | 40 Where the 10 mil at, part 2 | Loop | | | | | |
-| 1 | Tue Nov 24 | PM | 32 Frame swap, to the dollar | Numbers x Story | | | | | |
+| 1 | Tue Nov 24 | PM | 41 How I am getting a 1959 Ford to SEMA from a parts counter (90 s) | Rival x Talking head | | | | | |
 | 2 | Wed Nov 25 | AM | 33 Is parts a trade? | Shop x Skit | | | | | |
-| 2 | Wed Nov 25 | PM | 31 One of the last 1959 F600s. It runs. Tearing it apart anyway | Fails x Story | | | | | |
+| 2 | Wed Nov 25 | PM | 32 Frame swap, to the dollar | Rival x Talking head | | | | | |
 | 3 | Thu Nov 26 | AM | 6 Did you know about this? | Fails x Question-clip | | | | | |
-| 3 | Thu Nov 26 | PM | 34 A parts manager, a 7.3, and no shop | Shop x Story | | | | | |
+| 3 | Thu Nov 26 | PM | 8 The order that came back three times | Counter x Talking head | | | | | |
 | 4 | Fri Nov 27 | AM | 38 It just started doing that today | Shop x Skit | | | | | |
-| 4 | Fri Nov 27 | PM | 36 20,000 of you told me what engine to put in it | Numbers x Question-clip | | | | | |
+| 4 | Fri Nov 27 | PM | 42 I disabled the CP4 and ran a FASS. What that means | Chief x Talking head | | | | | |
 | 5 | Sat Nov 28 | AM | 9 Porch light | Loop | | | | | |
-| 5 | Sat Nov 28 | PM | 37 Everything the last owner did to this truck | Fails x Story | | | | | |
+| 5 | Sat Nov 28 | PM | 36 20,000 of you told me what engine to put in it | People x Talking head | | | | | |
 | 6 | Sun Nov 29 | AM | 10 It's a sensor | Shop x Skit | | | | | |
-| 6 | Sun Nov 29 | PM | 20 This truck worked for a lumber company | Old x Story | | | | | |
+| 6 | Sun Nov 29 | PM | 31 One of the last 1959 F600s. It runs. It just can't go anywhere | Rival x Talking head | | | | | |
 | 7 | Mon Nov 30 | AM | 3 Fit on the bench | Loop | | | | | |
-| 7 | Mon Nov 30 | PM | 14 A kid in Cheyenne doing his first 7.3 | Identity x Story | | | | | |
+| 7 | Mon Nov 30 | PM | 20 This truck worked for a lumber company in 1959 | Rival x Talking head | | | | | |
 | 8 | Tue Dec 1 | AM | 12 Who's this at your shop? | Shop x Question-clip | | | | | |
-| 8 | Tue Dec 1 | PM | 39 What a truck at SEMA actually costs | Numbers x Story | | | | | |
+| 8 | Tue Dec 1 | PM | 11 The most returned part in the building this year | Counter x Talking head | | | | | |
 | 9 | Wed Dec 2 | AM | 4 Did it fit? | Fails x Skit | | | | | |
-| 9 | Wed Dec 2 | PM | 8 The order that came back three times | Shop x Story | | | | | |
+| 9 | Wed Dec 2 | PM | 43 What my 6.7 has actually cost me, to the dollar | Chief x Talking head | | | | | |
 | 10 | Thu Dec 3 | AM | 15 7.3 owners when asked how fast | Loop | | | | | |
-| 10 | Thu Dec 3 | PM | 2 It sat in a field and now it won't | Fails x Story | | | | | |
+| 10 | Thu Dec 3 | PM | 14 A kid in Cheyenne doing his first 7.3 | People x Talking head | | | | | |
 | 11 | Fri Dec 4 | AM | 16 Nice Cummins | Identity x Skit | | | | | |
-| 11 | Fri Dec 4 | PM | 35 The old man who drove it for Deal Lumber | Identity x Story | | | | | |
+| 11 | Fri Dec 4 | PM | 39 What a truck at SEMA actually costs | Rival x Talking head | | | | | |
 | 12 | Sat Dec 5 | AM | 24 When did you last see one on the road? | Old x Question-clip | | | | | |
-| 12 | Sat Dec 5 | PM | 26 What the frame swap has cost, to the dollar | Numbers x Story | | | | | |
+| 12 | Sat Dec 5 | PM | 37 Everything the last owner did to this truck | Rival x Talking head | | | | | |
 | 13 | Sun Dec 6 | AM | 28 Promise you won't get mad? | Numbers x Skit | | | | | |
-| 13 | Sun Dec 6 | PM | 29 What it costs to put a truck at SEMA | Numbers x Story | | | | | |
+| 13 | Sun Dec 6 | PM | 44 The $50 part that cost a trucker $3,400 and a day | Counter x Talking head | | | | | |
 | 14 | Mon Dec 7 | AM | 18 Guess the truck by the door | Identity x Question-clip | | | | | |
-| 14 | Mon Dec 7 | PM | 30 What's diesel where you are? | Numbers x Question-clip | | | | | |
+| 14 | Mon Dec 7 | PM | 45 Zero reason to upgrade a lift pump under 750 hp. Wrong | Chief x Talking head | | | | | |
 | 15 | Tue Dec 8 | AM | 22 Numbers matching? | Old x Skit | | | | | |
-| 15 | Tue Dec 8 | PM | 27 Where the 10 mil at, part 3 | Loop | | | | | |
+| 15 | Tue Dec 8 | PM | 46 Send me your 7.3. I'll tell you what breaks first | People x Talking head | | | | | |
 
-Shooting load this creates: the stories (31, 32, 34, 37, 20, 14, 8, 2, 35, 26, 39, 29) are evening work, one to two hours each, Pocket 3 on a magnet mount, voice recorded after; the skits (33, 38, 10, 4, 16, 28, 22) are one coworker for sixty seconds each, bank them in two lunch breaks; the loops are one cutout session. If a story is not shot by its day, a question clip takes the slot; nothing short and tribe-only goes in an afternoon slot again.
+Shooting load this creates: the talking heads are one sit in the truck per day, five takes, 20 to 30 minutes, plus b-roll grabbed in the shop that day; the pilot (41) and the receipts episodes (32, 43) want the props on the dash; the skits (33, 38, 10, 4, 16, 28, 22) are one coworker for sixty seconds each, bank them in two lunch breaks; the loops are one cutout session. If a story is not shot by its day, a question clip takes the slot; nothing short and tribe-only goes in an afternoon slot again.
 
 ## 6. Ranking at day 15 (replaces the matrix rule for ranking)
 
