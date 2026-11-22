@@ -55,3 +55,6 @@ research/reel-references/2026-11-22-junyuh-profile/**/*.mp4
 
 # 2026-11-22 karissa.wampler study: video stays local
 research/reel-references/2026-11-22-DfSxAyeyYT7/*.mp4
+
+# local deliveries, never committed
+outbox/
