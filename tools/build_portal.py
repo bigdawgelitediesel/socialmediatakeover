@@ -72,7 +72,7 @@ RULES = [
     "No on-screen call to action, no outro, no fade. The share line is caption line 1, written as a person type.",
     "One poster lockup on the hook (LOUDER, MEGANTE or TROPI). Nothing else burned in on the fast tier.",
     "No color grade. Real footage only. Your voice only; the Kokoro scratch voice never ships.",
-    "El Coyote only on Rival content. Never the shop name. Transmission detail stays private.",
+    "The shop is part of the brand: Elite Diesel can appear, say \"I work there\" when it does. No customer names, plates or invoices, no vendor cost, no promises for the business. Transmission detail stays private.",
     "Two numbers never wrong: 550 to 600 crank hp. SEMA November 2 to 5, 2027. SEMA is 'the target'.",
     "No delete, coal or defeat-device content. No pods, bots, bought followers. No follow gates.",
     "Judge: views at 7 days (100,000 candidate, 1,000,000 goal). Early warning at 48 h: sends per reach over 1 percent, watch over 60 percent, skip under 45.",

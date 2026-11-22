@@ -176,8 +176,8 @@ STOCK = ["say goodbye to", "reimagined", "unlock the power", "take it to the nex
          "let that sink in", "agree?", "thoughts?", "stop scrolling", "wait for it", "you won't believe", "in this video", "welcome back"]
 OPENERS = ["hey guys", "hey everyone", "what's up guys", "so today", "today we", "today i", "in this video", "welcome", "hi guys", "yo guys", "alright guys", "okay so"]
 CTA = ["follow for", "follow me", "hit follow", "like and", "link in bio", "subscribe", "comment below", "drop a", "tap the", "share this", "double tap", "turn on notifications"]
-BRAND_NEVER = [("elite diesel", "shop name on Rival content"), ("307", "shop brand on Rival content (if this is the shop number, fine; if the shop, no)"),
-               ("delete", "delete content is banned"), ("rolling coal", "coal content is banned"), ("roll coal", "coal content is banned"),
+# 2026-11-22: Jacob wants the shop associated with the account; "elite diesel" and "307" are no longer flagged.
+BRAND_NEVER = [("delete", "delete content is banned"), ("rolling coal", "coal content is banned"), ("roll coal", "coal content is banned"),
                ("defeat device", "defeat-device content is banned"), ("cp3 conversion", "he disabled the CP4 and runs a FASS; no CP3/DCR story"), ("dcr", "no CP3/DCR story")]
 PRIVATE = [("transmission", "trans builder/pricing stays off public; 'built' is the most you say"), ("4r100", "trans detail is private"), ("e4od", "trans detail is private"), ("torque converter", "trans detail is private")]
 PERSON = [r"\bsend (this|it) to\b", r"\bfor (the|whoever|everyone|anyone|every)\b", r"\btag (the|your|a)\b", r"\bto the (guy|one|owner|tech|kid|man)\b",
