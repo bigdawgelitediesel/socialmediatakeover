@@ -363,6 +363,14 @@ def build_ass(plan, words, lockup, caption_start, out_path):
     if carry:
         if merged: merged[-1] = merged[-1] + carry
         else: merged.append(carry)
+    # no group over four words or 24 characters: split long merges in half
+    split = []
+    for g in merged:
+        while len(g) > 4 or len(" ".join(x[2] for x in g)) > 24:
+            if len(g) < 2: break
+            h = max(1, len(g) // 2); split.append(g[:h]); g = g[h:]
+        split.append(g)
+    merged = split
     def ts(x):
         h = int(x // 3600); m = int(x % 3600 // 60); s = x % 60; return f"{h}:{m:02d}:{s:05.2f}"
     ass = ["[Script Info]", "ScriptType: v4.00+", "PlayResX: 1080", "PlayResY: 1920", "WrapStyle: 2", "", "[V4+ Styles]",
@@ -400,10 +408,10 @@ def cmd_render(args):
            "-pix_fmt", "yuv420p", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-x264-params", "colorprim=bt709:transfer=bt709:colormatrix=bt709:aq-mode=3",
            "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart"]
     pre = "highpass=f=90,afftdn=nf=-28,acompressor=threshold=-18dB:ratio=3:attack=5:release=120"
-    m = subprocess.run(["ffmpeg", "-hide_banner", "-y", "-f", "concat", "-safe", "0", "-i", str(work / "list.txt"), "-vn", "-af", pre + ",loudnorm=I=-14:TP=-1.0:LRA=11:print_format=json", "-f", "null", "-"],
+    m = subprocess.run(["ffmpeg", "-hide_banner", "-y", "-f", "concat", "-safe", "0", "-i", str(work / "list.txt"), "-vn", "-af", pre + ",loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
                        capture_output=True, text=True).stderr
     js = json.loads(m[m.rfind("{"):m.rfind("}") + 1])
-    ln = f"loudnorm=I=-14:TP=-1.0:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true"
+    ln = f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true"
     nocap = out.with_name(out.stem + "_nocap.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(work / "list.txt"), "-af", pre + "," + ln + ",aresample=48000", "-vf", "setsar=1"] + EXP + [str(nocap)], check=True)
     print("nocap ok", flush=True)
