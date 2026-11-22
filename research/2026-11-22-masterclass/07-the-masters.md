@@ -175,3 +175,33 @@ The movement changed the conversation more than it changed measured numbers, bec
 3. **Mariah Marcía, "Think Like An Editor, Part One" (local, reel-references/2026-11-22-Derd9IvoWaj).** Watch it twice: once for the argument, once counting the notebook pages and noticing that there is not one transition. Then write tomorrow's five pad pages before filming.
 
 Fourth if there is time: one Keith Lee review, to see how long he lets the chew hold before he says the number.
+
+## How the cuts-per-minute numbers were made
+
+- **Measured** rows (Ralston, Mariah, Carter, Kearney, Yuh, rust_ridge, Dave's) come from the repo's 1 fps frame sheets and PySceneDetect runs in `research/reel-references/`. Those numbers are exact for the studied reel and typical for the account by the profile reads.
+- **Snippet** rows (Reesa, Lee, Fisher, Afualo, Rife, Cothran, the truckers, Big Jet TV) come from press descriptions of the format ("inside a car with a heavy to-go bag", "front seat of his car", "one camera on a van roof") plus the format's known grammar. They are estimates to within a factor of two and should be replaced the first time one of these reels is pulled with yt-dlp and run through PySceneDetect.
+- **Inferred** rows (Hank Green, Corporate Natalie, Althoff, Giang, Lehto, Nara Smith) had no production source at all this session. They are the weakest numbers in the table and are kept because the brief asked for them and because each illustrates one mechanism (visible thinking, the straight face, the pause, the voice, pure narrative, slow feeling with fast cuts).
+
+## Evidence ledger for the two questions
+
+| Claim | Tier | Where it comes from |
+|---|---|---|
+| Long single takes hold at the scale of millions | Measured | Reesa's part views, Fisher's 6M, Lee's 16M, Big Jet TV's 200K concurrent |
+| The hold comes from change, not stillness | Measured on the studied reels | Ralston's element every 1 to 3 s, Mariah's page every 8 to 10 s, rust_ridge's beat every 10 to 15 s |
+| Instagram does not penalise length and counts seconds as well as percentage | Secondhand platform statement | Mosseri, Feb 2025, quoted by dataslayer and others; primary not fetched |
+| TikTok pays only on videos over one minute | Secondhand platform statement | Creator Rewards coverage, several blogs citing the newsroom |
+| Talking heads outperform cut-heavy sponsor reels on this account | Measured | 14.80 vs 1.36 percent ER on the same reach |
+| Switching to daily talking heads lowers views and raises likes per view at first | Measured, one creator | Jessica Carter's stage medians |
+| Dropping fast cuts raised a named creator's retention | Not found | No before-and-after published anywhere reached this session |
+| "A cut every 1 to 2 seconds" | Folklore | Shortzly, Teleprompter.com, no study cited |
+| "Four seconds with no change triggers the swipe" | Folklore, usable as a working number | Slidy and similar guides |
+| Slow pace can be made with many cuts | Measured by description | Nara Smith's quick cuts under an ASMR voice |
+
+## Open items for the next pass (when the search budget resets)
+
+1. Pull five Jefferson Fisher reels with yt-dlp and run PySceneDetect; the estimate of zero to two cuts should become a number. Same for three Keith Lee reviews and three Clarissa Rankin cab videos.
+2. Fetch the FreightWaves Larry Cothran piece and the Nathan Barry transcript once those hosts are allowed; both are first-person accounts of a one-man daily format and its cost.
+3. Find Mosseri's September 24, 2026 ranking videos on his own account and read what he says about length, if anything.
+4. Look for Rainman Ray, Laura Farms, Matt's Off Road Recovery and one hunting creator on short-form specifically; this pass found only their long-form coverage.
+5. Ask Jacob for a screenshot of Vinh Giang's and Hank Green's current profiles for follower counts; neither surfaced in search.
+6. Re-run question 42 in six months against this account's own data: by then there will be thirty talking heads with skip rates to compare against the thirty reels before them. That is the only before-and-after the library can trust.
