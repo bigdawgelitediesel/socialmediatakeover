@@ -60,3 +60,7 @@ What it would and would not be, so the decision is clean when it comes:
 ## Files
 
 `tiktok-list.txt` (120 rows: id, views, likes, comments, reposts, duration, timestamp, caption), `transcripts/` (ten Whisper transcripts by TikTok id), `sheets/` (1 fps contact sheets of seven TikToks and the Instagram hunter reel). Videos stay local.
+
+## Addendum, 2026-11-22 later: second reference for the parked idea
+
+@tomxsystems (reel-references/2026-11-22-DffhT_iRb6z) shipped a Claude-coded motion graphic by filming it off a laptop screen with a phone. If the garage mini series is ever built, that is the delivery that keeps it inside the real-footage rule: the animation plays on a screen in the shop and the camera films the screen. Still parked until Jacob says go.
