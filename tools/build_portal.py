@@ -76,6 +76,7 @@ POST_CHECK = [
 
 RULES = [
     "Change, not cut (doctrine 2026-11-22): something the viewer cares about changes every five to eight seconds; a cut is the most expensive way to make it. One physical device per talking head, cut only to remove, on a breath. Full text: research/2026-11-22-REEL-EDITOR-DOCTRINE.md.",
+    "The 10K plan (2026-11-23): two engines, the morning send post and the afternoon talking head; profile fixed before Tuesday; replies inside the hour; one peer Collab a week; Trial twins on every talking head if the toggle is there; day-30 checkpoint 1,500 to 2,500, 10K by day 90, run as if 30 were possible. Full text: research/2026-11-23-GROWTH-PLAN-10K.md. Principles, not steps: skill/el-coyote/PRINCIPLES.md.",
     "Community first. The more relatable the better. A stranger with any truck, or no truck, has to see themselves in it before the F600, the 7.3 or the shop matter. They are the backdrop and the credential, not the subject.",
     "No on-screen call to action, no outro, no fade. The share line is caption line 1, written as a person type.",
     "One poster lockup on the hook (LOUDER, MEGANTE or TROPI). Nothing else burned in on the fast tier.",
