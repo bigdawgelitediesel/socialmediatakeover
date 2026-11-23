@@ -1,4 +1,4 @@
-"""The 200 fill-in-the-blank post templates (data/ideas/template-bank.tsv), ten kinds of twenty.
+"""The 280 fill-in-the-blank post templates (data/ideas/template-bank.tsv), ten kinds of twenty.
 
 Source: @edendotso carousel, 2026-11-03, sent by Jacob 2026-11-23 ("add this to your tools box").
 Breakdown: research/reel-references/2026-11-23-edendotso-200-carousel-ideas/BREAKDOWN.md
