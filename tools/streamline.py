@@ -7,6 +7,7 @@ and against the last episodes so nothing looks the same, renders, and lints the 
 
   python -I tools/streamline.py plan      --words words.json --src IN.MOV --job talk [--open-on TEXT] [--end-on TEXT] [--drop TEXT ...] -o plan.json
   python -I tools/streamline.py challenge plan.json [--set "Chief cab"] [--device pad] [--tone relatable]
+  python -I tools/streamline.py still     plan.json -o still.jpg          (first and middle frame with the real conversion; look at them before any long render)
   python -I tools/streamline.py render    plan.json --lockup "find the gratitude" -o post.mp4 [--no-captions] [--fonts research/fonts]
   python -I tools/streamline.py lint      plan.json [--video post.mp4] [--ass post.ass]
   python -I tools/streamline.py ledger    add plan.json --label "..." [--set ...] [--device ...] [--tone ...]
@@ -392,15 +393,49 @@ def ffpath(p) -> str:
     return "'" + str(p).replace("\\", "/").replace(":", "\\:") + "'"
 
 
+def tone_chain(src):
+    """The HDR to BT.709 conversion. npl=203 is the HLG reference white; npl=100 with mobius blew out an iPhone HLG selfie
+    shot in direct sun and Jake took the 2026-11-22 post down for it (research/2026-11-23-LOOK-GUIDE.md section 1)."""
+    trc = (ffprobe(src, "stream=color_transfer") or [""])[0]
+    hdr = "arib-std-b67" in trc or "smpte2084" in trc
+    return ("zscale=t=linear:npl=203,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p," if hdr else "")
+
+
+def frame_stats(video, at):
+    """Mean luma and the share of near-white and near-black pixels of one frame, for the look check."""
+    seek = [] if str(video).lower().endswith((".jpg", ".jpeg", ".png")) else ["-ss", str(at)]
+    raw = subprocess.run(["ffmpeg", "-v", "error"] + seek + ["-i", str(video), "-frames:v", "1", "-vf", "scale=270:480", "-pix_fmt", "gray", "-f", "rawvideo", "-"],
+                         capture_output=True).stdout
+    if not raw: return None
+    n = len(raw); mean = sum(raw) / n
+    white = sum(1 for b in raw if b >= 245) / n; black = sum(1 for b in raw if b <= 10) / n
+    return {"mean": round(mean, 1), "white_pct": round(100 * white, 1), "black_pct": round(100 * black, 1)}
+
+
+def cmd_still(args):
+    """Render the first frame (and the middle one) of the plan with the real conversion, for the look check before any long render."""
+    plan = json.load(open(args.plan, encoding="utf-8")); src = plan["src"]
+    vf = tone_chain(src) + "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1"
+    first = plan["segments"][0]["a"] + 0.4
+    total = sum(s["b"] - s["a"] for s in plan["segments"]); acc = 0.0; mid = None
+    for s in plan["segments"]:
+        if acc + (s["b"] - s["a"]) >= total / 2: mid = s["a"] + (total / 2 - acc); break
+        acc += s["b"] - s["a"]
+    out = Path(args.out)
+    for tag, at in (("first", first), ("middle", mid or first)):
+        o = out.with_name(out.stem + f"_{tag}.jpg")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(at), "-i", src, "-frames:v", "1", "-vf", vf, "-q:v", "2", str(o)], check=True)
+        st = frame_stats(o, 0)
+        verdict = "washed out" if st and (st["white_pct"] > 3 or st["mean"] > 145) else "crushed" if st and (st["black_pct"] > 40 or st["mean"] < 50) else "ok"
+        print(f"{tag}: {o}  mean luma {st['mean'] if st else '?'}  white {st['white_pct'] if st else '?'}%  black {st['black_pct'] if st else '?'}%  -> {verdict}")
+    print("open the first frame at full size: skin natural, blacks black, nothing blown. Send it to Jacob before any render over two minutes (look guide 9.7).")
+
+
 def cmd_render(args):
     plan = json.load(open(args.plan, encoding="utf-8"))
     src = plan["src"]; words = load_words(plan["words"])
     out = Path(args.out); work = out.parent / (out.stem + "_work"); work.mkdir(parents=True, exist_ok=True)
-    trc = (ffprobe(src, "stream=color_transfer") or [""])[0]
-    hdr = "arib-std-b67" in trc or "smpte2084" in trc
-    # npl=203 is the HLG reference white. npl=100 with mobius blew out iPhone HLG shot in direct sun (Jake took the 2026-11-22 post down for it).
-    tone = ("zscale=t=linear:npl=203,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p," if hdr else "")
-    vf = tone + "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1"
+    vf = tone_chain(src) + "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1"
     ENC = ["-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "14", "-pix_fmt", "yuv420p", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
            "-x264-params", "colorprim=bt709:transfer=bt709:colormatrix=bt709"]
     for i, s in enumerate(plan["segments"]):
@@ -431,7 +466,7 @@ def cmd_render(args):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(nocap), "-vf", f"ass={ffpath(ass)}:fontsdir={ffpath(args.fonts)}", "-c:a", "copy"] + EXP + [str(out)], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-vf", "fps=1,scale=240:-1,tile=8x6", "-frames:v", "1", str(out.with_name(out.stem + "_qa.jpg"))], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.0", "-i", str(out), "-frames:v", "1", str(out.with_name(out.stem + "_cover.jpg"))], check=True)
-    plan["render"] = {"out": str(out), "nocap": str(nocap), "ass": str(ass), "caption_groups": n, "lockup": args.lockup}
+    plan["render"] = {"out": os.path.abspath(out), "nocap": os.path.abspath(nocap), "ass": os.path.abspath(ass), "caption_groups": n, "lockup": args.lockup}
     Path(args.plan).write_text(json.dumps(plan, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"rendered {out} ({n} caption groups); qa sheet and cover beside it. Next: lint, then ledger add")
 
@@ -472,6 +507,14 @@ def cmd_lint(args):
             js = json.loads(m[m.rfind("{"):m.rfind("}") + 1]); I = float(js["input_i"]); tp = float(js["input_tp"])
             chk(-16.5 <= I <= -13.0, f"loudness {I} LUFS (band -16.5 to -13)"); chk(tp <= -0.6, f"true peak {tp} dBTP (limit -0.6)")
         except Exception: bad.append("loudness could not be measured")
+        # the look check (research/2026-11-23-LOOK-GUIDE.md section 1 and 9): first frame and middle frame, picture before text
+        for tag, at in (("first frame", 0.4), ("middle frame", dur / 2 if dur else 1.0)):
+            st = frame_stats(video, at)
+            if not st: bad.append(f"{tag}: could not be read"); continue
+            # calibrated on the gratitude footage: the taken-down conversion read mean 162, the corrected one 98 (look guide section 1)
+            washed = st["white_pct"] > 3 or st["mean"] > 145; crushed = st["black_pct"] > 40 or st["mean"] < 50
+            chk(not washed and not crushed, f"{tag}: mean luma {st['mean']}, {st['white_pct']}% near white, {st['black_pct']}% near black" + (" (washed out: fix the conversion before any text goes on)" if washed else " (crushed)" if crushed else ""))
+        ok.append("now open the cover frame at full size yourself: skin natural, blacks black, nothing blown; rules do not judge the picture")
     for l in ok: print("  ok  ", l)
     for l in bad: print("  FIX ", l)
     print(f"lint: {len(ok)} ok, {len(bad)} to fix")
@@ -509,6 +552,7 @@ def main():
     p.add_argument("--target", type=float, help="aim at this many seconds (default: the top of the band)")
     p.add_argument("-o", "--out", default="plan.json"); p.set_defaults(fn=cmd_plan)
     c = sub.add_parser("challenge"); c.add_argument("plan"); c.add_argument("--set"); c.add_argument("--device"); c.add_argument("--lockup-style"); c.add_argument("--tone"); c.add_argument("--camera"); c.add_argument("--payoff"); c.add_argument("--format"); c.set_defaults(fn=cmd_challenge)
+    st = sub.add_parser("still"); st.add_argument("plan"); st.add_argument("-o", "--out", default="still.jpg"); st.set_defaults(fn=cmd_still)
     r = sub.add_parser("render"); r.add_argument("plan"); r.add_argument("-o", "--out", required=True); r.add_argument("--lockup", default=""); r.add_argument("--no-captions", action="store_true"); r.add_argument("--fonts", default=str(FONTS)); r.set_defaults(fn=cmd_render)
     l = sub.add_parser("lint"); l.add_argument("plan"); l.add_argument("--video"); l.add_argument("--ass"); l.set_defaults(fn=cmd_lint)
     g = sub.add_parser("ledger"); g.add_argument("action", choices=["add", "show"]); g.add_argument("plan", nargs="?"); g.add_argument("--label", default=""); g.add_argument("--set"); g.add_argument("--device"); g.add_argument("--lockup-style"); g.add_argument("--tone"); g.add_argument("--no-captions", action="store_true"); g.set_defaults(fn=cmd_ledger)

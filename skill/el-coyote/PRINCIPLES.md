@@ -30,7 +30,7 @@ Why this file exists. Remy (@aiwithremy, reel DeeroIoRpnr): "all Claude takes fr
 ## 6. The human reads as human
 - Thinking: the tells of a template are uniformity (same framing, same cadence, same caption flash, same hook shape) and the absence of accident (no breath, no dog, no stumble, no weather). The receipts are Mariah's 50K-like one-shot and this account's 14.8 versus 1.4 percent.
 - Step-copy: "keep it raw" as a style: fake stumbles, a deliberately bad frame, imperfection as a costume.
-- Challenge: what in this reel could only have happened to Jacob on this day in this place? What is different from yesterday's episode (one axis, never all)?
+- Challenge: what in this reel could only have happened to Jacob on this day in this place? What is different from yesterday's episode (one axis, never all)? And the picture: open a full-size frame from the first shot and the middle; skin natural, blacks black, nothing blown (the look guide, research/2026-11-23-LOOK-GUIDE.md). A cut that passes every principle and ships washed out still gets taken down; it did on 2026-11-22.
 
 ## 7. The credential before the mistake
 - Thinking: a blunder makes the competent more likeable and the unproven less; the auto audience's prior is that the trade hides cost. So the proof comes first, then the failure, then the downside said out loud.
