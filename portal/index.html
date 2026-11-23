@@ -23,7 +23,7 @@ header{padding:20px 0 8px}
 h1{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:1px;font-size:38px;line-height:1;margin:0}
 h1 span{color:var(--tan)}
 .sub{color:var(--muted);font-size:13px;margin-top:6px}
-.strip{display:flex;gap:10px;margin:14px 0 6px;flex-wrap:wrap}
+.strip{display:none}
 .pill{background:var(--ink);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13px;color:var(--cream)}
 .pill b{color:var(--yellow);font-weight:600}
 nav.tabs{position:fixed;left:0;right:0;bottom:0;background:rgba(11,11,12,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);display:flex;justify-content:space-around;padding:8px 6px calc(8px + env(safe-area-inset-bottom));z-index:9}
@@ -107,12 +107,89 @@ summary .shape{margin-left:8px}
 #gate input:focus{border-color:var(--tan)}
 #gate .err{color:var(--hi);font-size:13px;height:18px;margin-top:10px}
 #gate button{margin-top:12px;width:100%;background:var(--ox);color:#fff;border-radius:14px;padding:14px;font-weight:600;font-size:16px}
+/* remaster 2026-11-23: banner, foldable cards, month grid, queue, to do, guide */
+.stage{display:flex;align-items:center;gap:12px;background:var(--ink);border:1px solid var(--line);border-top:0;padding:12px 16px;border-radius:0 0 16px 16px}
+.stage .light{width:14px;height:14px;border-radius:50%;background:#4ad66d;box-shadow:0 0 12px #4ad66d;flex:none}
+.stage b{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:1.5px;font-size:17px;text-transform:uppercase}
+.stage small{display:block;color:var(--muted);font-size:12px;line-height:1.3}
+.stage .sp{margin-left:auto;font-size:12px;border:1px solid var(--tan);color:var(--tan);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.card.fold>.fhead{display:flex;align-items:flex-start;gap:12px;cursor:pointer}
+.card.fold .fbody{display:none}
+.card.fold.open .fbody{display:block}
+.card.trialc{border-left:4px solid #9ad3ff}
+.num{flex:none;width:46px;height:46px;border-radius:12px;display:grid;place-items:center;font-family:Anton,Impact,sans-serif;font-size:14px;letter-spacing:.5px;background:var(--tan);color:#111}
+.num.pm{background:var(--pm);color:#fff}.num.trial{background:#9ad3ff;color:#111;font-size:12px}
+.s-shot .num{outline:2px solid #9ad3ff;outline-offset:2px}.s-drive .num,.s-cut .num{outline:2px solid var(--yellow);outline-offset:2px}.s-posted .num{background:var(--green);color:#fff}
+.fhead .ft{flex:1;min-width:0}
+.fhead .chev{color:var(--muted);margin-top:10px;transition:transform .2s}
+.card.fold.open .chev{transform:rotate(180deg)}
+.stbadge{display:inline-block;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;border-radius:6px;padding:2px 8px;border:1px solid var(--line);color:var(--muted)}
+.stbadge.shot{color:#9ad3ff;border-color:#9ad3ff}.stbadge.drive,.stbadge.cut{color:var(--yellow);border-color:var(--yellow)}.stbadge.posted{color:#7fd09a;border-color:#7fd09a}
+.btn.go{background:var(--tan);border-color:var(--tan);color:#111;font-weight:600;flex:1;min-width:150px;padding:12px}
+.cal{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 10px 10px;margin:10px 0}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.cal-head b{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:2px;font-size:18px;text-transform:uppercase}
+.cal-head button{border:1px solid var(--line);background:var(--ink);border-radius:10px;width:38px;height:38px;font-size:18px}
+.dow{display:grid;grid-template-columns:repeat(7,1fr);font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:4px}
+.mgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+.mday{min-height:76px;border-radius:9px;background:var(--ink);padding:4px 3px;display:flex;flex-direction:column;gap:2px}
+.mday[data-d]{cursor:pointer}
+.mday.out{opacity:.25}.mday.today{outline:2px solid var(--yellow);outline-offset:-2px}.mday.sel{outline:2px solid var(--tan);outline-offset:-2px}
+.mday .dn{font-size:12px;font-weight:600;color:var(--muted);text-align:center;line-height:1.1}
+.chip{border-radius:5px;font-size:10px;font-weight:600;padding:2px 0;text-align:center;line-height:1.2;letter-spacing:.5px;background:var(--tan);color:#111}
+.chip.pm{background:var(--pm);color:#fff}.chip.trial{background:#9ad3ff}
+.chip.shot{box-shadow:inset 0 0 0 2px #fff}.chip.drive,.chip.cut{box-shadow:inset 0 0 0 2px var(--yellow)}
+.chip.posted{background:transparent;color:#7fd09a;box-shadow:inset 0 0 0 1px #7fd09a}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.qrow{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.qrow:last-child{border-bottom:0}
+.qrow .num{width:38px;height:38px;font-size:11px;border-radius:9px}
+.qrow .qt{flex:1;min-width:0;font-size:14px;line-height:1.3}
+.qrow .qt small{display:block;color:var(--muted);font-size:12px}
+.todo{list-style:none;padding:0;margin:0}
+.todo li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
+.todo li:last-child{border-bottom:0}
+.todo input[type=checkbox]{margin-top:4px;accent-color:var(--yellow);width:18px;height:18px;flex:none}
+.todo li.ok span{color:var(--muted);text-decoration:line-through}
+.todo span{flex:1}.todo .x{color:var(--muted);font-size:18px;line-height:1;padding:0 4px}
+.addrow{display:flex;gap:8px;margin-top:10px}
+.addrow input{flex:1;min-width:0;background:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--cream);font:inherit}
+.g-loop{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0 0}
+.g-loop span{background:var(--ink);border:1px solid var(--line);border-radius:999px;padding:5px 11px;font-size:13px}
+.g-loop span b{color:var(--yellow);font-weight:600;margin-right:5px}
+.g-loop i{color:var(--tan);font-style:normal}
+.gnum{font-family:Anton,Impact,sans-serif;font-size:14px;letter-spacing:2px;color:#111;background:var(--tan);border-radius:8px;padding:2px 9px;margin-right:8px}
+.ghead{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:22px;letter-spacing:.5px;line-height:1.2;margin:0 0 6px}
+.gline{color:var(--yellow);font-size:14px;margin:0 0 6px}
+.gp{font-size:14px;color:#d8d2c4;margin:6px 0}
+.g5{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px;margin-top:10px}
+.g5 div{background:var(--ink);border:1px solid var(--line);border-radius:12px;padding:10px}
+.g5 b{display:block;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--tan)}
+.g5 small{display:block;color:var(--muted);font-size:12px;margin:2px 0 6px}
+.g5 em{font-style:normal;font-size:13px;color:#d8d2c4}
+.ladder{list-style:none;margin:8px 0 0;padding:0}
+.ladder li{background:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:4px auto;font-size:13px;color:#d8d2c4}
+.ladder li b{color:var(--tan);letter-spacing:1px;text-transform:uppercase;font-size:12px;display:block}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.two>div{background:var(--ink);border:1px solid var(--line);border-radius:12px;padding:12px;font-size:14px;color:#d8d2c4}
+.two .big{font-family:Anton,Impact,sans-serif;font-size:34px;line-height:1;color:var(--yellow)}
+.two b{display:block;letter-spacing:1.5px;text-transform:uppercase;font-size:12px;color:var(--tan);margin:4px 0}
+.nope{list-style:none;padding:0;margin:6px 0 0}
+.nope li{padding:6px 0 6px 24px;position:relative;font-size:14px;border-bottom:1px solid var(--line);color:#d8d2c4}
+.nope li:last-child{border-bottom:0}
+.nope li::before{content:"×";position:absolute;left:4px;top:3px;color:var(--hi);font-size:18px;line-height:1.2}
+.ours{margin-top:10px;border-left:3px solid var(--tan);padding:4px 0 4px 12px;font-size:13px;color:#d8d2c4}
+.ours b{color:var(--tan);font-weight:600}
+@media (max-width:520px){.two{grid-template-columns:1fr}.mday{min-height:66px}nav.tabs button{font-size:11px}}
 @media (min-width:720px){h1{font-size:48px}.title{font-size:30px}}
+
 </style>
 </head>
 <body>
 <div id="gate"><form class="box" autocomplete="off"><h1>EL COYOTE <span>portal</span></h1><p>Enter the access code</p><input id="code" inputmode="numeric" pattern="[0-9]*" maxlength="6" autofocus aria-label="access code"><div class="err" id="gerr"></div><button type="submit">Open</button></form></div>
 <div class="wrap">
+<div class="stage" id="stage"></div>
 <header>
   <h1>EL COYOTE <span>portal</span></h1>
   <div class="sub">What to film. When to post. @elcoyotediesel, two talking heads a day.</div>
@@ -121,6 +198,7 @@ summary .shape{margin-left:8px}
 
 <section class="view on" id="v-today"></section>
 <section class="view" id="v-cal"></section>
+<section class="view" id="v-guide"></section>
 <section class="view" id="v-ideas"></section>
 <section class="view" id="v-shoot"></section>
 <section class="view" id="v-numbers"></section>
@@ -130,6 +208,7 @@ summary .shape{margin-left:8px}
 <nav class="tabs">
   <button data-v="today" class="on">Today</button>
   <button data-v="cal">Calendar</button>
+  <button data-v="guide">Guide</button>
   <button data-v="ideas">Ideas</button>
   <button data-v="shoot">Shoot</button>
   <button data-v="numbers">Numbers</button>
@@ -165,7 +244,21 @@ let state = {};
 try { state = JSON.parse(localStorage.getItem('coyote-portal')||'{}'); } catch(e){ state = {}; }
 const save = ()=>{ try{ localStorage.setItem('coyote-portal', JSON.stringify(state)); }catch(e){} };
 const key = (r)=>`${r.date}-${r.slot}`;
-const STATUS = ['not shot','shot','cut','posted'];
+const STATUS = ['not shot','shot','in drive','cut','posted'];
+const ST_LABEL = {'not shot':'To film','shot':'Filmed','in drive':'In Drive, needs a cut','cut':'Cut, ready to post','posted':'Posted'};
+const ST_NEXT = {'not shot':['shot','Filmed'],'shot':['in drive','Dropped in Drive'],'in drive':['cut','Cut, ready'],'cut':['posted','Posted']};
+const ST_BACK = {'shot':'not shot','in drive':'shot','cut':'in drive','posted':'cut'};
+const stCls = (s)=>({'not shot':'','shot':'shot','in drive':'drive','cut':'cut','posted':'posted'}[s]||'');
+const stOf = (k)=>STATUS.includes(state[k]) ? state[k] : 'not shot';
+state.open = state.open || {};
+// trial reels: one a day at lunch. A date with no planned row is a twin of that day's PM episode.
+const TR = {}; (D.trials||[]).forEach(t=>{ TR[t.date]=t; });
+function trialFor(iso){
+  if(TR[iso]) return TR[iso];
+  const pm = D.calendar.find(r=>r.date===iso && r.slot==='PM'); if(!pm) return null;
+  const i = D.ideas[pm.idea_n] || {title:pm.idea};
+  return {date:iso, type:'TWIN', title:'Trial twin: '+i.title, what:'The same PM episode cut with a different first line and first shot. Post it as a trial at lunch; the open with the lower skip rate is the one to keep using.', length:'same as the episode', source:'the same sit, one extra open'};
+}
 
 // ---- header strip
 const dayN = daysBetween(D.plan_first_date, todayISO) + 1;
@@ -174,7 +267,8 @@ $('#strip').innerHTML = `
   <div class="pill">Day <b>${dayN<1?'0':dayN}</b> of 30</div>
   <div class="pill"><b>2</b> talking heads a day</div>
   <div class="pill"><b>${toSema}</b> days to SEMA</div>`;
-$('#foot').textContent = `Built ${D.generated_at} MT from the repo. Status marks are saved on this device only.`;
+$('#stage').innerHTML = `<span class="light"></span><div><b>${dayN<1?'Starts '+fmtDay(D.plan_first_date):(dayN>30?'30 days done':'Day '+dayN+' of 30')}</b><small>${esc(D.plan_name||'')} · trial reel at lunch · ranking ${fmtDay(D.ranking_date)}</small></div><span class="sp">${toSema} days to SEMA</span>`;
+$('#foot').textContent = `Built ${D.generated_at} MT from the repo. Status marks and to-dos are saved on this device only.`;
 
 // ---- tabs
 document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{
@@ -194,19 +288,23 @@ function thBlock(i, opts){
 }
 function slotCard(r, opts={}){
   const i = D.ideas[r.idea_n] || {title:r.idea, body:'', cell:r.cell, shape:'story', length:'', caption_line1:''};
-  const st = state[key(r)] || 'not shot';
+  const st = stOf(key(r));
   const sh = D.shapes[i.shape];
   const job = (D.jobs||{})[r.slot];
   const isTH = i.shape==='talk' && i.open;
   const len = isTH ? (i.length_note || (job?job.length:sh.length)) : sh.length;
-  return `<div class="card ${r.slot.toLowerCase()} ${st==='posted'?'done':''}" data-k="${key(r)}">
-    <div class="slot"><span><b>${r.slot}</b> ${D.slots[r.slot]}${job&&isTH?` · the <b>${job.job}</b> episode`:''}</span><span>${fmtDay(r.date)} · day ${r.day}</span></div>
-    <div class="title">${esc(i.title)}</div>
-    <div class="meta">${i.lane?`<span class="lane ${i.lane.toLowerCase()}">${esc(i.lane)}</span> &nbsp;`:''}<span class="shape ${i.shape}">${sh.name}</span> &nbsp;<span>${esc(len)}</span> &nbsp;· ${epLabel(r.idea_n)}</div>
-    ${isTH ? thBlock(i, opts) : (opts.full ? `<div class="body">${esc(i.body)}</div>` : (i.frame1?`<div class="body">${esc(i.frame1)}</div>`:''))}
-    ${i.caption_line1?`<div class="cap"><small>Caption line 1</small>${esc(i.caption_line1)}</div>`:''}
-    <div class="row">${STATUS.map(s=>`<button class="btn ${s===st?'on':''}" data-st="${s}">${s}</button>`).join('')}
-      ${opts.full?'':`<button class="btn ghost" data-open="${r.idea_n}">full brief</button>`}</div>
+  const k = key(r); const open = (k in state.open) ? !!state.open[k] : (!!opts.open && st!=="posted"); const nx = ST_NEXT[st], bk = ST_BACK[st];
+  return `<div class="card fold ${r.slot.toLowerCase()} s-${stCls(st)} ${open?'open':''} ${st==='posted'?'done':''}" data-k="${k}" id="card-${k}">
+    <div class="fhead" data-fold="${k}"><div class="num ${r.slot.toLowerCase()}">${r.slot}</div>
+      <div class="ft"><div class="slot"><span>${D.slots[r.slot]}${job&&isTH?` · the <b>${job.job}</b> episode`:''}</span><span>${fmtDay(r.date)} · day ${r.day}</span></div>
+      <div class="title">${esc(i.title)}</div>
+      <div class="meta">${i.lane?`<span class="lane ${i.lane.toLowerCase()}">${esc(i.lane)}</span> &nbsp;`:''}<span class="shape ${i.shape}">${sh.name}</span> &nbsp;<span>${esc(len)}</span> &nbsp;<span class="stbadge ${stCls(st)}">${ST_LABEL[st]}</span></div></div>
+      <div class="chev">▾</div></div>
+    <div class="fbody">
+    ${isTH ? thBlock(i, {full:true}) : `<div class="body">${esc(i.body||i.frame1||'')}</div>`}
+    ${i.caption_line1?`<div class="cap"><small>Caption line 1</small><span id="cap-${k}">${esc(i.caption_line1)}</span></div>`:''}
+    </div>
+    <div class="row">${nx?`<button class="btn go" data-st="${nx[0]}">${nx[1]} →</button>`:''}${bk?`<button class="btn" data-st="${bk}">↩ back</button>`:''}${i.caption_line1?`<button class="btn ghost" data-copy="${k}">copy caption</button>`:''}<button class="btn ghost" data-open="${r.idea_n}">in Ideas</button></div>
   </div>`;
 }
 function filmCard(rows, forISO){
@@ -216,7 +314,22 @@ function filmCard(rows, forISO){
     order.map(r=>{ const i=D.ideas[r.idea_n]||{title:r.idea}; return `<li><div class="t">${r.slot} · ${esc(i.title)}</div><div class="b"><b>Bring:</b> ${esc(i.device||r.device||'')} · <b>where:</b> ${esc(i.where||r.where||'')}${i.length_note?` · ${esc(i.length_note)}`:''}</div>${i.open?`<div class="b"><b>Open on:</b> ${esc(i.open)}</div>`:''}</li>`; }).join('') +
     `</ul></div>`;
 }
+function trialCard(iso, opts={}){
+  const t = trialFor(iso); if(!t) return '';
+  const k = iso+'-TRIAL'; const st = stOf(k); const open = (k in state.open) ? !!state.open[k] : !!opts.open; const nx = ST_NEXT[st], bk = ST_BACK[st];
+  return `<div class="card fold trialc s-${stCls(st)} ${open?'open':''} ${st==='posted'?'done':''}" data-k="${k}" id="card-${k}">
+    <div class="fhead" data-fold="${k}"><div class="num trial">TRIAL</div>
+      <div class="ft"><div class="slot"><span>Lunch, 12 to 1 MT · strangers only</span><span>${fmtDay(iso)}</span></div>
+      <div class="title">${esc(t.title)}</div>
+      <div class="meta"><span class="shape">${esc(t.type)}</span> &nbsp;<span>${esc(t.length)}</span> &nbsp;<span class="stbadge ${stCls(st)}">${ST_LABEL[st]}</span></div></div>
+      <div class="chev">▾</div></div>
+    <div class="fbody"><div class="th"><div class="kv"><small>What it is</small>${esc(t.what)}</div><div class="kv"><small>Footage</small>${esc(t.source)}</div><div class="kv"><small>When you post it</small>Trial toggle ON, automatic share OFF. Read it tomorrow at lunch: share to everyone at double your usual trial views or 2 percent sends, otherwise leave it.</div></div></div>
+    <div class="row">${nx?`<button class="btn go" data-st="${nx[0]}">${nx[1]} →</button>`:''}${bk?`<button class="btn" data-st="${bk}">↩ back</button>`:''}</div>
+  </div>`;
+}
 function wireCards(root){
+  root.querySelectorAll('[data-fold]').forEach(h=>h.onclick=()=>{ const k=h.dataset.fold; const c=h.closest('.card'); state.open[k]=!c.classList.contains('open'); save(); c.classList.toggle('open', state.open[k]); });
+  root.querySelectorAll('[data-copy]').forEach(b=>b.onclick=async()=>{ const el=document.getElementById('cap-'+b.dataset.copy); try{ await navigator.clipboard.writeText(el.textContent); b.textContent='copied'; }catch(e){ b.textContent='press and hold the text'; } });
   root.querySelectorAll('[data-st]').forEach(b=>b.onclick=()=>{
     const k=b.closest('.card').dataset.k; state[k]=b.dataset.st; save(); render();
   });
@@ -241,8 +354,10 @@ function renderToday(){
   } else if(!rows.length){
     h += `<div class="card"><div class="title">The 30 days are done</div><div class="body">Rank the four shapes (Funny AM, utility Trust AM, story Trust PM, Relatable PM) by their own grade. January is five a week: PM every weekday, AM on the two days the week-4 data says send. playbook/13 section 6.</div></div>`;
   } else {
-    h += `<h2>Post today</h2>` + rows.map(r=>slotCard(r)).join('');
+    const am = rows.filter(r=>r.slot==='AM'), pm = rows.filter(r=>r.slot!=='AM');
+    h += `<h2>Post today</h2>` + am.map(r=>slotCard(r,{open:true})).join('') + trialCard(todayISO) + pm.map(r=>slotCard(r,{open:true})).join('');
   }
+  h += renderQueue() + renderTodos();
   if(film.length){ h += `<h2>Film tonight</h2>` + filmCard(film, filmISO); }
   if(due.length){
     h += `<h2>Reads due</h2><div class="card">` + due.map(p=>{
@@ -252,7 +367,28 @@ function renderToday(){
   }
   h += `<h2>Before you post</h2><div class="card"><ul class="check" data-cl="post">` + D.post_checklist.map((t,i)=>`<li class="${state['cl-post-'+i]?'ok':''}"><input type="checkbox" data-i="${i}" ${state['cl-post-'+i]?'checked':''}><span>${esc(t)}</span></li>`).join('') + `</ul><div class="row"><button class="btn ghost" data-reset="post">reset for next post</button></div></div>`;
   if(next.length){ h += `<h2>Coming up</h2>` + next.map(r=>slotCard(r)).join(''); }
-  const v=$('#v-today'); v.innerHTML=h; wireCards(v); wireChecks(v,'post');
+  const v=$('#v-today'); v.innerHTML=h; wireCards(v); wireChecks(v,'post'); wireToday(v);
+}
+function renderQueue(){
+  const items = [];
+  D.calendar.forEach(r=>{ const st=stOf(key(r)); if(st==='shot'||st==='in drive'||st==='cut'){ const i=D.ideas[r.idea_n]||{title:r.idea}; items.push({k:key(r), slot:r.slot, cls:r.slot.toLowerCase(), title:i.title, date:r.date, st}); } });
+  Object.keys(state).filter(k=>k.endsWith('-TRIAL')).forEach(k=>{ const st=stOf(k); if(st==='shot'||st==='in drive'||st==='cut'){ const iso=k.slice(0,10); const t=trialFor(iso); if(t) items.push({k, slot:'TRIAL', cls:'trial', title:t.title, date:iso, st}); } });
+  const order = {'cut':0,'in drive':1,'shot':2};
+  items.sort((a,b)=>order[a.st]-order[b.st] || a.date.localeCompare(b.date));
+  let h = `<h2>Queue</h2>`;
+  if(!items.length) return h + `<div class="card"><div class="empty" style="padding:0">Nothing waiting. Tap Filmed on a card and it sits here until it is posted.</div></div>`;
+  return h + `<div class="card">` + items.map(x=>`<div class="qrow s-${stCls(x.st)}" data-k="${x.k}"><div class="num ${x.cls}">${x.slot}</div><div class="qt">${esc(x.title)}<small>${fmtDay(x.date)} · ${ST_LABEL[x.st]}</small></div><button class="btn go" style="flex:none;min-width:0;padding:8px 12px" data-qst="${ST_NEXT[x.st][0]}">${ST_NEXT[x.st][1]}</button></div>`).join('') + `</div>`;
+}
+function renderTodos(){
+  if(!Array.isArray(state.todos)){ state.todos = [{t:'Check the share screen for the Trial toggle',d:false},{t:'Call Kill Devil Diesel (252) 725-1222, ask for Jared, say Vinny sent you',d:false},{t:'Reply owed: Dennis at Strictly Diesel',d:false}]; save(); }
+  const open = state.todos.filter(x=>!x.d).length;
+  return `<h2>To do · ${open} open</h2><div class="card"><ul class="todo">` + (state.todos.map((x,i)=>`<li class="${x.d?'ok':''}"><input type="checkbox" data-todo="${i}" ${x.d?'checked':''}><span>${esc(x.t)}</span><button class="x" data-deltodo="${i}" title="remove">×</button></li>`).join('') || '<li><span class="tiny">Nothing on the list.</span></li>') + `</ul><form class="addrow" id="todoForm"><input name="t" placeholder="Add a to do" autocomplete="off"><button class="btn go" style="flex:none;min-width:0" type="submit">Add</button></form></div>`;
+}
+function wireToday(root){
+  root.querySelectorAll('[data-qst]').forEach(b=>b.onclick=()=>{ state[b.closest('.qrow').dataset.k]=b.dataset.qst; save(); render(); });
+  root.querySelectorAll('[data-todo]').forEach(c=>c.onchange=()=>{ state.todos[+c.dataset.todo].d=c.checked; save(); render(); });
+  root.querySelectorAll('[data-deltodo]').forEach(b=>b.onclick=()=>{ state.todos.splice(+b.dataset.deltodo,1); save(); render(); });
+  const fm=root.querySelector('#todoForm'); if(fm) fm.onsubmit=(e)=>{ e.preventDefault(); const t=fm.t.value.trim(); if(t){ state.todos.push({t,d:false}); save(); render(); } };
 }
 function wireChecks(root,name){
   root.querySelectorAll(`[data-cl="${name}"] input`).forEach(c=>c.onchange=()=>{ state['cl-'+name+'-'+c.dataset.i]=c.checked; save(); render(); });
@@ -260,26 +396,155 @@ function wireChecks(root,name){
 }
 
 // ---- CALENDAR
+let calM = null, calSel = null;
 function renderCal(){
   const byDate = {};
   D.calendar.forEach(r=>{ (byDate[r.date]=byDate[r.date]||[]).push(r); });
   const dates = Object.keys(byDate).sort();
-  let h = `<h2>30 days, two talking heads a day</h2><div class="tiny">AM = the send episode (funny or a list, 20 to 45 s, graded on sends). PM = the hold episode (story, trust, check-in, 40 to 60 s, graded on watch share and likes). Tap a day for the briefs. Day 15 (${fmtDay(D.ranking_date)}) ranks the four shapes.</div><div class="days">`;
-  h += dates.map(d=>{
-    const rows=byDate[d];
-    const cls = d===todayISO?'today':(d<todayISO?'past':'');
-    return `<div class="day ${cls}" data-d="${d}"><div class="d"><b>${fmtDay(d)}</b> · day ${rows[0].day}</div>` +
-      rows.map(r=>{ const i=D.ideas[r.idea_n]||{title:r.idea}; const st=state[key(r)]||''; return `<div class="i"><em class="${r.slot.toLowerCase()}">${r.slot}</em> ${esc(i.title)} ${st&&st!=='not shot'?`<span class="st ${st}">${st}</span>`:''}</div>`; }).join('') + `</div>`;
-  }).join('') + `</div>`;
+  if(!calM){ const base = (todayISO>=D.plan_first_date && todayISO<=D.plan_last_date) ? todayISO : D.plan_first_date; calM = {y:+base.slice(0,4), m:+base.slice(5,7)-1}; }
+  const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const first = new Date(calM.y, calM.m, 1); const off = (first.getDay()+6)%7; let cells='';
+  const isoOf = (dt)=>dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0');
+  for(let n=0;n<42;n++){
+    const dt = new Date(calM.y, calM.m, 1-off+n); const d = isoOf(dt); const rows = (byDate[d]||[]).slice().sort((a,b)=>a.slot.localeCompare(b.slot)); const out = dt.getMonth()!==calM.m;
+    const chips = rows.map(r=>`<div class="chip ${r.slot.toLowerCase()} ${stCls(stOf(key(r)))}">${r.slot}</div>`);
+    if(rows.length && trialFor(d)) chips.splice(1,0,`<div class="chip trial ${stCls(stOf(d+'-TRIAL'))}">TRIAL</div>`);
+    cells += `<div class="mday ${out?'out':''} ${d===todayISO?'today':''} ${d===calSel?'sel':''}" ${rows.length&&!out?`data-d="${d}"`:''}><div class="dn">${dt.getDate()}</div>${chips.join('')}</div>`;
+    if(n>=34 && (dt.getDay()+6)%7===6) break;
+  }
+  let h = `<h2>30 days, two talking heads a day</h2><div class="tiny">AM = the send episode (20 to 45 s, graded on sends). TRIAL = strangers only, at lunch. PM = the hold episode (40 to 60 s, graded on watch share and likes). Tap a day for the briefs. Day 15 (${fmtDay(D.ranking_date)}) ranks the four shapes.</div>
+    <div class="cal"><div class="cal-head"><button data-calnav="-1">‹</button><b>${MONTHS[calM.m]} ${calM.y}</b><button data-calnav="1">›</button></div>
+    <div class="dow"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div><div class="mgrid">${cells}</div>
+    <div class="legend"><span><i style="background:var(--tan)"></i>AM</span><span><i style="background:#9ad3ff"></i>trial</span><span><i style="background:var(--pm)"></i>PM</span><span><i style="box-shadow:inset 0 0 0 2px var(--yellow)"></i>filmed, waiting</span><span><i style="box-shadow:inset 0 0 0 1px #7fd09a"></i>posted</span></div></div>
+    <div id="cal-detail"></div>`;
   h += `<h2>Day 15 and the spares</h2><div class="card"><div class="body">On ${fmtDay(D.ranking_date)} rank the four shapes by their own grade: Funny AM and utility Trust AM on sends per reach and skip, story Trust PM and Relatable PM on watch share and likes per reach. The bottom shape's remaining slots are swapped for spares in the top shape; the People episodes and the three Rival check-ins stay. If a day breaks, the PM goes out and the AM is skipped, never the reverse. The six spares cover a missed day or the swap:</div><ol class="steps">${(D.spares||[]).map(n=>{ const i=D.ideas[n]; return i?`<li><a href="#" data-open="${n}">${esc(i.title)}</a> <span class="tiny">${esc(i.lane||'')} · ${esc(i.length_note||'')}</span></li>`:''; }).join('')}</ol></div>`;
-  h += `<div id="cal-detail"></div>`;
   const v=$('#v-cal'); v.innerHTML=h;
+  v.querySelectorAll('[data-calnav]').forEach(b=>b.onclick=()=>{ calM.m += +b.dataset.calnav; if(calM.m<0){calM.m=11;calM.y--;} if(calM.m>11){calM.m=0;calM.y++;} renderCal(); });
+  const showDay = (d, scroll)=>{ const det=$('#cal-detail'); if(!byDate[d]) return; const rs=byDate[d]; const am=rs.filter(r=>r.slot==='AM'), pm=rs.filter(r=>r.slot!=='AM');
+    det.innerHTML = `<h2>${fmtDay(d)}</h2>` + am.map(r=>slotCard(r,{open:true})).join('') + trialCard(d,{open:true}) + pm.map(r=>slotCard(r,{open:true})).join('');
+    wireCards(det); if(scroll) det.scrollIntoView({behavior:'smooth',block:'start'}); };
+  v.querySelectorAll('.mday[data-d]').forEach(el=>el.onclick=()=>{ calSel=el.dataset.d; renderCal(); showDay(calSel,true); });
+  if(calSel) showDay(calSel,false);
   v.querySelectorAll('[data-open]').forEach(b=>b.onclick=(e)=>{ e.preventDefault(); openIdea(b.dataset.open); });
-  v.querySelectorAll('.day').forEach(el=>el.onclick=()=>{
-    const d=el.dataset.d; const det=$('#cal-detail');
-    det.innerHTML = `<h2>${fmtDay(d)}</h2>` + byDate[d].map(r=>slotCard(r,{full:true})).join('');
-    wireCards(det); det.scrollIntoView({behavior:'smooth',block:'start'});
-  });
+
+}
+
+// ---- GUIDE: the growth guide. Structure follows the "Instagram Growth Cheat Sheet" by @swastik.nandakumar
+// (the sheet Jacob sent 2026-11-23), rewritten for this account with its own examples, numbers and house rules.
+function renderGuide(){
+  const sec = (n, head, line, body) => `<div class="card"><h3 class="ghead"><span class="gnum">${n}</span>${head}</h3>${line?`<p class="gline">${line}</p>`:''}${body}</div>`;
+  const five = (rows) => `<div class="g5">${rows.map(r=>`<div><b>${r[0]}</b><small>${r[1]}</small><em>${r[2]}</em></div>`).join('')}</div>`;
+  const ours = (t) => `<div class="ours"><b>Our rule:</b> ${t}</div>`;
+  let h = `<h2>The growth guide</h2>
+  <div class="card"><div class="title" style="font-size:24px">What to actually do when you want the account to grow</div>
+    <p class="gline">Stop guessing. Use the numbers.</p>
+    <div class="g-loop"><span><b>1</b>Research</span><i>›</i><span><b>2</b>Create</span><i>›</i><span><b>3</b>Post</span><i>›</i><span><b>4</b>Measure</span><i>›</i><span><b>5</b>Double down</span><i>›</i><span><b>6</b>Repurpose</span><i>›</i><span><b>7</b>Test</span><i>›</i><span>and repeat</span></div>
+  </div>`;
+
+  h += sec('01','The content system','The job is not to keep finding new ideas.',
+    `<p class="gp"><b style="color:var(--tan)">Who you help:</b> anybody with a truck and a job. <b style="color:var(--tan)">What you know:</b> what really fails and what it really costs, because you order the part. <b style="color:var(--tan)">One clear problem:</b> "I keep paying for the same fix twice."</p>
+    <p class="gp">Five ways to talk about that one problem:</p>` +
+    five([
+      ['Educate','Teach something useful.','"Why the cheap part comes back to my counter"'],
+      ['Inspire','Show what is possible.','"From a truck that will not move to the SEMA floor"'],
+      ['Relate','Make people feel seen.','"Me telling myself it is a twenty minute job"'],
+      ['Prove','Show results, receipts, stories.','"What this truck has cost so far, to the dollar"'],
+      ['Entertain','Make them stop, watch and send.','"The five guys at every parts counter"']
+    ]) +
+    `<p class="gp" style="margin-top:12px"><b style="color:var(--tan)">Before you post, ask:</b></p>
+    <ul class="check"><li><span>Who is this for?</span></li><li><span>What problem does it solve?</span></li><li><span>What is the one thing they should remember?</span></li><li><span>Why would someone save it?</span></li><li><span>Why would someone send it, and to who?</span></li></ul>` +
+    ours('the person it is for goes in caption line 1, written as the sentence a sender would type.'));
+
+  h += sec('02','Find content that already works','Stop guessing.',
+    `<div class="g-loop"><span>5 to 10 accounts</span><i>›</i><span>their best posts</span><i>›</i><span>the outliers</span><i>›</i><span>study</span><i>›</i><span>adapt</span></div>
+    <p class="gp"><b style="color:var(--tan)">Outlier</b> = a post that did far better than that account normally does: 5 times their usual views, unusually high sends or saves, a loud comment section, or a jump in followers.</p>
+    <p class="gp">Break each one down in this order: <b>hook</b> › <b>format</b> › <b>topic</b> › <b>delivery</b> › <b>payoff</b> › <b>the ask</b>. Study the structure, not the script.</p>` +
+    ours('the weekly outlier watch list does this for the diesel and truck accounts; every studied reel is in the repo with a breakdown. Send any reel that stops you and it gets studied the same way.'));
+
+  h += sec('03','Formats to keep testing','',
+    five([
+      ['Reels','Discovery and new people','Quick stories, lists, memes, talking heads'],
+      ['Carousels','Teaching, saves, sends','Steps, receipts, a parts list'],
+      ['Image posts','Opinions, relatable lines','One photo, one line'],
+      ['Stories','Conversation with your people','Polls, thank-yous, behind the scenes']
+    ]) +
+    ours('on this account reels are 99.6 percent of the views and a still image averages 116. Reels are the work. Stories are for replies and partner thank-yous. A carousel is a once-a-month test, not a habit.'));
+
+  h += sec('04','Stop overthinking hooks','A good hook makes people want to see what comes next.',
+    five([
+      ['Curiosity','"You are probably doing this wrong"','"You are probably buying the wrong one of these."'],
+      ['Contrarian','"Stop doing X if you want Y"','"Stop buying the cheap one if you only want to pay once."'],
+      ['Relatable','"If you are ___, this is for you"','"If your truck has made a noise since July, this is for you."'],
+      ['Result','"How I got ___ without ___"','"How I quit losing a day to a ten dollar part."'],
+      ['Specific','"3 things I wish I knew before ___"','"3 things I wish I knew before my first truck."'],
+      ['Direct','"If your ___ is not ___, check this"','"If the parts guy asks for your VIN, here is why."']
+    ]) + `<p class="gp" style="margin-top:10px">Test it. Do not obsess over it.</p>` +
+    ours('the first sentence is the opener, the first noun lands inside a second, and the hook never repeats two days running.'));
+
+  h += sec('05','Win the first two seconds','Three hooks at once stop the scroll.',
+    five([
+      ['Visual hook','What do they see?','A move on frame 1: the part comes up, the hand goes on the gauge, you walk in.'],
+      ['Text hook','What do they read?','One title, 3 to 7 words with a number, gone by 3 seconds.'],
+      ['Verbal hook','What do they hear?','Your voice before the picture settles.']
+    ]));
+
+  h += sec('06','What the numbers tell you','Do not just look at views. Read from the bottom up.',
+    `<ul class="ladder">
+      <li style="width:52%"><b>Follows and DMs</b>Did it attract the right people?</li>
+      <li style="width:60%"><b>Profile visits</b>Did it make them curious?</li>
+      <li style="width:68%"><b>Sends</b>Would they send it? Floor 1 percent of reach, goal 2.</li>
+      <li style="width:76%"><b>Saves</b>Is it useful?</li>
+      <li style="width:88%"><b>Watch time</b>Are they staying? Skip under 40 percent, watch share over 50.</li>
+      <li style="width:100%"><b>Reach</b>Are new people seeing it?</li>
+    </ul>` +
+    ours('morning posts are graded on sends per reach, afternoon talking heads on watch share and likes per reach, and the judge on anything is views at 7 days. The Numbers tab has the latest reads.'));
+
+  h += sec('07','Double down and test','A post working once is a signal.',
+    `<div class="two"><div><div class="big">70%</div><b>Double down</b>Winning topics, formats, hooks, angles and stories. When one beats your average, make it again and change one thing.</div>
+    <div><div class="big">30%</div><b>Experiment</b>New formats, hooks, topics, editing and ways of telling it.</div></div>` +
+    ours('the trial reel at lunch is the 30 percent. Strangers only, so a miss costs nothing, and a winner gets shared to everyone.'));
+
+  h += sec('08','One idea is not one post','Stop starting from a blank page.',
+    `<div class="g-loop"><span>The reel</span><i>›</i><span>its trial twin (new first line)</span><i>›</i><span>a Story with one line</span><i>›</i><span>TikTok and Shorts, same day</span><i>›</i><span>the answer to the best comment</span><i>›</i><span>a list or checklist version</span></div>
+    <p class="gp">One good idea should show up five or six times before you need another one.</p>`);
+
+  h += sec('09','Build your content library','Never start from zero.',
+    `<ul class="check">
+      <li><span><b>Topics:</b> the things you talk about. The Ideas tab.</span></li>
+      <li><span><b>Hooks:</b> first lines that stopped you. Write them down the day you see them.</span></li>
+      <li><span><b>Outliers:</b> posts that beat the average, yours and theirs. The reel studies in the repo.</span></li>
+      <li><span><b>Questions:</b> what people ask in comments and DMs. Every one is an episode.</span></li>
+      <li><span><b>Stories:</b> your experiences, mistakes and wins. Hotshot, the first truck, the counter.</span></li>
+      <li><span><b>Proof:</b> receipts, screenshots, before and after, what people said.</span></li>
+    </ul>`);
+
+  h += sec('10','The weekly workflow','',
+    `<ul class="check">
+      <li><span><b>Monday:</b> read the numbers. What worked, what did not, what gets repeated, what gets tested.</span></li>
+      <li><span><b>Every evening:</b> one sit in the truck films both of tomorrow's episodes, plus one extra open for the trial.</span></li>
+      <li><span><b>Every lunch:</b> post the trial reel and read yesterday's.</span></li>
+      <li><span><b>Morning and afternoon:</b> post, then answer comments inside the first hour.</span></li>
+      <li><span><b>Midweek:</b> look at what the outliers did this week and steal one structure.</span></li>
+      <li><span><b>Sunday:</b> plan next week from what the numbers said, not from a blank page.</span></li>
+    </ul>`);
+
+  h += sec('11','Stop doing these','',
+    `<ul class="nope">
+      <li>Posting without checking the numbers</li>
+      <li>Hunting a brand-new idea every day</li>
+      <li>Copying a post instead of adapting its structure</li>
+      <li>Spending hours editing a post nobody will send</li>
+      <li>Making posts only for the people who already follow</li>
+      <li>Changing what the account is about every week</li>
+      <li>Trying a format once and quitting</li>
+      <li>Worrying about hashtags</li>
+      <li>Never reusing a good idea</li>
+      <li>Quitting before there is enough data to know</li>
+    </ul>`);
+
+  h += `<div class="card"><div class="title" style="font-size:24px">You do not need more ideas.</div><p class="gp">You need a better system for using the ones you already have. Come back to this page when you do not know what to post.</p>
+    <div class="tiny" style="margin-top:8px">Laid out after the Instagram Growth Cheat Sheet by @swastik.nandakumar. Examples, numbers and rules are this account's own.</div></div>`;
+  $('#v-guide').innerHTML = h;
 }
 
 // ---- IDEAS
@@ -353,7 +618,7 @@ function renderNumbers(){
   $('#v-numbers').innerHTML = h;
 }
 
-function render(){ renderToday(); renderCal(); renderIdeas(); renderShoot(); renderNumbers(); }
+function render(){ renderToday(); renderCal(); renderGuide(); renderIdeas(); renderShoot(); renderNumbers(); }
 render();
 })();
 </script>
