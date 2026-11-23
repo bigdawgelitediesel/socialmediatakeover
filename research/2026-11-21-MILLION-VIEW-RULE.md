@@ -167,6 +167,8 @@ The receipts rule on the truck that exists: the FASS, the gauges, the filters, t
 
 ## 5. The calendar, re-cut (days 1 to 15, replaces section 5 of the matrix for scheduling; same slots)
 
+**Superseded for scheduling on 2026-11-23:** Jacob now films two talking heads a day, and the live 30-day calendar (60 episodes, both slots talking heads) is `playbook/13-two-a-day-30-day-plan.md`. `coyote.py calendar()` reads that file first. The table below stays as the record of the first cut and as the bank for the meme fallback (ideas 3, 7, 9, 15, 40).
+
 Start moved by Jacob on 2026-11-22: day 1 is Tuesday November 24, day 15 is Tuesday December 8, the ranking is on December 8 and days 16 to 30 run December 9 to 23. Sunday and Monday before the start are for banking the skits and loops.
 
 Morning (09:00 to 11:00 MT) carries the loop, the skit or the question clip, shot in the shop playground. Afternoon (16:00 to 19:00) is the daily talking head in the truck (Jacob, 2026-11-22), 60 to 120 s, rotating Relatable, Trust, Funny with the shop and the trucks as the backdrop; Rival is two honest check-ins in fifteen days because the build is just starting, Chief two because that truck exists. The format is playbook/12-talking-head-in-the-truck.md. Every post goes to TikTok and Shorts the same day. The five columns are read at 48 h and again at 7 days (views).

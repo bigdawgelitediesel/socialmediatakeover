@@ -54,7 +54,7 @@ When a request spans modes (it usually does: a cut needs a caption and a posting
 
 ## The loop
 
-- **Per post:** idea from the calendar or the matrix cell → shoot brief (opener move, lockup room, one topic) → cut per tier → artboard if the cut is new → render, QA, smooth check → caption through `coyote.py lint caption` → posting kit folder in the Drive inbox → he posts in the slot (AM 09:00 to 11:00 for memes, skits, rollers, questions; PM 16:00 to 19:00 is the daily talking head in the truck, `playbook/12-talking-head-in-the-truck.md`, rotating Relatable, Trust, Funny; Rival only as an honest check-in while the build is starting) → `coyote.py pending add` → 48 h read → `coyote.py grade --log` → one sentence on what the number says → next variable.
+- **Per post:** idea from the calendar or the matrix cell → shoot brief (opener move, lockup room, one topic) → cut per tier → artboard if the cut is new → render, QA, smooth check → caption through `coyote.py lint caption` → posting kit folder in the Drive inbox → he posts in the slot (two talking heads a day since 2026-11-23, `playbook/13-two-a-day-30-day-plan.md`: AM 09:00 to 11:00 the send episode, PM 16:00 to 19:00 the hold episode, both in the truck per `playbook/12-talking-head-in-the-truck.md`, rotating Relatable, Trust, Funny; Rival only as an honest check-in while the build is starting; memes, skits and question clips are the morning fallback) → `coyote.py pending add` → 48 h read → `coyote.py grade --log` → one sentence on what the number says → next variable.
 - **Daily:** `status`, pull, the day's two slots, inbox triage, reply window (DM replies only, 24 h; he cannot initiate).
 - **Weekly (Monday):** `coyote.py week`: account read, top and bottom 3 by sends per reach, trending audio, THE BAR re-pull, outlier watch list re-run, Trial Reels check, partner ledger.
 - **Day 15 (Tue Dec 8, 2026):** rank the 30 by sends per reach per the matrix section 5; days 16 to 30 run the winning cells with a new hook each (`coyote.py hooks A|B|C`).
@@ -74,7 +74,7 @@ One message: the outcome first, then what he must do by hand (song, post time, p
 |---|---|
 | Inventory of the repo (built 2026-11-21) | `research/inventory/01-playbook-data-analysis.md`, `02-rule-index.md`, `03-tools.md`, `04-reference-index.md` |
 | Rules | `research/2026-11-20-EDITING-MASTER-PLAYBOOK.md`, `research/2026-11-21-PLAYBOOK-ADDENDUM.md` (1 to 47), `research/2026-11-21-DIESEL-HOUR.md` (48 to 95) |
-| The plan | `research/2026-11-21-OUTLIER-MATRIX.md` (matrix, 30 ideas, calendar, hooks), `playbook/00-content-plan.md` (September plan, still the lane) |
+| The plan | `playbook/13-two-a-day-30-day-plan.md` (the live 30-day calendar: two talking heads a day, 66 briefs), `research/2026-11-21-OUTLIER-MATRIX.md` (matrix, 30 ideas, hooks; the bank), `playbook/00-content-plan.md` (September plan, still the lane) |
 | Measurement | `playbook/09-measurement-protocol.md`, `data/instagram/*.tsv`, `tools/coyote.py` |
 | Brain and prompts | `playbook/11-ai-brain.md`, `playbook/10-prompt-library.md` |
 | Kit | `VIDEO/tools/rival-reels` (Remotion), `VIDEO/tools/*.py`, READMEs next to each |

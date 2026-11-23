@@ -36,6 +36,8 @@ A quality follower is one who matches the audience brief and comes back. Weekly,
 
 ## 4. The two engines, day by day
 
+**Correction, 2026-11-23 (Jacob: "I need to do 2 talking head videos a day"):** both engines are talking heads now. The morning post is a send-built talking head (funny or a list, 20 to 45 s, graded on sends per reach exactly as the memes were) and the afternoon is the hold-built one described below. The loop, skit and question bank becomes the fallback: if no morning talking head clears 1 percent sends per reach in the first seven days, the memes come back twice a week. The calendar is `playbook/13-two-a-day-30-day-plan.md`; the paragraph below on the morning post reads through this.
+
 **Morning post, 09:00 to 11:00 MT: the send engine.** A loop, a skit or a question clip from the calendar, built for one line a viewer would text to his buddy, graded on sends per reach (floor 1 percent, goal 2). One shot where possible, the last frame rhyming with the first, a universal emotion carried by a diesel object. This is where the October-scale reach comes from and it is already the account's best format. Three in five are relatable to anyone with a job; two in five are tribe (the 6.7 brothers, the Class 8 world). Bank five on a Sunday.
 
 **Afternoon post, 16:00 to 19:00 MT: the conversion engine.** The daily talking head in Chief's cab (playbook/12), 40 to 60 s, relatable, trust or funny on rotation, one person named in sentence one, the credential inside a working sentence, one physical device, the sign-off, the cliffhanger to tomorrow. Graded on watch share (floor 50 percent) and likes per reach (floor 4). Filmed one day ahead, five takes, streamline plan, challenge, render, lint.

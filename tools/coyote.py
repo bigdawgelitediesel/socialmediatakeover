@@ -34,6 +34,7 @@ except Exception:
 ROOT = Path(__file__).resolve().parents[1]
 MATRIX = ROOT / "research" / "2026-11-21-OUTLIER-MATRIX.md"
 MILLION = ROOT / "research" / "2026-11-21-MILLION-VIEW-RULE.md"   # 2026-11-21: the objective is a million views per video; its calendar and ideas 31+ win
+TWO_A_DAY = ROOT / "playbook" / "13-two-a-day-30-day-plan.md"   # 2026-11-23: two talking heads a day; its 30-day calendar and ideas 101+ win
 POSTS = ROOT / "data" / "instagram" / "posts.tsv"
 PLAN_LOG = ROOT / "data" / "instagram" / "plan-log.tsv"
 PENDING = ROOT / "data" / "instagram" / "pending-reads.tsv"
@@ -67,6 +68,10 @@ def ideas() -> dict[int, dict]:
         mt = MILLION.read_text(encoding="utf-8")
         if "### Ten new ideas" in mt:
             block += "\n" + mt[mt.index("### Ten new ideas"):mt.index("## 5. The calendar")]
+    if TWO_A_DAY.exists():
+        tt = TWO_A_DAY.read_text(encoding="utf-8")
+        if "## 5. The sixty briefs" in tt:
+            block += "\n" + tt[tt.index("## 5. The sixty briefs"):tt.index("## 6. Day 15")]
     out = {}
     pat = re.compile(r'^\*\*(\d+)\. (.+?): "(.+?)"\*\*\s*\n(.*?)(?=^\*\*\d+\. |^### |^## |\Z)', re.M | re.S)
     for m in pat.finditer(block):
@@ -76,22 +81,32 @@ def ideas() -> dict[int, dict]:
     return out
 
 def calendar() -> list[dict]:
-    """Section 5 table rows: Day | Date | Slot | Idea | Cell | ... """
+    """Calendar table rows: Day | Date | Slot | Idea | Cell | (Lane | Where | Device ...). The newest plan file wins:
+    playbook/13 (two talking heads a day, 30 days) over MILLION-VIEW-RULE section 5 over the matrix."""
     txt = _matrix_text(); s = txt.index("## 5. The 30-day calendar"); e = txt.index("### The ranking rule")
     if MILLION.exists():
         mt = MILLION.read_text(encoding="utf-8")
         if "## 5. The calendar" in mt:
             txt = mt; s = txt.index("## 5. The calendar"); e = txt.index("## 6. Ranking")
-    rows = []
+    if TWO_A_DAY.exists():
+        tt = TWO_A_DAY.read_text(encoding="utf-8")
+        if "## 4. The calendar" in tt:
+            txt = tt; s = txt.index("## 4. The calendar"); e = txt.index("## 5. The sixty briefs")
+    rows = []; header: list[str] = []
     for line in txt[s:e].splitlines():
         if not line.startswith("|"): continue
         cells = [c.strip() for c in line.strip("|").split("|")]
-        if not cells or not cells[0].isdigit(): continue
+        if not cells: continue
+        if cells[0].lower() == "day": header = [c.lower() for c in cells]; continue
+        if not cells[0].isdigit(): continue
         day = int(cells[0]); date_s = cells[1]; slot = cells[2]; idea = cells[3]; cell = cells[4]
         m = re.match(r"(\d+)\s+(.*)", idea)
         n = int(m.group(1)) if m else None
         d = dt.datetime.strptime(f"{date_s} {YEAR}", "%a %b %d %Y").date()
-        rows.append({"day": day, "date": d, "slot": slot, "idea_n": n, "idea": m.group(2) if m else idea, "cell": cell})
+        row = {"day": day, "date": d, "slot": slot, "idea_n": n, "idea": m.group(2) if m else idea, "cell": cell}
+        for k, v in zip(header[5:], cells[5:]):
+            if k: row[k] = v
+        rows.append(row)
     return rows
 
 def hook_variants() -> dict[str, dict]:
@@ -132,14 +147,15 @@ def cmd_plan(args):
     for d in days:
         rows = [r for r in cal if r["date"] == d]
         if not rows:
-            if d < first: print(f"{d}: before day 1 ({first}). Shoot and bank: skits 10, 4, 16, 22, 28 in one lunch break; memes 9, 3, 15, 21, 27 in one cutout session."); continue
+            if d < first: print(f"{d}: before day 1 ({first}). Tonight: film day 1's two talking heads in one sit, PM first then AM, three to five takes each (playbook/13-two-a-day-30-day-plan.md section 2)."); continue
             n = (d - first).days + 1
-            print(f"{d}: day {n} of the plan, winners-only stretch (days 16 to 30). Morning = the send cell, afternoon = the build cell, a NEW hook each (coyote.py hooks A|B|C). Rank first with the day-15 rule in section 5 of the matrix.")
+            print(f"{d}: day {n}, past the 30-day plan ({last}). Rank the four shapes by their own grade (playbook/13 section 6); January is five a week, PM every weekday.")
             continue
         print(f"\n=== {d:%a %b %d} · day {rows[0]['day']} of 30 ===")
         for r in rows:
-            win = "09:00 to 11:00 MT" if r["slot"] == "AM" else "16:00 to 19:00 MT"
-            print(f"\n[{r['slot']} {win}]  idea {r['idea_n']}  ·  {r['cell']}")
+            win = "09:00 to 11:00 MT, the send episode" if r["slot"] == "AM" else "16:00 to 19:00 MT, the hold episode"
+            extra = "  ·  ".join(f"{k}: {r[k]}" for k in ("lane", "where", "device") if r.get(k))
+            print(f"\n[{r['slot']} {win}]  idea {r['idea_n']}  ·  {r['cell']}" + (f"  ·  {extra}" if extra else ""))
             idea = ids.get(r["idea_n"])
             if idea:
                 print(f'  "{idea["title"]}"')
@@ -149,6 +165,11 @@ def cmd_plan(args):
             lg = log.get((r["day"], r["slot"]))
             if lg and lg.get("media_id"):
                 print(f"  LOGGED: media {lg['media_id']} reach {lg['reach_48h']} sends/reach {lg['sends_per_reach_pct']}% skip {lg['skip_pct']}%")
+    nxt = [r for r in cal if r["date"] == days[-1] + dt.timedelta(days=1)]
+    if nxt:
+        print(f"\nFilm tonight for {nxt[0]['date']:%a %b %d} (one sit, PM first):")
+        for r in nxt:
+            i = ids.get(r["idea_n"]); print(f"  {r['slot']}  {i['title'] if i else r['idea']}  ·  bring: {r.get('device', '')}  ·  {r.get('where', '')}")
     print("\nEvery post is built for a million (research/2026-11-21-MILLION-VIEW-RULE.md section 3): stranger test, one universal emotion, a number in the title, the answer held to the end, story 60 to 120 s / skit 55 to 70 s / loop 6 to 12 s, a question that splits the comments, TikTok and Shorts the same day. Craft rules unchanged: one lockup at most, no on-screen ask, caption line 1 names a person type, song in-app, 48 h and 7-day reads logged.")
 
 def cmd_idea(args):
@@ -419,13 +440,17 @@ def cmd_status(args):
     cal = calendar(); first = cal[0]["date"]
     dayn = (d - first).days + 1
     print(f"El Coyote status · {now:%a %b %d %H:%M} MT")
-    if dayn < 1: print(f"  30-day plan starts {first:%a %b %d} (in {1 - dayn} days). Bank the skits and memes now.")
-    elif dayn <= 15: print(f"  Day {dayn} of 30 (built for a million: story PM, skit or loop AM). Day 15 ranking by 7-day views on Tue Dec 8.")
-    elif dayn <= 30: print(f"  Day {dayn} of 30 (winners-only phase).")
-    else: print("  The 30-day plan is over; rank, keep the winning cells, write the next matrix.")
+    if dayn < 1: print(f"  30-day plan starts {first:%a %b %d} (in {1 - dayn} days). Two talking heads a day: film day 1's two tonight (playbook/13-two-a-day-30-day-plan.md).")
+    elif dayn <= 15: print(f"  Day {dayn} of 30: two talking heads a day (AM the send episode 09:00 to 11:00, PM the hold episode 16:00 to 19:00). Day 15 ranking by shape on Tue Dec 8.")
+    elif dayn <= 30: print(f"  Day {dayn} of 30: two talking heads a day, post-ranking stretch (bottom shape swapped for spares).")
+    else: print("  The 30-day plan is over; rank the four shapes, January is five a week (playbook/13 section 6).")
     rows = [r for r in cal if r["date"] == d]
     for r in rows:
-        print(f"  {r['slot']}  idea {r['idea_n']} {r['idea']}  ·  {r['cell']}" + ("  (post 09:00 to 11:00)" if r["slot"] == "AM" else "  (post 16:00 to 19:00)"))
+        extra = "  ·  ".join(f"{k} {r[k]}" for k in ("where", "device") if r.get(k))
+        print(f"  {r['slot']}  idea {r['idea_n']} {r['idea']}  ·  {r['cell']}" + ("  (post 09:00 to 11:00)" if r["slot"] == "AM" else "  (post 16:00 to 19:00)") + (f"  ·  {extra}" if extra else ""))
+    nxt = [r for r in cal if r["date"] == d + dt.timedelta(days=1)]
+    if nxt:
+        print(f"  Film tonight for tomorrow: " + "; ".join(f"{r['slot']} {r['idea']} (bring: {r.get('device', '')})" for r in nxt))
     print("\n48 h reads:")
     cmd_pending(argparse.Namespace(action=None))
     posts = read_tsv(POSTS)

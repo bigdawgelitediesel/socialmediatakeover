@@ -5,7 +5,8 @@ build_portal.py: writes portal/data.json for the El Coyote portal (portal/index.
   python -I tools/build_portal.py
 
 Reads the same sources as coyote.py and never edits them:
-  research/2026-11-21-MILLION-VIEW-RULE.md   the live calendar (days 1 to 15) and ideas 31 to 40
+  playbook/13-two-a-day-30-day-plan.md       the live calendar (30 days, two talking heads a day) and ideas 101 to 166
+  research/2026-11-21-MILLION-VIEW-RULE.md   the older calendar and ideas 31 to 59 (the bank)
   research/2026-11-21-OUTLIER-MATRIX.md      ideas 1 to 30, hook variants A/B/C
   data/instagram/pending-reads.tsv           reads that are due
   data/instagram/reads-48h.tsv               the last graded pulls
@@ -41,12 +42,12 @@ SHAPES = {
                       "Your face not before 20 s. Pocket 3 on a magnet mount, voice recorded after in the cab.",
                       "Every problem in order, the fix for each; each clause cuts to the thing it names and holds until the next sentence names something else. One loop, one turn, the answer last.",
                       "Hold the answer for the last ten seconds. End within 1.5 s of the payoff. No outro."]},
-    "talk": {"name": "Talking head, in the truck", "length": "40 to 60 s (60 to 120 once watch clears 10 s)", "when": "PM 16:00 to 19:00 MT, every day",
-             "how": ["Same seat, same mount, Pocket 3 on the dash at eye height, 70 to 90 cm from the face, passenger window as the key, Face Auto-Detect on, engine off, windows up, DJI Mic 3 to 5 inches off.",
-                     "Never a static face on frame 1: door shuts mid-sentence, turn from the windshield on the first word, or the part comes up first. First noun by 0.9 s.",
-                     "Title sentence with a number in the upper third for the first 3 s. Pilot line once around 15 s, spoken. One idea per breath, 150 to 165 wpm, say the acronyms.",
-                     "One loop in sentence one, one turn in the middle, the answer in the last ten seconds; one question that splits the comments, your sign-off, cliffhanger to tomorrow. Change every five to eight seconds with the pad, the part or a turn; cut only to remove, on a breath. No outro, no ask.",
-                     "Five takes straight through, teleprompter allowed, pick the best. Rotation: Relatable, Trust, Funny; the trucks are the backdrop, Rival only as an honest check-in while the build starts. Full page: playbook/12-talking-head-in-the-truck.md"]},
+    "talk": {"name": "Talking head, in the truck", "length": "AM 20 to 45 s, PM 40 to 60 s", "when": "twice a day: AM 09:00 to 11:00 MT (the send episode), PM 16:00 to 19:00 MT (the hold episode)",
+             "how": ["Two a day, two jobs (2026-11-23). AM is built to be sent: one joke or one list, 20 to 45 s, the turn on the last line, graded on sends per reach. PM is built to be held: the story, the trust, the check-in, 40 to 60 s, the whole message under a minute, graded on watch share and likes per reach.",
+                     "One sit at 16:30 films both of tomorrow's: PM first while the voice is fresh, AM second. Three to five takes each, straight through. Bring the device the brief names (the part, the sticky note, the two parts, the phone with the comment up). Never shoot the morning of.",
+                     "Same seat, same mount, Pocket 3 on the dash at eye height, 70 to 90 cm from the face, passenger window as the key, Face Auto-Detect on, engine off, windows up, DJI Mic 3 to 5 inches off. Leave the cab at least twice a week: parts room, counter after hours, the bay, the driveway, the yard. Say 'I work there' when the shop is in frame.",
+                     "The sentence is the opener: voice before the picture settles, first noun by 0.9 s, the device or the lockup is the move on frame 1. Lockup 3 to 7 words with the number, upper third, gone by 3 s. Plain captions at the chest, beat words by the face (rule 118). Opener type never repeats two episodes running.",
+                     "One loop in sentence one, one turn in the middle, the answer last, then the question that splits the comments. Change, not cut: the pad, the part, a turn; cut only to remove, on a breath. No outro, no ask, no grade. Look check (LOOK-GUIDE section 9) before it goes anywhere. Plan: playbook/13-two-a-day-30-day-plan.md. Format: playbook/12-talking-head-in-the-truck.md"]},
     "question": {"name": "Question clip", "length": "9 to 25 s", "when": "AM 09:00 to 11:00 MT",
                  "how": ["A real clip from your own world with something going wrong or a hack happening.",
                          "One white pill top centre with the question. You keyed lower left reacting, or silent.",
@@ -75,6 +76,7 @@ POST_CHECK = [
 ]
 
 RULES = [
+    "Two talking heads a day (Jacob, 2026-11-23). AM 09:00 to 11:00 is the send episode (funny or a list, 20 to 45 s, graded on sends per reach); PM 16:00 to 19:00 is the hold episode (story, trust, check-in, 40 to 60 s, graded on watch share and likes per reach). Film both of tomorrow's in one sit tonight. If a day breaks, the PM goes out and the AM is skipped, never the reverse. The plan: playbook/13-two-a-day-30-day-plan.md.",
     "Change, not cut (doctrine 2026-11-22): something the viewer cares about changes every five to eight seconds; a cut is the most expensive way to make it. One physical device per talking head, cut only to remove, on a breath. Full text: research/2026-11-22-REEL-EDITOR-DOCTRINE.md.",
     "The 10K plan (2026-11-23): two engines, the morning send post and the afternoon talking head; profile fixed before Tuesday; replies inside the hour; one peer Collab a week; Trial twins on every talking head if the toggle is there; day-30 checkpoint 1,500 to 2,500, 10K by day 90, run as if 30 were possible. Full text: research/2026-11-23-GROWTH-PLAN-10K.md. Principles, not steps: skill/el-coyote/PRINCIPLES.md.",
     "Community first. The more relatable the better. A stranger with any truck, or no truck, has to see themselves in it before the F600, the 7.3 or the shop matter. They are the backdrop and the credential, not the subject.",
@@ -98,17 +100,38 @@ def shape_of(cell: str) -> str:
     return "story"
 
 
+TH_FIELDS = {"open": "Open", "turn": "Turn", "last": "Last", "device": "Device", "where": "Where", "length_note": "Length",
+             "lockup": "Lockup", "splits": "Splits"}
+
+
+def th_field(body: str, label: str) -> str:
+    """One labelled field of a talking-head brief. Open, Turn, Last, Lockup, Caption line 1 and Splits are lines of their
+    own; Device, Where and Length share one line ('Device: the part. Where: cab. Length: 45 to 60 s.')."""
+    labels = "|".join(re.escape(x) for x in TH_FIELDS.values())
+    m = re.search(r'(?:^|\s)' + re.escape(label) + r':\s*(.+?)(?=\s(?:' + labels + r'):\s|$)', body, re.M)
+    if not m: return ""
+    v = m.group(1).strip()
+    return v.rstrip(".") if label in ("Device", "Where", "Length") else v
+
+
 def parse_idea(i: dict) -> dict:
     body = i["body"]
     cap = re.search(r'Caption line 1:\s*"(.+?)"', body)
     frame = re.search(r'Frame 1:\s*(.+?)(?:\.\s|$)', body)
     shape = shape_of(i["cell"])
-    return {
+    lane = i["cell"].split(" x ")[0].replace(" check-in", "") if " x " in i["cell"] else ""
+    out = {
         "n": i["n"], "cell": i["cell"], "title": i["title"], "evidence": i["evidence"], "body": body,
         "shape": shape, "length": SHAPES[shape]["length"],
         "caption_line1": cap.group(1) if cap else "",
         "frame1": (frame.group(1).strip() + ".") if frame else "",
     }
+    if i["n"] >= 101:   # the two-a-day talking heads carry labelled lines
+        for k, label in TH_FIELDS.items(): out[k] = th_field(body, label)
+        out["lane"] = lane
+        if not out["frame1"] and out["open"]: out["frame1"] = out["open"]
+        out["spare"] = i["n"] >= 161
+    return out
 
 
 def main():
@@ -124,10 +147,18 @@ def main():
     pend = coyote.read_tsv(coyote.PENDING)
     data = {
         "generated_at": dt.datetime.now(coyote.MT).isoformat(timespec="minutes"),
+        "plan_name": "Two talking heads a day",
+        "plan_doc": "playbook/13-two-a-day-30-day-plan.md",
         "plan_first_date": cal[0]["date"].isoformat(),
         "plan_last_date": cal[-1]["date"].isoformat(),
+        "ranking_date": "2026-12-08",
         "sema_date": SEMA,
         "slots": {"AM": "09:00 to 11:00 MT", "PM": "16:00 to 19:00 MT"},
+        "jobs": {"AM": {"job": "send", "length": "20 to 45 s", "grade": "sends per reach (floor 1%, goal 2), skip under 40",
+                        "what": "One joke or one list a person forwards. The turn on the last line, cut on it."},
+                 "PM": {"job": "hold", "length": "40 to 60 s", "grade": "watch share (floor 50%) and likes per reach (floor 4%)",
+                        "what": "The story, the trust, the check-in. The whole message, under a minute."}},
+        "spares": [n for n in sorted(ideas) if n >= 161],
         "calendar": [{**r, "date": r["date"].isoformat()} for r in cal],
         "ideas": ideas,
         "shapes": SHAPES,

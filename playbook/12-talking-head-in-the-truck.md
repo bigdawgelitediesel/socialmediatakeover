@@ -84,6 +84,10 @@ Open on a greeting or a promise the reel does not pay. Explain an acronym. Ask f
 - **Grade a talking head on watch share (floor 50 percent of runtime) and likes per reach (floor 4 percent).** Sends are logged, not graded, until one clears 0.7 percent; no face held past 10 s on this account ever has. Memes and loops are graded on sends.
 - **The card for the dash** is section 18 of the doctrine.
 
+## Two a day, 2026-11-23
+
+Jacob: "I need to do 2 talking head videos a day." The topic plan is `playbook/13-two-a-day-30-day-plan.md` (60 episodes, Nov 24 to Dec 23). The two episodes do two jobs: the morning one is built to be sent (funny or a list, 20 to 45 s, the turn on the last line, graded on sends per reach), the afternoon one is built to be held (the story, the trust, the check-in, 40 to 60 s, graded on watch share and likes per reach). Both are filmed in one sit at 16:30 the night before, PM first while the voice is fresh, AM second, three to five takes each; the portal's Today tab lists what to bring. Opener type never repeats two episodes running; the cab four days in seven. If a day breaks, the PM goes out and the AM is skipped, never the reverse.
+
 ## Jacob's correction on length, 2026-11-22
 
 The 40 to 60 s band is a ceiling, not a target. On the gratitude footage he rejected the short cuts ("you cut way too much out, I want the whole message in there") and approved 57.9 s with every sentence he meant, six cuts, a checklist card and the lockup at 0.0. Streamline's `--keep` protects the sentences that must stay; `--target` is only for trimming filler toward the ceiling. When in doubt, keep the message and get attention with the device.

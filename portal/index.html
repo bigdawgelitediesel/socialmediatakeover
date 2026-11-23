@@ -84,6 +84,17 @@ td.t{max-width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .empty{color:var(--muted);font-size:14px;padding:12px 0}
 .shape{display:inline-block;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;border-radius:6px;padding:2px 8px;background:var(--ink);color:var(--tan);border:1px solid var(--line)}
 .shape.loop{color:var(--yellow)}.shape.skit{color:#9ad3ff}.shape.story{color:var(--hi)}.shape.question{color:#c6a6ff}
+.lane{display:inline-block;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;border-radius:6px;padding:2px 8px;background:var(--ink);border:1px solid var(--line);color:var(--cream)}
+.lane.funny{color:var(--yellow)}.lane.trust{color:#7fd09a}.lane.relatable{color:var(--tan)}.lane.people{color:#c6a6ff}.lane.chief{color:#9ad3ff}.lane.rival{color:var(--hi)}
+.th{margin-top:10px}
+.th .kv{font-size:14px;color:#d8d2c4;padding:7px 0;border-top:1px solid var(--line)}
+.th .kv small{display:block;color:var(--muted);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px}
+.film{margin:0;padding:0;list-style:none}
+.film li{padding:10px 0;border-bottom:1px solid var(--line)}
+.film li:last-child{border-bottom:0}
+.film .t{font-family:Anton,Impact,sans-serif;font-size:20px;line-height:1.15;letter-spacing:.3px}
+.film .b{font-size:13px;color:var(--muted);margin-top:3px}
+.film .b b{color:var(--cream);font-weight:600}
 details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin:8px 0}
 summary{cursor:pointer;font-weight:600;font-size:15px}
 summary .shape{margin-left:8px}
@@ -104,7 +115,7 @@ summary .shape{margin-left:8px}
 <div class="wrap">
 <header>
   <h1>EL COYOTE <span>portal</span></h1>
-  <div class="sub">What to film. When to post. @elcoyotediesel, Project Rival.</div>
+  <div class="sub">What to film. When to post. @elcoyotediesel, two talking heads a day.</div>
   <div class="strip" id="strip"></div>
 </header>
 
@@ -146,6 +157,8 @@ const MT = {timeZone:'America/Denver'};
 const todayISO = new Date().toLocaleDateString('en-CA', MT);
 const fmtDay = (iso)=>new Date(iso+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
 const daysBetween = (a,b)=>Math.round((new Date(b+'T12:00:00')-new Date(a+'T12:00:00'))/86400000);
+const addDays = (iso,n)=>{ const d=new Date(iso+'T12:00:00'); d.setDate(d.getDate()+n); return d.toLocaleDateString('en-CA'); };
+const epLabel = (n)=> n>=101 ? ('ep '+(n-100)) : ('idea '+n);
 
 // ---- local state (this phone only): slot status + checklists
 let state = {};
@@ -159,8 +172,8 @@ const dayN = daysBetween(D.plan_first_date, todayISO) + 1;
 const toSema = daysBetween(todayISO, D.sema_date);
 $('#strip').innerHTML = `
   <div class="pill">Day <b>${dayN<1?'0':dayN}</b> of 30</div>
-  <div class="pill"><b>${toSema}</b> days to SEMA</div>
-  <div class="pill">Judge: <b>1M</b> views at 7 days</div>`;
+  <div class="pill"><b>2</b> talking heads a day</div>
+  <div class="pill"><b>${toSema}</b> days to SEMA</div>`;
 $('#foot').textContent = `Built ${D.generated_at} MT from the repo. Status marks are saved on this device only.`;
 
 // ---- tabs
@@ -171,19 +184,37 @@ document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{
 });
 
 // ---- slot card (shared by Today and Calendar)
+function thBlock(i, opts){
+  let h = `<div class="th"><div class="kv"><small>Open on</small>${esc(i.open)}</div>`;
+  if(opts.full){ h += `<div class="kv"><small>The turn</small>${esc(i.turn)}</div><div class="kv"><small>Last line</small>${esc(i.last)}</div>`; }
+  h += `<div class="kv"><small>Bring · where</small>${esc(i.device)} · ${esc(i.where)}</div>`;
+  h += `<div class="kv"><small>Lockup</small>${esc(i.lockup)}</div>`;
+  if(i.splits){ h += `<div class="kv"><small>${opts.full?'Splits the comments':'Last question'}</small>${esc(i.splits)}</div>`; }
+  return h + `</div>`;
+}
 function slotCard(r, opts={}){
   const i = D.ideas[r.idea_n] || {title:r.idea, body:'', cell:r.cell, shape:'story', length:'', caption_line1:''};
   const st = state[key(r)] || 'not shot';
   const sh = D.shapes[i.shape];
+  const job = (D.jobs||{})[r.slot];
+  const isTH = i.shape==='talk' && i.open;
+  const len = isTH ? (i.length_note || (job?job.length:sh.length)) : sh.length;
   return `<div class="card ${r.slot.toLowerCase()} ${st==='posted'?'done':''}" data-k="${key(r)}">
-    <div class="slot"><span><b>${r.slot}</b> ${D.slots[r.slot]}</span><span>${fmtDay(r.date)} · day ${r.day}</span></div>
+    <div class="slot"><span><b>${r.slot}</b> ${D.slots[r.slot]}${job&&isTH?` · the <b>${job.job}</b> episode`:''}</span><span>${fmtDay(r.date)} · day ${r.day}</span></div>
     <div class="title">${esc(i.title)}</div>
-    <div class="meta"><span class="shape ${i.shape}">${sh.name}</span> &nbsp;<span>${sh.length}</span> &nbsp;· ${esc(i.cell)} · idea ${r.idea_n}</div>
-    ${opts.full ? `<div class="body">${esc(i.body)}</div>` : (i.frame1?`<div class="body">${esc(i.frame1)}</div>`:'')}
+    <div class="meta">${i.lane?`<span class="lane ${i.lane.toLowerCase()}">${esc(i.lane)}</span> &nbsp;`:''}<span class="shape ${i.shape}">${sh.name}</span> &nbsp;<span>${esc(len)}</span> &nbsp;· ${epLabel(r.idea_n)}</div>
+    ${isTH ? thBlock(i, opts) : (opts.full ? `<div class="body">${esc(i.body)}</div>` : (i.frame1?`<div class="body">${esc(i.frame1)}</div>`:''))}
     ${i.caption_line1?`<div class="cap"><small>Caption line 1</small>${esc(i.caption_line1)}</div>`:''}
     <div class="row">${STATUS.map(s=>`<button class="btn ${s===st?'on':''}" data-st="${s}">${s}</button>`).join('')}
       ${opts.full?'':`<button class="btn ghost" data-open="${r.idea_n}">full brief</button>`}</div>
   </div>`;
+}
+function filmCard(rows, forISO){
+  // PM first while the voice is fresh, AM second (playbook/13 section 2)
+  const order = [...rows].sort((a,b)=>(a.slot==='PM'?0:1)-(b.slot==='PM'?0:1));
+  return `<div class="card"><div class="tiny">One sit in the truck, 30 to 40 minutes, for ${fmtDay(forISO)}. PM first, then AM. Three to five takes each, straight through. Grab what each one needs before you get in.</div><ul class="film">` +
+    order.map(r=>{ const i=D.ideas[r.idea_n]||{title:r.idea}; return `<li><div class="t">${r.slot} · ${esc(i.title)}</div><div class="b"><b>Bring:</b> ${esc(i.device||r.device||'')} · <b>where:</b> ${esc(i.where||r.where||'')}${i.length_note?` · ${esc(i.length_note)}`:''}</div>${i.open?`<div class="b"><b>Open on:</b> ${esc(i.open)}</div>`:''}</li>`; }).join('') +
+    `</ul></div>`;
 }
 function wireCards(root){
   root.querySelectorAll('[data-st]').forEach(b=>b.onclick=()=>{
@@ -199,16 +230,20 @@ function openIdea(n){
 // ---- TODAY
 function renderToday(){
   const rows = D.calendar.filter(r=>r.date===todayISO);
-  const next = D.calendar.filter(r=>r.date>todayISO).slice(0,4);
+  const tomorrowISO = addDays(todayISO,1);
+  const filmISO = dayN<1 ? D.plan_first_date : tomorrowISO;
+  const film = D.calendar.filter(r=>r.date===filmISO);
+  const next = D.calendar.filter(r=>r.date>filmISO).slice(0,4);
   const due = D.pending.filter(p=>p.status==='due');
   let h = '';
   if(dayN<1){
-    h += `<div class="card"><div class="title">The plan starts ${fmtDay(D.plan_first_date)}</div><div class="body">Bank now: skits 10, 4, 16, 22, 28 in one lunch break with one coworker; memes 9, 3, 15, 21, 27 in one cutout session against the flat wall.</div></div>`;
+    h += `<div class="card"><div class="title">The plan starts ${fmtDay(D.plan_first_date)}: two talking heads a day</div><div class="body">Sixty episodes in thirty days. Every morning a send episode (funny or a list, 20 to 45 s), every afternoon a hold episode (the story, the trust, 40 to 60 s). Tonight: one sit in the truck, both of day 1's episodes. The props are under Film tonight.</div></div>`;
   } else if(!rows.length){
-    h += `<div class="card"><div class="title">Day ${dayN}: winners only</div><div class="body">Rank the first 15 days by 7-day views, then run the winning shape and subtopic with a new title number each post. A shape is spent after three posts under the day-15 median.</div></div>`;
+    h += `<div class="card"><div class="title">The 30 days are done</div><div class="body">Rank the four shapes (Funny AM, utility Trust AM, story Trust PM, Relatable PM) by their own grade. January is five a week: PM every weekday, AM on the two days the week-4 data says send. playbook/13 section 6.</div></div>`;
   } else {
     h += `<h2>Post today</h2>` + rows.map(r=>slotCard(r)).join('');
   }
+  if(film.length){ h += `<h2>Film tonight</h2>` + filmCard(film, filmISO); }
   if(due.length){
     h += `<h2>Reads due</h2><div class="card">` + due.map(p=>{
       const late = p.due_iso.slice(0,16) <= new Date().toLocaleString('sv-SE',MT).slice(0,16).replace(' ','T');
@@ -229,16 +264,17 @@ function renderCal(){
   const byDate = {};
   D.calendar.forEach(r=>{ (byDate[r.date]=byDate[r.date]||[]).push(r); });
   const dates = Object.keys(byDate).sort();
-  let h = `<h2>Days 1 to 15: two posts a day</h2><div class="tiny">AM = loop, skit or question clip. PM = the story. Tap a day for the briefs. Day 15 ranks by 7-day views.</div><div class="days">`;
+  let h = `<h2>30 days, two talking heads a day</h2><div class="tiny">AM = the send episode (funny or a list, 20 to 45 s, graded on sends). PM = the hold episode (story, trust, check-in, 40 to 60 s, graded on watch share and likes). Tap a day for the briefs. Day 15 (${fmtDay(D.ranking_date)}) ranks the four shapes.</div><div class="days">`;
   h += dates.map(d=>{
     const rows=byDate[d];
     const cls = d===todayISO?'today':(d<todayISO?'past':'');
     return `<div class="day ${cls}" data-d="${d}"><div class="d"><b>${fmtDay(d)}</b> · day ${rows[0].day}</div>` +
       rows.map(r=>{ const i=D.ideas[r.idea_n]||{title:r.idea}; const st=state[key(r)]||''; return `<div class="i"><em class="${r.slot.toLowerCase()}">${r.slot}</em> ${esc(i.title)} ${st&&st!=='not shot'?`<span class="st ${st}">${st}</span>`:''}</div>`; }).join('') + `</div>`;
   }).join('') + `</div>`;
-  h += `<h2>Days 16 to 30: winners only</h2><div class="card"><div class="body">After the day-15 ranking (Tue Dec 8), post only the winning shape and its best subtopic, a new title number each time. The ten pre-written hook variants per cell are under Ideas.</div></div>`;
+  h += `<h2>Day 15 and the spares</h2><div class="card"><div class="body">On ${fmtDay(D.ranking_date)} rank the four shapes by their own grade: Funny AM and utility Trust AM on sends per reach and skip, story Trust PM and Relatable PM on watch share and likes per reach. The bottom shape's remaining slots are swapped for spares in the top shape; the People episodes and the three Rival check-ins stay. If a day breaks, the PM goes out and the AM is skipped, never the reverse. The six spares cover a missed day or the swap:</div><ol class="steps">${(D.spares||[]).map(n=>{ const i=D.ideas[n]; return i?`<li><a href="#" data-open="${n}">${esc(i.title)}</a> <span class="tiny">${esc(i.lane||'')} · ${esc(i.length_note||'')}</span></li>`:''; }).join('')}</ol></div>`;
   h += `<div id="cal-detail"></div>`;
   const v=$('#v-cal'); v.innerHTML=h;
+  v.querySelectorAll('[data-open]').forEach(b=>b.onclick=(e)=>{ e.preventDefault(); openIdea(b.dataset.open); });
   v.querySelectorAll('.day').forEach(el=>el.onclick=()=>{
     const d=el.dataset.d; const det=$('#cal-detail');
     det.innerHTML = `<h2>${fmtDay(d)}</h2>` + byDate[d].map(r=>slotCard(r,{full:true})).join('');
@@ -249,15 +285,15 @@ function renderCal(){
 // ---- IDEAS
 let ideaFilter = 'all', ideaQ = '';
 function renderIdeas(){
-  const list = Object.values(D.ideas).sort((a,b)=>a.n-b.n);
-  const shapes = ['all','story','skit','loop','question'];
-  let h = `<h2>All 40 ideas</h2><input class="search" placeholder="search titles, cells, captions" value="${esc(ideaQ)}">
+  const list = Object.values(D.ideas).sort((a,b)=>((a.n>=101?0:1)-(b.n>=101?0:1)) || a.n-b.n);
+  const shapes = ['all','talk','story','skit','loop','question'];
+  let h = `<h2>All ideas: the 66 talking heads, then the bank</h2><input class="search" placeholder="search titles, lanes, captions" value="${esc(ideaQ)}">
     <div class="filters">${shapes.map(s=>`<button class="btn ${ideaFilter===s?'on':''}" data-f="${s}">${s==='all'?'all':D.shapes[s].name}</button>`).join('')}</div>`;
   const q = ideaQ.toLowerCase();
-  const shown = list.filter(i=>(ideaFilter==='all'||i.shape===ideaFilter) && (!q || (i.title+' '+i.cell+' '+i.caption_line1+' '+i.body).toLowerCase().includes(q)));
+  const shown = list.filter(i=>(ideaFilter==='all'||i.shape===ideaFilter) && (!q || (i.title+' '+i.cell+' '+(i.lane||'')+' '+i.caption_line1+' '+i.body).toLowerCase().includes(q)));
   const sched = {}; D.calendar.forEach(r=>{ sched[r.idea_n] = `${fmtDay(r.date)} ${r.slot}`; });
-  h += shown.map(i=>`<details id="idea-${i.n}"><summary>${i.n}. ${esc(i.title)} <span class="shape ${i.shape}">${D.shapes[i.shape].name}</span></summary>
-    <div class="meta" style="margin-top:8px"><span>${esc(i.cell)}</span> · ${D.shapes[i.shape].length} · ${sched[i.n]?'scheduled '+sched[i.n]:'not on the 15-day calendar'}</div>
+  h += shown.map(i=>`<details id="idea-${i.n}"><summary>${i.n>=101?epLabel(i.n)+':':i.n+'.'} ${esc(i.title)} ${i.lane?`<span class="lane ${i.lane.toLowerCase()}">${esc(i.lane)}</span>`:`<span class="shape ${i.shape}">${D.shapes[i.shape].name}</span>`}</summary>
+    <div class="meta" style="margin-top:8px"><span>${esc(i.cell)}</span> · ${esc(i.length_note||D.shapes[i.shape].length)} · ${sched[i.n]?'scheduled '+sched[i.n]:(i.spare?'spare: covers a missed day or the day-15 swap':'in the bank, not on the 30-day calendar')}</div>
     <div class="body">${esc(i.body)}</div>
     ${i.caption_line1?`<div class="cap"><small>Caption line 1</small>${esc(i.caption_line1)}</div>`:''}
     ${i.evidence?`<div class="tiny" style="margin-top:8px">Evidence: ${esc(i.evidence)}</div>`:''}
@@ -270,7 +306,7 @@ function renderIdeas(){
 
 // ---- SHOOT
 function renderShoot(){
-  let h = `<h2>The four shapes</h2>` + Object.entries(D.shapes).map(([k,s])=>`<div class="card"><div class="title" style="font-size:22px"><span class="shape ${k}">${s.name}</span> &nbsp;${s.length}</div><div class="tiny">Posts ${s.when}</div><ol class="steps">${s.how.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`).join('');
+  let h = `<h2>The shapes</h2>` + Object.entries(D.shapes).map(([k,s])=>`<div class="card"><div class="title" style="font-size:22px"><span class="shape ${k}">${s.name}</span> &nbsp;${s.length}</div><div class="tiny">Posts ${s.when}</div><ol class="steps">${s.how.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`).join('');
   h += `<h2>Built for a million (check before you film)</h2><div class="card"><ul class="check" data-cl="mil">` + D.million_checklist.map((t,i)=>`<li class="${state['cl-mil-'+i]?'ok':''}"><input type="checkbox" data-i="${i}" ${state['cl-mil-'+i]?'checked':''}><span>${esc(t)}</span></li>`).join('') + `</ul><div class="row"><button class="btn ghost" data-reset="mil">reset</button></div></div>`;
   h += `<h2>Camera, every time</h2><div class="card"><ol class="steps">
     <li>Pocket 3 on the fender or a magnet mount, Face Auto-Detect on, record, then walk in. Every talking shot opens with a move.</li>
