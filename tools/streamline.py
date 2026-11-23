@@ -398,7 +398,8 @@ def cmd_render(args):
     out = Path(args.out); work = out.parent / (out.stem + "_work"); work.mkdir(parents=True, exist_ok=True)
     trc = (ffprobe(src, "stream=color_transfer") or [""])[0]
     hdr = "arib-std-b67" in trc or "smpte2084" in trc
-    tone = ("zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=mobius:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p," if hdr else "")
+    # npl=203 is the HLG reference white. npl=100 with mobius blew out iPhone HLG shot in direct sun (Jake took the 2026-11-22 post down for it).
+    tone = ("zscale=t=linear:npl=203,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p," if hdr else "")
     vf = tone + "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1"
     ENC = ["-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "14", "-pix_fmt", "yuv420p", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
            "-x264-params", "colorprim=bt709:transfer=bt709:colormatrix=bt709"]
@@ -428,7 +429,7 @@ def cmd_render(args):
         if args.no_captions:  # lockup only
             txt = ass.read_text(encoding="utf-8").splitlines(); ass.write_text("\n".join(l for l in txt if not l.startswith("Dialogue: 0,")), encoding="utf-8")
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(nocap), "-vf", f"ass={ffpath(ass)}:fontsdir={ffpath(args.fonts)}", "-c:a", "copy"] + EXP + [str(out)], check=True)
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-vf", "fps=1,scale=240:-1,tile=8x6", str(out.with_name(out.stem + "_qa.jpg"))], check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-vf", "fps=1,scale=240:-1,tile=8x6", "-frames:v", "1", str(out.with_name(out.stem + "_qa.jpg"))], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.0", "-i", str(out), "-frames:v", "1", str(out.with_name(out.stem + "_cover.jpg"))], check=True)
     plan["render"] = {"out": str(out), "nocap": str(nocap), "ass": str(ass), "caption_groups": n, "lockup": args.lockup}
     Path(args.plan).write_text(json.dumps(plan, indent=1, ensure_ascii=False), encoding="utf-8")

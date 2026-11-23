@@ -236,3 +236,7 @@ Every `C:\Users\Parts\...` path in this repo is the shop PC. On the laptop the s
 - Not on the laptop yet: `tools\models` (YuNet for facetrack and dfc_track, RVM for matte, Kokoro for vo_scratch), `venv-voice`, `venv-sfx`, the sfx-kit wavs, `rival-reels\public\cards` and plates. The fast tier, streamline and card reels without partner logos work; face tracking, the matte and the scratch voice do not until those are fetched.
 - The shop PC's Claude memories (`project_elcoyotediesel_instagram`, `project_editing_mastery`, the partner references) are not on the laptop. Anything a laptop session needs from them has to be written into this repo.
 - `tools/coyote.py` picks the inbox and watch-list folders that exist on the machine it runs on.
+
+## Look before you edit, 2026-11-23
+
+**Read `research/2026-11-23-LOOK-GUIDE.md` before any cut, and run its look check (section 9) before Jacob sees anything.** It is what the reels actually look like on screen, written after the laptop session edited from the rule files alone and Jacob took the post down ("the edit sucks, like the lighting"; "I gave so much info and reels to look at and you've only got worse"). Rules and lint scores do not judge the picture. Open the frames. His brief for a talking head: the whole message, under a minute, creative, attention on the first frame, and nothing washed out.
