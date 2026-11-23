@@ -34,7 +34,7 @@ Under 500 reach at 48 h = no read, does not rank. One variable per post or nothi
 - Weekly re-run of `outlier_watchlist.py` (40 accounts, outlier = views over the account median, 5x flags) files new outliers into cells.
 - Trend calendar: `research/2026-11-21-trend-calendar-30d.md` (PRI Dec 10 to 12, holiday shop memes, the Jan "new year new build" slot). Audio: trending check Monday in the order dashboard, Ignix, CreatorDB; the song is chosen for the format it carries, added in-app.
 - Cadence: two posts a day is the bounded 15-day sprint the matrix needs for clean reads; after day 30 the floor is 3 to 4 reels a week (research/2026-11-21-live-instagram-algorithm.md), with the mirrors on TikTok and Shorts carrying the extra. Do not run two a day forever.
-- Shooting batches that make the plan one-man: five skits in one lunch break with one coworker, five memes in one cutout session against the flat wall, rollers one take each, stories the only evening work.
+- Shooting batches that make the plan one-man: five solo skits in one lunch break (locked-off camera, the other voice is an on-screen pill or one side of a phone call), five memes in one cutout session against the flat wall, rollers one take each, stories the only evening work.
 
 ## Hooks and sends (the rules that moved numbers)
 

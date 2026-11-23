@@ -77,7 +77,7 @@ Facts from Jacob, 2026-11-22: the truck starts and runs, badly, and it does not 
 Frame 1: a receipt pile on the hood, VO: "Everybody asks what a frame swap costs. Nobody posts the number. Here is mine so far, to the dollar." Every line item on screen as a chip on its word (specchips), the surprise item, the running total count-up, the line "and I have not bought the part everyone thinks is the expensive one." 60 to 90 s. Caption line 1: "Send this to the guy who says a frame swap is cheap."
 
 **33. Shop x Two-man skit (joegotti 7.3M, 63 s): "Is parts a trade?"**
-One shot, the counter, a tech and Jacob. The tech says parts is not a trade. Jacob answers with the day: the part number with eleven digits, the core, the truck that is "the one with the hood up", the backorder with no update, the customer whose belt has been shredded since July. The turn: the tech needs a part and cannot name it. 60 s. Caption line 1: "Tag the tech who thinks parts is not a trade."
+Solo, to the lens, at the counter after hours ("I work there"). Open: "A tech told me today that parts isn't a trade." Jacob answers with the day: the part number with eleven digits, the core, the truck that is "the one with the hood up", the backorder with no update, the customer whose belt has been shredded since July. The turn: "Same tech, an hour later: 'I need the thing that goes on the thing.'" 60 s. Caption line 1: "Tag the tech who thinks parts is not a trade."
 
 **34. Shop x Narrated story (Dave's 2.0M, 89 s): "A parts manager, a 7.3, and the shop I might run one day."**
 Frame 1: Jacob at the counter or in the bay, VO: "I order parts for semis all day. After hours this bay is where a 1959 Ford is getting a 7.3 that everybody said could not make power." The build so far as trouble: the frame, the engine, the hours after the shift, the cost, the one thing that went right, and the line that he wants to be associated with this place because one day he may run it. 80 to 100 s. Caption line 1: "For everyone building something after a ten-hour shift."
@@ -92,7 +92,7 @@ Jacob reads the top comments from the swap-vote posts (Cummins, LS, Coyote, keep
 Oversteer's "problems from the last mechanic" shape (4.9M): the bodges found on the F600 and the frame donor, one by one, with the fix. 90 s. Caption line 1: "Send this to the guy who bought a 'fully sorted' truck."
 
 **38. Shop x Two-man skit: "It just started doing that today."**
-The customer line every service writer knows, played at the counter with a coworker as the customer; the belt shredded since July, the light on since 2024. 60 s. Caption line 1: "Every service writer has this customer. Send it to yours."
+Solo, one side of a counter phone call. The customer line every service writer knows, Jacob alone on the counter phone and we only hear him: "When did it start? ... Today. And the belt? ... Since July. And the light? ... Since 2024. So it just started." 60 s. Caption line 1: "Every service writer has this customer. Send it to yours."
 
 **39. Numbers x Story: "What a truck at SEMA actually costs."**
 The exhibitor rule, the fee, the transport, the booth partner, the deadline, told as a budget with the gaps. 60 to 90 s. Caption line 1: "For the guy who thinks you just drive your truck to SEMA."

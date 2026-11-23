@@ -33,7 +33,7 @@ SHAPES = {
                      "No talking. Your own cutout or your own footage, never a borrowed clip.",
                      "One LOUDER lockup on the hook, nothing else burned in. Sound added inside Instagram."]},
     "skit": {"name": "Skit", "length": "55 to 70 s", "when": "AM 09:00 to 11:00 MT",
-             "how": ["One shot, one coworker, played straight. The turn lands on the last line and you cut on it.",
+             "how": ["Solo, always: nobody else films with Jacob. One locked-off shot. The other voice is a pill on screen or one side of a phone call. The turn lands on the last line and you cut on it.",
                      "A universal work situation: the backorder, the core charge, 'it just started doing that today'.",
                      "Bank five in one lunch break. Phone or Pocket 3 locked off, no music, no text.",
                      "The ask is spoken once at the end or lives in caption line 1. Never burned in."]},
@@ -134,6 +134,16 @@ def parse_idea(i: dict) -> dict:
     return out
 
 
+def trials() -> list[dict]:
+    """data/instagram/trials.tsv: the planned Trial Reels (one a day at lunch). A day with no row is a
+    trial twin of that day's PM episode (same episode, different first line). research/2026-11-23-TRIAL-REELS-SCHEDULE.md."""
+    f = ROOT / "data" / "instagram" / "trials.tsv"
+    if not f.exists(): return []
+    rows = [l.split("	") for l in f.read_text(encoding="utf-8").splitlines() if l.strip()]
+    head, body = rows[0], rows[1:]
+    return [dict(zip(head, r + [""] * (len(head) - len(r)))) for r in body]
+
+
 def main():
     cal = coyote.calendar()
     ideas = {n: parse_idea(i) for n, i in coyote.ideas().items()}
@@ -167,6 +177,7 @@ def main():
         "post_checklist": POST_CHECK,
         "rules": RULES,
         "pending": pend,
+        "trials": trials(),
         "reads": reads[-40:],
         "posts": posts[:40],
     }

@@ -245,3 +245,9 @@ Every `C:\Users\Parts\...` path in this repo is the shop PC. On the laptop the s
 ## Correction, 2026-11-23
 
 - **Trial Reels are open at 200 followers for professional accounts** (Instagram Help Center, help.instagram.com/1013292530224018, read through search 2026-11-23; personal accounts need 1,000). The account is a Creator account at 577, so the "locked until 1,000" open item above is dead. Jacob still has to confirm the Trial toggle on his share screen. How to run them: `research/2026-11-23-TRIAL-REELS-PLAYBOOK.md` (three jobs: hook test, second life for winners, recruiting reel; one a day; automatic share off).
+
+## Solo only, and the idea list is under review, 2026-11-23 (Jacob, shop PC session)
+
+- **"No other person will film with me."** Every idea is filmed by Jacob alone: no coworker, no second voice on set, nobody holding the camera. A second voice in a skit is an on-screen pill or one side of a phone call. The nine bank ideas that used a coworker (4, 10, 12, 16, 22, 28, 33, 38, and the skit shape text) were rewritten solo the same day. All 60 scheduled two-a-day episodes were already solo.
+- **"I just really don't like most of the ideas you have for filming."** Said the same day, after seeing the idea lists. Which ideas and why is not known yet. Do not generate another batch on top of this; ask him what he would be glad to film (one question at a time), then rebuild the list from his answers.
+- Trial Reels: one a day at lunch is his ask (`research/2026-11-23-TRIAL-REELS-SCHEDULE.md`, rows in `data/instagram/trials.tsv`, read by `tools/build_portal.py` into `data.json` as `trials`). That schedule was written against the older calendar before this branch was merged in; a day with no row is a trial twin of that day's PM episode, per the 10K plan.

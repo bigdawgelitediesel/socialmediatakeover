@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T23:46-07:00",
+ "generated_at": "2026-11-23T10:19-07:00",
  "plan_name": "Two talking heads a day",
  "plan_doc": "playbook/13-two-a-day-30-day-plan.md",
  "plan_first_date": "2026-11-24",
@@ -733,7 +733,7 @@
    "cell": "Fails x Two-man skit",
    "title": "Did it fit?",
    "evidence": "empty cell",
-   "body": "Coworker off camera: \"Did it fit?\" Jacob: \"It fit.\" \"...Did it fit?\" \"It fit on the bench.\" One shot at the frame, cut on the last word. 7 s. Caption line 1: \"For every shop that has asked this question twice in one day.\" Backed by Shop x Skit (23 posts, 1.79); albertamechanic's clean versions at 2.5 to 3.5. Day 12 morning.",
+   "body": "Solo. The question is a white pill on screen, nobody else in the shot: pill \"Did it fit?\" Jacob, alone at the frame: \"It fit.\" Pill again: \"...Did it fit?\" \"It fit on the bench.\" One locked-off shot, cut on the last word. 7 s. Caption line 1: \"For every shop that has asked this question twice in one day.\" Backed by Shop x Skit (23 posts, 1.79); albertamechanic's clean versions at 2.5 to 3.5. Day 12 morning.",
    "shape": "skit",
    "length": "55 to 70 s",
    "caption_line1": "For every shop that has asked this question twice in one day.",
@@ -799,7 +799,7 @@
    "cell": "Shop x Two-man skit",
    "title": "It's a sensor.",
    "evidence": "23 posts, median 11.2x, median share 1.79",
-   "body": "Coworker: \"What's it need?\" Jacob: \"A sensor.\" \"Which one?\" Jacob holds up a can of brake clean. Cut on the can. 6 s, one shot at the counter, no music, no text. Caption line 1: \"Send this to the guy whose diagnosis is always 'it's a sensor.'\" Backed by Lifted Rippers 44, 103, 126; joegotti 30; the albertamechanic clean versions. Day 2 morning.",
+   "body": "Solo. Pill on screen: \"What's it need?\" Jacob, alone at the counter: \"A sensor.\" Pill: \"Which one?\" Jacob holds up a can of brake clean. Cut on the can. 6 s, one locked-off shot, no music, the two pills are the only text. Caption line 1: \"Send this to the guy whose diagnosis is always 'it's a sensor.'\" Backed by Lifted Rippers 44, 103, 126; joegotti 30; the albertamechanic clean versions. Day 2 morning.",
    "shape": "skit",
    "length": "55 to 70 s",
    "caption_line1": "Send this to the guy whose diagnosis is always 'it's a sensor.'",
@@ -821,11 +821,11 @@
    "cell": "Shop x Clip + question caption",
    "title": "Who's this at your shop?",
    "evidence": "1 post, Lifted Rippers \"tag your favorite coworker\"",
-   "body": "Frame 1: a coworker doing the thing everyone's coworker does (opening a third energy drink, carrying one bolt across the shop, standing in the bay door), one pill: \"WHO'S THIS AT YOUR SHOP?\" No speech, 8 s. Caption line 1: \"Every shop has this guy. This one's for him.\" Backed by 150 and the DDC energy-drink nature doc (6.89 percent). Day 8 morning.",
+   "body": "Solo. Frame 1: Jacob himself, camera locked off wide, doing the thing everyone's coworker does (carrying one bolt the whole length of the shop, opening a third energy drink, standing in the bay door looking busy), one pill: \"WHO'S THIS AT YOUR SHOP?\" No speech, 8 s. Caption line 1: \"Every shop has this guy. This one's for him.\" Backed by 150 and the DDC energy-drink nature doc (6.89 percent). Day 8 morning.",
    "shape": "question",
    "length": "9 to 25 s",
    "caption_line1": "Every shop has this guy. This one's for him.",
-   "frame1": "a coworker doing the thing everyone's coworker does (opening a third energy drink, carrying one bolt across the shop, standing in the bay door), one pill: \"WHO'S THIS AT YOUR SHOP?\" No speech, 8 s."
+   "frame1": "Jacob himself, camera locked off wide, doing the thing everyone's coworker does (carrying one bolt the whole length of the shop, opening a third energy drink, standing in the bay door looking busy), one pill: \"WHO'S THIS AT YOUR SHOP?\" No speech, 8 s."
   },
   "13": {
    "n": 13,
@@ -865,7 +865,7 @@
    "cell": "Identity x Two-man skit",
    "title": "Nice Cummins.",
    "evidence": "empty cell",
-   "body": "At the fuel island or the lot, Jacob walks up to a parked Powerstroke and tells its owner (a coworker) \"nice Cummins.\" The owner just looks at him. 6 s, cut on the look. Caption line 1: \"Send this to the guy who calls every diesel a Cummins.\" Backed by Shop x Skit and MEME-ECONOMY meme 4. Day 11 morning.",
+   "body": "Solo. Jacob stands at the fender of his own Powerstroke, badge in frame. Pill on screen: \"Guy at the pump: nice Cummins.\" Jacob just looks at the lens, then at the badge, then back. 6 s, cut on the look. Caption line 1: \"Send this to the guy who calls every diesel a Cummins.\" Backed by Shop x Skit and MEME-ECONOMY meme 4. Day 11 morning.",
    "shape": "skit",
    "length": "55 to 70 s",
    "caption_line1": "Send this to the guy who calls every diesel a Cummins.",
@@ -931,7 +931,7 @@
    "cell": "Old x Two-man skit",
    "title": "Numbers matching?",
    "evidence": "empty cell",
-   "body": "Buddy: \"What year?\" Jacob: \"Fifty-nine.\" \"Original?\" \"The cab is.\" \"...And?\" \"That's it.\" One shot in front of the cab, cut on \"that's it.\" 8 s. Caption line 1: \"For the guy who asks 'numbers matching?' at every show.\" Backed by Shop x Skit and the classic tribe's purist argument. Day 14 morning.",
+   "body": "Solo. The questions are pills on screen: \"What year?\" Jacob, alone in front of the cab: \"Fifty-nine.\" Pill: \"Original?\" \"The cab is.\" Pill: \"...And?\" \"That's it.\" One locked-off shot, cut on \"that's it.\" 8 s. Caption line 1: \"For the guy who asks 'numbers matching?' at every show.\" Backed by Shop x Skit and the classic tribe's purist argument. Day 14 morning.",
    "shape": "skit",
    "length": "55 to 70 s",
    "caption_line1": "For the guy who asks 'numbers matching?' at every show.",
@@ -997,7 +997,7 @@
    "cell": "Numbers x Two-man skit",
    "title": "Promise you won't get mad?",
    "evidence": "4 posts; Lifted Rippers 122x \"promise you won't get mad\"",
-   "body": "Jacob to a coworker (or Abby, off camera): \"Promise you won't get mad?\" \"...What did you buy.\" \"A turbo.\" \"Which one.\" \"...The second one.\" Cut on \"second.\" 10 s, one shot at the parts shelf. Caption line 1: \"For whoever has a 'promise you won't get mad' part in the garage right now.\" Backed by 10, 91, 133. Day 15 morning.",
+   "body": "Solo, one side of a phone call. Jacob alone at the parts shelf, phone to his ear, we only hear him: \"Promise you won't get mad?\" (listens) \"...A turbo.\" (listens) \"...The second one.\" Cut on \"second.\" 10 s, one locked-off shot. Caption line 1: \"For whoever has a 'promise you won't get mad' part in the garage right now.\" Backed by 10, 91, 133. Day 15 morning.",
    "shape": "skit",
    "length": "55 to 70 s",
    "caption_line1": "For whoever has a 'promise you won't get mad' part in the garage right now.",
@@ -1052,7 +1052,7 @@
    "cell": "Shop x Two-man skit",
    "title": "Is parts a trade?",
    "evidence": "joegotti 7.3M, 63 s",
-   "body": "One shot, the counter, a tech and Jacob. The tech says parts is not a trade. Jacob answers with the day: the part number with eleven digits, the core, the truck that is \"the one with the hood up\", the backorder with no update, the customer whose belt has been shredded since July. The turn: the tech needs a part and cannot name it. 60 s. Caption line 1: \"Tag the tech who thinks parts is not a trade.\"",
+   "body": "Solo, to the lens, at the counter after hours (\"I work there\"). Open: \"A tech told me today that parts isn't a trade.\" Jacob answers with the day: the part number with eleven digits, the core, the truck that is \"the one with the hood up\", the backorder with no update, the customer whose belt has been shredded since July. The turn: \"Same tech, an hour later: 'I need the thing that goes on the thing.'\" 60 s. Caption line 1: \"Tag the tech who thinks parts is not a trade.\"",
    "shape": "skit",
    "length": "55 to 70 s",
    "caption_line1": "Tag the tech who thinks parts is not a trade.",
@@ -1107,7 +1107,7 @@
    "cell": "Shop x Two-man skit",
    "title": "It just started doing that today.",
    "evidence": "",
-   "body": "The customer line every service writer knows, played at the counter with a coworker as the customer; the belt shredded since July, the light on since 2024. 60 s. Caption line 1: \"Every service writer has this customer. Send it to yours.\"",
+   "body": "Solo, one side of a counter phone call. The customer line every service writer knows, Jacob alone on the counter phone and we only hear him: \"When did it start? ... Today. And the belt? ... Since July. And the light? ... Since 2024. So it just started.\" 60 s. Caption line 1: \"Every service writer has this customer. Send it to yours.\"",
    "shape": "skit",
    "length": "55 to 70 s",
    "caption_line1": "Every service writer has this customer. Send it to yours.",
@@ -2748,7 +2748,7 @@
    "length": "55 to 70 s",
    "when": "AM 09:00 to 11:00 MT",
    "how": [
-    "One shot, one coworker, played straight. The turn lands on the last line and you cut on it.",
+    "Solo, always: nobody else films with Jacob. One locked-off shot. The other voice is a pill on screen or one side of a phone call. The turn lands on the last line and you cut on it.",
     "A universal work situation: the backorder, the core charge, 'it just started doing that today'.",
     "Bank five in one lunch break. Phone or Pocket 3 locked off, no music, no text.",
     "The ask is spoken once at the end or lives in caption line 1. Never burned in."
@@ -2881,6 +2881,80 @@
    "posted_iso": "2026-11-21T13:00",
    "due_iso": "2026-11-23T13:00",
    "status": "due"
+  }
+ ],
+ "trials": [
+  {
+   "date": "2026-11-24",
+   "type": "RECUT",
+   "title": "10-mil meme, new first two seconds",
+   "what": "The 10-mil meme with a new first two seconds, cut to 8 s. Never the same file twice.",
+   "length": "6 to 12 s loop",
+   "source": "the 2026-10-26 post, no shooting"
+  },
+  {
+   "date": "2026-11-25",
+   "type": "MEME",
+   "title": "POV: you told your wife it was a $700 truck",
+   "what": "One slow pan of the F600, one line of text, song added in-app.",
+   "length": "6 to 12 s loop",
+   "source": "one 8 to 10 s pan of the F600"
+  },
+  {
+   "date": "2026-11-26",
+   "type": "RECUT",
+   "title": "When the build isn't going as quickly as you'd like",
+   "what": "Past winner (2.5 percent sends) with a new open. Thanksgiving, zero effort.",
+   "length": "6 to 15 s",
+   "source": "the 2026-10-27 post, no shooting"
+  },
+  {
+   "date": "2026-11-27",
+   "type": "MEME",
+   "title": "Parts guy math: it's only $40. Times 31.",
+   "what": "One shot of a parts shelf or a receipt pile, one line of text.",
+   "length": "6 to 12 s loop",
+   "source": "one 8 s shot"
+  },
+  {
+   "date": "2026-11-28",
+   "type": "RECRUIT",
+   "title": "If you've got a truck you swear you'll finish, this page is for you",
+   "what": "Cab talking head to strangers: name who it is for, name the itch, say what the page is, end on \"it's all on the page\".",
+   "length": "15 to 25 s",
+   "source": "one extra take during tonight's sit"
+  },
+  {
+   "date": "2026-11-30",
+   "type": "RECRUIT",
+   "title": "If you've ever been told a frame swap is cheap",
+   "what": "Cab talking head to strangers, second script.",
+   "length": "15 to 25 s",
+   "source": "one extra take during the sit"
+  },
+  {
+   "date": "2026-12-01",
+   "type": "RECUT",
+   "title": "Harley Trade, new open",
+   "what": "Harley Trade re-cut for strangers.",
+   "length": "10 to 15 s",
+   "source": "Reel 1, no shooting"
+  },
+  {
+   "date": "2026-12-04",
+   "type": "MEME",
+   "title": "Customer: it just started doing that. The truck:",
+   "what": "The roughest thing in the yard, one line of text.",
+   "length": "6 to 12 s loop",
+   "source": "one 8 s shot"
+  },
+  {
+   "date": "2026-12-05",
+   "type": "RECRUIT",
+   "title": "I order parts for semis all day",
+   "what": "Cab talking head to strangers, third script.",
+   "length": "15 to 25 s",
+   "source": "one extra take during the sit"
   }
  ],
  "reads": [
