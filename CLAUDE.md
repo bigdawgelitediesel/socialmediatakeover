@@ -241,3 +241,7 @@ Every `C:\Users\Parts\...` path in this repo is the shop PC. On the laptop the s
 ## Look before you edit, 2026-11-23
 
 **Read `research/2026-11-23-LOOK-GUIDE.md` before any cut, and run its look check (section 9) before Jacob sees anything.** It is what the reels actually look like on screen, written after the laptop session edited from the rule files alone and Jacob took the post down ("the edit sucks, like the lighting"; "I gave so much info and reels to look at and you've only got worse"). Rules and lint scores do not judge the picture. Open the frames. His brief for a talking head: the whole message, under a minute, creative, attention on the first frame, and nothing washed out.
+
+## Correction, 2026-11-23
+
+- **Trial Reels are open at 200 followers for professional accounts** (Instagram Help Center, help.instagram.com/1013292530224018, read through search 2026-11-23; personal accounts need 1,000). The account is a Creator account at 577, so the "locked until 1,000" open item above is dead. Jacob still has to confirm the Trial toggle on his share screen. How to run them: `research/2026-11-23-TRIAL-REELS-PLAYBOOK.md` (three jobs: hook test, second life for winners, recruiting reel; one a day; automatic share off).
