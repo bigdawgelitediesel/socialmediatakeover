@@ -1,0 +1,41 @@
+Reel: https://www.instagram.com/reel/DNBCJoiOp9J/
+Account: @mosseri
+Posted: 2025-08-06
+Length: 114 s
+Likes: 46051  Comments: 2167 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Introducing three new features to help you better connect with friends: Reposts, Friend Map, and a ‘Friends’ feed in the Reels tab.
+
+🔁 With Reposts, you can now reshare public content from your favorite creators and have it show up in a new tab on your profile or in your friends’ recommendations.
+🗺With Friend Map, you can choose to share your location with the friends you choose.
+📱And with the ‘Friends’ feed in the Reels tab, you’ll see content your friends are enjoying.
+
+Let me know what you think 👇🏼
+
+Transcript:
+[00:00.3 -> 00:04.5] This week we're launching three new features to help you connect with your friends on Instagram.
+[00:04.9 -> 00:07.9] We want Instagram not only to be a place where we support creativity,
+[00:08.4 -> 00:11.3] but one where you connect with the people that you care about most.
+[00:12.0 -> 00:17.3] Now those features are reposts, a friend map, and a friend's feed in the Reels tab.
+[00:18.2 -> 00:21.3] On reposts, it's been a request for many years now,
+[00:21.6 -> 00:26.1] and the reason why we're doing it now is at this point a lot of what you see on Instagram are
+[00:26.1 -> 00:31.0] recommendations from accounts you do not follow, and reposts are a way to make those more social,
+[00:31.4 -> 00:35.9] more friendly. Also, they're a way to give more credit back to the original content creators,
+[00:36.0 -> 00:39.2] because we know people already download and re-upload content on Instagram.
+[00:40.2 -> 00:43.9] The second is a friend map. Now this is an opt-in experience, but if you want,
+[00:44.1 -> 00:48.8] you can share your location with your close friends list, or a custom list of people
+[00:48.8 -> 00:52.7] that you care about and trust most. And when they go to the map, which you can get to
+[00:52.7 -> 00:57.7] from the top of the inbox, they will see the location of people who've decided to share their
+[00:57.7 -> 01:04.2] location with them, as well as any photos, carousels, reels, or stories that have location attached
+[01:04.2 -> 01:08.6] to them. So it's a great way not only to stay connected with your closest friends,
+[01:08.8 -> 01:14.9] but also to see what's going on around you. And the third is a friend's feed in the Reels tab.
+[01:15.4 -> 01:19.2] Now this has been launched in the US for a while now, but we're expanding globally to
+[01:19.2 -> 01:25.3] the rest of the world. And it's a great way to explore your interests and your friend's interests,
+[01:25.5 -> 01:30.3] get to know a little bit more about them. And now, in addition to including Reels that they have liked
+[01:30.3 -> 01:34.6] and Reels that they have commented on, there also will be Reels that they have reposted,
+[01:34.6 -> 01:39.6] because we're going to have reposts. We're doing this one because we want Instagram to be
+[01:39.6 -> 01:45.4] not just a lean back experience that is fun and entertaining, but also a participatory
+[01:45.4 -> 01:49.0] one, one where you actually engage with and connect with the people that you care about.
+[01:49.5 -> 01:52.9] So let me know down below in the comments what you think. More to come soon. Peace.

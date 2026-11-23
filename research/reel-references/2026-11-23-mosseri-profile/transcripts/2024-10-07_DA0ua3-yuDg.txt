@@ -1,0 +1,34 @@
+Reel: https://www.instagram.com/reel/DA0ua3-yuDg/
+Account: @mosseri
+Posted: 2024-10-07
+Length: 43 s
+Likes: 233111  Comments: 12168 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+The first three seconds of a reel are super important. Some of the best hooks I’ve seen are those that use text and set expectations for what you’re about to see. Try experimenting with different types of hooks to see what works best for you.
+
+Transcript:
+[00:00.0 -> 00:03.1] The first three seconds of a reel are super important.
+[00:03.5 -> 00:04.4] Now we call this the hook.
+[00:04.7 -> 00:07.1] Now that doesn't necessarily mean you need to bait the user
+[00:07.1 -> 00:08.3] or have a cliffhanger,
+[00:08.6 -> 00:10.7] but you do need to get the user's attention
+[00:10.7 -> 00:12.2] because as they're scrolling through feed,
+[00:12.3 -> 00:13.5] you have a brief moment
+[00:13.5 -> 00:16.1] where you might actually get them invested
+[00:16.1 -> 00:17.9] in hearing what else you have to say.
+[00:18.5 -> 00:19.6] A couple of things I recommend.
+[00:20.0 -> 00:22.1] One, use text when possible
+[00:22.1 -> 00:23.0] because a lot of times
+[00:23.0 -> 00:24.8] people actually have to sound off to start.
+[00:25.5 -> 00:27.0] And two, set expectations.
+[00:27.4 -> 00:28.9] Let people know what you're gonna talk about
+[00:28.9 -> 00:30.3] so they know if they are interested
+[00:30.9 -> 00:32.3] in viewing a bit further.
+[00:32.8 -> 00:34.0] Try this out, let me know.
+[00:34.1 -> 00:36.0] There's different ways of creating hooks
+[00:36.0 -> 00:38.0] and hopefully if you experiment enough,
+[00:38.1 -> 00:39.7] you'll find it'll help you reach.
+[00:40.0 -> 00:41.3] Let me know below in the comments what you think.
+[00:41.9 -> 00:42.2] Peace.

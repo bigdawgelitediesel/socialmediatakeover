@@ -1,0 +1,29 @@
+Reel: https://www.instagram.com/reel/CzrVMSjPbnN/
+Account: @mosseri
+Posted: 2023-11-15
+Length: 82 s
+Likes: 22543  Comments: 3945 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+🔔 New photo filters, reels editing tools and more!
+
+Transcript:
+[00:00.0 -> 00:04.3] This week, we're announcing a bunch of new creative tools for those of you who make content for
+[00:04.3 -> 00:10.7] Instagram. First, photo editing filters. It's been a long time since we've updated the filters for
+[00:10.7 -> 00:16.5] feed photos. And so we're adding new filters with all cool and warm modes for each. So take
+[00:16.5 -> 00:20.0] a look at those if you'd like to share photos on Instagram. Now, for those of you who share
+[00:20.0 -> 00:23.8] Reels and video on Instagram, we've got some improvements coming to you around the
+[00:23.8 -> 00:29.3] editing tools. So you will now be able to zoom, rotate and even crop individual clips
+[00:29.3 -> 00:34.7] within a reel, as well as there's now an undo and a redo button, which shouldn't make making
+[00:34.7 -> 00:41.0] Reels for Instagram easier. We have new text to speech voices specifically in English. So please
+[00:41.0 -> 00:44.8] check those out as well. Now, I don't want you to feel like you have to use every creative
+[00:44.8 -> 00:49.3] tool that we build on Instagram. You should pick and choose the tools that help you
+[00:49.3 -> 00:53.1] express yourself the way you'd like to as a creator. One last one, though I do want
+[00:53.1 -> 00:57.6] to call out is replays. So you've always been able to replay Reels that you watch on Instagram.
+[00:58.0 -> 01:02.8] We're going to now start counting those replays towards your view count. This is actually an
+[01:02.8 -> 01:07.4] industry standard and just an oversight on our part. So you will see your view counts go up.
+[01:07.6 -> 01:10.3] That doesn't actually change your reach. We just want to make sure that view count
+[01:10.3 -> 01:15.1] reflects how many times people actually viewed your videos. So check that out as well. And
+[01:15.1 -> 01:18.0] let me know down below in the comments if there's any other creative tools you'd like
+[01:18.0 -> 01:21.6] to see us build. And we'll try and take a look. See y'all next week. Peace.

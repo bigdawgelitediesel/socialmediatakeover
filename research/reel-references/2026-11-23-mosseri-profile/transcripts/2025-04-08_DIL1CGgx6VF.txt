@@ -1,0 +1,40 @@
+Reel: https://www.instagram.com/reel/DIL1CGgx6VF/
+Account: @mosseri
+Posted: 2025-04-08
+Length: 58 s
+Likes: 13934  Comments: 500 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+📣 Updates to Teen Accounts: Last year, we announced Teen Accounts, a new experience with automatic protections for teens to give parents more peace of mind. We’re adding new protections around live video and images in DMs based on feedback from parents and expanding Teen Accounts to Facebook and Messenger. 
+
+We want to be the safest platform for teens online, and these are a few more steps in that direction. More to come.
+
+Transcript:
+[00:00.0 -> 00:01.7] A quick update on teen accounts,
+[00:01.9 -> 00:03.8] which we launched last year starting in the US,
+[00:04.0 -> 00:06.6] and the idea being a set of automatic protections
+[00:06.6 -> 00:09.2] for teens that hopefully give parents a piece of mind.
+[00:09.8 -> 00:10.9] Now, the way teen accounts work,
+[00:11.0 -> 00:12.9] they were safe defaults across things
+[00:12.9 -> 00:14.0] like what content they can see
+[00:14.0 -> 00:16.5] and who they can message, for teens.
+[00:17.1 -> 00:18.8] And if teens want to change those settings
+[00:18.8 -> 00:19.8] in their under 16,
+[00:20.0 -> 00:22.3] they would actually need their parents' permission to do so.
+[00:22.7 -> 00:24.4] And we've seen 97% of teens
+[00:24.4 -> 00:25.9] actually keep those safest settings.
+[00:26.6 -> 00:28.7] Now, we do wanna make sure that if you are a parent
+[00:28.7 -> 00:29.9] and you have the time and interest,
+[00:30.1 -> 00:33.0] you can shape the experience your teen has on Instagram
+[00:33.0 -> 00:34.7] and to what's most appropriate for them
+[00:34.7 -> 00:37.4] because ultimately, you know what's best for your kid.
+[00:38.1 -> 00:39.9] And today, we're actually announcing a few improvements
+[00:39.9 -> 00:42.6] to teen accounts, improvements around how we handle live
+[00:42.6 -> 00:45.0] and some message protections as well.
+[00:45.6 -> 00:47.7] We're also announcing that we're bringing teen accounts
+[00:47.7 -> 00:49.4] to Messenger and to Facebook
+[00:49.8 -> 00:53.1] because we do wanna be the safest platform for teens online
+[00:53.1 -> 00:55.3] and these are just a few more steps in that direction.
+[00:55.8 -> 00:56.3] More to come.
+[00:56.8 -> 00:57.1] Peace.

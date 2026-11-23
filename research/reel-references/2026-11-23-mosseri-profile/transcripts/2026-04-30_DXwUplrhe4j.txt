@@ -1,0 +1,66 @@
+Reel: https://www.instagram.com/reel/DXwUplrhe4j/
+Account: @mosseri
+Posted: 2026-04-30
+Length: 110 s
+Likes: 113908  Comments: 4562 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Original creators deserve to be rewarded for their work, not compete with accounts that simply re-upload it. Over the next month, we’re expanding a policy we already have for Reels to cover photos and carousels too: if you mostly share content from others that you didn’t make or meaningfully edit, your account won’t be recommended to people who don’t follow you.
+
+You can check your Account Status anytime to see where you stand or to appeal. Link in bio for more on these changes.
+
+Transcript:
+[00:00.0 -> 00:02.1] If you're a creator or an aggregator on Instagram,
+[00:02.3 -> 00:03.5] there's a big change coming this week
+[00:03.5 -> 00:04.6] that you should really know about.
+[00:05.2 -> 00:06.9] Now, about two years ago, we announced
+[00:06.9 -> 00:09.0] that we were gonna try to shift more reach
+[00:09.0 -> 00:11.4] from aggregators and people who repost
+[00:11.4 -> 00:14.5] other people's content to the original content creators.
+[00:15.2 -> 00:16.6] And the way this works is we try to take a look
+[00:16.6 -> 00:18.3] at everything you post over a month
+[00:18.3 -> 00:20.0] and if most of what you posted
+[00:20.0 -> 00:21.7] is content from other accounts,
+[00:22.2 -> 00:25.1] we make it so that your account's content
+[00:25.1 -> 00:28.3] is no longer recommended to people who do not follow you.
+[00:28.3 -> 00:30.3] We don't get between you and your followers, though.
+[00:31.0 -> 00:34.0] But until now, we've only looked at the reels
+[00:34.0 -> 00:35.3] you've posted over the last month.
+[00:35.9 -> 00:38.3] So we're trying to give everyone a bit of a heads up here,
+[00:38.4 -> 00:40.0] but over the next month, we're gonna start looking
+[00:40.0 -> 00:41.9] at your photos and your carousels as well.
+[00:42.5 -> 00:44.4] So if most of what you post to Instagram
+[00:44.4 -> 00:45.7] is someone else's content,
+[00:46.4 -> 00:49.6] your account is no longer going to be recommendable.
+[00:49.6 -> 00:52.0] That means that we're no longer gonna show your posts
+[00:52.0 -> 00:54.1] to people who don't follow your account proactively.
+[00:54.7 -> 00:57.0] You can figure out if your account is caught up in this
+[00:57.0 -> 00:59.6] by going to account status and then checking for your status.
+[01:00.2 -> 01:01.2] If you think we made a mistake,
+[01:01.4 -> 01:03.2] you can actually appeal and let us know
+[01:03.2 -> 01:03.9] that we made a mistake.
+[01:04.4 -> 01:05.9] But if you are an aggregator
+[01:05.9 -> 01:07.2] and you want to still maximize your reach,
+[01:07.3 -> 01:08.3] a few things to consider,
+[01:08.3 -> 01:09.4] because we know that aggregators
+[01:09.4 -> 01:10.8] are an important part of the ecosystem.
+[01:11.5 -> 01:13.8] One is remix the content in some way, shape, or form.
+[01:14.0 -> 01:14.6] Make it your own.
+[01:14.8 -> 01:15.7] You can do your green screen
+[01:15.7 -> 01:17.8] or your own words on top or your own commentary.
+[01:18.8 -> 01:20.3] The other is if you don't have a way
+[01:20.3 -> 01:22.9] to make a spin on the content to make it your own,
+[01:23.1 -> 01:24.8] you can either repost someone else's content
+[01:25.7 -> 01:27.0] using the repost button,
+[01:27.1 -> 01:28.3] which gives them credit where it's due,
+[01:28.9 -> 01:30.7] or you can actually do a collab post,
+[01:30.8 -> 01:33.3] again giving credit back to that original content creator,
+[01:33.4 -> 01:34.6] which we really want to make sure
+[01:34.6 -> 01:37.5] that we are valuing in Instagram and in ranking.
+[01:38.2 -> 01:40.2] So this is just one more thing we're doing to try
+[01:40.2 -> 01:42.9] and make sure we are going to be the best possible
+[01:42.9 -> 01:44.5] platform for original content creators.
+[01:44.9 -> 01:45.9] There's a lot more to come.
+[01:46.3 -> 01:46.7] See you soon.
+[01:47.3 -> 01:47.5] Peace.

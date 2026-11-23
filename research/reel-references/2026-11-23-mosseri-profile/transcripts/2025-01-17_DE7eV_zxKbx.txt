@@ -1,0 +1,28 @@
+Reel: https://www.instagram.com/reel/DE7eV_zxKbx/
+Account: @mosseri
+Posted: 2025-01-17
+Length: 49 s
+Likes: 216256  Comments: 5603 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+📣 Bringing your friends to the Reels tab. We want Instagram to not only be a place where you consume entertaining content, but one where you connect over that content with friends. Now, when you go to the Reels tab, you’ll see a dedicated feed of reels your friends have liked or added a note to in the top right and start a conversation with them right there. We’re rolling this out in a handful of countries to start, more to come soon.
+
+Transcript:
+[00:00.0 -> 00:02.4] We're going to bring your friends to the Reels tab on Instagram.
+[00:02.9 -> 00:06.2] We want Instagram not to be just a place where creatives share their creativity,
+[00:06.3 -> 00:10.5] but one where people connect over that creativity with friends, with shared interests.
+[00:11.2 -> 00:14.0] And so what we're going to do is we're going to add some friends to the Reels tab.
+[00:14.2 -> 00:16.7] So when you go to the Reels tab, you'll see a few friends in the top right.
+[00:17.2 -> 00:21.5] And if you tap on that pill, you end up with a dedicated feed of Reels that your friends have
+[00:21.5 -> 00:24.5] liked. And you can see which friends have actually liked those Reels.
+[00:24.6 -> 00:26.5] And if you tap on them, you can start a conversation with them.
+[00:26.7 -> 00:27.7] Maybe you have a shared interest.
+[00:27.7 -> 00:31.8] You both think the comedian is super funny or the architecture is really interesting.
+[00:32.3 -> 00:36.6] We're doing this because we want Instagram to be not just a lean back experience,
+[00:36.7 -> 00:38.7] but a participatory one, a social one.
+[00:38.9 -> 00:42.3] One where you actually explore your interests with your friends.
+[00:42.6 -> 00:44.6] And hopefully this helps do that just a little bit more.
+[00:45.1 -> 00:45.7] So check it out.
+[00:45.8 -> 00:47.7] Let me know what you think down below in the comments and more to come soon.
+[00:48.2 -> 00:48.5] Peace.

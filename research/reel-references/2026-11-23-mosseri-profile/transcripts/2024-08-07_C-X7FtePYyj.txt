@@ -1,0 +1,22 @@
+Reel: https://www.instagram.com/reel/C-X7FtePYyj/
+Account: @mosseri
+Posted: 2024-08-07
+Length: 48 s
+Likes: 34064  Comments: 1779 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+📈 We’re making an update within insights to make “Views” the primary metric for Reels, Stories, photos and carousels. Historically we’ve shown different metrics for Reels vs other posts, but we want to evolve this so it’s easier to understand how your content is doing regardless of the format. We’ll roll this out over the next few weeks.
+
+Transcript:
+[00:00.0 -> 00:04.1] I wanted to give you a quick heads up about a change coming to insights on Instagram.
+[00:04.6 -> 00:08.4] Now for a long time now you've been able to see how many plays a reels get and we're going to
+[00:08.4 -> 00:13.0] evolve that forward and make it consistent across all types of content. So photos,
+[00:13.3 -> 00:18.8] carousels, stories and reels and we're now going to call it views. So your view is different
+[00:18.8 -> 00:23.3] than your reach. The same person can view the same piece of content multiple times. We're
+[00:23.3 -> 00:27.6] now calculating it in the same way, deduping it in the same way across photos, carousels,
+[00:27.6 -> 00:31.8] stories and reels and you're going to be seeing this roll out over the next couple of weeks.
+[00:32.1 -> 00:35.6] Now if you're trying to figure out how your content is doing the best thing to look at are not only
+[00:35.6 -> 00:40.3] views but also sends per reach which I've talked about in the past. So sends, reach and views,
+[00:40.5 -> 00:44.7] probably the most important metrics for anybody trying to understand how their content is doing
+[00:44.7 -> 00:46.8] on Instagram. See y'all soon. Peace.

@@ -1,0 +1,19 @@
+Reel: https://www.instagram.com/reel/C-sQPoCPZnV/
+Account: @mosseri
+Posted: 2024-08-15
+Length: 34 s
+Likes: 19149  Comments: 1708 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+AMA: Why do you prioritize sends over saves in ranking?
+
+Transcript:
+[00:00.1 -> 00:04.8] Why do we prioritize sends instead of saves? Well, we actually do value both in ranking
+[00:04.8 -> 00:09.0] But we focus more on sends primarily because our whole hope is to inspire creativity
+[00:09.0 -> 00:12.6] That brings people together and if you say something that's great
+[00:12.6 -> 00:15.8] But it's usually something you do on your own if you see a
+[00:15.8 -> 00:19.7] Comedy bit that makes you laugh out loud and then you send it to a friend who you know
+[00:19.7 -> 00:24.1] It's gonna laugh just as hard as you did. That's a different type of connection. That is a
+[00:24.9 -> 00:30.1] Social experience not just a solo experience and we're very focused on bringing people together
+[00:30.1 -> 00:33.0] But saves matter too, so don't ignore those either

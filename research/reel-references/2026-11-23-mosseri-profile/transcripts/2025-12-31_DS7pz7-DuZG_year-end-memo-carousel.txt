@@ -1,0 +1,31 @@
+Post: https://www.instagram.com/p/DS7pz7-DuZG/
+Account: @mosseri
+Posted: 2025-12-31
+Type: carousel, 20 text slides (black serif on white)
+Likes: 102525 (read 2026-11-23)
+Source of words: read by eye from the 20 slide images. His slides use long dashes; they are written here as commas, nothing else changed.
+
+Post caption:
+A few thoughts on why creators will continue to matter, how aesthetics are changing, and no longer believing what we see in a world of infinite synthetic content as we head into 2026.
+
+Slides:
+1. The key risk Instagram faces is that, as the world changes more quickly, the platform fails to keep up. Looking forward to 2026, one major shift: authenticity is becoming infinitely reproducible.
+2. Everything that made creators matter, the ability to be real, to connect, to have a voice that couldn't be faked, is now accessible to anyone with the right tools. Deepfakes are getting better. AI generates photos and videos indistinguishable from captured media.
+3. Power has shifted from institutions to individuals because the internet made it so anyone with a compelling idea could find an audience. The cost of distributing information is zero.
+4. Individuals, not publishers or brands, established that there's a significant market for content from people. Trust in institutions is at an all-time low. We've turned to self-captured content from creators we trust and admire.
+5. We like to complain about "AI slop," but there's a lot of amazing AI content. Even the quality AI content has a look though: too slick, skin too smooth. That will change, we're going to see more realistic AI content.
+6. Authenticity is becoming a scarce resource, driving more demand for creator content, not less. The bar is shifting from "can you create?" to "can you make something that only you could create?"
+7. Unless you are under 25, you probably think of Instagram as feed of square photos: polished makeup, skin smoothing, and beautiful landscapes. That feed is dead. People stopped sharing personal moments to feed years ago.
+8. The primary way people share now is in DMs: blurry photos and shaky videos of daily experiences. Shoe shots and unflattering candids. This raw aesthetic has bled into public content and across artforms.
+9. The camera companies are betting on the wrong aesthetic. They're competing to make everyone look like a pro photographer from 2015. But in a world where AI can generate flawless imagery, the professional look becomes the tell.
+10. Flattering imagery is cheap to produce and boring to consume. People want content that feels real. Savvy creators are leaning into unproduced, unflattering images. In a world where everything can be perfected, imperfection becomes a signal.
+11. Rawness isn't just aesthetic preference anymore, it's proof. It's defensive. A way of saying: this is real because it's imperfect.
+12. Relatively quickly, AI will create any aesthetic you like, including an imperfect one that presents as authentic. At that point we'll need to shift our focus to who says something instead of what is being said.
+13. For most of my life I could safely assume photographs or videos were largely accurate captures of moments that happened. This is clearly no longer the case and it's going to take us years to adapt.
+14. We're going to move from assuming what we see is real by default, to starting with skepticism. Paying attention to who is sharing something and why. This will be uncomfortable, we're genetically predisposed to believing our eyes.
+15. Platforms like Instagram will do good work identifying AI content, but they'll get worse at it over time as AI gets better. It will be more practical to fingerprint real media than fake media.
+16. Camera manufacturers will cryptographically sign images at capture, creating a chain of custody.
+17. Labeling is only part of the solution. We need to surface much more context about the accounts sharing content so people can make informed decisions. Who is behind the account?
+18. In a world of infinite abundance and infinite doubt, the creators who can maintain trust and signal authenticity, by being real, transparent, and consistent, will stand out.
+19. We need to build the best creative tools. Label AI-generated content and verify authentic content. Surface credibility signals about who's posting. Continue to improve ranking for originality.
+20. Instagram is going to have to evolve in a number of ways, and fast.

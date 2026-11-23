@@ -1,0 +1,17 @@
+Reel: https://www.instagram.com/reel/DdHG8YVyxvr/
+Account: @mosseri
+Posted: 2026-09-10
+Length: 25 s
+Likes: 44988  Comments: 3528 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Starting to roll out today, you can now add posts you’re tagged in to your grid. Small thing, but it should give you a bit more control over your profile. Let me know what you think.
+
+Transcript:
+[00:00.7 -> 00:05.8] Small update you can now add any photo or video that you're tagged to to your profile grid
+[00:05.8 -> 00:09.3] So you can go to your profile and then to your tag tab
+[00:09.3 -> 00:13.5] And if you long press any photo or video that you're tagged in there'll be an option
+[00:13.5 -> 00:17.8] Which is add to grid you can also do so from DMs, which is where you'll get notified if you are tagged
+[00:17.8 -> 00:18.8] Check it out
+[00:18.8 -> 00:23.8] Hopefully this is one more way that you can make Instagram's or your profile brother into what you want it to be

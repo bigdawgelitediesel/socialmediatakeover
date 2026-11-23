@@ -1,0 +1,25 @@
+Reel: https://www.instagram.com/reel/C7opYxFxicG/
+Account: @mosseri
+Posted: 2024-05-31
+Length: 23 s
+Likes: 92791  Comments: 1150 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Discussing hashtags with @mkbhd ☝🏼
+
+While hashtags can help people interested in specific topics find your content, they won’t necessarily increase your content’s visibility.
+
+Transcript:
+[00:00.0 -> 00:02.1] I have a screenshot of one of your stories where you,
+[00:02.2 -> 00:05.7] someone asks you do hashtags improve visibility
+[00:05.7 -> 00:06.8] and you said no.
+[00:06.9 -> 00:07.3] Not really.
+[00:07.3 -> 00:08.6] Just like screenshot of that.
+[00:09.1 -> 00:11.2] So anytime a brand's like, can we do the hashtag?
+[00:11.6 -> 00:14.5] I'd be like, here's the man telling you, no need.
+[00:14.6 -> 00:18.0] We should get a domain that's like do hashtags help reach.com
+[00:18.0 -> 00:20.1] and then we can just put in the canonical.
+[00:20.4 -> 00:20.5] No.
+[00:21.0 -> 00:22.5] Just a no, that's it.
+[00:22.6 -> 00:23.0] It's big no.

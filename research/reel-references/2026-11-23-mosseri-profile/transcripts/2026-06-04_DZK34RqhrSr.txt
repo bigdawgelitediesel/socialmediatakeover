@@ -1,0 +1,27 @@
+Reel: https://www.instagram.com/reel/DZK34RqhrSr/
+Account: @mosseri
+Posted: 2026-06-04
+Length: 68 s
+Likes: 97074  Comments: 4974 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+For those of you who want a little more out of Instagram, we’re launching Instagram Plus. It’s a subscription that includes fun extra ways to connect and share on Instagram. The free version of the app is not changing. We’ve been testing this for a while and learned a lot about what people actually find valuable. If you try it out, let me know what you think.
+
+Transcript:
+[00:00.2 -> 00:04.1] This week we're launching a subscription for those of you who want a little more out of Instagram
+[00:04.1 -> 00:08.6] It's called Instagram plus and it consists of a bunch of fun little extra features
+[00:08.6 -> 00:12.5] You can extend your stories to 48 hours from 24 hours
+[00:12.5 -> 00:18.5] You can actually see how many people have rewatched your story not who but how many times it was rewatched
+[00:18.5 -> 00:22.9] You can search your story viewer list which people have asked about for a very long time
+[00:22.9 -> 00:25.8] You can even get a little preview of someone else's story
+[00:25.8 -> 00:32.4] Not the full thing, but just a preview by long pressing on it without triggering your name showing up on their story viewer list and
+[00:33.0 -> 00:36.4] More fun things. So I encourage you to check it out. If you are interested
+[00:36.4 -> 00:39.7] Please go to profile settings and you can sign up right there
+[00:39.7 -> 00:41.8] I want to be clear if you are not interested
+[00:41.8 -> 00:46.0] That's totally fine. Nothing is changing about the free version of Instagram for everybody else
+[00:46.0 -> 00:50.7] But I'm excited about us extending our subscriptions program from meta verified to something
+[00:50.7 -> 00:53.8] That's helpful for anybody not just professionals
+[00:53.8 -> 00:59.4] And also for us to develop the ability to build things that people are actually excited about and willing to pay for
+[00:59.4 -> 01:02.9] Which is a new thing for us here at meta and particularly here at Instagram
+[01:02.9 -> 01:06.4] So check it out and let me know what you think more to come. Peace

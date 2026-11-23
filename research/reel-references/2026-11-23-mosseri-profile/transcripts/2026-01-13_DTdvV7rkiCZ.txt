@@ -1,0 +1,12 @@
+Reel: https://www.instagram.com/reel/DTdvV7rkiCZ/
+Account: @mosseri
+Posted: 2026-01-13
+Length: 24 s
+Likes: 25306  Comments: 852 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+We’re expanding Your Algo to all English speakers globally today. If you haven’t seen this yet, you can tune your algorithm in the Reels tab by adding and removing topics based on your interests. Since it’s the start of the year, for a limited time you can also tell your algo the top three interests you want to see more of in 2026. It’s been fun to see people play around with this so far, excited to see what everyone is into.
+
+Transcript:
+(No speech. Screen recording of the Your Algorithm topic picker set to music.)

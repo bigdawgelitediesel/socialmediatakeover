@@ -1,0 +1,24 @@
+Reel: https://www.instagram.com/reel/DPmEdiuEWUj/
+Account: @mosseri
+Posted: 2025-10-09
+Length: 37 s
+Likes: 56677  Comments: 2240 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+You can now translate your reels between English, Português, Español, and हिंदी. It’s been exciting to see how this helps connect people and creators across language barriers. More language to come soon.
+
+Transcript:
+[00:00.5 -> 00:04.0] Most of the videos on Instagram are in a language that you don't speak,
+[00:04.2 -> 00:06.3] but that does not mean that you're not interested in them.
+[00:06.7 -> 00:10.7] And so today we're announcing that we're expanding our translations to more languages.
+[00:10.9 -> 00:13.2] So, I'll take video post-carte-samet,
+[00:13.3 -> 00:16.6] or I'll switch all the troops to English, Spanish, Portuguese,
+[00:17.2 -> 00:18.9] or Hindi-manuat-karpangue,
+[00:19.0 -> 00:21.4] for the biggest languages on Instagram and Facebook,
+[00:21.8 -> 00:22.8] on both platforms.
+[00:23.4 -> 00:27.1] What we're trying to do is help people who have creative things to say
+[00:27.1 -> 00:29.8] to reach people who maybe don't speak the same language as them.
+[00:29.8 -> 00:31.9] So, take a look, let me know what you think.
+[00:32.2 -> 00:35.2] We have many more languages to cover, so there will be more soon.
+[00:35.4 -> 00:35.5] Peace!

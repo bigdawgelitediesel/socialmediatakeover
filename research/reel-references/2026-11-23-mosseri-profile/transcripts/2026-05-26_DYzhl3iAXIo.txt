@@ -1,0 +1,46 @@
+Reel: https://www.instagram.com/reel/DYzhl3iAXIo/
+Account: @mosseri
+Posted: 2026-05-26
+Length: 81 s
+Likes: 44578  Comments: 2151 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+A few tips on how to read your insights, particularly engagement rates and connected versus unconnected reach.
+
+Transcript:
+[00:00.0 -> 00:01.1] Short video with some advice
+[00:01.1 -> 00:02.8] on how to read your insights on Instagram.
+[00:03.1 -> 00:05.7] Also, by the way, insights are on edits as well,
+[00:05.7 -> 00:07.9] particularly for those of you who create reels.
+[00:08.3 -> 00:11.6] Now, the thing I think that matters most
+[00:11.6 -> 00:13.0] in that you really should focus on
+[00:13.0 -> 00:15.3] is not how much reach your post got.
+[00:15.5 -> 00:16.8] That is an important thing obviously,
+[00:17.0 -> 00:19.8] but if you wanna understand why a post got more or less
+[00:19.8 -> 00:22.2] reach, you should focus on your engagement rates.
+[00:22.8 -> 00:24.7] So of all the people who saw the post,
+[00:24.8 -> 00:27.2] how many of them actually engaged with that post?
+[00:27.3 -> 00:29.0] They liked it, or they sent it to a friend,
+[00:29.0 -> 00:31.9] or they commented on it, or they saved it, et cetera.
+[00:32.6 -> 00:34.1] You should also take a look at
+[00:34.1 -> 00:36.6] the connected reach versus the unconnected reach.
+[00:37.0 -> 00:38.0] Now, what connected reach is,
+[00:38.0 -> 00:41.1] is the number of people who saw your post
+[00:41.1 -> 00:42.4] who actually follow you,
+[00:43.0 -> 00:45.0] and unconnected reach, or recommendations,
+[00:45.5 -> 00:47.4] is the number of people who don't follow you,
+[00:47.4 -> 00:49.5] who actually saw your post.
+[00:49.8 -> 00:52.2] And the engagement rates that matter most very slightly.
+[00:52.3 -> 00:55.0] So for instance, like rates matter more
+[00:55.0 -> 00:58.4] for your followers, and send rates matter more
+[00:58.4 -> 01:00.0] for those who don't follow you.
+[01:00.6 -> 01:03.2] These were a couple tips to try to help you
+[01:03.2 -> 01:06.3] figure out how to work out why one post
+[01:06.3 -> 01:08.1] a real might do better or worse than another.
+[01:08.6 -> 01:11.3] If you've got any questions, please feel free to ask
+[01:11.3 -> 01:12.9] and definitely always check out your insights.
+[01:13.1 -> 01:14.6] We're gonna continue to try to improve them
+[01:14.6 -> 01:16.4] to give you good information
+[01:16.4 -> 01:18.4] about what's happening on the platform and why.
+[01:18.7 -> 01:20.0] More to come later.

@@ -1,0 +1,20 @@
+Reel: https://www.instagram.com/reel/DfXTeEvhDoV/
+Account: @mosseri
+Posted: 2026-11-05
+Length: 53 s
+Likes: 67175  Comments: 4141 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Edits is on desktop. The idea is to give you more space to be as creative as you’d like with your editing, whether it’s for Instagram or anywhere else. This has been the number one thing you all have asked for, so I’m excited it’s out. Give it a try on Mac and let me know what you think.
+
+Transcript:
+[00:00.2 -> 00:06.0] A big announcement this week for edits is that we are finally launching the desktop version for Mac.
+[00:06.6 -> 00:14.9] Now a desktop app of edits has been the number one request that we've gotten from the more than 50 million people who use edits every month
+[00:14.9 -> 00:17.6] and it's finally launching worldwide.
+[00:18.1 -> 00:24.2] The whole idea is to give those who are trying to create videos not just for Instagram but for any platform online
+[00:24.2 -> 00:28.4] more space to be able to make exactly what they want to make.
+[00:28.4 -> 00:35.2] It just allows you to be more precise with some of the more detailed tools like color corrections and music tools.
+[00:35.9 -> 00:41.1] So give it a try, let me know what you think and just know that I'm very excited about the edits app more broadly
+[00:41.1 -> 00:48.2] both mobile and desktop being a foundation for a lot of the powerful tools that we're going to be building over the next year or two
+[00:48.2 -> 00:51.5] for all of you creatives out there. More to come. Peace.

@@ -1,0 +1,40 @@
+Reel: https://www.instagram.com/reel/DFFyRp-pINJ/
+Account: @mosseri
+Posted: 2025-01-21
+Length: 87 s
+Likes: 53254  Comments: 2813 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+I’m going to break down how ranking works on Instagram in a series of videos in a way that hopefully helps creators best leverage the platform. 
+
+At a high level, there are two types of ranking on Instagram: 
+- Connected reach (accounts that follow you) 
+- Unconnected reach (accounts that don’t yet follow you)
+
+For both, the top three signals that matter most for ranking are watch time, likes and sends. So when looking at your insights, pay close attention to average watch time, likes per reach, and sends per reach. 
+
+One nuance: likes are slightly more important for connected content, and sends are slightly more important for unconnected content. 
+
+Let me know what else would be helpful to unpack about ranking and I’ll try to get to it ✌🏼
+
+Transcript:
+[00:00.0 -> 00:04.3] I'm going to try and explain as best I can how ranking works on Instagram in a series of videos,
+[00:04.4 -> 00:08.6] and this is the first one, because the more you know, the better you can leverage the platform
+[00:08.6 -> 00:13.6] and the more success you can have and the better Instagram will be. So at a high level,
+[00:13.8 -> 00:19.5] there are two types of ranking on Instagram. There's one for accounts you follow. We call
+[00:19.5 -> 00:24.2] that connected reach. And there's another for accounts that do not follow you yet. We call
+[00:24.2 -> 00:29.4] that recommendations or unconnected reach. Now for both, the most important signals are
+[00:29.4 -> 00:34.3] the same three. They are how much of a video we think someone is going to watch and whether
+[00:34.3 -> 00:38.1] or not we think they're going to like that video or they're going to actually send that video to a
+[00:38.1 -> 00:45.0] friend. And so what you need to look at is average watch time, likes per reach and sends per reach.
+[00:45.5 -> 00:49.0] Now if you really want to understand the nuances, likes are actually slightly more
+[00:49.0 -> 00:53.1] important than sends for connected content and sends are actually a little bit more
+[00:53.1 -> 00:58.0] important than like for unconnected content, but time is the most important for both.
+[00:58.0 -> 01:01.4] So if you're trying to understand why one real may have done better than another,
+[01:01.8 -> 01:05.7] check out your insights and look at those metrics. And if you're specifically worried
+[01:05.7 -> 01:10.6] about posting too much, I highly encourage you to take a look at our trials feature,
+[01:10.6 -> 01:15.4] which allows you to bypass the entire connected ranking system and just go straight to the
+[01:15.4 -> 01:20.2] unconnected recommendations. So you don't risk bothering people who will follow you with too
+[01:20.2 -> 01:24.3] much content and you can just upgrade the content that does best to your followers and to your
+[01:24.3 -> 01:26.5] profile. More to come soon. Peace.

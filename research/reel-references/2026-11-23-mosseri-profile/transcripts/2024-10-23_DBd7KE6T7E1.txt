@@ -1,0 +1,14 @@
+Reel: https://www.instagram.com/reel/DBd7KE6T7E1/
+Account: @mosseri
+Posted: 2024-10-23
+Length: 15 s
+Likes: 88241  Comments: 4531 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+AMA: is it OK to watermark a reel with my own logo?
+
+Transcript:
+[00:00.2 -> 00:05.6] Simply create asks if you watermark a reel with your own logo will that affect its reach and the answer is no
+[00:05.6 -> 00:08.2] That's actually good to go. What we try to do is not
+[00:09.3 -> 00:14.1] Recommend reels with logos from other apps, but if it's your own logo, don't worry about it

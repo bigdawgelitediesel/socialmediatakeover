@@ -1,0 +1,67 @@
+Reel: https://www.instagram.com/reel/DO_T5qAEdmo/
+Account: @mosseri
+Posted: 2025-09-24
+Length: 118 s
+Likes: 70763  Comments: 2805 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Instagram is now at three billion monthly active users 🎉 While we’ve evolved over the years, we want to continue to stand for creativity in everything we do. 
+
+Messaging, reels, and recommendations have driven most of our recent growth. So, over the next few months, we’re going to better organize the app around those features.
+
+But in world where recommendations continue to grow, we know it’s important to give you more control over your experience. We’ll soon start testing a way for you to tune your algorithm by adding and removing topics based on your interests, starting with reels. We hope this will be a meaningful new way to shape what you see. 
+
+Really excited for all that’s to come. Thank you for being on the journey with us and making Instagram so special. 🙏🏼
+
+Transcript:
+[00:00.4 -> 00:02.9] Today, I want to talk about where Instagram is going.
+[00:03.6 -> 00:06.0] Just a few weeks ago, we hit an amazing milestone,
+[00:06.2 -> 00:08.5] which is over three billion monthly active users
+[00:08.5 -> 00:11.5] using Instagram, which is just a mind-blowing number
+[00:11.5 -> 00:12.6] to try to wrap your head around.
+[00:13.3 -> 00:15.1] And when we hit those types of milestones,
+[00:15.4 -> 00:17.6] I think it's really important to take a big step back
+[00:17.6 -> 00:20.5] and think about how we got here and where we're going.
+[00:21.1 -> 00:22.6] And if you look at the last few years,
+[00:23.1 -> 00:26.3] almost all our growth has been driven by DMs,
+[00:26.8 -> 00:29.4] reels and recommendations, content from accounts
+[00:29.4 -> 00:30.9] you have not yet decided to follow.
+[00:32.3 -> 00:34.7] And because of that, we're going to continue
+[00:34.7 -> 00:37.8] to focus on those products and reorient the app
+[00:37.8 -> 00:40.0] more around DMs, reels and recommendations
+[00:40.0 -> 00:41.4] over the next couple of months.
+[00:42.0 -> 00:45.2] But in that world, where following still matters,
+[00:45.3 -> 00:46.6] but not as much as it used to,
+[00:47.1 -> 00:49.1] I think we need to figure out a way to give you
+[00:49.1 -> 00:50.5] more control over the experience
+[00:50.5 -> 00:52.2] to shape it into something that you love.
+[00:52.8 -> 00:55.3] And so today, we're going to start testing
+[00:55.3 -> 00:57.4] a new way for you to tune your algorithm.
+[00:57.9 -> 01:00.3] This was heavily inspired by a meme on threads
+[01:00.3 -> 01:02.3] over a year ago called Deer Algorithm,
+[01:02.4 -> 01:04.3] where people actually ask the algorithm to do things,
+[01:04.4 -> 01:06.0] show them more of certain things and less of others.
+[01:06.7 -> 01:09.5] And you'll be able to actually go to, in the settings,
+[01:10.1 -> 01:12.8] a page that lets you know what we think you're interested in,
+[01:13.2 -> 01:15.0] and then you can make all the changes you want.
+[01:15.2 -> 01:17.3] You can remove things, add things,
+[01:17.5 -> 01:19.2] and those changes will be reflected
+[01:19.2 -> 01:20.8] at first in the Reels tab,
+[01:21.0 -> 01:23.3] and then eventually also in Explore and in Feed.
+[01:23.9 -> 01:27.6] I found it actually a really meaningful way
+[01:27.6 -> 01:30.2] to shape the experience and correct Instagram
+[01:30.2 -> 01:31.2] when it's getting things wrong,
+[01:31.6 -> 01:33.8] and add things that I love that Instagram
+[01:33.8 -> 01:35.5] didn't figure out that I was interested in.
+[01:36.0 -> 01:37.8] So check it out, let me know what you think.
+[01:38.0 -> 01:39.5] Hopefully it's a meaningful way
+[01:39.5 -> 01:42.3] for you to control the experience in a world
+[01:42.3 -> 01:44.9] where we're going to continue to lean into DMs,
+[01:45.0 -> 01:46.0] Reels, and recommendations.
+[01:47.0 -> 01:48.1] Again, I just want to thank you
+[01:48.1 -> 01:49.8] for all the things that you have all done
+[01:49.8 -> 01:51.2] to help make Instagram what it is today.
+[01:51.2 -> 01:54.8] It's been an amazing ride, and we've got a lot more to do.
+[01:55.0 -> 01:55.8] More to come soon.
+[01:56.4 -> 01:56.8] Peace.

@@ -1,0 +1,26 @@
+Reel: https://www.instagram.com/reel/Dc1CcoYgZD_/
+Account: @mosseri
+Posted: 2026-09-03
+Length: 169 s
+Likes: 64783  Comments: 3465 (read 2026-11-23)
+Source of words: read by eye from his burned-in captions, sampled every 0.7 s. The public download of this reel carries no audio track, so there is no Whisper transcript. Words in [brackets] are caption cards the sampling missed, filled from context; treat them as guesses. Caption typos are his.
+
+Post caption:
+Starting a new series about ranking on Instagram: why we do it, how it works, and what controls you have over your experience. Let me know what you want to know about ranking - more videos coming soon.
+
+Transcript (from burned-in captions):
+[opening card not captured] I thought I'd start a series of videos explaining not only why we rank content on Instagram but how we rank content, and I know it's going to be a little bit spicy in the comments, I'll just say that upfront.
+
+But why do we rank content? Well, there are many reasons but primarily for people who use Instagram to find things, it's about making the most of their time, helping them find content that they're most interested in, and for creators, those who produce content, it's about increasing the size of the pie, so there's more reach to go around.
+
+So we know a bunch of things are true. If we do not rank content, we know that the feed for the consumer gets overrun with content from the accounts that post the most often. And businesses and brands post a lot more than pages and sorry, a lot more than creators and people who post a lot more than just your friends. And so Instagram moves to a much less friend oriented place and a much less creator oriented place, and towards a much more business, news, publisher oriented place. And that I don't think is really aligned with our brand and our identity around being a creative platform.
+
+We also know that when we do don't rank content, people see a lot less content on Instagram, and the average reach for the average creator goes down significantly because the overall pie gets smaller. Obviously also our business gets [smaller]. So those are the reasons, they're the most important reasons why we rank content in the first place, and I know that's contentious.
+
+But I also want to talk a little bit about how we rank content. One thing people often say is the algorithm, but the truth is there isn't one algorithm on Instagram. We have different ways to rank different types of content. Stories are different than Reels, are different than Explore, are different than Feed. There are two general types of algorithms, one to rank content from accounts you follow and one to rank content from accounts that you do not follow. We call those recommendations.
+
+And in general, what we're trying to do is make an educated guess about what you're interested in by looking at what you've historically done on the platform, and then predicting how likely you are to like, comment, send to a friend, watch a video, watch it to the end, all these different kinds of [actions] you can perform on a piece of content that are a proxy for you saying you were interested in that content. We use those predictions to come up with relevancy scores for every post you could see, then we order posts by those scores. Recency matters a lot, which is why they are roughly in chronological order but not strictly in chronological order.
+
+We know this is an imperfect science, which is why we're not only iterating on ranking all the time, but we also provide a lot of tools for you to shape your algorithm. You can add to favorites, you can go to a following feed, you can actually see [and] leave a topic you are interested in and more. I'm actually do a couple more videos going into depth and one of the things I do, I would like to do, is speak a little bit more about what controls you have over your experience.
+
+Anyway, hopefully this helps provide some overall context and guidance for how Instagram works and why we rank content. More to come soon. Peace.

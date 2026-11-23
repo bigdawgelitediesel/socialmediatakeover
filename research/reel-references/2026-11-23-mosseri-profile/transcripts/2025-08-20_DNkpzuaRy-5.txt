@@ -1,0 +1,20 @@
+Reel: https://www.instagram.com/reel/DNkpzuaRy-5/
+Account: @mosseri
+Posted: 2025-08-20
+Length: 46 s
+Likes: 20014  Comments: 1127 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+AMA: how long should my reels be??
+
+Transcript:
+[00:00.7 -> 00:08.1] So there is no perfect length for a reel, but generally we recommend reels under three minutes because Instagram is generally focused on
+[00:08.1 -> 00:09.2] shorter video
+[00:09.2 -> 00:15.4] And I would also suggest a few things one think about what your hook is how you're gonna get someone's attention in the first three seconds
+[00:15.4 -> 00:21.6] And if you go to insights you can actually see what your drop-off rate is and whether or not you're managing to capture people's
+[00:21.6 -> 00:23.1] attention in those first three seconds
+[00:23.1 -> 00:26.9] You can also and this is new look at where in your video
+[00:26.9 -> 00:32.4] You seem to be getting your legs which might give you an indication of what part of your video people are enjoying the most
+[00:32.4 -> 00:37.1] But experiment take a look at those insights and try to figure out what works for your audience and
+[00:37.1 -> 00:44.9] Try and keep doing that because what works this month might be different than what works next month. So good luck. Peace

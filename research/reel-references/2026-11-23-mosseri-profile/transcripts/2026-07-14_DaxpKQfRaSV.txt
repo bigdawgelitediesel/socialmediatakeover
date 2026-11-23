@@ -1,0 +1,18 @@
+Reel: https://www.instagram.com/reel/DaxpKQfRaSV/
+Account: @mosseri
+Posted: 2026-07-14
+Length: 34 s
+Likes: 31356  Comments: 3336 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+We’re expanding translations to more languages on Instagram, added Japanese, Korean, French, German, and Italian. You can also now translate both your voice and any on-screen captions in the same reel together, which should make things a lot easier. We’re also rolling out more languages for translations on Facebook, including Bahasa, Indonesian, Arabic, French, Vietnamese, and Thai. More to come soon.
+
+Transcript:
+[00:00.6 -> 00:05.3] We're launching support for five more languages with AI translation starting today
+[00:05.3 -> 00:10.4] So for those of you don't know when you post a reel on Instagram you can turn on translations and now we support
+[00:11.0 -> 00:13.3] 14 different languages the new ones being
+[00:13.3 -> 00:19.6] Japanese, Korean, French, German and Italian and we translate the video. It sounds like you
+[00:19.6 -> 00:25.2] It looks like it's you who speaking it so we do the lip-syncing and if you add captions those captions are translated as well
+[00:25.2 -> 00:29.1] It's a great way to reach people who might not speak the language you speak
+[00:29.1 -> 00:33.5] I might be interested in what you have to say. So check it out. Let me know what you think. Peace

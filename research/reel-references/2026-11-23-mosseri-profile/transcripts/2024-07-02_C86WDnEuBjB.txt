@@ -1,0 +1,35 @@
+Reel: https://www.instagram.com/reel/C86WDnEuBjB/
+Account: @mosseri
+Posted: 2024-07-02
+Length: 50 s
+Likes: 46657  Comments: 3011 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+☝🏼When you’re creating content, think about creating something that people would want to send to a friend. Don’t force it, but sends are one of the biggest signals we use in ranking and can help your reach over time.
+
+Transcript:
+[00:00.0 -> 00:01.5] Okay, some advice.
+[00:02.2 -> 00:04.6] One of the most important signals we use in ranking
+[00:05.2 -> 00:07.0] is sends per reach.
+[00:07.3 -> 00:09.7] So out of all the people who saw your reel or your photo,
+[00:10.0 -> 00:12.4] how many of them sent it to a friend in a DM?
+[00:13.0 -> 00:14.4] At Instagram, we're trying to be a place
+[00:14.4 -> 00:15.6] where people can be creative,
+[00:16.0 -> 00:18.4] but in a way that brings people together.
+[00:18.9 -> 00:20.4] We want not only to be a place
+[00:20.4 -> 00:22.0] where you passively consume content,
+[00:22.3 -> 00:23.4] but where you discover things
+[00:23.4 -> 00:24.7] you wanna tell your friends about.
+[00:25.2 -> 00:27.0] How real that made you laugh so hard,
+[00:27.0 -> 00:28.7] you wanted to send it to your brother or your sister,
+[00:29.2 -> 00:31.1] or a soccer hider that blew your mind
+[00:31.1 -> 00:33.2] and you wanted to send it to another fan,
+[00:33.4 -> 00:34.2] that kind of thing.
+[00:34.7 -> 00:35.9] So don't force it as a creator,
+[00:36.0 -> 00:38.0] but if you can, when you're making content,
+[00:38.4 -> 00:41.5] think about making content that people would want to send
+[00:41.5 -> 00:44.1] to a friend, to someone that they care about,
+[00:44.4 -> 00:45.7] and it will help you reach over time.
+[00:46.2 -> 00:46.9] More advice to come.
+[00:47.6 -> 00:47.7] Peace.

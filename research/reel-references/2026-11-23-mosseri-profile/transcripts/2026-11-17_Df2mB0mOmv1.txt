@@ -1,0 +1,18 @@
+Reel: https://www.instagram.com/reel/Df2mB0mOmv1/
+Account: @siliconvalleygirl
+Posted: 2026-11-17
+Length: 25 s
+Likes: 17829  Comments: 646 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Head of Instagram @mosseri reveals his favorite feature that almost no one knows about
+
+Transcript:
+[00:00.0 -> 00:03.9] My favorite features on Instagram are not used by a lot of people, and they're not going to help you grow.
+[00:04.0 -> 00:08.8] In a DM thread with someone, you can start a blend, which is a feat of Reels for both of you.
+[00:09.0 -> 00:10.9] And you can see which is for you and which one's for me.
+[00:11.3 -> 00:14.9] A wildly interesting way to get a little insight into what someone's interests are.
+[00:15.1 -> 00:18.7] If you go to Reels tab or explore, there's a little couple hearts with some sliders.
+[00:18.9 -> 00:22.2] You can tap and you can actually see what topics we think you're interested in.
+[00:22.3 -> 00:25.2] So it's the first version of being able to see your algorithm and then edit it.

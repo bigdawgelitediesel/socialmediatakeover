@@ -1,0 +1,18 @@
+Reel: https://www.instagram.com/reel/DWooFXuADXR/
+Account: @mosseri
+Posted: 2026-04-02
+Length: 26 s
+Likes: 21014  Comments: 1775 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Back in November someone asked a question on why you can’t schedule a trial reel. It was a good idea, so we decided to do it, check it out.
+
+Transcript:
+[00:01.0 -> 00:05.9] Back in November someone asked why can't you schedule a trial reel and so we
+[00:05.9 -> 00:09.3] built it and now you can. If you're not familiar with trials basically they
+[00:09.3 -> 00:12.7] allow you to share a reel not with your followers but with people who do not
+[00:12.7 -> 00:16.4] follow you yet and you can see how well it does and if you like how it's doing
+[00:16.4 -> 00:19.4] you can upgrade it and it'll show up for your followers but also on your
+[00:19.4 -> 00:23.6] profile. Now you can actually schedule them ahead of time so check it out
+[00:23.6 -> 00:25.8] let me know what you think. More to come. Peace.

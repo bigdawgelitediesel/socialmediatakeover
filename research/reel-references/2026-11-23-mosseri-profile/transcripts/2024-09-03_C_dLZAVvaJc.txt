@@ -1,0 +1,21 @@
+Reel: https://www.instagram.com/reel/C_dLZAVvaJc/
+Account: @mosseri
+Posted: 2024-09-03
+Length: 44 s
+Likes: 122911  Comments: 5435 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+I always recommend using audio on Reels, photos and carousels. It can help with engagement and, with Reels specifically, it means you can show up on audio pages where a lot of people go for inspiration. Give it a try and see if it helps.
+
+Transcript:
+[00:00.0 -> 00:03.9] Why should you use audio when you post reels or even photos and carousels on Instagram?
+[00:04.4 -> 00:07.8] I talk about this a lot so I figured I would quickly explain why it helps with engagement.
+[00:08.5 -> 00:11.6] The first is the big one which just makes your content more engaging.
+[00:12.1 -> 00:16.1] When it's more immersive when audio is on and about half the time people have audio turned
+[00:16.1 -> 00:20.6] on when they use Instagram, you're more likely to get someone's attention and that'll help
+[00:20.6 -> 00:23.6] in terms of getting more likes, comments, and therefore more reach.
+[00:24.2 -> 00:29.0] The second is for reels specifically you get to be on the audio page and a lot of people
+[00:29.0 -> 00:34.5] go to audio pages to look for inspiration and then they might see your reel which might also
+[00:34.5 -> 00:39.8] help again with reach. Just a way to get your content in front of more people more quickly.
+[00:40.3 -> 00:43.1] Try it out, see if it works. See you all soon. Peace.

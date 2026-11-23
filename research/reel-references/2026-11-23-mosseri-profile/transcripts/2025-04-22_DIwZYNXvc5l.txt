@@ -1,0 +1,43 @@
+Reel: https://www.instagram.com/reel/DIwZYNXvc5l/
+Account: @mosseri
+Posted: 2025-04-22
+Length: 78 s
+Likes: 54657  Comments: 1988 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+Excited to officially introduce Edits - a new app for making great videos on your phone. With Edits, we want to bring your entire creative process into one place. This is just the beginning - we’ve been building this alongside creators from day one, and we’ll keep listening to feedback to keep making the app better. Give it a try and let me know what other features you’d like to see!
+
+Transcript:
+[00:00.0 -> 00:00.7] Edits is here.
+[00:01.0 -> 00:03.9] Edits is our new app for those of you who are passionate
+[00:03.9 -> 00:05.9] about making videos on your phone.
+[00:06.4 -> 00:09.1] If you use powerful desktop tools, this might not be for you.
+[00:09.4 -> 00:11.3] And if you're just posting videos here of your life,
+[00:11.4 -> 00:12.1] this might not be for you.
+[00:12.4 -> 00:14.8] But if you really are passionate about making amazing,
+[00:15.0 -> 00:17.7] entertaining, short-form video for platforms like Instagram,
+[00:18.1 -> 00:19.6] hopefully you're going to find edits compelling.
+[00:20.2 -> 00:22.6] It has a lot of features that you already know from Instagram.
+[00:22.8 -> 00:25.3] It has insights in a timeline editing tool
+[00:25.3 -> 00:28.2] and the ability to do green screens and touch up.
+[00:28.2 -> 00:30.6] But what I'm really excited about is some of the things
+[00:30.6 -> 00:32.2] that aren't actually in the Instagram app.
+[00:32.6 -> 00:35.9] There is a new cut-out AI model from our research team
+[00:35.9 -> 00:38.4] that allow you to extract a video or a piece of a video
+[00:38.4 -> 00:40.3] from a longer video, which is pretty wild to see.
+[00:40.8 -> 00:43.4] There's some new movie generation AI tools
+[00:43.4 -> 00:44.8] coming later this year.
+[00:45.2 -> 00:48.5] There is an inspiration tab where you can see reels
+[00:48.5 -> 00:50.3] with trending audio and hopefully get ideas
+[00:50.3 -> 00:51.4] for what you might want to create.
+[00:52.0 -> 00:55.2] There's actually an entire tab dedicated to your ideas
+[00:55.2 -> 00:57.2] where you can actually see everything that you save
+[00:57.2 -> 01:00.4] from Instagram and add notes or stickies for other ideas
+[01:00.4 -> 01:03.2] you might have before you're ready to commit to a full-blown project.
+[01:03.7 -> 01:06.4] We've been working really closely with creators on this for months
+[01:06.4 -> 01:07.7] and we're excited to bring it to you.
+[01:07.7 -> 01:10.0] So let me know down below in the comments what features
+[01:10.0 -> 01:11.5] you'd like to see us bring to edits first
+[01:12.2 -> 01:14.2] and what you think if you download and try the app.
+[01:14.6 -> 01:16.1] See you all soon. Peace.

@@ -1,0 +1,19 @@
+Reel: https://www.instagram.com/reel/DQMcQ26EQZi/
+Account: @mosseri
+Posted: 2025-10-24
+Length: 31 s
+Likes: 171028  Comments: 2401 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+You can now find all those reels you once saw but never knew how to get back to. Go to Settings > Your activity > Watch history 👀
+
+Transcript:
+[00:00.8 -> 00:04.8] Have you ever tried to get back to a reel that you'd seen on Instagram and you just can't find it?
+[00:05.0 -> 00:09.6] Well, there is a new feature that should help if you go to profile and under settings under your activity
+[00:09.6 -> 00:11.1] There's watch history now
+[00:11.1 -> 00:16.0] So you can see every reel that you've ever watched you can sort it from oldest to newest or newest to oldest
+[00:16.0 -> 00:21.5] You can go to a specific date or date range and you can even filter it down into a specific person or account
+[00:21.5 -> 00:26.9] That posted that reel so hopefully now you can find that thing that you were trying to find that you couldn't find before
+[00:26.9 -> 00:27.8] More to come
+[00:28.5 -> 00:28.9] Peace

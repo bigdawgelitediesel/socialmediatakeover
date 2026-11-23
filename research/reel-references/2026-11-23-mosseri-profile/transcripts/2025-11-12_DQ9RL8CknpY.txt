@@ -1,0 +1,15 @@
+Reel: https://www.instagram.com/reel/DQ9RL8CknpY/
+Account: @mosseri
+Posted: 2025-11-12
+Length: 22 s
+Likes: 60858  Comments: 1230 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+AMA: why can’t I schedule a trial reel?
+
+Transcript:
+[00:00.8 -> 00:06.7] That's actually a good idea you should be able to schedule a trial reel generally speaking when we launch new features like trials
+[00:06.7 -> 00:12.6] We don't always work through all the different ways that we can extend that feature through the rest of the product in this case
+[00:12.6 -> 00:16.4] No one thought about connecting that to the ability to schedule a reel
+[00:16.4 -> 00:21.6] So I'll talk to the team and we'll figure out if and when we can prioritize it, but it's definitely a good idea. Thanks

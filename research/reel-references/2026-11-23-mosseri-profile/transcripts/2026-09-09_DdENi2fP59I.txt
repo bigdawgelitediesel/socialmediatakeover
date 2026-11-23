@@ -1,0 +1,26 @@
+Reel: https://www.instagram.com/reel/DdENi2fP59I/
+Account: @mosseri
+Posted: 2026-09-09
+Length: 177 s
+Likes: 47724  Comments: 2346 (read 2026-11-23)
+Source of words: read by eye from his burned-in captions, sampled every 1.25 s. The public download of this reel carries no audio track, so there is no Whisper transcript. Words in [brackets] are caption cards the sampling missed, filled from context; treat them as guesses. Caption typos are his.
+
+Post caption:
+A few things you might not know about how we rank for part two of the ranking series. Beyond engagement, we also try to value originality, recency, breaking content, and we now have larger AI models to do better at ranking overall. Hope this was helpful, part three coming soon.
+
+Transcript (from burned-in captions):
+I'm going to share a few things you might not know about how ranking works on Instagram. This is part two in a short series about ranking.
+
+Now, people know that we rank content based on how interested we think people are in that content. We do that by showing people content that we think they're going to interact with based on what they've interacted with in the past. Are you likely to send this to a friend or like it or watch the video to the [end]? That's called engagement.
+
+What you might know less about is what we call our content principles and there are a number of these but there are four I want to talk about today, which are other things that we try to value in ranking in order to create the best experience that supports creativity broadly. The four are one is originality, two recency, third breaking content, and four just model size. So let's go through them real quick.
+
+Originality: We want to create a platform that gives more distribution to the original content creator than to those who reposted. So we try to estimate how likely a piece of content is to be original, to be from the account actually made that piece of content by looking at what they posted in the past and other signals. And we've actually driven that percentage way up over time, the percentage of impressions that were on original content.
+
+The second is recency. We want Instagram to respond to the world as it changes around them, and it used to be that something might happen and you would see it on Instagram three, four, five days later and that just doesn't work. So we had to go through all the different aspects of how ranking works. How long does it take to understand a piece of content, to get it considered in ranking, particularly for accounts that don't follow it, and many, many more and shorten those timelines as much as possible, so that now Instagram responds much, much more quickly to the world, and we look mostly at what percentage of impressions in a given day are of posts that are less than 24 hours old, and that number's also gone way up.
+
+Third, breaking content. We don't just want to be a place where large creators can get a lot of [reach]. We want to be a place where a new creator with a great idea can actually reach a massive audience, and we do this by auditioning content. So, we will show content from a creator or a public account to some accounts that don't follow it just to see if it might actually be more interesting [than we expected]. And if it does really well, we will do so again and again and again. So, basically, you can see a post from a small public creator reach hundreds of thousands, even millions of people, because it's just out-performing expectations, and we measure this by how many posts get over a certain [number of views] using a given day. That also has grown increasingly over the last few years.
+
+And then lastly is model size. This is less about content and more just about how smart the system is, and we have made our AI models larger and larger over the last few years in order just to get better at ranking overall and take advantage of the latest [technology].
+
+Anyway, these are some of our content principles. Hopefully, this sheds some light on how we do what we do, more to come. Peace.

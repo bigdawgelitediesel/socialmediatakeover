@@ -1,0 +1,26 @@
+Reel: https://www.instagram.com/reel/DfhtfpMh2Hw/
+Account: @mosseri
+Posted: 2026-11-09
+Length: 50 s
+Likes: 36873  Comments: 2012 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+We’re launching Effect Builder, a new way to create your own effects for Instagram. Describe the effect you want, test it on different images until it’s just right, and then publish it so other people can use it. Head to the link in my bio to try it out and let me know what you think.
+
+Transcript:
+[00:00.4 -> 00:04.6] We're launching a new tool this week called EffectsBuilder that allows you to make effects
+[00:04.6 -> 00:06.6] for Instagram or on Instagram.
+[00:07.0 -> 00:10.5] We're starting in the US and the way you can do this is you go to edits.com and it'll take
+[00:10.5 -> 00:15.2] you to the EffectsBuilder and you can describe any effect you want and you can actually
+[00:15.2 -> 00:16.3] realize that effect.
+[00:16.4 -> 00:19.7] You can test it out with a bunch of different images, see how it works, get it just right
+[00:19.7 -> 00:23.2] and then if you want to, you can publish it to Instagram and then other people
+[00:23.2 -> 00:27.3] can use that effect and when they do, you will actually get credit for that effect.
+[00:27.3 -> 00:31.3] People will be able to see that you made that effect in the first place because we really
+[00:31.3 -> 00:35.9] want to make sure that when people spend energy to make things that they get credit for that.
+[00:36.2 -> 00:41.0] We want to be a place where people come together over creativity and we empower human
+[00:41.0 -> 00:44.6] creativity and this is just one new way to do just that on Instagram.
+[00:44.9 -> 00:46.6] So check it out and let me know what you think.
+[00:46.8 -> 00:47.2] More to come.
+[00:47.7 -> 00:48.0] Peace.

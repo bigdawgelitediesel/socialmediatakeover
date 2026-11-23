@@ -1,0 +1,25 @@
+Reel: https://www.instagram.com/reel/DE-DISgytMe/
+Account: @mosseri
+Posted: 2025-01-18
+Length: 26 s
+Likes: 255625  Comments: 7278 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+📣 You can now upload reels up to three minutes long. We’ve historically only allowed reels up to 90 seconds given our focus on short-form video, but we’ve heard the feedback that this is just too short for those who want to share longer stories. Hope this helps. ✌🏼
+
+Transcript:
+[00:00.0 -> 00:02.2] Starting today you can upload reels to Instagram
+[00:02.2 -> 00:03.7] up to three minutes long.
+[00:04.2 -> 00:06.0] Now historically it's only been 90 seconds
+[00:06.0 -> 00:08.1] and that's because we wanted to focus Instagram
+[00:08.1 -> 00:10.5] on short form video, not on long form video.
+[00:10.9 -> 00:12.0] But we've heard a lot of feedback
+[00:12.0 -> 00:13.3] from a lot of you creators out there
+[00:13.3 -> 00:15.1] that 90 seconds is just too short.
+[00:15.7 -> 00:17.8] So we're hoping that upping that limit
+[00:17.8 -> 00:20.0] up to three minutes will help you tell the stories
+[00:20.0 -> 00:21.0] that you really wanna tell.
+[00:21.5 -> 00:22.8] Let me know down below in the comments
+[00:22.8 -> 00:23.3] what you think.
+[00:23.9 -> 00:24.2] Peace.

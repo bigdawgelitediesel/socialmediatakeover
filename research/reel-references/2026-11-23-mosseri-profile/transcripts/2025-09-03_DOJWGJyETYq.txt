@@ -1,0 +1,51 @@
+Reel: https://www.instagram.com/reel/DOJWGJyETYq/
+Account: @mosseri
+Posted: 2025-09-03
+Length: 84 s
+Likes: 42674  Comments: 2016 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+We’re bringing Instagram to iPad. I’m really excited about this one because we took the time to design for the bigger screen. You’ll see all the parts of the Instagram you know, but we’ve taken advantage of the extra space to make Reels more prominent, and built a following tab so you can easily stay on top of all the posts from the people you follow. Hope you enjoy, let me know what you think.
+
+Transcript:
+[00:00.0 -> 00:01.8] Today we're launching something that we've wanted to build
+[00:01.8 -> 00:05.0] for a long time, which is an iPad Instagram app.
+[00:05.6 -> 00:07.8] Now, I'm particularly excited about this
+[00:07.8 -> 00:09.8] because the more space on the bigger screen
+[00:09.8 -> 00:11.5] gives us a bunch of interesting opportunities.
+[00:12.0 -> 00:13.6] If you go to messaging, you can see your inbox
+[00:13.6 -> 00:15.0] and the thread at the same time.
+[00:15.4 -> 00:16.8] While you're looking at photos or videos,
+[00:16.9 -> 00:18.1] you can also look at the comments
+[00:18.1 -> 00:19.3] about those photos and videos
+[00:19.3 -> 00:21.4] and scroll through those both at the same time.
+[00:21.8 -> 00:24.6] But the biggest change is actually the home experience.
+[00:25.3 -> 00:27.3] And now if you look at how people use bigger screens,
+[00:27.3 -> 00:29.9] they tend to use them less times a day than a phone,
+[00:30.2 -> 00:32.8] but for more time each time they use the device.
+[00:33.3 -> 00:35.7] And that's also how people tend to consume video
+[00:35.7 -> 00:36.8] on bigger screens.
+[00:37.3 -> 00:39.8] So when you open up Instagram on an iPad,
+[00:40.3 -> 00:41.7] you're gonna get stories at the top
+[00:41.7 -> 00:43.2] and messaging will be one tap away
+[00:43.2 -> 00:45.4] because friends are critically important to the experience.
+[00:45.8 -> 00:47.0] But when you scroll in,
+[00:47.2 -> 00:48.7] you're gonna scroll into the reals viewer
+[00:48.7 -> 00:51.4] instead of into feed to try to take advantage
+[00:51.4 -> 00:53.7] of what an iPad and a tablet is,
+[00:53.7 -> 00:55.6] which a lot of times or for a lot of people
+[00:55.6 -> 00:58.2] is a media or a video consumption device.
+[00:59.0 -> 01:00.3] Now, if you wanna stay up to date
+[01:00.3 -> 01:02.7] on everything that the accounts you follow have posted,
+[01:02.9 -> 01:05.7] there's now a dedicated brand new following tab.
+[01:06.1 -> 01:07.5] And there's some powerful tools in there
+[01:07.5 -> 01:10.3] so you can get exactly to whatever it is you're interested in.
+[01:10.5 -> 01:11.5] And we're gonna be evolving
+[01:11.5 -> 01:13.2] and making those tools more powerful
+[01:13.2 -> 01:15.2] over the next couple of months and into next year.
+[01:15.8 -> 01:16.5] So check it out.
+[01:16.7 -> 01:18.1] Let me know what you think down below in the comments.
+[01:18.4 -> 01:19.0] More to come soon.
+[01:19.2 -> 01:22.0] Really excited about finally bringing this feature to all of you.
+[01:22.5 -> 01:22.8] Peace.

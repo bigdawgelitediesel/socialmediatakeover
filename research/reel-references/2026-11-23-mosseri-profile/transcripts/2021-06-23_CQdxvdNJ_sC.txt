@@ -1,0 +1,327 @@
+Reel: https://www.instagram.com/reel/CQdxvdNJ_sC/
+Account: @mosseri
+Posted: 2021-06-23
+Length: 674 s
+Likes: 41850  Comments: 12301 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+How the “Algorithm” Works 🧐
+
+It’s hard for people to trust what they don’t understand, which is why we wanted to shed more light on how Instagram works, and why you see what you see. 
+
+In this video I break down some common questions we get about... 
+- “The Algorithm”
+- Ranking Feed & Stories 
+- Ranking Explore 
+- Ranking Reels 
+- "Shadow Banning" 
+- Influencing Your Experience
+
+Our work is always evolving, and what you see in this video may change at some point, but we’re going to share more in real time when there are big changes so you can better understand what’s going on. 
+
+What are some other things you’d like to know?
+
+Transcript:
+[00:00.0 -> 00:03.1] Hey everyone, fair warning, this video is a bit long.
+[00:03.4 -> 00:05.7] Today I'm gonna talk about why you see what you see
+[00:05.7 -> 00:06.1] on Instagram.
+[00:06.6 -> 00:08.6] It is important to me that people feel good
+[00:08.6 -> 00:10.1] about the time that they spend on the platform,
+[00:10.3 -> 00:12.5] and I think an important prerequisite for that
+[00:12.5 -> 00:16.0] is to have some level understanding of how ranking works.
+[00:16.5 -> 00:19.7] So I'm gonna talk about how we rank content
+[00:19.7 -> 00:22.6] in feed and stories, how we rank content in explore,
+[00:23.0 -> 00:24.4] how we rank content in reels.
+[00:24.9 -> 00:26.2] I'm gonna talk about shadow banning,
+[00:26.6 -> 00:29.7] I'm gonna talk about how you can influence what you see
+[00:29.7 -> 00:31.4] in general across Instagram.
+[00:31.9 -> 00:34.4] If you're interested in going deeper in any of this,
+[00:34.6 -> 00:37.8] I actually posted about it back at the beginning of June.
+[00:38.0 -> 00:39.8] You can check out the link in my bio whenever you like.
+[00:40.3 -> 00:41.9] First, let's go back in time a little bit.
+[00:42.1 -> 00:45.9] Back in 2010, Instagram was just a chronological list
+[00:45.9 -> 00:50.0] of square photos, and by 2016 we were seeing
+[00:50.0 -> 00:53.6] that people were missing 70% or more of the content
+[00:53.6 -> 00:55.0] that they could see in their feed,
+[00:55.6 -> 00:58.2] and they were missing even more than half of photos
+[00:58.2 -> 01:00.0] and videos from their close friends,
+[01:00.6 -> 01:02.1] and that's when we introduced ranking.
+[01:02.4 -> 01:05.4] That's when we tried to do our best to assess
+[01:05.4 -> 01:07.9] how interested you are in each and everything you could see
+[01:07.9 -> 01:09.4] and then order things accordingly
+[01:09.4 -> 01:11.5] to hopefully make the most of your time.
+[01:11.8 -> 01:13.2] Let's talk about the algorithm.
+[01:13.6 -> 01:15.3] The algorithm just means a process,
+[01:15.5 -> 01:17.5] and in practice, even though people often talk about
+[01:17.5 -> 01:19.8] an algorithm or the algorithm at Instagram,
+[01:20.4 -> 01:22.8] there are actually many, many algorithms that we use
+[01:22.8 -> 01:25.8] to try and predict what you might be interested in
+[01:25.8 -> 01:28.2] at any given moment, and that is essentially
+[01:28.2 -> 01:29.8] what we're trying to do with ranking,
+[01:30.0 -> 01:31.5] is to make the most of your time,
+[01:32.0 -> 01:33.8] and we do that in slightly different ways
+[01:33.8 -> 01:36.0] across the different surfaces across Instagram,
+[01:36.5 -> 01:41.3] but the core order of operations is mostly the same.
+[01:41.6 -> 01:43.6] So it always starts with, first,
+[01:43.9 -> 01:45.5] let's see what is available,
+[01:45.8 -> 01:47.0] what's on the menu, so to speak.
+[01:47.5 -> 01:49.9] So for feed and stories, let's say,
+[01:50.5 -> 01:51.8] once you open up Instagram,
+[01:51.8 -> 01:53.9] we look at all of the stories that you haven't seen
+[01:53.9 -> 01:55.3] posted by the people you follow,
+[01:55.5 -> 01:57.2] and we try and assess how interested
+[01:57.2 -> 01:58.4] you might be in each and everyone,
+[01:59.0 -> 02:01.7] and to do that, the second step is to look at
+[02:01.7 -> 02:03.8] or collect all the information we have
+[02:03.8 -> 02:05.5] about those stories, about the people
+[02:05.5 -> 02:07.1] who posted those stories, about you
+[02:07.1 -> 02:08.8] and what you seem to be interested in the past,
+[02:09.5 -> 02:15.1] and we use that to assess or create a score, really,
+[02:15.3 -> 02:17.7] for each one that is supposed to represent
+[02:17.7 -> 02:19.3] as best we can, and we make mistakes,
+[02:19.3 -> 02:21.6] how interested you are in each and every one of those posts.
+[02:22.0 -> 02:24.9] And the most important signals are, one,
+[02:25.9 -> 02:26.9] information about the post itself,
+[02:27.6 -> 02:31.4] so is it a photo or a video, or is it about baking,
+[02:31.6 -> 02:32.8] or does it have a lot of likes on it?
+[02:33.5 -> 02:35.5] The second is information about the person
+[02:35.5 -> 02:38.1] who posted that content or shared that content,
+[02:38.3 -> 02:39.6] so are they a friend?
+[02:39.8 -> 02:41.0] Do they post often?
+[02:41.9 -> 02:46.5] The third is information about you, your activity.
+[02:46.8 -> 02:48.4] Do you tend to watch a lot of video?
+[02:48.4 -> 02:49.7] Do you tend not to like photos?
+[02:50.8 -> 02:53.0] And then the fourth is information we have
+[02:53.0 -> 02:54.8] about your history of interacting
+[02:54.8 -> 02:57.1] with the person who posted, so do you tend
+[02:57.1 -> 02:59.3] to comment on a lot of their stuff in the past,
+[02:59.4 -> 03:01.8] or like the photos that you see from them
+[03:01.8 -> 03:03.0] and feed in the past?
+[03:03.4 -> 03:05.5] So in feed, we take all of that information,
+[03:05.9 -> 03:08.5] and we try and assess how much each
+[03:08.5 -> 03:09.9] and every post is gonna connect you
+[03:09.9 -> 03:11.0] to the people that you care about,
+[03:11.3 -> 03:12.9] but we can't really know that,
+[03:12.9 -> 03:14.5] so we rely on proxies.
+[03:14.9 -> 03:18.8] We predict if you're gonna do something to the post.
+[03:19.0 -> 03:20.6] And the five most important things are,
+[03:21.0 -> 03:22.6] are you gonna spend some time with the post,
+[03:23.1 -> 03:25.7] how likely you are to like it, to comment on it,
+[03:25.8 -> 03:28.6] or to save it, and how likely you are to tap
+[03:28.6 -> 03:30.0] on the profile and go to the profile.
+[03:30.5 -> 03:33.1] And from there, we take all that information,
+[03:33.4 -> 03:36.3] we take those predictions, and we come up with a score,
+[03:36.6 -> 03:38.8] a number that, to the best of our knowledge,
+[03:38.9 -> 03:40.9] represents how interested you might be in that post.
+[03:41.9 -> 03:44.7] And how recent something is, is an important signal,
+[03:45.0 -> 03:46.2] but not the only signal,
+[03:46.6 -> 03:48.7] which is why feed is, roughly,
+[03:48.9 -> 03:50.2] but not strictly chronological.
+[03:51.0 -> 03:52.3] And we see that when we do this,
+[03:52.5 -> 03:54.0] when we rank content based on how interested
+[03:54.0 -> 03:55.9] we think people are in things,
+[03:56.0 -> 03:58.1] and I wanna acknowledge up front we make mistakes,
+[03:59.1 -> 04:01.9] that people not only spend more time with Instagram,
+[04:02.1 -> 04:03.6] but they connect with their friends more
+[04:03.6 -> 04:04.6] and they feel better about the time
+[04:04.6 -> 04:06.8] that they spend when we ask them in surveys,
+[04:07.0 -> 04:07.8] which we do all the time.
+[04:08.2 -> 04:09.3] Now let's talk about Explore.
+[04:09.3 -> 04:11.8] Explore is very different from feed and stories
+[04:11.8 -> 04:14.5] in that the vast majority of what you see
+[04:14.5 -> 04:16.2] is not that because you followed someone,
+[04:16.3 -> 04:18.7] it's that because we think you might be interested in it.
+[04:18.9 -> 04:20.4] So it's a very different dynamic.
+[04:20.7 -> 04:22.0] Now the steps are the same, though.
+[04:22.2 -> 04:23.6] The first step is trying to figure out
+[04:23.6 -> 04:25.3] what to rank in the first place.
+[04:25.5 -> 04:27.0] What might you be interested in?
+[04:27.3 -> 04:29.4] And it would be nice to look at everything
+[04:29.4 -> 04:30.4] across all of Instagram,
+[04:30.6 -> 04:32.7] but it's not practical for a number of reasons.
+[04:33.0 -> 04:36.2] What we try to do to start is define a group of things
+[04:36.2 -> 04:37.5] that you might have some reason
+[04:37.5 -> 04:39.1] you'd be interested in in the first place.
+[04:39.9 -> 04:42.2] And we do this through a process
+[04:42.2 -> 04:44.1] that we call collaborative filtering,
+[04:44.1 -> 04:46.8] but essentially what it is is we look at the posts
+[04:47.4 -> 04:49.0] that you have liked in the past
+[04:49.0 -> 04:50.2] and the people who shared them.
+[04:51.0 -> 04:53.3] And we look at, or we look for other people
+[04:53.3 -> 04:56.8] who've also liked those posts or follow those accounts.
+[04:57.4 -> 04:58.6] And then we fan out.
+[04:58.7 -> 05:01.2] We see what else those people like
+[05:01.2 -> 05:02.8] and what other accounts those people follow.
+[05:03.0 -> 05:04.1] That's all a little abstract,
+[05:04.4 -> 05:06.1] so let's use a more concrete example.
+[05:06.1 -> 05:09.3] Let's say you follow Mrs. Denabbe.
+[05:09.5 -> 05:10.1] She's a chef.
+[05:10.6 -> 05:12.2] She does amazing Japanese cooking
+[05:12.2 -> 05:14.8] with all of these amazing Japanese clay pots.
+[05:15.3 -> 05:17.8] We'll look at who else tends to like content
+[05:17.8 -> 05:19.1] from her account.
+[05:19.6 -> 05:23.1] And maybe they tend to also like content from Nasim,
+[05:23.4 -> 05:26.5] another amazing chef who uses reels to share his recipes.
+[05:27.3 -> 05:28.9] So then we might recommend you
+[05:29.7 -> 05:31.3] something from Nasim in Explore
+[05:31.3 -> 05:34.1] because it looks like people like you also like Nasim
+[05:34.1 -> 05:35.9] even though you haven't seen Nasim's content before.
+[05:36.6 -> 05:39.8] So that's how we start and assess all the different things
+[05:39.8 -> 05:41.6] we might rank for you in Explore in the first place.
+[05:42.3 -> 05:43.9] And then we look at all the information we have available,
+[05:44.2 -> 05:47.2] a very similar set and rough order of importance.
+[05:47.6 -> 05:48.9] It is information about the post.
+[05:49.3 -> 05:51.5] Again, things like how much likes it has, what it's about.
+[05:53.0 -> 05:55.1] Then your history of interactions with the author.
+[05:55.3 -> 05:57.9] So if you did happen to actually interact with content
+[05:57.9 -> 05:59.4] from the person who posted that,
+[05:59.7 -> 06:01.6] that is valued very highly in Explore.
+[06:03.2 -> 06:05.1] Then information about your activities.
+[06:05.3 -> 06:06.8] So do you tend to be in the cooking stuff?
+[06:07.0 -> 06:08.1] Do you tend to watch a lot of video?
+[06:08.9 -> 06:10.7] And then after that,
+[06:11.6 -> 06:15.5] information about the person who posted in the first place.
+[06:15.8 -> 06:17.3] And so what are they posting about?
+[06:17.5 -> 06:18.2] Do they post often?
+[06:18.5 -> 06:19.1] That sort of thing.
+[06:19.4 -> 06:21.6] So then we look at all that information we have
+[06:21.6 -> 06:24.1] about every post that we might rank for you in Explore
+[06:24.6 -> 06:26.8] and we again predict a few things.
+[06:27.2 -> 06:29.3] How likely you are to like, to save
+[06:29.3 -> 06:30.9] or to share those posts.
+[06:30.9 -> 06:32.9] Those are the most important predictions.
+[06:33.4 -> 06:36.5] And then all gets wrapped up into a guess,
+[06:36.8 -> 06:38.7] an educated guess about how interested you might be
+[06:38.7 -> 06:41.0] in that specific photo or video.
+[06:41.3 -> 06:43.2] And then we order everything in Explore accordingly.
+[06:43.8 -> 06:45.8] So a very similar set of signals we use
+[06:45.8 -> 06:46.9] to rank content in Explore.
+[06:47.1 -> 06:48.7] What happens to be very, very different is
+[06:48.7 -> 06:51.3] how we first look for all the content
+[06:51.3 -> 06:53.1] to rank in the first place.
+[06:53.7 -> 06:55.5] In Feed it's the people you follow
+[06:55.5 -> 06:57.7] and what they've posted and Explore it's
+[06:57.7 -> 07:00.4] the whole wide world of content on Instagram
+[07:00.4 -> 07:01.1] to start with.
+[07:01.3 -> 07:02.4] Next, let's talk about Reels.
+[07:02.8 -> 07:05.3] Reels is designed to entertain.
+[07:05.8 -> 07:09.0] Short form, mobile first video that's funny
+[07:09.0 -> 07:10.3] and exciting to watch.
+[07:10.6 -> 07:13.5] Much like Explore, most of the content you see in Reels
+[07:13.5 -> 07:14.8] isn't there because you followed someone,
+[07:15.1 -> 07:16.8] but rather because we think you might be interested
+[07:17.4 -> 07:18.1] in that video.
+[07:18.5 -> 07:21.0] And we look for videos through a similar construct
+[07:21.0 -> 07:21.9] that we do in Explore.
+[07:22.1 -> 07:24.0] Again, that fanning out type process.
+[07:24.8 -> 07:26.6] Then we look at all the information we have.
+[07:26.6 -> 07:28.5] The most important signals are,
+[07:29.1 -> 07:30.9] first and foremost, your activity.
+[07:31.2 -> 07:34.0] So do you tend to like and watch certain types of Reels?
+[07:34.1 -> 07:36.2] Maybe you're more into dance videos or funny videos.
+[07:36.6 -> 07:38.8] Next is your history of interacting with the person.
+[07:39.1 -> 07:41.8] So if you happen to actually watch a lot of Reels
+[07:41.8 -> 07:42.9] from that person in the past
+[07:42.9 -> 07:44.2] or like a lot of their content,
+[07:44.8 -> 07:46.5] that's super valuable and super important.
+[07:47.3 -> 07:49.4] Then there's information about the Reel itself.
+[07:49.7 -> 07:51.1] Simple things like how long is it
+[07:51.1 -> 07:52.0] and when was it posted.
+[07:52.9 -> 07:54.9] And then last, information about the person
+[07:54.9 -> 07:56.4] who actually posted that Reel.
+[07:56.7 -> 07:59.9] Much like you would see in Explore or in Feed and Stories.
+[08:00.4 -> 08:02.1] Then we order things in the order
+[08:02.1 -> 08:03.8] that we think you're gonna be interested in them
+[08:03.8 -> 08:05.0] and we're constantly learning
+[08:05.0 -> 08:06.1] and trying to get better at this.
+[08:06.5 -> 08:08.0] Next, I wanna talk about shadow banning.
+[08:08.4 -> 08:10.8] Shadow banning is a term that people use to describe
+[08:10.8 -> 08:12.3] all sorts of things that might happen to them
+[08:12.3 -> 08:12.9] on Instagram.
+[08:13.9 -> 08:15.3] And I wanna start by recognizing
+[08:15.3 -> 08:17.5] that we haven't done as much as we should
+[08:18.0 -> 08:21.0] to make it clear exactly why things might be happening
+[08:21.0 -> 08:22.6] on Instagram, at least not historically.
+[08:22.6 -> 08:25.3] And when people don't have information,
+[08:25.7 -> 08:27.9] it is reasonable for them to assume the worst.
+[08:28.3 -> 08:30.2] And so that's why we're looking to be more transparent
+[08:30.2 -> 08:31.6] about what we do, what we do
+[08:31.6 -> 08:33.7] and why we're creating videos like this one.
+[08:34.5 -> 08:35.5] But I wanna be clear.
+[08:35.8 -> 08:39.2] One thing that people often use the word shadow banning
+[08:39.2 -> 08:41.8] to apply to is when they're not reaching as many people
+[08:41.8 -> 08:42.9] as they think they should
+[08:42.9 -> 08:44.3] or they expect to when they post.
+[08:45.1 -> 08:45.8] But I need to be honest,
+[08:46.0 -> 08:48.4] we cannot guarantee that you're always
+[08:48.4 -> 08:49.6] gonna reach the same number of people.
+[08:49.9 -> 08:51.6] Even when ranking doesn't change at all,
+[08:51.6 -> 08:53.2] too much else changes in the world.
+[08:53.4 -> 08:54.7] What people are interested in changes,
+[08:55.4 -> 08:57.4] what else you're competing with changes.
+[08:57.6 -> 08:59.2] On Mother's Day, you're competing with a lot of photos,
+[08:59.4 -> 09:00.9] a lot of moms, people saying that they're grateful,
+[09:01.1 -> 09:03.8] which is a tough thing to compete with.
+[09:04.6 -> 09:08.4] But what we can do is make less mistakes
+[09:08.9 -> 09:12.0] and push harder to fix those mistakes more quickly.
+[09:12.4 -> 09:13.6] We can be more transparent
+[09:13.6 -> 09:15.3] about how our systems work in general
+[09:15.3 -> 09:16.3] with videos like this one.
+[09:16.8 -> 09:18.5] And we can try to do more in the product
+[09:18.5 -> 09:20.8] to let people know why something might be
+[09:21.3 -> 09:23.6] taken down when it is taken down,
+[09:23.7 -> 09:26.0] which often people struggle with.
+[09:26.5 -> 09:28.6] And another thing is I wanna clarify
+[09:28.6 -> 09:30.2] that we have community guidelines,
+[09:30.5 -> 09:32.2] rules about what can and cannot be shared
+[09:32.2 -> 09:33.5] on Instagram in the first place.
+[09:33.8 -> 09:35.3] These are mostly focused on safety,
+[09:35.3 -> 09:37.5] so you can't post hate speech or celebrate violence.
+[09:38.2 -> 09:40.6] But we also have what we call recommendation guidelines.
+[09:41.3 -> 09:43.8] Rules about what can and cannot be recommended
+[09:43.8 -> 09:45.3] in places like explore.
+[09:45.8 -> 09:47.3] Places where you're not seeing something
+[09:47.3 -> 09:48.6] because you followed an account,
+[09:48.6 -> 09:49.9] but rather because we thought
+[09:49.9 -> 09:51.1] you might be interested in it.
+[09:51.5 -> 09:53.2] And so we're looking for all sorts of ways
+[09:53.2 -> 09:56.5] to shed more light across the whole spectrum
+[09:56.5 -> 09:57.7] of how Instagram works.
+[09:58.3 -> 09:59.2] So expect to see more.
+[09:59.8 -> 10:03.2] Last, I wanna talk about how you can influence
+[10:03.2 -> 10:04.9] what you see on Instagram.
+[10:05.2 -> 10:06.6] The first and the most important thing
+[10:06.6 -> 10:07.8] is you get to decide who you follow
+[10:07.8 -> 10:09.4] and that governs what you see and feed.
+[10:09.7 -> 10:11.1] But there are other things you can do as well.
+[10:11.7 -> 10:12.9] You can use close friends,
+[10:13.1 -> 10:15.9] which is actually primarily designed as a sharing tool,
+[10:16.1 -> 10:17.9] so you can just share with a small subset of friends.
+[10:17.9 -> 10:19.5] But we will actually use that signal
+[10:20.0 -> 10:21.7] and show you content from people
+[10:21.7 -> 10:23.0] who you've marked as close friends
+[10:23.0 -> 10:25.1] higher up and feed and in stories.
+[10:25.8 -> 10:28.4] You can new people, which I love and I'm a big fan of.
+[10:28.7 -> 10:31.8] Muting allows you to stop seeing someone's posts
+[10:31.8 -> 10:33.6] and feed or stories and stories
+[10:34.2 -> 10:35.4] without unfollowing them
+[10:35.4 -> 10:37.5] because maybe you want them to find out.
+[10:38.1 -> 10:40.3] And you can also, particularly in places like explore
+[10:40.3 -> 10:42.7] and in reels, mark something as not interested.
+[10:43.0 -> 10:45.5] And we'll do our best to show you less posts
+[10:45.5 -> 10:47.0] or videos that are similar in the future.
+[10:47.5 -> 10:50.4] And again, we're exploring more that we can do in this space
+[10:50.4 -> 10:52.5] because yes, transparency is important,
+[10:52.6 -> 10:54.1] but so is giving people the ability
+[10:54.1 -> 10:56.0] to shape Instagram and to what's best for them.
+[10:56.3 -> 10:59.1] So hopefully this is one step on a longer path
+[10:59.1 -> 11:00.9] where we're giving people more control
+[11:00.9 -> 11:02.2] over their experiences on Instagram,
+[11:02.3 -> 11:03.9] but also we're being more transparent
+[11:03.9 -> 11:05.3] about how we do what we do.
+[11:05.5 -> 11:06.5] Hopefully you enjoyed it.
+[11:06.6 -> 11:08.8] If you got all the way to the end, I'm impressed.
+[11:10.3 -> 11:11.6] But more to come soon.
+[11:11.9 -> 11:12.5] Thanks for your time.
+[11:13.1 -> 11:13.3] Peace.

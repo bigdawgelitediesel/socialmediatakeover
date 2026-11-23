@@ -1,0 +1,21 @@
+Reel: https://www.instagram.com/reel/DBv8o15znHZ/
+Account: @mosseri
+Posted: 2024-10-30
+Length: 20 s
+Likes: 17120  Comments: 949 (read 2026-11-23)
+Source of words: Whisper small model on the downloaded audio. Machine transcript, expect small mishearings; his burned-in captions were used to check the lines quoted in BREAKDOWN.md where marked.
+
+Post caption:
+AMA: if I have a video that does really well, should I post again right away?
+
+Transcript:
+[00:00.3 -> 00:02.4] If you have a video that does really well,
+[00:02.5 -> 00:04.6] don't feel like you have to post again right away.
+[00:04.9 -> 00:05.9] It certainly don't force it.
+[00:06.2 -> 00:07.8] But in general, in general,
+[00:08.0 -> 00:09.9] it would be good to post relatively soon
+[00:09.9 -> 00:11.3] in the next day or two,
+[00:11.7 -> 00:13.5] if you want to capitalize on that momentum.
+[00:13.7 -> 00:14.9] Cause you've got a lot of people who are now
+[00:15.7 -> 00:17.2] expressing interest in your content
+[00:17.2 -> 00:19.0] and they're more likely to see whatever you post next.
