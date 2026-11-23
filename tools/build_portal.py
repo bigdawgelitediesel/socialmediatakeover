@@ -134,6 +134,12 @@ def parse_idea(i: dict) -> dict:
     return out
 
 
+def pinned() -> list[dict]:
+    """Cards pinned to the top of the Today tab (data/portal/pinned.json)."""
+    p = ROOT / "data" / "portal" / "pinned.json"
+    return json.loads(p.read_text(encoding="utf-8")).get("pinned", []) if p.exists() else []
+
+
 def trials() -> list[dict]:
     """data/instagram/trials.tsv: the planned Trial Reels (one a day at lunch). A day with no row is a
     trial twin of that day's PM episode (same episode, different first line). research/2026-11-23-TRIAL-REELS-SCHEDULE.md."""
@@ -178,6 +184,7 @@ def main():
         "rules": RULES,
         "pending": pend,
         "trials": trials(),
+        "pinned": pinned(),
         "reads": reads[-40:],
         "posts": posts[:40],
     }

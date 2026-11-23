@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T10:19-07:00",
+ "generated_at": "2026-11-23T11:38-07:00",
  "plan_name": "Two talking heads a day",
  "plan_doc": "playbook/13-two-a-day-30-day-plan.md",
  "plan_first_date": "2026-11-24",
@@ -2955,6 +2955,39 @@
    "what": "Cab talking head to strangers, third script.",
    "length": "15 to 25 s",
    "source": "one extra take during the sit"
+  }
+ ],
+ "pinned": [
+  {
+   "id": "2026-11-23-stomper-customs",
+   "tag": "NEW PARTNER",
+   "title": "Announce Stomper Customs: all the upholstery, and the interior goes black",
+   "meta": "Talking head, alone in the truck, about 45 seconds. Afternoon slot, 4 to 7 pm.",
+   "lockup": "PARTNER NO. 6",
+   "script": [
+    "Project truck guys, six companies just bet on a truck that can't move.",
+    "Number six is Stomper Customs. Upholstery and design.",
+    "Every stitch in that 1959 cab is theirs. The bench, the doors, the console, the wheel.",
+    "And it changed my mind on something. I had saddle brown leather picked out. Locked in.",
+    "It's going black. Tan truck, black everything else, and now black inside.",
+    "Here's what gets me. All I've got is an old cab and a plan. That's it.",
+    "And a guy who does this for a living looked at that and said, I'm in.",
+    "So if you've got a project sitting in the yard and you think nobody cares, somebody does.",
+    "Brown or black. Tell me I'm wrong."
+   ],
+   "shoot": [
+    "Start talking as you sit down or shut the door, not after.",
+    "Hold up six fingers on the first line. That is the only prop.",
+    "Three takes straight through. Stop on \"tell me I'm wrong\" and cut there.",
+    "No thank-you list, no \"go follow them\". The tag in the caption does that."
+   ],
+   "caption": "Send this to the guy who would have picked brown.\n\nStomper Customs is doing every stitch in the 1959 cab, and the interior just went from saddle to black. @stompercustoms is partner number six on a truck that still can't leave the bay.\n\nBrown or black, which one is right on a tan truck?\n\n#projectrival #f600 #73powerstroke #customupholstery #roadtosema",
+   "post": [
+    "Invite @stompercustoms as a Collab on the post so it lands on his page too.",
+    "Pin your own comment: \"Brown or black?\"",
+    "Share to your Story and tag @stompercustoms so he can repost it.",
+    "No trial reel for this one. It needs your followers and his."
+   ]
   }
  ],
  "reads": [

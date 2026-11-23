@@ -179,6 +179,10 @@ summary .shape{margin-left:8px}
 .nope li{padding:6px 0 6px 24px;position:relative;font-size:14px;border-bottom:1px solid var(--line);color:#d8d2c4}
 .nope li:last-child{border-bottom:0}
 .nope li::before{content:"×";position:absolute;left:4px;top:3px;color:var(--hi);font-size:18px;line-height:1.2}
+.card.pinc{border:1px solid var(--yellow)}
+.pscript{background:var(--ink);border:1px solid var(--line);border-radius:12px;padding:6px 14px}
+.pscript p{font-size:17px;line-height:1.45;margin:10px 0}
+.pcap{background:var(--ink);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px;white-space:pre-wrap;color:#d8d2c4}
 .ours{margin-top:10px;border-left:3px solid var(--tan);padding:4px 0 4px 12px;font-size:13px;color:#d8d2c4}
 .ours b{color:var(--tan);font-weight:600}
 @media (max-width:520px){.two{grid-template-columns:1fr}.mday{min-height:66px}nav.tabs button{font-size:11px}}
@@ -340,6 +344,27 @@ function openIdea(n){
   const el = document.getElementById('idea-'+n); if(el){ el.open=true; el.scrollIntoView({behavior:'smooth',block:'start'}); }
 }
 
+// ---- PINNED: cards at the very top of Today (data/portal/pinned.json), e.g. a partner announcement script
+function renderPinned(){
+  const list = (D.pinned||[]).filter(p=>!state['pin-done-'+p.id]);
+  return list.map(p=>`<div class="card pinc" data-pin="${esc(p.id)}">
+    <div class="stbadge" style="color:var(--yellow);border-color:var(--yellow)">${esc(p.tag||'PINNED')}</div>
+    <div class="title" style="margin-top:8px">${esc(p.title)}</div>
+    ${p.meta?`<div class="tiny" style="margin-top:4px">${esc(p.meta)}</div>`:''}
+    ${p.lockup?`<p class="gp"><b style="color:var(--tan)">Title on screen:</b> ${esc(p.lockup)}</p>`:''}
+    <p class="gp" style="margin-top:12px"><b style="color:var(--tan)">Say this:</b></p>
+    <div class="pscript" id="pin-s-${esc(p.id)}">${(p.script||[]).map(l=>`<p>${esc(l)}</p>`).join('')}</div>
+    ${p.shoot?`<p class="gp" style="margin-top:12px"><b style="color:var(--tan)">Filming it:</b></p><ul class="check">${p.shoot.map(l=>`<li><span>${esc(l)}</span></li>`).join('')}</ul>`:''}
+    ${p.caption?`<p class="gp" style="margin-top:12px"><b style="color:var(--tan)">Caption:</b></p><div class="pcap" id="pin-c-${esc(p.id)}">${esc(p.caption)}</div>`:''}
+    ${p.post?`<p class="gp" style="margin-top:12px"><b style="color:var(--tan)">When you post:</b></p><ul class="check">${p.post.map(l=>`<li><span>${esc(l)}</span></li>`).join('')}</ul>`:''}
+    <div class="row" style="margin-top:12px"><button class="btn go" data-pincopy="pin-s-${esc(p.id)}">Copy script</button>${p.caption?`<button class="btn" data-pincopy="pin-c-${esc(p.id)}">Copy caption</button>`:''}<button class="btn ghost" data-pindone="${esc(p.id)}">Posted, take it down</button></div>
+  </div>`).join('');
+}
+function wirePinned(root){
+  root.querySelectorAll('[data-pincopy]').forEach(b=>b.onclick=async()=>{ const el=document.getElementById(b.dataset.pincopy); const t=[...el.querySelectorAll('p')].map(x=>x.textContent).join('\n\n') || el.textContent; const was=b.textContent; try{ await navigator.clipboard.writeText(t); b.textContent='copied'; }catch(e){ b.textContent='hold to copy'; } setTimeout(()=>b.textContent=was,1500); });
+  root.querySelectorAll('[data-pindone]').forEach(b=>b.onclick=()=>{ state['pin-done-'+b.dataset.pindone]=true; save(); render(); });
+}
+
 // ---- TODAY
 function renderToday(){
   const rows = D.calendar.filter(r=>r.date===todayISO);
@@ -348,7 +373,7 @@ function renderToday(){
   const film = D.calendar.filter(r=>r.date===filmISO);
   const next = D.calendar.filter(r=>r.date>filmISO).slice(0,4);
   const due = D.pending.filter(p=>p.status==='due');
-  let h = '';
+  let h = renderPinned();
   if(dayN<1){
     h += `<div class="card"><div class="title">The plan starts ${fmtDay(D.plan_first_date)}: two talking heads a day</div><div class="body">Sixty episodes in thirty days. Every morning a send episode (funny or a list, 20 to 45 s), every afternoon a hold episode (the story, the trust, 40 to 60 s). Tonight: one sit in the truck, both of day 1's episodes. The props are under Film tonight.</div></div>`;
   } else if(!rows.length){
@@ -367,7 +392,7 @@ function renderToday(){
   }
   h += `<h2>Before you post</h2><div class="card"><ul class="check" data-cl="post">` + D.post_checklist.map((t,i)=>`<li class="${state['cl-post-'+i]?'ok':''}"><input type="checkbox" data-i="${i}" ${state['cl-post-'+i]?'checked':''}><span>${esc(t)}</span></li>`).join('') + `</ul><div class="row"><button class="btn ghost" data-reset="post">reset for next post</button></div></div>`;
   if(next.length){ h += `<h2>Coming up</h2>` + next.map(r=>slotCard(r)).join(''); }
-  const v=$('#v-today'); v.innerHTML=h; wireCards(v); wireChecks(v,'post'); wireToday(v);
+  const v=$('#v-today'); v.innerHTML=h; wireCards(v); wireChecks(v,'post'); wireToday(v); wirePinned(v);
 }
 function renderQueue(){
   const items = [];
