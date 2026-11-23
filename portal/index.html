@@ -243,6 +243,18 @@ function renderToday(){
   } else {
     h += `<h2>Post today</h2>` + rows.map(r=>slotCard(r)).join('');
   }
+  const trial = (D.trials||[]).find(t=>t.date===todayISO);
+  const pmRow = rows.find(r=>r.slot==='PM');
+  if(dayN>=1 && (trial || pmRow)){
+    h += `<h2>Trial at lunch</h2><div class="card"><div class="slot"><span><b>TRIAL</b> 12:00 to 13:00 MT · toggle on, automatic share off</span><span>${fmtDay(todayISO)}</span></div>`;
+    if(trial){
+      h += `<div class="title">${esc(trial.title)}</div><div class="meta"><span class="shape">${esc(trial.type)}</span> &nbsp;<span>${esc(trial.length)}</span></div><div class="body">${esc(trial.what)}${trial.source?`\nSource: ${esc(trial.source)}`:''}</div>`;
+    } else {
+      const i = D.ideas[pmRow.idea_n]||{title:pmRow.idea};
+      h += `<div class="title">Trial twin: ${esc(i.title)}</div><div class="meta"><span class="shape">HOOK TEST</span> &nbsp;<span>same cut, a different first line</span></div><div class="body">Today's PM episode goes out as a Trial first with a different opening line and first shot. Whichever open has the lower skip rate is the one the main feed uses.</div>`;
+    }
+    h += `<div class="tiny" style="margin-top:10px">Read yesterday's trial at the same sitting. Share to everyone at 2x the trial median views or 2% sends per reach (first five trials: 2% sends or 5,000 views); otherwise leave it, never delete. Song in-app. research/2026-11-23-TRIAL-REELS-SCHEDULE.md</div></div>`;
+  }
   if(film.length){ h += `<h2>Film tonight</h2>` + filmCard(film, filmISO); }
   if(due.length){
     h += `<h2>Reads due</h2><div class="card">` + due.map(p=>{
@@ -264,12 +276,13 @@ function renderCal(){
   const byDate = {};
   D.calendar.forEach(r=>{ (byDate[r.date]=byDate[r.date]||[]).push(r); });
   const dates = Object.keys(byDate).sort();
-  let h = `<h2>30 days, two talking heads a day</h2><div class="tiny">AM = the send episode (funny or a list, 20 to 45 s, graded on sends). PM = the hold episode (story, trust, check-in, 40 to 60 s, graded on watch share and likes). Tap a day for the briefs. Day 15 (${fmtDay(D.ranking_date)}) ranks the four shapes.</div><div class="days">`;
+  let h = `<h2>30 days, two talking heads a day</h2><div class="tiny">AM = the send episode (funny or a list, 20 to 45 s, graded on sends). PM = the hold episode (story, trust, check-in, 40 to 60 s, graded on watch share and likes). TRIAL = the lunch Trial Reel, a third post built from footage that already exists. Tap a day for the briefs. Day 15 (${fmtDay(D.ranking_date)}) ranks the four shapes.</div><div class="days">`;
   h += dates.map(d=>{
     const rows=byDate[d];
     const cls = d===todayISO?'today':(d<todayISO?'past':'');
     return `<div class="day ${cls}" data-d="${d}"><div class="d"><b>${fmtDay(d)}</b> · day ${rows[0].day}</div>` +
-      rows.map(r=>{ const i=D.ideas[r.idea_n]||{title:r.idea}; const st=state[key(r)]||''; return `<div class="i"><em class="${r.slot.toLowerCase()}">${r.slot}</em> ${esc(i.title)} ${st&&st!=='not shot'?`<span class="st ${st}">${st}</span>`:''}</div>`; }).join('') + `</div>`;
+      rows.map(r=>{ const i=D.ideas[r.idea_n]||{title:r.idea}; const st=state[key(r)]||''; return `<div class="i"><em class="${r.slot.toLowerCase()}">${r.slot}</em> ${esc(i.title)} ${st&&st!=='not shot'?`<span class="st ${st}">${st}</span>`:''}</div>`; }).join('') +
+      (()=>{ const tr=(D.trials||[]).find(t=>t.date===d); return `<div class="i"><em>TRIAL</em> ${tr?esc(tr.type)+': '+esc(tr.title):'twin of the PM episode'}</div>`; })() + `</div>`;
   }).join('') + `</div>`;
   h += `<h2>Day 15 and the spares</h2><div class="card"><div class="body">On ${fmtDay(D.ranking_date)} rank the four shapes by their own grade: Funny AM and utility Trust AM on sends per reach and skip, story Trust PM and Relatable PM on watch share and likes per reach. The bottom shape's remaining slots are swapped for spares in the top shape; the People episodes and the three Rival check-ins stay. If a day breaks, the PM goes out and the AM is skipped, never the reverse. The six spares cover a missed day or the swap:</div><ol class="steps">${(D.spares||[]).map(n=>{ const i=D.ideas[n]; return i?`<li><a href="#" data-open="${n}">${esc(i.title)}</a> <span class="tiny">${esc(i.lane||'')} · ${esc(i.length_note||'')}</span></li>`:''; }).join('')}</ol></div>`;
   h += `<div id="cal-detail"></div>`;
