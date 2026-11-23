@@ -214,3 +214,25 @@ happening*; high-skip hooks open on *a product*.
 - **The editing doctrine is `research/2026-11-22-REEL-EDITOR-DOCTRINE.md` (2026-11-22).** Change, not cut; one physical device per talking head; the sentence is the opener; grade talking heads on watch share and likes per reach, memes on sends; talking heads 40 to 60 s until the watch time earns more. It resolves eighteen contradictions in the older rule files (section 15) and the older rules read through it.
 - **The growth layer is `research/2026-11-23-GROWTH-PLAN-10K.md` (2026-11-23)** and the thinking behind every rule is `skill/el-coyote/PRINCIPLES.md`. The streamline editor is `tools/streamline.py` (plan, challenge, render, lint, ledger); it challenges each cut against the doctrine and against the last three episodes in `data/edits/ledger.tsv` so nothing looks the same. Research behind both: `research/2026-11-23-masterclass-2/`.
 - **The 30-day plan starts Tuesday November 24, 2026**, day 15 is Tuesday December 8. Jacob's read on the first cut of the calendar: too heavy on the 7.3, "doesn't allow people to breathe." Same day, two more: every afternoon is a talking head with Jacob sitting in the truck (`playbook/12-talking-head-in-the-truck.md`), and the talking heads are relatable, trust-building or funny, not about the Rival build or the 7.3. **The Rival build is just getting started; barely any parts are bought.** Do not write episodes, receipts reels or partner reels that assume parts exist; Rival appears as an honest check-in until there is a build to show.
+
+## Drive folders, 2026-11-22 (Jacob: "make a folder called raw and move all the unedited videos there; I want this to be all easy to understand and do")
+
+`My Drive\VIDEO\raw` is where Jacob uploads footage, loose, nothing else. `My Drive\VIDEO\finished` holds one `<Name> - completed YYYY-MM-DD` folder per finished reel (POST mp4, no-captions mp4, posting kit). `VIDEO\inbox` no longer exists; every older mention of the inbox in this repo, the skills and the agents means `raw` for footage and `finished` for deliveries. `tools/coyote.py` reads both.
+
+## Second machine, 2026-11-22: the laptop (Windows user `elite`) is the editing and social hub
+
+Every `C:\Users\Parts\...` path in this repo is the shop PC. On the laptop the same things live here:
+
+| What | Shop PC (`Parts`) | Laptop (`elite`) |
+|---|---|---|
+| Repo | `C:\Users\Parts\Desktop\socialmediatakeover` | `C:\Users\elite\Desktop\Claude\socialmediatakeover` |
+| Live branch | | `claude/laughing-lovelace-4j11x4` (GitHub's default `claude/zealous-hopper-c0gou9` was 38 commits behind on 11-22; fetch and compare both) |
+| Footage and finished folders | `C:\Users\Parts\My Drive\VIDEO\raw` and `\finished` (mirror) | `G:\My Drive\VIDEO\raw` and `\finished` (Drive for Desktop, streaming) |
+| Video tools | `...\OneDrive - Elite Diesel Service\Desktop\VIDEO\tools` | `C:\Users\elite\Desktop\Claude\VIDEO\tools`, built from `research/tools-snapshot` plus `research/fonts`; work area `VIDEO\out` |
+| Skills | `C:\Users\Parts\.claude\skills` | `el-coyote` is a junction to `skill/el-coyote` in this repo; `reel-editor` is a copy of `research/tools-snapshot/reel-editor-SKILL.md` |
+
+- Same interpreter layout, so the tool scripts run unedited: Python 3.12.10 at `%LOCALAPPDATA%\Programs\Python\Python312` with `av==14.2.0`, faster-whisper, scenedetect, opencv, onnxruntime, Pillow; yt-dlp from winget. ffmpeg on the laptop is 9.1 and `ffmpeg-9.0.2-full_build` is a junction to it. The Visual C++ runtime had to be installed before ctranslate2 would load.
+- Verified on the laptop 11-22 on IMG_4282.MOV: `watch.py` (176 s), `streamline.py` plan, challenge, render (242 s), lint 13 of 13, `smooth_check.py` clean, `npx tsc --noEmit` clean and one `CardReel` still from `rival-reels`.
+- Not on the laptop yet: `tools\models` (YuNet for facetrack and dfc_track, RVM for matte, Kokoro for vo_scratch), `venv-voice`, `venv-sfx`, the sfx-kit wavs, `rival-reels\public\cards` and plates. The fast tier, streamline and card reels without partner logos work; face tracking, the matte and the scratch voice do not until those are fetched.
+- The shop PC's Claude memories (`project_elcoyotediesel_instagram`, `project_editing_mastery`, the partner references) are not on the laptop. Anything a laptop session needs from them has to be written into this repo.
+- `tools/coyote.py` picks the inbox and watch-list folders that exist on the machine it runs on.

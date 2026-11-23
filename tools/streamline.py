@@ -16,7 +16,7 @@ Doctrine: research/2026-11-22-REEL-EDITOR-DOCTRINE.md. Jobs and length bands com
 Cut points are breaths (gaps between words), never clocks. Captions never sit under the lockup.
 """
 from __future__ import annotations
-import argparse, csv, datetime as dt, json, os, re, subprocess, sys
+import argparse, csv, datetime as dt, json, os, re, shutil, subprocess, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -387,6 +387,11 @@ def build_ass(plan, words, lockup, caption_start, out_path):
     return len(merged)
 
 
+def ffpath(p) -> str:
+    """A path quoted for an ffmpeg filter argument: a Windows drive colon would otherwise end the option."""
+    return "'" + str(p).replace("\\", "/").replace(":", "\\:") + "'"
+
+
 def cmd_render(args):
     plan = json.load(open(args.plan, encoding="utf-8"))
     src = plan["src"]; words = load_words(plan["words"])
@@ -418,11 +423,11 @@ def cmd_render(args):
     ass = out.with_suffix(".ass")
     n = build_ass(plan, words, args.lockup, plan["captions"]["start_s"], ass)
     if args.no_captions and not args.lockup:
-        subprocess.run(["cp", str(nocap), str(out)], check=True)
+        shutil.copyfile(nocap, out)
     else:
         if args.no_captions:  # lockup only
             txt = ass.read_text(encoding="utf-8").splitlines(); ass.write_text("\n".join(l for l in txt if not l.startswith("Dialogue: 0,")), encoding="utf-8")
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(nocap), "-vf", f"ass={ass}:fontsdir={args.fonts}", "-c:a", "copy"] + EXP + [str(out)], check=True)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(nocap), "-vf", f"ass={ffpath(ass)}:fontsdir={ffpath(args.fonts)}", "-c:a", "copy"] + EXP + [str(out)], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-vf", "fps=1,scale=240:-1,tile=8x6", str(out.with_name(out.stem + "_qa.jpg"))], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.0", "-i", str(out), "-frames:v", "1", str(out.with_name(out.stem + "_cover.jpg"))], check=True)
     plan["render"] = {"out": str(out), "nocap": str(nocap), "ass": str(ass), "caption_groups": n, "lockup": args.lockup}

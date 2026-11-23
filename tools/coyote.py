@@ -39,8 +39,15 @@ PLAN_LOG = ROOT / "data" / "instagram" / "plan-log.tsv"
 PENDING = ROOT / "data" / "instagram" / "pending-reads.tsv"
 READS = ROOT / "data" / "instagram" / "reads-48h.tsv"
 SITE = ROOT / "site" / "command-center.html"
-INBOX = Path(r"C:\Users\Parts\My Drive\VIDEO\inbox")
-WATCHLIST = Path(r"C:\Users\Parts\OneDrive - Elite Diesel Service\Desktop\VIDEO\tools\watchlist")
+def _first(*paths: str) -> Path:
+    """The first path that exists on this machine (shop PC first, then the laptop), else the first one."""
+    return next((p for p in map(Path, paths) if p.exists()), Path(paths[0]))
+
+# 2026-11-22 (Jacob): raw clips go in VIDEO\raw, finished reel folders in VIDEO\finished; the old inbox is gone.
+RAW = _first(r"C:\Users\Parts\My Drive\VIDEO\raw", r"G:\My Drive\VIDEO\raw")
+FINISHED = _first(r"C:\Users\Parts\My Drive\VIDEO\finished", r"G:\My Drive\VIDEO\finished")
+WATCHLIST = _first(r"C:\Users\Parts\OneDrive - Elite Diesel Service\Desktop\VIDEO\tools\watchlist",
+                   r"C:\Users\elite\Desktop\Claude\VIDEO\tools\watchlist")
 YEAR = 2026
 MT = dt.timezone(dt.timedelta(hours=-7))   # Mountain Standard Time (Nov to Mar)
 
@@ -401,11 +408,9 @@ def cmd_week(args):
 8. Partners: who got a Story thank-you, who owes a reply (Strictly Diesel), what is due at SEMA pitch stage.""")
 
 def _inbox():
-    if not INBOX.exists(): return [], []
-    raw, done = [], []
-    for p in INBOX.iterdir():
-        if p.is_dir() and "completed" in p.name.lower(): done.append(p.name)
-        elif p.suffix.lower() in (".mov", ".mp4", ".m4v"): raw.append((p.name, dt.datetime.fromtimestamp(p.stat().st_mtime)))
+    raw = [(p.name, dt.datetime.fromtimestamp(p.stat().st_mtime)) for p in RAW.iterdir()
+           if p.suffix.lower() in (".mov", ".mp4", ".m4v")] if RAW.exists() else []
+    done = [p.name for p in FINISHED.iterdir() if p.is_dir()] if FINISHED.exists() else []
     raw.sort(key=lambda x: x[1], reverse=True)
     return raw, sorted(done)
 
@@ -431,7 +436,7 @@ def cmd_status(args):
         print(f"outlier watch list: last run {age:.1f} days ago" + ("  (RE-RUN, weekly)" if age > 7 else ""))
     if now.weekday() == 0: print("Monday: run `coyote.py week`.")
     raw, done = _inbox()
-    print(f"\nDrive inbox: {len(raw)} raw clips, {len(done)} completed folders")
+    print(f"\nDrive: {len(raw)} clips in raw, {len(done)} folders in finished")
     for n, t in raw[:6]: print(f"  {t:%m-%d %H:%M}  {n}")
     for n in done[-3:]: print(f"  done: {n}")
     print("\nAlways before cutting: pull the last 12 posts (he posts 2 to 4 a day).")

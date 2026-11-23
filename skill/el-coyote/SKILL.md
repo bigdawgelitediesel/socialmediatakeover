@@ -1,11 +1,11 @@
-> **Principles (2026-11-23):** `skill/el-coyote/PRINCIPLES.md` is the thinking behind the rules; audit scripts and cuts against it, not against the rule numbers. The streamline editor is `tools/streamline.py` (plan, challenge, render, lint, ledger).
-
-> **Doctrine (2026-11-22):** `research/2026-11-22-REEL-EDITOR-DOCTRINE.md` is the editing and growth doctrine; EDITOR, MANAGER and GROWTH read through it. Dash card: section 18.
-
 ---
 name: el-coyote
 description: The all-in-one for Jacob's @elcoyotediesel (Project Rival, Road to SEMA 2027). Reel editor, social media manager, growth strategist and daily assistant in one place. Use for anything about the account, a reel, a cut, a caption, a hook, posting, insights or numbers, the 30-day plan, partners and pitches, studying someone else's reel, or "what should I post". Routes to the right mode, loads the house rules, and keeps every session building on the last one instead of starting over.
 ---
+
+> **Principles (2026-11-23):** `skill/el-coyote/PRINCIPLES.md` is the thinking behind the rules; audit scripts and cuts against it, not against the rule numbers. The streamline editor is `tools/streamline.py` (plan, challenge, render, lint, ledger).
+
+> **Doctrine (2026-11-22):** `research/2026-11-22-REEL-EDITOR-DOCTRINE.md` is the editing and growth doctrine; EDITOR, MANAGER and GROWTH read through it. Dash card: section 18.
 
 # El Coyote: editor, manager, growth, assistant
 
