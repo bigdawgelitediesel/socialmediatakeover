@@ -1,0 +1,201 @@
+n	kind	how	template
+1	Lists	One item per beat. People save what they can come back to.	7 tools I use every week for [task].
+2	Lists	One item per beat. People save what they can come back to.	10 books that changed how I see [topic].
+3	Lists	One item per beat. People save what they can come back to.	5 habits that fixed my [area].
+4	Lists	One item per beat. People save what they can come back to.	9 things I'd buy again for [goal].
+5	Lists	One item per beat. People save what they can come back to.	6 free resources to learn [skill].
+6	Lists	One item per beat. People save what they can come back to.	8 apps that save me hours on [task].
+7	Lists	One item per beat. People save what they can come back to.	5 accounts to follow if you like [topic].
+8	Lists	One item per beat. People save what they can come back to.	10 questions to ask before you [decision].
+9	Lists	One item per beat. People save what they can come back to.	7 small wins that kept me going in [journey].
+10	Lists	One item per beat. People save what they can come back to.	6 words to stop saying about [topic].
+11	Lists	One item per beat. People save what they can come back to.	5 signs you're ready to start [goal].
+12	Lists	One item per beat. People save what they can come back to.	8 things nobody tells you about [field].
+13	Lists	One item per beat. People save what they can come back to.	10 [topic] terms explained in plain words.
+14	Lists	One item per beat. People save what they can come back to.	6 podcasts for people into [topic].
+15	Lists	One item per beat. People save what they can come back to.	5 rules I follow for [area].
+16	Lists	One item per beat. People save what they can come back to.	7 things I stopped buying for [goal].
+17	Lists	One item per beat. People save what they can come back to.	9 ways to get better at [skill] for free.
+18	Lists	One item per beat. People save what they can come back to.	5 places I find ideas for [project].
+19	Lists	One item per beat. People save what they can come back to.	10 lessons from [number] years of [field].
+20	Lists	One item per beat. People save what they can come back to.	6 quotes I come back to about [topic].
+21	Step by step	One step per beat. The next step does the teaching.	How I [do task], step by step.
+22	Step by step	One step per beat. The next step does the teaching.	Your first week of [skill], one day at a time.
+23	Step by step	One step per beat. The next step does the teaching.	How to start [habit] in 5 steps.
+24	Step by step	One step per beat. The next step does the teaching.	The exact way I plan my [week or day].
+25	Step by step	One step per beat. The next step does the teaching.	How to set up [tool] from zero.
+26	Step by step	One step per beat. The next step does the teaching.	How to go from [start] to [goal].
+27	Step by step	One step per beat. The next step does the teaching.	My routine for [task], start to finish.
+28	Step by step	One step per beat. The next step does the teaching.	How to learn [skill] in 30 days.
+29	Step by step	One step per beat. The next step does the teaching.	How I get ready for [big moment].
+30	Step by step	One step per beat. The next step does the teaching.	How to fix [common problem] in 4 steps.
+31	Step by step	One step per beat. The next step does the teaching.	A beginner's path into [field].
+32	Step by step	One step per beat. The next step does the teaching.	How I turn [input] into [output].
+33	Step by step	One step per beat. The next step does the teaching.	How to make your first [thing].
+34	Step by step	One step per beat. The next step does the teaching.	What to do on day 1, 7 and 30 of [goal].
+35	Step by step	One step per beat. The next step does the teaching.	How I study [topic] so it sticks.
+36	Step by step	One step per beat. The next step does the teaching.	How to clean up your [area] this weekend.
+37	Step by step	One step per beat. The next step does the teaching.	How I organize my [notes or files].
+38	Step by step	One step per beat. The next step does the teaching.	How to say yes to [goal] without burning out.
+39	Step by step	One step per beat. The next step does the teaching.	How to get unstuck on [project].
+40	Step by step	One step per beat. The next step does the teaching.	The process behind my [best result].
+41	Before and after	Open on the before. End on the after.	My [area] one year ago vs. now.
+42	Before and after	Open on the before. End on the after.	My first [thing] vs. my latest one.
+43	Before and after	Open on the before. End on the after.	How my [routine] changed after [event].
+44	Before and after	Open on the before. End on the after.	A bad [thing] made better, one fix at a time.
+45	Before and after	Open on the before. End on the after.	My [space] before and after I [change].
+46	Before and after	Open on the before. End on the after.	What I believed about [topic] vs. now.
+47	Before and after	Open on the before. End on the after.	My week before [habit] vs. after.
+48	Before and after	Open on the before. End on the after.	Rewriting my old [writing] line by line.
+49	Before and after	Open on the before. End on the after.	My [skill] on day 1 vs. day 100.
+50	Before and after	Open on the before. End on the after.	Then and now, my [setup or tools].
+51	Before and after	Open on the before. End on the after.	What [goal] looked like vs. what it took.
+52	Before and after	Open on the before. End on the after.	My plan for [goal] vs. what happened.
+53	Before and after	Open on the before. End on the after.	The [thing] I almost posted vs. what I posted.
+54	Before and after	Open on the before. End on the after.	My budget for [area] before and after.
+55	Before and after	Open on the before. End on the after.	How my [diet or sleep] changed in [time].
+56	Before and after	Open on the before. End on the after.	Before I knew [lesson] vs. after.
+57	Before and after	Open on the before. End on the after.	My messy draft vs. the final [thing].
+58	Before and after	Open on the before. End on the after.	My mornings before [change] vs. now.
+59	Before and after	Open on the before. End on the after.	[Old way] vs. [new way], side by side.
+60	Before and after	Open on the before. End on the after.	One [thing], redone 5 times.
+61	Myths	Say the myth. Flip it on the next beat.	5 myths about [topic] I used to believe.
+62	Myths	Say the myth. Flip it on the next beat.	You don't need [thing] to start [goal].
+63	Myths	Say the myth. Flip it on the next beat.	The truth about [popular advice].
+64	Myths	Say the myth. Flip it on the next beat.	What [field] gets wrong about [topic].
+65	Myths	Say the myth. Flip it on the next beat.	Myths that kept me from starting [goal].
+66	Myths	Say the myth. Flip it on the next beat.	Why [common belief] is only half true.
+67	Myths	Say the myth. Flip it on the next beat.	What I thought [job] was vs. what it is.
+68	Myths	Say the myth. Flip it on the next beat.	3 lies people tell you about [topic].
+69	Myths	Say the myth. Flip it on the next beat.	Why more [effort] won't fix [problem].
+70	Myths	Say the myth. Flip it on the next beat.	The [topic] myth I see every single day.
+71	Myths	Say the myth. Flip it on the next beat.	Things that sound smart about [topic] but aren't.
+72	Myths	Say the myth. Flip it on the next beat.	Why [popular tool] isn't the answer.
+73	Myths	Say the myth. Flip it on the next beat.	What talent really looks like in [field].
+74	Myths	Say the myth. Flip it on the next beat.	Why [rule] doesn't apply to beginners.
+75	Myths	Say the myth. Flip it on the next beat.	Myths about [age] and starting over.
+76	Myths	Say the myth. Flip it on the next beat.	The real reason [result] happens.
+77	Myths	Say the myth. Flip it on the next beat.	Why [trend] won't work for most people.
+78	Myths	Say the myth. Flip it on the next beat.	What 'overnight success' in [field] really took.
+79	Myths	Say the myth. Flip it on the next beat.	Old advice about [topic] that's out of date.
+80	Myths	Say the myth. Flip it on the next beat.	What I'd unlearn first about [skill].
+81	Mistakes	Your mistake is their shortcut.	5 mistakes I made starting [goal].
+82	Mistakes	Your mistake is their shortcut.	What I'd do differently in [journey].
+83	Mistakes	Your mistake is their shortcut.	The [thing] mistake that cost me [time].
+84	Mistakes	Your mistake is their shortcut.	Beginner mistakes in [skill] and the fix.
+85	Mistakes	Your mistake is their shortcut.	Mistakes I see every [type of person] make.
+86	Mistakes	Your mistake is their shortcut.	Why my first [project] failed.
+87	Mistakes	Your mistake is their shortcut.	What I wasted money on for [goal].
+88	Mistakes	Your mistake is their shortcut.	The worst advice I followed about [topic].
+89	Mistakes	Your mistake is their shortcut.	Red flags I ignored in [area].
+90	Mistakes	Your mistake is their shortcut.	Signs you're doing [skill] wrong.
+91	Mistakes	Your mistake is their shortcut.	The habit that held me back for [time].
+92	Mistakes	Your mistake is their shortcut.	What I got wrong about [topic] for years.
+93	Mistakes	Your mistake is their shortcut.	Mistakes that made me quit [thing] twice.
+94	Mistakes	Your mistake is their shortcut.	Don't [common move] until you hear this.
+95	Mistakes	Your mistake is their shortcut.	How I almost ruined my [project].
+96	Mistakes	Your mistake is their shortcut.	The one mistake behind most bad [thing].
+97	Mistakes	Your mistake is their shortcut.	What I ignored until [problem] got worse.
+98	Mistakes	Your mistake is their shortcut.	Things I'd never do again in [field].
+99	Mistakes	Your mistake is their shortcut.	My most expensive lesson in [area].
+100	Mistakes	Your mistake is their shortcut.	Small mistakes that add up in [area].
+101	Stories	End each beat so they have to stay for the next.	The day I almost gave up on [goal].
+102	Stories	End each beat so they have to stay for the next.	The first time someone paid me for [skill].
+103	Stories	End each beat so they have to stay for the next.	The [number] months that changed my [area].
+104	Stories	End each beat so they have to stay for the next.	A conversation that changed how I [do thing].
+105	Stories	End each beat so they have to stay for the next.	What happened when I tried [thing] for 30 days.
+106	Stories	End each beat so they have to stay for the next.	The story behind my [project or name].
+107	Stories	End each beat so they have to stay for the next.	How I went from [low point] to [now].
+108	Stories	End each beat so they have to stay for the next.	The worst [day or week] of my [journey].
+109	Stories	End each beat so they have to stay for the next.	What [person] taught me without knowing it.
+110	Stories	End each beat so they have to stay for the next.	How one [small thing] changed my year.
+111	Stories	End each beat so they have to stay for the next.	The email that changed my [year or plan].
+112	Stories	End each beat so they have to stay for the next.	What I learned from my first [sale or client].
+113	Stories	End each beat so they have to stay for the next.	A risk I took, and how it turned out.
+114	Stories	End each beat so they have to stay for the next.	Why I left [old path].
+115	Stories	End each beat so they have to stay for the next.	The real story of my first [milestone].
+116	Stories	End each beat so they have to stay for the next.	What [place] taught me about [topic].
+117	Stories	End each beat so they have to stay for the next.	The moment [topic] finally clicked.
+118	Stories	End each beat so they have to stay for the next.	How I met the person who got me into [field].
+119	Stories	End each beat so they have to stay for the next.	I did [hard thing]. Here's what happened.
+120	Stories	End each beat so they have to stay for the next.	What my [parent or friend] said that stuck.
+121	Breakdowns	Pick a winner. Show why it won, one part at a time.	Why this [ad or post] worked so well.
+122	Breakdowns	Pick a winner. Show why it won, one part at a time.	What [famous person] does differently.
+123	Breakdowns	Pick a winner. Show why it won, one part at a time.	Breaking down my best [post or project].
+124	Breakdowns	Pick a winner. Show why it won, one part at a time.	How [brand] gets people to [action].
+125	Breakdowns	Pick a winner. Show why it won, one part at a time.	The [number] parts of a great [thing].
+126	Breakdowns	Pick a winner. Show why it won, one part at a time.	What makes a [thing] easy to remember.
+127	Breakdowns	Pick a winner. Show why it won, one part at a time.	Lessons from [book] in [number] points.
+128	Breakdowns	Pick a winner. Show why it won, one part at a time.	What I learned from [person]'s [work].
+129	Breakdowns	Pick a winner. Show why it won, one part at a time.	How [company] grew from [start] to [now].
+130	Breakdowns	Pick a winner. Show why it won, one part at a time.	Why [movie or show] hooks you so fast.
+131	Breakdowns	Pick a winner. Show why it won, one part at a time.	Reverse engineering a viral [format].
+132	Breakdowns	Pick a winner. Show why it won, one part at a time.	The pattern behind every great [thing].
+133	Breakdowns	Pick a winner. Show why it won, one part at a time.	What [old idea] can teach us today.
+134	Breakdowns	Pick a winner. Show why it won, one part at a time.	How [famous person] spent their days.
+135	Breakdowns	Pick a winner. Show why it won, one part at a time.	Why this one [photo or line] works.
+136	Breakdowns	Pick a winner. Show why it won, one part at a time.	The structure of a [thing] that sells.
+137	Breakdowns	Pick a winner. Show why it won, one part at a time.	What [top creator] does in the first line.
+138	Breakdowns	Pick a winner. Show why it won, one part at a time.	Breaking down a [field] classic.
+139	Breakdowns	Pick a winner. Show why it won, one part at a time.	What I copied from [person], and why.
+140	Breakdowns	Pick a winner. Show why it won, one part at a time.	Why the best [things] feel simple.
+141	Opinions	Say what you think. Agreement is boring.	Unpopular opinions about [topic].
+142	Opinions	Say what you think. Agreement is boring.	Why I stopped [common habit].
+143	Opinions	Say what you think. Agreement is boring.	[Thing] is overrated. Here's why.
+144	Opinions	Say what you think. Agreement is boring.	What I'd change about [field].
+145	Opinions	Say what you think. Agreement is boring.	[Option A] vs. [option B], my pick.
+146	Opinions	Say what you think. Agreement is boring.	Why I'll never [common move] again.
+147	Opinions	Say what you think. Agreement is boring.	The [topic] advice I disagree with.
+148	Opinions	Say what you think. Agreement is boring.	Why [underrated thing] deserves more love.
+149	Opinions	Say what you think. Agreement is boring.	What most people miss about [topic].
+150	Opinions	Say what you think. Agreement is boring.	Things I believe about [topic] that you won't.
+151	Opinions	Say what you think. Agreement is boring.	Why [popular goal] made me miserable.
+152	Opinions	Say what you think. Agreement is boring.	What I think [field] looks like in 5 years.
+153	Opinions	Say what you think. Agreement is boring.	Why slow [thing] beats fast [thing].
+154	Opinions	Say what you think. Agreement is boring.	The [topic] debate, settled.
+155	Opinions	Say what you think. Agreement is boring.	Why beginners should ignore [advice].
+156	Opinions	Say what you think. Agreement is boring.	What I'd tell [type of person] to stop doing.
+157	Opinions	Say what you think. Agreement is boring.	Why [old way] still works.
+158	Opinions	Say what you think. Agreement is boring.	Hot takes on [trend].
+159	Opinions	Say what you think. Agreement is boring.	Why [thing] doesn't make you better at [skill].
+160	Opinions	Say what you think. Agreement is boring.	Why nobody talks about [hard truth].
+161	Personal	People follow a person. Show yours.	A week in my life as a [role].
+162	Personal	People follow a person. Show yours.	Things I love about my [life or work].
+163	Personal	People follow a person. Show yours.	What's on my desk, and why.
+164	Personal	People follow a person. Show yours.	Lessons from [age] years of being me.
+165	Personal	People follow a person. Show yours.	What I'm reading, watching and loving.
+166	Personal	People follow a person. Show yours.	My [city] favorites.
+167	Personal	People follow a person. Show yours.	Things that make me happy for under [$].
+168	Personal	People follow a person. Show yours.	What a normal [day] looks like for me.
+169	Personal	People follow a person. Show yours.	My goals for [month or year].
+170	Personal	People follow a person. Show yours.	The [project] I'm building, week by week.
+171	Personal	People follow a person. Show yours.	The things I'm most proud of this year.
+172	Personal	People follow a person. Show yours.	What [hobby] taught me about [work].
+173	Personal	People follow a person. Show yours.	My honest month in [number] points.
+174	Personal	People follow a person. Show yours.	Little rules I live by.
+175	Personal	People follow a person. Show yours.	What I'd tell my younger self about [topic].
+176	Personal	People follow a person. Show yours.	My favorite photos from [trip or event].
+177	Personal	People follow a person. Show yours.	Things I changed my mind about this year.
+178	Personal	People follow a person. Show yours.	What I do when I feel [stuck or tired].
+179	Personal	People follow a person. Show yours.	My answers to the questions you ask most.
+180	Personal	People follow a person. Show yours.	Facts about me you'd never guess.
+181	Use it	Templates and checklists get saved the most.	A checklist for your first [thing].
+182	Use it	Templates and checklists get saved the most.	Copy my [template] for [task].
+183	Use it	Templates and checklists get saved the most.	Questions to ask yourself before [decision].
+184	Use it	Templates and checklists get saved the most.	A 7-day plan to start [habit].
+185	Use it	Templates and checklists get saved the most.	Fill-in-the-blank [scripts] for [situation].
+186	Use it	Templates and checklists get saved the most.	What to say when [hard moment].
+187	Use it	Templates and checklists get saved the most.	My packing list for [trip].
+188	Use it	Templates and checklists get saved the most.	A starter kit for [skill].
+189	Use it	Templates and checklists get saved the most.	Prompts to journal about [topic].
+190	Use it	Templates and checklists get saved the most.	A cheat sheet for [topic].
+191	Use it	Templates and checklists get saved the most.	Swap this for that, [area] edition.
+192	Use it	Templates and checklists get saved the most.	A weekly reset for your [area].
+193	Use it	Templates and checklists get saved the most.	Things to check before you [action].
+194	Use it	Templates and checklists get saved the most.	The [number]-minute version of [task].
+195	Use it	Templates and checklists get saved the most.	A reading list for [goal].
+196	Use it	Templates and checklists get saved the most.	How to pick the right [thing] for you.
+197	Use it	Templates and checklists get saved the most.	A 30-day [challenge] you can start today.
+198	Use it	Templates and checklists get saved the most.	Easy [meals or workouts] for busy weeks.
+199	Use it	Templates and checklists get saved the most.	What to do if you only have [time].
+200	Use it	Templates and checklists get saved the most.	Save this for your next [moment].
