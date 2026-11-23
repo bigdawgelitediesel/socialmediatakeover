@@ -8,7 +8,8 @@ and against the last episodes so nothing looks the same, renders, and lints the 
   python -I tools/streamline.py plan      --words words.json --src IN.MOV --job talk [--open-on TEXT] [--end-on TEXT] [--drop TEXT ...] -o plan.json
   python -I tools/streamline.py challenge plan.json [--set "Chief cab"] [--device pad] [--tone relatable]
   python -I tools/streamline.py still     plan.json -o still.jpg          (first and middle frame with the real conversion; look at them before any long render)
-  python -I tools/streamline.py render    plan.json --lockup "find the gratitude" -o post.mp4 [--no-captions] [--fonts research/fonts]
+  python -I tools/streamline.py preview   plan.json --beats auto|"word,*word" --beat-zone top|side|chest -o preview.jpg   (stills at every beat word, burned; look before you render)
+  python -I tools/streamline.py render    plan.json --lockup "find the gratitude" -o post.mp4 [--beats auto|"..."] [--beat-zone top|side|chest] [--no-captions] [--fonts research/fonts]
   python -I tools/streamline.py lint      plan.json [--video post.mp4] [--ass post.ass]
   python -I tools/streamline.py ledger    add plan.json --label "..." [--set ...] [--device ...] [--tone ...]
   python -I tools/streamline.py ledger    show
@@ -43,7 +44,7 @@ STOP = {"the", "a", "an", "and", "or", "to", "of", "in", "on", "with", "for", "a
         "all", "some", "any", "lot", "one", "get", "got", "go", "going", "come", "coming", "make", "made", "want",
         "wanted", "know", "think", "thought", "say", "said", "feel", "feels", "felt", "being", "am", "because",
         "right", "good", "best", "big", "little", "new", "old", "long", "such", "much", "many", "more", "most", "other", "own",
-        "same", "different", "next", "last", "first", "whole", "every", "each"}
+        "same", "different", "next", "last", "first", "whole", "every", "each", "within", "those", "these", "kind", "sort", "thing", "things", "stuff"}
 PRONOUN_OPEN = {"you", "your", "you're", "yours"}
 BAD_OPENERS = ["so ", "hey", "today", "one of the", "i wanted", "welcome", "what's up", "okay so", "alright"]
 
@@ -333,7 +334,145 @@ def ffprobe(path, entries, stream="v"):
     return out
 
 
-def build_ass(plan, words, lockup, caption_start, out_path):
+BEAT_COLOURS = ["&H00DCE9EF", "&H004A6AE0", "&H00DCE9EF", "&H0067A8C9"]  # cream, coral, cream, tan (ASS BGR)
+BEAT_DENSITY = {"talk": 4.0, "talk-long": 4.0, "story": 4.0, "skit": 2.5, "loop": 2.0}
+BEAT_ZONES = {  # (x, y, ASS alignment, available width): the face is never one of them (look guide section 2)
+    "top": [(540, 430, 5, 960), (540, 430, 5, 960)],                          # above the head on a dash-mounted talking head
+    "side": [(60, 470, 4, 600), (1020, 470, 6, 600), (60, 620, 4, 600), (1020, 620, 6, 600)],  # hugging the edges beside the face; the calm side wins
+    "chest": [(540, 1040, 5, 960), (540, 1040, 5, 960)],                      # under the chin, above the small captions
+}
+
+
+def face_box(src, at):
+    """The face's bounding box in 1080x1920 coordinates, from a Haar detector when OpenCV is installed (the laptop),
+    else from the skin-coloured pixels of the upper two thirds. None when nothing is found."""
+    W, H = 216, 384; sx, sy = 1080 / W, 1920 / H
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", str(at), "-i", str(src), "-frames:v", "1", "-vf", f"scale={W}:{H}", "-pix_fmt", "rgb24", "-f", "rawvideo", "-"],
+                         capture_output=True).stdout
+    if len(raw) < W * H * 3: return None
+    try:
+        import cv2, numpy as np  # noqa
+        img = np.frombuffer(raw, dtype=np.uint8).reshape(H, W, 3)
+        faces = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml").detectMultiScale(cv2.cvtColor(img, cv2.COLOR_RGB2GRAY), 1.1, 4, minSize=(30, 30))
+        if len(faces):
+            x, y, w, h = max(faces, key=lambda f: f[2] * f[3])
+            return (int(x * sx), int(y * sy), int((x + w) * sx), int((y + h) * sy))
+    except Exception:
+        pass
+    xs, ys = [], []
+    for y in range(int(H * 0.04), int(H * 0.68)):
+        base = y * W * 3
+        for x in range(W):
+            r, g, b = raw[base + 3 * x], raw[base + 3 * x + 1], raw[base + 3 * x + 2]
+            if r > 95 and g > 40 and b > 20 and r > g and r > b and (r - g) > 15 and (max(r, g, b) - min(r, g, b)) > 15:
+                xs.append(x); ys.append(y)
+    if len(xs) < 60: return None
+    xs.sort(); ys.sort(); k = max(1, len(xs) // 50)  # trim the 2 percent outliers (a hand, a reflection)
+    return (int(xs[k] * sx), int(ys[k] * sy), int(xs[-k] * sx), int(ys[-k] * sy))
+
+
+def place_beat(face, text, flav, row):
+    """Where a beat word goes when the zone is auto: above the head if there is room, else the wider clear side at
+    face height, else the chest band. Returns (x, y, alignment, font size)."""
+    per = 0.52 if flav else 0.60; n = max(1, len(text)); cap = 210 if flav else 200
+    def fit(avail, top=cap): return max(0, min(top, int(avail / (per * n))))
+    if face is None:
+        return (540, 430, 5, fit(960))
+    x0, y0, x1, y1 = face
+    if y0 > 560:  # room above the head
+        return (540, max(300, y0 - 220), 5, fit(960))
+    left, right = x0 - 100, 1080 - x1 - 100
+    y = 470 if row % 2 == 0 else 620
+    if max(left, right) >= 240:
+        if right >= left: fs = fit(right)
+        else: fs = fit(left)
+        if fs >= 104:
+            return (1020, y, 6, fs) if right >= left else (60, y, 4, fs)
+    return (540, 1000, 5, fit(960, 170))  # the chest band, above the small captions, never on the face
+
+
+def timeline_words(plan, words):
+    tl, t = [], 0.0
+    for s in plan["segments"]:
+        tl.append((s["a"], s["b"], t)); t += s["b"] - s["a"]
+    def remap(x):
+        for a, b, off in tl:
+            if a - 0.05 <= x <= b + 0.05: return off + (x - a)
+        return None
+    out = []
+    for w in words:
+        s, e = remap(w["s"]), remap(w["e"])
+        if s is not None and e is not None: out.append({"s": s, "e": e, "w": w["w"]})
+    return out, t
+
+
+def pick_beats(plan, words, density=None, manual=None, start_after=3.0):
+    """One big word per beat. Manual: a comma list of words in order ('*word' = the flavour face). Auto: the strongest
+    content word in each window of `density` seconds (a stake, a number, 'you', a long or stressed word)."""
+    tw, total = timeline_words(plan, words)
+    density = density or BEAT_DENSITY.get(plan["job"], 4.0)
+    beats = []
+    def clean(x): return re.sub(r"[^a-z0-9']", "", x.lower())
+    if manual:
+        i = 0
+        for tok in [m.strip() for m in manual.split(",") if m.strip()]:
+            flav = tok.startswith("*"); target = clean(tok.lstrip("*"))
+            while i < len(tw) and clean(tw[i]["w"]) != target: i += 1
+            if i < len(tw):
+                beats.append({"t": tw[i]["s"], "e": tw[i]["e"], "text": tw[i]["w"].strip(".,!?"), "flavour": flav}); i += 1
+    else:
+        last = start_after - density; best = None
+        for k, w in enumerate(tw):
+            c = clean(w["w"])
+            if w["s"] < start_after or not c or c in STOP or c in FILLER: 
+                pass
+            else:
+                sc = (w["e"] - w["s"]) * 2 + 0.08 * len(c)
+                if c in STAKES: sc += 3
+                if re.search(r"\d", c): sc += 3
+                if c in PRONOUN_OPEN: sc += 3
+                if k and w["s"] - tw[k - 1]["e"] >= BREATH: sc += 1
+                if c in {clean(b["text"]) for b in beats}: sc -= 6  # one appearance per word per reel
+                if best is None or sc > best[0]: best = (sc, w)
+            if best and w["s"] - last >= density:
+                bw = best[1]; beats.append({"t": bw["s"], "e": bw["e"], "text": bw["w"].strip(".,!?"), "flavour": (clean(bw["w"]) in STAKES and len(c) > 0 and len(beats) % 3 == 2)})
+                last = bw["s"]; best = None
+    tl2, acc = [], 0.0
+    for s in plan["segments"]: tl2.append((acc, acc + s["b"] - s["a"], s["a"])); acc += s["b"] - s["a"]
+    def to_src(tt):
+        for a, b2, sa in tl2:
+            if a <= tt <= b2 + 1e-6: return sa + (tt - a)
+        return None
+    for i, b in enumerate(beats):
+        nxt = beats[i + 1]["t"] if i + 1 < len(beats) else total
+        b["end"] = round(min(nxt - 0.15, b["t"] + 1.9, total), 2)
+        st = to_src(b["t"] + 0.3)
+        if st is not None and os.path.exists(plan.get("src", "")):
+            b["face"] = face_box(plan["src"], st)
+    return beats
+
+
+def beat_lines(beats, zone, ts, size=200):
+    pts = BEAT_ZONES.get(zone) or BEAT_ZONES["top"]
+    if isinstance(zone, str) and ";" in zone and zone not in ("auto", "side"):  # "x,y;x,y" override, centred, 960 px available
+        pts = [tuple(int(v) for v in xy.split(",")) + (5, 960) for xy in zone.split(";")]
+    lines = []
+    for i, b in enumerate(beats):
+        col = BEAT_COLOURS[i % len(BEAT_COLOURS)]
+        flav = bool(b.get("flavour")); style = "BeatFlavour" if flav else "Beat"
+        txt = b["text"].replace("{", "").replace("}", "")
+        if zone in ("auto", "side"):
+            x, y, an, fs = place_beat(b.get("face"), txt, flav, i)
+        else:
+            x, y, an, avail = pts[i % len(pts)]
+            per = 0.52 if flav else 0.60
+            fs = min(int(size * 1.05) if flav else size, int(avail / (per * max(1, len(txt)))))
+        fs = max(72, fs)
+        lines.append(f"Dialogue: 2,{ts(b['t'])},{ts(b['end'])},{style},,0,0,0,,{{\\an{an}\\pos({x},{y})\\fs{fs}\\c{col}\\fad(60,120)\\fscx72\\fscy72\\t(0,130,\\fscx100\\fscy100)}}{txt}")
+    return lines
+
+
+def build_ass(plan, words, lockup, caption_start, out_path, beats=None, beat_zone="top"):
     tl, t = [], 0.0
     for s in plan["segments"]:
         tl.append((s["a"], s["b"], t)); t += s["b"] - s["a"]
@@ -378,12 +517,17 @@ def build_ass(plan, words, lockup, caption_start, out_path):
            "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
            "Style: Cap,Poppins SemiBold,68,&H00DCE9EF,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,0,3,2,72,130,735,1",
            "Style: Lock,Shrikhand,96,&H00424A5A,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,-3,1,0,0,8,72,72,110,1",
+           # beat words (2026-11-23, from @claudiorivera.910): a heavy sans and an italic serif, soft shadow, no stroke
+           "Style: Beat,Archivo Black,150,&H00DCE9EF,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,0,5,5,0,0,0,1",
+           "Style: BeatFlavour,Shrikhand,200,&H004A6AE0,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,0,5,5,0,0,0,1",
            "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
     for g in merged:
         s = g[0][0]; e = max(g[-1][1], s + 0.4)
         ass.append(f"Dialogue: 0,{ts(s)},{ts(e)},Cap,,0,0,0,,{' '.join(x[2] for x in g).replace('{','').replace('}','')}")
     if lockup:
         ass.append(f"Dialogue: 1,{ts(0.13)},{ts(3.0)},Lock,,0,0,0,,{{\\fad(110,120)}}{lockup}")
+    if beats:
+        ass.extend(beat_lines(beats, beat_zone, ts))
     Path(out_path).write_text("\n".join(ass), encoding="utf-8")
     return len(merged)
 
@@ -431,6 +575,55 @@ def cmd_still(args):
     print("open the first frame at full size: skin natural, blacks black, nothing blown. Send it to Jacob before any render over two minutes (look guide 9.7).")
 
 
+def cmd_preview(args):
+    """Frames at each beat word (and the first frame) with the lockup, captions and beat words burned in, tiled into one
+    sheet, straight from the source. Cheap: no full render. Look at it, and send it to Jacob, before the render."""
+    plan = json.load(open(args.plan, encoding="utf-8")); src = plan["src"]; words = load_words(plan["words"])
+    out = Path(args.out); work = out.parent / (out.stem + "_frames"); work.mkdir(parents=True, exist_ok=True)
+    beats = pick_beats(plan, words, density=args.beat_every, manual=None if args.beats in ("auto", None) else args.beats) if args.beats != "off" else []
+    full_ass = work / "preview_full.ass"
+    build_ass(plan, words, args.lockup, plan["captions"]["start_s"], full_ass, beats=beats, beat_zone=args.beat_zone)
+    lines = full_ass.read_text(encoding="utf-8").splitlines()
+    head = [l for l in lines if not l.startswith("Dialogue:")]; dial = [l for l in lines if l.startswith("Dialogue:")]
+    def tsec(x):
+        h, m, s = x.split(":"); return int(h) * 3600 + int(m) * 60 + float(s)
+    def ts(x):
+        h = int(x // 3600); m = int(x % 3600 // 60); s = x % 60; return f"{h}:{m:02d}:{s:05.2f}"
+    # timeline time -> source time
+    tl, acc = [], 0.0
+    for s in plan["segments"]: tl.append((acc, acc + s["b"] - s["a"], s["a"])); acc += s["b"] - s["a"]
+    def to_src(tt):
+        for a, b, sa in tl:
+            if a <= tt <= b + 1e-6: return sa + (tt - a)
+        return None
+    times = [1.0] + [min(b["t"] + 0.35, b["end"]) for b in beats]
+    vf = tone_chain(src) + "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1"
+    frames = []
+    for i, tt in enumerate(times):
+        st = to_src(tt)
+        if st is None: continue
+        # shift every dialogue active at tt so it is active at 0.5 s of a one-frame clip
+        shifted = []
+        for l in dial:
+            parts = l.split(",", 9); a, b = tsec(parts[1]), tsec(parts[2])
+            if a <= tt <= b:
+                parts[1], parts[2] = ts(0.0), ts(2.0)
+                line = ",".join(parts)
+                line = re.sub(r"\\fad\(\d+,\d+\)", "", line)                       # no fade on a single frame
+                line = re.sub(r"\\fscx72\\fscy72\\t\(0,130,\\fscx100\\fscy100\)", "", line)  # the pop has landed
+                shifted.append(line)
+        tmp = work / f"f{i}.ass"; tmp.write_text("\n".join(head + shifted), encoding="utf-8")
+        o = work / f"f{i}.jpg"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(st), "-i", src, "-frames:v", "1", "-vf", f"{vf},ass={ffpath(tmp)}:fontsdir={ffpath(args.fonts)}", "-q:v", "3", str(o)], check=True)
+        frames.append(o)
+    cols = min(4, len(frames)); rows = (len(frames) + cols - 1) // cols
+    inputs = sum((["-i", str(f)] for f in frames), [])
+    subprocess.run(["ffmpeg", "-v", "error", "-y"] + inputs + ["-filter_complex", f"{''.join(f'[{k}:v]scale=405:720[v{k}];' for k in range(len(frames)))}{''.join(f'[v{k}]' for k in range(len(frames)))}xstack=inputs={len(frames)}:layout={'|'.join(f'{(k % cols) * 405}_{(k // cols) * 720}' for k in range(len(frames)))}:fill=black", str(out)], check=True)
+    print(f"preview {out}: {len(frames)} frames (first frame, then each beat word)")
+    for b in beats: print(f"  beat {b['t']:6.2f} s  {b['text']!r}{'  (flavour)' if b.get('flavour') else ''}")
+    print("look at it at full size: words off the face, nothing washed out, the small captions under them. Then render.")
+
+
 def cmd_render(args):
     plan = json.load(open(args.plan, encoding="utf-8"))
     src = plan["src"]; words = load_words(plan["words"])
@@ -457,7 +650,10 @@ def cmd_render(args):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(work / "list.txt"), "-af", pre + "," + ln + ",aresample=48000", "-vf", "setsar=1"] + EXP + [str(nocap)], check=True)
     print("nocap ok", flush=True)
     ass = out.with_suffix(".ass")
-    n = build_ass(plan, words, args.lockup, plan["captions"]["start_s"], ass)
+    beats = None
+    if args.beats and args.beats != "off":
+        beats = pick_beats(plan, words, density=args.beat_every, manual=None if args.beats == "auto" else args.beats)
+    n = build_ass(plan, words, args.lockup, plan["captions"]["start_s"], ass, beats=beats, beat_zone=args.beat_zone)
     if args.no_captions and not args.lockup:
         shutil.copyfile(nocap, out)
     else:
@@ -466,7 +662,8 @@ def cmd_render(args):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(nocap), "-vf", f"ass={ffpath(ass)}:fontsdir={ffpath(args.fonts)}", "-c:a", "copy"] + EXP + [str(out)], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-vf", "fps=1,scale=240:-1,tile=8x6", "-frames:v", "1", str(out.with_name(out.stem + "_qa.jpg"))], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.0", "-i", str(out), "-frames:v", "1", str(out.with_name(out.stem + "_cover.jpg"))], check=True)
-    plan["render"] = {"out": os.path.abspath(out), "nocap": os.path.abspath(nocap), "ass": os.path.abspath(ass), "caption_groups": n, "lockup": args.lockup}
+    plan["render"] = {"out": os.path.abspath(out), "nocap": os.path.abspath(nocap), "ass": os.path.abspath(ass), "caption_groups": n, "lockup": args.lockup,
+                      "beats": [b["text"] for b in (beats or [])], "beat_zone": args.beat_zone if beats else ""}
     Path(args.plan).write_text(json.dumps(plan, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"rendered {out} ({n} caption groups); qa sheet and cover beside it. Next: lint, then ledger add")
 
@@ -553,7 +750,10 @@ def main():
     p.add_argument("-o", "--out", default="plan.json"); p.set_defaults(fn=cmd_plan)
     c = sub.add_parser("challenge"); c.add_argument("plan"); c.add_argument("--set"); c.add_argument("--device"); c.add_argument("--lockup-style"); c.add_argument("--tone"); c.add_argument("--camera"); c.add_argument("--payoff"); c.add_argument("--format"); c.set_defaults(fn=cmd_challenge)
     st = sub.add_parser("still"); st.add_argument("plan"); st.add_argument("-o", "--out", default="still.jpg"); st.set_defaults(fn=cmd_still)
-    r = sub.add_parser("render"); r.add_argument("plan"); r.add_argument("-o", "--out", required=True); r.add_argument("--lockup", default=""); r.add_argument("--no-captions", action="store_true"); r.add_argument("--fonts", default=str(FONTS)); r.set_defaults(fn=cmd_render)
+    r = sub.add_parser("render"); r.add_argument("plan"); r.add_argument("-o", "--out", required=True); r.add_argument("--lockup", default=""); r.add_argument("--no-captions", action="store_true"); r.add_argument("--fonts", default=str(FONTS))
+    r.add_argument("--beats", default="off", help="'off', 'auto', or a comma list of words in order; prefix a word with * for the serif flavour face"); r.add_argument("--beat-zone", default="auto", help="auto (reads the face per beat), top, side, chest, or 'x,y;x,y' centres"); r.add_argument("--beat-every", type=float, help="seconds between beat words (default by job)"); r.set_defaults(fn=cmd_render)
+    pv = sub.add_parser("preview"); pv.add_argument("plan"); pv.add_argument("-o", "--out", default="preview.jpg"); pv.add_argument("--lockup", default=""); pv.add_argument("--fonts", default=str(FONTS))
+    pv.add_argument("--beats", default="auto"); pv.add_argument("--beat-zone", default="auto", help="auto (reads the face per beat), top, side, chest, or 'x,y;x,y' centres"); pv.add_argument("--beat-every", type=float); pv.set_defaults(fn=cmd_preview)
     l = sub.add_parser("lint"); l.add_argument("plan"); l.add_argument("--video"); l.add_argument("--ass"); l.set_defaults(fn=cmd_lint)
     g = sub.add_parser("ledger"); g.add_argument("action", choices=["add", "show"]); g.add_argument("plan", nargs="?"); g.add_argument("--label", default=""); g.add_argument("--set"); g.add_argument("--device"); g.add_argument("--lockup-style"); g.add_argument("--tone"); g.add_argument("--no-captions", action="store_true"); g.set_defaults(fn=cmd_ledger)
     args = ap.parse_args()
