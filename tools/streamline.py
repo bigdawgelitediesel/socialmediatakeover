@@ -504,12 +504,14 @@ def build_ass(plan, words, lockup, caption_start, out_path, beats=None, beat_zon
         if merged: merged[-1] = merged[-1] + carry
         else: merged.append(carry)
     # no group over four words or 24 characters: split long merges in half
-    split = []
-    for g in merged:
-        while len(g) > 4 or len(" ".join(x[2] for x in g)) > 24:
-            if len(g) < 2: break
-            h = max(1, len(g) // 2); split.append(g[:h]); g = g[h:]
-        split.append(g)
+    def too_long(g): return len(g) > 4 or len(" ".join(x[2] for x in g)) > 24
+    queue, split = list(merged), []
+    while queue:
+        g = queue.pop(0)
+        if too_long(g) and len(g) >= 2:
+            h = max(1, len(g) // 2); queue[0:0] = [g[:h], g[h:]]
+        else:
+            split.append(g)
     merged = split
     def ts(x):
         h = int(x // 3600); m = int(x % 3600 // 60); s = x % 60; return f"{h}:{m:02d}:{s:05.2f}"
