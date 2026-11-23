@@ -33,7 +33,7 @@ Not much is new; it confirms rules already in the repo:
 
 ## What does NOT carry over
 
-- Trial Reels are gated at 1,000+ followers (research/2026-09-15-algorithm-reference.md). The account is at 577 as of 2026-11-21, so the core of the method is not available yet unless the toggle shows up for him. Check the toggle on the share screen.
+- CORRECTED the same day: Trial Reels need 200 followers on a professional account (Help Center), not 1,000, so the account qualifies at 577. See research/2026-11-23-TRIAL-REELS-PLAYBOOK.md. Jacob confirms the toggle on the share screen.
 - Same b-roll, same sound, swapped words, six a day is the pattern Mosseri called "a spam vector that we are addressing" (Brock digest, 2026-09-15). Even with the toggle, cap it at two variants of one clip and change the footage between tests.
 - Trending sound baked on every post and text-on-b-roll with no face fights the house rules (song in-app is fine; nothing 20 to 40 s; real footage only is fine here).
 - Her audience is women building a personal brand. Her hook lines ("for the girls") do not translate; the structure does.
@@ -41,5 +41,5 @@ Not much is new; it confirms rules already in the repo:
 ## Take for Rival
 
 1. Start the b-roll bank now (a Drive folder `VIDEO/broll`, 5 to 7 s clips, named by place).
-2. At 1,000 followers, or the day the Trial toggle appears: run hook tests as Trial Reels, two hooks per clip, loop length 6 to 12 s, graded on 7-day views.
+2. Once the Trial toggle is confirmed: run hook tests as Trial Reels per the playbook, two hooks per clip at most.
 3. Until then the same test runs on the main feed through the matrix: one variable per post.
