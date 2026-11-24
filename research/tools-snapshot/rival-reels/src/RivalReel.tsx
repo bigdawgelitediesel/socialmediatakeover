@@ -12,6 +12,7 @@ import { WindowStack, PinThumb, Terminal, RepoCard, SpecChips, NotePill } from "
 import { SlotList, ScoreBars, DuelStage, Fill } from "./components/Rapid";
 import { UiWorld, HeadlineWall, PaperCut, GlassType } from "./components/Studio";
 import { MainLockup } from "./components/Main";
+import { Backdrop, Objection, StatTiles } from "./components/Code";
 
 export type Overlay = { type: string; at: number; dur: number; props?: Record<string, any>; behind?: boolean };
 export type Caption = { text: string; start: number; end: number; accent?: string; y?: number; style?: "pill" | "plain"; variant?: "sans" | "serif" | "caps" | "italic"; accentFont?: "serif" | "script"; ink?: boolean };
@@ -39,6 +40,8 @@ export const REG: Record<string, React.FC<any>> = {
   uiworld: UiWorld, headlinewall: HeadlineWall, papercut: PaperCut, glass: GlassType,
   // Jacob's main title style (2026-11-23, fonts from @kalylsfilms DcBwAjvoEqI)
   mainlock: MainLockup,
+  // 2026-11-24 code-drawn beats (buildwithdarius De4LyfdP5sY): no footage under them
+  backdrop: Backdrop, objection: Objection, stattiles: StatTiles,
 };
 
 export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], overlays = [], muted = true, captionStyle = "pill", frame }) => {

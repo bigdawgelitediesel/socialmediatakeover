@@ -31,3 +31,20 @@ No paid voice, avatar or media service is part of this setup.
 
 The seven-step workflow has not been run on a real recording. `reel.py new` with transcription on a real clip, and the
 stops with Jacob actually answering, still need a real reel.
+
+## Added 2026-11-24: four open editing kits, cloned and read
+
+From the "4 free GitHub repos" reel (DfmlI5sNFVa). Clones (about 1.5 GB) are on this PC only:
+`Desktop/socialmediatakeover/research/reel-references/2026-11-24-DfmlI5sNFVa/clone/`. None of them is installed.
+
+| Kit | Licence | What was taken | What was left |
+|---|---|---|---|
+| Herk Edit Kit (nateherkai) | MIT | The three cutting scripts, copied to `tools/herk/` with the licence and wrapped by `tools/cutfind.py`. The editing playbook's rules (MOTION-BRIEF). | Its ElevenLabs transcriber, AI b-roll, music and sound effects. The AIS brand files are not licensed for reuse. |
+| HyperFrames (heygen-com) | Apache 2.0 | Motion and caption numbers (MOTION-BRIEF). | Not installed: telemetry is on by default, the skill fetches a CLI at run time, and Remotion already does titles behind the cutout. If it is ever tried, set `HYPERFRAMES_NO_TELEMETRY=1`. |
+| OpenFilm (openfilm) | MIT | Caption break rules, the post-render check idea. | Not installed: its skill runs the newest npm version every time, library search sends queries to their server, Windows transcription is one thread. |
+| OpenMontage (OpenMontageInc) | AGPL 3.0 | Ideas only, rewritten: the "does this clip stand alone" test, review rules. | No code copied (AGPL). Most pipelines use AI pictures, voices and music. |
+
+`tools/cutfind.py <words.json> [--gap 0.55]`: tested 2026-11-24 on a 21 minute interview transcript (133 pauses, 127 s of dead air, 30 stutter candidates) and a short clip. Needs only node.
+
+New overlays in `tools/rival-reels` (`src/components/Code.tsx`): `backdrop`, `objection`, `stattiles`, for beats drawn from code with no footage under them. Sample: `out/code-sample.props.json`.
+

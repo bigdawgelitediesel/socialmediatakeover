@@ -1,0 +1,92 @@
+{
+ "plate": "code-plate.mp4",
+ "muted": true,
+ "captions": [],
+ "overlays": [
+  {
+   "type": "backdrop",
+   "at": 0,
+   "dur": 9,
+   "props": {}
+  },
+  {
+   "type": "mainlock",
+   "at": 0,
+   "dur": 2.6,
+   "props": {
+    "lines": [
+     {
+      "text": "THIS REEL HAS"
+     },
+     {
+      "text": "NO CAMERA"
+     }
+    ],
+    "cross": "drawn from code",
+    "y": 330
+   }
+  },
+  {
+   "type": "objection",
+   "at": 2.6,
+   "dur": 3.0,
+   "props": {
+    "lines": [
+     "A 67 YEAR OLD",
+     "TRUCK CAN'T",
+     "MAKE 600 HP"
+    ],
+    "answer": "watch it.",
+    "strikeAt": 1.3,
+    "y": 150
+   }
+  },
+  {
+   "type": "stattiles",
+   "at": 5.6,
+   "dur": 3.4,
+   "props": {
+    "title": "Project Rival",
+    "tiles": [
+     {
+      "to": 1959,
+      "label": "Built",
+      "group": false,
+      "color": "white"
+     },
+     {
+      "to": 7.3,
+      "label": "Liters",
+      "decimals": 1
+     },
+     {
+      "to": 600,
+      "label": "Crank hp goal",
+      "color": "red"
+     },
+     {
+      "to": 2027,
+      "label": "SEMA",
+      "group": false,
+      "color": "white"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mainlock",
+   "at": 5.6,
+   "dur": 3.4,
+   "props": {
+    "lines": [
+     {
+      "text": "THE NUMBERS"
+     }
+    ],
+    "y": 330,
+    "size": 210,
+    "hold": true
+   }
+  }
+ ]
+}

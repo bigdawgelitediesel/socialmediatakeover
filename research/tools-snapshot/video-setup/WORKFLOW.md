@@ -33,6 +33,7 @@ Every step is recorded with `python -I tools/reel.py`, so a new chat can pick up
 - Cleanup removes only `work/tmp` inside the project. Originals, the final, approved examples, editable work,
   tools, speech models and notes are kept. Unknown files are left alone.
 - Before step 2: `tools/lightcheck.py` on the raw clip (Setup/LIGHTING.md). If the light fails, say so before cutting.
+- Step 2 starts with `tools/cutfind.py <words.json>`: the pauses and the mistake candidates, shown to him as a list. It proposes only.
 - Checks before he sees a full video: a full-size first and middle frame (look guide), `tools/safezone.py`,
   `tools/smooth_check.py`, caption timing against the cut, loudness.
 - Claude cannot hear. Every time something is shown, say plainly that the sound was checked by levels and transcript only,

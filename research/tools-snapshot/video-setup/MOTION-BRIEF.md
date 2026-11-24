@@ -22,3 +22,38 @@ It applies to captions, graphics, footage, cutaways and sound. The look itself c
 9. **Inspect the real rendered file before showing it.** Fast transitions frame by frame, caption timing, edges,
    readability, sound sync. Fix accidental jumps, overlaps, clipped words and unfinished graphics. If a part could not be
    watched or heard, say so and ask him to check it.
+
+## Numbers to work to (added 2026-11-24)
+
+Read out of four open editing kits (Herk Edit Kit, HyperFrames, OpenFilm, OpenMontage) and rewritten for this kit.
+They are starting points measured on other people's reels, not law. Jacob's own notes beat all of them.
+
+**Cutting speech**
+- Cut BETWEEN phrases, at real silence. Never inside a phrase. A filler that runs straight into the next word stays, because cutting it clips the words around it.
+- A pause under about 0.55 s is his natural rhythm and stays. A trimmed pause keeps a breath: 0.14 s, 0.20 s after a sentence, 0.24 s after a long pause.
+- Keep the last clean take of a repeated line. Join two takes only where both sides are silent.
+- A repeated word can be emphasis ("never, never"). Every stutter or false start is shown to him as a question, not cut on its own.
+- Speech starts within about 0.1 s of frame one. The file ends right after the last word. Never fade the last word.
+- `python -I tools/cutfind.py <words.json>` lists the pauses and the mistake candidates. It proposes; step 2 of the workflow approves.
+
+**Motion**
+- Arrivals ease out hard. Exits are about half as long as arrivals. Camera moves ease in and out.
+- Words arrive 2 to 3 frames apart. A good plain entrance: each word from a 6 px blur to sharp in about 4 frames.
+- Once a title has landed it holds dead still. Only the next thing moves.
+- A line stays up about 0.5 s plus 0.3 s a word. Nothing readable under 28 px on a phone frame.
+- Text behind him reads best with 30 to 55 percent of it covered. Check it against the cutout over the whole time it is up, because his head moves.
+
+**Captions**
+- Break on his own pauses. Never between a number and its unit. Hold about 0.2 s past the last word. Close gaps under 0.15 s so captions do not flicker.
+- Never over his mouth or chin, least of all in the first 2.5 seconds.
+
+**Checks on the rendered file, before he sees it**
+- Transcribe the FINAL render and compare the words at every cut with the raw clip. A matching word count is not proof; a clipped word still transcribes.
+- A strip of frames across every cut (10 each side) catches one-frame flashes that single stills miss.
+- Read the first 2.5 seconds frame by frame.
+- Loudness on the delivered file: about -14 LUFS, true peak at or under -1.5.
+- Say which checks could not be done. Levels are not listening. A transcript is not hearing the edit.
+
+**The loop**
+- Every note he gives becomes a line in `LEARNINGS.md` or the skill the same day, so he never gives the same note twice.
+
