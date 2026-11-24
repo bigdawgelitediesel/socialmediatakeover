@@ -62,3 +62,19 @@ Anton, Archivo Black, Bebas Neue, Kaushan Script, Caveat Brush, Yellowtail, Popp
 
 ## Rejected (do not come back to these)
 Oswald Bold + Montserrat SemiBold caption system, Anton-alone hook, Bebas-alone hook, Instrument Serif hook, thick outlined ExtraBold, any per-word highlighted captions, the dark caption band.
+
+## MAIN FONTS (Jacob's pick, 2026-11-23, supersedes the lockup combos as the default)
+
+Source: @kalylsfilms reel DcBwAjvoEqI ("my favorite fonts", 40,598 likes). Jacob: "I love these fonts and want them as my main fonts in my style guide!"
+Breakdown: `research/reel-references/2026-11-23-DcBwAjvoEqI/BREAKDOWN.md`.
+
+| Role | His font | Used here | Licence |
+|---|---|---|---|
+| Big word | Impact | Impact (Windows system font, not in this repo) | system font; do not redistribute |
+| Classy line | Snell Roundhand | Pinyon Script (`research/fonts/PinyonScript-Regular.ttf`) | stand-in, SIL OFL. Real font is paid Linotype, bundled with macOS and iOS |
+| Painted word | Rocktown (Khurasan) | Permanent Marker (`research/fonts/PermanentMarker-Regular.ttf`); Knewave as a second option | stand-in, Apache 2.0. Real font is personal-use only without a paid licence |
+
+Pairing: Impact caps always; one of the other two on top of it, never all three. Yellow `#FDC43A`, red `#F04625`, white. Top third, never on the face.
+Renderer: Remotion overlay `mainlock` (Main.tsx). ASS names: Impact, Pinyon Script, Permanent Marker.
+Combos A LOUDER, B MEGANTE and C TROPI stay on file but are no longer the default title.
+

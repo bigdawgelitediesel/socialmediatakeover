@@ -1,10 +1,31 @@
 # El Coyote signature style
 
-**STATUS: DRAFT, 2026-11-23. Not approved by Jacob yet.** Austin Myers' signature-style prompt (reel DfKl-EPM0oI) says to study
+**STATUS: the MAIN FONTS section is approved (his pick, 2026-11-23). Everything else is still a DRAFT, not approved by Jacob yet.** Austin Myers' signature-style prompt (reel DfKl-EPM0oI) says to study
 three to five of his own edited videos, say what was observed and what is being suggested, and ask for his feedback before
 saving it as approved. Nothing below becomes "the style" until he says so.
 
 Identity: Jacob Dalton, @elcoyotediesel. Project Rival, a 1959 Ford F600 on a 7.3 Powerstroke, road to SEMA Nov 2 to 5, 2027.
+
+## Main fonts (Jacob's pick, 2026-11-23: APPROVED)
+
+Jacob, on @kalylsfilms reel DcBwAjvoEqI: "I love these fonts and want them as my main fonts in my style guide!"
+
+| Role | His font | On this PC | Licence |
+|---|---|---|---|
+| The big word | **Impact** | Impact, the real font (ships with Windows) | fine in video; never commit the file to a repo or host it on a site |
+| The classy line | **Snell Roundhand** | **Pinyon Script** stand-in (SIL OFL) | real one is paid (Linotype, about $30 a style) and built into Macs and iPhones |
+| The painted word | **Rocktown** (by Khurasan) | **Permanent Marker** stand-in (Apache 2.0); Knewave on disk as a second option | real one is free for personal use only; an account with partners needs the paid licence |
+
+- **Pairing:** the big word is always Impact, caps. One of the other two rides on it, never all three at once.
+  1. Impact + painted word: two stacked Impact lines, yellow then red, one white brush word across the middle at about 7 degrees.
+  2. Impact + classy line: round hand in yellow on top, Impact under it. For partners, names, places.
+- **Colours, measured off his example:** yellow `#FDC43A`, red `#F04625`, white `#FFFFFF`. Soft dark shadow, no outline.
+- **Where:** in the top third (y 0 to 620), never on his face.
+- **In the tools:** Remotion overlay `mainlock` (`rival-reels/src/components/Main.tsx`; theme names `F.impact`, `F.round`, `F.brush`).
+  For ffmpeg/ASS burns the font names are `Impact`, `Pinyon Script`, `Permanent Marker` (files in `tools/fonts`).
+- **Replaces** as the default title: Archivo Black lines, and the A LOUDER / B MEGANTE / C TROPI lockups (kept on file, not the default).
+- **If he buys the real fonts:** drop the files in `tools/fonts` and `rival-reels/public/fonts`, change two names in `theme.ts`. Nothing else moves.
+- Captions were not part of the pick. They stay small white Poppins until he says otherwise (his example uses a bold serif).
 
 ## Examples studied (his own finished reels, in `My Drive\VIDEO\finished`)
 
@@ -30,7 +51,7 @@ Identity: Jacob Dalton, @elcoyotediesel. Project Rival, a 1959 Ford F600 on a 7.
 
 1. Eyes on the upper third line (y 625) in every talking head. They sit 150 to 200 px low today.
 2. Captions no wider than 760 px and shifted left so they clear the like, comment and share buttons.
-3. Titles bigger. The top third is the only thing a muted viewer reads and 64 px is small there.
+3. Titles bigger (done by the main fonts pick above: Impact at up to 250 px).
 4. Keep everything else as it is.
 
 ## Files kept for future edits

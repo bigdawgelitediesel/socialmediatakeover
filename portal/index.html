@@ -7,7 +7,7 @@
 <meta name="description" content="What to film and when to post for @elcoyotediesel. Day by day, built from the 30-day plan.">
 <meta name="theme-color" content="#0b0b0c">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#0b0b0c;--ink:#141414;--card:#161618;--line:#27272b;--cream:#efe9dc;--muted:#a79f8f;
@@ -185,7 +185,40 @@ summary .shape{margin-left:8px}
 .pcap{background:var(--ink);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px;white-space:pre-wrap;color:#d8d2c4}
 .ours{margin-top:10px;border-left:3px solid var(--tan);padding:4px 0 4px 12px;font-size:13px;color:#d8d2c4}
 .ours b{color:var(--tan);font-weight:600}
-@media (max-width:520px){.two{grid-template-columns:1fr}.mday{min-height:66px}nav.tabs button{font-size:11px}}
+
+/* ---- Style guide tab (2026-11-23) ---- */
+.fx-impact{font-family:Impact,Anton,sans-serif;font-weight:400;text-transform:uppercase;line-height:.92;letter-spacing:.5px}
+.fx-round{font-family:'Pinyon Script','Snell Roundhand',cursive;line-height:1}
+.fx-brush{font-family:'Permanent Marker',cursive;text-transform:uppercase;line-height:1}
+.spec{background:#1c1e20;border:1px solid var(--line);border-radius:14px;padding:18px 14px;margin:10px 0;text-align:center;overflow:hidden}
+.spec small{display:block;text-align:left;color:var(--muted);font-size:12px;margin-top:10px;line-height:1.45}
+.spec small b{color:var(--tan);font-weight:600}
+.lock{position:relative;display:inline-block;padding:6px 0 10px}
+.lock .a{display:block;font-size:clamp(38px,11.5vw,80px);color:#FDC43A}
+.lock .b{display:block;font-size:clamp(38px,11.5vw,80px);color:#F04625}
+.lock .x{position:absolute;left:-4%;right:-4%;top:38%;font-size:clamp(22px,6.4vw,42px);color:#fff;transform:rotate(-7deg) skewX(-10deg);text-shadow:0 3px 0 rgba(0,0,0,.4),0 8px 18px rgba(0,0,0,.5);white-space:nowrap}
+.lock .s{display:block;font-size:clamp(30px,8.5vw,54px);color:#FDC43A;margin-bottom:2px}
+.sw{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:8px;margin-top:8px}
+.sw div{border-radius:12px;border:1px solid var(--line);overflow:hidden;background:var(--ink);font-size:12px}
+.sw i{display:block;height:54px}
+.sw b{display:block;padding:6px 8px 0;font-weight:600}
+.sw span{display:block;padding:0 8px 8px;color:var(--muted)}
+.zone{position:relative;width:180px;height:320px;margin:10px auto;border-radius:16px;border:2px solid var(--line);background:#222;overflow:hidden;font-size:10px;letter-spacing:.5px;text-transform:uppercase;text-align:center;color:#111}
+.zone div{position:absolute;display:grid;place-items:center;font-weight:600}
+.zone .z1{left:0;right:0;top:0;height:32.3%;background:rgba(60,190,90,.85)}
+.zone .z2{left:0;right:0;top:32.5%;height:2px;background:#7CFF9A}
+.zone .z3{left:0;width:79%;top:67.3%;height:14.6%;background:rgba(70,140,255,.85)}
+.zone .z4{left:0;right:0;top:81.9%;bottom:0;background:rgba(220,50,40,.85);color:#fff}
+.zone .z5{right:0;width:21%;top:33.3%;height:48.6%;background:rgba(220,50,40,.85);color:#fff;writing-mode:vertical-rl}
+.zone .ey{left:6px;top:calc(32.5% + 4px);color:#7CFF9A;font-weight:600}
+.sgimg{width:100%;border-radius:12px;border:1px solid var(--line);display:block;margin-top:8px}
+.stt{display:inline-block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;border:1px solid;border-radius:999px;padding:2px 10px;margin-bottom:8px}
+.stt.ok{color:#7CFF9A;border-color:#2f7a4f}.stt.dr{color:var(--yellow);border-color:var(--yellow)}
+.sgl{list-style:none;padding:0;margin:6px 0 0}
+.sgl li{padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;color:#d8d2c4}
+.sgl li:last-child{border-bottom:0}
+.sgl li b{color:var(--tan);font-weight:600}
+@media (max-width:520px){.two{grid-template-columns:1fr}.mday{min-height:66px}nav.tabs button{font-size:10px;padding:8px 1px}}
 @media (min-width:720px){h1{font-size:48px}.title{font-size:30px}}
 
 </style>
@@ -203,6 +236,7 @@ summary .shape{margin-left:8px}
 <section class="view on" id="v-today"></section>
 <section class="view" id="v-cal"></section>
 <section class="view" id="v-guide"></section>
+<section class="view" id="v-style"></section>
 <section class="view" id="v-ideas"></section>
 <section class="view" id="v-shoot"></section>
 <section class="view" id="v-numbers"></section>
@@ -213,6 +247,7 @@ summary .shape{margin-left:8px}
   <button data-v="today" class="on">Today</button>
   <button data-v="cal">Calendar</button>
   <button data-v="guide">Guide</button>
+  <button data-v="style">Style</button>
   <button data-v="ideas">Ideas</button>
   <button data-v="shoot">Shoot</button>
   <button data-v="numbers">Numbers</button>
@@ -643,7 +678,94 @@ function renderNumbers(){
   $('#v-numbers').innerHTML = h;
 }
 
-function render(){ renderToday(); renderCal(); renderGuide(); renderIdeas(); renderShoot(); renderNumbers(); }
+// ---- STYLE: the El Coyote style guide (2026-11-23). Fonts picked by Jacob from @kalylsfilms reel DcBwAjvoEqI:
+// "I love these fonts and want them as my main fonts in my style guide!" Source of truth on the shop PC:
+// Desktop/VIDEO/Signature Style/SIGNATURE-STYLE.md. Sections marked DRAFT wait for his yes.
+function renderStyle(){
+  const ok = '<span class="stt ok">Your pick</span>', dr = '<span class="stt dr">Draft, waiting on your yes</span>';
+  let h = `<h2>Style guide</h2>
+  <div class="card"><div class="title" style="font-size:24px">How an El Coyote video looks</div>
+    <p class="gline">Three fonts. Three colours. Nothing on your face.</p>
+    <p class="gp">The fonts are the ones you picked on Nov 23 from Kalyl's reel. Everything marked draft is what I see in your finished reels and is waiting on your yes.</p>
+  </div>
+
+  <h2>Main fonts</h2>
+  <div class="card">${ok}
+    <div class="spec"><div class="fx-impact" style="font-size:clamp(54px,17vw,110px);color:#FDC43A">Impact</div>
+      <small><b>01 Impact. The big word.</b> Bold, bulky and a little compressed, so it fills a tall screen. All caps. Titles, numbers, the one word per beat. This is the real font (it comes with Windows).</small></div>
+    <div class="spec"><div class="fx-round" style="font-size:clamp(32px,10vw,70px);color:#FDC43A">Snell Roundhand</div>
+      <small><b>02 Snell Roundhand. The classy line.</b> A name, a place, a quiet word over or under the big one. Never more than three or four words, never small. <b>What you see here is Pinyon Script</b>, a free look-alike. The real Snell Roundhand is a paid font (about $30 a style) that also comes on every Mac and iPhone.</small></div>
+    <div class="spec"><div class="fx-brush" style="font-size:clamp(34px,10.5vw,68px);color:#FDC43A;transform:rotate(-4deg) skewX(-8deg)">Rocktown</div>
+      <small><b>03 Rocktown. The painted word.</b> Looks like someone brushed it on. One word or short phrase laid across the big word at an angle, for personality. <b>What you see here is Permanent Marker</b>, a free look-alike. The real Rocktown (by Khurasan) is free for personal use only; an account with partners needs the paid licence.</small></div>
+  </div>
+
+  <h2>How they go together</h2>
+  <div class="card">${ok}
+    <p class="gp">Kalyl's rule: "If you're not pairing your fonts, then what are you doing?" The big word is always Impact. One of the other two rides on it. Never all three at once.</p>
+    <div class="spec"><div class="lock"><span class="a fx-impact">Six companies</span><span class="b fx-impact">One truck</span><span class="x fx-brush">it doesn't move</span></div>
+      <small><b>Impact + the painted word.</b> Two stacked lines, yellow then red, white brush word across the middle at about 7 degrees. The default title.</small></div>
+    <div class="spec"><div class="lock"><span class="s fx-round">Stomper Customs</span><span class="a fx-impact">Partner</span><span class="b fx-impact">No. 6</span></div>
+      <small><b>Impact + the classy line.</b> Round hand on top in yellow, Impact under it. For partners, names, places.</small></div>
+    <img class="sgimg" src="style/main-titles.jpg" alt="The two pairings on your own footage" loading="lazy">
+    <p class="gp" style="margin-top:8px">The same thing on your footage. Built into the editor as one title style, so every reel gets it the same way.</p>
+  </div>
+
+  <h2>Colours</h2>
+  <div class="card">${ok}
+    <div class="sw">
+      <div><i style="background:#FDC43A"></i><b>Yellow</b><span>#FDC43A · first line, the classy line</span></div>
+      <div><i style="background:#F04625"></i><b>Red</b><span>#F04625 · second line</span></div>
+      <div><i style="background:#FFFFFF"></i><b>White</b><span>#FFFFFF · painted word, captions</span></div>
+      <div><i style="background:#C9B38C"></i><b>Coyote tan</b><span>#C9B38C · site and labels only</span></div>
+      <div><i style="background:#0B0B0C"></i><b>Black</b><span>#0B0B0C · cards, backgrounds</span></div>
+    </div>
+    <p class="gp">Yellow, red and white are measured off the reel you sent. A soft dark shadow under the letters, no outline.</p>
+  </div>
+
+  <h2>Where things go on the screen</h2>
+  <div class="card">${dr}
+    <div class="zone"><div class="z1">Title here, big</div><div class="z2"></div><div class="ey" style="position:absolute">eyes on this line</div><div class="z3">Captions</div><div class="z5">buttons</div><div class="z4">name + caption cover this</div></div>
+    <ul class="sgl">
+      <li><b>Title:</b> top third of the screen. It is the only thing a muted viewer reads.</li>
+      <li><b>Your eyes:</b> on the line a third of the way down, in every shot. Today they sit a little low.</li>
+      <li><b>Captions:</b> lower third, pushed a little left so the like and share buttons do not cover them.</li>
+      <li><b>Bottom strip:</b> nothing. Instagram covers it with your name and caption.</li>
+    </ul>
+  </div>
+
+  <h2>Captions</h2>
+  <div class="card">${dr}
+    <ul class="sgl">
+      <li><b>Font:</b> Poppins, white, small, a few words at a time. Soft shadow. No outline, no box, no word-by-word highlight.</li>
+      <li><b>Timing:</b> matched to the cut, not the raw clip.</li>
+      <li>The reel you sent uses a bold serif for captions. Say the word and I will switch yours to match.</li>
+    </ul>
+  </div>
+
+  <h2>The rest of the look</h2>
+  <div class="card">${dr}
+    <ul class="sgl">
+      <li><b>Picture:</b> your footage left natural. No colour grade.</li>
+      <li><b>Cuts:</b> hard cuts on breaths. The whole message stays in. Under a minute.</li>
+      <li><b>Camera:</b> wide, then punched in on the next sentence, with a slow push inside each shot.</li>
+      <li><b>Graphics:</b> one device per reel at most (a checklist, a card, beat words).</li>
+      <li><b>Sound:</b> your voice. The song goes on inside Instagram unless you ask for it baked in.</li>
+    </ul>
+  </div>
+
+  <h2>Never</h2>
+  <div class="card"><ul class="nope">
+    <li>Text over your face.</li>
+    <li>The yellow script over white block title (you called it "the worst").</li>
+    <li>Outlined letters, caption bars, word-by-word highlights.</li>
+    <li>A call to action, outro or handle card on screen.</li>
+    <li>Colour grades or added saturation.</li>
+    <li>Elite Diesel, 307 or shop people in an El Coyote video.</li>
+  </ul></div>`;
+  $('#v-style').innerHTML = h;
+}
+
+function render(){ renderToday(); renderCal(); renderGuide(); renderStyle(); renderIdeas(); renderShoot(); renderNumbers(); }
 render();
 })();
 </script>

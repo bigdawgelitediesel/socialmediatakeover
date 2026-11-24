@@ -1,0 +1,8 @@
+{
+ "plate": "bddream-plate.mp4", "muted": true, "captions": [],
+ "overlays": [
+  { "type": "mainlock", "at": 0, "dur": 2, "props": { "lines": [ { "text": "SIX COMPANIES" }, { "text": "ONE TRUCK" } ], "cross": "it doesn't move" } },
+  { "type": "mainlock", "at": 2, "dur": 2, "props": { "lines": [ { "text": "PARTNER" }, { "text": "NO. 6", "color": "red" } ], "script": "Stomper Customs" } },
+  { "type": "mainlock", "at": 4, "dur": 2, "props": { "lines": [ { "text": "RIVAL" } ], "cross": "road to SEMA" } }
+ ]
+}
