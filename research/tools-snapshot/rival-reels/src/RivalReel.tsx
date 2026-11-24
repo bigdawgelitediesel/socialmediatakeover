@@ -10,6 +10,7 @@ import { WallBehind, Masthead, FrameBreak, Vertigo, BgReplace, ChartGrow, PullBa
 import { StickerEdge, DoodleBoil } from "./components/Boil";
 import { WindowStack, PinThumb, Terminal, RepoCard, SpecChips, NotePill } from "./components/Paper";
 import { SlotList, ScoreBars, DuelStage, Fill } from "./components/Rapid";
+import { UiWorld, HeadlineWall, PaperCut, GlassType } from "./components/Studio";
 
 export type Overlay = { type: string; at: number; dur: number; props?: Record<string, any>; behind?: boolean };
 export type Caption = { text: string; start: number; end: number; accent?: string; y?: number; style?: "pill" | "plain"; variant?: "sans" | "serif" | "caps" | "italic"; accentFont?: "serif" | "script"; ink?: boolean };
@@ -33,6 +34,8 @@ export const REG: Record<string, React.FC<any>> = {
   winstack: WindowStack, pinthumb: PinThumb, terminal: Terminal, repo: RepoCard, specchips: SpecChips, notepill: NotePill,
   // rapid-list / vote grammar (2026-11-21 rourke, post2all, justyn.ai studies)
   slotlist: SlotList, scorebars: ScoreBars, duel: DuelStage, fill: Fill,
+  // the last four of tenfoldmarc's 17 (2026-11-23, reel Def_oOUzJeS)
+  uiworld: UiWorld, headlinewall: HeadlineWall, papercut: PaperCut, glass: GlassType,
 };
 
 export const RivalReel: React.FC<ReelProps> = ({ plate, cutout, captions = [], overlays = [], muted = true, captionStyle = "pill", frame }) => {
