@@ -1,0 +1,22 @@
+[00:00.0 -> 00:04.1] If people keep scrolling past your videos, give Claude this before you film another one.
+[00:04.5 -> 00:05.9] This is your retention graph.
+[00:06.3 -> 00:09.9] It shows when people stop watching and you can use it to plan your next edit.
+[00:10.2 -> 00:13.3] First, install the official Opus Clip skill in Claude code
+[00:13.3 -> 00:15.7] and connect it with your Opus Clip API key.
+[00:16.1 -> 00:17.3] Then give it your recording and say,
+[00:17.7 -> 00:19.6] create 10 vertical clips from this footage.
+[00:19.9 -> 00:22.3] Start each with a strong moment and add captions.
+[00:22.9 -> 00:24.5] Review the clips and post them on TikTok.
+[00:25.0 -> 00:28.3] After about 48 hours, make your first check in TikTok Studio.
+[00:28.3 -> 00:33.1] Give Claude screenshots of each clip's retention graph alongside its timestamped transcript.
+[00:33.6 -> 00:35.2] Then say, find the biggest drop-offs.
+[00:35.5 -> 00:36.8] Show me what I was saying at those moments
+[00:36.8 -> 00:39.2] and suggest one change to test for each clip.
+[00:39.5 -> 00:40.3] And now here's the trick.
+[00:40.9 -> 00:43.0] Say, make new versions with those changes.
+[00:43.3 -> 00:44.9] Keep the originals so I can compare them.
+[00:45.3 -> 00:46.7] Now you're testing specific changes.
+[00:47.1 -> 00:50.3] A shorter opening, a faster explanation, or an earlier reveal.
+[00:50.6 -> 00:53.3] Post the new versions and check whether more people keep watching.
+[00:53.8 -> 00:56.3] So if you want the full workflow and exact prompts,
+[00:56.3 -> 00:59.7] just follow me and comment clips and I'll send them over.

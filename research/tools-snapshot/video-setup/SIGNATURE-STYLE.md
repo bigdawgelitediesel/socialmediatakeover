@@ -17,7 +17,7 @@ Jacob, on @kalylsfilms reel DcBwAjvoEqI: "I love these fonts and want them as my
 | The painted word | **Rocktown** (by Khurasan) | **Permanent Marker** stand-in (Apache 2.0); Knewave on disk as a second option | real one is free for personal use only; an account with partners needs the paid licence |
 
 - **Pairing:** the big word is always Impact, caps. One of the other two rides on it, never all three at once.
-  1. Impact + painted word: two stacked Impact lines, yellow then red, one white brush word across the middle at about 7 degrees.
+  1. Impact + painted word: two stacked Impact lines, yellow then red, one white brush word riding the seam between them at about half their height.
   2. Impact + classy line: round hand in yellow on top, Impact under it. For partners, names, places.
 - **Colours, measured off his example:** yellow `#FDC43A`, red `#F04625`, white `#FFFFFF`. Soft dark shadow, no outline.
 - **Where:** in the top third (y 0 to 620), never on his face.
@@ -26,6 +26,25 @@ Jacob, on @kalylsfilms reel DcBwAjvoEqI: "I love these fonts and want them as my
 - **Replaces** as the default title: Archivo Black lines, and the A LOUDER / B MEGANTE / C TROPI lockups (kept on file, not the default).
 - **If he buys the real fonts:** drop the files in `tools/fonts` and `rival-reels/public/fonts`, change two names in `theme.ts`. Nothing else moves.
 - Captions were not part of the pick. They stay small white Poppins until he says otherwise (his example uses a bold serif).
+
+## Text pairing and the behind-the-body rule (2026-11-23: APPROVED, his rules)
+
+Jacob: "You need to learn how to properly pair text so it looks good." and "new rule if my body is in the way of what you are
+going to post you need to put the title text behind me."
+
+Pairing (rule 123, my reading of the @david_knowsai and @kalylsfilms reels):
+1. One loud, one quiet. Impact is loud; the partner is at most about half its height.
+2. The partner never covers the big word's letters. The brush word rides the seam between the two Impact lines; the round hand sits in clear space above.
+3. One centre axis for every line.
+4. The contrast is obvious (big against small, block against script) or it is not used.
+5. Yellow, red, white. Always the same three.
+6. Top third, the same place every reel.
+
+Behind the body (rule 124, his words):
+- Check the frame at the title's time. If his head, hat, hands or body reach into the title, make a cutout (`tools/matte.py`) and draw the
+  Impact block under it: `mainlock` with `behind: true, part: "block"`, and again in front with `part: "partners"` only if the small line is in clear space.
+- It must still read behind him: first and last letters clear of his head. If not, put the title on one line or move it. Never in front of him.
+- Captions and beat words stay off his face.
 
 ## Examples studied (his own finished reels, in `My Drive\VIDEO\finished`)
 

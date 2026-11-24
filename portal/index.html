@@ -196,7 +196,8 @@ summary .shape{margin-left:8px}
 .lock{position:relative;display:inline-block;padding:6px 0 10px}
 .lock .a{display:block;font-size:clamp(38px,11.5vw,80px);color:#FDC43A}
 .lock .b{display:block;font-size:clamp(38px,11.5vw,80px);color:#F04625}
-.lock .x{position:absolute;left:-4%;right:-4%;top:38%;font-size:clamp(22px,6.4vw,42px);color:#fff;transform:rotate(-7deg) skewX(-10deg);text-shadow:0 3px 0 rgba(0,0,0,.4),0 8px 18px rgba(0,0,0,.5);white-space:nowrap}
+.lock .a.gap{margin-bottom:.16em}
+.lock .x{position:absolute;left:-4%;right:-4%;top:41%;font-size:clamp(17px,5.2vw,36px);color:#fff;transform:rotate(-4deg) skewX(-8deg);text-shadow:0 3px 0 rgba(0,0,0,.4),0 8px 18px rgba(0,0,0,.5);white-space:nowrap}
 .lock .s{display:block;font-size:clamp(30px,8.5vw,54px);color:#FDC43A;margin-bottom:2px}
 .sw{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:8px;margin-top:8px}
 .sw div{border-radius:12px;border:1px solid var(--line);overflow:hidden;background:var(--ink);font-size:12px}
@@ -702,12 +703,36 @@ function renderStyle(){
   <h2>How they go together</h2>
   <div class="card">${ok}
     <p class="gp">Kalyl's rule: "If you're not pairing your fonts, then what are you doing?" The big word is always Impact. One of the other two rides on it. Never all three at once.</p>
-    <div class="spec"><div class="lock"><span class="a fx-impact">Six companies</span><span class="b fx-impact">One truck</span><span class="x fx-brush">it doesn't move</span></div>
-      <small><b>Impact + the painted word.</b> Two stacked lines, yellow then red, white brush word across the middle at about 7 degrees. The default title.</small></div>
+    <div class="spec"><div class="lock"><span class="a gap fx-impact">Six companies</span><span class="b fx-impact">One truck</span><span class="x fx-brush">it doesn't move</span></div>
+      <small><b>Impact + the painted word.</b> Two stacked lines, yellow then red. The white painted word rides the gap between them, about half their height, so it never covers the big letters. The default title.</small></div>
     <div class="spec"><div class="lock"><span class="s fx-round">Stomper Customs</span><span class="a fx-impact">Partner</span><span class="b fx-impact">No. 6</span></div>
       <small><b>Impact + the classy line.</b> Round hand on top in yellow, Impact under it. For partners, names, places.</small></div>
-    <img class="sgimg" src="style/main-titles.jpg" alt="The two pairings on your own footage" loading="lazy">
+    <img class="sgimg" src="style/main-titles.jpg" alt="The two pairings on your own footage, tucked behind you" loading="lazy">
     <p class="gp" style="margin-top:8px">The same thing on your footage. Built into the editor as one title style, so every reel gets it the same way.</p>
+  </div>
+
+  <h2>How text is paired</h2>
+  <div class="card">${dr}
+    <p class="gp">You said: "You need to learn how to properly pair text so it looks good." These are the rules the editor now follows, taken from David Ho's and Kalyl's reels.</p>
+    <ul class="sgl">
+      <li><b>One loud, one quiet.</b> Impact is the loud one. The partner is never more than about half its height.</li>
+      <li><b>The partner never covers the big letters.</b> It sits in the gap between two lines, or in clear space above.</li>
+      <li><b>One centre line.</b> Every line of text is centred on the same line.</li>
+      <li><b>The difference is obvious.</b> Big against small, block against script. Nothing a little different.</li>
+      <li><b>Three colours, always the same:</b> yellow, red, white.</li>
+      <li><b>Same place every reel:</b> the top third.</li>
+    </ul>
+  </div>
+
+  <h2>If you are in the way</h2>
+  <div class="card">${ok}
+    <p class="gp">Your rule, Nov 23: "If my body is in the way of what you are going to post you need to put the title text behind me."</p>
+    <ul class="sgl">
+      <li><b>Title goes behind you.</b> If your head, hat, hands or body reach into the title, the big word is drawn behind you. Never on top of you.</li>
+      <li><b>It still has to read.</b> First and last letters stay clear of your head. If the word cannot be read behind you, it moves or goes on one line.</li>
+      <li><b>The small line stays in front</b> only when it sits in clear space.</li>
+      <li><b>Captions and beat words:</b> off your face, always.</li>
+    </ul>
   </div>
 
   <h2>Colours</h2>
