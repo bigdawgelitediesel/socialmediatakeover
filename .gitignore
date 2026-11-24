@@ -83,3 +83,7 @@ research/reel-references/2026-11-24-*/*.mp4
 research/reel-references/2026-11-24-DecIqEezxry/yt/
 research/reel-references/2026-11-24-DecIqEezxry/watch/
 research/reel-references/2026-11-24-DecIqEezxry/*.info.json
+
+# 2026-11-24 meme recreate: sources and lists stay local
+research/reel-references/2026-11-24-meme-recreate/src/
+research/reel-references/2026-11-24-meme-recreate/*.txt
