@@ -283,3 +283,9 @@ Jacob: "You need to study and watch this IG. Study the whole profile." Done: 50 
 - There are two dashboards: this repo's Vercel portal (`portal/index.html`) and the PIN-gated page at elcoyotediesel.com/dashboard in the F600-BUILD repo. The brain says he has called both "the El Coyote portal"; ask which one he means.
 - The brain's own rule: anything new saved to memory on the shop PC also lands in that Drive folder. A cloud session saves what it learns here, in this repo.
 
+## ElevenLabs, 2026-11-28 (Jacob: "I need you to understand elevenlabs in and out")
+
+- The ElevenLabs connector is attached to the cloud sessions and works: Creator plan, 121,000 credits a month, one Professional Voice Clone slot (unused), one Instant clone "Jake 2.0" (`oazMvPRk6xWkjdIIc2Hs`). The write-up from ElevenLabs' own docs is `research/2026-11-28-ELEVENLABS.md` (models, instant versus professional cloning, settings, prompting, credits, Meta's AI-label duty, the 17 questions Jacob answers first, the build order). The recording protocol and script for the professional clone are `playbook/14-voice-clone-recording-script.md`.
+- Standing until Jacob answers the questions: the clone reads his words only; the daily talking head stays his real voice; any reel that uses the clone gets Instagram's AI label and a caption line that says so (Meta: "realistic-sounding audio that was digitally created or altered" must be disclosed, "we may apply penalties"). The doctrine's "no clone" line was research, not his instruction, and his 11-28 ask supersedes it for voice-over, rescue of a failed take, scratch timing and Spanish dubs.
+- Network: elevenlabs.io, help.elevenlabs.io, about.fb.com and help.instagram.com were added to this repo's cloud environment on 11-28. The docs' `.md` endpoints (append `.md` to a docs URL) and curl through the proxy work; the WebFetch agent's DNS lagged and still failed, so fetch with curl.
+
