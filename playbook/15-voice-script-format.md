@@ -35,6 +35,16 @@ It writes `my-script.v4.txt` next to the script, prints the character count (one
 
 Or send me the plain script. I run the tool, generate two takes through the connector in this session, and you pick. It spends your credits either way; a one-minute reel is about 900.
 
+## 3b. The pace (Jacob, 2026-11-28: "I like the 1.20 speed")
+
+The instant clone talks slow because its sample talked slow, and Eleven v4 has no speed slider. Until the clone is rebuilt from a brisk sample, every finished take is sped up 20 percent with the pitch untouched:
+
+```
+python -I tools/vofit.py take.mp3 --out "Name - VO take 1 - 1.20x"
+```
+
+That also trims the ends and sets the loudness (-14 LUFS target, -1.5 dBTP). `--tempo 1.0` keeps the pace as generated, `--pauses 0.5` halves the pauses instead, `--cap 44` warns when a take runs over a cap. A 130-word script comes out near 40 seconds at 1.20x. When the clone is rebuilt from a sample at the right pace, the default goes back to 1.0.
+
 ## 4. Two rules that do not move
 
 - The clone reads your words. Never a line written for you.
@@ -75,5 +85,5 @@ What the tool hands to ElevenLabs (`gratitude.v4.txt`, 159 words, 918 characters
 - Too flat: lower Stability to 40 and generate again, or add one direction where the feeling turns. Not both.
 - Too much, over-acted: raise Stability to 60, take out a direction.
 - A word said wrong: a line in `data/voice/pronounce.tsv`, run the tool again.
-- Pace wrong: v4 has no speed slider. Shorter sentences and a (beat) slow it down; fewer commas speed it up. The professional clone fixes pace at the root, because it learns yours.
+- Pace wrong: v4 has no speed slider. The house fix is `vofit.py` at 1.20x (section 3b). Shorter sentences and a (beat) slow a line down; fewer commas speed it up. A clone rebuilt from a sample at your real pace fixes it at the root, instant or professional.
 - The voice itself is not you enough: that is the instant clone's ceiling. The professional clone is the answer (`playbook/14-voice-clone-recording-script.md`), and the script stays the same.

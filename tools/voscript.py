@@ -168,7 +168,7 @@ def convert(text: str, model: str = "v4") -> tuple[str, list[str], dict]:
         warnings.append("listen for these words, they are the ones a model misreads: " + ", ".join(untested) + " (add a line to data/voice/pronounce.tsv if one is wrong)")
     if re.search(r"\d", plain):
         warnings.append("digits are in the script; v4 reads them as written, so write them the way you say them if a take gets one wrong")
-    stats = {"words": words, "chars": chars, "credits": chars, "seconds": round(words / 160 * 60), "tags": tag_count, "pronounced": applied}
+    stats = {"words": words, "chars": chars, "credits": chars, "seconds": round(words / 160 * 60), "seconds_house": round(words / 160 * 60 / 1.2), "tags": tag_count, "pronounced": applied}
     return body, warnings, stats
 
 
@@ -187,7 +187,7 @@ def main() -> None:
     out = Path(a.out) if a.out else (Path("script") if a.script == "-" else Path(a.script)).with_suffix(f".{a.model}.txt")
     out.write_text(body + "\n", encoding="utf-8")
     print(f"wrote {out}")
-    print(f"{st['words']} words, {st['chars']} characters = about {st['credits']} credits, about {st['seconds']} s of speech, {st['tags']} directions")
+    print(f"{st['words']} words, {st['chars']} characters = about {st['credits']} credits, about {st['seconds']} s as generated, about {st['seconds_house']} s at the house 1.20x pace, {st['tags']} directions")
     if st["pronounced"]:
         print("pronunciation applied: " + "; ".join(st["pronounced"]))
     for w in warnings:
