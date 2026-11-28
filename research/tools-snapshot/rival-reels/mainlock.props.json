@@ -1,0 +1,9 @@
+{
+ "plate": "ml2-plate.mp4", "cutout": "ml2-cutout.webm", "muted": true, "captions": [],
+ "overlays": [
+  { "type": "mainlock", "at": 0, "dur": 1.8, "behind": true, "props": { "lines": [ { "text": "PARTNER NO. 6" } ], "script": "Stomper Customs", "part": "block", "y": 120, "size": 300 } },
+  { "type": "mainlock", "at": 0, "dur": 1.8, "props": { "lines": [ { "text": "PARTNER NO. 6" } ], "script": "Stomper Customs", "part": "partners", "y": 120, "size": 300 } },
+  { "type": "mainlock", "at": 1.8, "dur": 1.8, "behind": true, "props": { "lines": [ { "text": "SIX COMPANIES" }, { "text": "ONE TRUCK" } ], "cross": "it doesn't move", "part": "block", "y": 130 } },
+  { "type": "mainlock", "at": 1.8, "dur": 1.8, "props": { "lines": [ { "text": "SIX COMPANIES" }, { "text": "ONE TRUCK" } ], "cross": "it doesn't move", "part": "partners", "y": 130 } }
+ ]
+}

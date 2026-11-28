@@ -56,6 +56,7 @@ Sample scripts for Job C (his voice, to be re-said his way):
 - Promotion rule for Job A: the variant with the lower skip rate and higher sends per reach wins; ties go to the higher watch share.
 - Stop rule: if ten trials in a row sit under the main-feed median for sends per reach and the follower line does not move, drop to Job A only.
 - Unknown until tried: whether the Graph API can publish a trial (assume in-app only), and whether trial insights come back through `INSTAGRAM_GET_IG_MEDIA_INSIGHTS`.
+- 2026-11-24: the normal `INSTAGRAM_GET_IG_USER_MEDIA` pull returned seven reels posted the evening of 11-23 with `is_shared_to_feed: false` and full insights (views, reach, skip rate, watch time, shares). Add `is_shared_to_feed` to the fields. They look like trials (six versions of one clip plus one more); Jacob has not yet confirmed they were posted as trials, and nothing in the response says "trial".
 
 ## 7. First week (starts the day the toggle is confirmed)
 

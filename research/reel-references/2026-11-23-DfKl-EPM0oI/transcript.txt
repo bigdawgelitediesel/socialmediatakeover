@@ -1,0 +1,42 @@
+[00:00.0 -> 00:03.2] Everyone's gatekeeping cloud video editing behind a wait list or a paywall.
+[00:03.5 -> 00:06.6] So instead I'm just going to show you how to do the entire thing and edit your
+[00:06.6 -> 00:10.1] first video tonight. First, you're going to create a folder on your computer.
+[00:10.2 -> 00:13.5] I call my folder AI video editor. If you work with Claude,
+[00:13.5 -> 00:17.3] just go to the code tab. Make sure you open that folder on your computer.
+[00:17.7 -> 00:21.0] If you're in chat, you can use codex and do the same thing.
+[00:21.2 -> 00:24.3] Next Claude is going to need these tools to edit your videos.
+[00:24.6 -> 00:25.7] So we're going to use this prompt,
+[00:25.7 -> 00:30.3] which will then also add these four folders to keep your videos and that it's
+[00:30.3 -> 00:34.2] organized. Next we're going to set up a really clean workflow that makes every
+[00:34.2 -> 00:38.7] next step easier using this prompt. Next we're going to give it this prompt to
+[00:38.7 -> 00:43.1] make sure Claude or chat have a great foundation of motion design in your
+[00:43.1 -> 00:46.8] editing. Next we're going to create your signature look using this prompt
+[00:46.8 -> 00:51.0] and then uploading three or four of your own videos, your brand fonts,
+[00:51.2 -> 00:54.0] your colors, and we're going to save that into your signature style.
+[00:54.0 -> 00:57.4] Next you're going to film your video and they're going to drop it into the chat.
+[00:57.6 -> 01:00.2] You're going to start it by saying let's edit this reel.
+[01:00.5 -> 01:02.6] The first thing it's going to do is the rough cut,
+[01:02.7 -> 01:05.5] which is going to take out your bad takes and all the silences.
+[01:05.8 -> 01:08.4] And then it's going to present the video back to you.
+[01:08.5 -> 01:11.5] So make sure you listen to it with the sound on to make sure all the cuts
+[01:11.5 -> 01:13.8] are right on point. If you're good with the rough cut,
+[01:13.9 -> 01:15.9] now you're going to give it the creative direction.
+[01:16.1 -> 01:18.3] How do you want the story of the video to feel?
+[01:18.4 -> 01:22.1] You are the creative director using your signature style.
+[01:22.5 -> 01:25.7] Claude or chat is going to create a visual storyboard that you can review,
+[01:26.0 -> 01:29.4] make any tweaks or edits. Once you approve the visual storyboard,
+[01:29.6 -> 01:33.5] Claude or chat is going to build a 10 to 15 second opening that you can review
+[01:33.5 -> 01:35.8] and just make sure everything feels right.
+[01:36.0 -> 01:39.6] Once you approve that the entire video is going to be edited end to end
+[01:39.6 -> 01:42.6] following your storyboard. You can just review it.
+[01:42.7 -> 01:43.9] If you have any tweaks you need to make,
+[01:44.1 -> 01:47.6] just pass it the timestamp and say here at six seconds, make this tweak.
+[01:47.7 -> 01:50.3] You'll make the updates and then render it back out.
+[01:50.3 -> 01:54.6] Once you approve, just say I approve this and make this the finalized version.
+[01:55.0 -> 01:56.6] And now your video is ready to post.
+[01:56.7 -> 02:00.2] It'll be in your projects folder and then all of your feedback and adjustments
+[02:00.2 -> 02:03.2] and tweaks are going to go back into the learnings.
+[02:03.2 -> 02:06.5] So that way your video editor improves with your feedback.
+[02:06.7 -> 02:10.1] I've turned this whole thing into an entire guide that you can use tonight.
+[02:10.4 -> 02:13.8] So make sure you're following and comment guide and I'll send over the entire thing.
+[02:14.1 -> 02:14.3] Go build.

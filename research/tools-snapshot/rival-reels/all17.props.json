@@ -1,0 +1,608 @@
+{
+ "plate": "plate.mp4",
+ "cutout": "cutout.webm",
+ "muted": true,
+ "overlays": [
+  {
+   "type": "orbit",
+   "at": 0.0,
+   "dur": 1.8,
+   "props": {
+    "tiles": [
+     "cards/tile-1.png",
+     "cards/tile-2.png",
+     "cards/tile-3.png",
+     "cards/tile-4.png",
+     "cards/tile-5.png",
+     "cards/tile-6.png"
+    ],
+    "side": "back"
+   },
+   "behind": true
+  },
+  {
+   "type": "orbit",
+   "at": 0.0,
+   "dur": 1.8,
+   "props": {
+    "tiles": [
+     "cards/tile-1.png",
+     "cards/tile-2.png",
+     "cards/tile-3.png",
+     "cards/tile-4.png",
+     "cards/tile-5.png",
+     "cards/tile-6.png"
+    ],
+    "side": "front"
+   }
+  },
+  {
+   "type": "hud",
+   "at": 0.0,
+   "dur": 1.8,
+   "props": {
+    "count": 1,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 0.0,
+   "dur": 1.8,
+   "props": {
+    "text": "orbit",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "wall",
+   "at": 1.8,
+   "dur": 1.8,
+   "props": {
+    "tiles": [
+     "cards/tile-1.png",
+     "cards/tile-2.png",
+     "cards/tile-3.png",
+     "cards/tile-4.png",
+     "cards/tile-5.png",
+     "cards/tile-6.png",
+     "cards/tile-7.png",
+     "cards/tile-8.png"
+    ],
+    "layout": "grid",
+    "cols": 4,
+    "tileW": 240
+   },
+   "behind": true
+  },
+  {
+   "type": "hud",
+   "at": 1.8,
+   "dur": 1.8,
+   "props": {
+    "count": 2,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 1.8,
+   "dur": 1.8,
+   "props": {
+    "text": "couch wall",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "uiworld",
+   "at": 3.6,
+   "dur": 1.8,
+   "props": {
+    "text": "Edit my reel in my style",
+    "chips": [
+     "Raw clips",
+     "Captions"
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 3.6,
+   "dur": 1.8,
+   "props": {
+    "count": 3,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 3.6,
+   "dur": 1.8,
+   "props": {
+    "text": "ui world",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "framebreak",
+   "at": 5.4,
+   "dur": 1.8,
+   "props": {
+    "handle": "elcoyotediesel"
+   }
+  },
+  {
+   "type": "hud",
+   "at": 5.4,
+   "dur": 1.8,
+   "props": {
+    "count": 4,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 5.4,
+   "dur": 1.8,
+   "props": {
+    "text": "frame break",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "hudzoom",
+   "at": 7.2,
+   "dur": 1.8,
+   "props": {}
+  },
+  {
+   "type": "hud",
+   "at": 7.2,
+   "dur": 1.8,
+   "props": {
+    "count": 5,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 7.2,
+   "dur": 1.8,
+   "props": {
+    "text": "digital zoom",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "phone",
+   "at": 9.0,
+   "dur": 1.8,
+   "props": {
+    "src": "fx-after.mp4",
+    "x": 640,
+    "y": 420,
+    "w": 330
+   }
+  },
+  {
+   "type": "hud",
+   "at": 9.0,
+   "dur": 1.8,
+   "props": {
+    "count": 6,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 9.0,
+   "dur": 1.8,
+   "props": {
+    "text": "phone mockup",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "checklist",
+   "at": 10.8,
+   "dur": 1.8,
+   "props": {
+    "title": "THE PLAN",
+    "rows": [
+     {
+      "text": "Pull the cab",
+      "at": 4,
+      "doneAt": 14
+     },
+     {
+      "text": "Swap the frame",
+      "at": 10,
+      "doneAt": 24
+     },
+     {
+      "text": "Drop in the 7.3",
+      "at": 16,
+      "doneAt": 36
+     }
+    ],
+    "y": 330
+   }
+  },
+  {
+   "type": "hud",
+   "at": 10.8,
+   "dur": 1.8,
+   "props": {
+    "count": 7,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 10.8,
+   "dur": 1.8,
+   "props": {
+    "text": "checklist",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "headlinewall",
+   "at": 12.6,
+   "dur": 1.8,
+   "props": {
+    "notes": [
+     "Six companies back a truck that does not move",
+     "1959 F600 gets a 7.3",
+     "Road to SEMA 2027",
+     "Frame swap done in a weekend",
+     "Built in Cheyenne",
+     "550 horsepower target"
+    ]
+   },
+   "behind": true
+  },
+  {
+   "type": "hud",
+   "at": 12.6,
+   "dur": 1.8,
+   "props": {
+    "count": 8,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 12.6,
+   "dur": 1.8,
+   "props": {
+    "text": "headline wall",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "zoomthrough",
+   "at": 14.4,
+   "dur": 0.6,
+   "props": {
+    "cutAt": 5
+   }
+  },
+  {
+   "type": "hud",
+   "at": 14.4,
+   "dur": 1.8,
+   "props": {
+    "count": 9,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 14.4,
+   "dur": 1.8,
+   "props": {
+    "text": "zoom-through cut",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "chart",
+   "at": 16.2,
+   "dur": 1.8,
+   "props": {
+    "values": [
+     216,
+     470,
+     568,
+     584,
+     10000
+    ],
+    "labels": [
+     "SEP",
+     "NOV 3",
+     "NOV 16",
+     "NOW",
+     "GOAL"
+    ],
+    "label": "10K",
+    "y": 1100,
+    "h": 300
+   },
+   "behind": true
+  },
+  {
+   "type": "hud",
+   "at": 16.2,
+   "dur": 1.8,
+   "props": {
+    "count": 10,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 16.2,
+   "dur": 1.8,
+   "props": {
+    "text": "chart grow",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "pullback",
+   "at": 18.0,
+   "dur": 1.8,
+   "props": {
+    "title": "elcoyotediesel.com",
+    "rows": [
+     {
+      "text": "Frame swap",
+      "at": 8
+     },
+     {
+      "text": "7.3 teardown",
+      "at": 16
+     },
+     {
+      "text": "Fuel system",
+      "at": 24
+     }
+    ]
+   }
+  },
+  {
+   "type": "hud",
+   "at": 18.0,
+   "dur": 1.8,
+   "props": {
+    "count": 11,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 18.0,
+   "dur": 1.8,
+   "props": {
+    "text": "pull-back reveal",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "bgreplace",
+   "at": 19.8,
+   "dur": 1.8,
+   "props": {
+    "bg": "cards/f600.jpg",
+    "dim": 0.3
+   }
+  },
+  {
+   "type": "hud",
+   "at": 19.8,
+   "dur": 1.8,
+   "props": {
+    "count": 12,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 19.8,
+   "dur": 1.8,
+   "props": {
+    "text": "green screen",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "papercut",
+   "at": 21.6,
+   "dur": 1.8,
+   "props": {
+    "letters": "RIVAL"
+   }
+  },
+  {
+   "type": "hud",
+   "at": 21.6,
+   "dur": 1.8,
+   "props": {
+    "count": 13,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 21.6,
+   "dur": 1.8,
+   "props": {
+    "text": "paper cut",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "boil",
+   "at": 23.4,
+   "dur": 1.8,
+   "props": {}
+  },
+  {
+   "type": "hud",
+   "at": 23.4,
+   "dur": 1.8,
+   "props": {
+    "count": 14,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 23.4,
+   "dur": 1.8,
+   "props": {
+    "text": "doodle boil",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "vertigo",
+   "at": 25.2,
+   "dur": 1.8,
+   "props": {
+    "to": 1.35
+   }
+  },
+  {
+   "type": "hud",
+   "at": 25.2,
+   "dur": 1.8,
+   "props": {
+    "count": 15,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 25.2,
+   "dur": 1.8,
+   "props": {
+    "text": "vertigo",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "masthead",
+   "at": 27.0,
+   "dur": 1.8,
+   "props": {
+    "text": "RIVAL",
+    "y": 240,
+    "size": 320,
+    "lines": [
+     "ROAD TO SEMA 2027",
+     "CHEYENNE, WY"
+    ]
+   },
+   "behind": true
+  },
+  {
+   "type": "hud",
+   "at": 27.0,
+   "dur": 1.8,
+   "props": {
+    "count": 16,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 27.0,
+   "dur": 1.8,
+   "props": {
+    "text": "cover story",
+    "y": 1400,
+    "size": 84
+   }
+  },
+  {
+   "type": "glass",
+   "at": 28.8,
+   "dur": 1.8,
+   "props": {
+    "text": "RIVAL",
+    "y": 300
+   }
+  },
+  {
+   "type": "hud",
+   "at": 28.8,
+   "dur": 1.8,
+   "props": {
+    "count": 17,
+    "total": 17,
+    "y": 1540,
+    "handle": ""
+   }
+  },
+  {
+   "type": "blurword",
+   "at": 28.8,
+   "dur": 1.8,
+   "props": {
+    "text": "glass type",
+    "y": 1400,
+    "size": 84
+   }
+  }
+ ],
+ "captions": []
+}

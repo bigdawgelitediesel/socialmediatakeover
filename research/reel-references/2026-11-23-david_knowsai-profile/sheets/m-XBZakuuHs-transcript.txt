@@ -1,0 +1,20 @@
+[00:00.0 -> 00:03.1] Here are five skills that turn Claude into your video editor.
+[00:03.4 -> 00:04.7] Number one is Ghost Editor.
+[00:05.2 -> 00:07.8] Just upload your raw talking head footage and it picks the best takes,
+[00:08.0 -> 00:11.1] adds captions that stay off your face, and puts in graphics and sound effects.
+[00:11.5 -> 00:13.1] Number two is FFmpeg Skill.
+[00:13.5 -> 00:16.1] This gives Claude 42 tools to cut pauses, add subtitles,
+[00:16.5 -> 00:18.8] turn your footage into vertical videos and balance the audio,
+[00:19.0 -> 00:21.2] and it all runs locally on your computer for free.
+[00:21.4 -> 00:23.9] Number three is Higgsfield's Editorial Motion Graphics Skill.
+[00:24.2 -> 00:26.0] Connect Higgsfield to Claude, tell it your topic,
+[00:26.2 -> 00:28.9] and it builds an animated explainer with scenes, voiceover and subtitles.
+[00:28.9 -> 00:32.1] So you can turn an idea into a finished video just by describing it.
+[00:32.5 -> 00:33.9] Number four is Claude Shorts.
+[00:34.2 -> 00:36.8] Drop in a long video and Claude finds the strongest moments
+[00:36.8 -> 00:38.7] and turns them into short clips with captions.
+[00:39.1 -> 00:41.0] And number five is Open Montage.
+[00:41.2 -> 00:44.7] Give it a reel you like and it breaks down the hook, the pacing and the editing.
+[00:45.0 -> 00:47.9] Then it uses that structure to build a video around your own topic.
+[00:48.1 -> 00:50.4] So if you want the links and setup instructions for all five,
+[00:50.7 -> 00:53.4] just follow me and comment edit and I'll send them over.

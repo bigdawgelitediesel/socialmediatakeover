@@ -41,6 +41,11 @@ const F_COYOTE = {
   uiSemi: "Poppins SemiBold",
   serif: "Instrument Serif",
   heavy: "Archivo Black",
+  // Jacob's main fonts, picked 2026-11-23 from @kalylsfilms DcBwAjvoEqI:
+  // Impact (exact), Snell Roundhand (stand-in Pinyon Script), Rocktown (stand-in Permanent Marker)
+  impact: "Impact",
+  round: "Pinyon Script",
+  brush: "Permanent Marker",
 };
 const F_DFC = {
   block: "Oswald Bold",
@@ -51,6 +56,9 @@ const F_DFC = {
   uiSemi: "Montserrat SemiBold",
   serif: "Instrument Serif",
   heavy: "Montserrat ExtraBold",
+  impact: "Oswald Bold",
+  round: "Instrument Serif",
+  brush: "Instrument Serif",
 };
 export const F = BRAND === "dfc" ? F_DFC : F_COYOTE;
 
@@ -69,6 +77,9 @@ export const loadBrandFonts = async () => {
     loadFont({ family: "Poppins SemiBold", url: staticFile("fonts/Poppins-SemiBold.ttf") }),
     loadFont({ family: "Instrument Serif", url: staticFile("fonts/InstrumentSerif-Italic.ttf") }),
     loadFont({ family: "Archivo Black", url: staticFile("fonts/ArchivoBlack-Regular.ttf") }),
+    loadFont({ family: "Impact", url: staticFile("fonts/impact.ttf") }),
+    loadFont({ family: "Pinyon Script", url: staticFile("fonts/PinyonScript-Regular.ttf") }),
+    loadFont({ family: "Permanent Marker", url: staticFile("fonts/PermanentMarker-Regular.ttf") }),
     loadFont({ family: "Oswald Bold", url: staticFile("fonts/Oswald-Bold.ttf") }),
     loadFont({ family: "Oswald Medium", url: staticFile("fonts/Oswald-Medium.ttf") }),
     loadFont({ family: "Montserrat SemiBold", url: staticFile("fonts/Montserrat-SemiBold.ttf") }),

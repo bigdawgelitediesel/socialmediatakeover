@@ -1,0 +1,16 @@
+[00:00.0 -> 00:03.0] What happens when you ask Claude to make your Wi-Fi 10 times faster?
+[00:03.3 -> 00:06.5] I tried this and my speed literally doubled in less than 10 minutes.
+[00:06.8 -> 00:07.7] So here's how to set it up.
+[00:07.8 -> 00:12.5] Open Claude, choose code and say connect to my router and find everything that's slowing my Wi-Fi down.
+[00:12.8 -> 00:16.2] Claude will find your router and you just enter the password from the sticker on the back.
+[00:16.4 -> 00:19.6] Then it runs a speed test, checks which apps are using your internet in the background
+[00:19.6 -> 00:22.6] and looks at whether your neighbor's Wi-Fi is interfering with yours.
+[00:23.0 -> 00:24.1] Mine found 23 fixes.
+[00:24.5 -> 00:27.8] I just said yes and after it made the changes it ran another speed test.
+[00:28.1 -> 00:29.6] The result was twice as fast.
+[00:29.6 -> 00:31.4] And here's the trick to protect your privacy.
+[00:31.8 -> 00:35.9] Say now show me every device connected to my Wi-Fi and flag anything you don't recognize.
+[00:36.2 -> 00:38.8] Claude found two devices on my network that weren't mine.
+[00:39.1 -> 00:42.0] Just select the devices you recognize and Claude can block the others.
+[00:42.5 -> 00:44.0] Want the full setup and exact prompts?
+[00:44.3 -> 00:46.8] Follow me and comment speed and I'll send you the guide.

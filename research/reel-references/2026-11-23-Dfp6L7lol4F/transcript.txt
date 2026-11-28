@@ -1,0 +1,6 @@
+[00:00.0 -> 00:04.6] High-key, low-key, Rembrandt, Butterfly, Splitlight, Looplight, Broadlight, Shortlight,
+[00:04.8 -> 00:09.6] Kaviskiro, Silhouette, Rimlight, Hardlight, Softlight, Bouncelight, Toplight, Underlight,
+[00:09.8 -> 00:14.5] Golden Hour, Blue Hour, Day for Night, Moonlight, Windowlight, Practicallight, Firelight, Venetian
+[00:14.5 -> 00:18.2] Blinds, Dappled Light, Volumetric Light, Flatlight, Neon Light, Teal and Orange,
+[00:18.3 -> 00:21.7] Monochrome Red, Screen Glow, Passing Light, Strobe Light, Theatrical Light.
+[00:21.7 -> 00:23.6] Comment lights for a full guide with prompts.

@@ -1,0 +1,19 @@
+[00:00.0 -> 00:02.9] This is how you turn Claude into a social media machine.
+[00:03.3 -> 00:08.1] First, grab the transcripts and screenshots from a few videos you like and upload them to Claude.
+[00:08.3 -> 00:11.8] Then say, break down each video's hook, storytelling structure, and visuals.
+[00:12.2 -> 00:15.3] Find the patterns they have in common and give me three video ideas for my product.
+[00:15.7 -> 00:18.7] Now you've got specific hooks and ideas based on your references
+[00:18.7 -> 00:21.0] instead of another generic content plan.
+[00:21.3 -> 00:21.9] And here's the trick.
+[00:22.2 -> 00:26.0] You can use Higgs Field to turn those ideas into actual videos inside Claude.
+[00:26.0 -> 00:30.9] Connect Higgs Field, type slash katana, and upload your own reference edit alongside photos of your product.
+[00:31.3 -> 00:33.6] Then say, recreate this edit with my product.
+[00:34.0 -> 00:37.0] Use the hook we chose and follow the references pacing and shot structure.
+[00:37.4 -> 00:39.6] Keep my packaging, colors, and label consistent.
+[00:39.9 -> 00:45.2] Higgs Field uses your reference to guide the edit and your photos to put your product into the shots.
+[00:45.5 -> 00:46.3] Want to change something?
+[00:46.7 -> 00:47.9] Stay in the same chat and say,
+[00:48.3 -> 00:50.9] make the opening faster and hold the product close up longer.
+[00:51.2 -> 00:53.1] Want the full workflow and exact prompts?
+[00:53.5 -> 00:55.2] Follow me and comment content.
+[00:55.2 -> 00:56.4] And I'll send you the guide.

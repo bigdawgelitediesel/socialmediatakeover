@@ -1,0 +1,10 @@
+[00:00.0 -> 00:06.0] These four github repos have over 158,000 stars combined, and they give Claude or Codex the
+[00:06.0 -> 00:11.1] workflows that you need to edit your videos for free. First is the Herc edit kit. Start here if
+[00:11.1 -> 00:15.1] you're filming talking head videos, or if you want help cutting pauses, reviewing mistakes,
+[00:15.4 -> 00:19.3] or adding captions and building visuals. And second is open film. Pick this one if you
+[00:19.3 -> 00:23.1] want AI to assemble the edit with a visual timeline where you can make changes yourself.
+[00:23.3 -> 00:27.6] Third is open montage. This one has broader production workflows, including turning longer
+[00:27.6 -> 00:32.2] recordings into short clips. And fourth is hyperframes. This handles custom animations,
+[00:32.5 -> 00:36.8] titles, and motion graphics, and it's already used by kids like Herc. For talking head videos,
+[00:37.0 -> 00:40.9] I'd start with Herc. And if you want a visual timeline, look at open film. And if you comment
+[00:40.9 -> 00:42.8] four down below, I will send you all four.
