@@ -90,7 +90,7 @@ def load_pron() -> list[tuple[str, str, str]]:
 
 def convert(text: str, model: str = "v4") -> tuple[str, list[str], dict]:
     warnings: list[str] = []
-    text = text.replace("\r\n", "\n").replace(",", ", ").replace(",", ", ").replace("…", "...")
+    text = text.replace("\r\n", "\n").replace("\u2014", ", ").replace("\u2013", ", ").replace("\u2026", "...")
     text = re.sub(r" ,", ",", text)
     paras = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
     out_paras: list[str] = []
