@@ -39,7 +39,7 @@ For the Professional Voice Clone in `research/2026-11-28-ELEVENLABS.md`. Two par
 
 ## Part 2. The script
 
-Two passes. Pass one at your normal reel energy. Pass two the same words, a notch more awake, still you, still talking to one person. Each passage is one take. About 2,500 words a pass, roughly 17 minutes at your pace, so the two passes are about 35 minutes; with the cab takes on top that clears an hour.
+Two passes. Pass one at your normal reel energy. Pass two the same words, a notch more awake, still you, still talking to one person. Each passage is one take. About 1,850 words a pass plus the three minutes of free talk, roughly 15 minutes at your pace, so the two passes are about 30 minutes; with the cab takes on top that clears an hour.
 
 ### Slate (cut before upload)
 
@@ -125,4 +125,4 @@ Read passages 1 through 13 again, a notch more energy, same seat, same mic. Skip
 
 ## What this gets you
 
-With about 45 minutes of cab takes plus two passes of this script, the set is 75 to 80 minutes of one voice, one mic, one room, one style, with every brand name, number and recurring line the reels use. That is inside ElevenLabs' best range and far past their minimum. If the cab takes are fewer, read the script a third time the next day at the same hour.
+With about 45 minutes of cab takes plus two passes of this script, the set is about 75 minutes of one voice, one mic, one room, one style, with every brand name, number and recurring line the reels use. That is past ElevenLabs' minimum and on the way to their best range. If the cab takes are fewer, read the script a third time the next day at the same hour, and add another three minutes of free talk each time.
