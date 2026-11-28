@@ -92,6 +92,7 @@ def convert(text: str, model: str = "v4") -> tuple[str, list[str], dict]:
     warnings: list[str] = []
     text = text.replace("\r\n", "\n").replace("\u2014", ", ").replace("\u2013", ", ").replace("\u2026", "...")
     text = re.sub(r" ,", ",", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
     paras = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
     out_paras: list[str] = []
     tag_count = 0
